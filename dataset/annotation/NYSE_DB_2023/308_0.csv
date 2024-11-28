@@ -1,0 +1,28 @@
+"in€m. (unless stated otherwise);Assets;Fair value Liabilities;_ Valuation technique(s);Significant unobservable input(s) (Level 3);Range
+Financial instruments held at fair value:;;;;
+Market values from derivative;;;;
+financial instruments:;;;;
+Interest rate derivatives;6,360;4,546;Discounted cash flow;Swap rate (bps);(1,748);1,301
+; ; ; ;Inflation swap rate;(1)%;14%
+; ; ; ;Constant default rate;0%;15%
+; ; ; ;Constant prepayment rate;0%;19%
+; ;Option pricing model;Inflation volatility;1%;6%
+; ; ; ;Interest rate volatility;0%;43%
+; ; ; ;R - IR correlation;(1)%;99%
+; ; ; ;Hybrid correlation;(90)%;90%
+Credit derivatives;577;517;Discounted cash flow;Credit spread (bps);1;4,885
+; ; ; ;Recovery rate;0%;40%
+; ;Correlation pricing; ; ; 
+; ;model;Credit correlation;25%;69%
+Equity derivatives;452;1,155;Option pricing model;Stock volatility;0%;75%
+; ; ; ;Index volatility;13%;30%
+; ; ; ;Index - index correlation;88%;96%
+; ; ; ;Stock - stock correlation;0%;0%
+; ; ; ;Stock Forwards;1%;11%
+; ; ; ;Index Forwards;0%;6%
+FX derivatives;1,646;1,976;Option pricing model;_- Volatility;(12)%;48%
+; ; ; ;Quoted Vol;0%;0%
+; ;Discounted cash flow;Swap rate (bps);(6);46
+Other derivatives;534;(205)!;Discounted cash flow;Credit spread (bps);0;0
+; ; ; ;Option pricing model;Index volatility;0%;91%
+; ; ; ;Commodity correlation;0%;85%"

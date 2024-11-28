@@ -1,0 +1,21 @@
+";Presented in the statement of financial position as;Carrying amount;Fair value;Level1;Level2;Level3;Carrying amount;Fair value;Level1;Level2;Level3
+;FINANCIAL ASSETS;;;;;;;;
+;Measured at fair value;;;;;;;;
+Equity instruments;Other financial assets;253;253;15;—;238;222;222;16;—;206
+Hedge derivatives;Other financial assets;25;25;—;25;—;58;58;—;58;—
+Derivatives for which hedge accounting is not applied;Other financial assets;29;29;—;29;—;48;48;—;48;—
+;Measured at amortized cost;;;;;;;;
+Cash and cash equivalents?;Cash and cash equivalents;573;573;;;;504;504;;;
+Loans and receivables*;Trade receivables and other;523;523;;;;529;529;;;
+Total;financial assets;1,403;1,403;15;55;238;1,361;1,361;16;106;206
+;FINANCIAL LIABILITIES;;;;;;;;
+;Measured at fair value;;;;;;;;
+Liabilities from put options;Other financial liabilities;24;24;—;—;24;49;49;—;—;49
+Hedge derivatives;Other financial liabilities;6;6;—;6;—;0;0;—;0;—
+Derivatives for which hedge accounting is not applied;Other financial liabilities;11;11;—;11;—;17;17;—;17;—
+;Measured at amortized cost;;;;;;;;
+Term loan and other borrowings;Financial debt;1,195;1,251;—;1,251;—;1,194;1,196;—;1,196;—
+Promissory notes;Financial debt;924;879;—;879;—;923;837;—;837;—
+Real estate financing;Other financial liabilities;167;169;—;169;—;133;134;—;134;—
+Other financial liabilities at (amortized) cost?;Trade and other payables and other financial liabilities;975;975;;;;1,017;1,017;;;
+Total;;3,303;3,316;—;2,316;24;3,333;3,250;—;2,184;49"

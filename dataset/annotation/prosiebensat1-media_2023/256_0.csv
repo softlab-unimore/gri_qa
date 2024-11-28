@@ -1,0 +1,9 @@
+";Year of maturity 2024;2025-2028;from 2029;Nominal 12/31/2023;amount Average hedged 12/31/2022;12/31/2023;interest rate 12/31/2022;Fair value -——-:12/31/2023_——12/31/2022
+;in EURMm;in EURMm;in EURMm;in EURM;in EURM;in%;in%;in EURMm;in EURM
+Interest rate swaps?;=;500;=;500;1,000;1.50;0.54;15;3
+thereof designated as cash flow;=;=;=;=;1,000;=;0.54;—;3
+hedges;;;;;;;;
+Interest rate collars;—;300;—;300;na.;1.95 - 4.35;na.;0;=
+thereof designated as;;;;;;;;
+cash flow hedges;=;300;=;300;na.;1.95 - 4.35;na.;0;=
+Interest rate caps? thereof designated as cash flow hedges;=;400;=;400;700;2.64;1.50;10;48"

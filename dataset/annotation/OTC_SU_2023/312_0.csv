@@ -1,0 +1,18 @@
+GRI;Indicators;Units;2023;2022;2021;2020
+305-4;Total Scope 3 per euro turnover!;TCO,e/ million €;1581;1779;2378;2614
+305-3;Other relevant indirect (Scope 3 upstream) GHG emissions;TCO,e;7766994;8613192;8237192;6966062
+305-3;1. Purchased goods and services;TCO,e;6829733;7572974;7278733;6137388
+305-3;2. Capital goods;TCO,e;55361;57986;62876;63863
+305-3;3. Fuel- and energy-related activities (not included in Scope 1 or Scope 2);TCO,e;40652;43544;53167;55151
+305-3;4. Transportation of goods paid by the Group;TCO,e;563643;670840;616519;497761
+305-3;5. Waste generated in operations;TCO,e;34927;37415;42760;31872
+305-3;6. Business travel;TCO,e;60702;56501;30778;33304
+305-3;7. Employee commuting;TCO,e;181977;173932;152359;146723
+305-3;Other relevant indirect (Scope 3 downstream) GHG emissions;TCO,e;49010970;52175356;60500294;58804659
+305-3;9. Transportation of goods not paid by the Group;TCO,e;481039;427872;485877;371159
+305-3;11. Use of sold products?;TCO,e;44223749;47281888;55338592;54103061
+305-3;12. End-of-life treatment of sold products;TCO,e;4306182;4465596;4675824;4330439
+305-3;SSE #1 — Number of Zero-CO2 sites;#;101;77;51;30
+305-3;Saved GHG emissions thanks to sold products and services;TCO,e;52434385;51325544;49708425;46964497
+305-3;Avoided GHG emissions thanks to sold products and services;TCO,e;60163742;41674416;33930803;28605883
+305-3;SSI #2 — Cumulative CO2 saved and avoided thanks to sold products and services since;TCO,e;552559056;439960929;346960969;263321741

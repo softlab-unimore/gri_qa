@@ -1,0 +1,17 @@
+"; ; ; IFRS 9/ IFRS 17 _; ; ; TOTAL LIABILITIES as at 31.12.2022 (e) = (a) + (a) POST IFRS9 and IFRS17 FTA Classification and measurement; transition to IFRS 9 (f) Impairment; TOTAL LIABILITIES as at 01.01.2023 (g) = (e) + (f)
+; ; ; Effect as at 1.1.2022 (b); Effect during; Total effect
+; ; TOTAL LIABILITIES as at 31.12.2022 {a) POST IFRS 9 and IFRS 17 FTA RECLASSIFICATIONS; 2022 (c); 31.12.2022 (d) = (b)+(c)
+10.; Financial liabilities measured at amortised cost; 670,140; -; 3; ; 670,127; -; 670,127
+20.; Financial liabilities held for trading; 46,512; ; ; ; 46,512; -; 46,512
+30.; Financial liabilities designated at fair value; 63,009; 4; 4; ; 63,007; -; 63,007
+40.; Hedging derivatives; 5,517; ; ; ; 5,517; -; 5,517
+50.; Fair value change of financial liabilities in hedged portfolios (+/-); ; ; ; ; -8,031; ; ;
+50.; Tax liabilities,; ; -268; 0-17; ; 2,021; ; ;
+70.; Liabilities associated with non-current assets held for _ sale and discontinued operations; ; ; ; ; 15; ; ;
+30.; Other liabilities; 10,966; ; 101-102; ; 10,763; ; ;
+20.; Employee termination indemnities; 852; ; ; ; 852; ; ;
+100.; Allowances for risks and charges; 4,960; ; ; ; 4,960; -; 4,960
+110.; Insurance liabilities; 117,616; ; 600-641; ; 117,575; -; 117,575
+TOTAL; LIABILITIES; 913,862; ; 2300-774; ; 913,318; -; 913,318
+TOTAL; SHAREHOLDERS' EQUITY; 61,821; 985; 433; -552; 61,269; -; 61,269
+TOTAL; LIABILITIES AND SHAREHOLDERS' EQUITY; 975,683; ; “755-344; -1,096; 974,587; -; 974,587"

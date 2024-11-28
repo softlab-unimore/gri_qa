@@ -1,0 +1,8 @@
+"; ;Gross Carrying Amount?; ; ;Stage 3; ; ; ;Allowance for Credit Losses; ; ;Stage 3; ;
+; ;Stage 1;Stage 2;Stage 3;POCI;Total;Stage 1;Stage 2;Stage 3;POCI;Total
+Corporate Bank;105,812;13,706;2,812;QO;(122,329;67;110;876;0;1,053
+Investment Bank;150,562;13,309;3,127;806;167,804;119;108;536;198;962
+Private Bank;233,744;26,815;6,400;0;266,960;249;445;2,497;0;3,191
+Asset Management;1,861;49;0;0;1,910;0;0;0;0;0
+Corporate &amp; Other Total;196,363;1,359;255;0;197,978;14;5;35;0;54
+;686,421;55,704;12,799;806;= =755,731;447;680;3,960;198;5,285"

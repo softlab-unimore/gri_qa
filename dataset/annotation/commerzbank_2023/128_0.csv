@@ -1,0 +1,18 @@
+";Based on the Turnover KPI Breakdown by sector - NACE 4 digits level (code and label)” ;TOTAL (CCM + CCA) ;SMEs Non-Financial corporates (Subject to NFRD) [Gross] carrying amount ;and other NFC not subject to NFRD ;[Gross] carrying ;amount
+; n€ ;Of which sustainable (CCM + CCA WTR +CE + PPC + ;environmentally + BIO) ; ;Of which environmentally sustainable (CCM + CCA + WTR + CE + PPC + BIO)
+56 ;24.42 Aluminium production ;0.6 ; ; ; ; 
+57 ;24.44 Copper production ; ; ; ; ; 
+58 ;24.45 Other non-ferrous metal production ;3.6 ;3.6 ; ; ; 
+59 ;24.53 Casting of light metals ; ; ; ; ; 
+ ;25.11 Manufacture of metal structures and parts of ;20.1 ; ; ; ; 
+60 ;25.12 Manufacture of doors and windows of metal ; ; ; ; ; 
+61 ;25.50 Forging, pressing, stamping and roll-forming of metal; powder metallurgy ;1.2 ; ; ; ; 
+63 ;25.61 Treatment and coating of metals ;0.7 ; ; ; ; 
+64 ;25.71 Manufacture of cutlery ; ; ; ; ; 
+65 ;25.73 Manufacture of tools ;0.1 ; ; ; ; 
+66 ;25.99 Manufacture of other fabricated metal products n.e.c. ;0.4 ; ; ; ; 
+67 ;26.11 Manufacture of electronic components ;202.6 ; ; ; ; 
+68 ;26.20 Manufacture of computers and peripheral equipment ;9.4 ; ; ; ; 
+69 ;26.30 Manufacture of communication equipment ; ; ; ; ; 
+70 ;26.51 Manufacture of instruments and appliances for measuring, testing and navigation ;1.5 ;0.0 ; ; ; 
+71 ;26.70 Manufacture of optical instruments and photographic equipment ;1.2 ;1.2 ; ; ;"

@@ -1,0 +1,29 @@
+"; ; a; b; c; d; e; f; g; h
+; Based on the Turnover KPI Breakdown by sector - NACE 4 digits level label) ; Climate Change Mitigation (CCM); Climate Change Adaptation (CCA); 
+; Non-Financial corporates (Subject to NFRD); SMEs and other NFC not subject to NFRD; Non-Financial corporates (Subject to NFRD); SMEs and other NFC not subject to NFRD; 
+; [Gross] carrying million €; amount Of which environ- mentally; [Gross] carrying million €; amount Of which environ- mentally; [Gross] carrying million €; amount Of which environ- mentally; [Gross] carrying million €; amount Of which environ- 
+; 46.45 Wholesale of; ; sustainable (ccm); ; sustainable (ccm); ; sustainable (CCA); ; sustainable (CCA);
+135 136; perfume and cosmetics; 0.7; x; x; ; x; x; 
+; 46.46 Wholesale of; ; ; ; ; ; ; ; 
+; pharmaceutical goods; ; ; x; x; ; ; x; x; 
+; 46.49 Wholesale of other; ; ; ; ; ; ; ; 
+137 138; household goods; 0.7; ; x; x; ; x; x; 
+; 46.69 Wholesale of other machinery and equipment; 4.7; ; x; x; ; x; x; 
+139; 46.71 Wholesale of solid,; ; ; ; ; ; ; ; 
+; liquid and gaseous fuels; ; ; ; ; ; ; ; 
+; and related products; 0.5; ; x; x; ; x; x; 
+140; 46.72 Wholesale of metals; ; ; ; ; ; ; ; 
+; and metal ores; 0.2; ; x; x; ; x; x; 
+; 46.73 Wholesale of wood, construction materials and; ; ; ; ; ; ; ; 
+; sanitary equipment; 1.9; ; x; x; ; x; x; 
+; 46.74 Wholesale of hardware, plumbing and; ; ; ; ; ; ; ; 
+; heating equipment and; ; ; ; ; ; ; ; 
+142; supplies; 0.8; ; x; x; ; x; x; 
+143; 46.75 Wholesale of; ; ; ; ; ; ; ; 
+; chemical products; 0.6; ; x; x; ; x; x; 
+; 46.76 Wholesale of other; ; ; ; ; ; ; ; 
+144; intermediate products; ; ; x; x; ; x; x; 
+145 146; 46.77 wholesale of waste; 0.0; ; x; x; ; x; x; 
+; and scrap; ; ; ; ; ; ; ; 
+; 46.90 Non-specialised wholesale trade; 1.5; ; x; x; ; x; x; 
+147; 47.11 Retail sale in non- specialised stores with; food, beverages or; tobacco predominating; 0.1; 0.0; x; x; ; x; x;"

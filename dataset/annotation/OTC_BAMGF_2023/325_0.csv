@@ -1,0 +1,19 @@
+Model;Fuel consumption in /100km (combined/weighted combined) max/min;CO, emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min;Electric range (combined/weighted combined);Fuel consumption in /100km (combined/weighted combined) max/min;CO, emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min
+BMW; ; ; ; ; ; ; 
+BMW M3 CS;10.4 - 10.1;234 - 229; -; -; -; -; -
+BMW i4 eDrive35; -; -;18.7 - 15.8;406 - 483; -; -; -
+BMW i4 eDrive40; -; -;19.1 - 16.1;492 - 590; -; -; -
+BMW i4 M50; -; -;22.5 - 18.0;415 - 520; -; -; -
+BMW i5 eDrive4d; -; -;18.9 - 15.9;497 - 582; -; -; -
+BMW iS eDrive40 Touring; -; -;19.3 - 16.5;483 - 560; -; -; -
+BMW iS M60 xDrive; -; -;20.5 - 18.2;457 - 516; -; -; -
+BMW i5 M60 xDrive Touring; -; -;20.8 - 18.3;445 - 506; -; -; -
+BMW 530e;0.8 - 0.6;17 - 13;21.7 - 19.9;93 - 103; -; -; -
+BMW 530e xDrive;1.0 - 0.8;23 - 19;23.2 - 21.6;83 - 90; -; -; -
+BMW X5 xDrive 50e;1.1 - 0.8;26 - 18;27.0 - 22.9;94 - 110; -; -; -
+BMW i7 xDriveSO; -; -;20.3 - 19.1;575 - 611; -; -; -
+BMW i7 xDrive60; -; -;19.6 - 18.5;589 - 624; -; -; -
+BMW i7 M70 xDrive; -; -;23.7 - 20.8;490 - 559; -; -; -
+BMW iX xDrive40; -; -;21.4 - 19.4;403 - 435; -; -; -
+BMW iX xDrive50; -; -;21.3 - 19.5;587 - 633; -; -; -
+BMW iX M60;-;-;24.7 - 21.9;501 – 564;-;-;-

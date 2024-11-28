@@ -1,0 +1,21 @@
+";Based on the CapEx KPI Breakdown by sector - NACE 4 digits level (code and label);
+;TOTAL (CCM + CCA);
+;Non-Financial corporates (Subject to NFRD) [Gross] carrying amount;Of which environmentally sustainable (CCM + CCA + WTR + CE + PPC + BIO);SMEs and other NFC not subject to NFRD [Gross] carrying amount;Of which environmentally sustainable (CCM + CCA + WTR + CE + PPC + BIO);
+137;46.49 Wholesale of other household goods;1.6;x;x;
+138;46.69 Wholesale of other machinery and equipment;4.6;x;x;
+139;46.71 Wholesale of solid, liquid and gaseous fuels and related products;5.4;x;x;
+140;46.72 Wholesale of metals and metal ores;0.2;x;x;
+141;46.73 Wholesale of wood, construction materials and sanitary equipment;1.9;x;x;
+142;46.74 Wholesale of hardware, plumbing and heating equipment and supplies;0.8;x;x;
+143;46.75 Wholesale of chemical products;2.5;x;x;
+144;46.76 Wholesale of other intermediate products;;x;x;
+145;46.77 Wholesale of waste and scrap;0.0;x;x;
+146;46.90 Non-specialised wholesale trade;1.5;0.0;x;x;
+147;47.11 Retail sale in non-specialised stores with food, beverages or tobacco predominating;14.1;0.5;x;x;
+148;47.19 Other retail sale in non-specialised stores;0.2;x;x;
+149;47.22 Retail sale of meat and meat products in specialised stores;1.7;x;x;
+150;47.29 Other retail sale of food in specialised stores;11.6;x;x;
+151;47.30 Retail sale of automotive fuel in specialised stores;1.2;x;x;
+152;47.43 Retail sale of audio and video equipment in specialised stores;0.5;x;x;
+153;47.51 Retail sale of textiles in specialised stores;1.1;x;x;
+154;47.52 Retail sale of hardware, paints and glass in specialised stores;3.5;x;x;"

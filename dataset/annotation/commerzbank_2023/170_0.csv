@@ -1,0 +1,37 @@
+";Based on the CapEx KPI % (compared to total covered assets in the denominator);
+;TOTAL (CCM + CCA) Proportion of total covered assets funding taxonomy relevant sectors (Taxonomy-eligible);
+;Proportion of total covered assets funding taxonomy relevant sectors (Taxonomy-aligned);
+;Of which Use of Proceeds;Of which transitional;Of which enabling;Proportion of total assets covered
+;GAR - Covered assets in both numerator and denominator;x;x;x;x;x;x
+1;Loans and advances, debt securities and equity instruments not HfT eligible for GAR calculation;;;;
+2;Financial undertakings;;;;
+3;Credit institutions;;;;
+4;Loans and advances;;;;
+5;Debt securities, including UoP;;;;
+6;Equity instruments;x;;;;;
+7;Other financial corporations;;;;
+8;of which investment firms;;;;
+9;Loans and advances;;;;
+10;Debt securities, including UoP;;;;
+11;Equity instruments;x;;;;;
+12;of which management companies;;;;
+13;Loans and advances;;;;
+14;Debt securities, including UoP;;;;
+15;Equity instruments;x;;;;;
+16;of which insurance undertakings;;;;
+17;Loans and advances;;;;
+18;Debt securities, including UoP;;;;
+19;Equity instruments;x;;;;;
+20;Non-financial undertakings;;;;
+21;Loans and advances;;;;
+22;Debt securities, including UoP;;;;
+23;Equity instruments;x;;;;;
+24;Households;;;;
+25;of which loans collateralised by residential immovable property;;;;
+26;of which building renovation loans;;;;
+27;of which motor vehicle loans;;;;
+28;local governments financing;;;;
+29;housing financing;;;;
+30;other local government financing;;;;
+31;collateral obtained by taking possession: residential and commercial immovable properties;;;;
+32;total GAR assets;;;;"

@@ -1,0 +1,22 @@
+"Economic activities;2023;keuro;%;(SB) Y/N;Substantial contribution;DNSH “(do no significant harm)” criteria;YN;YN;YN;YN;YN;YN;YN;YN;YN;YN;YN;YN;YN;YN;YN;YN
+A.1 Environmentally sustainable activities (Taxonomy-aligned);;;(keuro);(%);(SB) Y/N;;;;;;WN;YN;YN;YN;YN;YN;YN;YN;YN;YN
+Electricity generation from wind power;COM;107,151;13.51;Y;N;N/EL;N/EL;N/EL;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;7.73;;;
+CapEx of enviromentally sustainable activities (Taxonomy-aligned) (A.1);;107,151;13.51;0.00;0.00;0.00;;;0.00;;;Y;Y;Y;Y;Y;Y;Y;2.73;;;
+Of which enabling;;;0.00;0.00;0.00;0.00;0.00;0.00;;;Y;Y;Y;Y;Y;Y;Y;0.00;;;
+Of which transitional;;;0.00;0.00;;;Y;Y;Y;Y;Y;Y;Y;0.00;;;
+A.2 Taxonomy-eligible but not environmentally sustainable activities (not Taxonomy-aligned activities);;;(keuro);(%);(SB) Y/N;ELN/EL;ELN/EL;ELN/EL;ELN/EL;;;;;;;
+Electricity generation from wind power;COM 4.3, CCA 4.3;2,576;0.32;EL;EL;N/EL;N/EL;N/EL;N/EL;;;0.00;;;
+Transmission and distribution networks for renewable and low-carbon gases;COM 4.14, CCA 4.14;40.00;0.00;EL;EL;N/EL;N/EL;N/EL;N/EL;;;0.00;;;
+Transport of CO2;CCM 5.11, CCAS.11;7,589;0.96;EL;EL;N/EL;N/EL;N/EL;N/EL;;;0.00;;;
+Installation, maintenance and repair of energy efficiency equipment;CCM 7.3, CCA 7.3;4,219;0.53;EL;EL;N/EL;N/EL;N/EL;N/EL;;;0.14;;;
+Installation, maintenance and repair of technology for renewable energies;CCM 7.6, CCA 7.6;1,333;0.17;EL;EL;N/EL;N/EL;N/EL;N/EL;;;0.01;;;
+Purchase and ownership of buildings;CCM 7.7, CCA 7.7;31,085;3.92;EL;EL;N/EL;N/EL;N/EL;N/EL;;;9.84;;;
+Close to market research, development and innovation;CCM 9.1, CCA 9.1;431;0.06;EL;EL;N/EL;N/EL;N/EL;N/EL;;;0.26;;;
+Demolition of buildings and other structures;CE33;1,131;0.14;NEL;NEL;NEL;NEL;;;EL;NVEL;;;N/A;;;
+Provision of IT/OT (information technology/operational technologies) data-driven solutions;CE41;5,258;0.66;NEL;NEL;NEL;NEL;;;EL;NVEL;;;N/A;;;
+Remediation of contaminated sites and areas;PPC 2.4;576;0.07;NEL;NEL;NEL;NEL;;;EL;NVEL;;;N/A;;;
+CapEx of Taxonomy-eligible but not environmentally sustainable activities (not Taxonomy-aligned activities) (A.2);;54,202;6.83;5.95;0.00;0.00;0.07;0.81;0.00;;;10.25;;;
+CapEx of Taxonomy-eligible (A.1+A.2);;161,353;20.34;19.46;0.00;0.00;0.07;0.81;0.00;;;17.98;;;
+B. TAXONOMY-NON-ELIGIBLE ACTIVITIES;;;;;;;;
+CapEx of Taxonomy-non-eligible activities (B);;631,927;79.66;;;;;;;;
+Total (A+B);;793,280;100.00;;;;;;;;"

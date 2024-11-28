@@ -1,0 +1,40 @@
+"csv
+€m;;31.12.2023;Prev. year;Change
+Sector acc. to GICS;;;
+per asset class;;;
+Equity;;;
+Energy;10;175;252;-30.6
+Materials;15;514;572;-10.1
+Industrials;20;1,522;1,210;25.8
+Consumer;;;
+discretionary;25;1,073;664;61.6
+Consumer staples;30;812;1,169;-30.6
+Healthcare;35;1,157;1,094;5.7
+Financials;40;2,531;2,174;16.4
+Information;;;
+technology;45;1,305;1,037;25.9
+Communication;50;527;439;20.1
+services;;;
+Utilities;55;564;529;6.5
+Real estate;60;248;135;83.3
+Corporate bonds;;;
+Energy;10;1,471;2,042;-28.0
+Materials;15;1,194;1,131;5.6
+Industrials;20;2,935;2,782;5.5
+Consumer;;;
+discretionary;25;2,250;1,978;13.8
+Consumer staples;30;1,923;2,202;-12.7
+Healthcare;35;2,200;1,790;22.9
+Financials;40;41,693;38,692;7.8
+Information;;;
+technology;45;1,217;1,272;-4.3
+Communication;50;2,867;2,501;14.6
+services;;;
+Utilities;55;3,833;3,091;24.0
+Real estate;60;866;808;7.2
+Derivatives;;;
+Financials;40;2,981;4,962;-39.9
+Mortgage loans;;;
+Real estate;60;8,454;7,561;11.8
+Real estate;;;
+Real estate;60;9,384;8,719;7.6"

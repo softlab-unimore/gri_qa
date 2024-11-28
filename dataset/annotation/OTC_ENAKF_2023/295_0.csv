@@ -1,0 +1,8 @@
+"Accounting Metric;Category;Code;Response
+Coal Ash Management;;;; 
+Amount of coal combustion residuals (""CCR"") generated, percentage recycled;Quantitative;IF-EU-150a.1;Not applicable.
+Total number of coal combustion residual (""CCR"") impoundments, broken down by hazard potential classification and structural integrity assessment;Quantitative;IF-EU-150a.2;Not applicable.
+Energy Affordability;;;; 
+Average retail electric rate for (1) residential, (2) commercial, and (3) industrial customers;Quantitative;IF-EU-240a.1;Data are not available.
+Typical monthly electric bill for residential customers for (1) 500 kWh and (2) 1,000 kWh of electricity delivered per month;Quantitative;IF-EU-240a.2;Data are not available.
+Number of residential customer electric disconnections for non-payment, percentage reconnected within 30 days;Quantitative;IF-EU-240a.3;In 2023 around 23,900 electricity customers and 2,400 gas customers were disconnected. These figures refer only to customers of E.ON Energie Deutschland GmbH. Data from other entities are not available at the time of publication. Data on the number of customers reconnected within 30 days are not available. Of roughly 26,300 total disconnections, about 14,600, or 55.6 percent, were carried out regardless of time in 2023."

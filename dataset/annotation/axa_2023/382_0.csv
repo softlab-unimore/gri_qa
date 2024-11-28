@@ -1,0 +1,38 @@
+"(in Euro million);;;Total LRC;LIC;Loss component;Lic related LIC related to PAA contracts;;;Total LIC;Total;Life &amp; Health;;
+Opening assets;(-4);-;(-4);0;-;-;-;0;(-4);(-4);-
+Opening liabilities;346,776;2,440;349,216;2,526;108,876;1,776;110,652;113,179;462,395;359,276;103,118
+Net balance as of January 1 (A);346,772;2,440;349,212;2,527;108,876;1,776;110,652;113,179;462,391;359,273;103,118
+Insurance revenue coming from contracts under the MRA;(-11,820);-;(-11,820);-;-;-;-;-;(-11,820);(-9,431);(-2,389)
+Insurance revenue coming from contracts under the FVA;(-1,844);-;(-1,844);-;-;-;-;-;(-1,844);(-1,182);(-662)
+Insurance revenue from other contracts;-;-;-;-;-;-;-;-;-;-;-
+coming;(-67,225);-;(-67,225);-;-;-;-;-;(-67,225);(-18,980);(-48,245)
+Insurance revenue (B);(-80,889);-;(-80,889);-;-;-;-;-;(-80,889);(-29,593);(-51,296)
+; ; ; ; ; ; ; ; ; ; ; 
+Incurred claims and other insurance service expenses;-;(-202);(-202);11,237;49,583;336;49,920;61,156;60,954;23,880;37,074
+; ; ; ; ; ; ; ; ; ; ; 
+Amortisation of insurance acquisition cash flows;11,505;-;11,505;-;-;-;-;-;11,505;2,963;8,543
+;(-); ; ; ; ; ; ; ; ; ; 
+Losses and reversal of losses on onerous contracts;-;28;28;-;-;-;-;-;28;76;(-48)
+;(-);(-);(-); ; ; ; ; ; ; ; 
+Adjustments to liabilities for incurred claims;-;-;-;(-108);(-312);(-403);(-715);(-823);(-823);(-586);(-237)
+Insurance service expenses (C);11,505;(-174);11,332;11,129;49,271;(-67);49,204;60,333;71,665;26,332;45,332
+; ;(-); ; ; ; ; ; ; ; ; 
+Investment components (D);(-28,415);-;(-28,415);27,516;899;-;899;28,415;-;-;-
+; ; ; ; ; ; ; ; ; ; ; 
+INSURANCE SERVICE RESULT (E B C+ D);(-97,799);(-174);(-97,972);38,645;50,170;(-67);50,103;88,748;(-9,225);(-3,261);(-5,964)
+Net finance income in or loss;-;56;-;-;-;2;-;-;-;-;929
+or expenses recognized profit;13,272;-;13,328;(-1);1,080;-;1,081;1,080;14,409;13,480;-
+Net finance income or expenses recognized in OCI;8,864;-;8,864;18;4,166;6;4,173;4,190;13,054;9,469;3,585
+Net finance income or expenses from insurance contracts (F);22,136;56;22,192;17;5,246;8;5,254;5,271;27,463;22,949;4,514
+TOTAL CHANGES IN THE STATEMENT OF PROFIT OR LOSS AND IN OCI (G=E + F);(-75,662);(-118);(-75,781);38,662;55,416;(-59);55,357;94,019;18,238;19,688;(-1,450)
+Premiums received;99,113;-;99,113;-;-;-;-;&gt;;99,113;46,574;52,539
+Claims and other insurance service expenses paid;-;-;-;(-38,572);(-51,404);-;(-51,404);(-89,976);(-89,976);(-52,457);(-37,519)
+Insurance acquisition cash flows paid;(-13,559);-;(-13,559);-;-;-;-;-;(-13,559);(-4,768);(-8,791)
+Total cash flows (H);85,554;-;85,554;(-38,572);(-51,404);-;(-51,404);(-89,976);(-4,422);(-10,651);6,229
+Effect of movements in exchange rates (I);(-2,828);(-174);(-3,001);(-66);42;(-34);8;(-57);(-3,058);(-2,960);(-98)
+Effect of changes in scope of consolidation and other changes (J);422;(-269);153;18;249;5;254;272;425;627;(-203)
+Closing assets;(-14);-;(-14);0;-;-;-;0;(-13);(-13);-
+Closing liabilities;354,271;1,879;356,150;2,568;113,179;1,687;114,866;117,434;473,584;365,989;107,595
+NET BALANCE AS OF DECEMBER 31 (K=A+G+H+1+J);354,258;1,879;356,137;2,569;113,179;1,687;114,866;117,434;473,571;365,976;107,595
+Of which Life &amp; Health;336,368;1,738;338,106;2,529;25,236;105;25,341;27,870;365,976;;; 
+Of which Property &amp; Casualty;17,889;141;18,031;39;87,943;1,582;89,525;89,564;107,595;;;"

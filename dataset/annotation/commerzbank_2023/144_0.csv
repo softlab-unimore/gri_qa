@@ -1,0 +1,24 @@
+";Based on the CapEx KPI Breakdown by sector - NACE 4 digits level (code and label)” ;Non-Financial ;Climate Change corporates ;Mitigation (CCM) SMEs and other NFC not subject to NFRD ;Climate Change Adaptation (CCA) Non-Financial corporates SMEs and other NFC not ; ; ; 
+; ;(Subject to NFRD) ;(Subject to NFRD) ;subject to NFRD ; ; ; 
+;[Gross] carrying million € ;amount Of which environ- mentally sustainable (ccm) ;[Gross] million € ;carrying ;amount Of which environ- mentally sustainable (CCM) ;[Gross] carrying million € ;amount Of which environ- mentally sustainable (CCA) ;[Gross] carrying million € ;amount Of which environ- mentally sustainable (CCA) 
+107 ;35.30 Steam and air conditioning supply ;0.8 ; ;x ; ;x ; ; ;x ;x 
+108 ;36.00 Water collection, treatment and supply ;5.4 ;3.4 ;x ; ;x ; ; ;x ;x 
+109 ;38.21 Treatment and disposal of non-hazardous waste ;0.0 ; ;x ; ;x ; ; ;x ;x 
+110 ;38.32 Recovery of sorted materials ;0.5 ; ;x ; ;x ; ; ;x ;x 
+111 ;39.00 Remediation activities and other waste management services ; ; ;x ; ;x ; ; ;x ;x 
+112 ;41.10 Development of building projects ;57.8 ; ;x ; ;x ; ; ;x ;x 
+113 ;41.20 Construction of residential and non- residential buildings ;21.7 ;3.7 ;x ; ;x ;0.8 ;0.2 ;x ;x 
+114 ;42.12 Construction of railways and underground railways ;0.6 ; ;x ; ;x ; ; ;x ;x 
+115 ;42.91 Construction of water projects ; ; ;x ; ;x ; ; ;x ;x 
+116 ;42.99 Construction of other civil engineering projects nec. ;17.0 ;2.6 ;x ; ;x ;0.3 ;0.1 ;x ;x 
+117 ;43.21 Electrical installation ;0.5 ; ;x ; ;x ; ; ;x ; 
+118 ;43.22 Plumbing, heat and air-conditioning installation ;0.8 ;0.0 ;x ; ;x ; ; ;x ;x 
+119 ;43.29 Other construction installation ;38.5 ;9.6 ;x ; ;x ; ; ;x ;x 
+120 ;43.33 Floor and wall covering ;0.0 ; ;x ; ;x ; ; ;x ; 
+121 ;43.91 Roofing activities ;0.1 ; ;x ; ;x ; ; ;x ; 
+122 ;43.99 Other specialised construction activities nec. ;10.2 ; ;x ; ;x ; ; ;x ;x 
+123 ;45.11 Sale of cars and light motor vehicles ;0.5 ; ;x ; ;x ; ; ;x ;x 
+124 ;45.19 Sale of other motor vehicles ;0.3 ; ;x ; ;x ; ; ;x ;x 
+125 ;45.20 Maintenance and repair of motor vehicles ;3.5 ; ;x ; ;x ; ; ;x ;x 
+126 ;45.31 Wholesale trade of motor vehicle parts and accessories ;8.0 ;8.0 ;x ; ;x ; ; ;x ;x 
+127 ;45.32 Retail trade of motor vehicle parts and accessories ; ; ;x ; ;x ; ; ;x ;x"

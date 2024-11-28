@@ -1,0 +1,19 @@
+"Economic activities;million €;% ;%;%;Y/N;Y/N;% ;ET
+; ; ; ; ; ; ; ; 
+A. TAXONOMY-ELIGIBLE ACTIVITIES; ; ; ; ; ; ; ; 
+A.1. Environmentally sustainable activities (Taxonomy-aligned); ; ; ; ; ; ; ; 
+3.1 Manufacture of renewable energy technologies;11;1;10;0;Y;Y;—; 
+3.9 Manufacture of iron and steel (CapEx plan);255;14;14;0;Y;Y;—; 
+5.9 Material recovery from non-hazardous waste;0;0;0;0; ; ;—; 
+CapEx of environmentally sustainable activities (Taxonomy-aligned) (A.1);266;15;15;0; ; ; ; 
+A.2 Taxonomy-Eligible but not environmentally sustainable activities (not Taxonomy-aligned); ; ; ; ; ; ; ; 
+3.1 Manufacture of renewable energy technologies;41;2; ; ; ; ; ; 
+3.2 Manufacture of equipment for the production and use of hydrogen;40;0; ; ; ; ; ; 
+3.6 Manufacture of other low carbon technologies;0;0; ; ; ; ; ; 
+3.9 Manufacture of iron and steel;598;34; ; ; ; ; ; 
+5.9 Material recovery from non-hazardous waste;0;0; ; ; ; ; ; 
+6.6 Freight transport services by road;10;0; ; ; ; ; ; 
+CapEx of Taxonomy-Eligible but not environmentally sustainable activities (not Taxonomy-aligned) (A.2);643;36; ; ; ; ; ; 
+Total (A.1 + A.2);909;51; ; ; ; ; ; 
+B. TAXONOMY-NON-ELIGIBLE ACTIVITIES; ; ; ; ; ; ; ; 
+CapEx of Taxonomy-non-eligible activities (B);870;49; ; ; ; ; ;"

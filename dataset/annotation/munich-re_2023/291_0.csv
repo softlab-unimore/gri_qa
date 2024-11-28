@@ -1,0 +1,16 @@
+"; ; ; Stage 1; ; ; Stage 2; ; ; Stage 3; ; ; ; Total Net
+; 12-month expected credit losses; Lifetime expected credit losses (not impaired); Lifetime expected credit losses (impaired); ; ; ; ; ; ; ; ; 
+; Gross; ; Net; Gross; ; Net; Gross; ; Net; Gross; 
+; carry-; Loss; carry-; —carry-; Loss; carry-; —_carry-; Loss; carry-; _—_carry-; Loss; — carry-
+; €m; amount; ance; amount; amount; ance; amount; amount; ance; amount; amount; ance; amount
+Balance at 1.1.; 12,329; 0; 12,329; 0; 0; 0; 3; 2; 1; 12,333; 2; 12,330
+Balance of additions and disposals; -52; 0; -52; 0; 0; 0; 0; 0; 0; -51; 0; -51
+Remeasured due to change in measurement parameters; 0; 0; 0; 0; 0; 0; 0; -1; 1; 0; -1; 1
+Transfers to Stage 1; 2; 0; 2; 0; 0; 0; -2; 0; -2; 0; 0; 0
+Transfers to Stage 2; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0
+Transfers to Stage 3; -3; 0; -3; 0; 0; 0; 3; 0; 3; 0; 0; 0
+Currency translation differences; -132; 0; -132; 0; 0; 0; 0; 0; 0; -132; 0; -132
+Change in the consolidated group; 9; 0; 9; 0; 0; 0; 0; 0; 0; 9; 0; 9
+Modifications of contractual cash flows; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0
+Other changes; 219; 0; 219; 0; 0; 0; 0; 0; 0; 219; 0; 219
+Balance at 31.12.; 12,373; 0; 12,372; 0; 0; 0; 5; 1; 4; 12,378; 2; 12,376"

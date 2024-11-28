@@ -1,0 +1,7 @@
+"If Fis s 70%;0%
+If Fis &gt; 70% but &lt; 80%;[(F - 70) x 5]%
+If F = 80%;50%
+If Fis &gt; 80% but &lt;100%;(50 + [(F - 80) x 2.5])%
+If F=100%;100%
+If Fis &gt; 100% but &lt; 120%;F%
+If Fis &gt; 120%;120%"

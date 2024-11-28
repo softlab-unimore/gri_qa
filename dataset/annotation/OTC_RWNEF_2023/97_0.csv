@@ -1,0 +1,14 @@
+"Fiscal 2023;2023;Substantial contribution criteria;DNSH criteria (‘Does Not Significantly Harm’);;;;;
+Economic activities (1);(2);(3);(4);(5);(6);(7);(8);(9);(10);(11);(12);(13);(14);(15);(16);(17);(18);(19);(20)
+A. TAXONOMY-ELIGIBLE ACTIVITIES;;;;;;;;
+A.1 Environmentally sustainable activities (taxonomy-aligned);;;;;;;;;
+Electricity generation from PV technology;CCM 4.1;7,568;63;Y;N;N;N;N;N;Y;Y;Y;Y;Y;Y;Y;17; 
+Electricity generation from wind energy;CCM 4.3;2,617;22;Y;N;N;N;N;N;Y;Y;Y;Y;Y;Y;Y;58; 
+Electricity generation from hydropower;CCM 4.5;6;0;Y;N;N;N;N;N;Y;Y;Y;Y;Y;Y;Y;0; 
+Electricity generation from bioenergy;CCM 4.8;3;0;Y;N;N;N;N;N;;;0; 
+Electricity storage;CCM 4.10;285;2;Y;N;N;N;N;N;Y;Y;Y;Y;Y;Y;Y;6;E
+Hydrogen production;CCM 3.10;157;1;Y;N;N;N;N;N;Y;Y;Y;Y;Y;Y;Y;2; 
+Hydrogen storage;CCM 4.12;17;0;Y;N;N;N;N;N;Y;Y;Y;Y;Y;Y;Y;0;E
+CapEx of environmentally sustainable activities (taxonomy-aligned) (A.1);;;10,653;89;89%;-;-;-;-;Y;Y;Y;Y;Y;Y;Y;83; 
+of which enabling activities;;;302;3;-;-;-;-;Y;Y;Y;Y;Y;Y;Y;6; 
+of which transitional activities;;;;;;;;"

@@ -1,0 +1,29 @@
+;Scope;Unit ;2023 |;2022;% change
+Scope 1;Offices (fuel oil, natural gas) (a) (b);tC0,eq;929;940;1%
+;Generators (fuel, diesel) (a) (b);tC0,eq;864;1141;-24%
+;Mobile sources (fuel, diesel, LPG) (a) (b);tC0,eq;7433;7504;-1%
+;Refrigerants (a);tC0,eq;1065;1643;-35%
+;Total Scope 1;tC0,eq;10291;11228;-8%
+Scope 2;Electricity market-based (a) (b) (c);tC0,eq;12957;18299;-29%
+;Electricity location-based (a) (b) (c) (d);tC0,eq;20778;21406;-3%
+;Heating network (a);tC0,eq;1229;1142;+8%
+;Cooling network;tC0,eq;35;55;-36%
+;Total Scope 2 market-based (b);tC0,eq;14221;19496;-27%
+;Total Scope 2 location-based (b);tC0,eq;22042;22603;-2%
+;Total Scopes 1 and 2 ma based;tC0,eq;24512;30724;-20.00%
+;Total Scopes 1 and 2 loc: based;tC0,eq;32333;33831;-4.00%
+Partial Scope 3.;Purchases of raw materials;tC0,eq;29189;26192;+11%
+;Property;tC0,eq;7285;12443;-41%
+;Other energy (a) (b) (c);tC0,eq;8250;8740;-6%
+;Upstream and downstream freight;tC0,eq;4409;na;na
+;Waste (a);tC0,eq;2772;6987;-60%
+;Business travel (a);tC0,eq;20012;15283;+31%
+;Employee commuting (a) (e);tC0,eq;18379;15025;+22%
+;Products sold (f);tC0,eq;282210;277104;+2%
+;Leased products (f);tC0,eq;90266;93916;-4%
+;Financial investments (g) (h) (i);tC0,eq;272246;315058;-14%
+;Restated financial investments (j);tC0,eq;272246;271410;0%
+;Total Partial Scope 3;tC0,eq;735018;770748;-5%
+;Total Restated Partial Scope 3 (j);tC0,eq;735018;727100;1.00%
+;Total Scopes 1 and 2 market-based and partial Scope 3;tC0,eq;759530;801472;-5.00%
+;Total Scopes 1 and 2 market-based and restated partial Scope 3 (j);tC0,eq;759530;757824;0.00%

@@ -1,0 +1,22 @@
+";Based on the CapEx KPI Breakdown by sector - NACE 4 digits level (code and label)” ;Non-Financial corporates (Subject to NFRD); ; ;SMEs and other NFC not subject to NFRD [Gross] carrying amount
+;;[Gross] carrying amount;Of which environmentally sustainable (CCM + CCA + WTR + CE + PPC + BIO);million €;Of which environmentally sustainable (CCM + CCA + WTR + CE + PPC + BIO)
+41;20.30 Manufacture of paints, varnishes and similar coatings, printing ink and mastics;1.0;x;x
+42;20.42 Manufacture of perfumes and toilet preparations;0.0;x;x
+43;20.59 Manufacture of other chemical products n.e.c;44.6;0.1;x;x
+44;21.10 Manufacture of basic pharmaceutical products;6.4;0.0;x;x
+45;21.20 Manufacture of pharmaceutical preparations;2.9;x;x
+46;22.11 Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres;;x;x
+47;22.19 Manufacture of other rubber products;0.1;0.1;x;x
+48;22.21 Manufacture of plastic plates, sheets, tubes and profiles;1.4;x;x
+49;22.22 Manufacture of plastic packing goods;1.0;x;x
+50;22.29 Manufacture of other plastic products;4.1;x;x
+51;23.13 Manufacture of hollow glass;1.5;0.4;x;x
+52;23.32 Manufacture of bricks, tiles and construction products, in baked clay;8.3;7;x;x
+53;23.41 Manufacture of ceramic household and ornamental articles;0.0;x;x
+54;23.51 Manufacture of cement;36.3;6.6;x;x
+55;24.10 Manufacture of basic iron and steel and of ferro- alloys;18.0;12;x;x
+56;24.42 Aluminium production;0.6;x;x
+57;24.44 Copper production;;x;x
+58;24.45 Other non-ferrous metal production;26.4;26.4;x;x
+59;24.53 Casting of light metals;;x;x
+60;25.11 Manufacture of metal structures and parts of structures;15.2;x;x"
