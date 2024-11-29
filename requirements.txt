@@ -1,3 +1,7 @@
 pandas
 torch
 transformers
+protobuf
+tiktoken
+sentencepiece
+accelerate
