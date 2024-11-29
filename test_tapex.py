@@ -27,15 +27,15 @@ if __name__ == '__main__':
             outputs = model.generate(**encoding)
             response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-            print(f'Q{i}: {row["value"]} - {response}')
+            print(f'Q{i}: {row["value"]} - {response[0]}')
 
-            results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response}
+            results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response[0]}
         else:
             print(f'Q{i}: {row["value"]} - Table too long')
 
             results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': 'Table too long'}
 
     os.makedirs('./results', exist_ok=True)
-    results.to_csv(f'.results/tapex.csv', index=False)
+    results.to_csv(f'./results/tapex.csv', index=False)
 
 
