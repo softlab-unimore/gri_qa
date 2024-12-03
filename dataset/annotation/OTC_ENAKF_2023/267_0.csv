@@ -1,19 +1,19 @@
 ;DVFA/EFFAS;2023;2022;2021
 Energy consumption within the organization (million GJ);E01-01;49;53;59
-Share of employees working at business units certified to ISO-14001 (percentages)?;E33-01;85;75;78
-Share of employees working at business units with ISO 50001 certification (percentages)?;;73;67;86
+Share of employees working at business units certified to ISO-14001 (percentages);E33-01;85;75;78
+Share of employees working at business units with ISO 50001 certification (percentages);;73;67;86
 Number of environmental incidents;;;;
 4 (major);;0;0;0
 3 (serious);;0;0;0
 2 (moderate);;16;22;21
 1 (minor);;353;287;305
 0 (low);;506;480;576
-Incidents on the seven-step International Nuclear Event Scale (""INES"");;0;0;0
-Provisions for environmental remediation and similar obligations (€ in millions)?;E12-05;402;435;519
+"Incidents on the seven-step International Nuclear Event Scale (""INES"")";;0;0;0
+Provisions for environmental remediation and similar obligations (€ in millions);E12-05;402;435;519
 Short term;;79;84;66
 Long term;;323;351;453
-Fresh water consumption - PEL (million cubic meters)?;E28-01;12.6;28.9;52.5
-Fresh water withdrawal - water utilities (million cubic meters)*;E28-01;83.2;na.;na.
+Fresh water consumption - PEL (million cubic meters);E28-01;12.6;28.9;52.5
+Fresh water withdrawal - water utilities (million cubic meters);E28-01;83.2;n.a.;n.a.
 Groundwater;;36.6;n.a.;n.a.
 Surface Water / Bank filtrate;;46.4;n.a.;n.a.
 Spring Water Sources;;0.2;n.a.;n.a.
