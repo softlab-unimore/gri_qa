@@ -1,7 +1,6 @@
 import os
 
 import pandas as pd
-from torch.nn.functional import max_pool1d
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 def create_prompt(table, question):
