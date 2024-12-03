@@ -1,6 +1,7 @@
 import os
 
 import pandas as pd
+from codecarbon import EmissionsTracker
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
@@ -43,6 +44,10 @@ if __name__=='__main__':
 
     results = pd.DataFrame(columns=['question', 'value', 'response'])
 
+    tracker = EmissionsTracker(output_dir='./results')
+
+    tracker.start()
+
     for i, row in qa.iterrows():
 
         print(f'Q{i} - {row["question"]}')
@@ -66,6 +71,8 @@ if __name__=='__main__':
 
         results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response_value}
 
+    tracker.stop()
+
     os.makedirs('./results', exist_ok=True)
     results.to_csv(f'./results/tablellama.csv', index=False)
-
+    os.rename('./results/emissions.csv', './results/emissions_tablellama.csv')
