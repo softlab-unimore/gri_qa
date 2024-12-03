@@ -4,7 +4,7 @@ import pandas as pd
 from transformers import TapexTokenizer, BartForConditionalGeneration
 
 if __name__ == '__main__':
-    qa = pd.read_csv('dataset/qa_dataset.csv', skiprows=1, sep=',', on_bad_lines='skip')
+    qa = pd.read_csv('dataset/qa_dataset.csv', sep=',', on_bad_lines='skip')
 
     tokenizer = TapexTokenizer.from_pretrained("microsoft/tapex-large-finetuned-wtq")
     model = BartForConditionalGeneration.from_pretrained("microsoft/tapex-large-finetuned-wtq")

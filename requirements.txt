@@ -5,3 +5,4 @@ protobuf
 tiktoken
 sentencepiece
 accelerate
+tabulate

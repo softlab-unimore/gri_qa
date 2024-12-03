@@ -26,7 +26,7 @@ def create_prompt(table, question):
 
 
 if __name__=='__main__':
-    qa = pd.read_csv('dataset/qa_dataset.csv', skiprows=1, sep=',', on_bad_lines='skip')
+    qa = pd.read_csv('dataset/qa_dataset.csv', sep=',', on_bad_lines='skip')
 
     config = ConfigParser()
     config.read('config.ini')
