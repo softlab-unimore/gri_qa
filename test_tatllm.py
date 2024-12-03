@@ -17,7 +17,7 @@ def create_prompt(table, question):
 
     table = table.to_markdown(index=False)
 
-    return f"{description}\n\n###Instruction:\n{instruction}\n\n###Table:\n{table}\n\n###Table\n\n###Question:\n{question}\n\n###Response:\n"
+    return f"{description}\n\n###Instruction:\n{instruction}\n\n###Table:\n{table}\n\n###Text\n\n###Question:\n{question}\n\n###Response:\n"
 
 if __name__=='__main__':
     qa = pd.read_csv('dataset/qa_dataset.csv', sep=',', on_bad_lines='skip')
@@ -25,7 +25,7 @@ if __name__=='__main__':
     tokenizer = AutoTokenizer.from_pretrained('next-tat/tat-llm-7b-fft')
     model = AutoModelForCausalLM.from_pretrained(
         'next-tat/tat-llm-7b-fft',
-        device_map='auto'
+        device_map='auto',
     )
 
     results = pd.DataFrame(columns=['question', 'value', 'response'])
@@ -42,12 +42,15 @@ if __name__=='__main__':
         prompt = create_prompt(table, row["question"])
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
-        outputs = model.generate(**encoding, max_length=6000)
+        outputs = model.generate(**encoding, max_length=4096)
         response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-        # response_value = response[0].split('\nThe answer is:')[1].strip('\n\n').strip(' |')
-        response_value = response[0].split('\n###Response:\n')[1].split('\n')[0].split(' |')[0]
-        print(f'Q{i}: {row["value"]} - {response_value}')
+        try:
+            response_value = response[0].split('The answer is: ')[2].split(' ###')[0]
+            print(f'Q{i}: {row["value"]} - {response_value}')
+        except:
+            response_value = "No answer"
+            print(f'Q{i}: {row["value"]} - No answer')
 
         results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response_value}
 
