@@ -5,7 +5,7 @@ from codecarbon import EmissionsTracker
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 def create_prompt(table, question):
-    description = ("Below is an instruction that describes a question answering task in the finance domain, paired with "
+    description = ("Below is an instruction that describes a question answering task in the environmental domain, paired with "
                    "an input table and its relevant text that provide further context. The given question is relevant to "
                    "the table and text. Generate an appropriate nswer to the given question.")
 
