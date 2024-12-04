@@ -14,7 +14,31 @@ from tqdm import tqdm
 
 #load_dotenv()
 
-class QAGenerator:
+class QuestionGenerator:
+    def __init__(self):
+        self.fn_descriptions = self.get_fn_descriptions()
+        print(self.fn_descriptions)
+        
+    def get_fn_descriptions(self):
+        rg_methods, qrg_methods, rrg_methods = set(dir(ResponseGenerator)), \
+                                               set(dir(QuantitativeResponseGenerator)), \
+                                               set(dir(RelationResponseGenerator))
+
+        qrg_methods = qrg_methods.difference(rg_methods)
+        rrg_methods = rrg_methods.difference(rg_methods)
+        
+        return {
+            method: getattr(generator_class, method).__doc__
+            for methods, generator_class in [
+                (qrg_methods, QuantitativeResponseGenerator),
+                (rrg_methods, RelationResponseGenerator)
+            ]
+            for method in methods
+        }
+    
+    
+
+class ResponseGenerator:
     def __init__(self, df):
         self.df = df
 
@@ -223,9 +247,9 @@ class QAGenerator:
         return result, question
 
 
-class QuantitativeQAGenerator(QAGenerator):
+class QuantitativeResponseGenerator(ResponseGenerator):
     def __init__(self, df):
-        super(QuantitativeQAGenerator, self).__init__(df)
+        super(QuantitativeResponseGenerator, self).__init__(df)
         self.df = df
         self.fns = [
             self.average,
@@ -239,18 +263,55 @@ class QuantitativeQAGenerator(QAGenerator):
                                 "question", "question_type", "question_type_ext", "value"]]
 
     def average(self, values, to_str=True):
+        """
+        Calculate the average of a list of numeric values.
+
+        Args:
+            values (list of float): The list of numeric values to average.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The average of the values, as a string if `to_str` is True, otherwise as a float.
+        """
+        
         res = round(float(sum(values)) / len(values),2)
         #print(f"Average: {res}")
         return str(res) if to_str else res
 
     def sum(self, values, to_str=True):
+        """
+        Calculate the sum of a list of numeric values.
+
+        Args:
+            values (list of float): The list of numeric values to sum.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The sum of the values, as a string if `to_str` is True, otherwise as a float.
+        """
+        
         res = round(sum(values),2)
         #print(f"Sum: {res}")
         return str(res) if to_str else res
 
     def reduction_percentage(self, values, to_str=True):
         """
-        percentage of values[0] w.r.t. values[1]
+        Calculate the reduction percentage between the first and second numerical values.
+
+        Args:
+            values (list of float): A list containing exactly two numeric values, where the first is the initial value, 
+                                    and the second is the reduced value.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The reduction percentage, as a string if `to_str` is True, otherwise as a float.
+
+        Raises:
+            ValueError: If the list `values` does not contain exactly two elements.
+            
+        E.g.:
+            if values[0] is 150 and values[1] is 100, the percentage reduction is 33.33%.
+            if values[0] is 100 and values[1] is 150, the percentage reduction is -33.33%.
         """
 
         if len(values) != 2:
@@ -263,7 +324,22 @@ class QuantitativeQAGenerator(QAGenerator):
 
     def reduction_difference(self, values, to_str=True):
         """
-        percentage of values[0] w.r.t. values[1]
+        Calculate the reduction raw difference between the first and second numerical values.
+
+        Args:
+            values (list of float): A list containing exactly two numeric values, where the first is the initial value, 
+                                    and the second is the reduced value.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The reduction difference, as a string if `to_str` is True, otherwise as a float.
+
+        Raises:
+            ValueError: If the list `values` does not contain exactly two elements.
+            
+        E.g.:
+            if values[0] is 150 and values[1] is 100, the reduction is 50.
+            if values[0] is 100 and values[1] is 150, the reduction is -50.
         """
 
         if len(values) != 2:
@@ -276,17 +352,49 @@ class QuantitativeQAGenerator(QAGenerator):
         return str(res) if to_str else res
 
     def increase_percentage(self, values, to_str=True):
+        """
+        Calculate the increase percentage between the first and second numerical values.
+
+        Args:
+            values (list of float): A list containing exactly two numeric values, where the first is the original value, 
+                                    and the second is the increased value.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The increase percentage, as a string if `to_str` is True, otherwise as a float.
+        
+        E.g.:
+            if values[0] is 150 and values[1] is 100, the percentage increase is -33.33%
+            if values[0] is 100 and values[1] is 150, the percentage increase is 33.33%
+        """
+        
         res = -self.reduction_percentage(values, to_str=False)
         return str(res) if to_str else res
 
     def increase_difference(self, values, to_str=True):
+        """
+        Calculate the increase difference between two numeric values.
+
+        Args:
+            values (list of float): A list containing exactly two numeric values, where the first is the original value, 
+                                    and the second is the increased value.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The increase difference, as a string if `to_str` is True, otherwise as a float.
+            
+        E.g.:
+            if values[0] is 150 and values[1] is 100, the increase is -50
+            if values[0] is 100 and values[1] is 150, the increase is 50
+        """
+        
         res = -self.reduction_difference(values, to_str=False)
         return str(res) if to_str else res
 
 
-class RelationQAGenerator(QAGenerator):
+class RelationResponseGenerator(ResponseGenerator):
     def __init__(self, df):
-        super(RelationQAGenerator, self).__init__(df)
+        super(RelationResponseGenerator, self).__init__(df)
         self.df = df
         self.fns = [
             self.rank,
@@ -300,13 +408,52 @@ class RelationQAGenerator(QAGenerator):
             ["pdf name", "gri", "page nbr", "table nbr", "question", "value"]]
 
     def rank(self, values, firstk, desc=False):
+        """
+        Rank the values and return the `firstk` values.
+
+        Args:
+            values (list of float): The list of numeric values to rank.
+            firstk (int): The number of initial values to return.
+            desc (bool, optional): If True, sort in descending order, otherwise ascending. Defaults to False.
+
+        Returns:
+            str: A comma-separated string of the initial `firstk` values in the specified order.
+        """
+        
         return ', '.join([str(value) for value in sorted(values, reverse=desc)][:firstk])
 
     def superlative(self, values, maximise=True, to_str=True):
+        """
+        Return the maximum or minimum value from a list of values.
+
+        Args:
+            values (list of float): The list of numeric values to evaluate.
+            maximise (bool, optional): If True, return the maximum value, otherwise the minimum. Defaults to True.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The maximum or minimum value, as a string if `to_str` is True, otherwise as a float.
+        """
+
         fn = max if maximise else min
         return str(fn(values)) if to_str else fn(values)
 
     def comparative(self, values, maximise=True, to_str=True):
+        """
+        Compare two values and return the maximum or minimum value.
+
+        Args:
+            values (list of float): A list containing exactly two numeric values to compare.
+            maximise (bool, optional): If True, return the maximum value, otherwise the minimum. Defaults to True.
+            to_str (bool, optional): If True, return the result as a string. Defaults to True.
+
+        Returns:
+            str or float: The maximum or minimum value, as a string if `to_str` is True, otherwise as a float.
+
+        Raises:
+            ValueError: If the list `values` does not contain exactly two elements.
+        """
+        
         if len(values) != 2:
             raise ValueError(
                 f"Can't calculate the comparison between more than 2 values")
@@ -314,7 +461,7 @@ class RelationQAGenerator(QAGenerator):
         return self.superlative(values, maximise, to_str)
 
 
-class ExtractiveQAGenerator:
+class ExtractiveResponseGenerator:
     def __init__(self):
         self.dataset_schema = [
             ["pdf name", "gri", "page nbr", "table nbr", "question", "value"]]
@@ -411,7 +558,8 @@ class ExtractiveQAGenerator:
 
 if __name__ == "__main__":
     df = pd.read_csv("qa_dataset.csv")
-    q_qagenerator = RelationQAGenerator(df)
-    res = q_qagenerator.generate()
-    print(res)
-    print(len(res))
+    #q_responsegenerator = RelationResponseGenerator(df)
+    #res = q_responsegenerator.generate()
+    #print(res)
+    #print(len(res))
+    q = QuestionGenerator()
