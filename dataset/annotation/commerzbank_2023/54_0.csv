@@ -1,33 +1,25 @@
-Asset class;Sectors;CO2 reduction pathways for the period to 2030;Utilisation (YE2023);Financed emissions (YE2023)
-Consumer loans;Retail mortgage financing;57%
-2021: 45.8 kg CO2e /m2
-2023: 44.4 kg CO2e /m2
-2030: 19.8 kg CO2e /m2;€96.6bn;4,49 Mt CO2e
-Project financing/corporate loans and investments;Energy;74%
-2021: 97.3g CO2e /kWh
-2023. 64.9g CO2e /kWh
-2030: 25.6g CO2e /kWh;€8.5bn;4,49 Mt CO2e
-Corporate loans;Commercial real estate, commercial use;67%
-2021: 87.4 kg CO2e /m2
-2030: 28.4 kg CO2e /m2
-2023: 89.0 kg CO2e /m2;€8.5bn;4,49 Mt CO2e
-Corporate loans;Commercial real estate, residential;57%
-2021: 36.6 kg CO2e /m2
-2023: 36.9 kg CO2e /m2
-2030: 15.8 kg CO2e /m2;€8.5bn;4,49 Mt CO2e
-Corporate loans and investments;Iron and steel;36%
-2021: 1.4 t CO2e /t steel
-2023: 1.2 t CO2e /t steel
-2030: 0.9 t CO2e /t steel;€0.2bn;4,49 Mt CO2e
-Corporate loans and investments;Cement;23%
-2021: 0.7 t CO2e /t cement
-2023: 0.8 t CO2e /t cement
-2030: 0.5 t CO2e /t cement;€0.1bn;4,49 Mt CO2e
-Corporate loans and investments;Automotive manufacturing;31%
-2021: 172g CO2e /pkm
-2023: 148g CO2e /pkm
-2030: 118g CO2e /pkm;€0.3bn;4,49 Mt CO2e
-Corporate loans and investments;Aviation;22%
-2021: 796g CO2e /tkm
-2023: 785g CO2e /tkm
-2030: 620g CO2e /tkm;€1.2bn;4,49 Mt CO2e
+Asset class;Sectors;CO2 reduction pathways for the period to 2030;CO2 reduction pathways for the period to 2030;CO2 reduction pathways for the period to 2030;Utilisation (YE2023);Financed emissions (YE2023)
+Consumer loans;Retail mortgage financing;57%;(1.5°);2021: 45.8 kg CO2e /m²;;4,49 Mt CO2e
+;;;;2023: 44.4 kg CO2e /m²;;4,49 Mt CO2e
+;;;;2030: 19.8 kg CO2e /m²;€96.6bn;4,49 Mt CO2e
+Project financing/corporate loans and investments;Energy;74%;(1.5°);2021: 97.3g CO2e /kWh;;4,49 Mt CO2e
+;;;;2023. 64.9g CO2e /kWh;;4,49 Mt CO2e
+;;;;2030: 25.6g CO2e /kWh;€8.5bn;4,49 Mt CO2e
+Corporate loans;Commercial real estate, commercial use;67%;(1.5°);2021: 87.4 kg CO2e /m2;;4,49 Mt CO2e
+;;;;2030: 28.4 kg CO2e /m2;;4,49 Mt CO2e
+;;;;2023: 89.0 kg CO2e /m2;€8.5bn;4,49 Mt CO2e
+Corporate loans;Commercial real estate, residential;57%;(1.5°);2021: 36.6 kg CO2e /m2;;4,49 Mt CO2e
+;;;;2023: 36.9 kg CO2e /m2;;4,49 Mt CO2e
+;;;;2030: 15.8 kg CO2e /m2;€8.5bn;4,49 Mt CO2e
+Corporate loans and investments;Iron and steel;36%;(1.8°);2021: 1.4 t CO2e /t steel;;4,49 Mt CO2e
+;;;;2023: 1.2 t CO2e /t steel;;4,49 Mt CO2e
+;;;;2030: 0.9 t CO2e /t steel;€0.2bn;4,49 Mt CO2e
+Corporate loans and investments;Cement;23%;(1.5°);2021: 0.7 t CO2e /t cement;;4,49 Mt CO2e
+;;;;2023: 0.8 t CO2e /t cement;;4,49 Mt CO2e
+;;;;2030: 0.5 t CO2e /t cement;€0.1bn;4,49 Mt CO2e
+Corporate loans and investments;Automotive manufacturing;31%;(1.8°);2021: 172g CO2e /pkm;;4,49 Mt CO2e
+;;;;2023: 148g CO2e /pkm;;4,49 Mt CO2e
+;;;;2030: 118g CO2e /pkm;€0.3bn;4,49 Mt CO2e
+Corporate loans and investments;Aviation;22%;(1.8°);2021: 796g CO2e /tkm;;4,49 Mt CO2e
+;;;;2023: 785g CO2e /tkm;;4,49 Mt CO2e
+;;;;2030: 620g CO2e /tkm;€1.2bn;4,49 Mt CO2e

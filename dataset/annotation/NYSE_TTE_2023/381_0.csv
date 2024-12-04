@@ -1,30 +1,30 @@
-"Unit";"2015";"2019";"2020";"2021";"2022";"2023"
-"Energy mix (sales)";"";"";"";"";"";""
-"Petroleum products(a) (%)";"65";"53";"47*";"44*";"41";"43"
-"Gas(b) (%)";"33";"40";"45*";"48*";"50";"47"
-"Low-carbon energies(c) (%)";"2";"7";"7";"8*";"9";"9"
-"Petroleum products";"";"";"";"";"";""
-"Petroleum products - sales (Mb/day)";"2.4";"2.3";"1.8";"1.8";"1.7";"1.6"
-"Gas";"";"";"";"";"";""
-"LNG - sales (Mt)";"13";"34";"38";"42";"48";"44"
-"Electricity";"";"";"";"";"";""
-"Gross renewable electricity capacity(d) (GW)";"0";"3";"7";"10";"17";"22"
-"Net production(e) (TWh)";"2";"11";"14";"21";"33";"33"
-"Clients BtB and BtC (Millions)";"<2";"6";"8";"9";"8";"9"
-"EV charging points (Thousands)";"0";"0";"22";"26";"42";"60"
-"Low-carbon molecules";"";"";"";"";"";""
-"Biofuels - production (Mt)";"—";"0.2";"0.3";"0.5";"0.2";"0.3"
-"Biogas - production (TWh)";"—";"—";"—";"<1";"1";"1"
-"Net investments";"";"";"";"";"";""
-"Oil (B$)";"13";"9";"6";"7";"10";"6"
-"LNG & Gas (B$)";"7";"7";"5";"5";"2";"5"
-"Low-carbon energies (B$)";"0";"1";"2";"4";"4";"6"
-"Integrated Power (B$)";"0";"1";"2";"3";"4";"5"
-"Low-carbon molecules (B$)";"0";"<1";"<1";"<1";"<1";"1"
-"Energy consumption";"";"";"";"";"";""
-"Net primary energy consumption(f) (TWh)";"153";"160";"147";"148";"166";"157"
-"Renewable energy consumption(g) (TWh)";"—";"—";"1";"1";"1";"2"
-"Global Energy Efficiency Indicator (GEEI) (Base 100 in 2010)";"90.8";"88.0";"90.2";"87.0";"85.1";"86.4"
-"Energy management system";"";"";"";"";"";""
-"Operated sites with an auditable energy management system (annual consumption > 50 ktoe)(g) (Nb)";"—";"—";"26";"27";"27";"34"
-"Operated sites with annual consumption > 50 ktoe(h) (Nb)";"—";"—";"42";"46";"46";"43"
+Unit;2015;2019;2020;2021;2022;2023
+Energy mix (sales);;;;;;
+Petroleum products(a) (%);65;53;47*;44*;41;43
+Gas(b) (%);33;40;45*;48*;50;47
+Low-carbon energies(c) (%);2;7;7;8*;9;9
+Petroleum products;;;;;;
+Petroleum products - sales (Mb/day);2.4;2.3;1.8;1.8;1.7;1.6
+Gas;;;;;;
+LNG - sales (Mt);13;34;38;42;48;44
+Electricity;;;;;;
+Gross renewable electricity capacity(d) (GW);0;3;7;10;17;22
+Net production(e) (TWh);2;11;14;21;33;33
+Clients BtB and BtC (Millions);<2;6;8;9;8;9
+EV charging points (Thousands);0;0;22;26;42;60
+Low-carbon molecules;;;;;;
+Biofuels - production (Mt);—;0.2;0.3;0.5;0.2;0.3
+Biogas - production (TWh);—;—;—;<1;1;1
+Net investments;;;;;;
+Oil (B$);13;9;6;7;10;6
+LNG & Gas (B$);7;7;5;5;2;5
+Low-carbon energies (B$);0;1;2;4;4;6
+Integrated Power (B$);0;1;2;3;4;5
+Low-carbon molecules (B$);0;<1;<1;<1;<1;1
+Energy consumption;;;;;;
+Net primary energy consumption(f) (TWh);153;160;147;148;166;157
+Renewable energy consumption(g) (TWh);—;—;1;1;1;2
+Global Energy Efficiency Indicator (GEEI) (Base 100 in 2010);90.8;88;90.2;87;85.1;86.4
+Energy management system;;;;;;
+Operated sites with an auditable energy management system (annual consumption > 50 ktoe)(g) (Nb);—;—;26;27;27;34
+Operated sites with annual consumption > 50 ktoe(h) (Nb);—;—;42;46;46;43

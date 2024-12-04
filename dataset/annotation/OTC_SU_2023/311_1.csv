@@ -1,21 +1,21 @@
 GRI;Indicators;Units;2023;2022;2021;2020
 ;Estimated coverage (% total GHG emissions);%;99%;99%;99%;99%
-305-1, 305-2;Estimated Total Scopes 1 and 2 GHG emissions (market-based);TCO₂e;202232;229177;293832;287595
+305-1, 305-2;Estimated Total Scopes 1 and 2 GHG emissions (market-based);TCO2e;202232;229177;293832;287595
 305-5;Absolute reduction vs base year (2021);%;-31.2%;-22.0%;0.0%; NA
-305-4;Total Scopes 1 and 2 per euro turnover;TCO₂e/ million €;5.6;6.7;10.2;11.4
-305-1;Direct (Scope 1) GHG emissions;TCO₂e;112792;119447;140718;142388
-305-1;of which fuel oil;TCO₂e;3116;4414;4520;4451
-305-1;of which gas;TCO₂e;38968;47271;56776;52197
-305-1;of which coal;TCO₂e;0;0;0;0
-305-1;of which vehicle fleet;TCO₂e;61492;55598;62683;73229
-305-1;of which SF₆ emissions;TCO₂e;4054;4606;5886;7287
-305-1;SF₆ leakage rate;%;0.08%;0.08%;0.10%;0.14%
-305-1;Target SF₆ leakage rate;%;0.11%;0.11%;0.19%;0.25%
-305-1;of which estimated Scope 1 GHG emissions of sites out of reporting perimeter;TCO₂e;5162;7557;10853;5224
-305-2;Energy indirect (Scope 2) GHG emissions;TCO₂e;89440;109730;153115;145207
-305-2;of which grid electricity (market-based);TCO₂e;39476;49674;66692;70145
-305-2;of which renewable electricity (market-based);TCO₂e;0;703;701;694
-305-2;of which district heating;TCO₂e;4853;8358;14714;11550
-305-2;of which estimated Scope 2 GHG emissions of sites out of reporting perimeter (market-based);TCO₂e;42961;50995;71008;62818
-305-3;Other relevant indirect (Scope 3) GHG emissions;TCO₂e;56777964;60788549;68737485;65770721
-305-5;Absolute variation vs base year (2021);%;-17.40%;-11.60%;0.00%;NA
+305-4;Total Scopes 1 and 2 per euro turnover;TCO2e/ million €;5.6;6.7;10.2;11.4
+305-1;Direct (Scope 1) GHG emissions;TCO2e;112792;119447;140718;142388
+305-1;of which fuel oil;TCO2e;3116;4414;4520;4451
+305-1;of which gas;TCO2e;38968;47271;56776;52197
+305-1;of which coal;TCO2e;0;0;0;0
+305-1;of which vehicle fleet;TCO2e;61492;55598;62683;73229
+305-1;of which SF6 emissions;TCO2e;4054;4606;5886;7287
+305-1;SF6 leakage rate;%;0.08%;0.08%;0.10%;0.14%
+305-1;Target SF6 leakage rate;%;0.11%;0.11%;0.19%;0.25%
+305-1;of which estimated Scope 1 GHG emissions of sites out of reporting perimeter;TCO2e;5162;7557;10853;5224
+305-2;Energy indirect (Scope 2) GHG emissions;TCO2e;89440;109730;153115;145207
+305-2;of which grid electricity (market-based);TCO2e;39476;49674;66692;70145
+305-2;of which renewable electricity (market-based);TCO2e;0;703;701;694
+305-2;of which district heating;TCO2e;4853;8358;14714;11550
+305-2;of which estimated Scope 2 GHG emissions of sites out of reporting perimeter (market-based);TCO2e;42961;50995;71008;62818
+305-3;Other relevant indirect (Scope 3) GHG emissions;TCO2e;56777964;60788549;68737485;65770721
+305-5;Absolute variation vs base year (2021);%;-17.4%;-11.6%;0.0%;NA

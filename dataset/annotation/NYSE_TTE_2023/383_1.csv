@@ -1,17 +1,17 @@
 Estimates of indirect GHG emissions - Scope 3;Unit;2022;2023
 Categories of Scope 3;-;-;-
-Cat 1 Purchased goods and services(a);Mt CO₂e;30;27
-Cat 2 Capital goods(b);Mt CO₂e;<1;3
-Cat 3 Fuel-and-energy-related activities (not included in Scope 1+2)(c);Mt CO₂e;3;4
-Cat 4 Upstream transportation(d);Mt CO₂e;9;8
-Cat 5 Waste generated in operations(e);Mt CO₂e;<1;1
-Cat 6 Business travel(f);Mt CO₂e;<1;<1
-Cat 7 Employee commuting(g);Mt CO₂e;<1;<1
-Cat 8 Upstream leased assets(h);Mt CO₂e;0;0
-Cat 9 Downstream transportation(i);Mt CO₂e;1;1
-Cat 10 Processing of sold products(j);Mt CO₂e;6;5
-Cat 11 Use of sold products(k);Mt CO₂e;389*(381);355
-Cat 12 End of life treatment of sold products(l);Mt CO₂e;11;10
-Cat 13 Downstream leased assets(m);Mt CO₂e;n/a;n/a
-Cat 14 Franchises(n);Mt CO₂e;<1;<1
-Cat 15 Investments(o);Mt CO₂e;n/a;n/a
+Cat 1 Purchased goods and services(a);Mt CO2e;30;27
+Cat 2 Capital goods(b);Mt CO2e;<1;3
+Cat 3 Fuel-and-energy-related activities (not included in Scope 1+2)(c);Mt CO2e;3;4
+Cat 4 Upstream transportation(d);Mt CO2e;9;8
+Cat 5 Waste generated in operations(e);Mt CO2e;<1;1
+Cat 6 Business travel(f);Mt CO2e;<1;<1
+Cat 7 Employee commuting(g);Mt CO2e;<1;<1
+Cat 8 Upstream leased assets(h);Mt CO2e;0;0
+Cat 9 Downstream transportation(i);Mt CO2e;1;1
+Cat 10 Processing of sold products(j);Mt CO2e;6;5
+Cat 11 Use of sold products(k);Mt CO2e;389*(381);355
+Cat 12 End of life treatment of sold products(l);Mt CO2e;11;10
+Cat 13 Downstream leased assets(m);Mt CO2e;n/a;n/a
+Cat 14 Franchises(n);Mt CO2e;<1;<1
+Cat 15 Investments(o);Mt CO2e;n/a;n/a
