@@ -284,9 +284,9 @@ class QuantitativeQAGenerator(QAGenerator):
         return str(res) if to_str else res
 
 
-class RankingQAGenerator(QAGenerator):
+class RelationQAGenerator(QAGenerator):
     def __init__(self, df):
-        super(RankingQAGenerator, self).__init__(df)
+        super(RelationQAGenerator, self).__init__(df)
         self.df = df
         self.fns = [
             self.rank,
@@ -407,19 +407,11 @@ class ExtractiveQAGenerator:
                 new_dataset.append([pdf_name, gri, page_nbr, table_nbr, k, v])
 
         new_df = pd.DataFrame(new_dataset)
-        new_df.to_csv("qa_dataset_aggr.csv", sep=";")
-
-      
-def to_float(value):
-            try:
-                value = float(value.replace(",", "."))
-            except:
-                return None
-            return value      
+        new_df.to_csv("qa_dataset_aggr.csv", sep=";")    
 
 if __name__ == "__main__":
     df = pd.read_csv("qa_dataset.csv")
-    q_qagenerator = RankingQAGenerator(df)
+    q_qagenerator = RelationQAGenerator(df)
     res = q_qagenerator.generate()
     print(res)
     print(len(res))
