@@ -1,4 +1,5 @@
-TCO,eq;2023;2022;(2023 vs 2022)
+TCO2eq;2023;2022;"% change
+(2023 vs 2022)"
 Scope 1;10291;11228;-8%
 Scope 2 market-based;14221;19496;-27%
 Scope 2 location-based;22042;22603;-2%

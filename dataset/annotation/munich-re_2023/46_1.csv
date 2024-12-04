@@ -1,4 +1,6 @@
-Scope;Source of emission;2023 t CO2e/Headcount;Prev. year t CO2e/Headcount;Change %;Base year 2019;Change %;2023 t CO2e/€M;Prev. year t CO2e/€M;Change %
+;;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Insurance revenue;GHG emissions/Insurance revenue;GHG emissions/Insurance revenue
+;;2023;Prev. Year;Change;Base year 2019;Change;2023;Prev. Year;Change
+Scope;Source of emission;t CO2e/Headcount;t CO2e/Headcount;%;t CO2e/Headcount;%;t CO2e/�m;t CO2e/�m;%
 Scope 1;GHG emissions from direct energy consumption ;0.77;1.05;–26.4;1.11;–30.4;0.57;0.79;–27.5
 ;Thereof from business trips with company cars;0.25;0.3;–15.7;0.29;–12.8;0.19;0.22;–15.9
 Scope 2;GHG emissions from indirect energy consumption (market-based);0.33;0.44;–24.3;0.69;–51.7;0.25;0.33;–25.5

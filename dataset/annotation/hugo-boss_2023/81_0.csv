@@ -1,18 +1,18 @@
-Scope 1;;2023;2022;Base year: 2019
-Own vehicles;;3915;3068;3094
-Direct energy consumption;;7523;8033;9029
-Total Scope 1;;11438;11101;12123
-Scope 2 (market-based);;;;
-Indirect energy consumption;;18625;18820;19941
-Total Scope 2;;18625;18820;19941
-Scope 3;;;;
-3.1 Purchased goods and services;;939898;931590;645516
-3.3 Fuel- and energy-related activities;;8059;7555;8138
-3.4 Upstream transportation and distribution;;67878;86698;38868
-3.5 Waste generated in operations;;2278;1972;708
-3.6 Business travel;;7042;4092;7012
-3.7 Employee commuting;;5026;4594;9387
-3.8 Upstream leased assets;;3167;3821;5809
-3.12 End-of-life treatment of sold products;;23497;23290;16138
-Total Scope 3;;1056845;1063612;731576
-Total greenhouse gas emissions;;1086908;1093533;763640
+Scope 1;2023;2022;Base year: 2019
+Own vehicles;3915;3068;3094
+Direct energy consumption;7523;8033;9029
+Total Scope 1;11438;11101;12123
+Scope 2 (market-based);;;
+Indirect energy consumption;18625;18820;19941
+Total Scope 2;18625;18820;19941
+Scope 3;;;
+3.1 Purchased goods and services;939898;931590;645516
+3.3 Fuel- and energy-related activities;8059;7555;8138
+3.4 Upstream transportation and distribution;67878;86698;38868
+3.5 Waste generated in operations;2278;1972;708
+3.6 Business travel;7042;4092;7012
+3.7 Employee commuting;5026;4594;9387
+3.8 Upstream leased assets;3167;3821;5809
+3.12 End-of-life treatment of sold products;23497;23290;16138
+Total Scope 3;1056845;1063612;731576
+Total greenhouse gas emissions;1086908;1093533;763640

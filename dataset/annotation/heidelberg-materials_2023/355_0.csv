@@ -1,31 +1,31 @@
-CO2 emissions;;1990;2021;2022;2023;unit
-Cement business line;;;;;;
-Absolute gross CO2 emissions (Scope 1);;82.6;69;65.4;61.2;million t
-Absolute net CO2 emissions (Scope 1);;81;64.6;61.2;57.1;million t
-Specific gross CO2 emissions per tonne of cementitious material (Scope 1);;759.6;598.7;586;569;kg CO2/t
-Specific net CO2 emissions per tonne of cementitious material (Scope 1);;751.8;565;551;534;kg CO2/t
-Absolute CO2 emissions from external electrical power and thermal energy production (Scope 2) - market based approach;;4.5;;;;million t
-Absolute CO2 emissions from external electrical power and thermal energy production (Scope 2) - location based approach;;6.6;4.8;4.5;4.4;million t
-Specific CO2 emissions from external electrical power and thermal energy production per tonne of cementitious material (Scope 2) - market based approach;;-;-;-;42;kg CO2/t
-Specific CO2 emissions from external electrical power and thermal energy production per tonne of cementitious material (Scope 2) - location based approach;;-;42;41;41;kg CO2/t
-Share of Scope 1 emissions covered by the ETS or other climate regulation;;-;-;-;41;%
-Aggregates business line;;;;;;
-Absolute CO2 emissions from fuels (Scope 1);;-;0.49;0.51;0.58;million t
-Specific CO2 emissions from fuels (Scope 1);;-;1.62;1.79;2.14;kg CO2/t
-Absolute CO2 emissions from external electrical and thermal production (Scope 2) - market based approach;;-;-;-;0.25;million t
-Absolute CO2 emissions from external electrical power and thermal energy production (Scope 2) - location based approach;;-;-;-;0.25;million t
-Specific CO2 emissions from external electrical power and thermal energy production (Scope 2) - market based approach;;-;-;-;0.93;kg CO2/t
-Specific CO2 emissions from external electrical power and thermal energy production (Scope 2) - location based approach;;-;-;-;0.94;kg CO2/t
-All business lines;;;;;;
-CO2 emissions from offsite transport (Scope 1);;-;-;-;1.5;million t
-CO2 emissions from purchased materials (Scope 3);;-;12;9.7;7.9;million t
-CO2 emissions from purchased fuels (Scope 3);;-;3.7;3.4;3.7;million t
-CO2 emissions from upstream and downstream transportation and distribution (Scope 3);;-;8.2;7.6;3.5;million t
-CO2 emissions from processing of sold products (Scope 3);;-;-;-;0.2;million t
-CO2 emissions from investments (Scope 3);;-;-;-;7.5;million t
-Specific CO2 emissions per Group revenue;;-;-;-;3.9;kt CO2/€m
-Energy/raw materials;;;;;;
-Absolute energy consumption;;;;;;
-- Cement;;450860;353640;337186;318671;TJ
-- Thereof clinker production;;385973;319656;309153;291023;TJ
-- Aggregates;;n.a.;9586;9900;11104;TJ
+CO2 emissions;1990;2021;2022;2023;unit
+Cement business line;;;;;
+Absolute gross CO2 emissions (Scope 1);82.6;69;65.4;61.2;million t
+Absolute net CO2 emissions (Scope 1);81;64.6;61.2;57.1;million t
+Specific gross CO2 emissions per tonne of cementitious material (Scope 1);759.6;598.7;586;569;kg CO2/t
+Specific net CO2 emissions per tonne of cementitious material (Scope 1);751.8;565;551;534;kg CO2/t
+Absolute CO2 emissions from external electrical power and thermal energy production (Scope 2) - market based approach;;;;4.5;million t
+Absolute CO2 emissions from external electrical power and thermal energy production (Scope 2) - location based approach;6.6;4.8;4.5;4.4;million t
+Specific CO2 emissions from external electrical power and thermal energy production per tonne of cementitious material (Scope 2) - market based approach;-;-;-;42;kg CO2/t
+Specific CO2 emissions from external electrical power and thermal energy production per tonne of cementitious material (Scope 2) - location based approach;-;42;41;41;kg CO2/t
+Share of Scope 1 emissions covered by the ETS or other climate regulation;-;-;-;41;%
+Aggregates business line;;;;;
+Absolute CO2 emissions from fuels (Scope 1);-;0.49;0.51;0.58;million t
+Specific CO2 emissions from fuels (Scope 1);-;1.62;1.79;2.14;kg CO2/t
+Absolute CO2 emissions from external electrical and thermal production (Scope 2) - market based approach;-;-;-;0.25;million t
+Absolute CO2 emissions from external electrical power and thermal energy production (Scope 2) - location based approach;-;-;-;0.25;million t
+Specific CO2 emissions from external electrical power and thermal energy production (Scope 2) - market based approach;-;-;-;0.93;kg CO2/t
+Specific CO2 emissions from external electrical power and thermal energy production (Scope 2) - location based approach;-;-;-;0.94;kg CO2/t
+All business lines;;;;;
+CO2 emissions from offsite transport (Scope 1);-;-;-;1.5;million t
+CO2 emissions from purchased materials (Scope 3);-;12;9.7;7.9;million t
+CO2 emissions from purchased fuels (Scope 3);-;3.7;3.4;3.7;million t
+CO2 emissions from upstream and downstream transportation and distribution (Scope 3);-;8.2;7.6;3.5;million t
+CO2 emissions from processing of sold products (Scope 3);-;-;-;0.2;million t
+CO2 emissions from investments (Scope 3);-;-;-;7.5;million t
+Specific CO2 emissions per Group revenue;-;-;-;3.9;kt CO2/€m
+Energy/raw materials;;;;;
+Absolute energy consumption;;;;;
+- Cement;450860;353640;337186;318671;TJ
+- Thereof clinker production;385973;319656;309153;291023;TJ
+- Aggregates;n.a.;9586;9900;11104;TJ
