@@ -183,6 +183,10 @@ class QAGenerator:
             if len(numeric_values) < 2:
                 return None
             
+            if function_name == "rank":
+                firstk = random.randint(2, len(numeric_values))
+                return self.fns[question_idx](numeric_values, firstk=firstk)
+            
             return self.fns[question_idx](numeric_values)
         
         def create_question_from_two_values():
@@ -191,7 +195,7 @@ class QAGenerator:
 
             if value is None or value2 is None:
                 return None
-            if self.fns[question_idx].__name__ in ["reduction_percentage", "increase_percentage"] and value == 0:
+            if function_name in ["reduction_percentage", "increase_percentage"] and value == 0:
                 return None
 
             return self.fns[question_idx]([value, value2])
@@ -200,8 +204,12 @@ class QAGenerator:
             row_idx = get_random_index(len(table))
             col_idx = get_random_index(len(table.columns))
 
-            function_name = self.fns[question_idx].__name__
-            if function_name in ["rank", "superlative_min", "superlative_max"]:
+            try:
+                function_name = self.fns[question_idx].__name__
+            except:
+                function_name = self.fns[question_idx].func.__name__ #accounting for functools.partial functions
+                
+            if function_name in ["rank", "superlative"]:
                 result = create_question_from_n_values()
             elif function_name in ["sum", "average"]:
                 two_or_more = random.randint(0,1) #0 to create binary questions, 1 otherwise
@@ -291,14 +299,14 @@ class RankingQAGenerator(QAGenerator):
         self.dataset_schema = [
             ["pdf name", "gri", "page nbr", "table nbr", "question", "value"]]
 
-    def rank_asc(self, values, desc=False):
-        return ', '.join(values.sort(reverse=desc))
+    def rank(self, values, firstk, desc=False):
+        return ', '.join([str(value) for value in sorted(values, reverse=desc)][:firstk])
 
     def superlative(self, values, maximise=True, to_str=True):
         fn = max if maximise else min
         return str(fn(values)) if to_str else fn(values)
 
-    def comparative_max(self, values, maximise=True, to_str=True):
+    def comparative(self, values, maximise=True, to_str=True):
         if len(values) != 2:
             raise ValueError(
                 f"Can't calculate the comparison between more than 2 values")
@@ -411,7 +419,7 @@ def to_float(value):
 
 if __name__ == "__main__":
     df = pd.read_csv("qa_dataset.csv")
-    q_qagenerator = QuantitativeQAGenerator(df)
+    q_qagenerator = RankingQAGenerator(df)
     res = q_qagenerator.generate()
     print(res)
     print(len(res))
