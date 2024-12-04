@@ -1,3 +1,4 @@
+import math
 import pandas as pd
 import json
 import csv
@@ -111,13 +112,15 @@ class QAGenerator:
             question_type_ext = i % len(self.fns)
             result, question = self.create_sample(
                 table, question_type_ext, row_column_qa)
-            print(i)
 
             new_row = [
                 pdf_name, gri, page_nbr, table_nbr,
                 question, self.__class__.__name__, question_type_ext, result
             ]
             new_dataset.append(new_row)
+            
+            if i != 0 and not (i+1) % len(self.fns):
+                row_column_qa = 1-row_column_qa
 
         return new_dataset
 
@@ -131,6 +134,8 @@ class QAGenerator:
                     value = float(value.replace(",", "."))
                 else:
                     value = float(value)
+                if math.isnan(value):
+                    raise
             except:
                 return None
             return value
@@ -163,11 +168,33 @@ class QAGenerator:
                     len(table.columns), exclude=col_idx, col_names=table.columns)
                 value2 = to_float(table.iloc[row_idx, col_idx2])
             else:
-                print("here1")
                 row_idx2 = get_random_index(len(table), exclude=row_idx)
-                print("here2")
                 value2 = to_float(table.iloc[row_idx2, col_idx])
             return value2
+
+        def create_question_from_n_values():
+            iterable = table.loc[
+                row_idx, [
+                    self.is_year(col) for col in table.columns
+                ]
+            ] if not row_column_qa else table.iloc[:, col_idx]  # check if the unit measure is the same
+
+            numeric_values = get_numeric_values(iterable)
+            if len(numeric_values) < 2:
+                return None
+            
+            return self.fns[question_idx](numeric_values)
+        
+        def create_question_from_two_values():
+            value = to_float(table.iloc[row_idx, col_idx])
+            value2 = process_values_based_on_mode()
+
+            if value is None or value2 is None:
+                return None
+            if self.fns[question_idx].__name__ in ["reduction_percentage", "increase_percentage"] and value == 0:
+                return None
+
+            return self.fns[question_idx]([value, value2])
 
         while result is None:
             row_idx = get_random_index(len(table))
@@ -175,34 +202,15 @@ class QAGenerator:
 
             function_name = self.fns[question_idx].__name__
             if function_name in ["rank", "superlative_min", "superlative_max"]:
-                iterable = table.loc[
-                    row_idx, [
-                        self.is_year(col) for col in table.columns
-                    ]
-                ] if not row_column_qa else table.iloc[:, col_idx]  # check if the unit measure is the same
-
-                numeric_values = get_numeric_values(iterable)
-                if len(numeric_values) < 2:
-                    continue
-                result = self.fns[question_idx](numeric_values)
+                result = create_question_from_n_values()
+            elif function_name in ["sum", "average"]:
+                two_or_more = random.randint(0,1) #0 to create binary questions, 1 otherwise
+                if not two_or_more:
+                    result = create_question_from_two_values()
+                else:
+                    result = create_question_from_n_values()
             else:
-                value = to_float(table.iloc[row_idx, col_idx])
-                print("Valore", value)
-                print(table)
-                value2 = process_values_based_on_mode()
-                print(value)
-                print(value2)
-                print(row_idx)
-                print(col_idx)
-                print(table.iloc[row_idx, col_idx])
-                if value is None:
-                    continue
-                if value2 is None:
-                    continue
-                if self.fns[question_idx].__name__ in ["reduction_percentage", "increase_percentage"] and value == 0:
-                    continue
-
-                result = self.fns[question_idx]([value, value2])
+                result = create_question_from_two_values()
 
         return result, question
 
@@ -223,11 +231,13 @@ class QuantitativeQAGenerator(QAGenerator):
                                 "question", "question_type", "question_type_ext", "value"]]
 
     def average(self, values, to_str=True):
-        res = float(sum(values)) / len(values)
+        res = round(float(sum(values)) / len(values),2)
+        #print(f"Average: {res}")
         return str(res) if to_str else res
 
     def sum(self, values, to_str=True):
-        res = sum(values)
+        res = round(sum(values),2)
+        #print(f"Sum: {res}")
         return str(res) if to_str else res
 
     def reduction_percentage(self, values, to_str=True):
@@ -239,7 +249,8 @@ class QuantitativeQAGenerator(QAGenerator):
             raise ValueError(
                 f"Can't calculate the reduction percentage of more than 2 values")
 
-        res = (values[0] - values[1]) * 100 / values[0]
+        res = round((values[0] - values[1]) * 100 / values[0],2)
+        #print(f"Reduction percentage: {res}")
         return str(res) if to_str else res
 
     def reduction_difference(self, values, to_str=True):
@@ -251,14 +262,18 @@ class QuantitativeQAGenerator(QAGenerator):
             raise ValueError(
                 f"Can't calculate the reduction difference of more than 2 values")
 
-        res = values[0] - values[1]
-        return res
+        res = round(values[0] - values[1], 2)
+        #print(f"Reduction difference: {res}")
+
+        return str(res) if to_str else res
 
     def increase_percentage(self, values, to_str=True):
-        return f"-{self.reduction_percentage(values, to_str)}"
+        res = -self.reduction_percentage(values, to_str=False)
+        return str(res) if to_str else res
 
     def increase_difference(self, values, to_str=True):
-        return f"-{self.reduction_difference(values, to_str)}"
+        res = -self.reduction_difference(values, to_str=False)
+        return str(res) if to_str else res
 
 
 class RankingQAGenerator(QAGenerator):
