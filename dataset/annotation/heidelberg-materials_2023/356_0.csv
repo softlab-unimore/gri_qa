@@ -1,32 +1,32 @@
 ;1990;2021;2022;2023;Unit
 Consumption of renewable energy;-;9.1;10.7;12.3;%
 Specific energy consumption;;;;;
-- Cement;4186;3093;3037;2981;MJ/t
-- Thereof clinker production;4359;3859;3880;3864;MJ/t
-- Aggregates;n.a.;31.6;34.8;41;MJ/t
+ - Cement;4186;3093;3037;2981;MJ/t
+ - Thereof clinker production;4359;3859;3880;3864;MJ/t
+ - Aggregates;n.a.;31.6;34.8;41;MJ/t
 Fuel mix for clinker production;;;;;
-- Hard coal;52.5;41.7;37.3;34.5;%
-- Lignite;0;1.9;1.9;1.4;%
-- Petroleum coke;8.6;18.9;20.9;20.9;%
-- Natural gas;17.1;10.6;10.8;12.9;%
-- Light fuel oil;0.6;0.2;0.2;0.1;%
-- Heavy fuel oil;16;0.2;0.3;0.2;%
-- Other fossil fuels;2.2;0;0;0;%
-- Alternative fossil fuels;2.8;15.4;16.1;16.7;%
-- Biomass;0.2;11.2;12.6;13.2;%
-- Proportion of biomass in mix of alternative fuels;6.3;42;43.8;44.1;%
+ - Hard coal;52.5;41.7;37.3;34.5;%
+ - Lignite;0;1.9;1.9;1.4;%
+ - Petroleum coke;8.6;18.9;20.9;20.9;%
+ - Natural gas;17.1;10.6;10.8;12.9;%
+ - Light fuel oil;0.6;0.2;0.2;0.1;%
+ - Heavy fuel oil;16;0.2;0.3;0.2;%
+ - Other fossil fuels;2.2;0;0;0;%
+ - Alternative fossil fuels;2.8;15.4;16.1;16.7;%
+ - Biomass;0.2;11.2;12.6;13.2;%
+ - Proportion of Biomass in mix of Alternative fuels;6.3;42;43.8;44.1;%
 Alternative fuel mix for clinker production;;;;;
-- RDF;1.6;26.1;26;26.9;%
-- Waste oil;29;2.6;1.9;2.1;%
-- Used tyres;17.1;9.8;8.9;7.4;%
-- Solvents;30.8;6.8;6;5;%
-- Dried sewage sludge;0;1.7;1.6;1.5;%
-- Meat and bone meal;0;3.2;3.3;3.1;%
-- Agricultural waste and waste wood;0;9.3;10.4;11.9;%
-- Other biomass;6.3;27.8;28.5;27.7;%
-- Other alternative fuels;15.1;12.8;13.3;14.5;%
+ - RDF;1.6;26.1;26;26.9;%
+ - Waste oil;29;2.6;1.9;2.1;%
+ - Used tyres;17.1;9.8;8.9;7.4;%
+ - Solvents;30.8;6.8;6;5;%
+ - Dried sewage sludge;0;1.7;1.6;1.5;%
+ - Meat and bone meal;0;3.2;3.3;3.1;%
+ - Agricultural Waste and Waste wood;0;9.3;10.4;11.9;%
+ - Other Biomass;6.3;27.8;28.5;27.7;%
+ - Other Alternative fuels;15.1;12.8;13.3;14.5;%
 Alternative fuel rate (incl. biomass);3;26.4;28.7;29.9;%
 Clinker content in cementitious material;82;72.9;71.6;70.2;%
 Proportion of alternative raw materials;;;;;
-- Clinker;n.a.;3.8;4;4.1;%
-- Cement;n.a.;9.8;10.6;11;%
+ - clinker;n.a.;3.8;4;4.1;%
+ - Cement;n.a.;9.8;10.6;11;%

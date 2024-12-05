@@ -1,19 +1,19 @@
 ;Energy;Unit;2023;2022;% change
 Electricity;Consumption of electricity from non-renewable sources (a);MWh;33520;57761;-42%
-;Consumption of electricity from renewable sources;MWh;44811;30521;+47%
+;Consumption of electricity from renewable sources;MWh;44811;30521;47%
 ;Self-consumption of electricity from renewable sources (b);MWh;1229;1624;-24%
 ;Total electricity consumption;MWh;79560;89906;-12%
 Buildings excluding electricity;Consumption of natural gas (c);MWh GCV;4269;4869;-12%
 ;Consumption of domestic fuel (c);MWh GCV;563;162;x3.5
-;Consumption of steam used for space heating (heating network);MWh;5253;4881;+8%
+;Consumption of steam used for space heating (heating network);MWh;5253;4881;8%
 ;Cold consumption (cooling network);MWh;1591;2468;-36%
 ;Total energy consumption for buildings excluding electricity;MWh;11676;12380;-6%
-Vehicle fleet;Fuel consumption for the vehicle fleet (c);MWh GCV;17978;14862;+21%
+Vehicle fleet;Fuel consumption for the vehicle fleet (c);MWh GCV;17978;14862;21%
 ;Diesel consumption for the vehicle fleet (c);MWh GCV;14415;17675;-18%
 ;LPG consumption for the vehicle fleet (c) (d);MWh GCV;7;25;-72%
 ;Electricity consumption for the vehicle fleet (e);MWh;140;58;x2.4
 ;Total energy consumption for the vehicle fleet;MWh;32540;32620;-0.2%
 Generators;Fuel consumption for generators (c);MWh GCV;154;2477;-94%
-;Diesel consumption for generators (c);MWh GCV;3410;2405;+42%
+;Diesel consumption for generators (c);MWh GCV;3410;2405;42%
 ;Total energy consumption for generators;MWh GCV;3564;4882;-27%
 ;Total energy consumption;MWh;127340;139788;-9.00%

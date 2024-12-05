@@ -1,4 +1,4 @@
-Model;Fuel consumption in /100km (combined/weighted combined) max/min;CO, emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min;Electric range (combined/weighted combined);Fuel consumption in /100km (combined/weighted combined) max/min;CO, emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min
+Model;Fuel consumption in l/100km (combined/weighted combined) max/min;CO2 emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min;Electric range (combined/weighted combined);Fuel consumption in l/100km (combined/weighted combined) max/min;CO2 emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min
 BMW iX1 xDrive20;-;-;17.2-15.4;430 - 474;-;-;-
 BMW iX1 xDrive30;-;-;18.1 - 16.9;417 - 439;-;-;-
 BMW iX2 xDrive30;-;-;17.7 - 16.3;417 - 449;-;-;-

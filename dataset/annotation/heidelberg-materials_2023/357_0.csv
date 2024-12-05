@@ -1,16 +1,16 @@
 ;2008;2021;2022;2023;Unit
 Emissions;;;;;
-Absolute NO, emissions;84571;102203;98758;90.784;t
-Specific NO, emissions;1585;1235;1249;1205;g/t clinker
-Absolute SO, emissions;27007;27543;27636;24.589;t
-Specific SO, emissions;506;333;349;326;g/t clinker
+Absolute NOx, emissions;84571;102203;98758;90.784;t
+Specific NOx, emissions;1585;1235;1249;1205;g/t clinker
+Absolute SOx, emissions;27007;27543;27636;24.589;t
+Specific SOx, emissions;506;333;349;326;g/t clinker
 Absolute dust emissions;17043;3250;2236;2.725;t
 Specific dust emissions;319;39;28;36;g/t clinker
 Proportion of clinker produced in kilns with continuous or discontinuous measurement of all emissions;49;67;77;74;%
 Proportion of clinker produced in kilns with continuous measurement of dust, NOx, and SOx emissions;63;86;90;87;%
 Mercury emissions;;;;;
-- Specific emissions;n.a.;0.018;0.015;0.018;g/t clinker
-- Number reported;n.a.;94;94;80;number
+ - Specific emissions;n.a.;0.018;0.015;0.018;g/t clinker
+ - Number reported;n.a.;94;94;80;number
 Dioxins and furans;;;;;
-- Specific emissions;n.a.;0.042;0.073;0.057;ug TEQ/t clinker
-- Number of kilns reported;n.a.;85;89;76;number
+ - Specific emissions;n.a.;0.042;0.073;0.057;ug TEQ/t clinker
+ - Number of kilns reported;n.a.;85;89;76;number

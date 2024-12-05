@@ -1,4 +1,4 @@
-Model;Fuel consumption in /100km (combined/weighted combined) max/min;CO, emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min;Electric range (combined/weighted combined);Fuel consumption in /100km (combined/weighted combined) max/min;CO, emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min
+Model;Fuel consumption in l/100km (combined/weighted combined) max/min;CO2 emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min;Electric range (combined/weighted combined);Fuel consumption in l/100km (combined/weighted combined) max/min;CO2 emissions in g/km (combined/weighted combined) max/min;Electricity power consumption in kWh/100 km (combined/weighted combined) max/min
 BMW; ; ; ; ; ; ; 
 BMW M3 CS;10.4 - 10.1;234 - 229; -; -; -; -; -
 BMW i4 eDrive35; -; -;18.7 - 15.8;406 - 483; -; -; -

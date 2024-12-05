@@ -1,12 +1,12 @@
 ;;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Employee;GHG emissions/Insurance revenue;GHG emissions/Insurance revenue;GHG emissions/Insurance revenue
 ;;2023;Prev. Year;Change;Base year 2019;Change;2023;Prev. Year;Change
 Scope;Source of emission;t CO2e/Headcount;t CO2e/Headcount;%;t CO2e/Headcount;%;t CO2e/�m;t CO2e/�m;%
-Scope 1;GHG emissions from direct energy consumption ;0.77;1.05;–26.4;1.11;–30.4;0.57;0.79;–27.5
-;Thereof from business trips with company cars;0.25;0.3;–15.7;0.29;–12.8;0.19;0.22;–15.9
-Scope 2;GHG emissions from indirect energy consumption (market-based);0.33;0.44;–24.3;0.69;–51.7;0.25;0.33;–25.5
-Scope 3;GHG emissions from upstream activities;0.53;0.43;22.8;0.68;–22.6;0.39;0.32;21.8
-;Thereof business trips (excluding those with company cars that are reported within scope 1);0.46;0.35;30;0.57;–20.2;0.34;0.26;28.6
-;Thereof from paper;0.02;0.02;20;0.03;–20.0;0.02;0.02;–3.7
-;Thereof from waste;0.04;0.05;–16.0;0.07;–40.0;0.03;0.03;–10.5
-;Thereof from water;0.01;0.01;–30.0;0.01;–41.7;0.01;0.01;–13.2
+Scope 1;GHG emissions from direct energy consumption ;0.77;1.05;-26.4;1.11;-30.4;0.57;0.79;-27.5
+;Thereof from business trips with company cars;0.25;0.3;-15.7;0.29;-12.8;0.19;0.22;-15.9
+Scope 2;GHG emissions from indirect energy consumption (market-based);0.33;0.44;-24.3;0.69;-51.7;0.25;0.33;-25.5
+Scope 3;GHG emissions from upstream activities;0.53;0.43;22.8;0.68;-22.6;0.39;0.32;21.8
+;Thereof business trips (excluding those with company cars that are reported within scope 1);0.46;0.35;30;0.57;-20.2;0.34;0.26;28.6
+;Thereof from paper;0.02;0.02;20;0.03;-20.0;0.02;0.02;-3.7
+;Thereof from waste;0.04;0.05;-16.0;0.07;-40.0;0.03;0.03;-10.5
+;Thereof from water;0.01;0.01;-30.0;0.01;-41.7;0.01;0.01;-13.2
 Scope 1-3 - Own operations;Total GHG emissions, scope 1-3 own operations, scope 2 market based;1.63;1.93;-15.3;2.48;-34.2;1.21;1.44;-16.1
