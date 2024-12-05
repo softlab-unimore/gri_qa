@@ -1,3 +1,4 @@
+import inspect
 import math
 import pandas as pd
 import json
@@ -42,7 +43,7 @@ def to_float(value):
 
 
 class OpenAIModel:
-    def __init__(self, model_name="gpt-4o-mini", temperature=0.3, max_retries=2, max_tokens=None, timeout=None):
+    def __init__(self, model_name="gpt-4o-mini", temperature=0.1, max_retries=2, max_tokens=None, timeout=None):
         self.llm = ChatOpenAI(
             model=model_name,
             temperature=temperature,
@@ -63,7 +64,7 @@ class OpenAIModel:
     def invoke(self, prompt):
         messages = deepcopy(self.messages)
         messages.append(["human", prompt])
-        return self.llm.invoke(self.messages)
+        return self.llm.invoke(messages)
 
 
 class QuestionGenerator:
@@ -75,9 +76,8 @@ class QuestionGenerator:
         Do not write anything else other than the requested question. Do not use any Markdown formatting."""
         self.llm.set_system_message(system_message)
         
-        self.prompt = """You will be given a table, an answer and the description of a Python function that generated the answer from the table.
-        Your job is to create a question that can be resolved by the answer. The question must be clear and not ambiguous.
-        
+        self.prompt = """Create a question grounded on the table that can be resolved by the answer. To create the question, strictly follow the function description and use that information to create your question.
+
         # TABLE
         
         {}
@@ -113,15 +113,48 @@ class QuestionGenerator:
         }
         
     def generate_question(self, row):
-        #self.dataset_schema = [["pdf name", "gri", "page nbr", "table nbr",
-        #                        "question", "question_type", "question_type_ext", "value"]]
         
         table = extract_table(str(row["pdf name"]), str(row["page nbr"]), str(row["table nbr"]))
         answer = str(row["value"])
         function_description = self.fn_descriptions[row["question_type_ext"]]
-        if row["question_type_ext"] == "rank":
-            function_description += f"\n\nFor this operation, firstk is equal to {int(row['firstk'])}"
+        fn_details = row["fn_details"]
         
+        if row["question_type_ext"] == "rank":
+            function_description += f"\n\nIn this case, firstk is equal to {int(row['firstk'])}."
+            
+            if "desc" in fn_details["keywords"].keys():
+                word = fn_details["keywords"]["desc"]
+            else:
+                for dictionary in fn_details["args"]:
+                    if dictionary["name"] == "desc":
+                        word = dictionary["default"]
+                        break
+            
+            function_description += f"Also, desc is equal to {word}.\nThe row and column indices whose values have been considered for the ranking are:\n"
+            for row_idx, col_idx in zip(row["row indices"], row["col indices"]):
+                function_description += f"- Row \"{table.iloc[row_idx-2,0]}\" with column \"{table.columns[col_idx-1]}\"\n"
+            #function_description += "Question template: \"What are the `firstk` values \""
+            
+        elif row["question_type_ext"] == "comparative" or row["question_type_ext"] == "superlative":
+            if "maximise" in fn_details["keywords"].keys():
+                word = fn_details["keywords"]["maximise"]
+            else:
+                for dictionary in fn_details["args"]:
+                    if dictionary["name"] == "maximise":
+                        word = dictionary["default"]
+                        break
+
+            function_description += f"\n\nIn this case, maximise is equal to {word}.\nThe row and column indices whose values have been considered for the comparison are:\n"
+            for row_idx, col_idx in zip(row["row indices"], row["col indices"]):
+                function_description += f"- Row \"{table.iloc[row_idx-2,0]}\" with column \"{table.columns[col_idx-1]}\"\n"
+        
+        full_prompt = self.prompt.format(table, function_description, answer)
+        print(row)
+        res = self.llm.invoke(full_prompt)
+        print(res)
+        print(a)
+        return res
+
     
     def generate_questions(self, df):
         if not isinstance(df, pd.DataFrame):
@@ -230,19 +263,30 @@ class ResponseGenerator:
 
     def inspect_function(self, fn):
         if isinstance(fn, partial):
+            # Extract details from the partial function
+            sig = inspect.signature(fn.func)
+            defaults = {k: v.default for k, v in sig.parameters.items() if v.default is not inspect.Parameter.empty}
             details = {
                 'type': 'partial',
-                'original_function': fn.func,
+                'name': fn.func.__name__,
                 'args': fn.args,
-                'keywords': fn.keywords
+                'keywords': {**defaults, **fn.keywords}  # Merge defaults with the partial's keywords
             }
         else:
+            # Extract details for a normal function
+            sig = inspect.signature(fn)
             details = {
                 'type': 'function',
                 'name': fn.__name__,
-                'doc': fn.__doc__
+                'args': [
+                    {
+                        'name': param.name,
+                        'default': param.default if param.default is not inspect.Parameter.empty else None
+                    }
+                    for param in sig.parameters.values()
+                ],
+                "keywords": {}
             }
-
         return details
 
 
@@ -290,7 +334,7 @@ class ResponseGenerator:
             new_row = [
                 pdf_name, gri, page_nbr, table_nbr,
                 question, self.__class__.__name__, question_type_ext, result,
-                row_indices, col_indices, row_column_qa, self.inspect_function(self.fns[fn_idx])
+                row_indices, col_indices, row_column_qa, firstk, self.inspect_function(self.fns[fn_idx])
             ]
             new_dataset.append(new_row)
             
@@ -421,7 +465,7 @@ class QuantitativeResponseGenerator(ResponseGenerator):
         
         self.dataset_schema = [["pdf name", "gri", "page nbr", "table nbr",
                                 "question", "question_type", "question_type_ext", "value",
-                                "row indices", "col indices", "row/column spanning", "fn_details"]]
+                                "row indices", "col indices", "row/column spanning", "firstk", "fn_details"]]
 
     def average(self, values, to_str=True):
         """
@@ -569,7 +613,7 @@ class RelationResponseGenerator(ResponseGenerator):
 
         self.dataset_schema = [["pdf name", "gri", "page nbr", "table nbr",
                                 "question", "question_type", "question_type_ext", "value",
-                                "row indices", "col indices", "row/column spanning", "fn_details"]]
+                                "row indices", "col indices", "row/column spanning", "firstk", "fn_details"]]
 
     def rank(self, values, firstk, desc=False):
         """
@@ -708,3 +752,6 @@ if __name__ == "__main__":
     df = df.drop_duplicates()
     new_df.to_csv("gri-qa_rel.csv", index=False)
     print(len(new_df))
+
+    qg = QuestionGenerator()
+    qg.generate_questions(new_df)
