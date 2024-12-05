@@ -27,6 +27,19 @@ def extract_table(pdf_name, page_nbr, table_nbr):
         table = None
     return table
 
+def to_float(value):
+    try:
+        if isinstance(value, str):
+            value = float(value.replace(",", "."))
+        else:
+            value = float(value)
+        if math.isnan(value):
+            raise
+    except:
+        return None
+    
+    return value
+
 
 class OpenAIModel:
     def __init__(self, model_name="gpt-4o-mini", temperature=0.3, max_retries=2, max_tokens=None, timeout=None):
@@ -125,6 +138,38 @@ class QuestionGenerator:
 class ResponseGenerator:
     def __init__(self, df):
         self.df = self.clean_df(df)
+        self.units_of_measure = self.get_units_of_measure("units_of_measure.txt")
+        
+    def find_unit_of_measure(self, row):
+        row = ''.join(row.astype(str)).replace(' ','').lower().strip() #join the whole row as a unique string
+        for um in self.units_of_measure:
+            um = um.strip()
+            if um in row:
+                return um
+        return None
+        
+    def get_units_of_measure(self, file_path):
+        units_of_measure = []
+        
+        with open(file_path, 'r') as file:
+            for line in file:
+                line = line.replace(" ","").lower()
+                units_of_measure.append(line)
+        
+        return units_of_measure
+    
+    def get_acceptable_rows(self, table, row_idx):
+        if (base_unit_of_measure := self.find_unit_of_measure(table.iloc[row_idx,:])) is None:
+            return []
+
+        row_indices = []
+        for i in range(len(table)):
+            if i == row_idx:
+                continue
+                    
+            if self.find_unit_of_measure(table.iloc[i,:]) == base_unit_of_measure:
+                row_indices.append(i)
+        return row_indices
 
     def clean_df(self, df):
         df["Error (0 no error, 1 value err, 2 unrelated, 3 hierarchical)"] = df["Error (0 no error, 1 value err, 2 unrelated, 3 hierarchical)"].fillna(0.0)
@@ -132,13 +177,6 @@ class ResponseGenerator:
         df = df[df["Error (0 no error, 1 value err, 2 unrelated, 3 hierarchical)"].isin([0.0,1.0,3.0])]
         df = df[df["row"].notna()]
         df = df[df["column"].notna()]
-        
-        df["column"] = pd.to_numeric(df["column"], errors='coerce')  # Convert to numeric, replacing invalid values with NaN
-        df["row"] = pd.to_numeric(df["row"], errors='coerce')
-        df = df[df["row"].notna()]  # Remove rows with NaN
-        df = df[df["column"].notna()]
-        df["column"] = df["column"].astype(int)
-        df["row"] = df["row"].astype(int)
         
         return df
 
@@ -155,7 +193,7 @@ class ResponseGenerator:
 
     def is_table_row_correct(self, table, row_idx):
         correct = 0
-        row = table.iloc[row_idx]
+        row = table.iloc[row_idx, :]
         for j, cell in enumerate(row):
             if not self.is_year(table.columns[j]):
                 continue
@@ -171,10 +209,11 @@ class ResponseGenerator:
                     pass
         return False
 
-    def is_table_column_correct(self, table, col_idx):
+    def is_table_column_correct(self, table, col_idx, row_idx):
         correct = 0
         col = table.columns[col_idx]
-        if self.is_year(col):
+
+        if self.is_year(col) and len(self.get_acceptable_rows(table, row_idx)) >= 1:
             for row_idx in range(len(table)):
                 cell = table[col].iloc[row_idx]
                 if isinstance(cell, str):
@@ -188,6 +227,24 @@ class ResponseGenerator:
                     except:
                         pass
         return False
+
+    def inspect_function(self, fn):
+        if isinstance(fn, partial):
+            details = {
+                'type': 'partial',
+                'original_function': fn.func,
+                'args': fn.args,
+                'keywords': fn.keywords
+            }
+        else:
+            details = {
+                'type': 'function',
+                'name': fn.__name__,
+                'doc': fn.__doc__
+            }
+
+        return details
+
 
     def generate(self):
         new_dataset = deepcopy(self.dataset_schema)
@@ -203,7 +260,7 @@ class ResponseGenerator:
                 return None, False
 
             validate_fn = partial(self.is_table_row_correct, row_idx=row) if not row_column_qa \
-                          else partial(self.is_table_column_correct, col_idx=col)
+                          else partial(self.is_table_column_correct, col_idx=col, row_idx=row)
             table_correctness = validate_fn(table)
             return table, table_correctness
 
@@ -212,26 +269,28 @@ class ResponseGenerator:
             page_nbr = str(row["page nbr"])
             table_nbr = str(row["table nbr"])
             gri = str(row["gri"])
-            print(row["column"])
-            col = int(row["column"])
-            row = int(row["row"])
-
+            col = int(float(row["column"]))-1
+            row = int(float(row["row"]))-2
+            
             table, table_correctness = process_table(pdf_name, page_nbr, table_nbr, row, col)
             if table is None or not table_correctness:
                 continue
+            if to_float(table.iloc[row,col]) is None:
+                continue
 
+            fn_idx = i % len(self.fns)
             try:
-                question_type_ext = self.fns[i % len(self.fns)].__name__
+                question_type_ext = self.fns[fn_idx].__name__
             except:
-                question_type_ext = self.fns[i % len(self.fns)].func.__name__ #accounting for functools.partial functions
+                question_type_ext = self.fns[fn_idx].func.__name__ #accounting for functools.partial functions
                 
             result, question, row_indices, col_indices, firstk = self.create_sample(
-                table, i % len(self.fns), row_column_qa, row, col)
+                table, fn_idx, row_column_qa, row, col)
 
             new_row = [
                 pdf_name, gri, page_nbr, table_nbr,
                 question, self.__class__.__name__, question_type_ext, result,
-                row_indices, col_indices, firstk, row_column_qa
+                row_indices, col_indices, row_column_qa, self.inspect_function(self.fns[fn_idx])
             ]
             new_dataset.append(new_row)
             
@@ -240,21 +299,8 @@ class ResponseGenerator:
 
         return new_dataset
 
-
     def create_sample(self, table, question_idx, row_column_qa, row_idx, col_idx):
         result, question = None, None
-
-        def to_float(value):
-            try:
-                if isinstance(value, str):
-                    value = float(value.replace(",", "."))
-                else:
-                    value = float(value)
-                if math.isnan(value):
-                    raise
-            except:
-                return None
-            return value
 
         def get_random_index(max_index, exclude=None, col_names=[]):
             """
@@ -307,8 +353,10 @@ class ResponseGenerator:
                 
                 iterable = table.loc[row_idx, selected_columns]
             else:
-                row_indices, selected_rows = [i for i in range(len(table))], [] #TODO: add unit measure filtering
-                iterable = table.iloc[:, col_idx]
+                #unit of measure of the initial row
+                row_indices = self.get_acceptable_rows(table, row_idx)
+                col_indices = [col_idx for _ in row_indices]
+                iterable = table.iloc[row_indices, col_idx]
 
             numeric_values, indices = get_numeric_values(iterable)
             try:
@@ -317,11 +365,11 @@ class ResponseGenerator:
             except:
                 row_indices, col_indices = [], []
                 
-            if len(numeric_values) < 2:
+            if len(numeric_values) < 1:
                 return None, None, None, None
             
             if function_name == "rank":
-                firstk = random.randint(2, len(numeric_values))
+                firstk = random.randint(1, len(numeric_values))
                 return self.fns[question_idx](numeric_values, firstk=firstk), row_indices, col_indices, firstk
             
             return self.fns[question_idx](numeric_values), row_indices, col_indices, None
@@ -329,29 +377,20 @@ class ResponseGenerator:
         def create_question_from_two_values():
             value = to_float(table.iloc[row_idx, col_idx])
             value2, row_idx2, col_idx2 = process_values_based_on_mode()
-
             if value is None or value2 is None:
-                return None, [], [], None
-            if function_name in ["reduction_percentage", "increase_percentage"] and value == 0:
-                return None, [], [], None
+                return None, None, None, None
 
             return self.fns[question_idx]([value, value2]), [row_idx, row_idx2], [col_idx, col_idx2], None
 
         while result is None:
-            """if row_column_qa:
-                while row_idx == (new_row_idx := get_random_index(len(table))):
-                    pass
-                row_idx = new_row_idx
-            else:
-                while col_idx == (new_col_idx := get_random_index(len(table.columns))):
-                    pass
-                col_idx = new_col_idx"""
-
             try:
                 function_name = self.fns[question_idx].__name__
             except:
                 function_name = self.fns[question_idx].func.__name__ #accounting for functools.partial functions
-                
+            
+            if function_name in ["reduction_percentage", "increase_percentage"] and to_float(table.iloc[row_idx, col_idx]) == 0:
+                break #can't calculate the percentage increase/reduction of a zero initial value
+            
             if function_name in ["rank", "superlative"]:
                 result, row_indices, col_indices, firstk = create_question_from_n_values()
             elif function_name in ["sum", "average"]:
@@ -369,7 +408,6 @@ class ResponseGenerator:
 class QuantitativeResponseGenerator(ResponseGenerator):
     def __init__(self, df):
         super(QuantitativeResponseGenerator, self).__init__(df)
-        self.df = df
         self.fns = [
             self.average,
             self.sum,
@@ -378,9 +416,12 @@ class QuantitativeResponseGenerator(ResponseGenerator):
             self.increase_difference,
             self.increase_percentage
         ]
+        
+        random.shuffle(self.fns)
+        
         self.dataset_schema = [["pdf name", "gri", "page nbr", "table nbr",
                                 "question", "question_type", "question_type_ext", "value",
-                                "row indices", "col indices", "firstk", "row/column spanning"]]
+                                "row indices", "col indices", "row/column spanning", "fn_details"]]
 
     def average(self, values, to_str=True):
         """
@@ -515,7 +556,6 @@ class QuantitativeResponseGenerator(ResponseGenerator):
 class RelationResponseGenerator(ResponseGenerator):
     def __init__(self, df):
         super(RelationResponseGenerator, self).__init__(df)
-        self.df = df
         self.fns = [
             self.rank,
             partial(self.rank, desc=True),
@@ -524,10 +564,12 @@ class RelationResponseGenerator(ResponseGenerator):
             self.comparative,
             partial(self.comparative, maximise=False)
         ]
+        
+        random.shuffle(self.fns)
 
         self.dataset_schema = [["pdf name", "gri", "page nbr", "table nbr",
                                 "question", "question_type", "question_type_ext", "value",
-                                "row indices", "col indices", "firstk", "row/column spanning"]]
+                                "row indices", "col indices", "row/column spanning", "fn_details"]]
 
     def rank(self, values, firstk, desc=False):
         """
@@ -662,6 +704,7 @@ if __name__ == "__main__":
     df = pd.read_csv("qa_dataset.csv")
     q_responsegenerator = RelationResponseGenerator(df)
     res = q_responsegenerator.generate()
-    print(pd.DataFrame(res[1:], columns=res[0]).head())
-    print(len(res))
-    #q = QuestionGenerator()
+    new_df = pd.DataFrame(res[1:], columns=res[0])
+    df = df.drop_duplicates()
+    new_df.to_csv("gri-qa_rel.csv", index=False)
+    print(len(new_df))

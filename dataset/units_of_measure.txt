@@ -1,0 +1,26 @@
+MtCO2eq
+g/kWh
+gCO2eq/kWh
+l/kWh
+MWh
+tCO2e
+m3
+m3/Headcount
+t CO2e/Headcount
+TJ
+10³ m³
+kt CO2 eq/€mln
+kt CO2eq
+kt of CO2 eq
+t
+kt
+MWh GCV
+tons
+l/100km
+g/km
+kWh/100 km
+gCO2e
+g CO2/mi
+kgCO2eq./sq.m.
+million mt CO2e
+mt COe/MWh
