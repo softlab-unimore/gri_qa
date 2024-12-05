@@ -1,4 +1,6 @@
 import os
+import re
+from argparse import ArgumentParser
 from configparser import ConfigParser
 
 import pandas as pd
@@ -27,7 +29,12 @@ def create_prompt(table, question):
 
 
 if __name__=='__main__':
-    qa = pd.read_csv('dataset/qa_dataset.csv', sep=',', on_bad_lines='skip')
+    parser = ArgumentParser()
+    parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
+    args = parser.parse_args()
+
+    qa = pd.read_csv(f'dataset/{args.dataset}', sep=',', on_bad_lines='skip')
+    dataset_name = re.split("[_.]", args.dataset)[1]
 
     config = ConfigParser()
     config.read('config.ini')
@@ -43,7 +50,7 @@ if __name__=='__main__':
 
     results = pd.DataFrame(columns=['question', 'value', 'response'])
 
-    tracker = EmissionsTracker(output_dir='./results')
+    tracker = EmissionsTracker(output_dir=f'./results/{dataset_name}')
 
     tracker.start()
 
@@ -70,6 +77,6 @@ if __name__=='__main__':
 
     tracker.stop()
 
-    os.makedirs('./results', exist_ok=True)
-    results.to_csv(f'./results/finma.csv', index=False)
-    os.rename('./results/emissions.csv', './results/emissions_finma.csv')
+    os.makedirs(f'./results/{dataset_name}', exist_ok=True)
+    results.to_csv(f'./results/{dataset_name}/finma.csv', index=False)
+    os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_finma.csv')
