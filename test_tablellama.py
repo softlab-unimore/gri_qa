@@ -40,7 +40,7 @@ if __name__=='__main__':
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
     args = parser.parse_args()
 
-    qa = pd.read_csv(f'dataset/{args.dataset}.csv', sep=',', on_bad_lines='skip')
+    qa = pd.read_csv(f'dataset/{args.dataset}', sep=',', on_bad_lines='skip')
     dataset_name = re.split("[_.]", args.dataset)[1]
 
     tokenizer = AutoTokenizer.from_pretrained('osunlp/TableLlama')
