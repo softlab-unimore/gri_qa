@@ -12,7 +12,6 @@ TJ
 kt CO2 eq/€mln
 kt CO2eq
 kt of CO2 eq
-t
 kt
 MWh GCV
 tons

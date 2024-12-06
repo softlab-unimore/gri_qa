@@ -1,5 +1,6 @@
 import inspect
 import math
+import os
 import pandas as pd
 import json
 import csv
@@ -64,7 +65,7 @@ class OpenAIModel:
     def invoke(self, prompt):
         messages = deepcopy(self.messages)
         messages.append(["human", prompt])
-        return self.llm.invoke(messages)
+        return self.llm.invoke(messages).content
 
 
 class QuestionGenerator:
@@ -76,7 +77,8 @@ class QuestionGenerator:
         Do not write anything else other than the requested question. Do not use any Markdown formatting."""
         self.llm.set_system_message(system_message)
         
-        self.prompt = """Create a question grounded on the table that can be resolved by the answer. To create the question, strictly follow the function description and use that information to create your question.
+        self.prompt = """Create a question grounded on the table that can be resolved by the answer.
+        The answer has been obtained by applying a function on the table. So, to create the question, strictly follow the function description and use that information to create your question.
 
         # TABLE
         
@@ -146,13 +148,16 @@ class QuestionGenerator:
 
             function_description += f"\n\nIn this case, maximise is equal to {word}.\nThe row and column indices whose values have been considered for the comparison are:\n"
             for row_idx, col_idx in zip(row["row indices"], row["col indices"]):
-                function_description += f"- Row \"{table.iloc[row_idx-2,0]}\" with column \"{table.columns[col_idx-1]}\"\n"
+                function_description += f"- Row \"{table.iloc[row_idx,0]}\" with column \"{table.columns[col_idx]}\"\n"
+        else:
+            function_description += f"\n\nThe row and column indices whose values have been considered for the operation are:\n"
+            for row_idx, col_idx in zip(row["row indices"], row["col indices"]):
+                function_description += f"- Row \"{table.iloc[row_idx,0]}\" with column \"{table.columns[col_idx]}\"\n"
         
         full_prompt = self.prompt.format(table, function_description, answer)
         print(row)
         res = self.llm.invoke(full_prompt)
         print(res)
-        print(a)
         return res
 
     
@@ -330,6 +335,11 @@ class ResponseGenerator:
                 
             result, question, row_indices, col_indices, firstk = self.create_sample(
                 table, fn_idx, row_column_qa, row, col)
+            
+            if result is None:
+                continue
+            if question_type_ext == "superlative" and len(row_indices) <= 2:
+                question_type_ext = "comparative" #binary superlative questions are comparative questions
 
             new_row = [
                 pdf_name, gri, page_nbr, table_nbr,
@@ -413,7 +423,7 @@ class ResponseGenerator:
                 return None, None, None, None
             
             if function_name == "rank":
-                firstk = random.randint(1, len(numeric_values))
+                firstk = random.randint(2, len(numeric_values)+1)
                 return self.fns[question_idx](numeric_values, firstk=firstk), row_indices, col_indices, firstk
             
             return self.fns[question_idx](numeric_values), row_indices, col_indices, None
@@ -433,6 +443,7 @@ class ResponseGenerator:
                 function_name = self.fns[question_idx].func.__name__ #accounting for functools.partial functions
             
             if function_name in ["reduction_percentage", "increase_percentage"] and to_float(table.iloc[row_idx, col_idx]) == 0:
+                result = question = row_indices = col_indices = firstk = None
                 break #can't calculate the percentage increase/reduction of a zero initial value
             
             if function_name in ["rank", "superlative"]:
@@ -748,10 +759,17 @@ if __name__ == "__main__":
     df = pd.read_csv("qa_dataset.csv")
     q_responsegenerator = RelationResponseGenerator(df)
     res = q_responsegenerator.generate()
+    
+    path_to_dataset = "gri-qa_rel.csv"
     new_df = pd.DataFrame(res[1:], columns=res[0])
-    df = df.drop_duplicates()
-    new_df.to_csv("gri-qa_rel.csv", index=False)
-    print(len(new_df))
 
     qg = QuestionGenerator()
-    qg.generate_questions(new_df)
+    new_df = qg.generate_questions(new_df)
+    
+    if os.path.exists(path_to_dataset):
+        df = pd.read_csv(path_to_dataset)
+        new_df = pd.concat([df, new_df], ignore_index=True)
+    
+    new_df.loc[new_df.drop("question",axis="columns").astype(str).drop_duplicates().index]
+    new_df.to_csv(path_to_dataset, index=False)
+    print(len(new_df))
