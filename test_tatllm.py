@@ -27,6 +27,7 @@ if __name__=='__main__':
     args = parser.parse_args()
 
     qa = pd.read_csv(f'dataset/{args.dataset}', sep=',', on_bad_lines='skip')
+    qa = qa[qa.iloc[:, 2]!=2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
     tokenizer = AutoTokenizer.from_pretrained('next-tat/tat-llm-7b-fft')
