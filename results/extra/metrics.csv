@@ -1,0 +1,5 @@
+model,em
+tatllm,0.615
+tapex,0.537
+tablellama,0.714
+finma,0.246
