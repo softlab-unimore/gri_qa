@@ -3,9 +3,13 @@ from argparse import ArgumentParser
 import pandas as pd
 
 
-def check_number(value, response):
+def check_number(value, response, percentage=False):
     try:
-        return float(value) == float(response)
+        check = False
+        if percentage:
+            response_norm = response * 100
+            check = float(value) == float(response_norm)
+        return float(value) == float(response) or check
     except ValueError:
         return False
 
@@ -31,21 +35,23 @@ if __name__=='__main__':
         for i, row in results.iterrows():
             row['response'] = row['response'].strip(' |')
 
+            percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
+
             # Check extact match
             if row['value'] == row['response']:
                 results.loc[i, 'correct'] = True
 
             # Check for numbers with <, =, > symbols in both side
             elif row['value'].startswith('<') and row['response'].startswith('<'):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%< '), row['response'].strip('%< '))
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%< '), row['response'].strip('%< '), percentage=percentage)
             elif row['value'].startswith('=') and row['response'].startswith('='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%= '), row['response'].strip('%= '))
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%= '), row['response'].strip('%= '), percentage=percentage)
             elif row['value'].startswith('>') and row['response'].startswith('>'):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), row['response'].strip('%> '))
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), row['response'].strip('%> '), percentage=percentage)
             elif row['value'].startswith('<=') and row['response'].startswith('<='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= '), row['response'].strip('%<= '))
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= '), row['response'].strip('%<= '), percentage=percentage)
             elif row['value'].startswith('>=') and row['response'].startswith('>='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%>= '), row['response'].strip('%>= '))
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%>= '), row['response'].strip('%>= '), percentage=percentage)
 
             # Check for response with multiple words
             elif any(r.isalpha() for r in row['response']):
@@ -59,7 +65,7 @@ if __name__=='__main__':
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
                   any(c not in row['value'] and c not in row['response'] for c in ['<', '=', '>'])):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >'), row['response'].strip('%<= >'))
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >'), row['response'].strip('%<= >'), percentage=percentage)
 
             # Otherwise
             else:
