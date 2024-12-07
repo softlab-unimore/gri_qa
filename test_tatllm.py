@@ -61,7 +61,7 @@ if __name__=='__main__':
             print(f'Q{i}: {row["value"]} - {response_value}')
         except:
             response_value = "No answer in the response"
-            print(f'Q{i}: {row["value"]} - No answer')
+            print(f'Q{i}: {row["value"]} - No answer in the response')
 
         results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response_value}
 
