@@ -60,7 +60,7 @@ if __name__=='__main__':
             response_value = response[0].split('The answer is: ')[2].split(' ###')[0]
             print(f'Q{i}: {row["value"]} - {response_value}')
         except:
-            response_value = "No answer"
+            response_value = "No answer in the response"
             print(f'Q{i}: {row["value"]} - No answer')
 
         results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response_value}
