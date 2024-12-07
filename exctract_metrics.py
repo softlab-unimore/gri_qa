@@ -64,7 +64,7 @@ if __name__=='__main__':
 
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
-                  any(c not in row['value'] and c not in row['response'] for c in ['<', '=', '>'])):
+                  (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>']))):
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >'), row['response'].strip('%<= >'), percentage=percentage)
 
             # Otherwise
