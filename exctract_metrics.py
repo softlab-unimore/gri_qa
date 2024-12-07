@@ -7,7 +7,7 @@ def check_number(value, response, percentage=False):
     try:
         check = False
         if percentage:
-            response_norm = response * 100
+            response_norm = float(response) * 100
             check = float(value) == float(response_norm)
         return float(value) == float(response) or check
     except ValueError:
@@ -42,22 +42,22 @@ if __name__=='__main__':
                 results.loc[i, 'correct'] = True
 
             # Check for numbers with <, =, > symbols in both side
+            elif row['value'].startswith('<=') and row['response'].startswith('<='):
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= '), row['response'].strip('%<= '), percentage=percentage)
+            elif row['value'].startswith('>=') and row['response'].startswith('>='):
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%>= '), row['response'].strip('%>= '), percentage=percentage)
             elif row['value'].startswith('<') and row['response'].startswith('<'):
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%< '), row['response'].strip('%< '), percentage=percentage)
             elif row['value'].startswith('=') and row['response'].startswith('='):
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%= '), row['response'].strip('%= '), percentage=percentage)
             elif row['value'].startswith('>') and row['response'].startswith('>'):
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), row['response'].strip('%> '), percentage=percentage)
-            elif row['value'].startswith('<=') and row['response'].startswith('<='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= '), row['response'].strip('%<= '), percentage=percentage)
-            elif row['value'].startswith('>=') and row['response'].startswith('>='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%>= '), row['response'].strip('%>= '), percentage=percentage)
 
             # Check for response with multiple words
             elif any(r.isalpha() for r in row['response']):
                 el = [c.strip('%') for c in row['response'].split(' ')]
                 for e in el:
-                    if check_number(row['value'].strip('%'), e):
+                    if check_number(row['value'].strip('%'), e, percentage=percentage):
                         results.loc[i, 'correct'] = True
                         break
                     results.loc[i, 'correct'] = False
@@ -73,6 +73,7 @@ if __name__=='__main__':
 
         em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
         metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 3)}
+        print(f'EM: {round(em, 3)}')
 
     metrics.to_csv(f'./results/{args.dataset}/metrics.csv', index=False)
 
