@@ -19,8 +19,10 @@ if __name__=='__main__':
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'gpt-4']
     models = ['tatllm', 'tapex', 'tablellama', 'finma']
 
+    metrics = pd.DataFrame(columns=['model', 'em'])
+
     for model in models:
-        print(f'Processing {model}')
+        print(f'--> Processing {model}')
 
         results = pd.read_csv(f'./results/{args.dataset}/{model}.csv')
         results['value'] = results['value'].astype(str).str.lower()
@@ -63,5 +65,8 @@ if __name__=='__main__':
             else:
                 results.loc[i, 'correct'] = False
 
-            print(f'{row["value"]} - {row["response"]}')
-            print(f'Correct: {results.loc[i, "correct"]}')
+        em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
+        metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 3)}
+
+    metrics.to_csv(f'./results/{args.dataset}/metrics.csv', index=False)
+
