@@ -27,6 +27,7 @@ if __name__=='__main__':
     args = parser.parse_args()
 
     qa = pd.read_csv(f'dataset/{args.dataset}', sep=',', on_bad_lines='skip')
+    qa = qa[qa.iloc[:, 2]!=2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
     tokenizer = AutoTokenizer.from_pretrained('next-tat/tat-llm-7b-fft')
@@ -59,8 +60,8 @@ if __name__=='__main__':
             response_value = response[0].split('The answer is: ')[2].split(' ###')[0]
             print(f'Q{i}: {row["value"]} - {response_value}')
         except:
-            response_value = "No answer"
-            print(f'Q{i}: {row["value"]} - No answer')
+            response_value = "No answer in the response"
+            print(f'Q{i}: {row["value"]} - No answer in the response')
 
         results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response_value}
 
