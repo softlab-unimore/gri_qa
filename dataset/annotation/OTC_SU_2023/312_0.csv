@@ -1,5 +1,5 @@
 GRI;Indicators;Units;2023;2022;2021;2020
-305-4;Total Scope 3 per euro turnover;TCO2e/ million €;1581;1779;2378;2614
+305-4;Total Scope 3 per euro turnover;TCO2e/ million �;1581;1779;2378;2614
 305-3;Other relevant indirect (Scope 3 upstream) GHG emissions;TCO2e;7766994;8613192;8237192;6966062
 305-3;1. Purchased goods and services;TCO2e;6829733;7572974;7278733;6137388
 305-3;2. Capital goods;TCO2e;55361;57986;62876;63863
@@ -12,7 +12,7 @@ GRI;Indicators;Units;2023;2022;2021;2020
 305-3;9. Transportation of goods not paid by the Group;TCO2e;481039;427872;485877;371159
 305-3;11. Use of sold products;TCO2e;44223749;47281888;55338592;54103061
 305-3;12. End-of-life treatment of sold products;TCO2e;4306182;4465596;4675824;4330439
-305-3;SSE #1 — Number of Zero-CO2 sites;#;101;77;51;30
+305-3;SSE #1 - Number of Zero-CO2 sites;#;101;77;51;30
 305-3;Saved GHG emissions thanks to sold products and services;TCO2e;52434385;51325544;49708425;46964497
 305-3;Avoided GHG emissions thanks to sold products and services;TCO2e;60163742;41674416;33930803;28605883
-305-3;SSI #2 — Cumulative CO2 saved and avoided thanks to sold products and services since 2018;TCO2e;552559056;439960929;346960969;263321741
+305-3;SSI #2 - Cumulative CO2 saved and avoided thanks to sold products and services since 2018;TCO2e;552559056;439960929;346960969;263321741

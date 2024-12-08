@@ -3,7 +3,7 @@ Scope 1 GHG emissions;;;;;;
 Gross Scope 1 GHG emissions;33617;21382;21598;1%;-25%;-36%
 Scope 2 GHG emissions;;;;;;
 Gross Market-based Scope 2 GHG emissions;59232;37172;30712;-17%;-35%;-48%
-Gross Location-based ”’ Scope 2 GHG emissions;65470;45848;42423;-7%%;;-35%
+Gross Location-based Scope 2 GHG emissions;65470;45848;42423;-0,0007;;-35%
 Significant Scope 3 GHG emissions;;;;;;
 Total Gross indirect (Scope 3) GHG emissions Market-based;258541;185354;169296;-9%;;-35%
 o/w GHG emissions from purchase services related to IT (Category 1);4623;5234;5955;14%;;29%
@@ -15,9 +15,9 @@ Total Gross indirect (Scope 3) GHG emissions Location-based;259356;188605;174336
 Total GHG Emissions;;;;;;
 Total GHG emissions Market-based ;351389;243909;221606;-9%;;-37%
 Total GHG emissions Location-based;358443;255836;238357;-7%;;-34%
-Total GHG emissions of Energy, car fleet, business travel and purchase services and capital goods related to IT (excluding commuting) (used in “AXA for Progress Index”);228295;126436;150458;19%;-20%;-34%
+"Total GHG emissions of Energy, car fleet, business travel and purchase services and capital goods related to IT (excluding commuting) (used in ""AXA for Progress Index"")";228295;126436;150458;19%;-20%;-34%
 GHG emissions - Breakdown by Source;;;;;;
-GHG emissions company’s cars;24939;17273;17485;1%;-20%;-30%
+GHG emissions company's cars;24939;17273;17485;1%;-20%;-30%
 GHG emissions from energy consumption Market-based;88582;54605;46581;-15%;-35%;-47%
 GHG emissions from energy consumption Location-based;104538;72849;67967;-7%;;-35%
 GHG emissions IT Market-based;43918;42431;40267;-5%;;-8%
@@ -31,5 +31,5 @@ Revenue (in Euro million);103532;101844;102736;1%;;-1%
 Number of terminals inventoried;354417;344155;330638;-4%;;-7%
 Ratios;;;;;;
 Total GHG emissions (Market-based) per person (tCO2 eq/FTE);2.9;2.2;1.8;-16%;;-37%
-GHG Intensity (Market-based ) per revenue (tCO2 eq/€ Million);34;25;2.2;-15%;;-36%
+GHG Intensity (Market-based ) per revenue (tCO2 eq/� Million);34;25;2.2;-15%;;-36%
 GHG emissions from employee commuting per person (tCO2 eq/FTE);1;1;0.6;-41%;;-42%

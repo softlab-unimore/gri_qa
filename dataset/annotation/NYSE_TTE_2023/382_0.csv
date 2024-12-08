@@ -10,9 +10,9 @@ Breakdown by geography - Europe: EU 27 + Norway + UK + Switzerland;Mt CO2e;22;24
 Breakdown by geography - Eurasia (incl. Russia)/Oceania;Mt CO2e;5;1;1;1;<1;<1;13;18;17;17;15;12
 Breakdown by geography - Africa;Mt CO2e;12;11;10;9;9;8;9;8;7;7;7;7
 Breakdown by geography - Americas;Mt CO2e;4;4;4;5;5;5;5;6;7;7;8;7
-Breakdown by type of gas – CO2;Mt CO2e;39;39;34;32;36;31;-;-;-;47;50;43
-Breakdown by type of gas – CH4;Mt CO2e;2;2;2;1;1;1;-;-;-;1;1;1
-Breakdown by type of gas – N2O;Mt CO2e;<1;<1;<1;<1;<1;<1;-;-;-;<1;<1;<1
+Breakdown by type of gas - CO2;Mt CO2e;39;39;34;32;36;31;-;-;-;47;50;43
+Breakdown by type of gas - CH4;Mt CO2e;2;2;2;1;1;1;-;-;-;1;1;1
+Breakdown by type of gas - N2O;Mt CO2e;<1;<1;<1;<1;<1;<1;-;-;-;<1;<1;<1
 Scope 2 - Indirect emissions from energy use;Mt CO2e;4;4;3*(3);2*(2);2;2;-;-;-;5;5;4
 of which Europe: EU 27 + Norway + UK + Switzerland;Mt CO2e;2;2;2* (2);1* (1);1;1;-;-;-;2;2;2
 Scope 1+2;Mt CO2e;46;44*;41*(38);37*(35.7);40;35;-;-;-;54;56;49
