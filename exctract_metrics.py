@@ -1,3 +1,4 @@
+import os
 from argparse import ArgumentParser
 
 import pandas as pd
@@ -24,6 +25,8 @@ if __name__=='__main__':
     models = ['tatllm', 'tapex', 'tablellama', 'finma']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
+
+    os.makedirs(f'./results/{args.dataset}/with_match', exist_ok=True)
 
     for model in models:
         print(f'--> Processing {model}')
@@ -71,6 +74,7 @@ if __name__=='__main__':
             else:
                 results.loc[i, 'correct'] = False
 
+        results.to_csv(f'./results/{args.dataset}/with_match/{model}.csv', index=False)
         em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
         metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 3)}
         print(f'EM: {round(em, 3)}')
