@@ -36,7 +36,7 @@ if __name__=='__main__':
         device_map='auto',
     )
 
-    results = pd.DataFrame(columns=['question', 'value', 'response'])
+    results = pd.DataFrame(columns=['index', 'question', 'value', 'response'])
 
     tracker = EmissionsTracker(output_dir=f'./results/{dataset_name}')
     tracker.start()
@@ -63,7 +63,7 @@ if __name__=='__main__':
             response_value = "No answer in the response"
             print(f'Q{i}: {row["value"]} - No answer in the response')
 
-        results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response_value}
+        results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
 
     tracker.stop()
 

@@ -21,7 +21,7 @@ if __name__ == '__main__':
         device_map='auto',
     )
 
-    results = pd.DataFrame(columns=['question', 'value', 'response'])
+    results = pd.DataFrame(columns=['index', 'question', 'value', 'response'])
 
     tracker = EmissionsTracker(output_dir=f'./results/{dataset_name}')
 
@@ -45,11 +45,11 @@ if __name__ == '__main__':
 
             print(f'Q{i}: {row["value"]} - {response[0]}')
 
-            results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': response[0]}
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response[0]}
         else:
             print(f'Q{i}: {row["value"]} - Table too long')
 
-            results.loc[len(results)] = {'question': row["question"], 'value': row["value"], 'response': 'Table too long'}
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': 'Table too long'}
 
     tracker.stop()
 
