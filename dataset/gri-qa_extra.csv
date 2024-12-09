@@ -1,14 +1,14 @@
 ,checked,"Error (0 no error, 1 value err, 2 unrelated, 3 hierarchical)",pdf name,gri,page nbr,table nbr,question,value,row,column
-0,1,,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption within the organization in 2023?,516.2,,
-1,1,1,NYSE_E_2023.pdf,302,163,0,How much electricity was produced from renewable sources in 2022?,2836,,
-2,1,2,NYSE_E_2023.pdf,302,163,0,What is the total fuel consumption from non-renewable energy sources in 2021?,552.5,,
-3,1,,NYSE_E_2023.pdf,302,163,0,How much electricity was sold to other companies in 2023?,192.7,,
-4,1,,NYSE_E_2023.pdf,302,163,0,What was the energy intensity index for the organization in 2023?,123,,
-5,1,,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption from renewable energy sources in 2021?,1.5,,
-6,1,1,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption within the organization in 2022?,503.2,,
-7,1,,NYSE_E_2023.pdf,302,163,0,How much heating was sold to other companies in 2023?,5.2,,
-8,1,,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption from renewable sources in 2021?,1.5,,
-9,1,1,NYSE_E_2023.pdf,302,163,0,How much electricity was produced from renewable sources in 2021?,1.166,,
+0,1,,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption within the organization in millions of GJ in 2023?,516.2,,
+1,1,1,NYSE_E_2023.pdf,302,163,0,How much electricity was produced from renewable sources in Gwh in 2022?,2836,,
+2,1,2,NYSE_E_2023.pdf,302,163,0,What is the total fuel consumption from non-renewable energy sources in millions of GJ in 2021?,552.5,,
+3,1,,NYSE_E_2023.pdf,302,163,0,How much electricity was sold to other companies in millions of GJ in 2023?,192.7,,
+4,1,,NYSE_E_2023.pdf,302,163,0,What was the percentage of energy intensity index for the organization in 2023?,123,,
+5,1,,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption from renewable energy sources in millions of GJ in 2021?,1.5,,
+6,1,1,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption within the organization in millions of GJ in 2022?,503.2,,
+7,1,,NYSE_E_2023.pdf,302,163,0,How much heating was sold to other companies in millions of GJ in 2023?,5.2,,
+8,1,2,NYSE_E_2023.pdf,302,163,0,What was the total energy consumption from renewable sources in millions of GJ in 2021?,1.5,,
+9,1,1,NYSE_E_2023.pdf,302,163,0,How much electricity was produced from renewable sources in Gwh in 2021?,1.166,,
 10,1,2,NYSE_E_2023.pdf,302,86,0,What was the total amount of crude oil purchases in 2023 (mmtonnes)?,19.08,,
 11,1,2,NYSE_E_2023.pdf,302,86,0,How much were the purchases of intermediate products in 2022 (mmtonnes)?,0.07,,
 12,1,2,NYSE_E_2023.pdf,302,86,0,What is the total amount of purchases recorded in 2021 (mmtonnes)?,29.77,,
@@ -21,14 +21,14 @@
 19,1,2,NYSE_E_2023.pdf,302,86,0,What was the change in purchases of intermediate products from 2021 to 2022 (mmtonnes)?,-0.05,,
 20,1,,NYSE_E_2023.pdf,303,178,0,What was the total water withdrawal in 2023 (million m3)?,1224,,
 21,1,3,NYSE_E_2023.pdf,303,178,0,How much seawater was withdrawn in 2022 (million m3)?,1283,,
-22,1,3,NYSE_E_2023.pdf,303,178,0,What was the total freshwater withdrawal in 2021?,117,,
-23,1,3,NYSE_E_2023.pdf,303,178,0,What was the total water withdrawal from surface water bodies in 2023?,97,,
-24,1,3,NYSE_E_2023.pdf,303,178,0,How much water was withdrawn from underground sources in 2022?,17,,
+22,1,3,NYSE_E_2023.pdf,303,178,0,What was the total freshwater withdrawal in 2021 in million m3?,117,,
+23,1,3,NYSE_E_2023.pdf,303,178,0,What was the total water withdrawal from surface water bodies in 2023 in million m3?,97,,
+24,1,3,NYSE_E_2023.pdf,303,178,0,How much water was withdrawn from underground sources in 2022 in million m3?,17,,
 25,1,,NYSE_E_2023.pdf,303,178,0,What was the total water discharge in 2023 (million m3)?,1118,,
-26,1,1,NYSE_E_2023.pdf,303,178,0,What was the total volume of freshwater discharge in areas with water stress in 2022?,18.8,,
-27,1,,NYSE_E_2023.pdf,303,178,0,What was the total water consumption in 2023?,128,,
-28,1,1,NYSE_E_2023.pdf,303,178,0,How much total water consumption was recorded in areas with water stress in 2021?,34.3,,
-29,1,,NYSE_E_2023.pdf,303,178,0,What was the total volume of water discharge in areas with water stress in 2023?,25.3,,
+26,1,1,NYSE_E_2023.pdf,303,178,0,What was the total volume of freshwater discharge in areas with water stress in 2022 (million m3)?,18.8,,
+27,1,,NYSE_E_2023.pdf,303,178,0,What was the total water consumption in 2023 in million m3?,128,,
+28,1,1,NYSE_E_2023.pdf,303,178,0,How much total water consumption was recorded in areas with water stress in 2021 (million m3)?,34.3,,
+29,1,,NYSE_E_2023.pdf,303,178,0,What was the total volume of water discharge in areas with water stress in 2023 in million m3?,25.3,,
 30,1,,NYSE_E_2023.pdf,304,179,0,What is the total number of species listed on the IUCN Red List with habitats in areas affected by the organization's operations in 2023?,1,,
 31,1,,NYSE_E_2023.pdf,304,179,0,How many KBAs are there in areas affected by the organization's operations in 2023?,8,,
 32,1,,NYSE_E_2023.pdf,304,179,0,What is the total number of Natura 2000 sites in areas affected by the organization's operations in 2023?,11,,
@@ -48,12 +48,12 @@
 46,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint upstream (Scope 1+2) in million tonnes CO2eq. for the year 2023?,8.9,,
 47,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint upstream (Scope 1+2) in million tonnes CO2eq. for the year 2022?,9.9,,
 48,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint upstream (Scope 1+2) in million tonnes CO2eq. for the year 2021?,11,,
-49,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint Eni (Scope1+2) for the year 2023?,26.1,,
-50,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint Eni (Scope1+2) for the year 2022?,29.9,,
-51,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint Eni (Scope1+2) for the year 2021?,33.6,,
-52,1,,NYSE_E_2023.pdf,305,162,0,What were the Net GHG Lifecycle Emissions (Scope 1+2+3) in the year 2023?,398,,
-53,1,,NYSE_E_2023.pdf,305,162,0,What were the Net GHG Lifecycle Emissions (Scope 1+2+3) in the year 2022?,419,,
-54,1,,NYSE_E_2023.pdf,305,162,0,What were the Net GHG Lifecycle Emissions (Scope 1+2+3) in the year 2021?,456,,
+49,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint Eni (Scope1+2) for the year 2023 in million tonnes CO2 eq.?,26.1,,
+50,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint Eni (Scope1+2) for the year 2022 in million tonnes CO2 eq.?,29.9,,
+51,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Footprint Eni (Scope1+2) for the year 2021 in million tonnes CO2 eq.?,33.6,,
+52,1,,NYSE_E_2023.pdf,305,162,0,What were the Net GHG Lifecycle Emissions (Scope 1+2+3) in million tonnes CO2 eq. in the year 2023?,398,,
+53,1,,NYSE_E_2023.pdf,305,162,0,What were the Net GHG Lifecycle Emissions (Scope 1+2+3) in million tonnes CO2 eq. in the year 2022?,419,,
+54,1,,NYSE_E_2023.pdf,305,162,0,What were the Net GHG Lifecycle Emissions (Scope 1+2+3) in million tonnes CO2 eq. in the year 2021?,456,,
 55,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Intensity (Scope 1+2+3) in gCO2eq./MJ for the year 2023?,65.6,,
 56,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Intensity (Scope 1+2+3) in gCO2eq./MJ for the year 2022?,66.3,,
 57,1,,NYSE_E_2023.pdf,305,162,0,What was the Net Carbon Intensity (Scope 1+2+3) in gCO2eq./MJ for the year 2021?,66.5,,
@@ -93,9 +93,9 @@
 91,1,3,NYSE_E_2023.pdf,306,178,0,How much hazardous waste was generated in 2023 (million of tonnes)?,2.1,,
 92,1,3,NYSE_E_2023.pdf,306,178,0,What is the total weight of non-hazardous waste generated in 2023 (million of tonnes)?,1.3,,
 93,1,,NYSE_E_2023.pdf,306,178,0,What was the total weight of waste destined for disposal in 2023 (million of tonnes)?,2.8,,
-94,1,,NYSE_E_2023.pdf,306,178,0,What was the amount of recycled waste in 2021?,0.2,,
-95,1,3,NYSE_E_2023.pdf,306,178,0,What was the amount of hazardous recycled waste in 2021?,0,,
-96,1,3,NYSE_E_2023.pdf,306,178,0,What was the amount of non hazardous recycled waste in 2021?,0.2,,
+94,1,,NYSE_E_2023.pdf,306,178,0,What was the amount of recycled waste in 2021 in million of tonnes?,0.2,,
+95,1,3,NYSE_E_2023.pdf,306,178,0,What was the amount of hazardous recycled waste in 2021 in million of tonnes?,0,,
+96,1,3,NYSE_E_2023.pdf,306,178,0,What was the amount of non hazardous recycled waste in 2021 in million of tonnes?,0.2,,
 97,1,3,NYSE_E_2023.pdf,306,178,0,How much hazardous waste was destined for disposal in 2023 (million of tonnes)?,1.9,,
 98,1,3,NYSE_E_2023.pdf,306,178,0,What is the total weight of non-hazardous waste destined for disposal in 2023 (million of tonnes)?,0.9,,
 99,1,,NYSE_E_2023.pdf,308,184,0,What is the total number of suppliers assessed on social responsibility aspects in 2023?,6471,,
@@ -245,61 +245,61 @@
 243,1,,OTC_ENAKF_2023.pdf,306,51,0,What is the total weight of high-level radioactive waste generated in 2023 in metric tons?,0,,
 244,1,,OTC_ENAKF_2023.pdf,306,51,0,How much high-level radioactive waste was generated in 2022 in metric tons?,0,,
 245,1,,OTC_ENAKF_2023.pdf,306,51,0,What was the total weight of high-level radioactive waste generated in 2021 in metric tons?,65,,
-246,1,,axa_2023.pdf,301,183,0,What was the share of recycled and/or sustainably managed paper in the office in 2023?,67%,,
-247,1,,axa_2023.pdf,301,183,0,What was the percentage difference of share of recycled and/or sustainably managed paper in the office between 2023 and 2019?,7%,,
-248,1,,axa_2023.pdf,301,183,0,What percentage of recycled and/or sustainably managed paper was used in marketing and distribution in 2022?,72%,,
-249,1,,axa_2023.pdf,301,183,0,What is the difference in percentage of recycled and/or sustainably managed paper was used in marketing and distribution between 2023 and 2025?,-17%,,
-250,1,,axa_2023.pdf,301,183,0,What was the total percentage of recycled and/or sustainably managed paper in 2019?,62%,,
-251,1,,axa_2023.pdf,301,183,0,What was the difference in the total percentage of recycled and/or sustainably managed paper between 2023 and 2022?,4%,,
-252,1,,axa_2023.pdf,301,183,0,What was the share of waste recycled from total sorted/total waste in 2023?,55%,,
-253,1,,axa_2023.pdf,301,183,0,What was the difference of share of waste recycled from total sorted/total waste between 2023 and 2025?,60.00%,,
+246,1,,axa_2023.pdf,301,183,0,What was the percentage of recycled and/or sustainably managed paper in the office in 2023?,67,,
+247,1,,axa_2023.pdf,301,183,0,What was the percentage difference of share of recycled and/or sustainably managed paper in the office between 2023 and 2019?,7,,
+248,1,,axa_2023.pdf,301,183,0,What percentage of recycled and/or sustainably managed paper was used in marketing and distribution in 2022?,72,,
+249,1,,axa_2023.pdf,301,183,0,What is the difference in percentage of recycled and/or sustainably managed paper was used in marketing and distribution between 2023 and 2025?,-17,,
+250,1,,axa_2023.pdf,301,183,0,What was the total percentage of recycled and/or sustainably managed paper in 2019?,62,,
+251,1,,axa_2023.pdf,301,183,0,What was the difference in the total percentage of recycled and/or sustainably managed paper between 2023 and 2022?,4,,
+252,1,,axa_2023.pdf,301,183,0,What was the percentage of waste recycled from total sorted/total waste in 2023?,55,,
+253,1,,axa_2023.pdf,301,183,0,What was the difference of percentage of waste recycled from total sorted/total waste between 2023 and 2025?,60,,
 254,1,,axa_2023.pdf,302,183,0,What was the total fossil energy consumption related to own operations in 2023 (MWh)?,94903,,
-255,1,,axa_2023.pdf,302,183,0,What was the difference of total fossil energy consumption related to own operations between 2023 and 2019?,54.00%,,
+255,1,,axa_2023.pdf,302,183,0,What was the percentage difference of total fossil energy consumption related to own operations between 2023 and 2019?,54,,
 256,1,,axa_2023.pdf,302,183,0,How much total renewable energy was consumed in 2022 (MWh)?,135946,,
-257,1,,axa_2023.pdf,302,183,0,How much difference is there for the total renewable energy consumed between 2023 and 2022?,-7%,,
+257,1,,axa_2023.pdf,302,183,0,How much percentage difference is there for the total renewable energy consumed between 2023 and 2022?,-7,,
 258,1,,axa_2023.pdf,302,183,0,What is the total electricity consumption related to own operations in 2022 (MWh)?,188985,,
-259,1,,axa_2023.pdf,302,183,0,What is the difference of total electricity consumption related to own operations between 2023 and 2025?,-30%,,
+259,1,,axa_2023.pdf,302,183,0,What is the percentage difference of total electricity consumption related to own operations between 2023 and 2025?,-30,,
 260,1,,axa_2023.pdf,302,183,0,What was the total energy consumption related to own operations in 2019 (MWh)?,332604,,
-261,1,,axa_2023.pdf,302,183,0,What was the difference of total energy consumption related to own operations between 2023 and 2019?,-33%,,
+261,1,,axa_2023.pdf,302,183,0,What was the percentage difference of total energy consumption related to own operations between 2023 and 2019?,-33,,
 262,1,,axa_2023.pdf,302,183,0,What was the energy intensity based per revenue in 2023 (Mwh/€ Million)?,2.2,,
-263,1,,axa_2023.pdf,302,183,0,What was the difference of energy intensity based per revenue between 2023 and 2022?,-11%,,
+263,1,,axa_2023.pdf,302,183,0,What was the percentage difference of energy intensity based per revenue between 2023 and 2022?,-11,,
 264,1,2,axa_2023.pdf,302,183,0,What was the total waste generated in 2023 (T)?,4350,,
 265,1,2,axa_2023.pdf,302,183,0,How much water was consumed in 2022 (m3)?,447929,,
-266,1,,axa_2023.pdf,302,183,0,What was the share of renewable electricity in 2023 (%)?,63%,,
-267,1,,axa_2023.pdf,302,183,0,What was the difference of share of renewable electricity between 2023 and 2025?,100%,,
+266,1,,axa_2023.pdf,302,183,0,What was the share of renewable electricity in 2023 (%)?,63,,
+267,1,,axa_2023.pdf,302,183,0,What was the difference of percentage of renewable electricity between 2023 and 2025?,100,,
 268,1,,axa_2023.pdf,302,183,0,What was the total fossil energy consumption related to own operations in 2022 (MWh)?,110451,,
-269,1,,axa_2023.pdf,302,183,0,What was the difference of total fossil energy consumption related to own operations between 2023 and 2019?,54%,,
+269,1,,axa_2023.pdf,302,183,0,What was the difference of total fossil energy consumption related to own operations between 2023 and 2019 (%)?,54,,
 270,1,2,axa_2023.pdf,302,183,0,What was the share of recycled and/or sustainably managed paper for office use in 2023 (%)?,67,,
 271,1,,axa_2023.pdf,303,183,0,How much water was consumed in 2022 (m3)?,447929,,
-272,1,,axa_2023.pdf,303,183,0,How much different is the consumption of water between 2023 and 2022?,7%,,
+272,1,,axa_2023.pdf,303,183,0,How much different is the consumption of water between 2023 and 2022 (%)?,7,,
 273,1,,axa_2023.pdf,303,183,0,What it the water consumption per person in 2019?,6.9,,
 274,1,,axa_2023.pdf,303,183,0,What it the water consumption per person in 2023?,3.9,,
-275,1,,axa_2023.pdf,303,183,0,What is the percentage difference in water consumption between 2019 and 2023?,43%,,
-276,1,,axa_2023.pdf,303,183,0,What is the percentage difference in water consumption per person between 2022 and 2023?,5%,,
+275,1,,axa_2023.pdf,303,183,0,What is the percentage difference in water consumption between 2019 and 2023?,43,,
+276,1,,axa_2023.pdf,303,183,0,What is the percentage difference in water consumption per person between 2022 and 2023?,5,,
 277,1,,axa_2023.pdf,305,179,0,What was the total gross Scope 1 GHG emissions in 2022 in tonnes of CO2 equivalent?,21382,3,3
-278,1,,axa_2023.pdf,305,179,0,What was the difference of the total gross Scope 1 GHG emissions between 2023 and 2025 in tonnes of CO2 equivalent?,-25%,3,6
-279,1,,axa_2023.pdf,305,179,0,What was the difference of the total gross Scope 1 GHG emissions between 2023 and 2022 in tonnes of CO2 equivalent?,1%,3,5
+278,1,,axa_2023.pdf,305,179,0,What was the percentage difference of the total gross Scope 1 GHG emissions between 2023 and 2025 in tonnes of CO2 equivalent?,-25,3,6
+279,1,,axa_2023.pdf,305,179,0,What was the percentage difference of the total gross Scope 1 GHG emissions between 2023 and 2022 in tonnes of CO2 equivalent?,1,3,5
 280,1,,axa_2023.pdf,305,179,0,How much were the gross market-based Scope 2 GHG emissions in 2023 in tonnes of CO2 equivalent?,30712,5,4
-281,1,,axa_2023.pdf,305,179,0,How much was the difference of the gross market-based Scope 2 GHG emissions in 2023 and 2025 in tonnes of CO2 equivalent?,-35%,5,6
-282,1,,axa_2023.pdf,305,179,0,How much was the difference of the gross market-based Scope 2 GHG emissions in 2023 and 2019 in tonnes of CO2 equivalent?,-48%,5,7
+281,1,,axa_2023.pdf,305,179,0,How much was the percentage difference of the gross market-based Scope 2 GHG emissions in 2023 and 2025 in tonnes of CO2 equivalent?,-35,5,6
+282,1,,axa_2023.pdf,305,179,0,How much was the percentage difference of the gross market-based Scope 2 GHG emissions in 2023 and 2019 in tonnes of CO2 equivalent?,-48,5,7
 283,1,,axa_2023.pdf,305,179,0,What were the total gross indirect (Scope 3) GHG emissions market-based in 2022 in tonnes of CO2 equivalent?,185354,8,3
-284,1,,axa_2023.pdf,305,179,0,What was the difference of total gross indirect (Scope 3) GHG emissions market-based in 2023 and 2019 in tonnes of CO2 equivalent?,-35%,8,7
+284,1,,axa_2023.pdf,305,179,0,What was the percentage difference of total gross indirect (Scope 3) GHG emissions market-based in 2023 and 2019 in tonnes of CO2 equivalent?,-35,8,7
 285,1,2,axa_2023.pdf,305,179,0,What is the average full-time equivalent (FTE) of the workforce in 2023?,121354,,
 286,1,2,axa_2023.pdf,305,179,0,What was the revenue in Euro million in 2022?,101844,,
 287,1,,axa_2023.pdf,305,179,0,What was the total GHG emissions (Market-based) per person in 2022 in tCO2 eq/FTE?,2.2,33,3
-288,1,,axa_2023.pdf,305,179,0,What was the difference of total GHG emissions (Market-based) per person between 2023 and 2022 in tCO2 eq/FTE?,-16%,33,5
+288,1,,axa_2023.pdf,305,179,0,What was the percentage difference of total GHG emissions (Market-based) per person between 2023 and 2022 in tCO2 eq/FTE?,-16,33,5
 289,1,,axa_2023.pdf,305,179,0,What was the GHG emissions from employee commuting per person in 2023 in tCO2 eq/FTE?,0.6,35,4
-290,1,,axa_2023.pdf,305,179,0,What was the difference of the GHG emissions from employee commuting per person between 2023 and 2019 in tCO2 eq/FTE?,-42%,35,7
+290,1,,axa_2023.pdf,305,179,0,What was the difference of the GHG emissions from employee commuting per person between 2023 and 2019 in tCO2 eq/FTE (%)?,-42,35,7
 291,1,,axa_2023.pdf,306,183,0,What was the total weight of waste generated in 2022 in tons?,5070,33,3
 292,1,,axa_2023.pdf,306,183,0,How much unsorted waste was recorded in 2023 in tons?,1955,34,4
 293,1,,axa_2023.pdf,306,183,0,What is the total weight of waste generated in 2023 in tons?,4350,33,4
 294,1,,axa_2023.pdf,306,183,0,What was the total weight of unsorted waste in 2022 in tons?,2757,34,3
 295,1,,axa_2023.pdf,306,183,0,What was the total weight of unsorted waste in 2021 in tons?,4681,34,2
-296,1,,axa_2023.pdf,306,183,0,What is the share of waste recycled in 2023 as a percentage of total sorted/total waste?,55%,36,4
+296,1,,axa_2023.pdf,306,183,0,What is the percentage of waste recycled in 2023 as a percentage of total sorted/total waste?,55,36,4
 297,1,,axa_2023.pdf,306,183,0,What was the total weight of waste generated in 2019 in tons?,7129,33,2
-298,1,,OTC_SU_2023.pdf,301,308,1,What was the percentage of green material content in our products in 2023?,29%,2,4
-299,1,,OTC_SU_2023.pdf,301,308,1,How much of the primary and secondary packaging was free from single-use plastic using recycled cardboard in 2022?,45%,3,5
-300,1,2,OTC_SU_2023.pdf,301,308,1,What percentage of product revenues were covered by Green Premium in 2021?,78%,,
+298,1,,OTC_SU_2023.pdf,301,308,1,What was the percentage of green material content in our products in 2023?,29,2,4
+299,1,,OTC_SU_2023.pdf,301,308,1,How much of the primary and secondary packaging was free from single-use plastic using recycled cardboard in 2022 (%)?,45,3,5
+300,1,2,OTC_SU_2023.pdf,301,308,1,What percentage of product revenues were covered by Green Premium in 2021?,78,,
 301,1,,OTC_SU_2023.pdf,301,308,1,How many metric tons of avoided primary resource consumption were achieved through take-back at end-of-use in 2020?,60149,5,7
 302,1,2,OTC_SU_2023.pdf,301,308,1,How many safety recalls were issued in 2023?,23,,
 303,1,,OTC_SU_2023.pdf,302,311,0,What was the amount of measured renewable electricity generated on site and sold back to the grid in 2023 in MWh?,2960,2,4
@@ -308,27 +308,27 @@
 306,1,3,OTC_SU_2023.pdf,302,311,0,What was the district heating consumption in 2021 in MWh?,5491,8,6
 307,1,3,OTC_SU_2023.pdf,302,311,0,How much fuel oil was consumed in 2022 in MWh?,855,9,5
 308,1,3,OTC_SU_2023.pdf,302,311,0,What was the gas consumption in 2023 in MWh?,21008,10,4
-309,1,3,OTC_SU_2023.pdf,302,311,0,How much electricity has been sourced from renewables in 2020?,80%,3,7
+309,1,3,OTC_SU_2023.pdf,302,311,0,How much electricity has been sourced from renewables in 2020 (%)?,80,3,7
 310,1,3,OTC_SU_2023.pdf,302,311,0,What was the total amount of coal consumed in 2021 in MWh?,0,11,6
 311,1,3,OTC_SU_2023.pdf,302,311,0,How much renewable fuel and heat was consumed in 2022 in MWh?,0,12,5
-312,1,3,OTC_SU_2023.pdf,302,311,0,What percentage of electricity sourced from renewables was recorded in 2023?,88%,3,4
+312,1,3,OTC_SU_2023.pdf,302,311,0,What percentage of electricity sourced from renewables was recorded in 2023?,88,3,4
 313,1,,OTC_SU_2023.pdf,302,310,1,What was the estimated total energy consumption from non-renewable sources in MWh for the year 2023?,417294,12,4
 314,1,,OTC_SU_2023.pdf,302,310,1,How much estimated total energy consumption from renewable sources was recorded in MWh for the year 2023?,707033,10,4
 315,1,,OTC_SU_2023.pdf,302,310,1,What was the total estimated energy consumption in MWh for the year 2023?,1124327,4,4
 316,1,3,OTC_SU_2023.pdf,302,310,1,What was the measured energy consumption from grid electricity in MWh for the year 2023?,82590,15,4
 317,1,3,OTC_SU_2023.pdf,302,310,1,What was the total estimated energy consumption from gas in MWh for the year 2023?,190088,20,4
 318,1,3,OTC_SU_2023.pdf,302,310,1,How much fuel oil was consumed in MWh for the year 2023?,12991,19,4
-319,1,,OTC_SU_2023.pdf,302,310,1,What was the estimated total percentage of renewable energy for the year 2023?,62.9%,11,4
-320,1,,OTC_SU_2023.pdf,302,310,1,What was the estimated total percentage of non-renewable energy for the year 2023?,37.1%,13,4
+319,1,,OTC_SU_2023.pdf,302,310,1,What was the estimated total percentage of renewable energy for the year 2023?,62.9,11,4
+320,1,,OTC_SU_2023.pdf,302,310,1,What was the estimated total percentage of non-renewable energy for the year 2023?,37.1,13,4
 321,1,3,OTC_SU_2023.pdf,303,310,0,What was the total amount of surface water withdrawn in 2023 in m3?,17699,4,4
 322,1,3,OTC_SU_2023.pdf,303,310,0,How much groundwater was withdrawn in 2022 in m3?,492308,5,5
 323,1,3,OTC_SU_2023.pdf,303,310,0,What is the total volume of water withdrawn from third-party sources in 2021 in m3?,1507606,6,6
 324,1,3,OTC_SU_2023.pdf,303,310,0,What was the total amount of surface water withdrawn in 2020 in m3?,17461,4,7
 325,1,,OTC_SU_2023.pdf,303,310,0,How much total water was withdrawn in 2023 in m3?,1899190,3,4
 326,1,,OTC_SU_2023.pdf,303,310,0,What was the total water withdrawal from areas with water stress in 2022 in m3?,842216,11,5
-327,1,,OTC_SU_2023.pdf,303,310,0,What percentage of sites in water-stressed areas had a water conservation strategy in 2023?,73%,12,4
+327,1,,OTC_SU_2023.pdf,303,310,0,What percentage of sites in water-stressed areas had a water conservation strategy in 2023?,73,12,4
 328,1,,OTC_SU_2023.pdf,303,310,0,What was the total amount of water withdrawn for cooling in 2021 in m3?,879602,8,6
-329,1,,OTC_SU_2023.pdf,303,310,0,What was the total water withdrawal intensity reduction compared to 2017 in 2022?,-48%,10,5
+329,1,,OTC_SU_2023.pdf,303,310,0,What was the total water withdrawal intensity reduction compared to 2017 in 2022 (%)?,-48,10,5
 330,1,,OTC_SU_2023.pdf,303,310,0,How much total water was withdrawn in 2020 in m3?,1928032,3,7
 331,1,,OTC_SU_2023.pdf,305,312,0,What was the total Scope 3 per euro turnover in 2023 in TCO2e/ million €?,1581,2,4
 332,1,,OTC_SU_2023.pdf,305,312,0,How many other relevant indirect (Scope 3 upstream) GHG emissions were reported in 2022 in TCO2e?,8613192,3,5
@@ -349,7 +349,7 @@
 347,1,,OTC_SU_2023.pdf,305,312,0,What was the cumulative CO2 saved and avoided thanks to sold products and services since 2021 in TCO2e?,346960969,18,6
 348,1,,OTC_SU_2023.pdf,305,311,1,What was the estimated total Scope 1 and 2 GHG emissions (market-based) in 2023 in TCO2e?,202232,3,4
 349,1,,OTC_SU_2023.pdf,305,311,1,How much were the estimated total Scope 1 and 2 GHG emissions (market-based) in 2022 in TCO2e?,229177,3,5
-350,1,3,OTC_SU_2023.pdf,305,311,1,What was the absolute reduction compared to the base year of GHG emissions between 2021 and 2023 in percentage?,-31.20%,4,4
+350,1,3,OTC_SU_2023.pdf,305,311,1,What was the absolute reduction compared to the base year of GHG emissions between 2021 and 2023 in percentage?,-31.20,4,4
 351,1,,OTC_SU_2023.pdf,305,311,1,What were the total emissions for Scope 1 and 2 per euro turnover in 2023 in TCO2e/ million?,5.6,5,4
 352,1,,OTC_SU_2023.pdf,305,311,1,What were the direct (Scope 1) GHG emissions in 2023 in TCO2e?,112792,6,4
 353,1,3,OTC_SU_2023.pdf,305,311,1,What were the direct (Scope 1) GHG emissions of fuel oil in 2022 in TCO2e?,4414,7,5
@@ -357,8 +357,8 @@
 355,1,3,OTC_SU_2023.pdf,305,311,1,What were the direct (Scope 1) GHG emissions of coal in 2020 in TCO2e?,0,9,7
 356,1,3,OTC_SU_2023.pdf,305,311,1,What were the direct (Scope 1) GHG emissions of the vehicle fleet in 2023 in TCO2e?,61492,10,4
 357,1,3,OTC_SU_2023.pdf,305,311,1,What were the direct (Scope 1) GHG emissions of SF6 in 2022 in TCO2e?,4606,11,5
-358,1,3,OTC_SU_2023.pdf,305,311,1,What was the SF6 leakage rate in 2023 in percentage?,0.08%,12,4
-359,1,3,OTC_SU_2023.pdf,305,311,1,What was the target SF6 leakage rate in 2022 in percentage?,0.11%,13,5
+358,1,3,OTC_SU_2023.pdf,305,311,1,What was the SF6 leakage rate in 2023 in percentage?,0.08,12,4
+359,1,3,OTC_SU_2023.pdf,305,311,1,What was the target SF6 leakage rate in 2022 in percentage?,0.11,13,5
 360,1,3,OTC_SU_2023.pdf,305,311,1,What were the estimated Scope 1 GHG emissions of sites out of reporting perimeter in 2021 in TCO2e?,10853,14,6
 361,1,,OTC_SU_2023.pdf,305,311,1,What were the energy indirect (Scope 2) GHG emissions in 2023 in TCO2e?,89440,15,4
 362,1,3,OTC_SU_2023.pdf,305,311,1,What were the energy indirect (Scope 2) GHG emissions of grid electricity (market-based) in 2022 in TCO2e?,49674,16,5
@@ -366,11 +366,11 @@
 364,1,3,OTC_SU_2023.pdf,305,311,1,What were the energy indirect (Scope 2) GHG emissions of district heating in 2020 in TCO2e?,11550,18,7
 365,1,3,OTC_SU_2023.pdf,305,311,1,What were the estimated Scope 2 GHG emissions of sites out of reporting perimeter (market-based) in 2023 in TCO2e?,42961,19,4
 366,1,,OTC_SU_2023.pdf,305,311,1,What were the other relevant indirect (Scope 3) GHG emissions in 2023 in TCO2e?,56777964,20,4
-367,1,,OTC_SU_2023.pdf,305,311,1,What was the absolute variation of indirect GHG emissions scope 3 compared to the base year (2021) in 2022 in percentage?,-11.60%,21,5
-368,1,,OTC_SU_2023.pdf,305,309,2,What was the estimated coverage of VOC emissions in 2023?,90%,2,4
+367,1,,OTC_SU_2023.pdf,305,311,1,What was the absolute variation of indirect GHG emissions scope 3 compared to the base year (2021) in 2022 in percentage?,-11.60,21,5
+368,1,,OTC_SU_2023.pdf,305,309,2,What was the estimated coverage of VOC emissions in 2023 (%)?,90,2,4
 369,1,,OTC_SU_2023.pdf,305,309,2,How many kilograms of VOC emissions were estimated in 2022?,308520,3,5
 370,1,,OTC_SU_2023.pdf,305,309,2,What was the ratio of VOC emissions per million euros of turnover in 2021?,11.8,4,6
-371,1,,OTC_SU_2023.pdf,305,309,2,What is the estimated coverage of VOC emissions in 2020?,90%,2,7
+371,1,,OTC_SU_2023.pdf,305,309,2,What is the estimated coverage of VOC emissions in 2020 in percentage?,90,2,7
 372,1,,OTC_SU_2023.pdf,305,309,2,How many kilograms of VOC emissions were estimated in 2023?,304975,3,4
 373,1,,OTC_SU_2023.pdf,305,309,2,What was the VOC emissions per million euros of turnover in 2022?,9,4,5
 374,1,,OTC_SU_2023.pdf,305,309,2,What was the VOC emissions per million euros of turnover in 2020?,17.5,4,7
@@ -407,12 +407,12 @@
 405,1,,fresenius_2023.pdf,302,191,1,"What is the energy consumption per FTE for the year 2021, in MWh?",21.7,3,4
 406,1,,fresenius_2023.pdf,303,186,0,What was the total amount of water withdrawal in millions m3 for the year 2023?,15.1,4,2
 407,1,,fresenius_2023.pdf,303,186,0,How much did the healthcare products market segment withdraw water in millions m3 in 2022?,10.4,2,3
-408,1,,fresenius_2023.pdf,303,186,0,How much water did the healthcare services market segment withdraw for the year 2021?,4.9,3,4
+408,1,,fresenius_2023.pdf,303,186,0,How much water did the healthcare services market segment withdraw for the year 2021 in millions of m3?,4.9,3,4
 409,1,,fresenius_2023.pdf,303,186,0,What was the amount of water withdrawal for the healthcare products market segment in millions m3 for the year 2023?,9.9,2,2
 410,1,,fresenius_2023.pdf,303,186,0,What was the total amount of water withdrawal in millions m3 for the year 2022?,15.6,4,3
 411,1,,fresenius_2023.pdf,303,186,0,What was the healthcare services market segment water withdrawal in millions m3 for the year 2022?,5.2,3,3
 412,1,,fresenius_2023.pdf,303,186,0,What was the total amount of water withdrawal in millions m3 for the year 2021?,15,4,4
-413,1,,fresenius_2023.pdf,303,186,0,What is the amount of water the healthcare services market segment  withdrew in millions m3 for the year 2023?,5.2,3,2
+413,1,,fresenius_2023.pdf,303,186,0,What is the amount of water the healthcare services market segment withdrew in millions m3 for the year 2023?,5.2,3,2
 414,1,,fresenius_2023.pdf,303,186,0,What was the healthcare products market segment water withdrawal in millions m3 for the year 2021?,10.1,2,4
 415,1,,fresenius_2023.pdf,303,186,1,What is the water withdrawal per 1 million sales in 2023 in m3?,671,2,2
 416,1,,fresenius_2023.pdf,303,186,1,How much was the water withdrawal per 1 million sales in 2022 in m3?,718,2,3
@@ -531,9 +531,9 @@
 529,1,,NYSE_TTE_2023.pdf,303,327,0,How much fresh water withdrawals excluding open loop cooling water were there in 2021 in Mcm?,101,2,5
 530,1,,NYSE_TTE_2023.pdf,303,327,0,What was the amount of fresh water consumption in 2023 in Mcm?,76,3,3
 531,1,,NYSE_TTE_2023.pdf,303,327,0,How much fresh water withdrawal in water stress areas was reported in 2022 in Mcm?,55,4,4
-532,1,,NYSE_TTE_2023.pdf,303,387,0,What was the amount of fresh water withdrawals excluding open loop cooling water in 2022?,107,13,6
-533,1,,NYSE_TTE_2023.pdf,303,387,0,How much fresh water was withdrawn in water stress areas in 2023?,50,14,7
-534,1,,NYSE_TTE_2023.pdf,303,387,0,What is the total amount of fresh water consumption recorded in 2021?,80,15,5
+532,1,,NYSE_TTE_2023.pdf,303,387,0,What was the amount of fresh water withdrawals excluding open loop cooling water in Mm3 in 2022?,107,13,6
+533,1,,NYSE_TTE_2023.pdf,303,387,0,How much fresh water was withdrawn in water stress areas in 2023 in Mm3?,50,14,7
+534,1,,NYSE_TTE_2023.pdf,303,387,0,What is the total amount of fresh water consumption recorded in 2021 in Mm3?,75,15,5
 535,1,,NYSE_TTE_2023.pdf,304,387,0,What was the deforested area in hectares in 2023?,81,17,7
 536,1,,NYSE_TTE_2023.pdf,304,387,0,What was the compensated area in hectares in 2023?,59,18,7
 537,1,,NYSE_TTE_2023.pdf,304,387,0,What is the net deforestation in hectares for the year 2023?,22,19,7
@@ -549,7 +549,7 @@
 547,1,2,NYSE_TTE_2023.pdf,305,387,0,What was the deforested area in hectares in 2023?,81,,
 548,1,2,NYSE_TTE_2023.pdf,305,387,0,What was the compensated area in hectares in 2023?,59,,
 549,1,2,NYSE_TTE_2023.pdf,305,387,0,What was the net deforestation in hectares for the year 2023?,22,,
-550,1,,NYSE_TTE_2023.pdf,305,619,1,What was the lifecycle carbon intensity of energy products used by customers in 2023?,87,2,3
+550,1,,NYSE_TTE_2023.pdf,305,619,1,What was the lifecycle carbon intensity of energy products used by customers in 2023 in g CO2e/MJ?,87,2,3
 551,1,,NYSE_TTE_2023.pdf,305,619,1,"What was the intensity of GHG emissions (Scope 1+2) of operated Upstream oil & gas activities in 2023, measured in kg CO2e/boe?",17,3,3
 552,1,,NYSE_TTE_2023.pdf,305,619,1,"What was the intensity of GHG emissions (Scope 1+2) of Upstream oil & gas activities on equity basis in 2023, measured in kg CO2e/boe?",18,4,3
 553,1,,NYSE_TTE_2023.pdf,305,619,1,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2023, measured in %?",0.11,5,3
@@ -580,20 +580,20 @@
 578,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target range for Scope 1+2 emissions on operated activities by 2030 in Mt CO2e?,25-30,3,6
 579,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of methane emissions on operated activities in 2022 in kt CH4?,42,5,3
 580,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of methane emissions on operated activities in 2023 in kt CH4?,34,5,4
-581,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for methane emissions in kt CH4 on operated activities by 2025 in percentage?,-50%,5,5
-582,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for methane emissions in kt CH4 on operated activities by 2030 in percentage?,-80%,5,6
-583,1,,NYSE_TTE_2023.pdf,305,17,0,What was the lifecycle carbon intensity reduction of energy products sold in 2022 in percentage?,-12%,7,3
-584,1,,NYSE_TTE_2023.pdf,305,17,0,What was the lifecycle carbon intensity reduction of energy products sold in 2023 in percentage?,-13%,7,4
-585,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for lifecycle carbon intensity of energy products sold by 2025 in percentage?,-15%,7,5
-586,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for lifecycle carbon intensity of energy products sold by 2030 in percentage?,-25%,7,6
+581,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for methane emissions in kt CH4 on operated activities by 2025 in percentage?,-50,5,5
+582,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for methane emissions in kt CH4 on operated activities by 2030 in percentage?,-80,5,6
+583,1,,NYSE_TTE_2023.pdf,305,17,0,What was the lifecycle carbon intensity reduction of energy products sold in 2022 in percentage?,-12,7,3
+584,1,,NYSE_TTE_2023.pdf,305,17,0,What was the lifecycle carbon intensity reduction of energy products sold in 2023 in percentage?,-13,7,4
+585,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for lifecycle carbon intensity of energy products sold by 2025 in percentage?,-15,7,5
+586,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target reduction for lifecycle carbon intensity of energy products sold by 2030 in percentage?,-25,7,6
 587,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of Scope 3 emissions worldwide in 2022 in Mt CO2e?,389,8,3
 588,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of Scope 3 emissions worldwide in 2023 in Mt CO2e?,355,8,4
 589,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target for Scope 3 emissions worldwide by 2025 in Mt CO2e?,<400,8,5
 590,1,,NYSE_TTE_2023.pdf,305,17,0,What is the target for Scope 3 emissions worldwide by 2030 in Mt CO2e?,<400,8,6
-591,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of Scope 3 oil emissions in 2022?,254,9,3
-592,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of Scope 3 oil emissions in 2023?,227,9,4
-593,1,2,NYSE_TTE_2023.pdf,305,17,0,What was the percentage reduction for Scope 3 emissions worldwide compared to 2015 in 2022?,-27%,,
-594,1,2,NYSE_TTE_2023.pdf,305,17,0,What was the percentage reduction for Scope 3 emissions worldwide compared to 2015 in 2023?,-34%,,
+591,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of Scope 3 oil emissions in 2022 in Mt CO2e?,254,9,3
+592,1,,NYSE_TTE_2023.pdf,305,17,0,What was the value of Scope 3 oil emissions in 2023 in Mt CO2e?,227,9,4
+593,1,2,NYSE_TTE_2023.pdf,305,17,0,What was the percentage reduction for Scope 3 emissions worldwide compared to 2015 in 2022?,-27,,
+594,1,2,NYSE_TTE_2023.pdf,305,17,0,What was the percentage reduction for Scope 3 emissions worldwide compared to 2015 in 2023?,-34,,
 595,1,,NYSE_TTE_2023.pdf,305,184,0,What was the amount of direct GHG emissions in 2023 measured in Mt CO2e?,32,3,3
 596,1,,NYSE_TTE_2023.pdf,305,184,0,How many Mt CO2e were attributed to the breakdown by segment - Upstream oil & gas activities in 2023?,12,4,3
 597,1,3,NYSE_TTE_2023.pdf,305,184,0,"What is the value for the breakdown by segment - Integrated LNG, excluding upstream gas operations in 2022 measured in Mt CO2e?",<1,5,4
@@ -607,11 +607,11 @@
 605,1,,NYSE_TTE_2023.pdf,305,184,0,What was the amount of direct emissions of biogenic CO2 in 2023 in Mt CO2e?,0.1,21,3
 606,1,,NYSE_TTE_2023.pdf,305,185,0,What was the amount of methane emissions in 2023 measured in kt CH4?,34,3,3
 607,1,3,NYSE_TTE_2023.pdf,305,185,0,How many kt CH4 were emitted from upstream oil & gas activities in 2022?,41,4,4
-608,1,3,NYSE_TTE_2023.pdf,305,185,0,"What was the methane emission figure for integrated LNG, excluding upstream gas operations in 2021?",<1,5,5
-609,1,3,NYSE_TTE_2023.pdf,305,185,0,What was the methane emission amount for refining & chemicals in 2020?,1,7,6
+608,1,3,NYSE_TTE_2023.pdf,305,185,0,"What was the methane emission figure for integrated LNG in kt CH4, excluding upstream gas operations in 2021?",<1,5,5
+609,1,3,NYSE_TTE_2023.pdf,305,185,0,What was the methane emission amount for refining & chemicals in 2015 in kt CH4?,1,7,6
 610,1,3,NYSE_TTE_2023.pdf,305,185,0,What was the methane emission figure for Europe in 2023 measured in kt CH4?,5,9,3
 611,1,3,NYSE_TTE_2023.pdf,305,185,0,How much methane was emitted in Africa in 2022 in kt CH4?,23,11,4
-612,1,3,NYSE_TTE_2023.pdf,305,185,0,What was the methane emission amount for the Americas in 2021?,18,12,5
+612,1,3,NYSE_TTE_2023.pdf,305,185,0,What was the methane emission amount for the Americas in 2021 in kt CH4?,18,12,5
 613,1,,NYSE_TTE_2023.pdf,305,185,1,"What was the intensity of GHG emissions (Scope 1+2) from operated Upstream oil & gas activities in 2023, measured in kg CO2e/boe?",17,2,3
 614,1,,NYSE_TTE_2023.pdf,305,185,1,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2022, expressed as a percentage?",0.11,3,4
 615,1,,NYSE_TTE_2023.pdf,305,185,1,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2021, expressed as a percentage?",<0.1,4,5
@@ -718,7 +718,7 @@
 716,1,3,NYSE_TTE_2023.pdf,305,382,0,How many tonnes of CO2 equivalent were emitted from Upstream oil & gas activities in 2021 from operated domain?,14,4,6
 717,1,,NYSE_TTE_2023.pdf,305,382,0,What was the total Scope 1 - Direct emissions in 2023 in Mt CO2e from operated domain?,32,3,8
 718,1,,NYSE_TTE_2023.pdf,305,382,0,What was the amount of Scope 2 - Indirect emissions from energy use in 2020 in Mt CO2e from operated domain?,3,16,5
-719,1,,NYSE_TTE_2023.pdf,305,382,0,How much did Scope 1+2 emissions reduce compared to 2015 in 2022 from operated domain?,-13%,19,7
+719,1,,NYSE_TTE_2023.pdf,305,382,0,How much did Scope 1+2 emissions reduce compared to 2015 in 2022 from operated domain (%)?,-13,19,7
 720,1,,NYSE_TTE_2023.pdf,305,382,0,What was the Scope 1+2 emissions from oil & gas facilities in 2021 in Mt CO2e from operated domain?,33,20,6
 721,1,,NYSE_TTE_2023.pdf,305,382,0,What was the Scope 1+2 emissions in 2023 in Mt CO2e from operated domain?,35,18,8
 722,1,3,NYSE_TTE_2023.pdf,305,382,0,What were the direct GHG emissions (Scope 1) for the chemical segment in 2020 in MtCO2e from equity interest domain?,22,7,11
@@ -730,12 +730,12 @@
 728,1,3,NYSE_TTE_2023.pdf,305,382,0,What were the direct GHG emissions (Scope 1) of CO2 in 2022 in MtCO2e from equity interest domain?,50,13,13
 729,1,3,NYSE_TTE_2023.pdf,305,382,0,What were the direct GHG emissions (Scope 1) of CH4 in 2021 in MtCO2e from equity interest domain?,1,14,12
 730,1,3,NYSE_TTE_2023.pdf,305,382,0,What were the direct GHG emissions (Scope 1) of N2O in 2015 in MtCO2e from equity interest domain?,-,15,9
-731,1,3,NYSE_TTE_2023.pdf,305,382,0,How much did Scope 1+2 emissions reduce compared to 2015 in 2021 from equity interest domain?,-,19,12
+731,1,3,NYSE_TTE_2023.pdf,305,382,0,How much did Scope 1+2 emissions reduce compared to 2015 in 2021 from equity interest domain (%)?,-,19,12
 732,1,,NYSE_TTE_2023.pdf,305,382,0,What was the Scope 1+2 emissions from oil & gas facilities in 2023 in Mt CO2e from equity interest domain?,44,20,14
 733,1,,NYSE_TTE_2023.pdf,305,382,0,What was the Scope 1+2 CCGT emissions in 2021 in Mt CO2e from equity interest domain?,8,21,12
 734,1,,NYSE_TTE_2023.pdf,305,382,0,What was the Scope 1+2 emissions in 2022 in Mt CO2e from equity interest domain?,56,18,13
-735,1,3,NYSE_TTE_2023.pdf,305,382,0,What are the indirect emissions from energy use in Europe from equity interest domain in 2023?,2,17,14
-736,1,,NYSE_TTE_2023.pdf,305,382,0,What are the indirect emissions from energy use from equity interest domain in 2021?,5,16,12
+735,1,3,NYSE_TTE_2023.pdf,305,382,0,What are the indirect emissions from energy use in Europe in Mt CO2e from equity interest domain in 2023?,2,17,14
+736,1,,NYSE_TTE_2023.pdf,305,382,0,What are the indirect emissions from energy use from equity interest domain in 2021 in Mt CO2e?,5,16,12
 737,1,,NYSE_TTE_2023.pdf,305,382,1,What was the amount of methane emissions in 2022 measured in kt CH4 from operated domain?,42,3,7
 738,1,,NYSE_TTE_2023.pdf,305,382,1,How many kilotonnes of methane emissions were recorded in 2021 from operated domain?,49,3,6
 739,1,,NYSE_TTE_2023.pdf,305,382,1,What is the methane emissions figure for the year 2020 in kt CH4?,64,3,5
@@ -843,9 +843,9 @@
 841,1,,OTC_DPSGY_2023.pdf,305,66,0,What were the gross indirect GHG emissions from energy consumption (Scope 2) location-based in tonnes of CO2 equivalent for the year 2023?,0.67,19,3
 842,1,,OTC_DPSGY_2023.pdf,305,66,0,What is the change in percentage of other indirect GHG emissions (Scope 3) in tonnes of CO2 equivalent between 2022 and 2023?,-11.5,12,4
 843,1,,OTC_DPSGY_2023.pdf,305,66,0,What was the change of gross direct GHG emissions (Scope 1) in tonnes of CO2 equivalent between 2022 and 2023?,-0.6,3,4
-844,1,,OTC_DPSGY_2023.pdf,305,66,0,What was the change of gross indirect GHG emissions from energy consumption (Scope 2) location-based in tonnes of CO2 equivalent between 2022 and 2023?,-2.9,19,4
-845,1,,OTC_DPSGY_2023.pdf,305,66,0,What was the change of gross indirect GHG emissions from energy consumption (Scope 2) market-based in tonnes of CO2 equivalent between 2022 and 2023?,-28.6,9,4
-846,1,,OTC_DPSGY_2023.pdf,305,66,0,What was the change of gross other indirect GHG emissions (Scope 3) in tonnes of CO2 equivalent between 2022 and 2023 without market based measures?,-11.2,13,4
+844,1,,OTC_DPSGY_2023.pdf,305,66,0,What was the change of gross indirect GHG emissions from energy consumption (Scope 2) location-based in tonnes of CO2 equivalent between 2022 and 2023 (%)?,-2.9,19,4
+845,1,,OTC_DPSGY_2023.pdf,305,66,0,What was the change of gross indirect GHG emissions from energy consumption (Scope 2) market-based in tonnes of CO2 equivalent between 2022 and 2023 (%)?,-28.6,9,4
+846,1,,OTC_DPSGY_2023.pdf,305,66,0,What was the change of gross other indirect GHG emissions (Scope 3) in tonnes of CO2 equivalent between 2022 and 2023 without market based measures (%)?,-11.2,13,4
 847,1,,OTC_DPSGY_2023.pdf,305,68,1,What was the total GHG emissions in 2021 measured in million metric tons of CO2e?,40.23,2,2
 848,1,3,OTC_DPSGY_2023.pdf,305,68,1,What was the GHG emissions from DHL Group in 2021 in million metric tons of CO2e?,39.36,3,2
 849,1,,OTC_DPSGY_2023.pdf,305,68,1,What was the GHG emissions from Hillebrand Group in 2021 in million metric tons of CO2e?,0.87,4,2
@@ -875,14 +875,14 @@
 873,1,,commerzbank_2023.pdf,305,69,0,What is the gross indirect GHG emissions (Scope 2) market-based in tonnes of CO2 equivalent for both Germany and other countries?,12867,4,4
 874,1,,commerzbank_2023.pdf,305,69,0,How much are the gross other indirect GHG emissions (Scope 3) in tonnes of CO2 equivalent for both Germany and other countries?,46306,5,4
 875,1,,commerzbank_2023.pdf,305,69,0,What are the GHG emissions (Scope 1) in tonnes of CO2 equivalent for both Germany and other countries?,17418,2,4
-876,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for consumer loans in 2023?,57%,2,3
-877,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for project financing/corporate loans and investments in 2023?,74%,5,3
-878,1,,commerzbank_2023.pdf,305,54,0,"What is the CO2 reduction pathway percentage for corporate loans in 2023 related to commercial real estate, commercial use?",67%,8,3
-879,1,,commerzbank_2023.pdf,305,54,0,"What is the CO2 reduction pathway percentage for corporate loans in 2023 related to commercial real estate, residential?",57%,11,3
-880,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for iron and steel?,36%,14,3
-881,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for cement?,23%,17,3
-882,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for automotive manufacturing?,31%,20,3
-883,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for aviation?,22%,23,3
+876,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for consumer loans in 2023?,57,2,3
+877,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for project financing/corporate loans and investments in 2023?,74,5,3
+878,1,,commerzbank_2023.pdf,305,54,0,"What is the CO2 reduction pathway percentage for corporate loans in 2023 related to commercial real estate, commercial use?",67,8,3
+879,1,,commerzbank_2023.pdf,305,54,0,"What is the CO2 reduction pathway percentage for corporate loans in 2023 related to commercial real estate, residential?",57,11,3
+880,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for iron and steel?,36,14,3
+881,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for cement?,23,17,3
+882,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for automotive manufacturing?,31,20,3
+883,1,,commerzbank_2023.pdf,305,54,0,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for aviation?,22,23,3
 884,1,3,commerzbank_2023.pdf,305,54,0,What was the CO2 emissions intensity for steel in 2023?,1.2,15,5
 885,1,3,commerzbank_2023.pdf,305,54,0,What was the CO2 emissions intensity for cement in 2023?,0.8,18,5
 886,1,3,commerzbank_2023.pdf,305,54,0,What was the CO2 emissions intensity for automotive manufacturing in 2023?,148,21,5
@@ -928,9 +928,9 @@
 926,1,2,OTC_BAYZF_2023.pdf,305,259,0,"How many smallholder farmers in low- and middle-income countries will be supported by products, services, and partnerships by 2030?",100,2,2
 927,1,2,OTC_BAYZF_2023.pdf,305,259,0,What is the target number of women in low- and middle-income countries who will have modern contraceptions by 2030?,100,3,2
 928,1,2,OTC_BAYZF_2023.pdf,305,259,0,"By 2030, how many people in underserved communities will have sufficient self-care from Bayer?",100,4,2
-929,1,,OTC_BAYZF_2023.pdf,305,259,0,What is the targeted percentage decrease in Scope 1 and 2 greenhouse gas emissions by 2030?,42%,5,2
-930,1,,OTC_BAYZF_2023.pdf,305,259,0,What is the goal for the percentage decrease in Scope 3 greenhouse gas emissions from relevant categories by 2030?,12.3%,6,2
-931,1,,OTC_BAYZF_2023.pdf,305,259,0,What percentage of remaining Scope 1 and 2 greenhouse gas emissions will be offset by 2030?,100%,7,2
+929,1,,OTC_BAYZF_2023.pdf,305,259,0,What is the targeted percentage decrease in Scope 1 and 2 greenhouse gas emissions by 2030?,42,5,2
+930,1,,OTC_BAYZF_2023.pdf,305,259,0,What is the goal for the percentage decrease in Scope 3 greenhouse gas emissions from relevant categories by 2030?,12.3,6,2
+931,1,,OTC_BAYZF_2023.pdf,305,259,0,What percentage of remaining Scope 1 and 2 greenhouse gas emissions will be offset by 2030?,100,7,2
 932,1,2,OTC_BAYZF_2023.pdf,305,33,0,"How many smallholder farmers in low- and middle-income countries were supported by products, services, and partnerships in 2022?",52,,
 933,1,2,OTC_BAYZF_2023.pdf,305,33,0,What was the number of women in low- and middle-income countries who had their need for modern contraception satisfied in 2023?,46,,
 934,1,2,OTC_BAYZF_2023.pdf,305,33,0,"In 2022, how many people in underserved communities had their self-care supported by interventions from Bayer?",49,,
@@ -963,14 +963,14 @@
 961,1,2,OTC_BAYZF_2023.pdf,305,132,0,What was the total waste generated in 2023?,231,,
 962,1,,OTC_BAYZF_2023.pdf,306,132,0,What was the total amount of waste generated in 2022 in tons?,178,24,2
 963,1,,OTC_BAYZF_2023.pdf,306,132,0,What was the total amount of waste generated in 2023 in tons?,231,24,3
-964,1,,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled in 2022?,99%,34,4
-965,1,1,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled (WEEE) in 2021?,98%,34,5
-966,1,2,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled (WEEE) in 2020?,98%,,
-967,1,,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled (WEEE) in 2019?,99%,34,6
-968,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What percentage of renewable energy was used in 2023?,79%,2,2
-969,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What was the percentage of renewable energy coverage in 2022?,78%,3,3
-970,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What percentage of renewable energy was utilized in 2021?,94%,2,4
-971,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What was the percentage of renewable energy coverage in 2020?,71%,3,5
+964,1,,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled in 2022?,99,34,4
+965,1,1,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled (WEEE) in 2021?,98,34,5
+966,1,2,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled (WEEE) in 2020?,98,,
+967,1,,NASDAQ_DASTY_2023.pdf,301,141,0,What was the percentage of electric and electronic waste recycled (WEEE) in 2019?,99,34,6
+968,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What percentage of renewable energy was used in 2023?,79,2,2
+969,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What was the percentage of renewable energy coverage in 2022?,78,3,3
+970,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What percentage of renewable energy was utilized in 2021?,94,2,4
+971,1,,NASDAQ_DASTY_2023.pdf,302,110,0,What was the percentage of renewable energy coverage in 2020?,71,3,5
 972,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,"What was the carbon intensity in millions of euros of Revenue IFRS for the year 2023 (tCO,-eq/M�)?",31.4,,
 973,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,"What was the carbon intensity in millions of euros of Revenue IFRS for the year 2022 (tCO,-eq/M�)?",31.2,,
 974,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,"How much carbon intensity per employee was reported in 2023 (tCO,-eq/employee)?",8.1,,
@@ -979,16 +979,16 @@
 977,1,,NASDAQ_DASTY_2023.pdf,302,117,0,How much energy was consumed in 2022 (MWh)?,82766,4,3
 978,1,,NASDAQ_DASTY_2023.pdf,302,117,0,How many EACs were acquired in 2023?,31102,5,2
 979,1,,NASDAQ_DASTY_2023.pdf,302,117,0,What was the number of EACs acquired in 2022?,37000,5,3
-980,1,,NASDAQ_DASTY_2023.pdf,302,117,0,What percentage of renewable energy was reported in 2023?,84%,6,2
-981,1,,NASDAQ_DASTY_2023.pdf,302,117,0,What was the share of renewable energy in 2022?,84%,6,3
-982,1,,NASDAQ_DASTY_2023.pdf,302,117,0,What was the share of renewable electricity in 2023?,89%,7,2
-983,1,,NASDAQ_DASTY_2023.pdf,302,117,0,How much renewable electricity was reported in 2022?,90%,7,3
-984,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What percentage of ISO 50001-certified sites was reported in 2023?,66.7%,,
-985,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What was the percentage of ISO 50001-certified sites in 2022?,44%,,
-986,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What percentage of the workforce was covered by ISO 50001 certified sites in 2023?,65.3%,,
-987,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What was the percentage of workforce covered by ISO 50001 certified sites in 2022?,51%,,
-988,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What share of suppliers by weight of GHG emissions committed to a science-based reduction approach was reported in 2023?,37%,,
-989,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What was the share of suppliers committed to a science-based reduction approach in 2022?,26%,,
+980,1,,NASDAQ_DASTY_2023.pdf,302,117,0,What percentage of renewable energy was reported in 2023?,84,6,2
+981,1,,NASDAQ_DASTY_2023.pdf,302,117,0,What was the share of renewable energy in 2022 (%)?,84,6,3
+982,1,,NASDAQ_DASTY_2023.pdf,302,117,0,What was the share of renewable electricity in 2023 (%)?,89,7,2
+983,1,,NASDAQ_DASTY_2023.pdf,302,117,0,How much renewable electricity was reported in 2022 (%)?,90,7,3
+984,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What percentage of ISO 50001-certified sites was reported in 2023?,66.7,,
+985,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What was the percentage of ISO 50001-certified sites in 2022?,44,,
+986,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What percentage of the workforce was covered by ISO 50001 certified sites in 2023?,65.3,,
+987,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What was the percentage of workforce covered by ISO 50001 certified sites in 2022?,51,,
+988,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What share of suppliers by weight of GHG emissions committed to a science-based reduction approach was reported in 2023?,37,,
+989,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,What was the share of suppliers committed to a science-based reduction approach in 2022?,26,,
 990,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,"How many carbon credits were acquired during the year 2023 (tCO,-eq)?",673,,
 991,1,2,NASDAQ_DASTY_2023.pdf,302,117,0,"What was the quantity of carbon credits acquired in 2022 (tCO,-eq)?",671,,
 992,1,,NASDAQ_DASTY_2023.pdf,304,119,0,What is the number of environmental certifications in 2023?,37,5,2
@@ -1001,7 +1001,7 @@
 999,1,3,NASDAQ_DASTY_2023.pdf,305,141,0,What was the value of Gross indirect GHG emissions from energy consumption (Scope 2) market-based in tonnes of CO2 equivalent for the year 2023?,2808,11,3
 1000,1,3,NASDAQ_DASTY_2023.pdf,305,141,0,What was the value of Gross indirect GHG emissions from energy consumption (Scope 2) location-based in tonnes of CO2 equivalent for the year 2023?,21094,12,3
 1001,1,,NASDAQ_DASTY_2023.pdf,305,141,0,What was the total Gross other indirect GHG emissions (Scope 3) in tonnes of CO2 equivalent for the year 2023?,179523,14,3
-1002,1,,NASDAQ_DASTY_2023.pdf,305,141,0,What was the GHG emissions intensity ratio for the organization in the year 2023?,98%,4,2
+1002,1,,NASDAQ_DASTY_2023.pdf,305,141,0,What was the GHG emissions intensity ratio for the organization in the year 2023 (%)?,98,4,2
 1003,1,,NASDAQ_DASTY_2023.pdf,305,141,0,What’s the total emissions in tCO2eq in 2023?,186894,23,3
 1004,1,2,NASDAQ_DASTY_2023.pdf,305,141,0,What was the total weight of waste in tons for the year 2022?,1321.5,,
 1005,1,2,NASDAQ_DASTY_2023.pdf,305,141,0,What was the weight of collected electric and electronic waste (WEEE) in tons for the year 2022?,47.5,,
@@ -1049,20 +1049,20 @@
 1047,1,,NASDAQ_DASTY_2023.pdf,306,125,0,What was the total weight of waste generated in tons in 2023?,931.3,2,2
 1048,1,3,NASDAQ_DASTY_2023.pdf,306,125,0,How much ordinary waste was generated in tons in 2022?,1274,3,3
 1049,1,3,NASDAQ_DASTY_2023.pdf,306,125,0,What is the weight of electrical and electronic waste (WEEE) in tons for the year 2023?,57.3,4,2
-1050,1,3,NASDAQ_DASTY_2023.pdf,306,125,0,What percentage of electrical and electronic waste was recycled in 2022?,99%,5,3
+1050,1,3,NASDAQ_DASTY_2023.pdf,306,125,0,What percentage of electrical and electronic waste was recycled in 2022?,99,5,3
 1051,1,1,NASDAQ_DASTY_2023.pdf,306,141,0,What is the total weight of waste generated in 2023 in tons?,931.3,31,3
 1052,1,3,NASDAQ_DASTY_2023.pdf,306,141,0,How much ordinary waste was generated in 2023 in tons?,874,32,3
 1053,1,3,NASDAQ_DASTY_2023.pdf,306,141,0,What was the weight of collected electric and electronic waste in 2023 in tons?,57.3,33,3
-1054,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What percentage of electric and electronic waste was recycled in 2022?,99%,34,4
+1054,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What percentage of electric and electronic waste was recycled in 2022?,99,34,4
 1055,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What was the total weight of waste generated in 2022 in tons?,1321.5,31,4
 1056,1,3,NASDAQ_DASTY_2023.pdf,306,141,0,How much weight of ordinary waste was generated in 2022 in tons?,1274,32,4
 1057,1,3,NASDAQ_DASTY_2023.pdf,306,141,0,What was the weight of collected electric and electronic waste in 2022 in tons?,47.5,33,4
-1058,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What percentage of electric and electronic waste was recycled in 2021?,98%,34,5
+1058,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What percentage of electric and electronic waste was recycled in 2021?,98,34,5
 1059,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What is the total weight of waste generated in 2021 in tons?,24.3,31,5
 1060,1,3,NASDAQ_DASTY_2023.pdf,306,141,0,How much weight of ordinary waste was generated in 2019 in tons?,-,32,6
 1061,1,3,NASDAQ_DASTY_2023.pdf,306,141,0,What was the weight of collected electric and electronic waste (WEEE) in 2019 in tons?,38.9,33,6
-1062,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What percentage of electric and electronic waste was recycled in 2019?,99%,34,6
-1063,1,,talanx_2023.pdf,305,97,0,What was the percentage increase in carbon intensity (Scope 1 and 2) compared to the 2019 baseline in 2023?,-34%,2,5
+1062,1,,NASDAQ_DASTY_2023.pdf,306,141,0,What percentage of electric and electronic waste was recycled in 2019?,99,34,6
+1063,1,,talanx_2023.pdf,305,97,0,What was the percentage increase in carbon intensity (Scope 1 and 2) compared to the 2019 baseline in 2023?,-34,2,5
 1064,1,2,talanx_2023.pdf,302,97,0,How much were the sustainable investments in 2023 in EUR?,11.3,3,5
 1065,1,2,talanx_2023.pdf,302,97,0,What was the status of ESG screening of the investment portfolio in 2023?,Ongoing,4,5
 1066,1,,talanx_2023.pdf,302,97,0,What was the status of exiting thermal coal in 2023?,Ongoing,5,5
@@ -1075,7 +1075,7 @@
 1073,1,2,talanx_2023.pdf,302,97,0,What was the status of excluding insurance solutions for deep sea mining projects in 2023?,Introduced,,
 1074,1,2,talanx_2023.pdf,302,97,0,What was the status of expanding sustainable insurance solutions to mitigate the consequences of natural disasters in 2023?,Ongoing,,
 1075,1,2,talanx_2023.pdf,302,97,0,What was the status of supporting the global shift to green energy by providing insurance for renewable energies and technologies in 2023?,Ongoing,,
-1076,1,,talanx_2023.pdf,305,97,0,What was the percentage increase in GHG emissions compared to the 2019 baseline in 2023?,-34%,15,5
+1076,1,,talanx_2023.pdf,305,97,0,What was the percentage increase in GHG emissions compared to the 2019 baseline in 2023?,-34,15,5
 1077,1,,talanx_2023.pdf,302,97,0,What was the status of optimizing energy consumption in operations in 2023?,Ongoing,16,5
 1078,1,,talanx_2023.pdf,302,97,0,What was the status of increasing the use of renewable energy sources in operations in 2023?,Ongoing,17,5
 1079,1,,terna_2023.pdf,301,294,0,What was the total amount of steel produced in 2023 in tonnes?,15134,2,3
@@ -1098,7 +1098,7 @@
 1096,1,,terna_2023.pdf,302,288,0,How much jet fuel for helicopters was consumed in g joules in 2023?,16682.1,5,2
 1097,1,,terna_2023.pdf,302,288,0,What was the fuel oil for heating and generators consumption in g joules in 2022?,4547.2,6,3
 1098,1,,terna_2023.pdf,302,288,0,What is the natural gas for heating consumption in g joules for the year 2021?,3505,7,4
-1099,1,,terna_2023.pdf,302,288,0,How much energy has been indirectly consumed in 2023?,691776,10,2
+1099,1,,terna_2023.pdf,302,288,0,How much energy has been indirectly consumed in 2023 in GJ?,691776,10,2
 1100,1,,terna_2023.pdf,304,303,0,How many lines were involved as bird deterrents in the year 2023?,92,2,3
 1101,1,,terna_2023.pdf,304,303,0,What was the total number of deterrents installed in 2022?,17445,3,4
 1102,1,,terna_2023.pdf,304,303,0,Can you tell me the number of lines involved as bird deterrents in 2021?,81,2,5
@@ -1167,16 +1167,16 @@
 1165,1,,terna_2023.pdf,305,284,1,What were the grid losses recorded in 2023 in tonnes of CO2 equivalent?,1475037,3,2
 1166,1,,terna_2023.pdf,305,284,1,What were the grid losses for the year 2022 in tonnes of CO2 equivalent?,1670666,3,3
 1167,1,,terna_2023.pdf,305,284,1,How much were the grid losses in 2021 in tonnes of CO2 equivalent?,1597110,3,4
-1168,1,,terna_2023.pdf,305,287,0,What was the amount of emissions from purchased goods and services from the group in 2023?,152730.8,3,2
-1169,1,,terna_2023.pdf,305,287,0,How much emissions from capital goods were reported from the group in 2022?,81294.8,4,3
-1170,1,,terna_2023.pdf,305,287,0,What is the amount of emissions from energy and fuel related activities recorded in 2021 from the group?,475907.6,5,4
-1171,1,,terna_2023.pdf,305,287,0,What was the total amount of emissions for upstream transportation and distribution in 2023 from terna?,6833.7,6,5
-1172,1,,terna_2023.pdf,306,287,0,How much emissions from waste was generated by terna in operations in 2022?,3945.9,7,6
-1173,1,,terna_2023.pdf,305,287,0,What was the terna’s business travel amount of emissions in 2021?,918,8,7
-1174,1,,terna_2023.pdf,305,287,0,What is the emissions value for group employee commuting for 2023?,10075.9,9,2
-1175,1,,terna_2023.pdf,305,287,0,How many emissions from downstream transportation and distribution from the group was reported in 2022?,233.2,10,3
-1176,1,,terna_2023.pdf,305,287,0,What was the emissions related to the use of products sold by the group in 2021?,973225.1,11,4
-1177,1,,terna_2023.pdf,305,287,0,What are the emissions given by end-of-life treatment of products sold in 2022 from the group?,105.4,12,3
+1168,1,,terna_2023.pdf,305,287,0,What was the amount in tonnes of CO2 equivalent of emissions from purchased goods and services from the group in 2023?,152730.8,3,2
+1169,1,,terna_2023.pdf,305,287,0,How much emissions from capital goods were reported from the group in tonnes of CO2 equivalent in 2022?,81294.8,4,3
+1170,1,,terna_2023.pdf,305,287,0,What is the amount of emissions from energy and fuel related activities recorded in 2021 from the group in tonnes of CO2 equivalent?,475907.6,5,4
+1171,1,,terna_2023.pdf,305,287,0,What was the total amount of emissions in tonnes of CO2 equivalent for upstream transportation and distribution in 2023 from terna?,6833.7,6,5
+1172,1,,terna_2023.pdf,306,287,0,How much emissions in tonnes of CO2 equivalent from waste was generated by terna in operations in 2022?,3945.9,7,6
+1173,1,,terna_2023.pdf,305,287,0,What was the terna’s business travel amount of emissions in tonnes of CO2 equivalent in 2021?,918,8,7
+1174,1,,terna_2023.pdf,305,287,0,What is the emissions value in tonnes of CO2 equivalent for group employee commuting for 2023?,10075.9,9,2
+1175,1,,terna_2023.pdf,305,287,0,How many emissions in tonnes of CO2 equivalent from downstream transportation and distribution from the group was reported in 2022?,233.2,10,3
+1176,1,,terna_2023.pdf,305,287,0,What was the emissions in tonnes of CO2 equivalent related to the use of products sold by the group in 2021?,973225.1,11,4
+1177,1,,terna_2023.pdf,305,287,0,What are the emissions in tonnes of CO2 equivalent given by end-of-life treatment of products sold in 2022 from the group?,105.4,12,3
 1178,1,,terna_2023.pdf,306,295,0,What was the total weight of group’s waste produced in tonnes for the year 2023?,12368.9,3,3
 1179,1,,terna_2023.pdf,306,295,0,How much waste from the group was sent for recovery in tonnes in 2022?,10948.3,4,4
 1180,1,,terna_2023.pdf,306,295,0,What percentage of group’s waste was recovered in 2021?,84,5,5
@@ -1267,15 +1267,15 @@
 1265,1,,NYSE_AZ_2023.pdf,302,61,1,What is the percentage difference between 2023 and 2022 for the energy consumption from data centers in GJ?,12,3,5
 1266,1,,NYSE_AZ_2023.pdf,302,61,1,What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization in GJ?,19.9,4,5
 1267,1,,NYSE_AZ_2023.pdf,302,61,1,What is the percentage difference between 2023 and 2022 for the energy consumption from office buildings per employee in GJ/employee?,22.3,5,5
-1268,1,,NYSE_AZ_2023.pdf,302,61,2,What was the electricity consumption in 2023 in the organization?,72.5,2,2
-1269,1,,NYSE_AZ_2023.pdf,302,61,2,How much fossil fuels were consumed by the organization in 2022?,12.4,3,3
-1270,1,,NYSE_AZ_2023.pdf,302,61,2,What was the long distance heating consumption in 2023?,16.8,4,2
-1271,1,,NYSE_AZ_2023.pdf,302,61,2,What was the consumption from other sources in 2022?,1.4,5,3
+1268,1,,NYSE_AZ_2023.pdf,302,61,2,What was the electricity consumption in 2023 in the organization (%)?,72.5,2,2
+1269,1,,NYSE_AZ_2023.pdf,302,61,2,How much fossil fuels were consumed by the organization in 2022 (%)?,12.4,3,3
+1270,1,,NYSE_AZ_2023.pdf,302,61,2,What was the long distance heating consumption in 2023 (%)?,16.8,4,2
+1271,1,,NYSE_AZ_2023.pdf,302,61,2,What was the consumption from other sources in 2022 (%)?,1.4,5,3
 1272,1,,NYSE_AZ_2023.pdf,302,61,3,What was the amount of renewable electricity generated in joules for the year 2023?,1122821,2,3
 1273,1,,NYSE_AZ_2023.pdf,302,61,3,How much renewable electricity was produced in joules for the year 2022?,1153987,2,4
 1274,1,,NYSE_AZ_2023.pdf,302,61,3,What percentage of all electricity was renewable in 2023?,100,3,3
 1275,1,,NYSE_AZ_2023.pdf,302,61,3,What was the share of renewable electricity as a percentage of all electricity in 2022?,89,3,4
-1276,1,,NYSE_AZ_2023.pdf,302,61,3,What is the difference between 2023 and 2022 of the percentages of renewable electricity?,11,3,5
+1276,1,,NYSE_AZ_2023.pdf,302,61,3,What is the difference between 2023 and 2022 of the percentage of renewable electricity?,11,3,5
 1277,1,,NYSE_AZ_2023.pdf,302,61,3,What is the percentage difference between 2023 and 2022 for the amount of renewable electricity generated in joules?,2.7,2,5
 1278,1,,NYSE_AZ_2023.pdf,305,60,0,What were the Gross Scope 1 GHG emissions in 2023 in tonnes of CO2 equivalent?,31774,2,2
 1279,1,,NYSE_AZ_2023.pdf,305,60,0,What were the Gross market-based Scope 2 GHG emissions in 2022 in tonnes of CO2 equivalent?,30490,3,3
@@ -1295,21 +1295,21 @@
 1293,1,2,NYSE_AZ_2023.pdf,305,61,0,What was the achievement in emissions for the year 2023 in tonnes of CO2 equivalent?,"Our carbon footprint per employee was 0.9 tons (2022: 1.0). This represents a 62 % reduction (2022: 57 %) against a 2019 baseline. This reduction was mainly the result of sourcing 100% renewable electricity? for our office buildings and data centers and a reduction in our energy consumption, which balanced increasing business travel post COVID-19.",,
 1294,1,,NYSE_AZ_2023.pdf,305,61,0,What were the emissions in 2023 in tonnes of CO2 equivalent?,0.894,2,6
 1295,1,,NYSE_AZ_2023.pdf,305,61,0,What is the emissions baseline in 2019 in tonnes of CO2 equivalent?,2.367,2,7
-1296,1,,NYSE_AZ_2023.pdf,305,61,0,What is the percentage delta of the target for 2030 compared to the baseline of 2019?,65%,2,8
-1297,1,,NYSE_AZ_2023.pdf,305,61,0,What is the percentage delta of the target for 2025 compared to the baseline of 2019?,50%,2,9
-1298,1,,NYSE_AZ_2023.pdf,305,58,0,What are the 2030 target emissions for all corporates?,54,2,5
-1299,1,3,NYSE_AZ_2023.pdf,305,58,0,What are the 2023 emissions for listed corporates?,14,3,6
-1300,1,,NYSE_AZ_2023.pdf,305,58,0,What are the 2019 emissions for listed corporates?,249,3,7
-1301,1,,NYSE_AZ_2023.pdf,305,58,0,What is the delta target emissions for all corporates?,50,2,8
+1296,1,,NYSE_AZ_2023.pdf,305,61,0,What is the percentage delta of the target for 2030 compared to the baseline of 2019?,65,2,8
+1297,1,,NYSE_AZ_2023.pdf,305,61,0,What is the percentage delta of the target for 2025 compared to the baseline of 2019?,50,2,9
+1298,1,,NYSE_AZ_2023.pdf,305,58,0,What are the 2030 target emissions in t CO2e/€ mn for all corporates invested?,54,2,5
+1299,1,3,NYSE_AZ_2023.pdf,305,58,0,What are the 2023 emissions for listed corporates in mn t CO2e?,14,3,6
+1300,1,,NYSE_AZ_2023.pdf,305,58,0,What are the 2019 emissions for listed corporates in mn t CO2e?,24.9,3,7
+1301,1,,NYSE_AZ_2023.pdf,305,58,0,What is the delta target emissions for all corporates (%)?,50,2,8
 1302,1,2,NYSE_AZ_2023.pdf,305,58,0,What is the book value for entities with no target yet in 2023 in € billion?,166.6,,
 1303,1,2,NYSE_AZ_2023.pdf,305,58,0,What is the total book value for all categories in 2023 in € billion?,736.8,,
 1304,1,2,heidelberg-materials_2023.pdf,301,358,0,What was the proportion of quarries sites located near an area of high biodiversity value with biodiversity management plan in 2023?,61,3,4
 1305,1,2,heidelberg-materials_2023.pdf,301,358,0,"In 2022, what percentage of quarries had a restoration plan?",92,4,3
-1306,1,2,heidelberg-materials_2023.pdf,301,358,0,What was the share of revenue from sustainable products in 2023?,35,6,4
+1306,1,2,heidelberg-materials_2023.pdf,301,358,0,What was the percentage of revenue from sustainable products in 2023?,35,6,4
 1307,1,2,heidelberg-materials_2023.pdf,301,358,0,How many memberships in Green Building Councils and Sustainable Infrastructure Councils were there in 2021?,15,8,2
-1308,1,0,heidelberg-materials_2023.pdf,301,358,0,What was the production volume of recycled aggregates in 2022?,3.8,10,3
+1308,1,0,heidelberg-materials_2023.pdf,301,358,0,What was the production volume of recycled aggregates in 2022 in million t?,3.8,10,3
 1309,1,0,heidelberg-materials_2023.pdf,301,358,0,What percentage of total aggregates production was made up of recycled aggregates in 2021?,1.1,11,2
-1310,1,0,heidelberg-materials_2023.pdf,301,358,0,What was the share of alternative raw materials contained in other building materials such as asphalt in 2022?,12.1,12,3
+1310,1,0,heidelberg-materials_2023.pdf,301,358,0,What was the percentage of alternative raw materials contained in other building materials such as asphalt in 2022?,12.1,12,3
 1311,1,2,heidelberg-materials_2023.pdf,301,358,0,What was the taxonomy-eligible revenue in 2023?,53.3,14,4
 1312,1,2,heidelberg-materials_2023.pdf,301,358,0,What percentage of taxonomy-eligible investments were there in 2021?,57,16,2
 1313,1,2,heidelberg-materials_2023.pdf,301,358,0,What was the total waste generated in 2021?,1276.7,21,2
@@ -1319,14 +1319,14 @@
 1317,1,0,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of renewable energy consumption in 2021?,9.1,2,3
 1318,1,0,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of renewable energy consumption in 2022?,10.7,2,4
 1319,1,0,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of renewable energy consumption in 2023?,12.3,2,5
-1320,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 1990?,4186,4,2
-1321,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 2021?,3093,4,3
-1322,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 2022?,3037,4,4
-1323,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 2023?,2981,4,5
-1324,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 1990?,4359,5,2
-1325,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 2021?,3859,5,3
-1326,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 2022?,3880,5,4
-1327,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 2023?,3864,5,5
+1320,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 1990 in MJ/t?,4186,4,2
+1321,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 2021 in MJ/t?,3093,4,3
+1322,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 2022 in MJ/t?,3037,4,4
+1323,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the specific energy consumption for cement in 2023 in MJ/t?,2981,4,5
+1324,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 1990 in MJ/t?,4359,5,2
+1325,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 2021 in MJ/t?,3859,5,3
+1326,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 2022 in MJ/t?,3880,5,4
+1327,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the energy consumption for clinker production in 2023 in MJ/t?,3864,5,5
 1328,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of hard coal used in clinker production in 2021?,41.7,8,3
 1329,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of hard coal used in clinker production in 2022?,37.3,8,4
 1330,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of hard coal used in clinker production in 2023?,34.5,8,5
@@ -1343,11 +1343,11 @@
 1341,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of biomass used in clinker production in 2022?,12.6,16,4
 1342,1,3,heidelberg-materials_2023.pdf,302,356,0,What was the percentage of biomass used in clinker production in 2023?,13.2,16,5
 1343,1,0,heidelberg-materials_2023.pdf,302,356,0,"What percentage of fuel consumption was accounted for by alternative fuels, including biomass, in 2021?",26.4,28,3
-1344,1,0,heidelberg-materials_2023.pdf,302,356,0,"In 2022, what proportion of fuel usage came from alternative sources, such as biomass?",28.7,28,4
-1345,1,0,heidelberg-materials_2023.pdf,302,356,0,"What was the rate of alternative fuel usage, including biomass, in 2023?",29.9,28,5
-1346,1,0,heidelberg-materials_2023.pdf,302,356,0,"In 2021, what proportion of cementitious material consisted of clinker?",72.9,29,3
-1347,1,0,heidelberg-materials_2023.pdf,302,356,0,What was the clinker content in cementitious material in 2022?,71.6,29,4
-1348,1,0,heidelberg-materials_2023.pdf,302,356,0,What fraction of clinker was included in cementitious material in 2023?,70.2,29,5
+1344,1,0,heidelberg-materials_2023.pdf,302,356,0,"In 2022, what proportion of fuel usage came from alternative sources, such as biomass (%)?",28.7,28,4
+1345,1,0,heidelberg-materials_2023.pdf,302,356,0,"What was the rate of alternative fuel usage, including biomass, in 2023 (%)?",29.9,28,5
+1346,1,0,heidelberg-materials_2023.pdf,302,356,0,"In 2021, what proportion of cementitious material consisted of clinker (%)?",72.9,29,3
+1347,1,0,heidelberg-materials_2023.pdf,302,356,0,What was the clinker content in cementitious material in 2022 (%)?,71.6,29,4
+1348,1,0,heidelberg-materials_2023.pdf,302,356,0,What fraction of clinker was included in cementitious material in 2023 (%)?,70.2,29,5
 1349,1,0,heidelberg-materials_2023.pdf,302,374,0,What was the total energy consumed in terajoules for the year 2021?,363226,16,2
 1350,1,0,heidelberg-materials_2023.pdf,302,374,0,How much total energy was consumed in terajoules in 2022?,347068,16,3
 1351,1,0,heidelberg-materials_2023.pdf,302,374,0,What was the total energy consumed in terajoules for the year 2023?,329775,16,4
@@ -1357,15 +1357,15 @@
 1355,1,2,heidelberg-materials_2023.pdf,302,374,0,What was the total water consumed in million cubic metres for the year 2021?,78,23,2
 1356,1,2,heidelberg-materials_2023.pdf,302,374,0,How much total water was consumed in million cubic metres in 2022?,74,23,3
 1357,1,2,heidelberg-materials_2023.pdf,302,374,0,What was the total water consumed in million cubic metres for the year 2023?,81,23,4
-1358,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of renewable energy used in 2021?,9.10%,19,2
-1359,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of renewable energy used in 2022?,10.40%,19,3
-1360,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of renewable energy used in 2023?,12.30%,19,4
-1361,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of alternative energy sources in 2021?,21.70%,18,2
-1362,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of alternative energy sources in 2022?,23.70%,18,3
-1363,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of alternative energy sources in 2023?,24.40%,18,4
-1364,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of grid electricity used in 2021?,12.20%,17,2
-1365,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of grid electricity used in 2022?,12.50%,17,3
-1366,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of grid electricity used in 2023?,12.50%,17,4
+1358,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of renewable energy used in 2021?,9.10,19,2
+1359,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of renewable energy used in 2022?,10.40,19,3
+1360,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of renewable energy used in 2023?,12.30,19,4
+1361,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of alternative energy sources in 2021?,21.70,18,2
+1362,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of alternative energy sources in 2022?,23.70,18,3
+1363,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of alternative energy sources in 2023?,24.40,18,4
+1364,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of grid electricity used in 2021?,12.20,17,2
+1365,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of grid electricity used in 2022?,12.50,17,3
+1366,1,3,heidelberg-materials_2023.pdf,302,374,0,What was the percentage of grid electricity used in 2023?,12.50,17,4
 1367,1,2,heidelberg-materials_2023.pdf,302,374,0,What were the gross global Scope 1 emissions in million metric tonnes of CO2 for the year 2021?,69.5,3,2
 1368,1,2,heidelberg-materials_2023.pdf,302,374,0,What were the gross global Scope 1 emissions in million metric tonnes of CO2 for the year 2022?,65.9,3,3
 1369,1,2,heidelberg-materials_2023.pdf,302,374,0,What were the gross global Scope 1 emissions in million metric tonnes of CO2 for the year 2023?,63.3,3,4
@@ -1384,30 +1384,30 @@
 1382,1,3,heidelberg-materials_2023.pdf,302,355,0,"What was the total energy consumption from cement production in 2023, measured in TJ?",318671,29,5
 1383,1,3,heidelberg-materials_2023.pdf,302,355,0,"How much energy was consumed for clinker production in 2022, expressed in TJ?",309153,30,4
 1384,1,3,heidelberg-materials_2023.pdf,302,355,0,"What was the energy consumption for aggregates in 2023, in TJ?",11104,31,5
-1385,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total surface water withdrawal in 2021?,28.6,3,2
-1386,1,3,heidelberg-materials_2023.pdf,303,359,0,How much groundwater was withdrawn in 2022?,9.9,4,3
-1387,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total seawater withdrawal in 2023?,3.5,5,4
+1385,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total surface water withdrawal in 2021 in million m3?,28.6,3,2
+1386,1,3,heidelberg-materials_2023.pdf,303,359,0,How much groundwater was withdrawn in 2022 in million m3?,9.9,4,3
+1387,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total seawater withdrawal in 2023 in million m3?,3.5,5,4
 1388,1,3,heidelberg-materials_2023.pdf,303,359,0,"What was the total water withdrawal for the aggregates business line in 2021, measured in million cubic meters (m³)?",243.8,28,2
-1389,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total surface water discharge in 2022?,23.3,13,3
-1390,1,3,heidelberg-materials_2023.pdf,303,359,0,How much groundwater was discharged in 2023?,0.1,14,4
-1391,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total seawater discharge in 2021?,3.9,15,2
-1392,1,0,heidelberg-materials_2023.pdf,303,359,0,What was the total discharge to third-party water sources in 2022?,0.6,17,3
-1393,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total water consumption for the aggregates business line in 2021?,42.1,30,2
-1394,1,0,heidelberg-materials_2023.pdf,303,359,0,How much water was consumed in areas with water scarcity in 2023?,7.5,19,4
-1395,1,0,heidelberg-materials_2023.pdf,303,37,3,What percentage of water recycling systems were implemented in 2023?,60%,5,3
-1396,1,3,heidelberg-materials_2023.pdf,303,37,3,What percentage of aggregate sites in water-risk areas implemented water management plans in 2023?,5%,4,3
-1397,1,3,heidelberg-materials_2023.pdf,303,37,3,What percentage of cement sites in water-risk areas implemented water management plans in 2023?,8%,6,3
-1398,1,3,heidelberg-materials_2023.pdf,303,37,3,What percentage of cement sites in water-risk areas implemented water recycling systems in 2023?,82%,7,3
+1389,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total surface water discharge in 2022 in million m3?,23.3,13,3
+1390,1,3,heidelberg-materials_2023.pdf,303,359,0,How much groundwater was discharged in 2023 in million m3?,0.1,14,4
+1391,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total seawater discharge in 2021 in million m3?,3.9,15,2
+1392,1,0,heidelberg-materials_2023.pdf,303,359,0,What was the total discharge in million m3 to third-party water sources in 2022?,0.6,17,3
+1393,1,3,heidelberg-materials_2023.pdf,303,359,0,What was the total water consumption in million m3 for the aggregates business line in 2021?,42.1,30,2
+1394,1,0,heidelberg-materials_2023.pdf,303,359,0,How much water in million m3 was consumed in areas with water scarcity in 2023?,7.5,19,4
+1395,1,0,heidelberg-materials_2023.pdf,303,37,3,What percentage of water recycling systems were implemented in 2023?,60,5,3
+1396,1,3,heidelberg-materials_2023.pdf,303,37,3,What percentage of aggregate sites in water-risk areas implemented water management plans in 2023?,5,4,3
+1397,1,3,heidelberg-materials_2023.pdf,303,37,3,What percentage of cement sites in water-risk areas implemented water management plans in 2023?,8,6,3
+1398,1,3,heidelberg-materials_2023.pdf,303,37,3,What percentage of cement sites in water-risk areas implemented water recycling systems in 2023?,82,7,3
 1399,1,0,heidelberg-materials_2023.pdf,303,358,0,What was the total water withdrawal in 2021 measured in million m³?,60.3,31,2
 1400,1,0,heidelberg-materials_2023.pdf,303,358,0,How much total water withdrawal was recorded in 2022 in million m³?,60.7,31,3
 1401,1,0,heidelberg-materials_2023.pdf,303,358,0,What was the total water withdrawal in 2023 measured in million m³?,58.2,31,4
 1402,1,3,heidelberg-materials_2023.pdf,303,358,0,What is the total water withdrawal in 2021 in million m³ for areas with water scarcity?,16.7,32,2
 1403,1,3,heidelberg-materials_2023.pdf,303,358,0,What was the total water withdrawal in 2022 in million m³ for areas with water scarcity?,15.6,32,3
 1404,1,3,heidelberg-materials_2023.pdf,303,358,0,How much total water withdrawal was recorded in 2023 in million m³ for areas with water scarcity?,14.8,32,4
-1405,1,0,heidelberg-materials_2023.pdf,304,121,0,What percentage of quarries had a biodiversity management plan in 2021?,43%,2,2
-1406,1,0,heidelberg-materials_2023.pdf,304,121,0,What was the percentage of quarries with a restoration plan in 2022?,92%,3,3
-1407,1,0,heidelberg-materials_2023.pdf,304,121,0,What proportion of quarries located near an area of high biodiversity value had a biodiversity management plan in 2023?,61%,2,4
-1408,1,0,heidelberg-materials_2023.pdf,304,121,0,What percentage of quarries had a restoration plan in 2023?,76%,3,4
+1405,1,0,heidelberg-materials_2023.pdf,304,121,0,What percentage of quarries had a biodiversity management plan in 2021?,43,2,2
+1406,1,0,heidelberg-materials_2023.pdf,304,121,0,What was the percentage of quarries with a restoration plan in 2022?,92,3,3
+1407,1,0,heidelberg-materials_2023.pdf,304,121,0,What proportion of quarries located near an area of high biodiversity value had a biodiversity management plan in 2023 (%)?,61,2,4
+1408,1,0,heidelberg-materials_2023.pdf,304,121,0,What percentage of quarries had a restoration plan in 2023?,76,3,4
 1409,1,3,heidelberg-materials_2023.pdf,305,355,0,What were the absolute gross CO2 emissions (Scope 1) of the cement business line in million t for the year 2022?,65.4,3,4
 1410,1,3,heidelberg-materials_2023.pdf,305,355,0,How much were the absolute net CO2 emissions (Scope 1) of the cement business line in million t in 2023?,57.1,4,5
 1411,1,3,heidelberg-materials_2023.pdf,305,355,0,What was the specific gross CO2 emissions per tonne of cementitious material (Scope 1) in kg CO2/t for the year 2021 in the cement business line?,598.7,5,3
@@ -1425,9 +1425,9 @@
 1423,1,0,heidelberg-materials_2023.pdf,305,374,0,What was the amount of Gross global Scope 1 emissions in million metric tonnes CO2 for the year 2021?,69.5,3,2
 1424,1,0,heidelberg-materials_2023.pdf,305,374,0,How many million metric tonnes CO2-e were emitted as Gross global Scope 1 emissions in 2022?,65.9,3,3
 1425,1,0,heidelberg-materials_2023.pdf,305,374,0,What was the value of Gross global Scope 1 emissions in million metric tonnes CO2-e for the year 2023?,63.3,3,4
-1426,1,0,heidelberg-materials_2023.pdf,305,374,0,What percentage of emissions was covered under emissions-limiting regulations in 2021?,47%,4,2
-1427,1,0,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of emissions covered under emissions-limiting regulations in 2022?,38%,4,3
-1428,1,0,heidelberg-materials_2023.pdf,305,374,0,What percentage of emissions was covered under emissions-limiting regulations in 2023?,41%,4,4
+1426,1,0,heidelberg-materials_2023.pdf,305,374,0,What percentage of emissions was covered under emissions-limiting regulations in 2021?,47,4,2
+1427,1,0,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of emissions covered under emissions-limiting regulations in 2022?,38,4,3
+1428,1,0,heidelberg-materials_2023.pdf,305,374,0,What percentage of emissions was covered under emissions-limiting regulations in 2023?,41,4,4
 1429,1,0,heidelberg-materials_2023.pdf,305,374,0,How many milligrammes of dioxins / furans were emitted in 2021?,3380,10,2
 1430,1,0,heidelberg-materials_2023.pdf,305,374,0,What was the emission level of dioxins / furans in milligrammes for the year 2022?,4933,10,3
 1431,1,0,heidelberg-materials_2023.pdf,305,374,0,What was the amount of dioxins / furans emitted in milligrammes in 2023?,4013,10,4
@@ -1440,15 +1440,15 @@
 1438,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the total energy consumed in terajoules in 2021?,363226,16,2
 1439,1,2,heidelberg-materials_2023.pdf,305,374,0,How much total energy was consumed in terajoules in 2022?,347068,16,3
 1440,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the total energy consumed in terajoules for the year 2023?,329775,16,4
-1441,1,2,heidelberg-materials_2023.pdf,305,374,0,What percentage of grid electricity was used in 2021?,12.20%,17,2
-1442,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of grid electricity used in 2022?,12.50%,17,3
-1443,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of grid electricity used in 2023?,12.50%,17,4
-1444,1,2,heidelberg-materials_2023.pdf,305,374,0,What percentage of alternative energy sources was used in 2021?,21.70%,18,2
-1445,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of alternative energy sources in 2022?,23.70%,18,3
-1446,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of alternative energy sources in 2023?,24.40%,18,4
-1447,1,2,heidelberg-materials_2023.pdf,305,374,0,What percentage of renewable energy was utilized in 2021?,9.10%,19,2
-1448,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of renewable energy used in 2022?,10.40%,19,3
-1449,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of renewable energy utilized in 2023?,12.30%,19,4
+1441,1,2,heidelberg-materials_2023.pdf,305,374,0,What percentage of grid electricity was used in 2021?,12.20,17,2
+1442,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of grid electricity used in 2022?,12.50,17,3
+1443,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of grid electricity used in 2023?,12.50,17,4
+1444,1,2,heidelberg-materials_2023.pdf,305,374,0,What percentage of alternative energy sources was used in 2021?,21.70,18,2
+1445,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of alternative energy sources in 2022?,23.70,18,3
+1446,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of alternative energy sources in 2023?,24.40,18,4
+1447,1,2,heidelberg-materials_2023.pdf,305,374,0,What percentage of renewable energy was utilized in 2021?,9.10,19,2
+1448,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of renewable energy used in 2022?,10.40,19,3
+1449,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the percentage of renewable energy utilized in 2023?,12.30,19,4
 1450,1,2,heidelberg-materials_2023.pdf,305,374,0,How many million cubic metres of total water were withdrawn in 2021?,316,22,2
 1451,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the total water withdrawn in million cubic metres for the year 2022?,286,22,3
 1452,1,2,heidelberg-materials_2023.pdf,305,374,0,What was the total water withdrawn in million cubic metres in 2023?,274,22,4
@@ -1462,30 +1462,30 @@
 1460,1,0,heidelberg-materials_2023.pdf,305,357,0,What was the absolute dust emissions in 2021 measured in tonnes?,3250,7,3
 1461,1,0,heidelberg-materials_2023.pdf,305,357,0,How much were the specific dust emissions in 2022 in grams per tonne of clinker?,28,8,4
 1462,1,0,heidelberg-materials_2023.pdf,305,357,0,What percentage of clinker was produced in kilns with continuous or discontinuous measurement of all emissions in 2022?,77,9,4
-1463,1,0,heidelberg-materials_2023.pdf,305,357,0,"What was the proportion of clinker produced in kilns with continuous measurement of dust, NOx, and SOx emissions in 2023?",87,10,5
+1463,1,0,heidelberg-materials_2023.pdf,305,357,0,"What was the proportion of clinker produced in kilns with continuous measurement of dust, NOx, and SOx emissions in 2023 (%)?",87,10,5
 1464,1,3,heidelberg-materials_2023.pdf,305,357,0,What was the specific emissions of mercury in 2022 in grams per tonne of clinker?,0.015,12,4
 1465,1,2,heidelberg-materials_2023.pdf,305,357,0,How many kilns were reported in 2021?,89,16,4
 1466,1,3,heidelberg-materials_2023.pdf,305,357,0,What was the specific emissions of dioxins and furans in 2023 in micrograms TEQ per tonne of clinker?,0.057,15,5
 1467,1,3,heidelberg-materials_2023.pdf,305,37,0,What is the Scope 1 CO2 gross emissions reduction target in kilograms per tonne of cementitious material in 2023?,400,2,4
-1468,1,3,heidelberg-materials_2023.pdf,305,37,0,What is the expected percentage reduction in gross Scope 1 CO2 emissions in 2030 compared to 2020?,-24.00%,4,2
-1469,1,3,heidelberg-materials_2023.pdf,305,37,0,What is the expected percentage reduction in gross Scope 2 CO2 emissions in 20230 compared to 2020?,-65.00%,5,2
-1470,1,3,heidelberg-materials_2023.pdf,305,37,0,What is the expected percentage reduction for Scope 3 CO2 emissions in absolute terms in 2030 compared to 2020?,-25.00%,6,2
+1468,1,3,heidelberg-materials_2023.pdf,305,37,0,What is the expected percentage reduction in gross Scope 1 CO2 emissions in 2030 compared to 2020?,-24.00,4,2
+1469,1,3,heidelberg-materials_2023.pdf,305,37,0,What is the expected percentage reduction in gross Scope 2 CO2 emissions in 20230 compared to 2020?,-65.00,5,2
+1470,1,3,heidelberg-materials_2023.pdf,305,37,0,What is the expected percentage reduction for Scope 3 CO2 emissions in absolute terms in 2030 compared to 2020?,-25.00,6,2
 1471,1,0,heidelberg-materials_2023.pdf,305,37,0,How many milions of tonnes of CO2 are expected to be captured cumulatively through CCUS projects by 2030?,10,7,4
-1472,1,0,heidelberg-materials_2023.pdf,305,37,0,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40.00%,8,2
-1473,1,0,heidelberg-materials_2023.pdf,305,37,0,What is the expected reduction percentage for SOx emissions in 2030 compared to 2008?,40.00%,8,2
-1474,1,2,heidelberg-materials_2023.pdf,305,37,0,What percentage of revenue from sustainable products is targeted by 2030?,50.00%,12,4
-1475,1,2,heidelberg-materials_2023.pdf,305,81,0,What was the value of RCO in 2023 in millions of euros?,"€3,022 million",2,4
-1476,1,2,heidelberg-materials_2023.pdf,305,81,0,What is the ROIC value projected for 2025 in percentage?,10.30%,3,4
+1472,1,0,heidelberg-materials_2023.pdf,305,37,0,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40.00,8,2
+1473,1,0,heidelberg-materials_2023.pdf,305,37,0,What is the expected reduction percentage for SOx emissions in 2030 compared to 2008?,40.00,8,2
+1474,1,2,heidelberg-materials_2023.pdf,305,37,0,What percentage of revenue from sustainable products is targeted by 2030?,50.00,12,4
+1475,1,2,heidelberg-materials_2023.pdf,305,81,0,What was the value of RCO in 2023 in millions of euros?,3022,2,4
+1476,1,2,heidelberg-materials_2023.pdf,305,81,0,What is the ROIC value projected for 2025 in percentage?,10.30,3,4
 1477,1,0,heidelberg-materials_2023.pdf,305,81,0,How much are the specific net CO2 emissions in 2023 in kg CO2 per tonne of cementitious material?,534,4,4
 1478,1,0,heidelberg-materials_2023.pdf,305,118,0,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2021?,565,2,2
 1479,1,0,heidelberg-materials_2023.pdf,305,118,0,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2022?,551,2,3
 1480,1,0,heidelberg-materials_2023.pdf,305,118,0,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2023?,534,2,4
-1481,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the alternative fuel rate for the year 2021?,26.40%,3,2
-1482,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the alternative fuel rate for the year 2022?,28.70%,3,3
-1483,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the alternative fuel rate for the year 2023?,29.90%,3,4
-1484,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the clinker ratio for the year 2021?,72.90%,4,2
-1485,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the clinker ratio for the year 2022?,71.60%,4,3
-1486,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the clinker ratio for the year 2023?,70.20%,4,4
+1481,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the alternative fuel rate for the year 2021 (%)?,26.40,3,2
+1482,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the alternative fuel rate for the year 2022 (%)?,28.70,3,3
+1483,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the alternative fuel rate for the year 2023 (%)?,29.90,3,4
+1484,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the clinker ratio for the year 2021 (%)?,72.90,4,2
+1485,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the clinker ratio for the year 2022 (%)?,71.60,4,3
+1486,1,2,heidelberg-materials_2023.pdf,305,118,0,What was the clinker ratio for the year 2023 (%)?,70.20,4,4
 1487,1,0,heidelberg-materials_2023.pdf,305,119,0,What was the specific NO emissions in grams per tonne of clinker for the year 2021?,1235,2,2
 1488,1,0,heidelberg-materials_2023.pdf,305,119,0,How many grams per tonne of clinker were the specific SO emissions in 2022?,349,3,3
 1489,1,0,heidelberg-materials_2023.pdf,305,119,0,What was the value of specific dust emissions in grams per tonne of clinker for the year 2023?,36,4,4
@@ -1501,14 +1501,14 @@
 1499,1,3,heidelberg-materials_2023.pdf,306,358,0,What percentage of the total waste generated in 2021 was hazardous?,7,23,2
 1500,1,3,heidelberg-materials_2023.pdf,306,358,0,What percentage of the total waste generated in 2022 was hazardous?,2,23,3
 1501,1,3,heidelberg-materials_2023.pdf,306,358,0,What percentage of the total waste generated in 2023 was hazardous?,6,23,4
-1502,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to incineration in 2023?,5.8,25,4
-1503,1,3,heidelberg-materials_2023.pdf,306,358,0,"What was the share of waste sent to reuse, recycling, recovery in 2021?",66,26,2
-1504,1,3,heidelberg-materials_2023.pdf,306,358,0,"What was the share of waste sent to reuse, recycling, recovery in 2022?",73,26,3
-1505,1,3,heidelberg-materials_2023.pdf,306,358,0,"What was the share of waste sent to reuse, recycling, recovery in 2023?",39.3,26,4
-1506,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to landfill in 2023?,47.2,27,4
-1507,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to other disposal operations in 2021?,34,28,2
-1508,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to other disposal operations in 2022?,27,28,3
-1509,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to other disposal operations in 2023?,6.1,28,4
+1502,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to incineration in 2023 (%)?,5.8,25,4
+1503,1,3,heidelberg-materials_2023.pdf,306,358,0,"What was the share of waste sent to reuse, recycling, recovery in 2021 (%)?",66,26,2
+1504,1,3,heidelberg-materials_2023.pdf,306,358,0,"What was the share of waste sent to reuse, recycling, recovery in 2022 (%)?",73,26,3
+1505,1,3,heidelberg-materials_2023.pdf,306,358,0,"What was the share of waste sent to reuse, recycling, recovery in 2023 (%)?",39.3,26,4
+1506,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to landfill in 2023 (%)?,47.2,27,4
+1507,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to other disposal operations in 2021 (%)?,34,28,2
+1508,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to other disposal operations in 2022 (%)?,27,28,3
+1509,1,3,heidelberg-materials_2023.pdf,306,358,0,What was the share of waste sent to other disposal operations in 2023 (%)?,6.1,28,4
 1510,1,2,OTC_ESOCF_2023.pdf,302,446,0,What was the opening balance at January 1 for emissions allowances in 2023 (thousands of metric tons)?,34494,-,-
 1511,1,2,OTC_ESOCF_2023.pdf,302,446,0,What was the opening balance at January 1 for emissions allowances in 2022 (thousands of metric tons)?,28350,-,-
 1512,1,2,OTC_ESOCF_2023.pdf,302,446,0,What was the closing balance at December 31 for emissions allowances in 2023 (thousands of metric tons)?,31237,-,-
@@ -1531,29 +1531,29 @@
 1529,1,0,OTC_ESOCF_2023.pdf,303,139,0,What is the total water withdrawals in millions of m3 for the year 2028?,55,2,3
 1530,1,0,OTC_ESOCF_2023.pdf,303,139,0,What is the expected percentage of water withdrawals in water-stressed areas in 2028?,23.3,3,3
 1531,1,0,OTC_ESOCF_2023.pdf,303,139,0,What is the total specific withdrawals of fresh water in V/kWh for the year 2028?,0.2,4,3
-1532,1,0,OTC_ESOCF_2023.pdf,303,139,0,What isthe total water consumption in millions of m3 for the year 2028?,35.4,5,3
+1532,1,0,OTC_ESOCF_2023.pdf,303,139,0,What is the total water consumption in millions of m3 for the year 2028?,35.4,5,3
 1533,1,0,OTC_ESOCF_2023.pdf,303,139,0,What is the expected percentage of water consumption in water-stressed areas in 2028?,22.1,6,3
 1534,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the intensity of scope 1 GHG emissions related to power generation for the year 2026 in grams of CO2 equivalent per kilowatt-hour?,125,7,2
 1535,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the intensity of scope 1 GHG emissions related to power generation for the year 2030 in grams of CO2 equivalent per kilowatt-hour?,72,7,3
 1536,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the intensity of scope 1 GHG emissions related to power generation for the year 2040 in grams of CO2 equivalent per kilowatt-hour?,0,7,4
-1537,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22%,9,2
-1538,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100%,8,4
-1539,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2030?,-80.00%,8,3
-1540,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2040?,-100.00%,9,4
-1541,1,2,OTC_ESOCF_2023.pdf,305,85,0,What is the climate scenario targeted for the year 2026?,1.5 °c,-,-
-1542,1,2,OTC_ESOCF_2023.pdf,305,85,0,What is the climate scenario targeted for the year 2030?,1.5 °c,-,-
-1543,1,2,OTC_ESOCF_2023.pdf,305,85,0,What is the climate scenario targeted for the year 2040?,1.5 °c,-,-
+1537,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22,9,2
+1538,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100,8,4
+1539,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2030?,-80.00,8,3
+1540,1,0,OTC_ESOCF_2023.pdf,305,85,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2040?,-100.00,9,4
+1541,1,2,OTC_ESOCF_2023.pdf,305,85,0,What is the climate scenario targeted for the year 2026 (°c)?,1.5,-,-
+1542,1,2,OTC_ESOCF_2023.pdf,305,85,0,What is the climate scenario targeted for the year 2030 (°c)?,1.5,-,-
+1543,1,2,OTC_ESOCF_2023.pdf,305,85,0,What is the climate scenario targeted for the year 2040 (°c)?,1.5,-,-
 1544,1,0,OTC_ESOCF_2023.pdf,305,86,0,What is the intensity of Scope 1 and Scope 3 GHG emissions related to integrated power for the year 2023 in grams of CO2 equivalent per kilowatt-hour?,168,17,2
 1545,1,0,OTC_ESOCF_2023.pdf,305,86,0,What are the expected Scope 1 and Scope 3 GHG emissions related to integrated power for the year 2026 in grams of CO2 equivalent per kilowatt-hour?,135,7,2
-1546,1,0,OTC_ESOCF_2023.pdf,305,86,0,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20.00%,9,2
-1547,1,0,OTC_ESOCF_2023.pdf,305,86,0,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78.00%,8,3
-1548,1,2,OTC_ESOCF_2023.pdf,305,86,0,What is the climate scenario set for the year 2040?,1.5°C (SBTi certified),-,-
-1549,1,2,OTC_ESOCF_2023.pdf,305,87,0,What was the KPI achievement in 2023 measured in MtCO₂?,16.8 MtCO₂,1,1
+1546,1,0,OTC_ESOCF_2023.pdf,305,86,0,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20.00,9,2
+1547,1,0,OTC_ESOCF_2023.pdf,305,86,0,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78.00,8,3
+1548,1,2,OTC_ESOCF_2023.pdf,305,86,0,What is the climate scenario set for the year 2040 (°C)?,1.5,-,-
+1549,1,2,OTC_ESOCF_2023.pdf,305,87,0,What was the KPI achievement in 2023 measured in MtCO₂?,16.8,1,1
 1550,1,2,OTC_ESOCF_2023.pdf,305,87,0,"How many gas customers were there in 2023, and how does this compare to 2022?","6.2 million gas customers in 2023, down 6% on 2022.",16,2
 1551,1,2,OTC_ESOCF_2023.pdf,305,87,0,What was the volume of gas sales in 2023 in billion cubic meters?,8.3 billion cubic meters,16,2
 1552,1,2,OTC_ESOCF_2023.pdf,305,87,0,How many new connections were made in 2023?,3.6 million new connections,16,2
 1553,1,0,OTC_ESOCF_2023.pdf,305,88,0,"What is the target value for CO2 emissions, including scopes 1, 2, and 3, in megatonnes for the year 2030?",10.4,7,2
-1554,1,1,OTC_ESOCF_2023.pdf,305,88,0,"What is the percentage reduction that must be applied to additional scope 1, 2 and 3 emissions generated in 2017 to reach the target set for 2040?",-90.00%,8,3
+1554,1,1,OTC_ESOCF_2023.pdf,305,88,0,"What is the percentage reduction that must be applied to additional scope 1, 2 and 3 emissions generated in 2017 to reach the target set for 2040?",-90.00,8,3
 1555,1,2,OTC_ESOCF_2023.pdf,305,88,0,How much GHG emissions were reduced as a direct result of reduction initiatives in 2023 in MtCO₂?,11.9 MtCO₂,-,-
 1556,1,2,OTC_ESOCF_2023.pdf,305,88,0,What was the total investment in the grid for the year 2023 in euros?,€5.4 billion,-,-
 1557,1,2,OTC_ESOCF_2023.pdf,305,88,0,What was the percentage reduction in coal burned in thermal generation plants in 2023?,43.00%,-,-
@@ -1570,7 +1570,7 @@
 1568,1,0,OTC_ESOCF_2023.pdf,305,137,0,What were the specific emissions of SO2 in 2023 in grams per kilowatt-hour?,0.09,9,3
 1569,1,0,OTC_ESOCF_2023.pdf,305,137,0,What were the specific emissions of NOx in 2023 in grams per kilowatt-hour?,0.26,10,3
 1570,1,0,OTC_ESOCF_2023.pdf,305,137,0,What were the specific emissions of particulates in 2023 in grams per kilowatt-hour?,0.006,11,3
-1571,1,0,OTC_ESOCF_2023.pdf,305,137,0,What proportion of the total energy generation in 2023 came from zero-emission sources?,73.2,12,3
+1571,1,0,OTC_ESOCF_2023.pdf,305,137,0,What proportion of the total energy generation in 2023 came from zero-emission sources (%)?,73.2,12,3
 1572,1,2,OTC_ESOCF_2023.pdf,305,137,0,What was the total direct fuel consumption in 2023 in Mtoe?,19.3,-,-
 1573,1,2,OTC_ESOCF_2023.pdf,305,137,0,What was the average efficiency of thermal plants in 2023 in %?,42,-,-
 1574,1,2,OTC_ESOCF_2023.pdf,305,137,0,What percentage of water withdrawals occurred in water-stressed areas in 2023?,23.3,-,-
@@ -1599,28 +1599,28 @@
 1597,1,2,OTC_ESOCF_2023.pdf,305,153,0,What is the percentage of capital expenditure aligned with the EU taxonomy for the years 2024-2026?,>80 (2024-2026),-,-
 1598,1,0,OTC_ESOCF_2023.pdf,305,346,0,What was the intensity of Scope 1 GHG emissions related to power generation in 2023 in grams of CO2 equivalent per kilowatt-hour?,160,17,2
 1599,1,0,OTC_ESOCF_2023.pdf,305,346,0,How much GHG emissions intensity related to power generation is targeted for 2026 in grams of CO2 equivalent per kilowatt-hour?,125,8,2
-1600,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22.00%,10,2
-1601,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2030?,-55.00%,10,3
-1602,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2026?,-66.00%,9,2
-1603,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100.00%,9,4
+1600,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22.00,10,2
+1601,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2030?,-55.00,10,3
+1602,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2026?,-66.00,9,2
+1603,1,0,OTC_ESOCF_2023.pdf,305,346,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100.00,9,4
 1604,1,0,OTC_ESOCF_2023.pdf,305,347,0,What are the Scope 1 GHG emissions related to integrated power in 2023 in grams of CO2 per kilowatt-hour?,168,21,2
 1605,1,0,OTC_ESOCF_2023.pdf,305,347,0,What is the target of Scope 1 GHG emissions related to integrated power in 2026 in grams of CO2 per kilowatt-hour?,135,11,2
-1606,1,0,OTC_ESOCF_2023.pdf,305,347,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78.00%,12,3
-1607,1,0,OTC_ESOCF_2023.pdf,305,347,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20.00%,13,2
+1606,1,0,OTC_ESOCF_2023.pdf,305,347,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78.00,12,3
+1607,1,0,OTC_ESOCF_2023.pdf,305,347,0,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20.00,13,2
 1608,1,0,OTC_ESOCF_2023.pdf,305,347,0,What is the target for Scope 1 GHG emissions related to integrated power for the year 2040 in grams of CO2 per kilowatt-hour?,0,11,4
 1609,1,0,OTC_ESOCF_2023.pdf,305,348,0,What are the Scope 3 GHG emissions related to the sale of natural gas on end-user market in 2023 in megatonnes of CO2?,16.8,16,2
 1610,1,2,OTC_ESOCF_2023.pdf,305,348,0,"How many gas customers were there in 2023, and how does this compare to 2022?","6.2 million gas customers in 2023, down 6% on 2022",-,-
 1611,1,2,OTC_ESOCF_2023.pdf,305,348,0,"What was the volume of gas sales in 2023 in billion cubic meters, and how does this compare to 2022?","Gas sales in 2023 equal to 8.3 billion cubic meters, down 19% on 2022",-,-
 1612,1,2,OTC_ESOCF_2023.pdf,305,348,0,How many new connections were made in 2023?,3.6 million new connections in 2023,-,-
 1613,1,0,OTC_ESOCF_2023.pdf,305,349,0,What is the target of additional emissions Scopes 1-2-3 for the year 2030 in megatonnes of CO2?,10.4,18,2
-1614,1,0,OTC_ESOCF_2023.pdf,305,349,0,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2030?,-12.00%,20,2
-1615,1,0,OTC_ESOCF_2023.pdf,305,349,0,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2040?,-90.00%,19,3
-1616,1,0,OTC_ESOCF_2023.pdf,305,349,0,"What was the emissions intensity in the supply chain in 2023, expressed in tonnes of CO2 equivalent per million euros",684 tCO₂/€mn,31,2
+1614,1,0,OTC_ESOCF_2023.pdf,305,349,0,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2030?,-12.00,20,2
+1615,1,0,OTC_ESOCF_2023.pdf,305,349,0,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2040?,-90.00,19,3
+1616,1,0,OTC_ESOCF_2023.pdf,305,349,0,"What was the emissions intensity in the supply chain in 2023, expressed in tonnes of CO2 equivalent per million euros",684,31,2
 1617,1,2,OTC_ESOCF_2023.pdf,305,349,0,How much was invested in the grid in 2023 in euros?,€5.4 billion,-,-
 1618,1,2,OTC_ESOCF_2023.pdf,305,349,0,What was the reduction in coal burned in thermal generation plants in 2023?,43.00%,-,-
 1619,1,2,OTC_ESOCF_2023.pdf,305,349,0,What was the reduction in volume of gas burned in thermal generation plants in 2023 compared to 2022?,41.00%,-,-
 1620,1,2,OTC_ESOCF_2023.pdf,305,349,0,What was the reduction in electricity consumption in Group generation plants and buildings in 2023?,8.00%,-,-
-1621,1,0,OTC_ESOCF_2023.pdf,305,349,0,What was the percentage reduction in emissions intensity in the supply chain in 2023 compared to 2022?,24.00%,31,2
+1621,1,0,OTC_ESOCF_2023.pdf,305,349,0,What was the percentage reduction in emissions intensity in the supply chain in 2023 compared to 2022?,24.00,31,2
 1622,1,2,OTC_ESOCF_2023.pdf,308,204,0,What was the number of active suppliers in 2023?,14001,-,-
 1623,1,2,OTC_ESOCF_2023.pdf,308,204,0,How many suppliers (FTE) were there in 2022?,172854,-,-
 1624,1,2,OTC_ESOCF_2023.pdf,308,204,0,What percentage of qualified suppliers were assessed for ESG issues in 2023?,100,-,-
@@ -1648,8 +1648,8 @@
 1646,1,3,brenntag_2023.pdf,305,110,1,What was the total CO2 emissions in tonnes from district heating for the year 2020?,933,11,4
 1647,1,3,brenntag_2023.pdf,305,110,1,What is the total location-based gross direct GHG emissions (Scope 1 + 2) in tonnes for 2023?,243262,13,2
 1648,1,3,brenntag_2023.pdf,305,110,1,How many tonnes of market-based gross direct GHG emissions (Scope 1 + 2) were recorded in 2022?,219900,14,3
-1649,1,3,brenntag_2023.pdf,305,110,1,What is the percentage reduction in location-based GHG emissions (Scope 1 + 2) for 2023?,-3.10%,15,2
-1650,1,3,brenntag_2023.pdf,305,110,1,What is the percentage reduction in market-based GHG emissions (Scope 1 + 2) for 2022?,-9.20%,16,3
+1649,1,3,brenntag_2023.pdf,305,110,1,What is the percentage reduction in location-based GHG emissions (Scope 1 + 2) for 2023?,-3.10,15,2
+1650,1,3,brenntag_2023.pdf,305,110,1,What is the percentage reduction in market-based GHG emissions (Scope 1 + 2) for 2022?,-9.20,16,3
 1651,1,2,brenntag_2023.pdf,305,112,0,What was the total amount of purchased goods and services in 2023 in tonnes of CO2 equivalent?,27087295,2,2
 1652,1,0,brenntag_2023.pdf,305,112,0,How many tonnes of CO2 equivalent were associated with purchased goods and services in 2022?,21284553,2,3
 1653,1,2,brenntag_2023.pdf,305,112,0,What was the total for purchased goods and services in the base year 2020 in tonnes of CO2 equivalent?,22021336,2,4
@@ -1686,7 +1686,7 @@
 1684,1,0,munich-re_2023.pdf,305,46,0,How much were the gross indirect GHG emissions from energy consumption (Scope 2) in tonnes of CO2 equivalent for the year 2023?,14249,5,3
 1685,1,0,munich-re_2023.pdf,305,46,0,What is the total gross other indirect GHG emissions (Scope 3) in tonnes of CO2 equivalent for the year 2023?,3039435,6,3
 1686,1,0,munich-re_2023.pdf,305,46,0,What were the total GHG emissions for scope 1-3 (own operations) and scope 2 (market-based) in tonnes of CO₂ equivalent for the year 2023?,69913,14,3
-1687,1,0,munich-re_2023.pdf,305,46,0,What is the total CO₂ equivalent of GHG emissions for scope 1-3 and scope 2 (market-based) in 2023?,3086777,15,3
+1687,1,0,munich-re_2023.pdf,305,46,0,What is the total t CO₂ equivalent of GHG emissions for scope 1-3 and scope 2 (market-based) in 2023?,3086777,15,3
 1688,1,3,munich-re_2023.pdf,305,46,1,What is the amount of gross direct GHG emissions (Scope 1) in tonnes of CO2 equivalent per employee for the year 2023?,0.77,4,3
 1689,1,3,munich-re_2023.pdf,305,46,1,How much were the gross indirect GHG emissions from energy consumption (Scope 2) market-based in tonnes of CO2 equivalent per employee for the year 2023?,0.33,6,3
 1690,1,3,munich-re_2023.pdf,305,46,1,"What is the total GHG emissions, scope 1-3 own operations, scope 2 market based in tonnes of CO2 equivalent per employee for the year 2023?",1.63,12,3
@@ -1725,7 +1725,7 @@
 1723,1,3,OTC_SAPMY_2023.pdf,302,145,0,What is the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2021?,298.9,8,7
 1724,1,3,OTC_SAPMY_2023.pdf,302,145,0,What was the total indirect consumption of energy for the entire group in MWh for the year 2022?,78551,4,5
 1725,1,3,OTC_SAPMY_2023.pdf,302,145,0,How much electricity was consumed from the grid for the entire group in MWh in 2023?,38134,5,3
-1726,1,3,OTC_SAPMY_2023.pdf,302,145,0,What was the amount of thermal energy consumed from the entire groupin MWh for the year 2022?,10066,7,5
+1726,1,3,OTC_SAPMY_2023.pdf,302,145,0,What was the amount of thermal energy consumed from the entire group in MWh for the year 2022?,10066,7,5
 1727,1,3,OTC_SAPMY_2023.pdf,302,145,0,What was the amount of electricity consumed from renewable sources for the entire group in MWh for the year 2023?,14399,6,3
 1728,1,3,OTC_SAPMY_2023.pdf,302,145,0,How much thermal energy was consumed from the entire group in MWh for the year 2021?,-,7,7
 1729,1,3,OTC_SAPMY_2023.pdf,302,145,0,What was the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2022?,365.2,8,5
@@ -1741,8 +1741,8 @@
 1739,1,3,OTC_SAPMY_2023.pdf,303,152,1,What was the total water discharged into the sea in 2023 in thousands of cubic meters for the entire group?,1019,7,2
 1740,1,3,OTC_SAPMY_2023.pdf,303,152,1,How much water was discharged into bodies of surface water in 2022 in thousands of cubic meters for the entire group?,1090,6,4
 1741,1,3,OTC_SAPMY_2023.pdf,303,152,1,What was the total water discharged into the sea in 2021 in thousands of cubic meters for the entire group?,1143,7,6
-1742,1,3,OTC_SAPMY_2023.pdf,303,153,0,What was the total volume of water discharged in 2023 for the entire group?,333.1,3,2
-1743,1,3,OTC_SAPMY_2023.pdf,303,153,0,How much was the total water discharged in 2022 for the entire group?,401,3,4
+1742,1,3,OTC_SAPMY_2023.pdf,303,153,0,What was the total volume of water discharged in 2023 for the entire group in 10^3 m3?,333.1,3,2
+1743,1,3,OTC_SAPMY_2023.pdf,303,153,0,How much was the total water discharged in 2022 for the entire group in 10^3 m3?,401,3,4
 1744,1,3,OTC_SAPMY_2023.pdf,305,147,0,"What was the total location-based Scope 1, 2 and 3 emissions in 2023 in kilotonnes of CO2 equivalent for the entire group?",6446.7,4,3
 1745,1,3,OTC_SAPMY_2023.pdf,305,147,0,"What were the total location-based Scope 1, 2 and 3 emissions in 2022 in kilotonnes of CO2 equivalent for the entire group?",4385.6,4,5
 1746,1,3,OTC_SAPMY_2023.pdf,305,147,0,"What were the total location-based Scope 1, 2 and 3 emissions in 2021 in kilotonnes of CO2 equivalent for the entire group?",2664.5,4,7
@@ -1774,11 +1774,11 @@
 1772,1,0,OTC_SAPMY_2023.pdf,305,147,2,"How much GHG emissions savings were achieved in 2021, measured in kilotonnes of CO2 equivalent?",36.98,4,3
 1773,1,0,OTC_SAPMY_2023.pdf,305,147,2,"What was the GHG emissions savings goal in 2020, measured in kilotonnes of CO2 equivalent?",17.8,5,2
 1774,1,0,OTC_SAPMY_2023.pdf,305,147,2,"How much GHG emissions savings were achieved in 2020, measured in kilotonnes of CO2 equivalent?",26.69,5,3
-1775,1,0,OTC_SAPMY_2023.pdf,305,148,0,How much NOx was emitted in 2023 with reference to the entire group?,11275,3,2
-1776,1,0,OTC_SAPMY_2023.pdf,305,148,0,How much SO2 was emitted in 2022 with reference to the entire group?,607,4,4
-1777,1,0,OTC_SAPMY_2023.pdf,305,148,0,What was the level of CO emissions in 2021 with reference to the entire group?,5231,5,6
-1778,1,0,OTC_SAPMY_2023.pdf,305,148,0,What is the amount of NMVOC emissions recorded in 2023 with reference to the entire group?,815,6,2
-1779,1,0,OTC_SAPMY_2023.pdf,305,148,0,What was the emission of PM10 in 2022 with reference to the full consolidated group?,550,7,5
+1775,1,0,OTC_SAPMY_2023.pdf,305,148,0,How much NOx was emitted in 2023 with reference to the entire group in tonnes?,11275,3,2
+1776,1,0,OTC_SAPMY_2023.pdf,305,148,0,How much SO2 was emitted in 2022 with reference to the entire group in tonnes?,607,4,4
+1777,1,0,OTC_SAPMY_2023.pdf,305,148,0,What was the level of CO emissions in 2021 with reference to the entire group in tonnes?,5231,5,6
+1778,1,0,OTC_SAPMY_2023.pdf,305,148,0,What is the amount of NMVOC emissions in tonnes recorded in 2023 with reference to the entire group?,815,6,2
+1779,1,0,OTC_SAPMY_2023.pdf,305,148,0,What was the emission of PM10 in tonnes in 2022 with reference to the full consolidated group?,550,7,5
 1780,1,0,OTC_SAPMY_2023.pdf,305,148,1,"What amount of avoided NOx emissions for the entire group was achieved in 2023, measured in tonnes?",475.3,3,2
 1781,1,0,OTC_SAPMY_2023.pdf,305,148,1,"How much avoided SOx emissions for the entire group were achieved in 2023, measured in tonnes?",18.4,4,2
 1782,1,0,OTC_SAPMY_2023.pdf,305,148,1,"What is the value of avoided CO emissions for the entire group in 2022, measured in tonnes?",146.5,5,4
@@ -1804,10 +1804,10 @@
 1802,1,0,OTC_SAPMY_2023.pdf,308,162,0,What percentage of orders were made from critical vendors in 2023?,75,8,3
 1803,1,0,OTC_SAPMY_2023.pdf,308,162,0,How many vendors qualified in the year working in countries with a high risk of human and labour rights breaches were there in 2022?,2807,9,4
 1804,1,0,OTC_SAPMY_2023.pdf,308,162,0,What was the number of vendors qualified in the year for non-critical qualifications in 2023?,2447,11,3
-1805,1,0,Lufthansa_2023.pdf,305,288,1,What was the percentage reduction in CO2 emissions for the year 2020?,13.76%,2,2
-1806,1,0,Lufthansa_2023.pdf,305,288,1,How did the CO2 emissions reduction in 2021 compare to the target achievement for that year?,200.00%,3,3
-1807,1,0,Lufthansa_2023.pdf,305,288,1,What was the percentage reduction in CO2 emissions for the year 2022?,-11.41%,4,2
-1808,1,0,Lufthansa_2023.pdf,305,288,1,How did the CO2 emissions reduction in 2023 compare to the target achievement for that year?,110.67%,5,3
+1805,1,0,Lufthansa_2023.pdf,305,288,1,What was the percentage reduction in CO2 emissions for the year 2020?,13.76,2,2
+1806,1,0,Lufthansa_2023.pdf,305,288,1,How did the CO2 emissions reduction in 2021 compare to the target achievement for that year (%)?,200.00,3,3
+1807,1,0,Lufthansa_2023.pdf,305,288,1,What was the percentage reduction in CO2 emissions for the year 2022?,-11.41,4,2
+1808,1,0,Lufthansa_2023.pdf,305,288,1,How did the CO2 emissions reduction in 2023 compare to the target achievement for that year (%)?,110.67,5,3
 1809,1,2,Lufthansa_2023.pdf,308,78,0,Which suppliers were selected based on environmental criteria?,Lufthansa Airlines Frankfurt and Munich,-,-
 1810,1,2,Lufthansa_2023.pdf,308,78,0,Can you name a supplier evaluated for environmental impacts?,Lufthansa CityLine GmbH,-,-
 1811,1,2,Lufthansa_2023.pdf,308,78,0,Which supplier has been identified as having significant negative environmental impacts?,Austrian Airlines,-,-
@@ -1841,26 +1841,26 @@
 1839,1,0,vivendi_2023.pdf,305,105,0,What is the value of partial Scope 3 restated GHG emissions in tonnes of CO2 equivalent for the year 2023?,735018,8,2
 1840,1,0,vivendi_2023.pdf,305,106,0,What was the value of GHG emissions (Scope 1 and 2) in tonnes of CO2 equivalent for the year 2018?,39855,2,3
 1841,1,0,vivendi_2023.pdf,305,106,0,How much were Scope 3 operating emissions in tonnes of CO2 equivalent in 2018?,253599,3,3
-1842,1,0,vivendi_2023.pdf,305,106,0,What is the percentage of renewable electricity usage reported for the year 2023?,60.00%,5,4
-1843,1,0,vivendi_2023.pdf,305,106,0,What was the percentage of suppliers launched a carbon reduction pathway in 2018?,13.00%,6,3
-1844,1,0,vivendi_2023.pdf,305,106,0,What is the target percentage for renewable electricity usage by the year 2030?,100.00%,5,7
-1845,1,0,vivendi_2023.pdf,305,106,0,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2025 compared to 2018?,-29.00%,2,6
-1846,1,0,vivendi_2023.pdf,305,106,0,How much have operating emissions (Scope 3) changed in 2023 compared to 2018?,21.00%,3,5
-1847,1,0,vivendi_2023.pdf,305,106,0,What is the target percentage of suppliers that have launched a carbon reduction pathway by the year 2026?,85.00%,6,7
+1842,1,0,vivendi_2023.pdf,305,106,0,What is the percentage of renewable electricity usage reported for the year 2023?,60.00,5,4
+1843,1,0,vivendi_2023.pdf,305,106,0,What was the percentage of suppliers launched a carbon reduction pathway in 2018?,13.00,6,3
+1844,1,0,vivendi_2023.pdf,305,106,0,What is the target percentage for renewable electricity usage by the year 2030?,100.00,5,7
+1845,1,0,vivendi_2023.pdf,305,106,0,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2025 compared to 2018 (%)?,-29.00,2,6
+1846,1,0,vivendi_2023.pdf,305,106,0,How much have operating emissions (Scope 3) changed in 2023 compared to 2018 in %?,21.00,3,5
+1847,1,0,vivendi_2023.pdf,305,106,0,What is the target percentage of suppliers that have launched a carbon reduction pathway by the year 2026?,85.00,6,7
 1848,1,0,vivendi_2023.pdf,305,106,1,What was the value of GHG emissions (Scope 1 and 2) in tonnes of CO2 equivalent for the year 2018?,39855,2,3
-1849,1,0,vivendi_2023.pdf,305,106,1,What is the percentage of renewable electricity usage reported for the year 2023?,60.00%,3,4
+1849,1,0,vivendi_2023.pdf,305,106,1,What is the percentage of renewable electricity usage reported for the year 2023?,60.00,3,4
 1850,1,0,vivendi_2023.pdf,305,106,1,How many percentage points the use of renewable electricity increased from 2018 to 2023?,44,3,5
-1851,1,0,vivendi_2023.pdf,305,106,1,What is the target for the use of renewable electricity by 2025?,80.00%,3,6
-1852,1,0,vivendi_2023.pdf,305,106,1,What is the target for the use of renewable electricity by 2030?,100.00%,3,7
+1851,1,0,vivendi_2023.pdf,305,106,1,What is the target for the use of renewable electricity by 2025 in %?,80.00,3,6
+1852,1,0,vivendi_2023.pdf,305,106,1,What is the target for the use of renewable electricity by 2030 in %?,100.00,3,7
 1853,1,0,vivendi_2023.pdf,305,106,1,What was the value of GHG emissions (Scope 1 and 2) in tonnes of CO2 equivalent for the year 2023?,24512,2,4
-1854,1,0,vivendi_2023.pdf,305,106,1,What is the percentage reduction of GHG emissions (Scope 1 and 2) in 2023 compared to 2018?,-38.50%,2,5
-1855,1,0,vivendi_2023.pdf,305,106,1,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2035 compared to 2018?,-71.00%,2,7
+1854,1,0,vivendi_2023.pdf,305,106,1,What is the percentage reduction of GHG emissions (Scope 1 and 2) in 2023 compared to 2018?,-38.50,2,5
+1855,1,0,vivendi_2023.pdf,305,106,1,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2035 compared to 2018 in %?,-71.00,2,7
 1856,1,0,vivendi_2023.pdf,305,108,0,What was the value of GHG emissions related to business activities in tonnes of CO2 equivalent for the year 2018?,136243,2,3
-1857,1,0,vivendi_2023.pdf,305,108,0,How much did the business-related GHG emissions (Scope 3) in tonnes of CO2 equivalent decreased from 2018 to 2023?,-34.00%,2,5
-1858,1,0,vivendi_2023.pdf,305,108,0,What is the target percentage reduction of GHG emissions (Scope 3) related to business activities for the year 2025?,-9.00%,2,6
-1859,1,0,vivendi_2023.pdf,305,108,0,What is the expected reduction of business-related GHG emissions for the year 2035?,-21.00%,2,7
-1860,1,0,vivendi_2023.pdf,305,110,0,What was the percentage of suppliers that launched a carbon reduction pathway in 2018?,13.00%,2,3
-1861,1,0,vivendi_2023.pdf,305,110,0,What is the target percentage for suppliers that follow a carbon reduction pathway by 2026?,85.00%,2,6
+1857,1,0,vivendi_2023.pdf,305,108,0,How much did the business-related GHG emissions (Scope 3) in tonnes of CO2 equivalent decreased from 2018 to 2023 in %?,-34.00,2,5
+1858,1,0,vivendi_2023.pdf,305,108,0,What is the target percentage reduction of GHG emissions (Scope 3) related to business activities for the year 2025?,-9.00,2,6
+1859,1,0,vivendi_2023.pdf,305,108,0,What is the expected reduction of business-related GHG emissions for the year 2035 in %?,-21.00,2,7
+1860,1,0,vivendi_2023.pdf,305,110,0,What was the percentage of suppliers that launched a carbon reduction pathway in 2018?,13.00,2,3
+1861,1,0,vivendi_2023.pdf,305,110,0,What is the target percentage for suppliers that follow a carbon reduction pathway by 2026?,85.00,2,6
 1862,1,0,vivendi_2023.pdf,306,140,0,What was the total weight of non-recovered electrical and electronic equipment in 2023 in tons?,84,2,3
 1863,1,0,vivendi_2023.pdf,306,140,0,"How much total recovered waste electrical and electronic equipment (weee) was collected in 2022, measured in tons?",2829,3,4
 1864,1,0,vivendi_2023.pdf,306,140,0,What was the total weight of hazardous waste (excluding eletrical/electronic waste) in 2023 in tons?,18,5,3
@@ -1925,7 +1925,7 @@
 1923,1,0,OTC_BAMGF_2023.pdf,302,308,0,What was the other biogenic fuels consumption in Mwh for the year 2021?,1211,19,4
 1924,1,0,OTC_BAMGF_2023.pdf,302,308,0,What was the other biogenic fuels consumption in Mwh for the year 2022?,1095,19,5
 1925,1,0,OTC_BAMGF_2023.pdf,302,308,0,What was the other biogenic fuels consumption in Mwh for the year 2023?,1109,19,6
-1926,1,0,OTC_BAMGF_2023.pdf,302,325,0,"What are the minimum and maximum fuel consumption (per 100 km) for the BMW M3 CS?""",10.4 - 10.1,3,2
+1926,1,0,OTC_BAMGF_2023.pdf,302,325,0,What are the minimum and maximum fuel consumption (in l/100 km) for the BMW M3 CS?,10.4 - 10.1,3,2
 1927,1,2,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum CO emissions in grams per kilometer for the BMW M3 CS?,234 - 229,3,3
 1928,1,0,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 eDrive35?,18.7 - 15.8,4,4
 1929,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum electric driving range for the BMW i4 eDrive35?,406 - 483,4,5
@@ -1941,15 +1941,15 @@
 1939,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum electric driving range for the BMW iS M60 xDrive?,457 - 516,9,5
 1940,1,0,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW i5 M60 xDrive Touring?,20.8 - 18.3,10,4
 1941,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum electric driving range for the BMW i5 M60 xDrive Touring?,445 - 506,10,5
-1942,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum fuel consumption 100 km for the BMW 530e?,0.8 - 0.6,11,2
+1942,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum fuel consumption in l/100 km for the BMW 530e?,0.8 - 0.6,11,2
 1943,1,2,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest CO emissions in grams per kilometer for the BMW 530e?,17 - 13,11,3
 1944,1,0,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW 530e?,21.7 - 19.9,11,4
 1945,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum electric driving range for the BMW 530e?,93 - 103,11,5
-1946,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum fuel consumption per 100 kilometers for the BMW 530e xDrive?,1.0 - 0.8,12,2
+1946,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum fuel consumption per l/100 kilometers for the BMW 530e xDrive?,1.0 - 0.8,12,2
 1947,1,2,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest CO emissions in grams per kilometer for the BMW 530e xDrive?,23 - 19,12,3
 1948,1,0,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW 530e xDrive?,23.2 - 21.6,12,4
 1949,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum electric driving range for the BMW 530e xDrive?,83 - 90,12,5
-1950,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum fuel consumption per 100 km for the BMW X5 xDrive 50e?,1.1 - 0.8,13,2
+1950,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum fuel consumption per l/100 km for the BMW X5 xDrive 50e?,1.1 - 0.8,13,2
 1951,1,2,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest CO emissions in g/km for the BMW X5 xDrive 50e?,26 - 18,13,3
 1952,1,0,OTC_BAMGF_2023.pdf,302,325,0,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW X5 xDrive 50e?,27.0 - 22.9,13,4
 1953,1,0,OTC_BAMGF_2023.pdf,302,325,0,What is the maximum and minimum electric driving range for the BMW X5 xDrive 50e?,94 - 110,13,5
@@ -2140,23 +2140,23 @@
 2138,1,0,OTC_BAMGF_2023.pdf,306,311,0,What was the weight of waste for disposal in tons in 2022?,6113,4,5
 2139,1,0,OTC_BAMGF_2023.pdf,306,311,0,What was the weight of waste for disposal in tons in 2023?,5326,4,6
 2140,1,0,OTC_BAMGF_2023.pdf,308,312,0,What was the percentage of suppliers of production-related material with implemented preventive measures at the time of awarding in 2022?,70,2,2
-2141,1,0,OTC_BAMGF_2023.pdf,308,312,0,What proportion of suppliers of production-related material had agreed preventive measures at the time of awarding in 2023?,31,3,3
+2141,1,0,OTC_BAMGF_2023.pdf,308,312,0,What proportion of suppliers of production-related material had agreed preventive measures at the time of awarding in 2023 in %?,31,3,3
 2142,1,0,OTC_BAMGF_2023.pdf,308,312,0,Can you tell me the percentage of suppliers of production-related material with implemented preventive measures at the time of awarding in 2023?,55,2,3
-2143,1,0,OTC_BAMGF_2023.pdf,308,312,0,What was the proportion of suppliers of production-related material with agreed preventive measures at the time of awarding in 2022?,22,3,2
+2143,1,0,OTC_BAMGF_2023.pdf,308,312,0,What was the proportion in % of suppliers of production-related material with agreed preventive measures at the time of awarding in 2022?,22,3,2
 2144,1,2,OTC_BAMGF_2023.pdf,308,312,1,How many notifications of potential violations of our sustainability principles were received in 2022?,8,-,-
 2145,1,2,OTC_BAMGF_2023.pdf,308,312,1,What was the number of notifications of potential violations of our sustainability principles that were clarified during the reporting year in 2023?,6,-,-
 2146,1,2,OTC_BAMGF_2023.pdf,308,312,1,"In 2023, how many notifications of potential violations of our sustainability principles were received?",11,-,-
 2147,1,2,OTC_BAMGF_2023.pdf,308,312,1,What was the number of notifications of potential violations of our sustainability principles that were clarified during the reporting year in 2022?,4,-,-
-2148,1,0,OTC_MBGAF_2023.pdf,301,109,0,By when should protective measures for 100% of high-risk materials be implemented?,2028,2,2
-2149,1,0,OTC_MBGAF_2023.pdf,301,109,0,When should 70% of production raw materials with high human rights risks be assessed?,2025,3,2
-2150,1,0,OTC_MBGAF_2023.pdf,301,109,0,Was the assessment of 50% of production raw materials with high human rights risks completed?,Yes,4,2
-2151,1,0,OTC_MBGAF_2023.pdf,301,109,0,By when should 100% of service supply chain products with high human rights risks be reviewed?,2026,5,2
-2152,1,0,OTC_MBGAF_2023.pdf,302,86,0,When is the target of reducing CO2 emissions by 80% expected?,2030,3,2
-2153,1,0,OTC_MBGAF_2023.pdf,302,86,0,By which year is the share of renewable energy in production expected to reach 100%?,2039,4,2
-2154,1,3,OTC_MBGAF_2023.pdf,302,86,0,What percentage of renewable energy usage is targeted for cars by 2030?,70.00%,6,1
-2155,1,3,OTC_MBGAF_2023.pdf,302,86,0,What percentage of renewable energy usage is targeted for vans by 2030?,80.00%,7,1
-2156,1,3,OTC_MBGAF_2023.pdf,302,87,0,What is the target percentage reduction in energy consumption for cars by 2030?,-43.00%,4,1
-2157,1,3,OTC_MBGAF_2023.pdf,302,87,0,What is the target percentage reduction in energy consumption for vans by 2030?,-25.00%,5,1
+2148,1,0,OTC_MBGAF_2023.pdf,301,109,0,By when should protective measures for 100 percent of high-risk materials be implemented?,2028,2,2
+2149,1,0,OTC_MBGAF_2023.pdf,301,109,0,When should 70 percent of production raw materials with high human rights risks be assessed?,2025,3,2
+2150,1,0,OTC_MBGAF_2023.pdf,301,109,0,Was the assessment of 50 percent of production raw materials with high human rights risks completed?,Yes,4,2
+2151,1,0,OTC_MBGAF_2023.pdf,301,109,0,By when should 100 percent of service supply chain products with high human rights risks be reviewed?,2026,5,2
+2152,1,0,OTC_MBGAF_2023.pdf,302,86,0,When is the target of reducing CO2 emissions by 80 percent expected?,2030,3,2
+2153,1,0,OTC_MBGAF_2023.pdf,302,86,0,By which year is the share of renewable energy in production expected to reach 100 percent?,2039,4,2
+2154,1,3,OTC_MBGAF_2023.pdf,302,86,0,What percentage of renewable energy usage is targeted for cars by 2030?,70.00,6,1
+2155,1,3,OTC_MBGAF_2023.pdf,302,86,0,What percentage of renewable energy usage is targeted for vans by 2030?,80.00,7,1
+2156,1,3,OTC_MBGAF_2023.pdf,302,87,0,What is the target percentage reduction in energy consumption for cars by 2030?,-43.00,4,1
+2157,1,3,OTC_MBGAF_2023.pdf,302,87,0,What is the target percentage reduction in energy consumption for vans by 2030?,-25.00,5,1
 2158,1,2,OTC_MBGAF_2023.pdf,302,87,0,What is the target percentage reduction in water consumption for cars by 2030?,-33.00%,-,-
 2159,1,2,OTC_MBGAF_2023.pdf,302,87,0,What is the target percentage reduction in water consumption for vans by 2030?,-28.00%,-,-
 2160,1,2,OTC_MBGAF_2023.pdf,302,87,0,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82.00%,-,-
@@ -2209,10 +2209,10 @@
 2207,1,2,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in energy consumption per vehicle for vans by 2030?,-25.00%,-,-
 2208,1,2,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in water consumption per vehicle for cars by 2030?,-33.00%,-,-
 2209,1,2,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in water consumption per vehicle for vans by 2030?,-28.00%,-,-
-2210,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82.00%,10,1
-2211,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in waste volume for disposal for vans by 2030?,-85.00%,11,1
-2212,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in total waste volume for cars by 2030?,-35.00%,13,1
-2213,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in total waste volume for vans by 2030?,-30.00%,14,1
+2210,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82.00,10,1
+2211,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in waste volume for disposal for vans by 2030?,-85.00,11,1
+2212,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in total waste volume for cars by 2030?,-35.00,13,1
+2213,1,3,OTC_MBGAF_2023.pdf,306,87,0,What is the target percentage reduction in total waste volume for vans by 2030?,-30.00,14,1
 2214,1,0,deutsche-telekom-ag_2023.pdf,302,2,0,What was the energy consumption in GWh for the year 2023?,12241,44,4
 2215,1,0,deutsche-telekom-ag_2023.pdf,302,2,0,How much energy was consumed in GWh in 2022?,13253,44,5
 2216,1,0,deutsche-telekom-ag_2023.pdf,302,2,0,What was the energy consumption in GWh for the year 2021?,13323,44,6
@@ -2293,7 +2293,7 @@
 2291,1,0,OTC_ADDDF_2023.pdf,301,90,0,What is the percentage of recycled rubber used in the total rubber material?,1.5,5,3
 2292,1,0,OTC_ADDDF_2023.pdf,301,90,0,What percentage of cotton used is third-party certified cotton?,97.3,8,3
 2293,1,0,OTC_ADDDF_2023.pdf,301,90,0,What percentage of the cotton is made up of organic cotton?,2.7,9,3
-2294,1,0,OTC_ADDDF_2023.pdf,301,90,0,What share of the EVA is recycled?,1.9,13,3
+2294,1,0,OTC_ADDDF_2023.pdf,301,90,0,What percentage of the EVA is recycled?,1.9,13,3
 2295,1,0,OTC_ADDDF_2023.pdf,301,90,0,What percentage of the leather used is third-party certified leather?,99.9,15,3
 2296,1,0,OTC_ADDDF_2023.pdf,301,110,0,What was the percentage of recycled polyester apparel footwear in 2023?,99,4,2
 2297,1,0,OTC_ADDDF_2023.pdf,301,110,0,What was the percentage of recycled polyester apparel footwear in 2022?,96,4,3
@@ -2303,13 +2303,13 @@
 2301,1,0,OTC_ADDDF_2023.pdf,301,110,0,What percentage of more sustainable cotton was sourced in 2021?,100,5,4
 2302,1,3,OTC_ADDDF_2023.pdf,305,84,0,What were the Scope 1 emissions in tons CO2e for the year 2023?,21779,2,2
 2303,1,3,OTC_ADDDF_2023.pdf,305,84,0,How many tons of Scope 1 CO2 emissions were produced in 2022?,21856,2,3
-2304,1,3,OTC_ADDDF_2023.pdf,305,84,0,What is the total of Scope 1 CO2 emissions related to administrative offices in tons  for 2023?,9863,3,2
+2304,1,3,OTC_ADDDF_2023.pdf,305,84,0,What is the total of Scope 1 CO2 emissions related to administrative offices in tons for 2023?,9863,3,2
 2305,1,3,OTC_ADDDF_2023.pdf,305,84,0,What were the Scope 1 emissions from distribution centers in tons of CO2 in 2022?,5128,4,3
 2306,1,3,OTC_ADDDF_2023.pdf,305,84,0,How much did own retail stores contribute to Scope 1 emissions in tons of CO2 in 2023?,5160,5,2
 2307,1,3,OTC_ADDDF_2023.pdf,305,84,0,What is the emissions figure for showrooms in tons CO2e for the year 2022?,537,6,3
 2308,1,3,OTC_ADDDF_2023.pdf,305,84,0,"What were the Scope 2 emissions, market-based, in tons CO2e for 2023?",142457,7,2
 2309,1,3,OTC_ADDDF_2023.pdf,305,84,0,How many tons of Scope 2 CO2 were emitted from administrative offices in 2022?,13354,8,3
-2310,1,3,OTC_ADDDF_2023.pdf,305,84,0,What is the quantity of maket-based Scope 2 emissions for distribution centers in tons CO2e for 2023?,20311,9,2
+2310,1,3,OTC_ADDDF_2023.pdf,305,84,0,What is the quantity of market-based Scope 2 emissions for distribution centers in tons CO2e for 2023?,20311,9,2
 2311,1,3,OTC_ADDDF_2023.pdf,305,84,0,"With reference to Scope 2 emissions, what were the emissions from own retail stores in tons of CO2 for 2022?",104480,10,3
 2312,1,3,OTC_ADDDF_2023.pdf,305,84,0,How much did showrooms emit in tons of CO2 in 2023 (Scope 2 market-based emissions)?,3794,11,2
 2313,1,3,OTC_ADDDF_2023.pdf,305,84,0,What were the Scope 3 emissions in tons CO2e for the year 2023?,5894811,12,2
@@ -2330,20 +2330,20 @@
 2328,1,0,OTC_ADDDF_2023.pdf,305,110,0,What was the absolute annual CO2 Scope 1 and Scope 2 net emissions in tons for the year 2021?,138411,9,4
 2329,1,2,OTC_ADDDF_2023.pdf,305,110,0,How many buildings in own operations held certification for environmental management in 2023?,70,-,-
 2330,1,2,OTC_ADDDF_2023.pdf,305,110,0,What was the percentage of more sustainable cotton sourced in 2021?,100,-,-
-2331,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of palm oil used in Carrefour-branded products that is fully traced in 2023?,95.30%,3,3
-2332,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of palm oil used in Carrefour-branded products was certified RSPO or equivalent?",100.00%,4,3
-2333,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of Carrefour-branded products in ten priority categories were sourced from sustainable forests in 2023?,96.30%,5,3
-2334,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of Carrefour Quality Lines and other key Carrefour-branded products that used zero-deforestation soy as animal feed in 2023?,21.70%,6,3
-2335,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of Carrefour-branded chocolate bars complied with the Sustainable Cocoa Charter?",31.60%,7,3
-2336,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of key traders were assessed in 2023?,100.00%,8,3
-2337,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of key traders were making progress towards complying with the policy in 2023?,33.00%,9,3
-2338,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of Brazilian beef suppliers were geo-monitored and compliant with the forest policy in 2023?,100.00%,11,3
-2339,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of natural textile raw materials complied with the responsible TEX policy?",52.30%,13,3
-2340,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of TEX products made from organic cotton in 2023?,20.60%,14,3
-2341,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of viscose TEX products were made from wood fibre sourced from sustainably managed forests?",96.30%,15,3
-2342,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of wool TEX products were sourced from traceable quality lines that guarantee animal welfare in 2023?,58.70%,16,3
-2343,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of cashmere TEX products sourced from traceable quality lines in 2023?,100.00%,17,3
-2344,1,2,OTC_CRERF_2023.pdf,301,79,0,"What was the percentage of Carrefour-branded packaging that is reusable, recyclable or compostable in 2023?",69.00%,-,-
+2331,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of palm oil used in Carrefour-branded products that is fully traced in 2023?,95.30,3,3
+2332,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of palm oil used in Carrefour-branded products was certified RSPO or equivalent?",100.00,4,3
+2333,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of Carrefour-branded products in ten priority categories were sourced from sustainable forests in 2023?,96.30,5,3
+2334,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of Carrefour Quality Lines and other key Carrefour-branded products that used zero-deforestation soy as animal feed in 2023?,21.70,6,3
+2335,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of Carrefour-branded chocolate bars complied with the Sustainable Cocoa Charter?",31.60,7,3
+2336,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of key traders were assessed in 2023?,100.00,8,3
+2337,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of key traders were making progress towards complying with the policy in 2023?,33.00,9,3
+2338,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of Brazilian beef suppliers were geo-monitored and compliant with the forest policy in 2023?,100.00,11,3
+2339,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of natural textile raw materials complied with the responsible TEX policy?",52.30,13,3
+2340,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of TEX products made from organic cotton in 2023?,20.60,14,3
+2341,1,0,OTC_CRERF_2023.pdf,301,70,0,"In 2023, what percentage of viscose TEX products were made from wood fibre sourced from sustainably managed forests?",96.30,15,3
+2342,1,0,OTC_CRERF_2023.pdf,301,70,0,What percentage of wool TEX products were sourced from traceable quality lines that guarantee animal welfare in 2023?,58.70,16,3
+2343,1,0,OTC_CRERF_2023.pdf,301,70,0,What was the percentage of cashmere TEX products sourced from traceable quality lines in 2023?,100.00,17,3
+2344,1,2,OTC_CRERF_2023.pdf,301,79,0,"What was the percentage of Carrefour-branded packaging that is reusable, recyclable or compostable in 2023?",69.00,-,-
 2345,1,2,OTC_CRERF_2023.pdf,301,79,0,How much weight of unsold products was recovered through sale of food baskets in partnership with Too Good To Go in 2023 (in tonnes)?,3904,-,-
 2346,1,2,OTC_CRERF_2023.pdf,301,79,0,What is the total weight of waste produced by stores in 2023 (in tonnes)?,671,-,-
 2347,1,2,OTC_CRERF_2023.pdf,301,79,0,How many meal equivalents of unsold products were donated to food aid associations in 2023 (in millions of meals)?,48.7,-,-
@@ -2357,7 +2357,7 @@
 2355,1,2,OTC_CRERF_2023.pdf,302,86,0,What was the percentage reduction of Scope 1 + 2 GHG emissions compared to 2019 in 2023?,-38.30%,-,-
 2356,1,2,OTC_CRERF_2023.pdf,302,86,0,What was the percentage reduction of Scope 1 GHG emissions compared to 2019 in 2023?,-37.80%,-,-
 2357,1,2,OTC_CRERF_2023.pdf,302,86,0,What was the percentage reduction of Scope 2 GHG emissions compared to 2019 in 2023?,-39.00%,-,-
-2358,1,0,OTC_CRERF_2023.pdf,302,86,0,What percentage of renewable electricity was consumed in total electricity in 2023?,3.70%,11,3
+2358,1,0,OTC_CRERF_2023.pdf,302,86,0,What percentage of renewable electricity was consumed in total electricity in 2023?,3.70,11,3
 2359,1,0,OTC_CRERF_2023.pdf,302,86,0,How much renewable electricity was consumed in 2023 (in MWh)?,148715,12,3
 2360,1,0,OTC_CRERF_2023.pdf,302,86,0,How many sites had solar panels for self-consumption in 2023 (units)?,137,13,3
 2361,1,0,OTC_CRERF_2023.pdf,302,86,0,What was the surface area covered by solar panels deployed in car parks and stores in 2023 in square meters?,262075,14,3
@@ -2376,16 +2376,16 @@
 2374,1,0,OTC_CRERF_2023.pdf,303,72,0,"What was the total volume of water consumed per square meter of sales area in 2023, measured in cubic meters?",1.27,3,3
 2375,1,0,OTC_CRERF_2023.pdf,303,72,0,How much water was consumed in 2022 in millions of cubic meters?,12.2,4,4
 2376,1,0,OTC_CRERF_2023.pdf,303,72,0,What was the amount of water consumed in 2023 in millions of cubic meters?,8.2,4,3
-2377,1,0,OTC_CRERF_2023.pdf,304,71,0,What was the percentage of sales of fishery and aquaculture products produced using sustainable practices in 2023?,57.10%,2,3
-2378,1,0,OTC_CRERF_2023.pdf,304,71,0,What was the percentage of sales of controlled fishery and aquaculture products produced using sustainable practices in 2022?,49.50%,3,4
-2379,1,0,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls were certified to BREEAM In-Use standards in 2023?,95.80%,10,3
-2380,1,0,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls were certified to BREEAM In-Use standards in 2022?,94.00%,10,4
-2381,1,3,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2023?,31.00%,11,3
-2382,1,3,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2022?,33.00%,11,4
+2377,1,0,OTC_CRERF_2023.pdf,304,71,0,What was the percentage of sales of fishery and aquaculture products produced using sustainable practices in 2023?,57.10,2,3
+2378,1,0,OTC_CRERF_2023.pdf,304,71,0,What was the percentage of sales of controlled fishery and aquaculture products produced using sustainable practices in 2022?,49.50,3,4
+2379,1,0,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls were certified to BREEAM In-Use standards in 2023?,95.80,10,3
+2380,1,0,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls were certified to BREEAM In-Use standards in 2022?,94.00,10,4
+2381,1,3,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2023?,31.00,11,3
+2382,1,3,OTC_CRERF_2023.pdf,304,71,0,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2022?,33.00,11,4
 2383,1,0,OTC_CRERF_2023.pdf,305,86,0,What was the amount of Scope 1 GHG emissions in 2023 (in tCO2eq)?,782709,4,3
 2384,1,0,OTC_CRERF_2023.pdf,305,86,0,"What was the market-based Scope 2 GHG emissions in 2022, in tonnes of CO2 equivalent?",631402,5,4
 2385,1,0,OTC_CRERF_2023.pdf,305,86,0,What is the total Scope 1 + 2 GHG emissions in 2023 (in tCO2eq)?,1409030,6,3
-2386,1,0,OTC_CRERF_2023.pdf,305,86,0,What was the percentage reduction of Scope 1 GHG emissions compared to 2019 in 2023?,-37.80%,8,3
+2386,1,0,OTC_CRERF_2023.pdf,305,86,0,What was the percentage reduction of Scope 1 GHG emissions compared to 2019 in 2023?,-37.80,8,3
 2387,1,2,OTC_CRERF_2023.pdf,305,86,0,What is the percentage of renewable electricity in total electricity consumed in 2023?,3.70%,-,-
 2388,1,2,OTC_CRERF_2023.pdf,305,86,0,How much renewable electricity was consumed in 2022 (in MWh)?,17396,-,-
 2389,1,2,OTC_CRERF_2023.pdf,305,86,0,How many sites were equipped with solar panels for self-consumption in 2023 (units)?,137,-,-
@@ -2430,11 +2430,11 @@
 2428,1,0,OTC_CRERF_2023.pdf,306,79,0,How many meal equivalents of unsold products were donated to food aid associations in 2023 (in millions of meals)?,48.7,7,3
 2429,1,0,OTC_CRERF_2023.pdf,306,79,0,What was the total weight of packaging reduction since 2017 in 2023 (in tonnes)?,20738,12,3
 2430,1,0,OTC_CRERF_2023.pdf,306,79,0,What was the total weight of plastic packaging avoided since 2017 in 2023 (in tonnes)?,19021,13,3
-2431,1,0,OTC_CRERF_2023.pdf,308,98,0,What was the percentage of suppliers audited according to a quality standard in 2023?,100.00%,2,3
-2432,1,0,OTC_CRERF_2023.pdf,308,98,0,"What was the percentage of sites certified to IFS, BRC or FSCC22000 standards in 2023?",79.50%,3,3
-2433,1,0,OTC_CRERF_2023.pdf,308,98,0,What percentage of sites were audited by Carrefour in 2022?,8.00%,4,4
-2434,1,0,OTC_CRERF_2023.pdf,308,98,0,What was the percentage of audit scores between A and B in 2023?,96.00%,5,3
-2435,1,0,OTC_CRERF_2023.pdf,308,98,0,What was the percentage of audit scores between C and D in 2023?,4.00%,6,3
+2431,1,0,OTC_CRERF_2023.pdf,308,98,0,What was the percentage of suppliers audited according to a quality standard in 2023?,100.00,2,3
+2432,1,0,OTC_CRERF_2023.pdf,308,98,0,"What was the percentage of sites certified to IFS, BRC or FSCC22000 standards in 2023?",79.50,3,3
+2433,1,0,OTC_CRERF_2023.pdf,308,98,0,What percentage of sites were audited by Carrefour in 2022?,8.00,4,4
+2434,1,0,OTC_CRERF_2023.pdf,308,98,0,What was the percentage of audit scores between A and B in 2023?,96.00,5,3
+2435,1,0,OTC_CRERF_2023.pdf,308,98,0,What was the percentage of audit scores between C and D in 2023?,4.00,6,3
 2436,1,0,OTC_CRERF_2023.pdf,308,98,0,How many suppliers/sites were there in 2023?,2593,8,3
 2437,1,2,OTC_CRERF_2023.pdf,308,98,0,How many inspections performed analyses were there in 2023?,49397,-,-
 2438,1,2,OTC_CRERF_2023.pdf,308,98,0,How many inspections performed panels were conducted in 2023?,3764,-,-
@@ -2444,7 +2444,7 @@
 2442,1,2,OTC_CRERF_2023.pdf,308,98,0,What percentage of Carrefour-branded products were recalled in 2023?,21.00%,-,-
 2443,1,0,OTC_CRERF_2023.pdf,308,88,0,What was the number of suppliers committed to the Food Transition Pact in 2023?,306,6,3
 2444,1,2,OTC_CRERF_2023.pdf,308,88,0,How many parking spaces equipped with electric charging stations were there in France in 2023?,1570,-,-
-2445,1,0,OTC_CRERF_2023.pdf,308,88,0,What was the percentage of the 100 biggest suppliers committed to a 1.5°C trajectory in 2023?,44.00%,7,3
+2445,1,0,OTC_CRERF_2023.pdf,308,88,0,What was the percentage of the 100 biggest suppliers committed to a 1.5°C trajectory in 2023?,44.00,7,3
 2446,1,2,OTC_CRERF_2023.pdf,308,88,0,What was the percentage of sensitive raw materials covered by an action plan in 2023?,70.50%,-,-
 2447,1,2,OTC_CRERF_2023.pdf,308,88,0,What was the number of partner producers in 2023?,46013,-,-
 2448,1,2,OTC_CRERF_2023.pdf,308,88,0,What were the sales from plant-based alternatives in 2023?,514,-,-
