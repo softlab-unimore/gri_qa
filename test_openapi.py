@@ -63,32 +63,8 @@ def df_to_html_string(df: pd.DataFrame, index: bool = True) -> str:
     Returns:
         str: HTML string representation of the DataFrame
     """
-    html = df.to_html(index=index, classes='table table-striped table-bordered', border=1, justify='left', escape=False)
-
-    # Add basic CSS styling
-    style = """
-    <style>
-        .table {
-            width: 100%;
-            margin-bottom: 1rem;
-            border-collapse: collapse;
-            font-family: Arial, sans-serif;
-        }
-        .table th, .table td {
-            padding: 8px;
-            text-align: left;
-        }
-        .table-striped tbody tr:nth-of-type(odd) {
-            background-color: rgba(0,0,0,.05);
-        }
-        .table-bordered th, .table-bordered td {
-            border: 1px solid #dee2e6;
-        }
-    </style>
-    """
-
-    return style + html
-
+    
+    return df.to_html(index=index, classes='table table-striped table-bordered', border=1, justify='left', escape=False)
 
 def answer(question: str, table: pd.DataFrame) -> str:
     """Generates answer for a question about table data using OpenAI's API.
