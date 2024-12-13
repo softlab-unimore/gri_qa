@@ -1,7 +1,7 @@
 GRI;Indicators;Units;2023;2022;2021;2020
 ;Estimated coverage (% waste generation);%;87%;86%;87%;90%
 306-3;Total waste generated;metric tons;124139;131402;136816;125292
-306-3;Total waste generated/Turnover;metric tons/ million €;3.46;3.84;4.73;4.98
+306-3;Total waste generated/Turnover;metric tons/ million EUR;3.46;3.84;4.73;4.98
 306-3, 306-4, 306-5;Non-hazardous waste generated;metric tons;116566;123311;128267;117607
 306-3, 306-4, 306-5;of which reused or recycled;metric tons;105593;111567;115550;113211
 306-3, 306-4, 306-5;of which incinerated with energy recovery;metric tons;6871;6719;6964;na
@@ -10,7 +10,7 @@ GRI;Indicators;Units;2023;2022;2021;2020
 306-2;Share of non-hazardous waste recovered or reduced;%;97.0%;96.3%;95.9%;96.5%
 306-3;Hazardous waste generated;metric tons;7573;8091;8549;7685
 306-5;Hazardous waste channeled according to Schneider Electric expectations;metric tons;7573;8091;8549;7667
-306-5;Hazardous waste generated/Turnover;metric tons/ million €;0.21;0.24;0.3;0.3
+306-5;Hazardous waste generated/Turnover;metric tons/ million EUR;0.21;0.24;0.3;0.3
 306-5;Hazardous waste intensity reduction against 2017;%;-50%;-44%;-30%;-27%
 ;SSE #9 - Number of 'Waste-to-Resource' sites;#;137;127;126;120
 2-27, 306-3;# and aggregate quantity of reportable spills;kg;0;0;0;0
