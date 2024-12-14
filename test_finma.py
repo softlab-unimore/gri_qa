@@ -28,12 +28,12 @@ def create_prompt(table, question):
     return f'{instruction}\nContext: {table}\nQuestion: {question}\nAnswer:'
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
     args = parser.parse_args()
 
-    qa = pd.read_csv(f'dataset/{args.dataset}', sep=',', on_bad_lines='skip')
+    qa = pd.read_csv(f'dataset/{args.dataset}', sep=',')
     qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
@@ -62,7 +62,7 @@ if __name__=='__main__':
         # Table extraction
         table_dirname = row["pdf name"].split('.')[0]
         table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
-        table = pd.read_csv(table_filename, sep=';', on_bad_lines='skip')
+        table = pd.read_csv(table_filename, sep=';')
 
         # Query
         prompt = create_prompt(table, row['question'])
@@ -71,13 +71,16 @@ if __name__=='__main__':
         outputs = model.generate(**encoding, max_length=2000)
         response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-        response_value = response[0].strip('[\'').split('\nAnswer: ')[1].strip('\']')
+        response_value = response[0].strip(
+            '[\'').split('\nAnswer: ')[1].strip('\']')
         print(f'Q{i}: {row["value"]} - {response_value}')
 
-        results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+        results.loc[len(results)] = {
+            'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
 
     tracker.stop()
 
     os.makedirs(f'./results/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{dataset_name}/finma.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_finma.csv')
+    os.rename(f'./results/{dataset_name}/emissions.csv',
+              f'./results/{dataset_name}/emissions_finma.csv')

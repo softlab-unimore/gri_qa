@@ -22,6 +22,7 @@ def flattening(table):
 
     return flatten_table
 
+
 def create_prompt(table, question, hierarchical):
     description = "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request."
 
@@ -35,12 +36,13 @@ def create_prompt(table, question, hierarchical):
     prompt = f"{description}\n\n###Instruction:\n{instruction}\n\nInput:\n{table}\n\n###Question:\n{question}\n\n###Response:\n"
     return prompt
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
     args = parser.parse_args()
 
-    qa = pd.read_csv(f'dataset/{args.dataset}', sep=',', on_bad_lines='skip')
+    qa = pd.read_csv(f'dataset/{args.dataset}', sep=',')
     qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
@@ -77,11 +79,12 @@ if __name__=='__main__':
 
         print(f'Q{i}: {row["value"]} - {response_value}')
 
-        results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+        results.loc[len(results)] = {
+            'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
 
     tracker.stop()
 
     os.makedirs(f'./results/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{dataset_name}/tablellama.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_tablellama.csv')
-
+    os.rename(f'./results/{dataset_name}/emissions.csv',
+              f'./results/{dataset_name}/emissions_tablellama.csv')
