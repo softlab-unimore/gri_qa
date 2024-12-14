@@ -1,7 +1,6 @@
 .vscode
 .idea
 config.ini
-.vscode
 env/
 *metadata.json
 .~lock*
