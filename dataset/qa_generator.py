@@ -678,10 +678,87 @@ class RelationResponseGenerator(ResponseGenerator):
                 f"Can't calculate the comparison between more than 2 values")
 
         return self.superlative(values, maximise, to_str)
+
+
+class KeywordResponseGenerator(ResponseGenerator):
+    def __init__(self, df):
+        super(KeywordResponseGenerator, self).__init__(df)
+        self.llm = OpenAIModel()
+        system_message = "You are a helpful assistant that assists people in changing questions by using different keywords. Write exclusively the requested question. Do not use any Markdown formatting."
+        self.llm.set_system_message(system_message)
+        self.prompt = """You will be provided with a table (in HTML), along with a question and its corresponding answer, both derived from the information in the table.
+        Your task is to rephrase the original question using different keywords while ensuring the following: the rephrased question retains the same meaning as the original, remains unambiguous, and is still answerable by the given answer based on the table's context.
+
+        # TABLE
+        
+        {}
+        
+        # QUESTION
+        
+        {}
+        
+        # ANSWER
+        
+        {}
+        
+        # NEW QUESTION
+
+        """
+        
+    def generate(self, path):  # gri-qa_extr.csv
+        file_type = path.split(".")[-1]
+        if file_type == "tsv":
+            sep = "\t"
+        elif file_type == "csv":
+            sep = ","
+        else:
+            raise TypeError(
+                f"{path} has the wrong file type. The file must be .tsv or .csv")
+
+        df = pd.read_csv(path, sep=sep)
+        new_dataset = [df.columns]
+
+        for i, row in df.iterrows():
+            message_dp = deepcopy(self.prompt)
+
+            gri = str(row["gri"])
+            page_nbr = str(row["page nbr"])
+            pdf_name = str(row["pdf name"])
+            table_nbr = str(row["table nbr"])
+            question = str(row["question"])
+            answer = str(row["value"])
+            
+            file_name = f"annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv"
+            try:
+                table = pd.read_csv(file_name, sep=";",
+                                    quoting=csv.QUOTE_NONE, escapechar='\\').to_html(index=False)
+            except:
+                print(
+                    f"Error with annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv")
+                continue
+
+            
+
+            ai_msg = self.llm.invoke(message_dp.format(table, question, answer))
+
+            try:
+                result = ai_msg.content
+            except:
+                print(
+                    f"Malformed node for annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv")
+                continue
+
+            new_row = deepcopy(row)
+            new_row["question"] = result
+            new_dataset.append(new_row.tolist())
+
+        new_df = pd.DataFrame(new_dataset)
+        return new_df 
         
 
-class ExtractiveResponseGenerator:
-    def __init__(self):
+class ExtractiveResponseGenerator(ResponseGenerator):
+    def __init__(self, df):
+        super(ExtractiveResponseGenerator, self).__init__(df)
         self.dataset_schema = [
             ["pdf name", "gri", "page nbr", "table nbr", "question", "value"]]
 
@@ -728,6 +805,7 @@ class ExtractiveResponseGenerator:
             print(
                 f"annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv")
             file_name = f"annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv"
+
             try:
                 table = pd.read_csv(file_name, header=None, sep=";",
                                     quoting=csv.QUOTE_NONE, escapechar='\\').to_html(index=False)
@@ -756,11 +834,12 @@ class ExtractiveResponseGenerator:
         new_df.to_csv("qa_dataset_aggr.csv", sep=";")    
 
 if __name__ == "__main__":
-    df = pd.read_csv("qa_dataset.csv")
-    q_responsegenerator = RelationResponseGenerator(df)
+    df = pd.read_csv("gri-qa_extr.csv")
+    path_to_dataset = "gri-qa_kw.csv"
+    
+    """q_responsegenerator = RelationResponseGenerator(df)
     res = q_responsegenerator.generate()
     
-    path_to_dataset = "gri-qa_rel.csv"
     new_df = pd.DataFrame(res[1:], columns=res[0])
 
     qg = QuestionGenerator()
@@ -772,4 +851,10 @@ if __name__ == "__main__":
     
     new_df.loc[new_df.drop("question",axis="columns").astype(str).drop_duplicates().index]
     new_df.to_csv(path_to_dataset, index=False)
-    print(len(new_df))
+    print(len(new_df))"""
+    
+    k_responsegenerator = KeywordResponseGenerator(df)
+    new_df = k_responsegenerator.generate("gri-qa_extra.csv")
+    new_df.to_csv(path_to_dataset, index=False)
+    
+    
