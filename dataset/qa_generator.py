@@ -1,6 +1,7 @@
 import inspect
 import math
 import os
+import pickle
 import pandas as pd
 import json
 import csv
@@ -718,7 +719,7 @@ class KeywordResponseGenerator(ResponseGenerator):
         df = pd.read_csv(path, sep=sep)
         new_dataset = [df.columns]
 
-        for i, row in df.iterrows():
+        for i, row in tqdm(df.iterrows()):
             message_dp = deepcopy(self.prompt)
 
             gri = str(row["gri"])
@@ -729,20 +730,18 @@ class KeywordResponseGenerator(ResponseGenerator):
             answer = str(row["value"])
             
             file_name = f"annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv"
+
             try:
-                table = pd.read_csv(file_name, sep=";",
-                                    quoting=csv.QUOTE_NONE, escapechar='\\').to_html(index=False)
+                table = pd.read_csv(file_name, sep=";", escapechar='\\').to_html(index=False)
             except:
                 print(
                     f"Error with annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv")
                 continue
 
-            
-
-            ai_msg = self.llm.invoke(message_dp.format(table, question, answer))
-
             try:
-                result = ai_msg.content
+                ai_msg = self.llm.invoke(message_dp.format(table, question, answer))
+                #print(f"{question} --- {ai_msg}")
+                result = ai_msg
             except:
                 print(
                     f"Malformed node for annotation/{pdf_name.split('.')[0].strip()}/{page_nbr}_{table_nbr}.csv")
@@ -751,6 +750,9 @@ class KeywordResponseGenerator(ResponseGenerator):
             new_row = deepcopy(row)
             new_row["question"] = result
             new_dataset.append(new_row.tolist())
+            if i % 100 == 0:
+                with open(f'checkpoint{i}.pkl', 'wb') as f:
+                    pickle.dump(new_dataset, f)
 
         new_df = pd.DataFrame(new_dataset)
         return new_df 
@@ -834,7 +836,7 @@ class ExtractiveResponseGenerator(ResponseGenerator):
         new_df.to_csv("qa_dataset_aggr.csv", sep=";")    
 
 if __name__ == "__main__":
-    df = pd.read_csv("gri-qa_extr.csv")
+    df = pd.read_csv("gri-qa_extra.csv")
     path_to_dataset = "gri-qa_kw.csv"
     
     """q_responsegenerator = RelationResponseGenerator(df)
