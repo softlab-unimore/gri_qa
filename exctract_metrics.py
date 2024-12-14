@@ -21,7 +21,7 @@ if __name__=='__main__':
     parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'keyw', 'neg'])
     args = parser.parse_args()
 
-    # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'gpt-4']
+    # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
     models = ['tatllm', 'tapex', 'tablellama', 'finma']
 
     metrics = pd.DataFrame(columns=['model', 'em'])

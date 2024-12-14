@@ -39,7 +39,7 @@ if __name__=='__main__':
 
     config = ConfigParser()
     config.read('config.ini')
-    token = config.get('TOKEN', 'token')
+    token = config.get('TOKEN', 'token-hf')
 
     login(token=token)
 
