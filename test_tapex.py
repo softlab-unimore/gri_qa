@@ -38,26 +38,21 @@ if __name__ == '__main__':
         table = table.astype(str)
 
         # Query
-        encoding = tokenizer(
-            table=table, query=row["question"], return_tensors="pt").to(model.device)
+        encoding = tokenizer(table=table, query=row["question"], return_tensors="pt").to(model.device)
         if encoding['input_ids'].shape[1] < 1024:
             outputs = model.generate(**encoding)
-            response = tokenizer.batch_decode(
-                outputs, skip_special_tokens=True)
+            response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
             print(f'Q{i}: {row["value"]} - {response[0]}')
 
-            results.loc[len(results)] = {
-                'index': i, 'question': row["question"], 'value': row["value"], 'response': response[0]}
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response[0]}
         else:
             print(f'Q{i}: {row["value"]} - Table too long')
 
-            results.loc[len(results)] = {
-                'index': i, 'question': row["question"], 'value': row["value"], 'response': 'Table too long'}
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': 'Table too long'}
 
     tracker.stop()
 
     os.makedirs(f'./results/{dataset_name}/', exist_ok=True)
     results.to_csv(f'./results/{dataset_name}/tapex.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv',
-              f'./results/{dataset_name}/emissions_tapex.csv')
+    os.rename(f'./results/{dataset_name}/emissions.csv',f'./results/{dataset_name}/emissions_tapex.csv')

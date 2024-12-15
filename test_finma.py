@@ -71,16 +71,13 @@ if __name__ == '__main__':
         outputs = model.generate(**encoding, max_length=2000)
         response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-        response_value = response[0].strip(
-            '[\'').split('\nAnswer: ')[1].strip('\']')
+        response_value = response[0].strip('[\'').split('\nAnswer: ')[1].strip('\']')
         print(f'Q{i}: {row["value"]} - {response_value}')
 
-        results.loc[len(results)] = {
-            'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+        results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
 
     tracker.stop()
 
     os.makedirs(f'./results/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{dataset_name}/finma.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv',
-              f'./results/{dataset_name}/emissions_finma.csv')
+    os.rename(f'./results/{dataset_name}/emissions.csv',f'./results/{dataset_name}/emissions_finma.csv')

@@ -79,12 +79,10 @@ if __name__ == '__main__':
 
         print(f'Q{i}: {row["value"]} - {response_value}')
 
-        results.loc[len(results)] = {
-            'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+        results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
 
     tracker.stop()
 
     os.makedirs(f'./results/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{dataset_name}/tablellama.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv',
-              f'./results/{dataset_name}/emissions_tablellama.csv')
+    os.rename(f'./results/{dataset_name}/emissions.csv',f'./results/{dataset_name}/emissions_tablellama.csv')
