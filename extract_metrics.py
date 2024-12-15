@@ -18,8 +18,7 @@ def check_number(value, response, percentage=False):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra',
-                        choices=['extra', 'quant', 'rel', 'keyw', 'neg'])
+    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kyw', 'neg'])
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
@@ -74,17 +73,14 @@ if __name__ == '__main__':
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
                   (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>']))):
-                results.loc[i, 'correct'] = check_number(row['value'].strip(
-                    '%<= >'), row['response'].strip('%<= >'), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >'), row['response'].strip('%<= >'), percentage=percentage)
 
             # Otherwise
             else:
                 results.loc[i, 'correct'] = False
 
-        results.to_csv(
-            f'./results/{args.dataset}/with_match/{model}.csv', index=False)
-        em = results.loc[results['correct'] ==
-                         True].shape[0] / results.shape[0]
+        results.to_csv(f'./results/{args.dataset}/with_match/{model}.csv', index=False)
+        em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
         metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 5)}
         print(f'EM: {round(em, 5)}')
 

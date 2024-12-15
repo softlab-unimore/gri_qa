@@ -15,8 +15,7 @@ if __name__ == '__main__':
     qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
-    tokenizer = TapexTokenizer.from_pretrained(
-        "microsoft/tapex-large-finetuned-wtq")
+    tokenizer = TapexTokenizer.from_pretrained("microsoft/tapex-large-finetuned-wtq")
     model = BartForConditionalGeneration.from_pretrained(
         "microsoft/tapex-large-finetuned-wtq",
         device_map='auto',
