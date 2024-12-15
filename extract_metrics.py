@@ -46,20 +46,15 @@ if __name__ == '__main__':
 
             # Check for numbers with <, =, > symbols in both side
             elif row['value'].startswith('<=') and row['response'].startswith('<='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip(
-                    '%<= '), row['response'].strip('%<= '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= '), row['response'].strip('%<= '), percentage=percentage)
             elif row['value'].startswith('>=') and row['response'].startswith('>='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip(
-                    '%>= '), row['response'].strip('%>= '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%>= '), row['response'].strip('%>= '), percentage=percentage)
             elif row['value'].startswith('<') and row['response'].startswith('<'):
-                results.loc[i, 'correct'] = check_number(row['value'].strip(
-                    '%< '), row['response'].strip('%< '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%< '), row['response'].strip('%< '), percentage=percentage)
             elif row['value'].startswith('=') and row['response'].startswith('='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip(
-                    '%= '), row['response'].strip('%= '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%= '), row['response'].strip('%= '), percentage=percentage)
             elif row['value'].startswith('>') and row['response'].startswith('>'):
-                results.loc[i, 'correct'] = check_number(row['value'].strip(
-                    '%> '), row['response'].strip('%> '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), row['response'].strip('%> '), percentage=percentage)
 
             # Check for response with multiple words
             elif any(r.isalpha() for r in row['response']):
