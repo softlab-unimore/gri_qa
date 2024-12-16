@@ -116,7 +116,10 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
 
     # Process each question against its corresponding table
     predictions = []
-    for _, row in df_qa.iterrows():
+    for i, row in df_qa.iterrows():
+
+        print(f'Q{i} - {row["question"]}')
+
         pdf_name, page_num, table_num = row['pdf name'], row['page nbr'], row['table nbr']
         pdf_name = pdf_name.replace('.pdf', '')
         table_path = os.path.join(dataset_dir, pdf_name, f'{page_num}_{table_num}.csv')
@@ -129,6 +132,8 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
         table = read_csv_with_encoding(str(table_path))
         pred = answer(row['question'], table)
         predictions.append(pred)
+
+        print(f'Q{i}: {row["value"]} - {pred}')
 
     # Create response column
     df_qa['response'] = predictions
