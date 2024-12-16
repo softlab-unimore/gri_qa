@@ -18,7 +18,7 @@ def check_number(value, response, percentage=False):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kyw', 'neg'])
+    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
