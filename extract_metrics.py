@@ -6,11 +6,12 @@ import pandas as pd
 
 def check_number(value, response, percentage=False):
     try:
-        check = False
         if percentage:
-            response_norm = float(response) * 100
-            check = float(value) == float(response_norm)
-        return float(value) == float(response) or check
+            if abs(float(value)) == abs(float(response)):
+                return True
+            if abs(float(value)) == abs(float(float(response) * 100)):
+                return True
+        return float(value) == float(response)
     except ValueError:
         return False
 
@@ -22,7 +23,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
-    models = ['tatllm', 'tapex', 'tablellama', 'finma']
+    models = ['tatllm', 'tapex', 'tablellama', 'finma', 'openai']
+    # models = ['tablellama']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -60,8 +62,8 @@ if __name__ == '__main__':
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), row['response'].strip('%> '), percentage=percentage)
 
             # Check for response with multiple words
-            elif any(r.isalpha() for r in row['response']):
-                el = [c.strip('%') for c in row['response'].split(' ')]
+            elif (any(r.isalpha() for r in row['response'])) or (any(c in row['response'] for c in ['(', ')'])):
+                el = [c.strip('%()') for c in row['response'].split(' ')]
                 for e in el:
                     if check_number(row['value'].strip('%'), e, percentage=percentage):
                         results.loc[i, 'correct'] = True
