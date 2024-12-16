@@ -36,13 +36,16 @@ if __name__ == '__main__':
         results['response'] = results['response'].astype(str).str.lower()
 
         for i, row in results.iterrows():
-            row['response'] = row['response'].strip(' |')
+            row['response'] = row['response'].strip(' |()')
 
             percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
 
             # Check extact match
             if row['value'] == row['response']:
                 results.loc[i, 'correct'] = True
+
+            elif any(c in row['value'] or c in row['response'] for c in ['~']):
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%~ '), row['response'].strip('%~ '), percentage=percentage)
 
             # Check for numbers with <, =, > symbols in both side
             elif row['value'].startswith('<=') and row['response'].startswith('<='):
