@@ -66,18 +66,20 @@ def df_to_html_string(df: pd.DataFrame, index: bool = True) -> str:
     
     return df.to_html(index=index, classes='table table-striped table-bordered', border=1, justify='left', escape=False)
 
-def answer(question: str, table: pd.DataFrame) -> str:
+def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
     """Generates answer for a question about table data using OpenAI's API.
 
     Args:
         question (str): Question to be answered about the table
         table (pd.DataFrame): Table data to be analyzed
+        dataset_file (str): Path to the dataset file
 
     Returns:
         str: AI-generated answer based on the table content
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
+    rel = "If the question asks for a boolean value, the answer should be 'yes' or 'no'."
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
@@ -85,7 +87,7 @@ def answer(question: str, table: pd.DataFrame) -> str:
                 "role": "user",
                 "content": f"{question}\n{df_to_html_string(table, index=False)}\n\n"
                            f"Give exclusively the numerical answer. Do not write anything else. "
-                           f"Do not write any markdown formatting"
+                           f"Do not write any markdown formatting. {rel if 'rel' in dataset_file else ''}"
             }
         ]
     )
@@ -130,7 +132,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
             continue
 
         table = read_csv_with_encoding(str(table_path))
-        pred = answer(row['question'], table)
+        pred = answer(row['question'], table, qa_file)
         predictions.append(pred)
 
         print(f'Q{i}: {row["value"]} - {pred}')
@@ -158,4 +160,3 @@ if __name__ == '__main__':
     df_preds = table_predictions(f'dataset/{args.dataset}', './dataset/annotation', f'./results/{dataset_name}')
     df_preds.to_csv(f'./results/{dataset_name}/openai.csv', index=False)
     os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_openai.csv')
-    print('Hello World!')
