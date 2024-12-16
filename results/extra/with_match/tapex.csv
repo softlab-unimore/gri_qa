@@ -1067,7 +1067,7 @@ index,question,value,response,correct
 1260,How much energy was consumed from office buildings in 2022 in GJ?,1578675, 1578675.0,True
 1261,What is the energy consumption from data centers in 2023 in GJ?,286312, 286312.0,True
 1262,What was the energy consumption from office buildings per employee in 2023 in GJ/employee?,8.1, 8.1,True
-1263,What was the percentage reduction in energy consumption in office buildings per employee since 2019?,47, -47.0,False
+1263,What was the percentage reduction in energy consumption in office buildings per employee since 2019?,47, -47.0,True
 1264,What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization in GJ?,21.9, 325212.0,False
 1265,What is the percentage difference between 2023 and 2022 for the energy consumption from data centers in GJ?,12, 325212.0,False
 1266,What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization in GJ?,19.9, 325212.0,False
@@ -1221,7 +1221,7 @@ index,question,value,response,correct
 1469,What is the expected percentage reduction in gross Scope 2 CO2 emissions in 20230 compared to 2020?,-65.00, -3%,False
 1470,What is the expected percentage reduction for Scope 3 CO2 emissions in absolute terms in 2030 compared to 2020?,-25.00, -25%,True
 1471,How many milions of tonnes of CO2 are expected to be captured cumulatively through CCUS projects by 2030?,10, 10 million tonnes,True
-1472,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40.00, -40%,False
+1472,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40.00, -40%,True
 1473,What is the expected reduction percentage for SOx emissions in 2030 compared to 2008?,40.00, -36%,False
 1477,How much are the specific net CO2 emissions in 2023 in kg CO2 per tonne of cementitious material?,534, eur 2.35 billion,False
 1478,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2021?,565, 565,True
@@ -1809,8 +1809,8 @@ index,question,value,response,correct
 2196,"What were the CO2 emissions in production (Scope 1 and Scope 2) in 2023, measured in 1,000 of tonnes?",511, waste volume in production,False
 2210,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82.00, 35%,False
 2211,What is the target percentage reduction in waste volume for disposal for vans by 2030?,-85.00, 30%,False
-2212,What is the target percentage reduction in total waste volume for cars by 2030?,-35.00, 35%,False
-2213,What is the target percentage reduction in total waste volume for vans by 2030?,-30.00, 30%,False
+2212,What is the target percentage reduction in total waste volume for cars by 2030?,-35.00, 35%,True
+2213,What is the target percentage reduction in total waste volume for vans by 2030?,-30.00, 30%,True
 2214,What was the energy consumption in GWh for the year 2023?,12241,table too long,False
 2215,How much energy was consumed in GWh in 2022?,13253,table too long,False
 2216,What was the energy consumption in GWh for the year 2021?,13323,table too long,False

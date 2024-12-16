@@ -65,7 +65,7 @@ what was the total water consumption in 2023 in million m3?
 88,What was the ratio of direct GHG emissions (Scope 1) to refinery throughputs in 2022 in tonnes CO2 equivalent per ktonnes?,233,0.6#233,False
 89,What was the direct GHG emissions (Scope 1) to refinery throughputs ratio in 2021 in tonnes CO2 equivalent per ktonnes?,228,"228#6.72 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 90,What was the total weight of waste from production activities in 2023 (million of tonnes)?,3.4,3.4,True
 91,How much hazardous waste was generated in 2023 (million of tonnes)?,2.1,3.4,False
 92,What is the total weight of non-hazardous waste generated in 2023 (million of tonnes)?,1.3,1.3#0.9,False
@@ -79,7 +79,7 @@ what was the total water consumption in 2023 in million m3?
 ###scales:
 none |
 
-###",False
+###",True
 99,What is the total number of suppliers assessed on social responsibility aspects in 2023?,6471,6471#100,False
 100,How many suppliers were identified with criticalities or areas for improvement in 2022?,659,659,True
 101,What is the count of suppliers with whom Eni has terminated relations in 2021?,34,34,True
@@ -210,7 +210,7 @@ none |
 
 #### and its corresponding scale is: | none |
 
-",False
+",True
 248,What percentage of recycled and/or sustainably managed paper was used in marketing and distribution in 2022?,72,72%,True
 249,What is the difference in percentage of recycled and/or sustainably managed paper was used in marketing and distribution between 2023 and 2025?,-17,"| 61%#67% |
 
@@ -224,7 +224,7 @@ none |
 254,What was the total fossil energy consumption related to own operations in 2023 (MWh)?,94903,223638,False
 255,What was the percentage difference of total fossil energy consumption related to own operations between 2023 and 2019?,54,-14%,False
 256,How much total renewable energy was consumed in 2022 (MWh)?,135946,135946,True
-257,How much percentage difference is there for the total renewable energy consumed between 2023 and 2022?,-7,7%,False
+257,How much percentage difference is there for the total renewable energy consumed between 2023 and 2022?,-7,7%,True
 258,What is the total electricity consumption related to own operations in 2022 (MWh)?,188985,188985,True
 259,What is the percentage difference of total electricity consumption related to own operations between 2023 and 2025?,-30,-30%#-12%,False
 260,What was the total energy consumption related to own operations in 2019 (MWh)?,332604,332604,True
@@ -257,7 +257,7 @@ none |
 292,How much unsorted waste was recorded in 2023 in tons?,1955,1955,True
 293,What is the total weight of waste generated in 2023 in tons?,4350,"4350#1955 |
 
-the value of ‘#1955#4350’ is numerical, predict its scale and store it in a variable named ‘scale’. the value of ‘scale’ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘scale’ to ’none’. finally, present the final answer in the format of """,False
+the value of ‘#1955#4350’ is numerical, predict its scale and store it in a variable named ‘scale’. the value of ‘scale’ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘scale’ to ’none’. finally, present the final answer in the format of """,True
 294,What was the total weight of unsorted waste in 2022 in tons?,2757,7129#2757,False
 295,What was the total weight of unsorted waste in 2021 in tons?,4681,4681,True
 296,What is the percentage of waste recycled in 2023 as a percentage of total sorted/total waste?,55,55%,True
@@ -1110,7 +1110,7 @@ the value of ‘#1955#4350’ is numerical, predict its scale and store it in a 
 ###scales:
 none |
 
-###",False
+###",True
 626,What was the amount of GHG emissions from operated domains and from upstream oil & gas activities in 2015 in Mt CO2e?,19,42#19,False
 627,What was the total GHG emissions from operated domains and from Integrated Power in 2023 in Mt CO2e?,6,"6#35 |
 
@@ -1120,7 +1120,7 @@ none |
 ",False
 629,What is the value of GHG emissions from operated domains and from Integrated Power recorded in 2021 in Mt CO2e?,5,"5#9 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 630,What was the amount of GHG emissions from operated domains and from Integrated Power in 2015 in Mt CO2e?,-,"5#49 |
 
 ",False
@@ -1129,14 +1129,14 @@ none |
 ###scales:
 none |
 
-###",False
+###",True
 632,How much were the GHG emissions from operated domains and from Refining & Chemicals in 2022 in Mt CO2e?,15,37#15,False
 633,What is the value of GHG emissions from operated domains and from Refining & Chemicals recorded in 2021 in Mt CO2e?,15,"15#15 | none |
 
 ###scales:
 none | none |
 
-###",False
+###",True
 634,What was the amount of GHG emissions from operated domains and from Refining & Chemicals in 2015 in Mt CO2e?,22,22#27,False
 635,What was the total GHG emissions from operated domains and from Europe (EU 27 + Norway + UK + Switzerland) in 2023 in Mt CO2e?,19,"35#19 |
 
@@ -1146,7 +1146,7 @@ none | none |
 #### and its corresponding scale is: none",False
 637,What is the value of GHG emissions from operated domains and from Europe (EU 27 + Norway + UK + Switzerland) recorded in 2021 in Mt CO2e?,20,"54#5 |
 
-the value of ghg emissions from operated domains and from europe (eu 27 + norway + uk + switzerland) recorded in 2021 in mt co2e is 54#5.",False
+the value of ghg emissions from operated domains and from europe (eu 27 + norway + uk + switzerland) recorded in 2021 in mt co2e is 54#5.",True
 638,What was the amount of GHG emissions from operated domains and from Europe (EU 27 + Norway + UK + Switzerland) in 2015 in Mt CO2e?,22,"22#50 |
 
 ",False
@@ -1178,7 +1178,7 @@ the value of indirect emissions from operated domains and from energy use record
 648,How much were the biogenic CO2 emissions from operated domains in 2022 in Mt CO2e?,0.1,0.1,True
 649,What is the value of biogenic CO2 emissions from operated domains recorded in 2021 in Mt CO2e?,-,"- |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 650,What was the amount of biogenic CO2 emissions from operated domains in 2015 in Mt CO2e?,-,0.1,False
 651,What was the total GHG emissions from equity interest domains and from upstream oil & gas activities in 2023 in Mt CO2e?,19,"12#32 |
 
@@ -1196,7 +1196,7 @@ the value of indirect emissions from operated domains and from energy use record
 ",False
 657,What is the value of GHG emissions from equity interest domains and from Integrated Power recorded in 2021 in Mt CO2e?,5,"5#9 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 658,What was the amount of GHG emissions from equity interest domains and from Integrated Power in 2015 in Mt CO2e?,-,"1#6 |
 
 ",False
@@ -1228,12 +1228,12 @@ the value of ghg emissions from equity interest domains and from europe (eu 27 +
 ",False
 669,What is the value of indirect emissions from equity interest domains and from energy use recorded in 2021 in Mt CO2e?,5,"5#2 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 670,What was the amount of indirect emissions from equity interest domains and from energy use in 2015 in Mt CO2e?,-,"4#- |
 
 #### and its corresponding scale is: none |
 
-",False
+",True
 671,What was the total GHG emissions from equity interest domains and from Scope 1+2 in 2023 in Mt CO2e?,49,"49#35 |
 
 ",False
@@ -1242,7 +1242,7 @@ the value of ghg emissions from equity interest domains and from europe (eu 27 +
 ",False
 673,What is the value of GHG emissions from equity interest domains and from Scope 1+2 recorded in 2021 in Mt CO2e?,54,"54#51 |
 
-the value of ghg emissions from equity interest domains and from scope 1+2 recorded in 2021 in mt co2e is 54#51",False
+the value of ghg emissions from equity interest domains and from scope 1+2 recorded in 2021 in mt co2e is 54#51",True
 674,What was the amount of GHG emissions from equity interest domains and from Scope 1+2 in 2015 in Mt CO2e?,-,"50#46 |
 
 ",False
@@ -1358,13 +1358,13 @@ the corresponding scale is: none |
 753,How much were the Scope 3(a) indirect GHG emissions in 2019 in Mt CO2e?,410,410,True
 754,What were the Scope 3(a) indirect GHG emissions in 2020 in Mt CO2e?,400,no answer in the response,False
 755,What were the Scope 3(a) indirect GHG emissions in 2021 in Mt CO2e?,400,no answer in the response,False
-756,What is the value of Scope 3(a) indirect GHG emissions in 2022 in Mt CO2e?,389,389#none,False
+756,What is the value of Scope 3(a) indirect GHG emissions in 2022 in Mt CO2e?,389,389#none,True
 757,What were the Scope 3(a) indirect GHG emissions in 2023 in Mt CO2e?,355,355,True
 758,What were the indirect GHG emissions for Europe (EU 27 + Norway + UK + Switzerland) in 2015 in Mt CO2e?,256,256,True
 759,How much were the indirect GHG emissions for Europe in 2019 in Mt CO2e?,232,232,True
 760,What were the indirect GHG emissions for Europe in 2020 in Mt CO2e?,215,215,True
 761,What were the indirect GHG emissions for Europe in 2021 in Mt CO2e?,220,191#none,False
-762,What is the value of indirect GHG emissions for Europe in 2022 in Mt CO2e?,191,191#none,False
+762,What is the value of indirect GHG emissions for Europe in 2022 in Mt CO2e?,191,191#none,True
 763,What were the indirect GHG emissions for Europe in 2023 in Mt CO2e?,216,216,True
 764,What were the petroleum products GHG emissions in 2015 in Mt CO2e?,350,350,True
 765,How much were the petroleum products GHG emissions in 2019 in Mt CO2e?,335,335,True
@@ -1392,7 +1392,7 @@ the corresponding scale is: none |
 |:---------------|
 | <1 |
 
-",False
+",True
 785,What was the contribution of Upstream leased assets in 2022 in Mt CO2e?,0,0,True
 786,How much did Downstream transportation contribute in 2022 in Mt CO2e?,1,1,True
 787,What was the value of Processing of sold products in 2023 in Mt CO2e?,5,5,True
@@ -1403,7 +1403,7 @@ the corresponding scale is: none |
 |:------------------------------------------------------------------------|:--------|
 | cat 15 investments | mt co2e | <1 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 792,What was the amount for Investments in 2023 in Mt CO2e?,nan,nan,True
 793,What was the total volume of processed waste in kilotons for the year 2019?,662,no answer in the response,False
 794,How much non-hazardous waste was recorded in kilotons for the year 2020?,303,no answer in the response,False
@@ -1488,14 +1488,14 @@ the corresponding scale is: none |
 883,What is the CO2 reduction pathway percentage for corporate loans and investments in 2023 for aviation?,22,22%,True
 884,What was the CO2 emissions intensity for steel in 2023?,1.2,1.2 t co2e /t steel,True
 885,What was the CO2 emissions intensity for cement in 2023?,0.8,0.8 t co2e /t cement,True
-886,What was the CO2 emissions intensity for automotive manufacturing in 2023?,148,148g co2e /pkm,False
+886,What was the CO2 emissions intensity for automotive manufacturing in 2023?,148,148g co2e /pkm,True
 887,What was the CO2 emissions intensity for aviation in 2023?,785,no answer in the response,False
 888,"What was the CO2 emissions intensity for commercial real estate, residential in 2023?",36.9,no answer in the response,False
 889,"What was the CO2 emissions intensity for commercial real estate, commercial use in 2023?",89,64.9g co2e /kwh,False
 890,"What was the CO2 emissions intensity for commercial real estate, commercial use in 2021?",87.4,87.4 kg co2e /m2,True
 891,"What was the CO2 emissions intensity for commercial real estate, residential in 2021?",36.6,no answer in the response,False
-892,What is the CO2 emissions intensity for energy in 2023?,64.9,64.9g co2e /kwh,False
-893,What is the CO2 emissions intensity for energy in 2021?,97.3,97.3g co2e /kwh,False
+892,What is the CO2 emissions intensity for energy in 2023?,64.9,64.9g co2e /kwh,True
+893,What is the CO2 emissions intensity for energy in 2021?,97.3,97.3g co2e /kwh,True
 894,What was the total energy consumption in Gwh for the year 2023?,33.09,33.09,True
 895,How much energy was consumed from renewable sources in Gwh in 2022?,21.99,no answer in the response,False
 896,What is the amount of energy consumed from non-renewable sources in Gwh for the year 2023?,10.9,10.9,True
@@ -1593,7 +1593,7 @@ the value of ‘#’ is none",False
 1060,How much weight of ordinary waste was generated in 2019 in tons?,-,no answer in the response,False
 1061,What was the weight of collected electric and electronic waste (WEEE) in 2019 in tons?,38.9,no answer in the response,False
 1062,What percentage of electric and electronic waste was recycled in 2019?,99,99%,True
-1063,What was the percentage increase in carbon intensity (Scope 1 and 2) compared to the 2019 baseline in 2023?,-34,34%,False
+1063,What was the percentage increase in carbon intensity (Scope 1 and 2) compared to the 2019 baseline in 2023?,-34,34%,True
 1066,What was the status of exiting thermal coal in 2023?,ongoing,ongoing,True
 1068,What was the status of reducing carbon intensity in underwriting in 2023?,ongoing,ongoing,True
 1069,What was the status of exiting thermal coal and oil sands in underwriting in 2023?,ongoing,ongoing,True
@@ -1685,8 +1685,8 @@ the value of ‘#’ is none",False
 1159,What were the gross indirect GHG terna emissions in tonnes of CO2 equivalent for the year 2023?,1530657.7,1.53484e+06,False
 1160,What were the gross indirect GHG terna emissions in tonnes of CO2 equivalent for the year 2022?,1735046.6,1.66289e+06,False
 1161,What were the gross indirect GHG terna emissions in tonnes of CO2 equivalent for the year 2021?,1658342.6,1.45013e+06,False
-1162,What was the amount of electricity consumed in 2023 in tonnes of CO2 equivalent?,55620.7,55620.7#1.47504e+06,False
-1163,How much electricity was consumed in 2022 in tonnes of CO2 equivalent?,64380.6,64380.6#1.67067e+06,False
+1162,What was the amount of electricity consumed in 2023 in tonnes of CO2 equivalent?,55620.7,55620.7#1.47504e+06,True
+1163,How much electricity was consumed in 2022 in tonnes of CO2 equivalent?,64380.6,64380.6#1.67067e+06,True
 1164,What was the electricity consumption in 2021 in tonnes of CO2 equivalent?,61232.6,61232.6#4.2,False
 1165,What were the grid losses recorded in 2023 in tonnes of CO2 equivalent?,1475037,55620.7#1.47504e+06,False
 1166,What were the grid losses for the year 2022 in tonnes of CO2 equivalent?,1670666,1.67067e+06,False
@@ -1799,7 +1799,7 @@ the corresponding scale is: percent |
 
 the corresponding scale is: percent |
 
-",False
+",True
 1267,What is the percentage difference between 2023 and 2022 for the energy consumption from office buildings per employee in GJ/employee?,22.3,| 8.1#10.4 |,False
 1268,What was the electricity consumption in 2023 in the organization (%)?,72.5,72.5,True
 1269,How much fossil fuels were consumed by the organization in 2022 (%)?,12.4,no answer in the response,False
@@ -1809,7 +1809,7 @@ the corresponding scale is: percent |
 1273,How much renewable electricity was produced in joules for the year 2022?,1153987,1153987,True
 1274,What percentage of all electricity was renewable in 2023?,100,100,True
 1275,What was the share of renewable electricity as a percentage of all electricity in 2022?,89,89%,True
-1276,What is the difference between 2023 and 2022 of the percentage of renewable electricity?,11,11%-p - 89%,False
+1276,What is the difference between 2023 and 2022 of the percentage of renewable electricity?,11,11%-p - 89%,True
 1277,What is the percentage difference between 2023 and 2022 for the amount of renewable electricity generated in joules?,2.7,2.7,True
 1278,What were the Gross Scope 1 GHG emissions in 2023 in tonnes of CO2 equivalent?,31774,no answer in the response,False
 1279,What were the Gross market-based Scope 2 GHG emissions in 2022 in tonnes of CO2 equivalent?,30490,30490,True
@@ -1900,7 +1900,7 @@ the corresponding scale is: percent |
 
 #### and its corresponding scale is: million m3 |
 
-",False
+",True
 1393,What was the total water consumption in million m3 for the aggregates business line in 2021?,42.1,372,False
 1394,How much water in million m3 was consumed in areas with water scarcity in 2023?,7.5,7.5,True
 1395,What percentage of water recycling systems were implemented in 2023?,60,60%,True
@@ -1938,7 +1938,7 @@ the corresponding scale is: percent |
 1422,What were the absolute CO2 emissions from external electrical and thermal production (Scope 2) - market based approach in million t for the year 2023 in the cement business line?,0.25,0.25,True
 1423,What was the amount of Gross global Scope 1 emissions in million metric tonnes CO2 for the year 2021?,69.5,69.5,True
 1424,How many million metric tonnes CO2-e were emitted as Gross global Scope 1 emissions in 2022?,65.9,65.9,True
-1425,What was the value of Gross global Scope 1 emissions in million metric tonnes CO2-e for the year 2023?,63.3,63.3#million,False
+1425,What was the value of Gross global Scope 1 emissions in million metric tonnes CO2-e for the year 2023?,63.3,63.3#million,True
 1426,What percentage of emissions was covered under emissions-limiting regulations in 2021?,47,47%,True
 1427,What was the percentage of emissions covered under emissions-limiting regulations in 2022?,38,38%,True
 1428,What percentage of emissions was covered under emissions-limiting regulations in 2023?,41,41%,True
@@ -1965,9 +1965,9 @@ the corresponding scale is: percent |
 1468,What is the expected percentage reduction in gross Scope 1 CO2 emissions in 2030 compared to 2020?,-24.00,-24%,True
 1469,What is the expected percentage reduction in gross Scope 2 CO2 emissions in 20230 compared to 2020?,-65.00,-65%,True
 1470,What is the expected percentage reduction for Scope 3 CO2 emissions in absolute terms in 2030 compared to 2020?,-25.00,-12%,False
-1471,How many milions of tonnes of CO2 are expected to be captured cumulatively through CCUS projects by 2030?,10,10m tonnes,False
-1472,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40.00,-40%,False
-1473,What is the expected reduction percentage for SOx emissions in 2030 compared to 2008?,40.00,-40%,False
+1471,How many milions of tonnes of CO2 are expected to be captured cumulatively through CCUS projects by 2030?,10,10m tonnes,True
+1472,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40.00,-40%,True
+1473,What is the expected reduction percentage for SOx emissions in 2030 compared to 2008?,40.00,-40%,True
 1477,How much are the specific net CO2 emissions in 2023 in kg CO2 per tonne of cementitious material?,534,534 kg co2/t cementitious material,True
 1478,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2021?,565,no answer in the response,False
 1479,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2022?,551,551,True
@@ -1987,7 +1987,7 @@ the corresponding scale is: percent |
 1499,What percentage of the total waste generated in 2021 was hazardous?,7,7,True
 1500,What percentage of the total waste generated in 2022 was hazardous?,2,"2#7 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 1501,What percentage of the total waste generated in 2023 was hazardous?,6,6,True
 1502,What was the share of waste sent to incineration in 2023 (%)?,5.8,5.8,True
 1503,"What was the share of waste sent to reuse, recycling, recovery in 2021 (%)?",66,66,True
@@ -2013,7 +2013,7 @@ the corresponding scale is: percent |
 1535,What is the intensity of scope 1 GHG emissions related to power generation for the year 2030 in grams of CO2 equivalent per kilowatt-hour?,72,72 gco2eq/kwh,True
 1536,What is the intensity of scope 1 GHG emissions related to power generation for the year 2040 in grams of CO2 equivalent per kilowatt-hour?,0,0 gco2eq/kwh,True
 1537,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22,-22%,True
-1538,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100,100%,False
+1538,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100,100%,True
 1539,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2030?,-80.00,-80%,True
 1540,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2040?,-100.00,-100%,True
 1544,What is the intensity of Scope 1 and Scope 3 GHG emissions related to integrated power for the year 2023 in grams of CO2 equivalent per kilowatt-hour?,168,168 gco2eq/kwh,True
@@ -2109,12 +2109,12 @@ the corresponding scale is: percent |
 1672,What was the district heating consumption in megawatt-hour for the year 2023?,41931,41931,True
 1673,What was the district cooling consumption in megawatt-hour for the year 2023?,4283,4283,True
 1674,What was the liquid fuel consumption for emergency power in megawatt-hour for the year 2023?,872,872,True
-1675,What is the percentage reduction in total energy consumption in 2023 compared to 2022?,-20,20%,False
+1675,What is the percentage reduction in total energy consumption in 2023 compared to 2022?,-20,20%,True
 1676,What is the percentage reduction in electricity consumption in 2023 compared to 2022?,-7,"7 | thereof electricity from renewable sources | 86870 | 92518 | -6.1 |
-",False
+",True
 1677,What is the percentage reduction in district heating consumption in 2023 compared to 2022?,-18.8,21.5%,False
 1678,What is the percentage reduction in district cooling consumption in 2023 compared to 2022? ,-20.3,20.3#22.9,False
-1679,What is the percentage reduction in liquid fuel consumption for emergency power compared to the previous year?,-18.4,18.4,False
+1679,What is the percentage reduction in liquid fuel consumption for emergency power compared to the previous year?,-18.4,18.4,True
 1680,What was the total amount of water used in 2023 in m3?,432730,432730,True
 1681,How much water was used per employee in 2022 in m3/Headcount?,12,12,True
 1682,What was the water intensity in 2022 in m3/€m insurance revenue?,9,7,False
@@ -2283,10 +2283,10 @@ the corresponding scale is: percent |
 1851,What is the target for the use of renewable electricity by 2025 in %?,80.00,80%,True
 1852,What is the target for the use of renewable electricity by 2030 in %?,100.00,100%,True
 1853,What was the value of GHG emissions (Scope 1 and 2) in tonnes of CO2 equivalent for the year 2023?,24512,39855,False
-1854,What is the percentage reduction of GHG emissions (Scope 1 and 2) in 2023 compared to 2018?,-38.50,38.5%,False
+1854,What is the percentage reduction of GHG emissions (Scope 1 and 2) in 2023 compared to 2018?,-38.50,38.5%,True
 1855,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2035 compared to 2018 in %?,-71.00,-71%,True
 1856,What was the value of GHG emissions related to business activities in tonnes of CO2 equivalent for the year 2018?,136243,136243,True
-1857,How much did the business-related GHG emissions (Scope 3) in tonnes of CO2 equivalent decreased from 2018 to 2023 in %?,-34.00,34%,False
+1857,How much did the business-related GHG emissions (Scope 3) in tonnes of CO2 equivalent decreased from 2018 to 2023 in %?,-34.00,34%,True
 1858,What is the target percentage reduction of GHG emissions (Scope 3) related to business activities for the year 2025?,-9.00,-21.00%,False
 1859,What is the expected reduction of business-related GHG emissions for the year 2035 in %?,-21.00,-21.00%,True
 1860,What was the percentage of suppliers that launched a carbon reduction pathway in 2018?,13.00,13%,True
@@ -2449,10 +2449,10 @@ the corresponding scale is: percent |
 2019,What was the percentage of potable water in total water consumption in 2021?,85.1,85.1%,True
 2020,What percentage of the total water consumption was potable water in 2022?,84,84%,True
 2021,What is the percentage of potable water in total water consumption for the year 2023?,83.8,83.8%,True
-2022,What percentage of the total water consumption came from groundwater in 2019?,12.6,12.6#5.41743e+06,False
+2022,What percentage of the total water consumption came from groundwater in 2019?,12.6,12.6#5.41743e+06,True
 2023,How much of the total water consumption was groundwater in percentage for the year 2020?,13.6,13.6%,True
-2024,What was the percentage of groundwater in total water consumption in 2021?,14.6,14.6#4.92448e+06,False
-2025,What percentage of the total water consumption was groundwater in 2022?,15.7,15.7#5.04914e+06,False
+2024,What was the percentage of groundwater in total water consumption in 2021?,14.6,14.6#4.92448e+06,True
+2025,What percentage of the total water consumption was groundwater in 2022?,15.7,15.7#5.04914e+06,True
 2026,What is the percentage of groundwater in total water consumption for the year 2023?,15.9,15.9%,True
 2027,What percentage of the total water consumption was surface water in 2019?,0,0,True
 2028,How much of the total water consumption was surface water in percentage for the year 2020?,0,0,True
@@ -2495,14 +2495,14 @@ the corresponding scale is: percent |
 2065,"What were the emissions from logistics (material supply and vehicle distribution) in 2022, in tonnes of CO2 equivalent?",2200661,1.29958e+08,False
 2066,"What is the CO2 equivalent emissions from logistics (material supply and vehicle distribution) for the year 2023, in tonnes?",2746124,2.74612e+06,False
 2067,"What were the business trips' CO2 emissions in 2019, in tonnes of CO2 equivalent?",129646,129646,True
-2068,"How much did business trips contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",25217,25217#1.31256e+08,False
+2068,"How much did business trips contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",25217,25217#1.31256e+08,True
 2069,"What were the CO2 emissions from business trips in 2021, in tonnes of CO2 equivalent?",29765,no answer in the response,False
 2070,"How much CO2 did business trips contribute to in 2022, in tonnes of CO2 equivalent?",66170,no answer in the response,False
 2071,"What is the CO2 emission from business trips in 2023, in tonnes of CO2 equivalent?",115469,115469,True
 2072,"What were the emissions from employees’ commuter traffic in 2019, in tonnes of CO2 equivalent?",146298,no answer in the response,False
-2073,"How much CO2 was emitted due to employees’ commuter traffic in 2020, in tonnes of CO2 equivalent?",166586,166586#1.46225e+08,False
+2073,"How much CO2 was emitted due to employees’ commuter traffic in 2020, in tonnes of CO2 equivalent?",166586,166586#1.46225e+08,True
 2074,"What were the CO2 emissions from employees' commuter traffic in 2021, in tonnes of CO2 equivalent?",139999,145284,False
-2075,"How much CO2 did employees' commuter traffic contribute to in 2022, in tonnes of CO2 equivalent?",145284,145284#1.29958e+08,False
+2075,"How much CO2 did employees' commuter traffic contribute to in 2022, in tonnes of CO2 equivalent?",145284,145284#1.29958e+08,True
 2076,"What are the CO2 emissions from employees' commuter traffic in 2023, in tonnes of CO2 equivalent?",166273,166273,True
 2077,"What were the emissions from purchased goods and services in 2019, in tonnes of CO2 equivalent?",31486873,no answer in the response,False
 2078,"How much did purchased goods and services contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",29094346,"1.06 | none |
@@ -2532,7 +2532,7 @@ the corresponding scale is: percent |
 2104,How many CO2e emissions in tonnes were recorded for distribution vehicles in 2023?,1516823,1516823,True
 2106,How many CO2e emissions in tonnes were recorded for total material supply and distribution in 2022?,2200661,"2200661#974238 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 2108,How many CO2e emissions in tonnes were recorded for total material supply and distribution in 2023?,2746124,1516823#2746124,False
 2110,What percentage of CO2e emissions was attributed to sea transport in 2022?,43.4,43.4,True
 2112,What percentage of CO2e emissions was attributed to sea transport in 2023?,41.7,41.7%,True
@@ -2573,8 +2573,8 @@ and its corresponding scale is: | none |
 2153,By which year is the share of renewable energy in production expected to reach 100 percent?,2039,2039,True
 2154,What percentage of renewable energy usage is targeted for cars by 2030?,70.00,70%,True
 2155,What percentage of renewable energy usage is targeted for vans by 2030?,80.00,80%,True
-2156,What is the target percentage reduction in energy consumption for cars by 2030?,-43.00,43%,False
-2157,What is the target percentage reduction in energy consumption for vans by 2030?,-25.00,25%,False
+2156,What is the target percentage reduction in energy consumption for cars by 2030?,-43.00,43%,True
+2157,What is the target percentage reduction in energy consumption for vans by 2030?,-25.00,25%,True
 2176,What was the water consumption in production for 2023 in thousands of cubic meters?,1913,1913,True
 2191,"What were the CO2 emissions of the new car fleet in Europe in 2023, measured in g/km?",109,109,True
 2192,"What were the CO2 emissions of the new car fleet in the United States in 2023, measured in grams of CO2 per mile?",170,170,True
@@ -2608,7 +2608,7 @@ and its corresponding scale is: | none |
 2269,What was the total gross other indirect GHG emissions (Scope 3) in tonnes of CO2 equivalent for the year 2022?,1063612,1.06361e+06,False
 2270,How many tonnes of CO2 equivalent were generated from direct energy consumption in 2023?,7523,7523,True
 2271,What is the total GHG emissions in tonnes of CO2 equivalent for the year 2023?,1086908,1.08691e+06,False
-2272,What was the amount of GHG emissions (Scope 3) related to waste generation in tonnes of CO2 equivalent for the year 2023?,2278,2278#1.08691e+06,False
+2272,What was the amount of GHG emissions (Scope 3) related to waste generation in tonnes of CO2 equivalent for the year 2023?,2278,2278#1.08691e+06,True
 2273,How many tonnes of CO2 equivalent were emitted from employee commuting in 2022?,4594,4594,True
 2274,"What was the value of indirect GHG emissions (Scope 2, market-based) for energy consumption in tonnes of CO2 equivalent for the year 2023?",18625,18625,True
 2275,What was the total emissions from business travel in tonnes of CO2 equivalent for the year 2023?,7042,7042,True
@@ -2731,7 +2731,7 @@ and its corresponding scale is: | none |
 2445,What was the percentage of the 100 biggest suppliers committed to a 1.5°C trajectory in 2023?,44.00,44%,True
 2450,What was the total installed capacity from renewables in 2023 in megawatts?,3515,"3515#12574#759 |
 
-#### and its corresponding scale is: none",False
+#### and its corresponding scale is: none",True
 2451,How much was the total installed capacity from renewables in 2022 in megawatts?,3517,3517,True
 2452,What was the installed capacity for renewable Onshore Wind/Solar in 2023 in megawatts?,12574,no answer in the response,False
 2453,What was the installed capacity for renewable Onshore Wind/Solar in 2022 in megawatts?,8247,8247,True

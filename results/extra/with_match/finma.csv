@@ -460,7 +460,7 @@ index,question,value,response,correct
 551,"What was the intensity of GHG emissions (Scope 1+2) of operated Upstream oil & gas activities in 2023, measured in kg CO2e/boe?",17,14.0,False
 552,"What was the intensity of GHG emissions (Scope 1+2) of Upstream oil & gas activities on equity basis in 2023, measured in kg CO2e/boe?",18,19.0,False
 553,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2023, measured in %?",0.11,0.09,False
-554,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2023, measured in %?",<0.1,0.001,False
+554,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2023, measured in %?",<0.1,0.001,True
 555,What was the amount of Scope 3 emissions in 2023 in Mt CO2e?,355,355.0,True
 556,How many Mt CO2e Scope 3 were emitted in 2022?,389,541.0,False
 557,What is the Scope 3 emission figure for the year 2021 in Mt CO2e?,400,389.0,False
@@ -1534,7 +1534,7 @@ index,question,value,response,correct
 1856,What was the value of GHG emissions related to business activities in tonnes of CO2 equivalent for the year 2018?,136243,136243.0,True
 1857,How much did the business-related GHG emissions (Scope 3) in tonnes of CO2 equivalent decreased from 2018 to 2023 in %?,-34.00,-0.34,True
 1858,What is the target percentage reduction of GHG emissions (Scope 3) related to business activities for the year 2025?,-9.00,-0.21,False
-1859,What is the expected reduction of business-related GHG emissions for the year 2035 in %?,-21.00,0.21,False
+1859,What is the expected reduction of business-related GHG emissions for the year 2035 in %?,-21.00,0.21,True
 1860,What was the percentage of suppliers that launched a carbon reduction pathway in 2018?,13.00,0.21154,False
 1861,What is the target percentage for suppliers that follow a carbon reduction pathway by 2026?,85.00,95.0,False
 1862,What was the total weight of non-recovered electrical and electronic equipment in 2023 in tons?,84,84.0,True

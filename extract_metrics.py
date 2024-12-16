@@ -38,6 +38,7 @@ if __name__ == '__main__':
         results['response'] = results['response'].astype(str).str.lower()
 
         for i, row in results.iterrows():
+
             row['response'] = row['response'].strip(' |()')
 
             percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
@@ -64,16 +65,20 @@ if __name__ == '__main__':
             # Check for response with multiple words
             elif (any(r.isalpha() for r in row['response'])) or (any(c in row['response'] for c in ['(', ')'])):
                 el = [c.strip('%()') for c in row['response'].split(' ')]
-                for e in el:
-                    if check_number(row['value'].strip('%'), e, percentage=percentage):
-                        results.loc[i, 'correct'] = True
-                        break
-                    results.loc[i, 'correct'] = False
+                results.loc[i, 'correct'] = any(
+                    check_number(row['value'].strip('%'), e, percentage=percentage) for e in el
+                )
+                if any(row['value'] in e for e in el):
+                    results.loc[i, 'correct'] = True
+
 
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
-                  (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>']))):
+                  (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>']))) or percentage:
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >'), row['response'].strip('%<= >'), percentage=percentage)
+
+            # elif percentage:
+            #     results.loc[i, 'correct'] = check_number(row['value'], row['response'], percentage=percentage)
 
             # Otherwise
             else:
