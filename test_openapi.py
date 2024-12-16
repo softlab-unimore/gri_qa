@@ -1,12 +1,12 @@
 import os
+import re
+from argparse import ArgumentParser
+from configparser import ConfigParser
 
 import numpy as np
 import pandas as pd
 from openai import OpenAI
 from codecarbon import EmissionsTracker
-
-OPENAI_API_KEY = ""
-os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 
 def read_csv_with_encoding(file_path, try_encodings=None):
@@ -83,7 +83,9 @@ def answer(question: str, table: pd.DataFrame) -> str:
         messages=[
             {
                 "role": "user",
-                "content": f"{question}\n{df_to_html_string(table, index=False)}"
+                "content": f"{question}\n{df_to_html_string(table, index=False)}\n\n"
+                           f"Give exclusively the numerical answer. Do not write anything else. "
+                           f"Do not write any markdown formatting"
             }
         ]
     )
@@ -103,15 +105,13 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
         pd.DataFrame: Results containing original questions, true values, and predictions
     """
     # Load initial QA data and prepare index
-    df_qa = pd.read_csv(qa_file)[:10]  # ToDo
+    df_qa = pd.read_csv(qa_file)
     df_qa = df_qa[['question', 'pdf name', 'page nbr', 'table nbr', 'value']].astype(str)
     df_qa['index'] = np.arange(len(df_qa))
 
     # Initialize CodeCarbon tracker
-    dataset_name = os.path.basename(qa_file.replace('.csv', ''))
-    carbon_dir = str(os.path.join(save_dir, 'codecarbon', dataset_name))
-    os.makedirs(carbon_dir, exist_ok=True)
-    tracker = EmissionsTracker(output_dir=carbon_dir)
+    os.makedirs(save_dir, exist_ok=True)
+    tracker = EmissionsTracker(output_dir=save_dir)
     tracker.start()
 
     # Process each question against its corresponding table
@@ -140,6 +140,17 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
 
 
 if __name__ == '__main__':
-    df_preds = table_predictions('./dataset/qa_dataset.csv', './dataset/annotation')
-    df_preds.to_csv('./results/gpt_qa_dataset.csv', index=False)
+    parser = ArgumentParser()
+    parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
+    args = parser.parse_args()
+
+    config = ConfigParser()
+    config.read('config.ini')
+    os.environ['OPENAI_API_KEY'] = config.get('TOKEN', 'token_openai')
+
+    dataset_name = re.split("[_.]", args.dataset)[1]
+
+    df_preds = table_predictions(f'dataset/{args.dataset}', './dataset/annotation', f'./results/{dataset_name}')
+    df_preds.to_csv(f'./results/{dataset_name}/openai.csv', index=False)
+    os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_openai.csv')
     print('Hello World!')
