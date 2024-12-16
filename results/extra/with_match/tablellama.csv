@@ -679,8 +679,8 @@ index,question,value,response,correct
 773,What were the gas GHG emissions in 2021 in Mt CO2e?,115,115.0,True
 774,What is the value of gas GHG emissions in 2022 in Mt CO2e?,130,130.0,True
 775,What were the gas GHG emissions in 2023 in Mt CO2e?,124,124.0,True
-776,What were the estimates of enabled emissions reductions by TotalEnergies' LNG sales in 2022 in Mt CO2e?,~70,~70.0,False
-777,What were the estimates of enabled emissions reductions by TotalEnergies' LNG sales in 2023 in Mt CO2e?,~70,~70.0,False
+776,What were the estimates of enabled emissions reductions by TotalEnergies' LNG sales in 2022 in Mt CO2e?,~70,~70.0,True
+777,What were the estimates of enabled emissions reductions by TotalEnergies' LNG sales in 2023 in Mt CO2e?,~70,~70.0,True
 778,What was the value of Cat 1 Purchased goods and services in 2022 measured in Mt CO2e?,30,30.0,True
 779,How much did Cat 2 Capital goods contribute in 2023 in Mt CO2e?,3,3.0,True
 780,What are the indirect GHG emissions from Fuel-and-energy-related activities in 2022 in Mt CO2e?,3,3.0,True
@@ -816,7 +816,7 @@ index,question,value,response,correct
 938,What was the change between 2023 compared to base year of the Scope 1 and 2 greenhouse gas emissions in million metric tons of CO2 equivalents?,-20.2%,-19.5,False
 939,What was the change between 2022 compared to base year of the Scope 3 greenhouse gas emissions from relevant categories in million metric tons of CO2 equivalents?,1.8%,8.98,False
 940,How much is the percentage of target attainment for the offsetting of remaining Scope 1 and 2 greenhouse gas emissions in million metric tons of CO2 equivalents in 2023?,20%,0.6,False
-941,How much is the percentage of target attainment for the offsetting of remaining Scope 1 and 2 greenhouse gas emissions in million metric tons of CO2 equivalents in 2022?,14.9%,0.45 (14.9%),False
+941,How much is the percentage of target attainment for the offsetting of remaining Scope 1 and 2 greenhouse gas emissions in million metric tons of CO2 equivalents in 2022?,14.9%,0.45 (14.9%),True
 942,What is the 2030 target of the Scope 3 greenhouse gas emissions from relevant categories in million metric tons of CO2 equivalents?,-12.3%,8.44,False
 943,What is the 2030 target of the Scope 1 and 2 greenhouse gas emissions in million metric tons of CO2 equivalents?,-42%,-42.0,True
 959,What were the Scope 1 and 2 greenhouse gas emissions in 2022 (million metric tons of CO2 equivalents)?,0.39,0.39,True
