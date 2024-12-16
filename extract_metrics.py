@@ -23,8 +23,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
-    models = ['tatllm', 'tapex', 'tablellama', 'finma', 'openai']
-    # models = ['tablellama']
+    models = ['tatllm', 'tapex', 'tablellama', 'finma', 'openai', 'chainoftable']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 

@@ -1,5 +1,7 @@
 model,em
+tatllm,0.09677
 tapex,0.26613
 tablellama,0.12903
 finma,0.375
 openai,0.47984
+chainoftable,0.46371

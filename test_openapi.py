@@ -89,7 +89,8 @@ def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
                            f"Give exclusively the numerical answer. Do not write anything else. "
                            f"Do not write any markdown formatting. {rel if 'rel' in dataset_file else ''}"
             }
-        ]
+        ],
+        temperature=0.0
     )
     response = completion.choices[0].message.content
     return response
