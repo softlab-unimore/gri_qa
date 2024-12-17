@@ -201,7 +201,7 @@ index,question,value,response,correct
 266,What was the share of renewable electricity in 2023 (%)?,63,63.0,True
 267,What was the difference of percentage of renewable electricity between 2023 and 2025?,100,5,False
 268,What was the total fossil energy consumption related to own operations in 2022 (MWh)?,110451,110451.0,True
-269,What was the difference of total fossil energy consumption related to own operations between 2023 and 2019 (%)?,54,-54,True
+269,What was the difference of total fossil energy consumption related to own operations between 2023 and 2019 (%)?,54,-54,False
 271,How much water was consumed in 2022 (m3)?,447929,447929.0,True
 272,How much different is the consumption of water between 2023 and 2022 (%)?,7,5.0,False
 273,What it the water consumption per person in 2019?,6.9,6.9,True
@@ -405,10 +405,10 @@ index,question,value,response,correct
 476,What is the intensity of methane emissions from operated oil & gas facilities in 2022 in %?,0.11,0.11,True
 477,What is the intensity of methane emissions from operated oil & gas facilities in 2021 in %?,0.13,0.13,True
 478,What is the intensity of methane emissions from operated oil & gas facilities in 2015 in %?,0.23,0.11,False
-479,What is the intensity of methane emissions from operated gas facilities in 2023 in %?,<0.1,0.1,True
-480,What is the intensity of methane emissions from operated gas facilities in 2022 in %?,<0.1,0.1,True
-481,What is the intensity of methane emissions from operated gas facilities in 2021 in %?,<0.1,0.1,True
-482,What is the intensity of methane emissions from operated gas facilities in 2015 in %?,<0.1,0.1,True
+479,What is the intensity of methane emissions from operated gas facilities in 2023 in %?,<0.1,0.1,False
+480,What is the intensity of methane emissions from operated gas facilities in 2022 in %?,<0.1,0.1,False
+481,What is the intensity of methane emissions from operated gas facilities in 2021 in %?,<0.1,0.1,False
+482,What is the intensity of methane emissions from operated gas facilities in 2015 in %?,<0.1,0.1,False
 483,What was the net primary energy consumption in TWh for the year 2022?,166,157.0,False
 484,How much renewable energy was consumed in TWh in 2023?,2,2.0,True
 485,What was the net primary energy consumption in TWh for the year 2021?,148,148.0,True
@@ -460,7 +460,7 @@ index,question,value,response,correct
 551,"What was the intensity of GHG emissions (Scope 1+2) of operated Upstream oil & gas activities in 2023, measured in kg CO2e/boe?",17,17.0,True
 552,"What was the intensity of GHG emissions (Scope 1+2) of Upstream oil & gas activities on equity basis in 2023, measured in kg CO2e/boe?",18,18.0,True
 553,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2023, measured in %?",0.11,0.11,True
-554,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2023, measured in %?",<0.1,0.1,True
+554,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2023, measured in %?",<0.1,0.1,False
 555,What was the amount of Scope 3 emissions in 2023 in Mt CO2e?,355,355.0,True
 556,How many Mt CO2e Scope 3 were emitted in 2022?,389,389.0,True
 557,What is the Scope 3 emission figure for the year 2021 in Mt CO2e?,400,400.0,True
@@ -489,7 +489,7 @@ index,question,value,response,correct
 580,What was the value of methane emissions on operated activities in 2023 in kt CH4?,34,34.0,True
 581,What is the target reduction for methane emissions in kt CH4 on operated activities by 2025 in percentage?,-50,-50,True
 582,What is the target reduction for methane emissions in kt CH4 on operated activities by 2030 in percentage?,-80,-80.0,True
-583,What was the lifecycle carbon intensity reduction of energy products sold in 2022 in percentage?,-12,12,True
+583,What was the lifecycle carbon intensity reduction of energy products sold in 2022 in percentage?,-12,12,False
 584,What was the lifecycle carbon intensity reduction of energy products sold in 2023 in percentage?,-13,-15.0,False
 585,What is the target reduction for lifecycle carbon intensity of energy products sold by 2025 in percentage?,-15,-15.0,True
 586,What is the target reduction for lifecycle carbon intensity of energy products sold by 2030 in percentage?,-25,-25.0,True
@@ -518,7 +518,7 @@ index,question,value,response,correct
 612,What was the methane emission amount for the Americas in 2021 in kt CH4?,18,18.0,True
 613,"What was the intensity of GHG emissions (Scope 1+2) from operated Upstream oil & gas activities in 2023, measured in kg CO2e/boe?",17,17.0,True
 614,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2022, expressed as a percentage?",0.11,0.11,True
-615,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2021, expressed as a percentage?",<0.1,0.1,True
+615,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2021, expressed as a percentage?",<0.1,0.1,False
 616,"What was the intensity of GHG emissions (Scope 1+2) from operated Upstream oil & gas activities in 2015, measured in kg CO2e/boe?",21,21.0,True
 617,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2021, expressed as a percentage?",0.13,0.13,True
 618,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2015, expressed as a percentage?",0.23,0.23,True
@@ -617,7 +617,7 @@ index,question,value,response,correct
 711,What was the intensity of GHG emissions (Scope 1+2) of operated Upstream oil & gas activities in 2023 in kg CO2e/boe?,17,17.0,True
 712,What was the intensity of GHG emissions (Scope 1+2) of Upstream oil & gas activities on equity basis in 2023 in kg CO2e/boe?,18,18.0,True
 713,What was the intensity of methane emissions from operated oil & gas facilities in 2023 in %?,0.11,0.11,True
-714,What was the intensity of methane emissions from operated gas facilities in 2023 in %?,<0.1,0.1,True
+714,What was the intensity of methane emissions from operated gas facilities in 2023 in %?,<0.1,0.1,False
 715,What was the amount of Scope 1 - Direct emissions in 2022 measured in Mt CO2e from operated domain?,37,45.0,False
 716,How many tonnes of CO2 equivalent were emitted from Upstream oil & gas activities in 2021 from operated domain?,14,14.0,True
 717,What was the total Scope 1 - Direct emissions in 2023 in Mt CO2e from operated domain?,32,55.0,False
@@ -1360,8 +1360,8 @@ index,question,value,response,correct
 1672,What was the district heating consumption in megawatt-hour for the year 2023?,41931,41931.0,True
 1673,What was the district cooling consumption in megawatt-hour for the year 2023?,4283,4283.0,True
 1674,What was the liquid fuel consumption for emergency power in megawatt-hour for the year 2023?,872,872.0,True
-1675,What is the percentage reduction in total energy consumption in 2023 compared to 2022?,-20,20,True
-1676,What is the percentage reduction in electricity consumption in 2023 compared to 2022?,-7,7,True
+1675,What is the percentage reduction in total energy consumption in 2023 compared to 2022?,-20,20,False
+1676,What is the percentage reduction in electricity consumption in 2023 compared to 2022?,-7,7,False
 1677,What is the percentage reduction in district heating consumption in 2023 compared to 2022?,-18.8,18.8,True
 1678,What is the percentage reduction in district cooling consumption in 2023 compared to 2022? ,-20.3,20.3,True
 1679,What is the percentage reduction in liquid fuel consumption for emergency power compared to the previous year?,-18.4,22.6,False

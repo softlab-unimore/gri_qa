@@ -460,7 +460,7 @@ index,question,value,response,correct
 551,"What was the intensity of GHG emissions (Scope 1+2) of operated Upstream oil & gas activities in 2023, measured in kg CO2e/boe?",17,14.0,False
 552,"What was the intensity of GHG emissions (Scope 1+2) of Upstream oil & gas activities on equity basis in 2023, measured in kg CO2e/boe?",18,19.0,False
 553,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2023, measured in %?",0.11,0.09,False
-554,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2023, measured in %?",<0.1,0.001,True
+554,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2023, measured in %?",<0.1,0.001,False
 555,What was the amount of Scope 3 emissions in 2023 in Mt CO2e?,355,355.0,True
 556,How many Mt CO2e Scope 3 were emitted in 2022?,389,541.0,False
 557,What is the Scope 3 emission figure for the year 2021 in Mt CO2e?,400,389.0,False
@@ -1348,7 +1348,7 @@ index,question,value,response,correct
 1660,What is the outgoing transportation emissions for transportation and distribution (downstream) in 2023 in tonnes of CO2 equivalent?,12096,12096.0,True
 1661,What were the outgoing transportation emissions for transportation and distribution (downstream) in 2022 in tonnes of CO2 equivalent?,17407,12096.0,False
 1662,What were the outgoing transportation emissions for transportation and distribution (downstream) in 2020 in tonnes of CO2 equivalent?,14364,12096.0,False
-1663,What is the incoming transportation emissions for transportation and distribution (downstream) in 2023 in tonnes of CO2 equivalent?,133021,"133,021.0",False
+1663,What is the incoming transportation emissions for transportation and distribution (downstream) in 2023 in tonnes of CO2 equivalent?,133021,"133,021.0",True
 1664,What were the incoming transportation emissions for transportation and distribution (downstream) in 2022 in tonnes of CO2 equivalent?,159178,"133,021.0",False
 1665,What were the incoming transportation emissions for transportation and distribution (downstream) in 2020 in tonnes of CO2 equivalent?,115502,"133,021.0",False
 1666,What were the fuel- and energy-related emissions in 2023 in tonnes of CO2 equivalent?,65710,65710.0,True

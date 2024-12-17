@@ -22,8 +22,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
-    # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'openai']
-    models = ['tapex']
+    # models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
+    models = ['tablellama']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -71,7 +71,7 @@ if __name__ == '__main__':
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (((any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
                   (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>'])))) or
-                  any(c in row['value'] or c in row['response'] for c in ['~', ',']) or percentage):
+                  any(c in row['value'] or c in row['response'] for c in ['~', ','])):
                 row['response'] = row['response'].replace(',', '')
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >~'), row['response'].strip('%<= >~'), percentage=percentage)
 

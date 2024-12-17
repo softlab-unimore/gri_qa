@@ -480,8 +480,8 @@ index,question,value,response,correct
 478,What is the intensity of methane emissions from operated oil & gas facilities in 2015 in %?,0.23,0.23,True
 479,What is the intensity of methane emissions from operated gas facilities in 2023 in %?,<0.1,<0.1,True
 480,What is the intensity of methane emissions from operated gas facilities in 2022 in %?,<0.1,<0.1,True
-481,What is the intensity of methane emissions from operated gas facilities in 2021 in %?,<0.1,0.1,True
-482,What is the intensity of methane emissions from operated gas facilities in 2015 in %?,<0.1,0.1,True
+481,What is the intensity of methane emissions from operated gas facilities in 2021 in %?,<0.1,0.1,False
+482,What is the intensity of methane emissions from operated gas facilities in 2015 in %?,<0.1,0.1,False
 483,What was the net primary energy consumption in TWh for the year 2022?,166,166,True
 484,How much renewable energy was consumed in TWh in 2023?,2,2.0,True
 485,What was the net primary energy consumption in TWh for the year 2021?,148,148,True
@@ -580,7 +580,7 @@ index,question,value,response,correct
 578,What is the target range for Scope 1+2 emissions on operated activities by 2030 in Mt CO2e?,25-30,25-30,True
 579,What was the value of methane emissions on operated activities in 2022 in kt CH4?,42,42,True
 580,What was the value of methane emissions on operated activities in 2023 in kt CH4?,34,34,True
-581,What is the target reduction for methane emissions in kt CH4 on operated activities by 2025 in percentage?,-50,50,True
+581,What is the target reduction for methane emissions in kt CH4 on operated activities by 2025 in percentage?,-50,50,False
 582,What is the target reduction for methane emissions in kt CH4 on operated activities by 2030 in percentage?,-80,-80%,True
 583,What was the lifecycle carbon intensity reduction of energy products sold in 2022 in percentage?,-12,-12%,True
 584,What was the lifecycle carbon intensity reduction of energy products sold in 2023 in percentage?,-13,-13%,True
@@ -614,7 +614,7 @@ index,question,value,response,correct
 612,What was the methane emission amount for the Americas in 2021 in kt CH4?,18,18,True
 613,"What was the intensity of GHG emissions (Scope 1+2) from operated Upstream oil & gas activities in 2023, measured in kg CO2e/boe?",17,17,True
 614,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2022, expressed as a percentage?",0.11,0.11,True
-615,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2021, expressed as a percentage?",<0.1,0.1,True
+615,"What was the intensity of methane emissions from operated gas facilities (Upstream) in 2021, expressed as a percentage?",<0.1,0.1,False
 616,"What was the intensity of GHG emissions (Scope 1+2) from operated Upstream oil & gas activities in 2015, measured in kg CO2e/boe?",21,21,True
 617,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2021, expressed as a percentage?",0.13,0.13,True
 618,"What was the intensity of methane emissions from operated oil & gas facilities (Upstream) in 2015, expressed as a percentage?",0.23,0.23,True
@@ -1062,7 +1062,7 @@ index,question,value,response,correct
 1060,How much weight of ordinary waste was generated in 2019 in tons?,-,1274,False
 1061,What was the weight of collected electric and electronic waste (WEEE) in 2019 in tons?,38.9,77,False
 1062,What percentage of electric and electronic waste was recycled in 2019?,99,87,False
-1063,What was the percentage increase in carbon intensity (Scope 1 and 2) compared to the 2019 baseline in 2023?,-34,34,True
+1063,What was the percentage increase in carbon intensity (Scope 1 and 2) compared to the 2019 baseline in 2023?,-34,34,False
 1064,How much were the sustainable investments in 2023 in EUR?,11.3,eur 11.3 billion,True
 1065,What was the status of ESG screening of the investment portfolio in 2023?,ongoing,ongoing,True
 1066,What was the status of exiting thermal coal in 2023?,ongoing,ongoing,True
@@ -1075,7 +1075,7 @@ index,question,value,response,correct
 1073,What was the status of excluding insurance solutions for deep sea mining projects in 2023?,introduced,introduced,True
 1074,What was the status of expanding sustainable insurance solutions to mitigate the consequences of natural disasters in 2023?,ongoing,ongoing,True
 1075,What was the status of supporting the global shift to green energy by providing insurance for renewable energies and technologies in 2023?,ongoing,ongoing,True
-1076,What was the percentage increase in GHG emissions compared to the 2019 baseline in 2023?,-34,34,True
+1076,What was the percentage increase in GHG emissions compared to the 2019 baseline in 2023?,-34,34,False
 1077,What was the status of optimizing energy consumption in operations in 2023?,ongoing,-34%,False
 1078,What was the status of increasing the use of renewable energy sources in operations in 2023?,ongoing,-34%,False
 1079,What was the total amount of steel produced in 2023 in tonnes?,15134,15134,True
@@ -1288,8 +1288,8 @@ index,question,value,response,correct
 1286,What was the difference between 2023 and 2022 for the total emissions from own operation in tonnes of CO2 equivalent?,11.3,-17462,False
 1287,What is the target value for commercial emissions in kt CO2e/€ mn GWP for the year 2030?,0.14,0.14,True
 1288,What was the baseline value for retail motor emissions in mn t CO2 for the year 2022?,2.1,2.1,True
-1289,By what percentage does the target for commercial emissions in 2030 exceed the baseline for 2022?,-45,45,True
-1290,What is the percentage difference between the target and baseline for retail motor emissions in 2030 compared to 2022?,-30,30,True
+1289,By what percentage does the target for commercial emissions in 2030 exceed the baseline for 2022?,-45,45,False
+1290,What is the percentage difference between the target and baseline for retail motor emissions in 2030 compared to 2022?,-30,30,False
 1291,What is the emissions target for the year 2030 in tonnes of CO2 equivalent?,0.828,0.828,True
 1292,How much are the emissions expected to be in 2023 compared to 2022?,we expect in 2023 emissions at a comparable level to 2022 with some post covid-19 corrections.,0.894,False
 1293,What was the achievement in emissions for the year 2023 in tonnes of CO2 equivalent?,"our carbon footprint per employee was 0.9 tons (2022: 1.0). this represents a 62 % reduction (2022: 57 %) against a 2019 baseline. this reduction was mainly the result of sourcing 100% renewable electricity? for our office buildings and data centers and a reduction in our energy consumption, which balanced increasing business travel post covid-19.",0.9,False
@@ -1537,7 +1537,7 @@ index,question,value,response,correct
 1535,What is the intensity of scope 1 GHG emissions related to power generation for the year 2030 in grams of CO2 equivalent per kilowatt-hour?,72,72,True
 1536,What is the intensity of scope 1 GHG emissions related to power generation for the year 2040 in grams of CO2 equivalent per kilowatt-hour?,0,0,True
 1537,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22,55,False
-1538,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100,100,True
+1538,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100,100,False
 1539,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2030?,-80.00,80,True
 1540,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2040?,-100.00,100%,True
 1541,What is the climate scenario targeted for the year 2026 (°c)?,1.5,1.5,True
@@ -1657,7 +1657,7 @@ index,question,value,response,correct
 1655,"What were the outgoing transportation emissions for transportation and distribution (upstream) in 2022, measured in tonnes of CO₂ equivalent?",151243,117932,False
 1656,What were the outgoing transportation emissions for transportation and distribution (upstream) in 2020 in tonnes of CO2 equivalent?,140359,140359,True
 1657,What is the incoming transportation emissions for transportation and distribution (upstream) in 2023 in tonnes of CO2 equivalent?,146750,146750,True
-1658,What were the incoming transportation emissions for transportation and distribution (upstream) in 2022 in tonnes of CO2 equivalent?,176971,"176,971",False
+1658,What were the incoming transportation emissions for transportation and distribution (upstream) in 2022 in tonnes of CO2 equivalent?,176971,"176,971",True
 1659,What were the incoming transportation emissions for transportation and distribution (upstream) in 2020 in tonnes of CO2 equivalent?,162579,162579,True
 1660,What is the outgoing transportation emissions for transportation and distribution (downstream) in 2023 in tonnes of CO2 equivalent?,12096,12096,True
 1661,What were the outgoing transportation emissions for transportation and distribution (downstream) in 2022 in tonnes of CO2 equivalent?,17407,12096,False
@@ -1674,7 +1674,7 @@ index,question,value,response,correct
 1672,What was the district heating consumption in megawatt-hour for the year 2023?,41931,41931,True
 1673,What was the district cooling consumption in megawatt-hour for the year 2023?,4283,4283,True
 1674,What was the liquid fuel consumption for emergency power in megawatt-hour for the year 2023?,872,872,True
-1675,What is the percentage reduction in total energy consumption in 2023 compared to 2022?,-20,20,True
+1675,What is the percentage reduction in total energy consumption in 2023 compared to 2022?,-20,20,False
 1676,What is the percentage reduction in electricity consumption in 2023 compared to 2022?,-7,-7,True
 1677,What is the percentage reduction in district heating consumption in 2023 compared to 2022?,-18.8,18.8,True
 1678,What is the percentage reduction in district cooling consumption in 2023 compared to 2022? ,-20.3,20.3,True
