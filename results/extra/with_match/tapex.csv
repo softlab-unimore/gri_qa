@@ -1340,13 +1340,13 @@ index,question,value,response,correct
 1650,What is the percentage reduction in market-based GHG emissions (Scope 1 + 2) for 2022?,-9.20, -15.60%,False
 1652,How many tonnes of CO2 equivalent were associated with purchased goods and services in 2022?,21284553, 27087295,False
 1654,What is the outgoing transportation emissions for transportation and distribution (upstream) in 2023 in tonnes of CO2 equivalent?,117932," 17,407",False
-1655,"What were the outgoing transportation emissions for transportation and distribution (upstream) in 2022, measured in tonnes of CO₂ equivalent?",151243," 151,243",False
+1655,"What were the outgoing transportation emissions for transportation and distribution (upstream) in 2022, measured in tonnes of CO₂ equivalent?",151243," 151,243",True
 1656,What were the outgoing transportation emissions for transportation and distribution (upstream) in 2020 in tonnes of CO2 equivalent?,140359," 151,243",False
 1657,What is the incoming transportation emissions for transportation and distribution (upstream) in 2023 in tonnes of CO2 equivalent?,146750, 27087295,False
 1658,What were the incoming transportation emissions for transportation and distribution (upstream) in 2022 in tonnes of CO2 equivalent?,176971," 151,243",False
 1659,What were the incoming transportation emissions for transportation and distribution (upstream) in 2020 in tonnes of CO2 equivalent?,162579, 65710,False
 1660,What is the outgoing transportation emissions for transportation and distribution (downstream) in 2023 in tonnes of CO2 equivalent?,12096," 17,407",False
-1661,What were the outgoing transportation emissions for transportation and distribution (downstream) in 2022 in tonnes of CO2 equivalent?,17407," 17,407",False
+1661,What were the outgoing transportation emissions for transportation and distribution (downstream) in 2022 in tonnes of CO2 equivalent?,17407," 17,407",True
 1662,What were the outgoing transportation emissions for transportation and distribution (downstream) in 2020 in tonnes of CO2 equivalent?,14364," 17,407",False
 1663,What is the incoming transportation emissions for transportation and distribution (downstream) in 2023 in tonnes of CO2 equivalent?,133021, 27087295,False
 1664,What were the incoming transportation emissions for transportation and distribution (downstream) in 2022 in tonnes of CO2 equivalent?,159178," 17,407",False
