@@ -7,9 +7,8 @@ import pandas as pd
 def check_number(value, response, percentage=False):
     try:
         if percentage:
-            if abs(float(value)) == abs(float(response)):
-                return True
-            if abs(float(value)) == abs(float(float(response) * 100)):
+            if (abs(float(value)) == abs(float(response)) or
+                    abs(float(value)) == abs(float(float(response) * 100))):
                 return True
         return float(value) == float(response)
     except ValueError:
@@ -23,8 +22,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
-    models = ['tatllm', 'tapex', 'tablellama', 'finma', 'openai']
-    # models = ['tablellama']
+    # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'openai']
+    models = ['tapex']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -46,9 +45,6 @@ if __name__ == '__main__':
             # Check extact match
             if row['value'] == row['response']:
                 results.loc[i, 'correct'] = True
-
-            elif any(c in row['value'] or c in row['response'] for c in ['~']):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%~ '), row['response'].strip('%~ '), percentage=percentage)
 
             # Check for numbers with <, =, > symbols in both side
             elif row['value'].startswith('<=') and row['response'].startswith('<='):
@@ -73,12 +69,11 @@ if __name__ == '__main__':
 
 
             # Check for numbers with ., % symbols and without <, =, > symbols
-            elif (any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
-                  (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>']))) or percentage:
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >'), row['response'].strip('%<= >'), percentage=percentage)
-
-            # elif percentage:
-            #     results.loc[i, 'correct'] = check_number(row['value'], row['response'], percentage=percentage)
+            elif ((any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
+                  (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>']))) or
+                  any(c in row['value'] or c in row['response'] for c in ['~', ',']) or percentage):
+                row['response'] = row['response'].replace(',', '')
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >~'), row['response'].strip('%<= >~'), percentage=percentage)
 
             # Otherwise
             else:
