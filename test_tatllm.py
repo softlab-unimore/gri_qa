@@ -7,7 +7,38 @@ from codecarbon import EmissionsTracker
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
-def create_prompt(table, question):
+def create_prompt_step_wise(table, question):
+    description = ("Below is an instruction that describes a question answering task in the environmental domain, paired with "
+                   "an input table and its relevant text that provide further context. The given question is relevant to "
+                   "the table and text. Generate an appropriate nswer to the given question.")
+
+    instruction = ("Given a table and a list of texts in the following, answer the question posed using the following five-step process: "
+                   "1. Step 1: Predict the type of question being asked. Store this prediction in the variable ‘{question_type}‘. The value of"
+                   "‘{question_type}‘ can be one of the following:‘Single span‘, ‘Multiple spans‘, ‘Count‘, or ‘Arithmetic‘.\n"
+                   "2. Step 2: Extract the relevant strings or numerical values from the provided table or texts. Store these pieces of evidence "
+                   "in the variable ‘{evidence}‘. If there are multiple pieces of evidence, separate them using the ’#’ symbol.\n"
+                   "3. Step 3: if the ‘{question_type}‘ is ‘Arithmetic‘, formulate an equation using values stored in ‘{evidence}‘. Store this "
+                   "equation in the variable ‘{equation}‘. For all other question types, set the value of {equation} to ’N.A.’.\n"
+                   "4. Step 4: Predict or calculate the answer based on the question type, evidence and equation. Store it in the variable "
+                   "‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol.\n"
+                   "5. Step 5: If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The "
+                   "value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical "
+                   "values, set the value of ‘{scale}‘ to ’none’.\n"
+                   "Please organize the results in the following table:\n"
+                   "| step | output |\n"
+                   "| 1 | {question_type} |\n"
+                   "| 2 | {evidence} |\n"
+                   "| 3 | {equation} |\n"
+                   "| 4 | {answer} |\n"
+                   "| 5 | {scale} |\n"
+                   "Finally, present the final answer in the format: \"The answer is: {answer} #### and its corresponding scale is: {scale}\"")
+
+    table = table.to_markdown(index=False)
+
+    return f"{description}\n\n###Instruction:\n{instruction}\n\n###Table:\n{table}\n\n###Text\n\n###Question:\n{question}\n\n###Response:\n"
+
+
+def create_prompt_end_to_end(table, question):
     description = ("Below is an instruction that describes a question answering task in the environmental domain, paired with "
                    "an input table and its relevant text that provide further context. The given question is relevant to "
                    "the table and text. Generate an appropriate nswer to the given question.")
@@ -26,6 +57,7 @@ def create_prompt(table, question):
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
+    parser.add_argument('--end_to_end', action='store_true', default=False)
     args = parser.parse_args()
 
     qa = pd.read_csv(f'dataset/{args.dataset}', sep=',')
@@ -52,15 +84,15 @@ if __name__ == '__main__':
         table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
         table = pd.read_csv(table_filename, sep=';')
 
-        prompt = create_prompt(table, row["question"])
+        prompt = create_prompt_step_wise(table, row["question"]) \
+            if not args.end_to_end else create_prompt_end_to_end(table, row["question"])
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
         outputs = model.generate(**encoding, max_length=4096)
         response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
         try:
-            response_value = response[0].split('The answer is: ')[
-                2].split(' ###')[0]
+            response_value = response[0].split('The answer is: ')[2].split(' ###')[0]
             print(f'Q{i}: {row["value"]} - {response_value}')
         except:
             response_value = "No answer in the response"
@@ -71,5 +103,5 @@ if __name__ == '__main__':
     tracker.stop()
 
     os.makedirs(f'./results/{dataset_name}', exist_ok=True)
-    results.to_csv(f'./results/{dataset_name}/tatllm.csv', index=False)
+    results.to_csv(f'./results/{dataset_name}/tatllm__{"step_wise" if not args.end_to_end else "end_to_end"}.csv', index=False)
     os.rename(f'./results/{dataset_name}/emissions.csv',f'./results/{dataset_name}/emissions_tatllm.csv')
