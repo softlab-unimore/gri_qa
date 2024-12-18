@@ -1,8 +1,16 @@
 import os
+import re
 from argparse import ArgumentParser
 
 import pandas as pd
 
+def preprocessing_range_tablellama(row):
+    row['response'] = re.sub(r'[<>]', '', row['response'])
+    row['response'] = re.sub(r'[,]', ' -', row['response'])
+    row['response'] = re.sub(r'(\d+(\.\d+)?)-(\d+(\.\d+)?)', r'\1 - \3', row['response'])
+    row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['response'])
+    row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['value'])
+    return row
 
 def check_number(value, response, percentage=False):
     try:
@@ -41,6 +49,12 @@ if __name__ == '__main__':
             row['response'] = row['response'].strip(' |()')
 
             percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
+            range = True if re.match(r'^\d+(\.\d+)?\s*-\s*\d+(\.\d+)?$', row['value']) else False
+
+            # Check for range
+            if range:
+                if model == 'tablellama':
+                    row = preprocessing_range_tablellama(row)
 
             # Check extact match
             if row['value'] == row['response']:
