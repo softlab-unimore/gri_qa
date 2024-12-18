@@ -16,6 +16,11 @@ def preprocessing_range_finma(row):
     row['response'] = row['response'].replace('and', '-')
     return row
 
+def preprocessing_range_tattllm__end_to_end(row):
+    row['response'] = row['response'].replace('#', ' - ')
+    row['value'] = re.sub(r'[-–—]', '-', row['value'])
+    return row
+
 def check_number(value, response, percentage=False):
     try:
         if percentage:
@@ -34,8 +39,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
-    # models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
-    models = ['finma', 'tapex', 'tablellama', 'openai', 'tatllm__end_to_end']
+    models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
+    # models = ['finma', 'tapex', 'tablellama', 'openai', 'tatllm__end_to_end']
+    # models = ['tatllm__end_to_end']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -53,14 +59,17 @@ if __name__ == '__main__':
             row['response'] = row['response'].strip(' |()')
 
             percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
-            range = True if re.match(r'^\d+(\.\d+)?\s*-\s*\d+(\.\d+)?$', row['value']) else False
+            range = True if re.match(r'^\d+(\.\d+)?\s*[-–—]\s*\d+(\.\d+)?$', row['value']) else False
 
             # Check for range
             if range:
+                row['value'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['value'])
                 if model == 'tablellama':
                     row = preprocessing_range_tablellama(row)
                 if model == 'finma':
                     row = preprocessing_range_finma(row)
+                if model == 'tatllm__end_to_end':
+                    row = preprocessing_range_tattllm__end_to_end(row)
 
             # Check extact match
             if row['value'] == row['response']:

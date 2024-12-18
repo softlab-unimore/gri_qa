@@ -88,6 +88,7 @@ if __name__ == '__main__':
             if not args.end_to_end else create_prompt_end_to_end(table, row["question"])
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
+        # if encoding['input_ids'].shape[1] < 1024:
         outputs = model.generate(**encoding, max_length=4096)
         response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
