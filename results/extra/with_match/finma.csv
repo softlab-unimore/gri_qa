@@ -1608,7 +1608,7 @@ index,question,value,response,correct
 1931,What is the maximum and minimum electric driving range for the BMW i4 eDrive40?,492 - 590,15.8 - 11.4,False
 1932,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 M50?,22.5 - 18.0,18.0 - 16.1,False
 1933,What is the maximum and minimum electric driving range for the BMW i4 M50?,415 - 520,18.0,False
-1934,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i5 eDrive4d?,18.9 - 15.9,18.9 and 15.9,False
+1934,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i5 eDrive4d?,18.9 - 15.9,18.9 and 15.9,True
 1935,What is the maximum and minimum electric driving range for the BMW i5 eDrive4d?,497 - 582,15.9,False
 1936,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iS eDrive40 Touring?,19.3 - 16.5,19.3 - 16.5,True
 1937,What is the maximum and minimum electric driving range for the BMW iS eDrive40 Touring?,483 - 560,19.3 - 16.5,False
@@ -1670,7 +1670,7 @@ index,question,value,response,correct
 2002,What is the max-min fuel consumption in liters per 100 kilometers for the Rolls-Royce Cullinan?,16.5 - 16.1,11.8,False
 2004,What is the max and min fuel consumption in liters per 100 kilometers for the Rolls-Royce Ghost?,15.8 - 15.2,15.2,False
 2006,"What is the fuel consumption for the Rolls-Royce Dawn in liters per 100 kilometers, from max to min?",16.9 - 16.2,10.5,False
-2008,What is the fuel consumption in liters per 100 kilometers for the Rolls-Royce Wraith at its maximum and minimum values?,16.3 - 15.8,16.3 and 15.8,False
+2008,What is the fuel consumption in liters per 100 kilometers for the Rolls-Royce Wraith at its maximum and minimum values?,16.3 - 15.8,16.3 and 15.8,True
 2010,What is the electricity power consumption in kWh/100 km for the Rolls-Royce Spectre at the max and min levels?,23.6 - 22.2,22.2 and 18.6,False
 2011,"What is the electric range for the Rolls-Royce Spectre, from maximum to minimum?",500 - 530,11.4,False
 2012,What was the total water consumption in cubic meters for the year 2019?,5417428,13251147.0,False

@@ -34,8 +34,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
-    # models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
-    models = ['finma','tapex', 'tablellama']
+    models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
+    # models = ['finma', 'tapex', 'tablellama', 'openai']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 

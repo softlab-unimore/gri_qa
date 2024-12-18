@@ -1601,8 +1601,8 @@ index,question,value,response,correct
 1923,What was the other biogenic fuels consumption in Mwh for the year 2021?,1211,1211.0,True
 1924,What was the other biogenic fuels consumption in Mwh for the year 2022?,1095,1095.0,True
 1925,What was the other biogenic fuels consumption in Mwh for the year 2023?,1109,1109.0,True
-1926,What are the minimum and maximum fuel consumption (in l/100 km) for the BMW M3 CS?,10.4 - 10.1,"<10.4>, <10.1>",False
-1928,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 eDrive35?,18.7 - 15.8,"<18.7>, <15.8>",False
+1926,What are the minimum and maximum fuel consumption (in l/100 km) for the BMW M3 CS?,10.4 - 10.1,"<10.4>, <10.1>",True
+1928,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 eDrive35?,18.7 - 15.8,"<18.7>, <15.8>",True
 1929,What is the maximum and minimum electric driving range for the BMW i4 eDrive35?,406 - 483,"<18.7>, <15.8>",False
 1930,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW i4 eDrive40?,19.1 - 16.1,"<590.0>, <15.8>",False
 1931,What is the maximum and minimum electric driving range for the BMW i4 eDrive40?,492 - 590,"<492.0>, <15.8>",False
@@ -1628,7 +1628,7 @@ index,question,value,response,correct
 1954,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i7 xDriveSO?,20.3 - 19.1,"<575.0>, <19.1>",False
 1955,What is the maximum and minimum electric driving range for the BMW i7 xDriveSO?,575 - 611,"<575.0>, <26.0>",False
 1956,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i7 xDrive60?,19.6 - 18.5,"<589.0>, <611.0>",False
-1957,What is the maximum and minimum electric driving range for the BMW i7 xDrive60?,589 - 624,"<589.0>, <624.0>",False
+1957,What is the maximum and minimum electric driving range for the BMW i7 xDrive60?,589 - 624,"<589.0>, <624.0>",True
 1958,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i7 M70 xDrive?,23.7 - 20.8,"<575.0>, <490.0>",False
 1959,What is the maximum and minimum electric driving range for the BMW i7 M70 xDrive?,490 - 559,"<575.0>, <490.0>",False
 1960,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX xDrive40?,21.4 - 19.4,"<21.4>, <21.3>",False
@@ -1638,7 +1638,7 @@ index,question,value,response,correct
 1964,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX M60?,24.7 - 21.9,"<501.0>, <24.7>",False
 1965,What is the maximum and minimum electric driving range for the BMW iX M60?,501 – 564,"<501.0>, <24.7>",False
 1966,What is the highest and lowest electricity power consumption in kilowatt-hours per 100 kilometers for the BMW iX1 xDrive20?,17.2-15.4,"<430.0>, <474.0>",False
-1967,What is the maximum and minimum electric range for the BMW iX1 xDrive20?,430 - 474,"<430.0>, <474.0>",False
+1967,What is the maximum and minimum electric range for the BMW iX1 xDrive20?,430 - 474,"<430.0>, <474.0>",True
 1968,How much electricity does the BMW iX1 xDrive30 consume in kWh/100 km at its max and min rates?,18.1 - 16.9,"bmw ix1 xdrive30: <417.0>, <430.0>",False
 1969,What is the electric range from the highest to the lowest for the BMW iX1 xDrive30?,417 - 439,"<417.0>, <417.0>",False
 1970,What is the max-min range of electricity consumption in kilowatt-hours per 100 kilometers for the BMW iX2 xDrive30?,17.7 - 16.3,417.0 - 449.0,False
@@ -1646,17 +1646,17 @@ index,question,value,response,correct
 1972,What is the electricity power consumption (max and min rates) for the BMW iX3 in kilowatt-hours per 100 kilometers?,18.9 - 18.5,"<453.0>, <461.0>",False
 1973,How far can the BMW iX3 go on electric power at its highest and lowest electric range?,453 - 461,"<453 - 461>, <17.7 - 16.3>",False
 1974,What is the max and min fuel consumption in liters per 100 kilometers for the BMW XM?,1.9-1.5,"<33.6-32.5>, <16.0-15.0>",False
-1976,"What is the range of electricity power consumption for the BMW XM, from the highest to the lowest in kilowatt-hours per 100 kilometers?",33.6 - 32.5,"<33.6>, <32.5>",False
+1976,"What is the range of electricity power consumption for the BMW XM, from the highest to the lowest in kilowatt-hours per 100 kilometers?",33.6 - 32.5,"<33.6>, <32.5>",True
 1977,What is the electric range for the BMW XM at its maximum and minimum values?,76 - 83,"<76.0>, <32.5>",False
 1978,What is the highest and lowest fuel consumption in liters per 100 kilometers for the BMW XM Label Red?,2.0 - 1.6,"<33.5>, <16.0>",False
-1980,What is the max-min electricity power consumption range in kWh/100 km for the BMW XM Label Red?,33.5 - 32.5,<33.5 - 32.5>,False
+1980,What is the max-min electricity power consumption range in kWh/100 km for the BMW XM Label Red?,33.5 - 32.5,<33.5 - 32.5>,True
 1981,How far can the BMW XM Label Red travel on electric power at its highest and lowest range?,76 - 82,bmw xm label red: 33.5 - 32.5,False
 1982,What is the fuel consumption (max and min) for the BMW XM 50e in liters per 100 kilometers?,1.7-1.3,"<32.2-31.5>, <38 - 30>",False
 1984,How does the electricity power consumption in kWh/100 km for the BMW XM 50e vary between its max and min values?,32.2 - 31.5,"<32.2 - 31.5>, <78 - 84>",False
 1985,"What is the electric range for the BMW XM 50e, from maximum to minimum?",78 - 84,32.2 - 31.5,False
 1986,What is the fuel consumption in liters per 100 kilometers for the BMW Z4 Roadster sDrive20i at its max and min values?,7.4-6.9,"<7.4-6.9>, <167-157>",False
 1988,What is the max-min fuel consumption range in liters per 100 kilometers for the BMW Z4 Roadster M40i?,8.1-7.9,"<184.0>, <179.0>",False
-1990,What is the fuel consumption for the MINI Cooper at its maximum and minimum in liters per 100 kilometers?,14.3 - 13.8,"<14.3>, <13.8>",False
+1990,What is the fuel consumption for the MINI Cooper at its maximum and minimum in liters per 100 kilometers?,14.3 - 13.8,"<14.3>, <13.8>",True
 1992,What is the electricity power consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (until model year 2023) at both the maximum and minimum levels?,17.6-15.4,"<387.0>, <203.0>",False
 1993,What is the max-min range of electric range for the MINI Cooper SE (until model year 2023)?,203 - 232,203.0,False
 1994,What is the highest and lowest electricity consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (from model year 2024)?,14.7-14.1,"<387.0>, <32.2>",False
@@ -1667,9 +1667,9 @@ index,question,value,response,correct
 1999,"What is the electric range for the MINI Countryman E, from the maximum to the minimum?",423 - 462,"<423.0>, <423.0>",False
 2000,What is the maximum and minimum electricity power consumption for the MINI Countryman SE ALL4 in kWh/100 km?,18.5 - 16.8,"<399.0>, <432.0>",False
 2001,What is the electric range for the MINI Countryman SE ALL4 from its maximum to minimum?,399 - 432,18.5 - 16.8,False
-2002,What is the max-min fuel consumption in liters per 100 kilometers for the Rolls-Royce Cullinan?,16.5 - 16.1,<16.5-16.1>,False
+2002,What is the max-min fuel consumption in liters per 100 kilometers for the Rolls-Royce Cullinan?,16.5 - 16.1,<16.5-16.1>,True
 2004,What is the max and min fuel consumption in liters per 100 kilometers for the Rolls-Royce Ghost?,15.8 - 15.2,"<15.8-15.2>, <16.9-16.2>",False
-2006,"What is the fuel consumption for the Rolls-Royce Dawn in liters per 100 kilometers, from max to min?",16.9 - 16.2,16.9-16.2,False
+2006,"What is the fuel consumption for the Rolls-Royce Dawn in liters per 100 kilometers, from max to min?",16.9 - 16.2,16.9-16.2,True
 2008,What is the fuel consumption in liters per 100 kilometers for the Rolls-Royce Wraith at its maximum and minimum values?,16.3 - 15.8,"<369.0>, <16.3>",False
 2010,What is the electricity power consumption in kWh/100 km for the Rolls-Royce Spectre at the max and min levels?,23.6 - 22.2,"<500.0>, <23.6>",False
 2011,"What is the electric range for the Rolls-Royce Spectre, from maximum to minimum?",500 - 530,"<500.0>, <22.2>",False
