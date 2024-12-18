@@ -109,6 +109,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
     """
     # Load initial QA data and prepare index
     df_qa = pd.read_csv(qa_file)
+    df_qa = df_qa[df_qa.iloc[:, 2] != 2.0]
     df_qa = df_qa[['question', 'pdf name', 'page nbr', 'table nbr', 'value']].astype(str)
     df_qa['index'] = np.arange(len(df_qa))
 
