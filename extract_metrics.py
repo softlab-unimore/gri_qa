@@ -12,6 +12,10 @@ def preprocessing_range_tablellama(row):
     row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['value'])
     return row
 
+def preprocessing_range_finma(row):
+    row['response'] = row['response'].replace('and', '-')
+    return row
+
 def check_number(value, response, percentage=False):
     try:
         if percentage:
@@ -31,7 +35,7 @@ if __name__ == '__main__':
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
     # models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
-    models = ['tablellama']
+    models = ['finma','tapex', 'tablellama']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -55,6 +59,8 @@ if __name__ == '__main__':
             if range:
                 if model == 'tablellama':
                     row = preprocessing_range_tablellama(row)
+                if model == 'finma':
+                    row = preprocessing_range_finma(row)
 
             # Check extact match
             if row['value'] == row['response']:
