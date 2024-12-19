@@ -119,7 +119,7 @@ index,question,value,response,correct
 117,What is the minimum percentage of sites that met the target for offshore discharges quality (30 mg/l) from 2019 to 2023?,92,92.0,True
 118,Is the value of onshore continuous water discharge of hydrocarbon content in mg/l in 2020 higher than in 2022?,yes,"<1.9>, <1.8>",False
 119,Is the amount of fresh water withdrawals excluding open loop cooling water lower than the amount of fresh water withdrawal in water stress area for the year 2021?,no,nan,False
-120,Is the amount of NOx emissions in 2021 smaller than the amount of NMVOC emissions in 2021?,no,"<nox>, <nmvoc>",False
+120,Is the amount of NOx emissions in 2021 smaller than the amount of NMVOC emissions in 2021?,no,"<nox>, <nmvoc>",True
 121,What are the three lowest values of offshore continuous water discharges hydrocarbons measured in mg/l from 2020 to 2023 in ascending order?,"11.6, 12.8, 12.9","<11.6>, <12.9>, <13.7>",False
 122,What is the maximum percentage of sites that met the target for offshore discharges quality (30 mg/l) from 2019 to 2023?,100,93.0,False
 123,Is the value of onshore continuous water discharges hydrocarbon content in 2019 greater than in 2022?,no,"<1.7>, <1.9>",False
@@ -140,10 +140,10 @@ index,question,value,response,correct
 138,"What is the maximum value of indirect GHG emissions in Mt CO2e for the year 2015 between the emissions from Europe (EU 27 + Norway + UK + Switzerland), and emissions from petroleum products?",350,350.0,True
 139,"What is the maximum value of indirect GHG emissions in Mt CO2e for the year 2015 among the categories ""of which Europe: EU 27 + Norway + UK + Switzerland,"" ""Petroleum products,"" and ""Gas""?",350,256.0,False
 140,"What is the maximum value of indirect GHG emissions in Mt CO2e for the year 2015 among Petroleum products, and Gas?",350,350.0,True
-141,Is the value of indirect european GHG emissions in Mt CO2e for the year 2019 higher than the amount of petroleum products emissions in the same year?,no,european union 27+norway+uk+switzerland,False
+141,Is the value of indirect european GHG emissions in Mt CO2e for the year 2019 higher than the amount of petroleum products emissions in the same year?,no,european union 27+norway+uk+switzerland,True
 142,"In ascending order, what are the four lowest values of indirect GHG emissions in Mt CO2e for the year 2022 from the categories “Biofuels”, ""Gas,"" ""of which Europe: EU 27 + Norway + UK + Switzerland,"" and ""Petroleum products""?","4.0, 124.0, 216.0, 227.0","<4.0>, <130.0>, <227.0>, <216.0>",False
 143,What are the two values of indirect GHG emissions in Mt CO2e for the year 2023 between gas and biofuels in increasing order?,"4.0, 124.0","<124.0>, <130.0>",False
-144,Is the value of indirect GHG gas emissions greater than the emissions due to petroleum products in 2019?,no,europe: eu 27 + norway + uk + switzerland,False
+144,Is the value of indirect GHG gas emissions greater than the emissions due to petroleum products in 2019?,no,europe: eu 27 + norway + uk + switzerland,True
 145,"What is the minimum value of indirect GHG emissions in Mt CO2e for the year 2015 among Europe emissions, petroleum emissions and gas emissions?",60,petroleum products,False
 146,"What is the maximum value of indirect GHG emissions in Mt CO2e for the year 2023 among Europe emissions, petroleum emissions, gas emissions and biofuels emissions?",227,389.0,False
 147,Is the value of the indirect european GHG emissions greater than the amount of gas emissions in 2019?,yes,europe: eu 27 + norway + uk + switzerland,False

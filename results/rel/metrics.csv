@@ -1,7 +1,7 @@
 model,em
-tatllm,0.09677
+tatllm__end_to_end,0.14516
 tapex,0.26613
-tablellama,0.12903
+tablellama,0.14113
 finma,0.375
-openai,0.47984
-chainoftable,0.46371
+openai,0.49597
+openai_chainofthought,0.71774

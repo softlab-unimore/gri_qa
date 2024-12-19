@@ -79,15 +79,13 @@ def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
-    rel = "If the question asks for a boolean value, the answer should be 'yes' or 'no'."
+    instruction = "Given a question, provide only the numerical answer. Do not write anything else. Do not write any Markdown formatting. If the question asks for a boolean value, reply either with yes or no."
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",
-                "content": f"{question}\n{df_to_html_string(table, index=False)}\n\n"
-                           f"Give exclusively the numerical answer. Do not write anything else. "
-                           f"Do not write any markdown formatting. {rel if 'rel' in dataset_file else ''}"
+                "content": f"{instruction} {question}\n{df_to_html_string(table, index=False)}\n\n"
             }
         ],
         temperature=0.0
@@ -155,7 +153,7 @@ if __name__ == '__main__':
 
     config = ConfigParser()
     config.read('config.ini')
-    os.environ['OPENAI_API_KEY'] = config.get('TOKEN', 'token_openai')
+    os.environ['OPENAI_API_KEY'] = config.get('OPENAI_KEY', 'openai-api-key')
 
     dataset_name = re.split("[_.]", args.dataset)[1]
 

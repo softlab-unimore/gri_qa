@@ -7,3 +7,4 @@ env/
 *.swp
 .csv#
 .env
+*.pyc

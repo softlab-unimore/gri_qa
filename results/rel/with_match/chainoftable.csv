@@ -194,7 +194,7 @@ index,question,value,response,correct
 192,What is the maximum weight of collected electric and electronic waste (WEEE) in tons reported for the years 2019 to 2023?,57.3,57.3,True
 193,Is the weight of collected electric and electronic waste (WEEE) smaller than the weight of ordinary waste in tons reported for the year 2023?,yes,yes,True
 194,What is the highest value of CO2 emissions between different business lines in 2023?,7.9,1.5 million t,False
-195,What is the lowest value of CO2 emissions between different business lines in 2023?,0.2,0.25 million t,False
+195,What is the lowest value of CO2 emissions between different business lines in 2023?,0.2,0.25 million t,True
 196,What is the highest energy consumption by source in 2021?,353640,cement.,False
 197,Is the value of market based greater than location based CO2 emissions from external electrical power and thermal energy production per tonne of cementitious material in 2023?,yes,no,False
 198,Is the amount of absolute energy consumption in TJ of cement higher than the amount of energy consumption due to clinker production in 2022?,yes,no,False

@@ -39,8 +39,9 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
     args = parser.parse_args()
 
-    # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
-    models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
+    # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
+    models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
+    # models = ['openai_chainofthought']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
