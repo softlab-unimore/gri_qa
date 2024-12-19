@@ -17,9 +17,14 @@ def preprocessing_range_finma(row):
     row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
     return row
 
-def preprocessing_range_tattllm__end_to_end(row):
-    row['response'] = row['response'].replace('#', ' - ')
-    row['value'] = re.sub(r'[-–—]', '-', row['value'])
+def preprocessing_range_tattllm__end_to_end(row, dataset):
+    if dataset == 'extra':
+        row['response'] = row['response'].replace('#', ' - ')
+        row['value'] = re.sub(r'[-–—]', '-', row['value'])
+    elif dataset == 'rel':
+        row['response'] = row['response'].replace('#', ', ')
+        row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['response'])
+        row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['value'])
     return row
 
 def check_number(value, response, percentage=False):
@@ -36,7 +41,7 @@ def check_number(value, response, percentage=False):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
+    parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
     args = parser.parse_args()
 
     # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
@@ -56,10 +61,16 @@ if __name__ == '__main__':
 
         for i, row in results.iterrows():
 
-            row['response'] = row['response'].strip(' |()')
+            # if row['index'] == 192:
+            row['response'] = row['response'].split('###')[0]
+            row['response'] = row['response'].strip(' |()\n\r')
 
             percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
-            range = True if re.match(r'^\d+(\.\d+)?\s*[-–—]\s*\d+(\.\d+)?$', row['value']) else False
+
+            if args.dataset == 'extra':
+                range = True if re.match(r'^\d+(\.\d+)?\s*[-–—]\s*\d+(\.\d+)?$', row['value']) else False
+            else: # rel dataset
+                range = True if re.match(r'^\s*\d+(\.\d+)?\s*,\s*\d+(\.\d+)?(\s*,\s*\d+(\.\d+)?)*\s*$', row['value']) else False
 
             # Check for range
             if range:
@@ -69,7 +80,7 @@ if __name__ == '__main__':
                 if model == 'finma':
                     row = preprocessing_range_finma(row)
                 if model == 'tatllm__end_to_end':
-                    row = preprocessing_range_tattllm__end_to_end(row)
+                    row = preprocessing_range_tattllm__end_to_end(row, args.dataset)
 
             # Check extact match
             if row['value'] == row['response']:
@@ -88,7 +99,7 @@ if __name__ == '__main__':
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), row['response'].strip('%> '), percentage=percentage)
 
             # Check for response with multiple words
-            elif (any(r.isalpha() for r in row['response'])) or (any(c in row['response'] for c in ['(', ')'])):
+            elif ((any(r.isalpha() for r in row['response'])) or (any(c in row['response'] for c in ['(', ')']))) and args.dataset == 'extra':
                 el = [c.strip('%()') for c in row['response'].split(' ')]
                 results.loc[i, 'correct'] = any(
                     check_number(row['value'].strip('%'), e, percentage=percentage) for e in el
