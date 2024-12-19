@@ -15,8 +15,11 @@ def preprocessing_range_tablellama(row, dataset):
     row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['value'])
     return row
 
-def preprocessing_range_finma(row):
-    row['response'] = row['response'].replace('and', '-')
+def preprocessing_range_finma(row, dataset):
+    if dataset == 'extra':
+        row['response'] = row['response'].replace('and', '-')
+    else: # rel dataset
+        row['response'] = row['response'].replace(' and ', ', ')
     row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
     return row
 
@@ -47,7 +50,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
     args = parser.parse_args()
 
-    # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
+    # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['openai_chainofthought']
 
@@ -81,7 +84,7 @@ if __name__ == '__main__':
                 if model == 'tablellama':
                     row = preprocessing_range_tablellama(row, args.dataset)
                 if model == 'finma':
-                    row = preprocessing_range_finma(row)
+                    row = preprocessing_range_finma(row, args.dataset)
                 if model == 'tatllm__end_to_end':
                     row = preprocessing_range_tattllm__end_to_end(row, args.dataset)
 
