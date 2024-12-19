@@ -106,4 +106,4 @@ if __name__ == '__main__':
 
     os.makedirs(f'./results/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{dataset_name}/tatllm__{"step_wise" if not args.end_to_end else "end_to_end"}.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv',f'./results/{dataset_name}/emissions_tatllm.csv')
+    os.rename(f'./results/{dataset_name}/emissions.csv',f'./results/{dataset_name}/emissions_{"step_wise" if not args.end_to_end else "end_to_end"}.csv')

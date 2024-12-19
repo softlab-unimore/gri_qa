@@ -486,7 +486,7 @@ index,question,value,response,correct
 575,What was the value of Scope 1+2 emissions on operated activities in 2022 in Mt CO2e?,40,40,True
 576,What was the value of Scope 1+2 emissions on operated activities in 2023 in Mt CO2e?,35,35,True
 577,What is the target range for Scope 1+2 emissions on operated activities by 2025 in Mt CO2e?,<38,25-30,False
-578,What is the target range for Scope 1+2 emissions on operated activities by 2030 in Mt CO2e?,25-30,25-30,False
+578,What is the target range for Scope 1+2 emissions on operated activities by 2030 in Mt CO2e?,25-30,25-30,True
 579,What was the value of methane emissions on operated activities in 2022 in kt CH4?,42,42,True
 580,What was the value of methane emissions on operated activities in 2023 in kt CH4?,34,"34 |
 
@@ -530,7 +530,7 @@ index,question,value,response,correct
 
 the corresponding scale is: none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 620,How much were the direct GHG emissions from operated domains in 2022 in Mt CO2e?,37,37,True
 621,What is the value of direct GHG emissions from operated domains recorded in 2021 in Mt CO2e?,34,34 (33),True
 622,What was the amount of direct GHG emissions from operated domains in 2015 in Mt CO2e?,42,42,True
@@ -549,7 +549,7 @@ finally, present the final answer in the format: """,True
 | 4 | 37#14 |
 | 5 | none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 625,What is the value of GHG emissions from operated domains and from upstream oil & gas activities recorded in 2021 in Mt CO2e?,14,"14#5 | step | output |
 | 1 | arithmetic |
 | 2 | 14#5 |
@@ -565,12 +565,12 @@ finally, present the final answer in the format: """,True
 | 4 | 50#19 |
 | 5 | none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 627,What was the total GHG emissions from operated domains and from Integrated Power in 2023 in Mt CO2e?,6,"6#35 | step | output |
 | 1 | arithmetic |
 | 2 | 35#6 |
 
-",True
+",False
 628,How much were the GHG emissions from operated domains and from Integrated Power in 2022 in Mt CO2e?,9,"9#6 | step | output |
 | 1 | multiple spans |
 | 2 | 6#9 |
@@ -578,7 +578,7 @@ finally, present the final answer in the format: """,True
 | 4 | 9#6 |
 | 5 | none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 629,What is the value of GHG emissions from operated domains and from Integrated Power recorded in 2021 in Mt CO2e?,5,"5#9 | step | output |
 | 1 | multiple spans |
 | 2 | 5#9 |
@@ -610,7 +610,7 @@ finally, present the final answer in the format: """,True
 | 4 | 15#14 |
 | 5 | none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 633,What is the value of GHG emissions from operated domains and from Refining & Chemicals recorded in 2021 in Mt CO2e?,15,"15#15 | step | output |
 | 1 | multiple spans |
 | 2 | 15#15 |
@@ -618,7 +618,7 @@ finally, present the final answer in the format: """,True
 | 4 | 15#15 |
 | 5 | none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 634,What was the amount of GHG emissions from operated domains and from Refining & Chemicals in 2015 in Mt CO2e?,22,"22#27 | step | output |
 | 1 | multiple spans |
 | 2 | 22#27 |
@@ -626,7 +626,7 @@ finally, present the final answer in the format: """,True
 | 4 | 22#27 |
 | 5 | none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 635,What was the total GHG emissions from operated domains and from Europe (EU 27 + Norway + UK + Switzerland) in 2023 in Mt CO2e?,19,"35#19 |
 
 ",False
@@ -673,7 +673,7 @@ finally, present the final answer in the format: """,True
 | 4 | 36#40 |
 | 5 | none |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 645,What is the value of GHG emissions from operated domains and from Scope 1+2 recorded in 2021 in Mt CO2e?,37,37#54,False
 646,What was the amount of GHG emissions from operated domains and from Scope 1+2 in 2015 in Mt CO2e?,46,"50#54 |
 
@@ -711,7 +711,7 @@ finally, present the final answer in the format: """,False
 | 1 | multiple spans |
 | 2 | 1#9 |
 
-",True
+",False
 657,What is the value of GHG emissions from equity interest domains and from Integrated Power recorded in 2021 in Mt CO2e?,5,"5#1 |
 
 ",False
@@ -738,7 +738,7 @@ finally, present the final answer in the format: """,False
 | 1 | multiple spans |
 | 2 | 15#19 |
 
-finally, present the final answer in the format: """,True
+finally, present the final answer in the format: """,False
 662,What was the amount of GHG emissions from equity interest domains and from Refining & Chemicals in 2015 in Mt CO2e?,27,"27#22 |
 
 ",False
@@ -859,9 +859,9 @@ finally, present the final answer in the format: """,True
 finally, present the final answer in the format: """,True
 752,What was the value of Scope 3(a) indirect GHG emissions in 2015 in Mt CO2e?,410,410,True
 753,How much were the Scope 3(a) indirect GHG emissions in 2019 in Mt CO2e?,410,410,True
-754,What were the Scope 3(a) indirect GHG emissions in 2020 in Mt CO2e?,400,400*(370),True
-755,What were the Scope 3(a) indirect GHG emissions in 2021 in Mt CO2e?,400,400*(370),True
-756,What is the value of Scope 3(a) indirect GHG emissions in 2022 in Mt CO2e?,389,389#none,True
+754,What were the Scope 3(a) indirect GHG emissions in 2020 in Mt CO2e?,400,400*(370),False
+755,What were the Scope 3(a) indirect GHG emissions in 2021 in Mt CO2e?,400,400*(370),False
+756,What is the value of Scope 3(a) indirect GHG emissions in 2022 in Mt CO2e?,389,389#none,False
 757,What were the Scope 3(a) indirect GHG emissions in 2023 in Mt CO2e?,355,355,True
 758,What were the indirect GHG emissions for Europe (EU 27 + Norway + UK + Switzerland) in 2015 in Mt CO2e?,256,256,True
 759,How much were the indirect GHG emissions for Europe in 2019 in Mt CO2e?,232,232,True
@@ -872,12 +872,12 @@ finally, present the final answer in the format: """,True
 764,What were the petroleum products GHG emissions in 2015 in Mt CO2e?,350,350,True
 765,How much were the petroleum products GHG emissions in 2019 in Mt CO2e?,335,335,True
 766,What were the petroleum products GHG emissions in 2020 in Mt CO2e?,320,320,True
-767,What were the petroleum products GHG emissions in 2021 in Mt CO2e?,285,285*(255),True
+767,What were the petroleum products GHG emissions in 2021 in Mt CO2e?,285,285*(255),False
 768,What is the value of petroleum products GHG emissions in 2022 in Mt CO2e?,254,254,True
 769,What were the petroleum products GHG emissions in 2023 in Mt CO2e?,227,227,True
 770,What were the gas GHG emissions in 2015 in Mt CO2e?,60,60,True
 771,How much were the gas GHG emissions in 2019 in Mt CO2e?,75,75,True
-772,What were the gas GHG emissions in 2020 in Mt CO2e?,80,80*(115),True
+772,What were the gas GHG emissions in 2020 in Mt CO2e?,80,80*(115),False
 773,What were the gas GHG emissions in 2021 in Mt CO2e?,115,115,True
 774,What is the value of gas GHG emissions in 2022 in Mt CO2e?,130,130,True
 775,What were the gas GHG emissions in 2023 in Mt CO2e?,124,124,True
@@ -1173,7 +1173,7 @@ finally, present the final answer in the format: """,True
 1164,What was the electricity consumption in 2021 in tonnes of CO2 equivalent?,61232.6,61232.6,True
 1165,What were the grid losses recorded in 2023 in tonnes of CO2 equivalent?,1475037,1.47504e+06,False
 1166,What were the grid losses for the year 2022 in tonnes of CO2 equivalent?,1670666,1.67067e+06,False
-1167,How much were the grid losses in 2021 in tonnes of CO2 equivalent?,1597110,1.59711e+06,True
+1167,How much were the grid losses in 2021 in tonnes of CO2 equivalent?,1597110,1.59711e+06,False
 1168,What was the amount in tonnes of CO2 equivalent of emissions from purchased goods and services from the group in 2023?,152730.8,152731,False
 1169,How much emissions from capital goods were reported from the group in tonnes of CO2 equivalent in 2022?,81294.8,81294.8,True
 1170,What is the amount of emissions from energy and fuel related activities recorded in 2021 from the group in tonnes of CO2 equivalent?,475907.6,473450.6,False
@@ -1771,7 +1771,7 @@ finally, present the final answer in the format: """,True
 1869,What was the total energy consumption in Mwh for the year 2019?,6348009,6348009,True
 1870,How much total energy consumption in Mwh was recorded in 2020?,6040824,6040824,True
 1871,What was the total energy consumption in Mwh for the year 2021?,6476955,6476955,True
-1872,What was the total energy consumption in Mwh for the year 2022?,6295990,6.29599e+06,True
+1872,What was the total energy consumption in Mwh for the year 2022?,6295990,6.29599e+06,False
 1873,What was the total energy consumption in Mwh for the year 2023?,6380652,6.38065e+06,False
 1874,What was the energy consumption for vehicle production in Mwh for the year 2019?,5226227,5226227,True
 1875,How much energy in megawatt-hours was used in 2020 for the production of vehicles?,4946865,4946865,True
@@ -1826,23 +1826,23 @@ finally, present the final answer in the format: """,True
 1924,What was the other biogenic fuels consumption in Mwh for the year 2022?,1095,1095,True
 1925,What was the other biogenic fuels consumption in Mwh for the year 2023?,1109,1109,True
 1926,What are the minimum and maximum fuel consumption (in l/100 km) for the BMW M3 CS?,10.4 - 10.1,10.1#10.4,False
-1928,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 eDrive35?,18.7 - 15.8,18.7#15.8,False
-1929,What is the maximum and minimum electric driving range for the BMW i4 eDrive35?,406 - 483,406#483,False
+1928,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 eDrive35?,18.7 - 15.8,18.7#15.8,True
+1929,What is the maximum and minimum electric driving range for the BMW i4 eDrive35?,406 - 483,406#483,True
 1930,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW i4 eDrive40?,19.1 - 16.1,19.1 - 16.1,True
 1931,What is the maximum and minimum electric driving range for the BMW i4 eDrive40?,492 - 590,492 - 590,True
 1932,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 M50?,22.5 - 18.0,22.5 - 18.0,True
 1933,What is the maximum and minimum electric driving range for the BMW i4 M50?,415 - 520,415 - 520,True
-1934,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i5 eDrive4d?,18.9 - 15.9,18.9#15.9,False
+1934,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i5 eDrive4d?,18.9 - 15.9,18.9#15.9,True
 1935,What is the maximum and minimum electric driving range for the BMW i5 eDrive4d?,497 - 582,497 - 582,True
 1936,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iS eDrive40 Touring?,19.3 - 16.5,21.9#18.5,False
-1937,What is the maximum and minimum electric driving range for the BMW iS eDrive40 Touring?,483 - 560,483#560,False
+1937,What is the maximum and minimum electric driving range for the BMW iS eDrive40 Touring?,483 - 560,483#560,True
 1938,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iS M60 xDrive?,20.5 - 18.2,20.8#18.3,False
 1939,What is the maximum and minimum electric driving range for the BMW iS M60 xDrive?,457 - 516,445#506,False
 1940,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW i5 M60 xDrive Touring?,20.8 - 18.3,445#506,False
-1941,What is the maximum and minimum electric driving range for the BMW i5 M60 xDrive Touring?,445 - 506,445#506,False
-1942,What is the maximum and minimum fuel consumption in l/100 km for the BMW 530e?,0.8 - 0.6,0.8#0.6,False
-1944,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW 530e?,21.7 - 19.9,21.7#19.9,False
-1945,What is the maximum and minimum electric driving range for the BMW 530e?,93 - 103,93#103,False
+1941,What is the maximum and minimum electric driving range for the BMW i5 M60 xDrive Touring?,445 - 506,445#506,True
+1942,What is the maximum and minimum fuel consumption in l/100 km for the BMW 530e?,0.8 - 0.6,0.8#0.6,True
+1944,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW 530e?,21.7 - 19.9,21.7#19.9,True
+1945,What is the maximum and minimum electric driving range for the BMW 530e?,93 - 103,93#103,True
 1946,What is the maximum and minimum fuel consumption per l/100 kilometers for the BMW 530e xDrive?,1.0 - 0.8,"0.8#1.1 | step | output |
 | 1 | multiple spans |
 | 2 | 0.8#1.1 |
@@ -1853,24 +1853,24 @@ finally, present the final answer in the format: """,True
 finally, present the final answer in the format: """,False
 1948,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW 530e xDrive?,23.2 - 21.6,27.0#19.9,False
 1949,What is the maximum and minimum electric driving range for the BMW 530e xDrive?,83 - 90,90#110,False
-1950,What is the maximum and minimum fuel consumption per l/100 km for the BMW X5 xDrive 50e?,1.1 - 0.8,1.1#0.8,False
+1950,What is the maximum and minimum fuel consumption per l/100 km for the BMW X5 xDrive 50e?,1.1 - 0.8,1.1#0.8,True
 1952,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW X5 xDrive 50e?,27.0 - 22.9,27.0 - 22.9,True
-1953,What is the maximum and minimum electric driving range for the BMW X5 xDrive 50e?,94 - 110,94#110,False
+1953,What is the maximum and minimum electric driving range for the BMW X5 xDrive 50e?,94 - 110,94#110,True
 1954,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i7 xDriveSO?,20.3 - 19.1,20.3 - 19.1,True
-1955,What is the maximum and minimum electric driving range for the BMW i7 xDriveSO?,575 - 611,575#611,False
+1955,What is the maximum and minimum electric driving range for the BMW i7 xDriveSO?,575 - 611,575#611,True
 1956,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i7 xDrive60?,19.6 - 18.5,589#624,False
-1957,What is the maximum and minimum electric driving range for the BMW i7 xDrive60?,589 - 624,589#624,False
+1957,What is the maximum and minimum electric driving range for the BMW i7 xDrive60?,589 - 624,589#624,True
 1958,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i7 M70 xDrive?,23.7 - 20.8,490#559,False
 1959,What is the maximum and minimum electric driving range for the BMW i7 M70 xDrive?,490 - 559,559#490,False
-1960,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX xDrive40?,21.4 - 19.4,21.4#19.4,False
-1961,What is the maximum and minimum electric driving range for the BMW iX xDrive40?,403 - 435,403#435,False
+1960,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX xDrive40?,21.4 - 19.4,21.4#19.4,True
+1961,What is the maximum and minimum electric driving range for the BMW iX xDrive40?,403 - 435,403#435,True
 1962,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX xDrive50?,21.3 - 19.5,587#633,False
-1963,What is the maximum and minimum electric driving range for the BMW iX xDrive50?,587 - 633,587#633,False
+1963,What is the maximum and minimum electric driving range for the BMW iX xDrive50?,587 - 633,587#633,True
 1964,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX M60?,24.7 - 21.9,501#564,False
-1965,What is the maximum and minimum electric driving range for the BMW iX M60?,501 - 564,501#564,False
-1966,What is the highest and lowest electricity power consumption in kilowatt-hours per 100 kilometers for the BMW iX1 xDrive20?,17.2-15.4,17.2#15.4,False
-1967,What is the maximum and minimum electric range for the BMW iX1 xDrive20?,430 - 474,430#474,False
-1968,How much electricity does the BMW iX1 xDrive30 consume in kWh/100 km at its max and min rates?,18.1 - 16.9,18.1#16.9,False
+1965,What is the maximum and minimum electric driving range for the BMW iX M60?,501 - 564,501#564,True
+1966,What is the highest and lowest electricity power consumption in kilowatt-hours per 100 kilometers for the BMW iX1 xDrive20?,17.2-15.4,17.2#15.4,True
+1967,What is the maximum and minimum electric range for the BMW iX1 xDrive20?,430 - 474,430#474,True
+1968,How much electricity does the BMW iX1 xDrive30 consume in kWh/100 km at its max and min rates?,18.1 - 16.9,18.1#16.9,True
 1969,What is the electric range from the highest to the lowest for the BMW iX1 xDrive30?,417 - 439,"449#417 |
 
 ",False
@@ -1878,22 +1878,22 @@ finally, present the final answer in the format: """,False
 1971,What are the maximum and minimum electric ranges for the BMW iX2 xDrive30?,417 - 449,449#417,False
 1972,What is the electricity power consumption (max and min rates) for the BMW iX3 in kilowatt-hours per 100 kilometers?,18.9 - 18.5,32.5#33.5,False
 1973,How far can the BMW iX3 go on electric power at its highest and lowest electric range?,453 - 461,453 - 461#76 - 83,False
-1974,What is the max and min fuel consumption in liters per 100 kilometers for the BMW XM?,1.9-1.5,1.9-1.5,False
+1974,What is the max and min fuel consumption in liters per 100 kilometers for the BMW XM?,1.9-1.5,1.9-1.5,True
 1976,"What is the range of electricity power consumption for the BMW XM, from the highest to the lowest in kilowatt-hours per 100 kilometers?",33.6 - 32.5,17.7#16.3,False
-1977,What is the electric range for the BMW XM at its maximum and minimum values?,76 - 83,76#83,False
+1977,What is the electric range for the BMW XM at its maximum and minimum values?,76 - 83,76#83,True
 1978,What is the highest and lowest fuel consumption in liters per 100 kilometers for the BMW XM Label Red?,2.0 - 1.6,"1.6#2.0 |
 
 ",False
 1980,What is the max-min electricity power consumption range in kWh/100 km for the BMW XM Label Red?,33.5 - 32.5,45-35,False
-1981,How far can the BMW XM Label Red travel on electric power at its highest and lowest range?,76 - 82,76#82,False
-1982,What is the fuel consumption (max and min) for the BMW XM 50e in liters per 100 kilometers?,1.7-1.3,1.7-1.3,False
+1981,How far can the BMW XM Label Red travel on electric power at its highest and lowest range?,76 - 82,76#82,True
+1982,What is the fuel consumption (max and min) for the BMW XM 50e in liters per 100 kilometers?,1.7-1.3,1.7-1.3,True
 1984,How does the electricity power consumption in kWh/100 km for the BMW XM 50e vary between its max and min values?,32.2 - 31.5,32.5 - 31.5,False
 1985,"What is the electric range for the BMW XM 50e, from maximum to minimum?",78 - 84,6,False
-1986,What is the fuel consumption in liters per 100 kilometers for the BMW Z4 Roadster sDrive20i at its max and min values?,7.4-6.9,7.4#6.9,False
+1986,What is the fuel consumption in liters per 100 kilometers for the BMW Z4 Roadster sDrive20i at its max and min values?,7.4-6.9,7.4#6.9,True
 1988,What is the max-min fuel consumption range in liters per 100 kilometers for the BMW Z4 Roadster M40i?,8.1-7.9,7.9#8.1,False
 1990,What is the fuel consumption for the MINI Cooper at its maximum and minimum in liters per 100 kilometers?,14.3 - 13.8,13.8#14.3,False
 1992,What is the electricity power consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (until model year 2023) at both the maximum and minimum levels?,17.6-15.4,17.6#15.4#17.6#15.4,False
-1993,What is the max-min range of electric range for the MINI Cooper SE (until model year 2023)?,203 - 232,203#232,False
+1993,What is the max-min range of electric range for the MINI Cooper SE (until model year 2023)?,203 - 232,203#232,True
 1994,What is the highest and lowest electricity consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (from model year 2024)?,14.7-14.1,14.7#387,False
 1995,How far can the MINI Cooper SE (from model year 2024) travel on electric power at its highest and lowest ranges?,387 - 402,402#201,False
 1996,What is the electricity power consumption for the MINI Cooper SE Cabrio in kilowatt-hours per 100 kilometers?,17.2,17.2,True
@@ -1902,14 +1902,14 @@ finally, present the final answer in the format: """,False
 1999,"What is the electric range for the MINI Countryman E, from the maximum to the minimum?",423 - 462,405.6,False
 2000,What is the maximum and minimum electricity power consumption for the MINI Countryman SE ALL4 in kWh/100 km?,18.5 - 16.8,432#399,False
 2001,What is the electric range for the MINI Countryman SE ALL4 from its maximum to minimum?,399 - 432,39,False
-2002,What is the max-min fuel consumption in liters per 100 kilometers for the Rolls-Royce Cullinan?,16.5 - 16.1,16.5#16.1,False
+2002,What is the max-min fuel consumption in liters per 100 kilometers for the Rolls-Royce Cullinan?,16.5 - 16.1,16.5#16.1,True
 2004,What is the max and min fuel consumption in liters per 100 kilometers for the Rolls-Royce Ghost?,15.8 - 15.2,15.8#16.2,False
-2006,"What is the fuel consumption for the Rolls-Royce Dawn in liters per 100 kilometers, from max to min?",16.9 - 16.2,16.9#16.2,False
-2008,What is the fuel consumption in liters per 100 kilometers for the Rolls-Royce Wraith at its maximum and minimum values?,16.3 - 15.8,16.3#15.8,False
-2010,What is the electricity power consumption in kWh/100 km for the Rolls-Royce Spectre at the max and min levels?,23.6 - 22.2,23.6#22.2,False
-2011,"What is the electric range for the Rolls-Royce Spectre, from maximum to minimum?",500 - 530,500#530,False
+2006,"What is the fuel consumption for the Rolls-Royce Dawn in liters per 100 kilometers, from max to min?",16.9 - 16.2,16.9#16.2,True
+2008,What is the fuel consumption in liters per 100 kilometers for the Rolls-Royce Wraith at its maximum and minimum values?,16.3 - 15.8,16.3#15.8,True
+2010,What is the electricity power consumption in kWh/100 km for the Rolls-Royce Spectre at the max and min levels?,23.6 - 22.2,23.6#22.2,True
+2011,"What is the electric range for the Rolls-Royce Spectre, from maximum to minimum?",500 - 530,500#530,True
 2012,What was the total water consumption in cubic meters for the year 2019?,5417428,5.41743e+06,False
-2013,How much water was consumed in cubic meters in 2020?,4722310,4.72231e+06,True
+2013,How much water was consumed in cubic meters in 2020?,4722310,4.72231e+06,False
 2014,What is the total water consumption in cubic meters for the year 2021?,4924477,4.92448e+06,False
 2015,Can you tell me the total water consumption in cubic meters for 2022?,4840161,4.84016e+06,False
 2016,What was the total water consumption in cubic meters in 2023?,5049144,5.04914e+06,False
@@ -1956,7 +1956,7 @@ finally, present the final answer in the format: """,False
 2057,What was the total indirect (Scope 3) emissions in 2019 in tonnes of CO2 equivalent?,146225201,1.46225e+08,False
 2058,How much were the total indirect (Scope 3) emissions recorded in 2020 in tonnes of CO2 equivalent?,131255722,1.31256e+08,False
 2059,What was the total indirect (Scope 3) emissions in 2021 in tonnes of CO2 equivalent?,136757602,1.36758e+08,False
-2060,What were the total indirect (Scope 3) emissions in 2022 in tonnes of CO2 equivalent?,129958000,1.29958e+08,True
+2060,What were the total indirect (Scope 3) emissions in 2022 in tonnes of CO2 equivalent?,129958000,1.29958e+08,False
 2061,What is the total indirect (Scope 3) emissions for the year 2023 in tonnes of CO2 equivalent?,133875567,1.33876e+08,False
 2062,"What were the emissions from logistics, including material supply and vehicle distribution, in 2019, measured in tonnes of CO2 equivalent?",2178437,2.17844e+06,False
 2063,"How much did logistics (material supply and vehicle distribution) contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",1939191,1.93919e+06,False

@@ -9,10 +9,9 @@ def preprocessing_range_tablellama(row, dataset):
 
     if dataset == 'extra':
         row['response'] = re.sub(r'[,]', ' -', row['response'])
-        row['response'] = re.sub(r'(\d+(\.\d+)?)-(\d+(\.\d+)?)', r'\1 - \3', row['response'])
 
-    row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['response'])
-    row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['value'])
+    row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['response'])
+    row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['value'])
     return row
 
 def preprocessing_range_finma(row, dataset):
@@ -20,17 +19,16 @@ def preprocessing_range_finma(row, dataset):
         row['response'] = row['response'].replace('and', '-')
     else: # rel dataset
         row['response'] = row['response'].replace(' and ', ', ')
-    row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
     return row
 
-def preprocessing_range_tattllm__end_to_end(row, dataset):
+def preprocessing_range_tattllm(row, dataset):
     if dataset == 'extra':
         row['response'] = row['response'].replace('#', ' - ')
         row['value'] = re.sub(r'[-–—]', '-', row['value'])
     elif dataset == 'rel':
         row['response'] = row['response'].replace('#', ', ')
-        row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['response'])
-        row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['value'])
+        row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['response'])
+        row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['value'])
     return row
 
 def check_number(value, response, percentage=False):
@@ -47,12 +45,12 @@ def check_number(value, response, percentage=False):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
+    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
-    models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    # models = ['openai_chainofthought']
+    models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
+    # models = ['tatllm__step_wise']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -67,9 +65,10 @@ if __name__ == '__main__':
 
         for i, row in results.iterrows():
 
-            # if row['index'] == 192:
+            # if row['index'] == 619:
             row['response'] = row['response'].split('###')[0]
             row['response'] = row['response'].strip(' |()\n\r')
+            row['response'] = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', row['response'])
 
             percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
 
@@ -81,12 +80,13 @@ if __name__ == '__main__':
             # Check for range
             if range:
                 row['value'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['value'])
+                row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
                 if model == 'tablellama':
                     row = preprocessing_range_tablellama(row, args.dataset)
                 if model == 'finma':
                     row = preprocessing_range_finma(row, args.dataset)
-                if model == 'tatllm__end_to_end':
-                    row = preprocessing_range_tattllm__end_to_end(row, args.dataset)
+                if model == 'tatllm__end_to_end' or model == 'tatllm__step_wise':
+                    row = preprocessing_range_tattllm(row, args.dataset)
 
             # Check extact match
             if row['value'] == row['response']:
@@ -110,9 +110,6 @@ if __name__ == '__main__':
                 results.loc[i, 'correct'] = any(
                     check_number(row['value'].strip('%'), e, percentage=percentage) for e in el
                 )
-                if any(row['value'] in e for e in el):
-                    results.loc[i, 'correct'] = True
-
 
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (((any(c in row['value'] or c in row['response'] for c in ['.', '%']) and

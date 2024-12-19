@@ -671,7 +671,7 @@ index,question,value,response,correct
 765,How much were the petroleum products GHG emissions in 2019 in Mt CO2e?,335,335.0,True
 766,What were the petroleum products GHG emissions in 2020 in Mt CO2e?,320,285.0,False
 767,What were the petroleum products GHG emissions in 2021 in Mt CO2e?,285,285.0,True
-768,What is the value of petroleum products GHG emissions in 2022 in Mt CO2e?,254,254_(246),True
+768,What is the value of petroleum products GHG emissions in 2022 in Mt CO2e?,254,254_(246),False
 769,What were the petroleum products GHG emissions in 2023 in Mt CO2e?,227,227.0,True
 770,What were the gas GHG emissions in 2015 in Mt CO2e?,60,60.0,True
 771,How much were the gas GHG emissions in 2019 in Mt CO2e?,75,75.0,True
@@ -691,7 +691,7 @@ index,question,value,response,correct
 785,What was the contribution of Upstream leased assets in 2022 in Mt CO2e?,0,0.0,True
 786,How much did Downstream transportation contribute in 2022 in Mt CO2e?,1,9.0,False
 787,What was the value of Processing of sold products in 2023 in Mt CO2e?,5,5.0,True
-788,What was the amount for Use of sold products in 2022 in Mt CO2e?,389,389.(381),True
+788,What was the amount for Use of sold products in 2022 in Mt CO2e?,389,389.(381),False
 789,How much did End of life treatment of sold products contribute in 2023 in Mt CO2e?,10,10.0,True
 790,What was the value for Downstream leased assets in 2022 in Mt CO2e?,nan,nan,True
 791,What was the contribution of Franchises in 2022 in Mt CO2e?,<1,<1.0,True

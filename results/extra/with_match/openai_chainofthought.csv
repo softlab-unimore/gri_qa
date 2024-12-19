@@ -577,7 +577,7 @@ index,question,value,response,correct
 575,What was the value of Scope 1+2 emissions on operated activities in 2022 in Mt CO2e?,40, 40,True
 576,What was the value of Scope 1+2 emissions on operated activities in 2023 in Mt CO2e?,35, 35,True
 577,What is the target range for Scope 1+2 emissions on operated activities by 2025 in Mt CO2e?,<38, <38,True
-578,What is the target range for Scope 1+2 emissions on operated activities by 2030 in Mt CO2e?,25-30, 25-30,False
+578,What is the target range for Scope 1+2 emissions on operated activities by 2030 in Mt CO2e?,25-30, 25-30,True
 579,What was the value of methane emissions on operated activities in 2022 in kt CH4?,42, 42,True
 580,What was the value of methane emissions on operated activities in 2023 in kt CH4?,34, 34,True
 581,What is the target reduction for methane emissions in kt CH4 on operated activities by 2025 in percentage?,-50, 50,False
@@ -1807,7 +1807,7 @@ index,question,value,response,correct
 1805,What was the percentage reduction in CO2 emissions for the year 2020?,13.76, 0,False
 1806,How did the CO2 emissions reduction in 2021 compare to the target achievement for that year (%)?,200.00, -3.14% compared to 200.00%,True
 1807,What was the percentage reduction in CO2 emissions for the year 2022?,-11.41, 11.41,True
-1808,How did the CO2 emissions reduction in 2023 compare to the target achievement for that year (%)?,110.67, -1.66% compared to 110.67%.,True
+1808,How did the CO2 emissions reduction in 2023 compare to the target achievement for that year (%)?,110.67, -1.66% compared to 110.67%.,False
 1809,Which suppliers were selected based on environmental criteria?,lufthansa airlines frankfurt and munich, 4,False
 1810,Can you name a supplier evaluated for environmental impacts?,lufthansa cityline gmbh, lufthansa airlines frankfurt and munich,False
 1811,Which supplier has been identified as having significant negative environmental impacts?,austrian airlines, lufthansa cargo ag,False
@@ -1978,20 +1978,20 @@ index,question,value,response,correct
 1976,"What is the range of electricity power consumption for the BMW XM, from the highest to the lowest in kilowatt-hours per 100 kilometers?",33.6 - 32.5, 33.6 - 32.5,True
 1977,What is the electric range for the BMW XM at its maximum and minimum values?,76 - 83, 76 - 83,True
 1978,What is the highest and lowest fuel consumption in liters per 100 kilometers for the BMW XM Label Red?,2.0 - 1.6," 2.0, 1.6",False
-1979,What are the maximum and minimum CO emissions for the BMW XM Label Red in grams per kilometer?,45-35, 45-35,False
+1979,What are the maximum and minimum CO emissions for the BMW XM Label Red in grams per kilometer?,45-35, 45-35,True
 1980,What is the max-min electricity power consumption range in kWh/100 km for the BMW XM Label Red?,33.5 - 32.5, 32.5 - 33.5,False
 1981,How far can the BMW XM Label Red travel on electric power at its highest and lowest range?,76 - 82, 82 - 76,False
-1982,What is the fuel consumption (max and min) for the BMW XM 50e in liters per 100 kilometers?,1.7-1.3, 1.7-1.3,False
+1982,What is the fuel consumption (max and min) for the BMW XM 50e in liters per 100 kilometers?,1.7-1.3, 1.7-1.3,True
 1983,What are the maximum and minimum CO emissions in g/km for the BMW XM 50e?,37 - 30," 37, 30",False
 1984,How does the electricity power consumption in kWh/100 km for the BMW XM 50e vary between its max and min values?,32.2 - 31.5, 0.7,False
 1985,"What is the electric range for the BMW XM 50e, from maximum to minimum?",78 - 84, 84 - 78,False
-1986,What is the fuel consumption in liters per 100 kilometers for the BMW Z4 Roadster sDrive20i at its max and min values?,7.4-6.9, 7.4-6.9,False
-1987,What are the maximum and minimum CO emissions in g/km for the BMW Z4 Roadster sDrive20i?,167-157, 167-157,False
-1988,What is the max-min fuel consumption range in liters per 100 kilometers for the BMW Z4 Roadster M40i?,8.1-7.9, 8.1-7.9,False
+1986,What is the fuel consumption in liters per 100 kilometers for the BMW Z4 Roadster sDrive20i at its max and min values?,7.4-6.9, 7.4-6.9,True
+1987,What are the maximum and minimum CO emissions in g/km for the BMW Z4 Roadster sDrive20i?,167-157, 167-157,True
+1988,What is the max-min fuel consumption range in liters per 100 kilometers for the BMW Z4 Roadster M40i?,8.1-7.9, 8.1-7.9,True
 1989,What are the highest and lowest CO emissions in g/km for the BMW Z4 Roadster M40i?,184 - 179," 184, 179",False
 1990,What is the fuel consumption for the MINI Cooper at its maximum and minimum in liters per 100 kilometers?,14.3 - 13.8, 14.3 - 13.8,True
 1991,How much CO emissions in g/km does the MINI Cooper emit at its highest and lowest?,293 - 305, 305 - 293,False
-1992,What is the electricity power consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (until model year 2023) at both the maximum and minimum levels?,17.6-15.4, 17.6-15.4,False
+1992,What is the electricity power consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (until model year 2023) at both the maximum and minimum levels?,17.6-15.4, 17.6-15.4,True
 1993,What is the max-min range of electric range for the MINI Cooper SE (until model year 2023)?,203 - 232, 29,False
 1994,What is the highest and lowest electricity consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (from model year 2024)?,14.7-14.1," 14.7, 14.1",False
 1995,How far can the MINI Cooper SE (from model year 2024) travel on electric power at its highest and lowest ranges?,387 - 402, 387 - 402,True
