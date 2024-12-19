@@ -88,16 +88,17 @@ if __name__ == '__main__':
             if not args.end_to_end else create_prompt_end_to_end(table, row["question"])
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
-        # if encoding['input_ids'].shape[1] < 1024:
-        outputs = model.generate(**encoding, max_length=4096)
-        response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
-
-        try:
-            response_value = response[0].split('The answer is: ')[2].split(' ###')[0]
-            print(f'Q{i}: {row["value"]} - {response_value}')
-        except:
-            response_value = "No answer in the response"
-            print(f'Q{i}: {row["value"]} - No answer in the response')
+        if encoding['input_ids'].shape[1] < 4096:
+            outputs = model.generate(**encoding, max_length=4096)
+            response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+            try:
+                response_value = response[0].split('The answer is: ')[2].split(' ###')[0]
+                print(f'Q{i}: {row["value"]} - {response_value}')
+            except:
+                response_value = "No answer in the response"
+                print(f'Q{i}: {row["value"]} - No answer in the response')
+        else:
+            response_value = "Response too long"
 
         results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
 
