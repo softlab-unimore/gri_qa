@@ -1659,7 +1659,7 @@ index,question,value,response,correct
 1990,What is the fuel consumption for the MINI Cooper at its maximum and minimum in liters per 100 kilometers?,14.3 - 13.8,13.8 and 14.3,False
 1992,What is the electricity power consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (until model year 2023) at both the maximum and minimum levels?,17.6-15.4,14.8147,False
 1993,What is the max-min range of electric range for the MINI Cooper SE (until model year 2023)?,203 - 232,13.8,False
-1994,What is the highest and lowest electricity consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (from model year 2024)?,14.7-14.1,14.7-14.1,False
+1994,What is the highest and lowest electricity consumption in kilowatt-hours per 100 kilometers for the MINI Cooper SE (from model year 2024)?,14.7-14.1,14.7-14.1,True
 1995,How far can the MINI Cooper SE (from model year 2024) travel on electric power at its highest and lowest ranges?,387 - 402,141.0,False
 1996,What is the electricity power consumption for the MINI Cooper SE Cabrio in kilowatt-hours per 100 kilometers?,17.2,14.7,False
 1997,What is the electric range of the MINI Cooper SE Cabrio?,201,17.2,False

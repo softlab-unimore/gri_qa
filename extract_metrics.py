@@ -14,6 +14,7 @@ def preprocessing_range_tablellama(row):
 
 def preprocessing_range_finma(row):
     row['response'] = row['response'].replace('and', '-')
+    row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
     return row
 
 def preprocessing_range_tattllm__end_to_end(row):
@@ -38,10 +39,8 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
     args = parser.parse_args()
 
-    # models = ['tatllm', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
+    # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai']
     models = ['tatllm__end_to_end', 'tapex', 'tablellama', 'finma', 'openai']
-    # models = ['finma', 'tapex', 'tablellama', 'openai', 'tatllm__end_to_end']
-    # models = ['tatllm__end_to_end']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
