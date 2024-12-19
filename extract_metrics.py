@@ -4,12 +4,15 @@ from argparse import ArgumentParser
 
 import pandas as pd
 
-def preprocessing_range_tablellama(row):
+def preprocessing_range_tablellama(row, dataset):
     row['response'] = re.sub(r'[<>]', '', row['response'])
-    row['response'] = re.sub(r'[,]', ' -', row['response'])
-    row['response'] = re.sub(r'(\d+(\.\d+)?)-(\d+(\.\d+)?)', r'\1 - \3', row['response'])
-    row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['response'])
-    row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['value'])
+
+    if dataset == 'extra':
+        row['response'] = re.sub(r'[,]', ' -', row['response'])
+        row['response'] = re.sub(r'(\d+(\.\d+)?)-(\d+(\.\d+)?)', r'\1 - \3', row['response'])
+
+    row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['response'])
+    row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['value'])
     return row
 
 def preprocessing_range_finma(row):
@@ -23,8 +26,8 @@ def preprocessing_range_tattllm__end_to_end(row, dataset):
         row['value'] = re.sub(r'[-–—]', '-', row['value'])
     elif dataset == 'rel':
         row['response'] = row['response'].replace('#', ', ')
-        row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['response'])
-        row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.1f}", row['value'])
+        row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['response'])
+        row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.2f}", row['value'])
     return row
 
 def check_number(value, response, percentage=False):
@@ -76,7 +79,7 @@ if __name__ == '__main__':
             if range:
                 row['value'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['value'])
                 if model == 'tablellama':
-                    row = preprocessing_range_tablellama(row)
+                    row = preprocessing_range_tablellama(row, args.dataset)
                 if model == 'finma':
                     row = preprocessing_range_finma(row)
                 if model == 'tatllm__end_to_end':
