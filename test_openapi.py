@@ -107,9 +107,10 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
     """
     # Load initial QA data and prepare index
     df_qa = pd.read_csv(qa_file)
-    df_qa = df_qa[['question', 'pdf name', 'page nbr', 'table nbr', 'value']].astype(str)
-    df_qa['index'] = np.arange(len(df_qa))
     df_qa = df_qa[df_qa.iloc[:, 2] != 2.0]
+    df_qa['index'] = df_qa.index
+    df_qa = df_qa[['index', 'question', 'pdf name', 'page nbr', 'table nbr', 'value' ]].astype(str)
+    df_qa = df_qa.reset_index(drop=True)
 
     # Initialize CodeCarbon tracker
     os.makedirs(save_dir, exist_ok=True)
@@ -120,7 +121,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
     predictions = []
     for i, row in df_qa.iterrows():
 
-        print(f'Q{i} - {row["question"]}')
+        print(f'Q{row["index"]} - {row["question"]}')
 
         pdf_name, page_num, table_num = row['pdf name'], row['page nbr'], row['table nbr']
         pdf_name = pdf_name.replace('.pdf', '')
@@ -153,7 +154,7 @@ if __name__ == '__main__':
 
     config = ConfigParser()
     config.read('config.ini')
-    os.environ['OPENAI_API_KEY'] = config.get('OPENAI_KEY', 'openai-api-key')
+    os.environ['OPENAI_API_KEY'] = config.get('TOKEN', 'token_openai')
 
     dataset_name = re.split("[_.]", args.dataset)[1]
 
