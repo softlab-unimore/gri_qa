@@ -65,7 +65,6 @@ if __name__ == '__main__':
 
         for i, row in results.iterrows():
 
-            # if row['index'] == 619:
             row['response'] = row['response'].split('###')[0]
             row['response'] = row['response'].strip(' |()\n\r')
             row['response'] = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', row['response'])
@@ -106,6 +105,7 @@ if __name__ == '__main__':
 
             # Check for response with multiple words
             elif ((any(r.isalpha() for r in row['response'])) or (any(c in row['response'] for c in ['(', ')']))) and args.dataset == 'extra':
+                row['response'] = re.sub(r"(?<=\d)#(?=[a-zA-Z])", " ", row['response'])
                 el = [c.strip('%()') for c in row['response'].split(' ')]
                 results.loc[i, 'correct'] = any(
                     check_number(row['value'].strip('%'), e, percentage=percentage) for e in el

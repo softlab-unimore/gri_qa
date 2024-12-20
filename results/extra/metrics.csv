@@ -1,6 +1,6 @@
 model,em
-tatllm__end_to_end,0.60848
-tatllm__step_wise,0.79501
+tatllm__end_to_end,0.60998
+tatllm__step_wise,0.79551
 tapex,0.52269
 tablellama,0.71471
 finma,0.24688
