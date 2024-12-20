@@ -136,7 +136,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
         pred = answer(row['question'], table, qa_file)
         predictions.append(pred)
 
-        print(f'Q{i}: {row["value"]} - {pred}')
+        print(f'Q{row["index"]}: {row["value"]} - {pred}')
 
     # Create response column
     df_qa['response'] = predictions
