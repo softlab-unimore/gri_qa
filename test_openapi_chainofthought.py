@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
     config = ConfigParser()
     config.read('config.ini')
-    os.environ['OPENAI_API_KEY'] = config.get('OPENAI_KEY', 'openai-api-key')
+    os.environ['OPENAI_API_KEY'] = config.get('TOKEN', 'token_openai')
 
     dataset_name = re.split("[_.]", args.dataset)[1]
 
