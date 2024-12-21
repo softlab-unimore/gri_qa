@@ -4,6 +4,13 @@ from argparse import ArgumentParser
 
 import pandas as pd
 
+def preprocessing_range(row):
+    row['value'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['value'])
+    row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
+    row['value'] = re.sub(r'[–—]', '-', row['value'])
+    row['response'] = re.sub(r'[–—]', '-', row['response'])
+    return row
+
 def preprocessing_range_tablellama(row, dataset):
     row['response'] = re.sub(r'[<>]', '', row['response'])
 
@@ -33,6 +40,8 @@ def preprocessing_range_tattllm(row, dataset):
 
 def preprocessing_range_openai(row, dataset):
     row['response'] = re.sub(r"(\d+\.\d+)\s+(\d+\.\d+)", r"\1 - \2", row['response'])
+    row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['response'])
+    row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['value'])
     return row
 
 def check_number(value, response, percentage=False):
@@ -82,10 +91,7 @@ if __name__ == '__main__':
 
             # Check for range
             if range:
-                row['value'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['value'])
-                row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
-                row['value'] = re.sub(r'[–—]', '-', row['value'])
-                row['response'] = re.sub(r'[–—]', '-', row['response'])
+                row = preprocessing_range(row)
                 if model == 'tablellama':
                     row = preprocessing_range_tablellama(row, args.dataset)
                 if model == 'finma':

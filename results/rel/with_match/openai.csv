@@ -1,15 +1,15 @@
 index,question,value,response,correct
 0,Is the maximum amount of total waste higher in 2022 than in 2023?,yes,no,False
-1,"Among 2019, 2022 and 2023, what are the two lowest amounts of unsorted waste (T) in decreasing order?","2757.0, 1955.0","2757, 1955",False
+1,"Among 2019, 2022 and 2023, what are the two lowest amounts of unsorted waste (T) in decreasing order?","2757.0, 1955.0","2757, 1955",True
 2,"What is the minimum total waste in tons recorded in the years 2019, 2022 and 2023?",4350,4350,True
 3,What are the two lowest values of total waste in tons for the years 2019 and 2022?,"4350.0, 5070.0","5070, 4350",False
 4,"In 2023, is the amount of Mwh between on site generated renewable electricity higher than energy consumption by heating?",yes,yes,True
 5,"What are the amounts of energy consumption in MWh for the year 2022, ranked in descending order?","107019.0, 77831.0, 33245.0, 2829.0, 855.0, 0.0, 0.0, 0.0","107019, 77831, 33245, 2829, 855, 0",False
 6,Is the estimated energy consumption from purchased renewable electricity lower than grid electricity in MWh for the year 2023?,yes,no,False
 7,"What is the minimum estimated energy consumption from district heating in MWh for the years 2023, 2022, and 2021?",2490,"2490, 2829, 5491",False
-8,"What are the two lowest values of fuel oil electricity consumption in MWh for the years 2023, 2022 and 2021 in increasing order?","797.0, 855.0","797, 855",False
+8,"What are the two lowest values of fuel oil electricity consumption in MWh for the years 2023, 2022 and 2021 in increasing order?","797.0, 855.0","797, 855",True
 9,"What is the highest estimated energy consumption from gas in MWh for the years 2021, 2022, and 2023?",49674,49674,True
-10,"What are the two lowest values in decreasing order of energy consumption from coal measured in MWh for the years 2023, 2022 and 2021?","0.0, 0.0","0, 0",False
+10,"What are the two lowest values in decreasing order of energy consumption from coal measured in MWh for the years 2023, 2022 and 2021?","0.0, 0.0","0, 0",True
 11,Is the value of energy consumption from renewable fuel and heat in MWh in 2022 lower than in 2021?,no,no,True
 12,Is the estimated energy consumption from purchased renewable electricity higher than the energy consumption from renewable electricity generated on site in MWh in 2023?,yes,yes,True
 13,What are the two highest values of purchased renewable electricity and gas consumption in MWh for the year 2023 in descending order?,"77831.0, 33245.0",72632 21008,False
@@ -29,12 +29,12 @@ index,question,value,response,correct
 27,What are the values of energy consumption from renewable and non-renewable sources in Mwh in 2021 in descending order?,"670287, 655204","707033, 417294",False
 28,Is the estimated total energy consumption from fuel oil in MWh in 2023 lower than the one in 2021?,no,yes,False
 29,Is the value of surface water withdrawals in cubic meters in 2022 higher than in 2023?,no,no,True
-30,What are the amounts of groundwater withdrawals in cubic meters ranked in descending order?,"513631.0, 492308.0, 472199.0, 452602.0","513631, 492308, 472199, 452602",False
+30,What are the amounts of groundwater withdrawals in cubic meters ranked in descending order?,"513631.0, 492308.0, 472199.0, 452602.0","513631, 492308, 472199, 452602",True
 31,Is the total water withdrawals from third party sources in cubic meters 2021 lower than in 2023?,no,yes,False
 32,"What was the minimum amount of water withdrawal between surface water, groundwater, third party or other sources in 2020?",11578,11578,True
 33,"What are the amounts of water withdrawal between surface water, groundwater, third party or other sources in 2021 ranked in ascending order?","19156, 31870, 513631, 1507606","17699, 31870, 513631, 1507606",False
 34,"What are the top two values of specific water sources from the year 2021, ranked in descending order?","1507606.0, 930603.0","1507606, 513631",False
-35,"What are the four total water withdrawals from third-party sources for the years 2023, 2022, 2021 and 2020 in increasing order?","1377377.0, 1388474.0, 1446391.0, 1507606.0","1377377, 1388474, 1446391, 1507606",False
+35,"What are the four total water withdrawals from third-party sources for the years 2023, 2022, 2021 and 2020 in increasing order?","1377377.0, 1388474.0, 1446391.0, 1507606.0","1377377, 1388474, 1446391, 1507606",True
 36,Is the value of water withdrawals from surface waters lower than the amount of water withdrawal from other sources in cubic meters for the year 2020?,no,no,True
 37,"Between different water withdrawal sources in 2023, what is the highest amount of water withdrawn in m3?",1377377,1377377,True
 38,What was the minimum water withdrawal per million euros for the years 2020 to 2023?,52.9,52.9,True
@@ -44,11 +44,11 @@ index,question,value,response,correct
 42,Is the value of direct Scope 1 GHG emissions greater than the Scope 3 emissions in TCO2e for the year 2023?,no,no,True
 43,What are the top two amounts of GHG Scope 2 emissions by source in TCO2e in 2022 ranked in descending order?,"50995, 49674","109730, 89440",False
 44,What is the minimum value of the direct (Scope 1) GHG emissions from gas for the years 2020 to 2023?,38968,38968,True
-45,"What are the lowest values of direct (Scope 1) GHG emissions from coal for the years 2023, 2022, 2021, and 2020 in descending order?","0.0, 0.0, 0.0, 0.0","0, 0, 0, 0",False
+45,"What are the lowest values of direct (Scope 1) GHG emissions from coal for the years 2023, 2022, 2021, and 2020 in descending order?","0.0, 0.0, 0.0, 0.0","0, 0, 0, 0",True
 46,What was the highest value of GHG emissions from the vehicle fleet (Scope 1) reported in the years 2020 to 2023?,73229,73229,True
 47,Is the value of SF6 emissions recorded in the year 2022 higher than the one recorded in 2020?,no,no,True
 48,What is the minimum estimated Scope 1 GHG emissions of sites out of the reporting perimeter in TCO2e for the years 2020 to 2023?,5162,5162,True
-49,"What are the total Scope 2 GHG emissions in TCO2e for the years 2023, 2022, 2021, and 2020, ranked in ascending order?","89440.0, 109730.0, 145207.0, 153115.0","89440, 109730, 145207, 153115",False
+49,"What are the total Scope 2 GHG emissions in TCO2e for the years 2023, 2022, 2021, and 2020, ranked in ascending order?","89440.0, 109730.0, 145207.0, 153115.0","89440, 109730, 145207, 153115",True
 50,What was the maximum value of grid electricity (market-based) GHG emissions in TCO2e reported for the years 2020 to 2023?,70145,70145,True
 51,Is the value of the market-based renewable electricity GHG emissions in TCO2e in the year 2021 higher than the one in 2022?,no,no,True
 52,What are the two highest values of district heating GHG emissions (in TCO2e) reported for the years 2023 and 2022 in descending order?,"14714.0, 11550.0","202232, 229177",False
@@ -67,9 +67,9 @@ index,question,value,response,correct
 65,What is the minimum value of the GHG Scope 2 emissions from grid electricity (market-based) for the years 2020 to 2023?,39476,39476,True
 66,Is the value of the GHG Scope 2 market-based emissions from renewable electricity in 2021 higher than in 2020?,yes,no,False
 67,What are the two highest values of district heating GHG emissions (in TCO2e) reported in the years 2020 and 2023 in decreasing order?,"14714.0, 11550.0","11550, 4853",False
-68,"In ascending order, what are the values of estimated Scope 2 GHG emissions of sites out of the reporting perimeter for the years 2023, 2022, 2021 and 2020?","42961.0, 50995.0, 62818.0, 71008.0","42961, 50995, 62818, 71008",False
+68,"In ascending order, what are the values of estimated Scope 2 GHG emissions of sites out of the reporting perimeter for the years 2023, 2022, 2021 and 2020?","42961.0, 50995.0, 62818.0, 71008.0","42961, 50995, 62818, 71008",True
 69,Is the value of energy indirect Scope 2 GHG emissions lower than the other relevant indirect Scope 3 GHG emissions for the year 2023?,yes,no,False
-70,"In descending order, what are the amounts of metric tons of the two types of non-hazardous waste management methods associated with the largest amounts of waste generated?","105593.0, 6871","105593, 6871",False
+70,"In descending order, what are the amounts of metric tons of the two types of non-hazardous waste management methods associated with the largest amounts of waste generated?","105593.0, 6871","105593, 6871",True
 71,Is the amount of generated hazardous waste higher than the amount of hazardous waste channeled according to Schneider electric in 2020?,yes,no,False
 72,What is the minimum amount of hazardous waste generated in metric tons by the company from 2020 to 2023?,7573,7573,True
 73,"What are the amounts of non-hazardous waste generated and then recycled in metric tons for the years 2021, 2022, 2023, ranked in ascending order?","105593.0, 111567.0, 113211.0, 115550.0","2021: 128267, 115550; 2022: 123311, 111567; 2023: 116566, 105593",False
@@ -108,7 +108,7 @@ index,question,value,response,correct
 106,Is the value of the Global Energy Efficiency Indicator (GEEI) in 2019 higher than the one in 2020?,no,no,True
 107,What are the two highest values in descending order of the Global Energy Efficiency Indicator (GEEI) from the years 2015 to 2022?,"90.8, 90.2","90.8, 90.2",True
 108,Is the value of the Global Energy Efficiency Indicator (GEEI) in 2015 lower than in 2019?,no,yes,False
-109,"What are the values of net primary energy consumption (TWh) from 2015 to 2023, ranked in ascending order?","147.0, 148.0, 153.0, 157.0, 160.0, 166.0","147, 148, 153, 157, 160, 166",False
+109,"What are the values of net primary energy consumption (TWh) from 2015 to 2023, ranked in ascending order?","147.0, 148.0, 153.0, 157.0, 160.0, 166.0","147, 148, 153, 157, 160, 166",True
 110,Is the number of operated sites with annual consumption greater than 50 ktoe in 2020 lower than in 2021?,yes,yes,True
 111,What is the minimum value of the Global Energy Efficiency Indicator (GEEI) from the years 2015 to 2023?,85.1,85.1,True
 112,Is the value of the Global Energy Efficiency Indicator (GEEI) for the years 2020 higher than the one in 2021?,yes,no,False
@@ -125,15 +125,15 @@ index,question,value,response,correct
 123,Is the value of onshore continuous water discharges hydrocarbon content in 2019 greater than in 2022?,no,no,True
 124,"What are the two values of methane emissions intensity from operated oil and gas facilities in 2023 and 2022, ranked in descending order?","88.0, 87.0","0.11, 0.11",False
 125,Is the intensity of GHG emissions (Scope 1+2) of operated upstream oil and gas activities in 2023 lower than in 2015?,no,yes,False
-126,"What are the ranked values of the intensity of GHG emissions (Scope 1+2) of operated upstream facilities for the years 2023, 2022, 2021, and the base year 2015, when the values are sorted in ascending order?","17.0, 17.0, 17.0, 21.0","17, 17, 17, 21",False
+126,"What are the ranked values of the intensity of GHG emissions (Scope 1+2) of operated upstream facilities for the years 2023, 2022, 2021, and the base year 2015, when the values are sorted in ascending order?","17.0, 17.0, 17.0, 21.0","17, 17, 17, 21",True
 127,"What is the minimum value of indirect GHG emissions in Mt CO2e for the year 2015 among the categories ""of which Europe: EU 27 + Norway + UK + Switzerland,"" ""Oil,"" and ""Gas""?",60,60,True
 128,"What are the two highest values of other indirect GHG emissions in Mt CO2e for the year 2023 from the categories Gas, Oil, and Biofuels in decreasing order?","227, 124","227, 124",True
 129,"What is the maximum value of other indirect GHG emissions in Mt CO2e for the year 2015 among Biofuels, Europe (EU 27 + Norway + UK + Switzerland), and Gas?",256,410,False
 130,"What are the top three values of other indirect GHG emissions in 2022 from the rows ""Biofuels"" ""Oil,"" and ""Europe: EU 27 + Norway + UK + Switzerland,"" ranked in descending order?","254, 191, 4","254, 191, 4",True
 131,Is the value of Scope 3 emissions in 2015 lower than the oil emissions in the same year?,no,no,True
-132,"What are the top three values from the 2015 column for the rows ""Scope 3,"" ""Oil,"" and ""Gas"" ranked in descending order?","410.0, 350.0, 60.0","410, 350, 60",False
+132,"What are the top three values from the 2015 column for the rows ""Scope 3,"" ""Oil,"" and ""Gas"" ranked in descending order?","410.0, 350.0, 60.0","410, 350, 60",True
 133,"What are the highest two values of the GHG emissions from gas in the years 2023, 2022, 2021, 2015 when ranked in descending order?","130, 124","400, 410",False
-134,What are the two lowest values between gas emissions and petroleum products emissions for the year 2015?,"60.0, 350.0","60, 350",False
+134,What are the two lowest values between gas emissions and petroleum products emissions for the year 2015?,"60.0, 350.0","60, 350",True
 135,"What are the top four values of indirect GHG emissions from petroleum products in the years 2023, 2022, 2021 and 2015, when ranked in descending order?","130.0, 124.0, 115.0, 60.0","410, 400, 389, 355",False
 136,Is the value of the indirect GHG emissions from gas in 2015 lower than the one in 2022?,yes,no,False
 137,"What are the four values of indirect GHG emissions from petroleum products for the years 2015, 2021, 2022, and 2023 in ascending order?","60.0, 115.0, 124.0, 130.0","227, 254, 285, 350",False
@@ -142,7 +142,7 @@ index,question,value,response,correct
 140,"What is the maximum value of indirect GHG emissions in Mt CO2e for the year 2015 among Petroleum products, and Gas?",350,350,True
 141,Is the value of indirect european GHG emissions in Mt CO2e for the year 2019 higher than the amount of petroleum products emissions in the same year?,no,no,True
 142,"In ascending order, what are the four lowest values of indirect GHG emissions in Mt CO2e for the year 2022 from the categories “Biofuels”, ""Gas,"" ""of which Europe: EU 27 + Norway + UK + Switzerland,"" and ""Petroleum products""?","4.0, 124.0, 216.0, 227.0","4, 130, 191, 254",False
-143,What are the two values of indirect GHG emissions in Mt CO2e for the year 2023 between gas and biofuels in increasing order?,"4.0, 124.0","4, 124",False
+143,What are the two values of indirect GHG emissions in Mt CO2e for the year 2023 between gas and biofuels in increasing order?,"4.0, 124.0","4, 124",True
 144,Is the value of indirect GHG gas emissions greater than the emissions due to petroleum products in 2019?,no,no,True
 145,"What is the minimum value of indirect GHG emissions in Mt CO2e for the year 2015 among Europe emissions, petroleum emissions and gas emissions?",60,60,True
 146,"What is the maximum value of indirect GHG emissions in Mt CO2e for the year 2023 among Europe emissions, petroleum emissions, gas emissions and biofuels emissions?",227,355,False
@@ -151,19 +151,19 @@ index,question,value,response,correct
 149,"In decreasing order, what are the top six ranked estimates of indirect GHG emissions (in Mt CO2e) for the categories of fuel and energy related activities, upstream transportation, downstream transportation, end of life treatment, upstream leased assets, and processing of sold products for the year 2022?","11.0, 9.0, 6.0, 3.0, 1.0, 0.0","389, 30, 11, 10, 9, 6",False
 150,Is the estimate of indirect GHG emissions in Mt CO2e from capital goods lower than the estimate for fuel/energy related activities in the year 2023?,yes,no,False
 151,Is the estimate of indirect GHG emissions from fuel/energy related activities for the year 2022 lower than in 2023?,yes,no,False
-152,What are the two estimates of indirect GHG emissions for upstream transportation between 2022 and 2023 in increasing order?,"8.0, 9.0","8, 9",False
+152,What are the two estimates of indirect GHG emissions for upstream transportation between 2022 and 2023 in increasing order?,"8.0, 9.0","8, 9",True
 153,"Is the estimate of indirect GHG emissions for the category ""upstream leased assets"" in the year 2022 lower than in 2023?",no,no,True
 154,"What is the minimum estimate of indirect GHG emissions in Mt CO2e for the year 2022 among purchased goods and services, fuel-and-energy-related activities, upstream transportation, upstream leased assets, processing of sold products, and end of life treatment of sold products?",0,0,True
 155,What are the highest 5 estimates of MtCO2e in increasing order in 2023?,"5, 8, 10, 27, 355","1, 3, 4, 8, 10, 27, 355",False
 156,Is the value of indirect GHG emissions in Mt CO2e for end of life treatment emissions greater than the value of the processing of sold products emissions in the year 2023?,yes,yes,True
-157,What are the two values of indirect GHG emissions in Mt CO2e for end of life treatment of sold products and upstream transportation in 2022 in decreasing order?,"11.0, 9.0","11, 9",False
+157,What are the two values of indirect GHG emissions in Mt CO2e for end of life treatment of sold products and upstream transportation in 2022 in decreasing order?,"11.0, 9.0","11, 9",True
 158,Is the estimate of indirect GHG emissions from upstream transportation in Mt CO2e for the year 2022 higher than in 2023?,yes,no,False
 159,Is the value of the indirect GHG emissions in 2022 from downstream transportation lower than from upstream transportation?,yes,no,False
 160,Is the value in Mt CO2e of the indirect GHG emissions for end of life treatment of sold products higher than for generated waste for the year 2023?,yes,no,False
-161,What are the two values of hazardous waste and non-hazardous waste processed in kilotonnes in 2019 when ranked in ascending order?,"288.0, 375.0","288, 375",False
+161,What are the two values of hazardous waste and non-hazardous waste processed in kilotonnes in 2019 when ranked in ascending order?,"288.0, 375.0","288, 375",True
 162,Is the value of the total volume of processed waste in 2020 greater than the hazardous waste in 2020?,yes,no,False
 163,What is the minimum volume of non-hazardous waste processed by the company from 2019 to 2023?,303,303,True
-164,What are the three smallest values of hazardous waste processed in the years 2019 to 2022 in increasing order?,"165.0, 176.0, 198.0","165, 176, 198",False
+164,What are the three smallest values of hazardous waste processed in the years 2019 to 2022 in increasing order?,"165.0, 176.0, 198.0","165, 176, 198",True
 165,What was the highest volume of non-hazardous waste processed by the company in the years 2019 to 2023?,375,375,True
 166,Is the amount of hazardous waste processed in kilotons in 2022 higher than in 2023?,no,no,True
 167,Is the volume of waste processed in 2019 for non-hazardous waste greater than for hazardous waste?,yes,yes,True
@@ -174,21 +174,21 @@ index,question,value,response,correct
 172,What was the highest volume per year of hazardous waste processed by the company in the years from 2019 to 2023?,288,662,False
 173,What is the minimum volume per year of non-hazardous waste processed by the company from 2019 to 2023?,303,303,True
 174,Is the amount of hazardous waste per year processed in kilotons for the year 2020 higher than for 2023?,no,no,True
-175,"What are the lowest three values of energy consumption (Scopes 1 and 2) from the years 2019, 2021, and 2023 in increasing order?","26199.0, 30486.0, 35056.0","26199, 30486, 35056",False
+175,"What are the lowest three values of energy consumption (Scopes 1 and 2) from the years 2019, 2021, and 2023 in increasing order?","26199.0, 30486.0, 35056.0","26199, 30486, 35056",True
 176,"What are the top three percentages of valid compliance training certificates from the years 2019, 2021, and the latest available year, ranked in descending order?","39.36, 33.27, 33.2","98.60, 98.1, 96.5",False
 177,"What is the maximum energy consumption (in million kWh) recorded in the years 2019, 2021, and 2023?",35056,35056,True
-178,What are the top two values of energy consumption (MWh) for the years 2022 and 2023 in decreasing order?,"82766.0, 71218.0","82766, 71218",False
+178,What are the top two values of energy consumption (MWh) for the years 2022 and 2023 in decreasing order?,"82766.0, 71218.0","82766, 71218",True
 179,Is the energy consumption in MWh for the year 2022 lower than for 2023?,yes,no,False
 180,Is the quantity of carbon credits acquired during the year in 2022 lower than in 2023?,yes,no,False
-181,"What are the energy consumption values in MWh for the years 2023 and 2022, ranked in ascending order?","71218.0, 82766.0","71218, 82766",False
+181,"What are the energy consumption values in MWh for the years 2023 and 2022, ranked in ascending order?","71218.0, 82766.0","71218, 82766",True
 182,What is the lowest carbon intensity in millions of euros of revenue IFRS reported in the years 2023 and 2022?,31.2,31.2,True
 183,Is the carbon intensity per employee (tCO2eq/employee) in 2023 greater than in 2022?,no,no,True
 184,What are the top two values for carbon intensity per employee (tCO2eq/employee) from the years 2022 and 2023 when ranked in descending order?,"8.2, 8.1","8.2, 8.1",True
-185,"What are the quantities of carbon credits acquired during the years 2022 and 2023, ranked in ascending order?","671.0, 673.0","671, 673",False
+185,"What are the quantities of carbon credits acquired during the years 2022 and 2023, ranked in ascending order?","671.0, 673.0","671, 673",True
 186,Is the quantity of carbon credits acquired during the year 2023 greater than in 2022?,yes,yes,True
 187,Is the quantity of carbon credits acquired during the year in 2022 lower than in 2023?,yes,no,False
 188,Is the total weight of waste (in tons) for the year 2022 higher than for the year 2023?,yes,no,False
-189,"What are the weights of ordinary waste in tons for the year 2022 and 2023, ranked in descending order?","1274.0, 874.0","1274, 874",False
+189,"What are the weights of ordinary waste in tons for the year 2022 and 2023, ranked in descending order?","1274.0, 874.0","1274, 874",True
 190,Is the weight of electrical and electronic waste (in tons) recorded in the year 2022 smaller than the weight recorded in 2023?,yes,no,False
 191,"What are the weights of electrical and electronic waste in tons for the years 2022 and 2023, ranked in ascending order?","47.5, 57.3","47.5, 57.3",True
 192,What is the maximum weight of collected electric and electronic waste (WEEE) in tons reported for the years 2019 to 2023?,57.3,57.3,True
@@ -209,7 +209,7 @@ index,question,value,response,correct
 207,"Independently of group or full consolidated total, what are the top five values of total indirect consumption of energy (in TJ) from the years 2021 to 2023, ranked in descending order?","696.0, 692.0, 380.0, 377.0, 366.0",696 692 377 380 351,False
 208,Is the fully consolidated total consumption of energy (in TJ) in the year 2022 lower than the year 2023?,no,no,True
 209,"What is the minimum value between total, direct and indirect consumption of energy of the group in 2022?",696,377,False
-210,"In 2023, what are the top three values obtained from ranking the total consumption of energy, total direct consumption of energy, and total indirect consumption of energy in descending order for the group?","14715.0, 14334.0, 377.0","14715, 14334, 377",False
+210,"In 2023, what are the top three values obtained from ranking the total consumption of energy, total direct consumption of energy, and total indirect consumption of energy in descending order for the group?","14715.0, 14334.0, 377.0","14715, 14334, 377",True
 211,Is the consumption of fully consolidated energy in TJ in 2023 lower than in 2021?,no,no,True
 212,Is the percentage of group energy from renewable sources higher than full consolidated energy from renewable sources in 2023?,no,no,True
 213,"What is the minimum energy intensity (in TJ/€mln) recorded in the years 2021, 2022, and 2023?",1.2,1.2,True
@@ -220,7 +220,7 @@ index,question,value,response,correct
 218,"In increasing order, what are the three smallest values of fully consolidated electricity self-produced from renewable sources (in MWh) for the years 2021, 2022, and 2023?","298.9, 365.2, 384.3","298.9, 365.2, 384.3",True
 219,What is the highest group total indirect consumption of energy (in MWh) recorded in the years 2021 to 2023?,78551,78551,True
 220,Is the electricity consumed from the grid in MWh from the group greater than the one consumed from fully consolidated scenarios in 2023?,yes,38134,False
-221,"What are the two values of group thermal energy consumed in MWh for the years 2022 and 2023, in descending order?","10066.0, 1977.0","10066, 1977",False
+221,"What are the two values of group thermal energy consumed in MWh for the years 2022 and 2023, in descending order?","10066.0, 1977.0","10066, 1977",True
 222,Is the amount of energy produced from renewable sources in MWh for the year 2023 lower than in 2022?,yes,no,False
 223,"What are the three lowest values of electricity consumption from the grid, thermal energy consumed, and electricity self-produced from renewable sources in MWh for the year 2023 in ascending order?","384.3, 1977.0, 38134.0","384.3, 1977, 13676",False
 224,Is the amount of full consolidated electricity consumed from the grid in MWh for the year 2021 smaller than in 2023?,no,no,True
@@ -246,4 +246,4 @@ index,question,value,response,correct
 244,Is the percentage of more sustainable cotton sourced in the year 2021 smaller than in the year 2022?,no,no,True
 245,Is the percentage of sustainable cotton lower than the one for recycled polyester in 2021?,no,no,True
 246,Is the percentage of sustainable cotton greater than the one for recycled polyester in 2022?,yes,yes,True
-247,"What are the three absolute annual CO2e Scope 1 and Scope 2 net emissions values from the years 2021, 2022, and 2023 in increasing order?","138411.0, 164149.0, 164236.0","138411, 164149, 164236",False
+247,"What are the three absolute annual CO2e Scope 1 and Scope 2 net emissions values from the years 2021, 2022, and 2023 in increasing order?","138411.0, 164149.0, 164236.0","138411, 164149, 164236",True

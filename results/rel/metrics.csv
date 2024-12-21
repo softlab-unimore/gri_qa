@@ -4,5 +4,5 @@ tatllm__step_wise,0.20968
 tapex,0.26613
 tablellama,0.18952
 finma,0.38306
-openai,0.52016
+openai,0.625
 openai_chainofthought,0.71774
