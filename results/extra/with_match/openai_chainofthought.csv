@@ -1964,7 +1964,7 @@ index,question,value,response,correct
 1962,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX xDrive50?,21.3 - 19.5, 21.3 - 19.5,True
 1963,What is the maximum and minimum electric driving range for the BMW iX xDrive50?,587 - 633, 633 - 587,False
 1964,What are the highest and lowest electricity consumption rates in kWh/100 km for the BMW iX M60?,24.7 - 21.9," 24.7, 21.9",False
-1965,What is the maximum and minimum electric driving range for the BMW iX M60?,501 – 564, 501 - 564,False
+1965,What is the maximum and minimum electric driving range for the BMW iX M60?,501 – 564, 501 - 564,True
 1966,What is the highest and lowest electricity power consumption in kilowatt-hours per 100 kilometers for the BMW iX1 xDrive20?,17.2-15.4," highest: 17.2, lowest: 15.4",False
 1967,What is the maximum and minimum electric range for the BMW iX1 xDrive20?,430 - 474, 474 - 430,False
 1968,How much electricity does the BMW iX1 xDrive30 consume in kWh/100 km at its max and min rates?,18.1 - 16.9, 18.1 - 16.9,True

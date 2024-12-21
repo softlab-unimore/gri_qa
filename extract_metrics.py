@@ -31,6 +31,10 @@ def preprocessing_range_tattllm(row, dataset):
         row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['value'])
     return row
 
+def preprocessing_range_openai(row, dataset):
+    row['response'] = re.sub(r"(\d+\.\d+)\s+(\d+\.\d+)", r"\1 - \2", row['response'])
+    return row
+
 def check_number(value, response, percentage=False):
     try:
         if percentage:
@@ -50,7 +54,7 @@ if __name__ == '__main__':
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    # models = ['tatllm__step_wise']
+    # models = ['openai']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -80,12 +84,16 @@ if __name__ == '__main__':
             if range:
                 row['value'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['value'])
                 row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
+                row['value'] = re.sub(r'[–—]', '-', row['value'])
+                row['response'] = re.sub(r'[–—]', '-', row['response'])
                 if model == 'tablellama':
                     row = preprocessing_range_tablellama(row, args.dataset)
                 if model == 'finma':
                     row = preprocessing_range_finma(row, args.dataset)
                 if model == 'tatllm__end_to_end' or model == 'tatllm__step_wise':
                     row = preprocessing_range_tattllm(row, args.dataset)
+                if model == 'openai':
+                    row = preprocessing_range_openai(row, args.dataset)
 
             # Check extact match
             if row['value'] == row['response']:
