@@ -5,6 +5,7 @@ from argparse import ArgumentParser
 import pandas as pd
 
 def preprocessing_range(row):
+    row['response'] = re.sub(r'(?<=\d),(?=\d)', '', row['response'])
     row['value'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['value'])
     row['response'] = re.sub(r'(\d+(\.\d+)?)[-–—](\d+(\.\d+)?)', r'\1 - \3', row['response'])
     row['value'] = re.sub(r'[–—]', '-', row['value'])
@@ -39,7 +40,15 @@ def preprocessing_range_tattllm(row, dataset):
     return row
 
 def preprocessing_range_openai(row, dataset):
-    row['response'] = re.sub(r"(\d+\.\d+)\s+(\d+\.\d+)", r"\1 - \2", row['response'])
+    row['response'] = re.sub(r'[a-zA-Z]+(\d+)', '', row['response'])
+    row['response'] = re.sub(r"[a-zA-Z\u2080-\u2089()/€]", "", row['response']).strip(' ')
+
+    if dataset == 'extra':
+        row['response'] = re.sub(r'(\d+\.\d+)\s+(\d+\.\d+)', r"\1 - \2", row['response'])
+    else:
+        row['response'] = re.sub(r'(\d+)\s+(\d+)', r'\1, \2', row['response'])
+        row['response'] = re.sub(r'\s*,\s*|\s+', ', ', row['response'])
+
     row['response'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['response'])
     row['value'] = re.sub(r'\d+(\.\d+)?', lambda m: f"{float(m.group()):.3f}", row['value'])
     return row
@@ -59,7 +68,7 @@ def check_number(value, response, percentage=False):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
+    parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'kw', 'neg'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
@@ -99,7 +108,7 @@ if __name__ == '__main__':
                     row = preprocessing_range_finma(row, args.dataset)
                 if model == 'tatllm__end_to_end' or model == 'tatllm__step_wise':
                     row = preprocessing_range_tattllm(row, args.dataset)
-                if model == 'openai':
+                if model == 'openai' or model == 'openai_chainofthought':
                     row = preprocessing_range_openai(row, args.dataset)
 
             # Check extact match
@@ -126,6 +135,10 @@ if __name__ == '__main__':
                     check_number(row['value'].strip('%~'), e.strip('~'), percentage=percentage) for e in el
                 )
 
+            elif (any(r.isalpha() for r in row['response'])) and args.dataset == 'rel':
+                row['response'] = row['response'].split(' ')[0]
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%~'), row['response'].strip('%~'), percentage=percentage
+                                                         )
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (((any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
                   (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>'])))) or

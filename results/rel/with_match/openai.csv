@@ -169,7 +169,7 @@ index,question,value,response,correct
 167,Is the volume of waste processed in 2019 for non-hazardous waste greater than for hazardous waste?,yes,yes,True
 168,Is the value of the processed volume of non hazardous waste in 2020 smaller than the amount of hazardous waste in 2020?,no,no,True
 169,Is the value of the processed volume of non hazardous waste greater than the hazardous waste in the year 2021?,yes,yes,True
-170,"What are the two values of processed waste in increasing order in 2023, specifically for hazardous waste and non-hazardous waste?","202.0, 319.0",202 319,False
+170,"What are the two values of processed waste in increasing order in 2023, specifically for hazardous waste and non-hazardous waste?","202.0, 319.0",202 319,True
 171,Is the volume of non-hazardous waste processed in the year 2019 smaller than the volume processed in 2022?,no,yes,False
 172,What was the highest volume per year of hazardous waste processed by the company in the years from 2019 to 2023?,288,662,False
 173,What is the minimum volume per year of non-hazardous waste processed by the company from 2019 to 2023?,303,303,True
