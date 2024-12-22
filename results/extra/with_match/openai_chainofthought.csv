@@ -108,7 +108,7 @@ index,question,value,response,correct
 138,How much low and intermediate-level radioactive waste was recorded in 2023 (metric tons)?,1374.1, 1374.1 metric tons,True
 139,What was the amount of hazardous waste disposed of in 2022 (metric kilotons)?,54.7, 34.7,False
 140,What was the energy consumption within the organization in million GJ for the year 2023?,49, 49.0,True
-154,What was the fresh water consumption in million cubic meters for the year 2023?,< 1, < 1 million cubic meters,False
+154,What was the fresh water consumption in million cubic meters for the year 2023?,< 1, < 1 million cubic meters,True
 155,What was the fresh water consumption in million cubic meters for the year 2022?,< 1, < 1,True
 156,What was the fresh water consumption in million cubic meters for the year 2021?,< 1, < 1,True
 157,What is the infrastructure leakage index (ILI) for the year 2023?,<=1.5, <=1.5,True
@@ -243,7 +243,7 @@ index,question,value,response,correct
 312,What percentage of electricity sourced from renewables was recorded in 2023?,88, 88%,True
 313,What was the estimated total energy consumption from non-renewable sources in MWh for the year 2023?,417294, 417294,True
 314,How much estimated total energy consumption from renewable sources was recorded in MWh for the year 2023?,707033, 707033,True
-315,What was the total estimated energy consumption in MWh for the year 2023?,1124327," 1,124,327 mwh",False
+315,What was the total estimated energy consumption in MWh for the year 2023?,1124327," 1,124,327 mwh",True
 316,What was the measured energy consumption from grid electricity in MWh for the year 2023?,82590, 82590,True
 317,What was the total estimated energy consumption from gas in MWh for the year 2023?,190088,"
 - 276954",False
@@ -253,14 +253,14 @@ index,question,value,response,correct
 321,What was the total amount of surface water withdrawn in 2023 in m3?,17699," 1,899,191 m3.",False
 322,How much groundwater was withdrawn in 2022 in m3?,492308, 1921569 m3,False
 323,What is the total volume of water withdrawn from third-party sources in 2021 in m3?,1507606,"
-   - 1,507,606 m3",False
+   - 1,507,606 m3",True
 324,What was the total amount of surface water withdrawn in 2020 in m3?,17461," 17,461",True
-325,How much total water was withdrawn in 2023 in m3?,1899190," 1,899,190 m3",False
+325,How much total water was withdrawn in 2023 in m3?,1899190," 1,899,190 m3",True
 326,What was the total water withdrawal from areas with water stress in 2022 in m3?,842216," 842,216",True
 327,What percentage of sites in water-stressed areas had a water conservation strategy in 2023?,73," 638,394.22 m3",False
-328,What was the total amount of water withdrawn for cooling in 2021 in m3?,879602," 879,602 m3",False
+328,What was the total amount of water withdrawn for cooling in 2021 in m3?,879602," 879,602 m3",True
 329,What was the total water withdrawal intensity reduction compared to 2017 in 2022 (%)?,-48, -48.0%,True
-330,How much total water was withdrawn in 2020 in m3?,1928032," 1,928,032 m3",False
+330,How much total water was withdrawn in 2020 in m3?,1928032," 1,928,032 m3",True
 331,What was the total Scope 3 per euro turnover in 2023 in TCO2e/ million €?,1581, 1581,True
 332,How many other relevant indirect (Scope 3 upstream) GHG emissions were reported in 2022 in TCO2e?,8613192, 8613192,True
 333,What was the amount of purchased goods and services in 2021 in TCO2e?,7278733, 7278733.,True
@@ -299,13 +299,13 @@ index,question,value,response,correct
 366,What were the other relevant indirect (Scope 3) GHG emissions in 2023 in TCO2e?,56777964, 56777964,True
 367,What was the absolute variation of indirect GHG emissions scope 3 compared to the base year (2021) in 2022 in percentage?,-11.60,  -11.60%,True
 368,What was the estimated coverage of VOC emissions in 2023 (%)?,90, 90%,True
-369,How many kilograms of VOC emissions were estimated in 2022?,308520," 308,520 kg",False
+369,How many kilograms of VOC emissions were estimated in 2022?,308520," 308,520 kg",True
 370,What was the ratio of VOC emissions per million euros of turnover in 2021?,11.8, 11.8,True
 371,What is the estimated coverage of VOC emissions in 2020 in percentage?,90," 489,380.00 kg.",False
 372,How many kilograms of VOC emissions were estimated in 2023?,304975," 338,861.11 kg",False
 373,What was the VOC emissions per million euros of turnover in 2022?,9, 9,True
 374,What was the VOC emissions per million euros of turnover in 2020?,17.5, 25138.8 €,False
-375,How many kilograms of VOC emissions were estimated in 2020?,440442," 440,442 kg",False
+375,How many kilograms of VOC emissions were estimated in 2020?,440442," 440,442 kg",True
 376,What was the total amount of waste generated in metric tons for the year 2023?,124139, 124139,True
 377,How much non-hazardous waste was generated in metric tons in 2022?,123311, 123311 metric tons.,True
 378,What is the total weight of hazardous waste generated in metric tons for the year 2021?,8549, 8549,True
@@ -314,7 +314,7 @@ index,question,value,response,correct
 381,How much non-hazardous waste was reduced in metric tons in 2023?,21098, 21098 metric tons,True
 382,What is the total weight of hazardous waste generated per million euros of turnover in 2022?,0.24, 0.24 metric tons/ million €,True
 383,How many 'Waste-to-Resource' sites were reported in 2023?,137, 137,True
-384,What was the total weight of non-hazardous waste generated in metric tons for the year 2020?,117607," 117,607 metric tons",False
+384,What was the total weight of non-hazardous waste generated in metric tons for the year 2020?,117607," 117,607 metric tons",True
 385,How much hazardous waste was incinerated with energy recovery in metric tons in 2021?,6964, 6964,True
 386,What is the amount of hazardous waste not destined for disposal for preparation for reuse in metric tons for the year 2023?,7573, -94 metric tons,False
 387,How much non-hazardous waste was landfilled or incinerated without energy recovery in metric tons for the year 2022?,5025, 5025,True
@@ -704,14 +704,14 @@ ghg emissions from refining & chemicals in 2022 = 15 mt co2e",False
 774,What is the value of gas GHG emissions in 2022 in Mt CO2e?,130, 130,True
 775,What were the gas GHG emissions in 2023 in Mt CO2e?,124, 124,True
 776,What were the estimates of enabled emissions reductions by TotalEnergies' LNG sales in 2022 in Mt CO2e?,~70, ~70,True
-777,What were the estimates of enabled emissions reductions by TotalEnergies' LNG sales in 2023 in Mt CO2e?,~70, ~70 mt co₂e,False
+777,What were the estimates of enabled emissions reductions by TotalEnergies' LNG sales in 2023 in Mt CO2e?,~70, ~70 mt co₂e,True
 778,What was the value of Cat 1 Purchased goods and services in 2022 measured in Mt CO2e?,30, 30,True
 779,How much did Cat 2 Capital goods contribute in 2023 in Mt CO2e?,3, 3,True
 780,What are the indirect GHG emissions from Fuel-and-energy-related activities in 2022 in Mt CO2e?,3, 3 mt co₂e,True
 781,What was the amount of Upstream transportation emissions in 2022 in Mt CO2e?,9, 9,True
 782,How much waste was generated in operations in 2023 in Mt CO2e?,1, 1 mt co₂e,True
 783,What was the value for Business travel emissions in 2022 in Mt CO2e?,<1, <1,True
-784,What were the emissions from Employee commuting in 2023 in Mt CO2e?,<1, <1 mt co₂e,False
+784,What were the emissions from Employee commuting in 2023 in Mt CO2e?,<1, <1 mt co₂e,True
 785,What was the contribution of Upstream leased assets in 2022 in Mt CO2e?,0, 0,True
 786,How much did Downstream transportation contribute in 2022 in Mt CO2e?,1, 1,True
 787,What was the value of Processing of sold products in 2023 in Mt CO2e?,5, 5,True
@@ -748,7 +748,7 @@ ghg emissions from refining & chemicals in 2022 = 15 mt co2e",False
 818,What is the change of total energy consumption from renewable sources for air transport in million kWH between 2022 and 2023?,156.9, 538 million kwh,False
 819,What is the change of total energy consumption from renewable sources for road transport in million kWH between 2022 and 2023?,61.2, 148,False
 820,What is the change of total energy consumption from renewable sources for buildings in million kWH between 2022 and 2023?,6.5, 109 million kwh,False
-823,What was the energy consumption (Scopes 1 and 2) in million kWh for the year 2023?,35056," 35,056 million kwh",False
+823,What was the energy consumption (Scopes 1 and 2) in million kWh for the year 2023?,35056," 35,056 million kwh",True
 824,What was the energy consumption from renewable sources in million kWh for the year 2022?,2267, 3062.00,False
 832,What were the gross direct GHG emissions (Scope 1) in tonnes of CO2 equivalent for the year 2022?,8.3, 8.3 million tonnes of co2 equivalent.,True
 833,How much were the gross indirect GHG emissions from energy consumption (Scope 2) market-based in tonnes of CO2 equivalent for the year 2022?,0.07," 70,000 tonnes.",False
@@ -860,7 +860,7 @@ ghg emissions from refining & chemicals in 2022 = 15 mt co2e",False
 970,What percentage of renewable energy was utilized in 2021?,94, 130.56%,False
 971,What was the percentage of renewable energy coverage in 2020?,71, 66.702%,False
 976,What was the total energy consumption in 2023 (MWh)?,71218,"
-71,218 mwh",False
+71,218 mwh",True
 977,How much energy was consumed in 2022 (MWh)?,82766, 82766 mwh,True
 978,How many EACs were acquired in 2023?,31102," 31,102",True
 979,What was the number of EACs acquired in 2022?,37000, 37000,True
@@ -936,7 +936,7 @@ now, calculate the answer.",False
 1096,How much jet fuel for helicopters was consumed in g joules in 2023?,16682.1, 1.66821 x 10^13 joules,False
 1097,What was the fuel oil for heating and generators consumption in g joules in 2022?,4547.2, 4547.2,True
 1098,What is the natural gas for heating consumption in g joules for the year 2021?,3505, 3505,True
-1099,How much energy has been indirectly consumed in 2023 in GJ?,691776," 691,776 gj",False
+1099,How much energy has been indirectly consumed in 2023 in GJ?,691776," 691,776 gj",True
 1100,How many lines were involved as bird deterrents in the year 2023?,92, 92,True
 1101,What was the total number of deterrents installed in 2022?,17445, 17445,True
 1102,Can you tell me the number of lines involved as bird deterrents in 2021?,81, 81,True
@@ -954,7 +954,7 @@ now, calculate the answer.",False
 1114,What were terna’s gross direct GHG emissions in tonnes of CO2 equivalent for the year 2023?,71724.8, 71724.8,True
 1115,What were terna’s gross direct GHG emissions in tonnes of CO2 equivalent for the year 2022?,72477.1, 76505.6,False
 1116,What were terna’s gross direct GHG emissions in tonnes of CO2 equivalent for the year 2021?,68942, 73203.7,False
-1117,What was the amount of leakages of sulphur hexafluoride in 2023 in tonnes of CO2 equivalent?,63956.2," 63,956.2 tonnes of co2 equivalent.",False
+1117,What was the amount of leakages of sulphur hexafluoride in 2023 in tonnes of CO2 equivalent?,63956.2," 63,956.2 tonnes of co2 equivalent.",True
 1118,How much were the leakages of sulphur hexafluoride recorded in 2022 in tonnes of CO2 equivalent?,64732.5, 64732.5,True
 1119,What is the total amount of leakages of sulphur hexafluoride for the year 2021 in tonnes of CO2 equivalent?,61204.6," 61,204.6",True
 1120,What was the consumption of diesel for motor vehicles in 2023 in tonnes of CO2 equivalent?,4039.6, 10829.728,False
@@ -1369,18 +1369,18 @@ the electricity consumption in 2023 in the organization was 5.1%.",False
 1639,What was the total consumption of other fuels in megawatt-hour for the year 2023?,36199," 32,706 megawatt-hour.",False
 1640,What were the tonnes of CO2 emissions from natural gas consumption under Scope 1  in 2023?,33870, 33870,True
 1641,How many CO2e emissions (in tonnes) from the use of diesel (including biodiesel) under Scope 1 where produced in 2022?,132811, 138363,False
-1642,"What are the total CO2 emissions (in tonnes) from petrol consumption, including bioethanol, for the year 2020?",10847," 10,847 tonnes",False
+1642,"What are the total CO2 emissions (in tonnes) from petrol consumption, including bioethanol, for the year 2020?",10847," 10,847 tonnes",True
 1643,What was the amount of other emissions under Scope 1 in tonnes in 2023?,8223, 7780,False
 1644,What is the location-based gross indirect GHG emissions from energy consumption in tonnes for 2023?,47024, 47024,True
 1645,How many tonnes of market-based gross indirect GHG emissions from energy consumption were reported in 2022?,6057, 40795,False
 1646,What was the total CO2 emissions in tonnes from district heating for the year 2020?,933, 933,True
-1647,What is the total location-based gross direct GHG emissions (Scope 1 + 2) in tonnes for 2023?,243262," 243,262 tonnes",False
+1647,What is the total location-based gross direct GHG emissions (Scope 1 + 2) in tonnes for 2023?,243262," 243,262 tonnes",True
 1648,How many tonnes of market-based gross direct GHG emissions (Scope 1 + 2) were recorded in 2022?,219900, 254638,False
 1649,What is the percentage reduction in location-based GHG emissions (Scope 1 + 2) for 2023?,-3.10, -3.23%,False
 1650,What is the percentage reduction in market-based GHG emissions (Scope 1 + 2) for 2022?,-9.20, 10.17%,False
 1652,How many tonnes of CO2 equivalent were associated with purchased goods and services in 2022?,21284553,"
-- 21,284,553 tonnes of co2 equivalent were associated with purchased goods and services in 2022.",False
-1654,What is the outgoing transportation emissions for transportation and distribution (upstream) in 2023 in tonnes of CO2 equivalent?,117932," 117,932 tonnes",False
+- 21,284,553 tonnes of co2 equivalent were associated with purchased goods and services in 2022.",True
+1654,What is the outgoing transportation emissions for transportation and distribution (upstream) in 2023 in tonnes of CO2 equivalent?,117932," 117,932 tonnes",True
 1655,"What were the outgoing transportation emissions for transportation and distribution (upstream) in 2022, measured in tonnes of CO₂ equivalent?",151243," 151,243",True
 1656,What were the outgoing transportation emissions for transportation and distribution (upstream) in 2020 in tonnes of CO2 equivalent?,140359," 140,359",True
 1657,What is the incoming transportation emissions for transportation and distribution (upstream) in 2023 in tonnes of CO2 equivalent?,146750," 146,750",True
@@ -1394,7 +1394,7 @@ the electricity consumption in 2023 in the organization was 5.1%.",False
 1664,What were the incoming transportation emissions for transportation and distribution (downstream) in 2022 in tonnes of CO2 equivalent?,159178," 159,178",True
 1665,What were the incoming transportation emissions for transportation and distribution (downstream) in 2020 in tonnes of CO2 equivalent?,115502," 115,502",True
 1666,What were the fuel- and energy-related emissions in 2023 in tonnes of CO2 equivalent?,65710,"
-- the fuel- and energy-related emissions in 2023 were 65,710 tonnes of co2 equivalent.",False
+- the fuel- and energy-related emissions in 2023 were 65,710 tonnes of co2 equivalent.",True
 1667,What were the fuel- and energy-related emissions in 2022 in tonnes of CO2 equivalent?,65553,"
 - 65,553",False
 1668,What were the fuel- and energy-related emissions in 2020 in tonnes of CO2 equivalent?,49750," 49,750",True
@@ -1410,7 +1410,7 @@ the electricity consumption in 2023 in the organization was 5.1%.",False
 1677,What is the percentage reduction in district heating consumption in 2023 compared to 2022?,-18.8, 18.8%,True
 1678,What is the percentage reduction in district cooling consumption in 2023 compared to 2022? ,-20.3, 20.3%,True
 1679,What is the percentage reduction in liquid fuel consumption for emergency power compared to the previous year?,-18.4, 18.4%,True
-1680,What was the total amount of water used in 2023 in m3?,432730," 432,730 m³.",False
+1680,What was the total amount of water used in 2023 in m3?,432730," 432,730 m³.",True
 1681,How much water was used per employee in 2022 in m3/Headcount?,12, 10 m³/headcount,False
 1682,What was the water intensity in 2022 in m3/€m insurance revenue?,9, 7,False
 1683,What were the gross direct GHG emissions (Scope 1) in tonnes of CO2 equivalent for the year 2023?,33093," 33,093",True
@@ -1454,7 +1454,7 @@ the electricity consumption in 2023 in the organization was 5.1%.",False
 1723,What is the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2021?,298.9, 298.9,True
 1724,What was the total indirect consumption of energy for the entire group in MWh for the year 2022?,78551, 45760,False
 1725,How much electricity was consumed from the grid for the entire group in MWh in 2023?,38134, 103449,False
-1726,What was the amount of thermal energy consumed from the entire group in MWh for the year 2022?,10066," 10,066 mwh",False
+1726,What was the amount of thermal energy consumed from the entire group in MWh for the year 2022?,10066," 10,066 mwh",True
 1727,What was the amount of electricity consumed from renewable sources for the entire group in MWh for the year 2023?,14399, 30813,False
 1728,How much thermal energy was consumed from the entire group in MWh for the year 2021?,-, 1977 mwh,False
 1729,What was the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2022?,365.2, 365.2,True
@@ -1594,14 +1594,14 @@ let's find the answer.",False
 1866,How much total recovered non-hazardous waste was there in 2022 in tons?,7276, 7276,True
 1867,What was the total weight of non-hazardous waste in 2023 in tons?,9214, 9214,True
 1868,What was the total weight of waste generated in 2023 in tons?,10007, 9232,False
-1869,What was the total energy consumption in Mwh for the year 2019?,6348009," 6,348,009 mwh",False
-1870,How much total energy consumption in Mwh was recorded in 2020?,6040824," 6,040,824 mwh",False
+1869,What was the total energy consumption in Mwh for the year 2019?,6348009," 6,348,009 mwh",True
+1870,How much total energy consumption in Mwh was recorded in 2020?,6040824," 6,040,824 mwh",True
 1871,What was the total energy consumption in Mwh for the year 2021?,6476955, 6476955,True
 1872,What was the total energy consumption in Mwh for the year 2022?,6295990, 6295990,True
 1873,What was the total energy consumption in Mwh for the year 2023?,6380652," 6,380,652",True
 1874,What was the energy consumption for vehicle production in Mwh for the year 2019?,5226227, 5226227 mwh,True
 1875,How much energy in megawatt-hours was used in 2020 for the production of vehicles?,4946865, 4946865,True
-1876,How much energy in megawatt-hours was used in 2021 for the production of vehicles?,5329550," 5,329,550 megawatt-hours.",False
+1876,How much energy in megawatt-hours was used in 2021 for the production of vehicles?,5329550," 5,329,550 megawatt-hours.",True
 1877,How much energy in megawatt-hours was used in 2022 for the production of vehicles?,4750321, 4750321,True
 1878,How much energy in megawatt-hours was used in 2023 for the production of vehicles?,4954639," 4,954,639",True
 1879,What was the total energy consumption in megawatt-hours (MWh) associated with motorcycle production in 2019?,120583, 120583,True
@@ -1875,7 +1875,7 @@ now, let's calculate the final answer.",True
 2042,What were the company vehicles' CO2 emissions in tonnes in 2019?,85667, 85667.0,True
 2043,How many tonnes of CO2 were emitted by the company vehicles in 2020?,72554, 72554.0,True
 2044,What was the CO2 emission in tonnes for company vehicles in 2021?,66442, 66442.0,True
-2045,How many tonnes of CO2 were emitted by company vehicles in 2022?,76491," 76,491 tonnes",False
+2045,How many tonnes of CO2 were emitted by company vehicles in 2022?,76491," 76,491 tonnes",True
 2046,What is the CO2 emission in tonnes for company vehicles in 2023?,113431, 113431,True
 2047,How many tonnes of CO2 did the company-owned planes emit in 2019?,6098, 6098.0,True
 2048,What was the CO2 emission in tonnes from company-owned planes in 2020?,1793, 1793,True
@@ -1893,10 +1893,10 @@ now, let's calculate the final answer.",True
 2060,What were the total indirect (Scope 3) emissions in 2022 in tonnes of CO2 equivalent?,129958000, 129958000.0,True
 2061,What is the total indirect (Scope 3) emissions for the year 2023 in tonnes of CO2 equivalent?,133875567," 134,682,767 tonnes of co2 equivalent.",False
 2062,"What were the emissions from logistics, including material supply and vehicle distribution, in 2019, measured in tonnes of CO2 equivalent?",2178437, 2178437.0,True
-2063,"How much did logistics (material supply and vehicle distribution) contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",1939191," 1,939,191 tonnes of co2 equivalent.",False
+2063,"How much did logistics (material supply and vehicle distribution) contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",1939191," 1,939,191 tonnes of co2 equivalent.",True
 2064,"What was the CO2 equivalent emissions from logistics (material supply and vehicle distribution) in 2021, in tonnes?",2203818, 2203818.0,True
 2065,"What were the emissions from logistics (material supply and vehicle distribution) in 2022, in tonnes of CO2 equivalent?",2200661, 2200661.0,True
-2066,"What is the CO2 equivalent emissions from logistics (material supply and vehicle distribution) for the year 2023, in tonnes?",2746124," 2,746,124 tonnes",False
+2066,"What is the CO2 equivalent emissions from logistics (material supply and vehicle distribution) for the year 2023, in tonnes?",2746124," 2,746,124 tonnes",True
 2067,"What were the business trips' CO2 emissions in 2019, in tonnes of CO2 equivalent?",129646, 129646,True
 2068,"How much did business trips contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",25217," 25,217",True
 2069,"What were the CO2 emissions from business trips in 2021, in tonnes of CO2 equivalent?",29765," 29,765",True
@@ -1907,14 +1907,14 @@ now, let's calculate the final answer.",True
 2074,"What were the CO2 emissions from employees' commuter traffic in 2021, in tonnes of CO2 equivalent?",139999, 139999.0,True
 2075,"How much CO2 did employees' commuter traffic contribute to in 2022, in tonnes of CO2 equivalent?",145284, 145284.0,True
 2076,"What are the CO2 emissions from employees' commuter traffic in 2023, in tonnes of CO2 equivalent?",166273, 166273.0,True
-2077,"What were the emissions from purchased goods and services in 2019, in tonnes of CO2 equivalent?",31486873," 31,486,873 tonnes of co2 equivalent.",False
-2078,"How much did purchased goods and services contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",29094346," 29,094,346 tonnes of co2 equivalent.",False
-2079,"What was the CO2 equivalent emissions from purchased goods and services in 2021, in tonnes?",33131882," 33,131,882 tonnes",False
-2080,"How much CO2 was emitted by purchased goods and services in 2022, in tonnes of CO2 equivalent?",33029416," 33,029,416 tonnes of co2 equivalent.",False
+2077,"What were the emissions from purchased goods and services in 2019, in tonnes of CO2 equivalent?",31486873," 31,486,873 tonnes of co2 equivalent.",True
+2078,"How much did purchased goods and services contribute to CO2 emissions in 2020, in tonnes of CO2 equivalent?",29094346," 29,094,346 tonnes of co2 equivalent.",True
+2079,"What was the CO2 equivalent emissions from purchased goods and services in 2021, in tonnes?",33131882," 33,131,882 tonnes",True
+2080,"How much CO2 was emitted by purchased goods and services in 2022, in tonnes of CO2 equivalent?",33029416," 33,029,416 tonnes of co2 equivalent.",True
 2081,"What are the emissions from purchased goods and services for the year 2023, in tonnes of CO2 equivalent?",34267874," 34,267,874",True
 2082,"What were the emissions during the use phase in 2019, in tonnes of CO2 equivalent?",110899066," 110,899,066",True
 2083,"How much CO2 was emitted during the use phase in 2020, in tonnes of CO2 equivalent?",98782354," 98,782,354.0",True
-2084,"What were the CO2 emissions during the use phase in 2021, in tonnes of CO2 equivalent?",99805490," 99,805,490 tonnes of co2 equivalent.",False
+2084,"What were the CO2 emissions during the use phase in 2021, in tonnes of CO2 equivalent?",99805490," 99,805,490 tonnes of co2 equivalent.",True
 2085,"How much CO2 did the use phase contribute to in 2022, in tonnes of CO2 equivalent?",92947849, 92947849.0,True
 2086,"What are the emissions from the use phase in 2023, in tonnes of CO2 equivalent?",94774779," 94,774,779",True
 2087,"What were the emissions from aftersales logistics in 2019, in tonnes of CO2 equivalent?",115863, 115863.0 tonnes of co2 equivalent,True
@@ -1942,13 +1942,13 @@ now, let's calculate the final answer.",True
 2122,What percentage of CO2e emissions was attributed to air transport in 2022?,19.4, 19.4%,True
 2124,What percentage of CO2e emissions was attributed to air transport in 2023?,22.2, 1.6%,False
 2125,What was the total weight of waste generated in tons in 2019?,780911, 780911,True
-2126,What was the total weight of waste generated in tons in 2020?,775459," 775,459 tons",False
+2126,What was the total weight of waste generated in tons in 2020?,775459," 775,459 tons",True
 2127,What was the total weight of waste generated in tons in 2021?,829498, 823848 tons,False
 2128,What was the total weight of waste generated in tons in 2022?,818387, 818387,True
 2129,What was the total weight of waste generated in tons in 2023?,927880, 5326 tons.,False
 2130,How much material for recycling was generated in tons in 2019?,771162, 771162 tons.,True
 2131,How much material for recycling was generated in tons in 2020?,768292, 2871 tons.,False
-2132,How much material for recycling was generated in tons in 2021?,822848," 822,848 tons.",False
+2132,How much material for recycling was generated in tons in 2021?,822848," 822,848 tons.",True
 2133,How much material for recycling was generated in tons in 2022?,812274, 812274 tons.,True
 2134,How much material for recycling was generated in tons in 2023?,922554, 922554,True
 2135,What was the weight of waste for disposal in tons in 2019?,9749, 9749,True
@@ -2011,7 +2011,7 @@ now, let's calculate the final answer.",True
 2276,What were the CO emissions from Wines & Spirits in 2022 in tonnes of CO2 equivalent?,25939, 25939,True
 2277,How much CO emissions did Fashion & Leather Goods produce in 2022 in tonnes of CO2 equivalent?,97875," 97,875",True
 2278,What is the amount of CO emissions from Perfumes & Cosmetics in 2022 in tonnes of CO2 equivalent?,12696,"
-- the amount of co2 emissions from perfumes & cosmetics in 2022 is 12,696 tonnes.",False
+- the amount of co2 emissions from perfumes & cosmetics in 2022 is 12,696 tonnes.",True
 2279,What were the CO emissions from Watches & Jewelry in 2022 in tonnes of CO2 equivalent?,7779, 7779,True
 2280,How many tonnes of CO emissions did Selective Retailing generate in 2022 in tonnes of CO2 equivalent?,85134, 85134 tonnes,True
 2281,What was the CO emissions from other activities in 2022 in tonnes of CO2 equivalent?,28020, 28020,True
@@ -2050,7 +2050,7 @@ let's proceed with the steps.",False
 therefore, the own retail stores contributed 5160 tons of co2 to scope 1 emissions in 2023.",True
 2307,What is the emissions figure for showrooms in tons CO2e for the year 2022?,537, 537.0,True
 2308,"What were the Scope 2 emissions, market-based, in tons CO2e for 2023?",142457, 142457.0,True
-2309,How many tons of Scope 2 CO2 were emitted from administrative offices in 2022?,13354," 13,354 tons",False
+2309,How many tons of Scope 2 CO2 were emitted from administrative offices in 2022?,13354," 13,354 tons",True
 2310,What is the quantity of market-based Scope 2 emissions for distribution centers in tons CO2e for 2023?,20311, 20311,True
 2311,"With reference to Scope 2 emissions, what were the emissions from own retail stores in tons of CO2 for 2022?",104480, 104480.0,True
 2312,How much did showrooms emit in tons of CO2 in 2023 (Scope 2 market-based emissions)?,3794, 3794,True
@@ -2081,7 +2081,7 @@ therefore, the own retail stores contributed 5160 tons of co2 to scope 1 emissio
 2342,What percentage of wool TEX products were sourced from traceable quality lines that guarantee animal welfare in 2023?,58.70, 58.7%,True
 2343,What was the percentage of cashmere TEX products sourced from traceable quality lines in 2023?,100.00, 100%,True
 2358,What percentage of renewable electricity was consumed in total electricity in 2023?,3.70, 3.7%,True
-2359,How much renewable electricity was consumed in 2023 (in MWh)?,148715," 148,715 mwh",False
+2359,How much renewable electricity was consumed in 2023 (in MWh)?,148715," 148,715 mwh",True
 2360,How many sites had solar panels for self-consumption in 2023 (units)?,137, 137,True
 2361,What was the surface area covered by solar panels deployed in car parks and stores in 2023 in square meters?,262075, 262075,True
 2362,How many Power Purchase Agreements (PPA) were signed in 2023 (units)?,4, 4,True
@@ -2105,7 +2105,7 @@ therefore, the own retail stores contributed 5160 tons of co2 to scope 1 emissio
 2382,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2022?,33.00, approximately 35.11%,False
 2383,What was the amount of Scope 1 GHG emissions in 2023 (in tCO2eq)?,782709," 782,709",True
 2384,"What was the market-based Scope 2 GHG emissions in 2022, in tonnes of CO2 equivalent?",631402," 631,402",True
-2385,What is the total Scope 1 + 2 GHG emissions in 2023 (in tCO2eq)?,1409030," 1,409,030 tco2eq",False
+2385,What is the total Scope 1 + 2 GHG emissions in 2023 (in tCO2eq)?,1409030," 1,409,030 tco2eq",True
 2386,What was the percentage reduction of Scope 1 GHG emissions compared to 2019 in 2023?,-37.80, -34.6%,False
 2393,What were the emissions from gas consumption in 2023 in tonnes of CO2 equivalent?,71761, 71761,True
 2394,How much did the emissions from fuel consumption amount to in 2023 in tonnes of CO2 equivalent?,35170, 35170,True
@@ -2115,10 +2115,10 @@ therefore, the own retail stores contributed 5160 tons of co2 to scope 1 emissio
 2399,What was the total emissions from refrigerants in 2023 in tonnes of CO2 equivalent?,675777, 675777,True
 2405,What was the total Scope 3 GHG emissions in 2022 measured in tonnes of CO2 equivalent?,96221746," 96,221,746",True
 2406,How many tonnes of CO2 equivalent were generated from purchases of goods and services in 2022?,66101437, 66101437,True
-2407,What was the amount of emissions from integrated stores purchases in 2022 in tonnes of CO2 equivalent?,47460832," 47,460,832 tonnes of co2 equivalent.",False
+2407,What was the amount of emissions from integrated stores purchases in 2022 in tonnes of CO2 equivalent?,47460832," 47,460,832 tonnes of co2 equivalent.",True
 2408,What were the tonnes of CO2 equivalent from franchised stores purchases in 2021?,17947310,"
 - 17947310",False
-2409,How many tonnes of CO2 equivalent were emitted from the use of products sold in 2022?,17422277," 17,422,277 tonnes",False
+2409,How many tonnes of CO2 equivalent were emitted from the use of products sold in 2022?,17422277," 17,422,277 tonnes",True
 2410,What was the amount of emissions from fuels sold in 2021 in tonnes of CO2 equivalent?,15088180, 15088180,True
 2412,How many tonnes of CO2 equivalent were emitted from the end of life of products sold in 2021?,243588," 243,588",True
 2413,What was the total amount of emissions from employee commuting in 2021 in tonnes of CO2 equivalent?,159783,"

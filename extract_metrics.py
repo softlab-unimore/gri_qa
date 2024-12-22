@@ -45,6 +45,7 @@ def preprocessing_range_openai(row, dataset):
     return row
 
 def check_number(value, response, percentage=False):
+    response = response.replace(',', '')
     try:
         if percentage:
             if (abs(float(value)) == abs(float(response)) or
@@ -63,7 +64,7 @@ if __name__ == '__main__':
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    # models = ['openai']
+    # models = ['openai_chainofthought']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
@@ -107,29 +108,28 @@ if __name__ == '__main__':
 
             # Check for numbers with <, =, > symbols in both side
             elif row['value'].startswith('<=') and row['response'].startswith('<='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= '), row['response'].strip('%<= '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%<= '), re.sub(r'[a-zA-Z\u2080-\u2089]', '', row['response']).strip('%<= '), percentage=percentage)
             elif row['value'].startswith('>=') and row['response'].startswith('>='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%>= '), row['response'].strip('%>= '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%>= '), re.sub(r'[a-zA-Z\u2080-\u2089]', '', row['response']).strip('%>= '), percentage=percentage)
             elif row['value'].startswith('<') and row['response'].startswith('<'):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%< '), row['response'].strip('%< '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%< '), re.sub(r'[a-zA-Z\u2080-\u2089]', '', row['response']).strip('%< '), percentage=percentage)
             elif row['value'].startswith('=') and row['response'].startswith('='):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%= '), row['response'].strip('%= '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%= '), re.sub(r'[a-zA-Z\u2080-\u2089]', '', row['response']).strip('%= '), percentage=percentage)
             elif row['value'].startswith('>') and row['response'].startswith('>'):
-                results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), row['response'].strip('%> '), percentage=percentage)
+                results.loc[i, 'correct'] = check_number(row['value'].strip('%> '), re.sub(r'[a-zA-Z\u2080-\u2089]', '', row['response']).strip('%> '), percentage=percentage)
 
             # Check for response with multiple words
             elif ((any(r.isalpha() for r in row['response'])) or (any(c in row['response'] for c in ['(', ')']))) and args.dataset == 'extra':
                 row['response'] = re.sub(r"(?<=\d)#(?=[a-zA-Z])", " ", row['response'])
                 el = [c.strip('%()') for c in row['response'].split(' ')]
                 results.loc[i, 'correct'] = any(
-                    check_number(row['value'].strip('%'), e, percentage=percentage) for e in el
+                    check_number(row['value'].strip('%~'), e.strip('~'), percentage=percentage) for e in el
                 )
 
             # Check for numbers with ., % symbols and without <, =, > symbols
             elif (((any(c in row['value'] or c in row['response'] for c in ['.', '%']) and
                   (any(c in row['value'] for c in ['<', '=', '>']) == any(c in row['response'] for c in ['<', '=', '>'])))) or
                   any(c in row['value'] or c in row['response'] for c in ['~', ','])):
-                row['response'] = row['response'].replace(',', '')
                 results.loc[i, 'correct'] = check_number(row['value'].strip('%<= >~'), row['response'].strip('%<= >~'), percentage=percentage)
 
             # Otherwise
