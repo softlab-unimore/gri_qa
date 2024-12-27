@@ -12,10 +12,10 @@ The script will save the results in `results/[DATASET_NAME]` dir. The results in
 
 ## How to evaluate the experiments
 
-Run the `extract_metrics.py` script. The script will run the exact match metric on the results provided by the models specified in the first few lines of `extract_metrics.py` (inside main). Be sure that the model you want to evaluate is listed. This time, when specifying the dataset, use either `extra`, `quant` or `rel` to evaluate the models on `gri-qa_extra.csv`, `gri-qa_quant.csv`, `gri-qa_rel.csv` respectively.
+Run the `extract_metrics.py` script. The script will run the exact match metric on the results provided by the models specified in the first few lines of `extract_metrics.py` (inside main). Be sure that the model you want to evaluate is listed. This time, when specifying the dataset, use either `extra`, `quant`, `rel` or `intertable[X]` to evaluate the models on `gri-qa_extra.csv`, `gri-qa_quant.csv`, `gri-qa_rel.csv` or `gri-qa_intertable[X].csv` respectively.
 
 ```
-python3 extract_metrics.py --dataset ['extra' | 'quant' | 'rel']
+python3 extract_metrics.py --dataset ['extra' | 'quant' | 'rel' | 'intertable2' | 'intertable3' | 'intertable5' | 'intertable10']
 ```
 
 The results will be saved inside the file `metrics.csv` in `results/[DATASET_NAME]`.
