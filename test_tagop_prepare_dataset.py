@@ -203,7 +203,7 @@ def main():
     os.makedirs(os.path.join(tagop_data_path, 'cache'), exist_ok=True)
     tagop_prepare_dataset(out_json_file, roberta_model, out_pkl_file)
 
-    print('Hello World!')
+    print('Finished')
 
 
 if __name__ == '__main__':

@@ -1,9 +1,11 @@
+transformers==4.47.*
+torch==2.5.*
 openai==1.57.*
-torch_scatter==2.1.*
+torch-scatter==2.1.*
 tensorflow==2.18.*
 tqdm==4.67.*
 scikit-learn==1.5.*
 nltk==3.9.*
-numpy==2.0.*
+numpy==1.24.*
 filelock==3.16.*
 datasets==3.1.*
