@@ -836,8 +836,8 @@ class ExtractiveResponseGenerator(ResponseGenerator):
         new_df.to_csv("qa_dataset_aggr.csv", sep=";")    
 
 if __name__ == "__main__":
-    df = pd.read_csv("gri-qa_extra.csv")
-    path_to_dataset = "gri-qa_kw.csv"
+    df = pd.read_csv("one-table/gri-qa_extra.csv")
+    path_to_dataset = "one-table/gri-qa_kw.csv"
     
     """q_responsegenerator = RelationResponseGenerator(df)
     res = q_responsegenerator.generate()

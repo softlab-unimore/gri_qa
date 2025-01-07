@@ -117,7 +117,7 @@ gri_dict = {
   "308-2.1": ["308-1.1"],
 }
 
-df = pd.read_csv("gri-qa_extra2.csv")
+df = pd.read_csv("one-table/gri-qa_extra2.csv")
 df = df[df["Error (0 no error, 1 value err, 2 unrelated, 3 hierarchical)"] != 2]
 for i, row in df.iterrows():
     new_el = []

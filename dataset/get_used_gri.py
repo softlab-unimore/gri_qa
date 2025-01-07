@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-df = pd.read_csv("gri-qa_extra.csv")
+df = pd.read_csv("one-table/gri-qa_extra.csv")
 used_gris = df["gri_finegrained"].unique()
 print(used_gris)
 filtered_gris = []

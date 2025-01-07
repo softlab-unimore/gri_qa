@@ -1,7 +1,7 @@
 import pandas as pd
 
 def main():
-    path = "../dataset/gri-qa_extra.csv"
+    path = "../dataset/one-table/gri-qa_extra.csv"
 
     df = pd.read_csv(path)
 
