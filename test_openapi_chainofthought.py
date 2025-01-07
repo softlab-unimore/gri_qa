@@ -151,6 +151,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     config = ConfigParser()
@@ -159,6 +160,6 @@ if __name__ == '__main__':
 
     dataset_name = re.split("[_.]", args.dataset)[1]
 
-    df_preds = table_predictions(f'dataset/{args.dataset}', './dataset/annotation', f'./results/{dataset_name}')
-    df_preds.to_csv(f'./results/{dataset_name}/openai_chainofthought.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_openai_chainofthought.csv')
+    df_preds = table_predictions(f'dataset/{args.type}/{args.dataset}', './dataset/annotation', f'./results/{args.type}/{dataset_name}')
+    df_preds.to_csv(f'./results/{args.type}/{dataset_name}/openai_chainofthought.csv', index=False)
+    os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv', f'./results/{args.type}/{dataset_name}/emissions_openai_chainofthought.csv')

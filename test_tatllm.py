@@ -58,9 +58,10 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
     parser.add_argument('--end_to_end', action='store_true', default=False)
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'], help='Choose if you want raw or norm data')
     args = parser.parse_args()
 
-    qa = pd.read_csv(f'dataset/{args.dataset}', sep=',')
+    qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
     qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
@@ -72,7 +73,7 @@ if __name__ == '__main__':
 
     results = pd.DataFrame(columns=['index', 'question', 'value', 'response'])
 
-    tracker = EmissionsTracker(output_dir=f'./results/{dataset_name}')
+    tracker = EmissionsTracker(output_dir=f'./results/{args.type}/{dataset_name}')
     tracker.start()
 
     for i, row in qa.iterrows():
@@ -104,6 +105,6 @@ if __name__ == '__main__':
 
     tracker.stop()
 
-    os.makedirs(f'./results/{dataset_name}', exist_ok=True)
-    results.to_csv(f'./results/{dataset_name}/tatllm__{"step_wise" if not args.end_to_end else "end_to_end"}.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv',f'./results/{dataset_name}/emissions_{"step_wise" if not args.end_to_end else "end_to_end"}.csv')
+    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
+    results.to_csv(f'./results/{args.type}/{dataset_name}/tatllm__{"step_wise" if not args.end_to_end else "end_to_end"}.csv', index=False)
+    os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv',f'./results/{args.type}/{dataset_name}/emissions_{"step_wise" if not args.end_to_end else "end_to_end"}.csv')
