@@ -79,7 +79,7 @@ def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
-    instruction = "You must answer the following question given the provided context. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the questions asks for a list of values, separate them with a comma. Do not write anything else. Do not write any Markdown formatting."
+    instruction = "You must answer the following question given the provided table. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the questions asks for a list of values, separate them with a comma. Do not write anything else. Do not write any Markdown formatting."
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
