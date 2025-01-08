@@ -85,7 +85,7 @@ def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
         messages=[
             {
                 "role": "user",
-                "content": f"{instruction} {question}\n{df_to_html_string(table, index=False)}\n\n"
+                "content": f"{instruction}\n\nQuestion: {question}\nTable: {df_to_html_string(table, index=False)}\n\n"
             }
         ],
         temperature=0.0
