@@ -1,0 +1,287 @@
+index,question,value,response,correct
+0,What is the average total waste in tons for the years 2022 and 2023?,4710,5796.0,False
+1,What is the increase in the amount of unsorted waste (in tons) from 2022 to 2023?,802,1474.0,False
+2,What is the sum of the total waste in tons for the years 2022 and 2023?,9420,14258.0,False
+3,What is the percentage reduction in the amount of unsorted waste from 2022 to 2023?,29.09,0.3173,False
+4,What is the difference in total waste (T) from 2022 to 2023?,720,10599.0,False
+5,What is the average intensity of GHG emissions (Scope 1+2) of operated upstream oil and gas activities and on equity basis for the year 2022?,18,19.0,False
+6,What is the increase between the intensity of GHG emissions (Scope 1+2) of Upstream oil & gas activities in 2023 and 2022?,-1,0.04,False
+7,What is the sum of intensity of GHG emissions (Scope 1+2) of operated upstream oil and gas activities and on equity basis for the year 2021?,36,35.0,False
+8,What is the percentage reduction in the intensity of GHG emissions (Scope 1+2) of upstream oil and gas activities on an equity basis from 2021 to 2023?,5.26,0.09524,False
+9,What is the reduction between the intensity of methane emissions from operated oil and gas facilities (Upstream) in 2023 and 2021?,0.02,0.18,False
+10,What is the percentage reduction in the intensity of methane emissions from operated oil and gas facilities (Upstream) when comparing the values from 2021 to 2022?,15.39,0.38554,False
+11,"What is the average intensity of methane emissions from operated oil and gas facilities (Upstream) for the years 2023, 2022, 2021, and 2015?",0.14,0.15,False
+12,What is the increase in the intensity of methane emissions from operated oil and gas facilities (Upstream) between the years 2015 and 2022?,-0.12,0.18,False
+13,What is the average net primary energy consumption (in TWh) from the years 2015 to 2023?,155.17,174.0,False
+14,What is the increase in renewable energy consumption (TWh) between the years 2021 and 2023?,1,2.0,False
+15,What is the total sum of the net primary energy consumption (in TWh) from the years 2015 to 2023?,931,746.0,False
+16,What is the percentage increase in the number of operated sites with annual consumption greater than 50 ktoe from 2020 to 2023?,2.38,0.15625,False
+17,What is the reduction between the Global Energy Efficiency Indicator (GEEI) values for the years 2022 and 2020?,5.1,2.2,False
+18,What is the percentage decrease in the Global Energy Efficiency Indicator (GEEI) from 2015 to 2021?,4.85,-0.05502,False
+19,What is the average value of the Global Energy Efficiency Indicator (GEEI) from 2015 to 2023?,87.92,89.56,False
+20,What is the decrease in the Global Energy Efficiency Indicator (GEEI) from 2019 to 2021?,1,-0.022,False
+21,"What is the sum of the Global Energy Efficiency Indicator (GEEI) values for the years 2015, 2019, 2020, 2021, 2022, and 2023?",527.5,374.5,False
+22,What is the difference between the fresh water withdrawals (excluding open loop cooling water) and the fresh water consumption in 2021?,21,10.0,False
+23,"What is the sum of the SO2 emissions, NOx emissions and NMVOC emissions for the year 2021?",133,173.0,False
+24,What is the reduction in offshore continuous water discharges hydrocarbon content from the year 2020 to 2022?,-0.1,0.07,False
+25,What is the increase in the percentage of sites that meet the target for offshore discharges quality from 2020 to 2021?,8,0.02,False
+26,What is the average value of onshore continuous water discharges hydrocarbon content for the years 2021 and 2022?,2.2,1.8,False
+27,What is the decrease in the lifecycle carbon intensity of energy products used by customers from 2022 to 2023?,1,6.0,False
+28,"What is the sum of the intensity of GHG emissions (Scope 1+2) of operated Upstream oil & gas activities for the years 2023, 2022, 2021, and 2015?",72,55.0,False
+29,What is the difference between the total Scope 3 GHG emissions and those related to Europe alone in 2015?,154,195.0,False
+30,What is the percentage decrease in the GHG emissions from Gas in 2023 compared to 2022?,4.62,0.11564,False
+31,What is the sum of GHG emissions from Biofuels and Gas in 2022?,134,268.0,False
+32,What is the average between GHG emissions from Biofuels and Gas in 2022?,192,177.0,False
+33,What is the difference between GHG emissions from Oil in 2015 compared to the emissions from Gas in the same year?,290,121.0,False
+34,What is the sum of gas-related GHG emissions and petroleum products emissions for the year 2015?,410,365.0,False
+35,What is the percentage increase in indirect GHG emissions from gas between the years 2021 and 2023?,7.83,0.15271,False
+36,"What is the total of the indirect GHG emissions from gas for the years 2023, 2022, 2021, and 2015?",429,415.0,False
+37,What is the average lifecycle carbon intensity of energy products sold between the years 2021 and 2023?,88.33,88.66667,False
+38,"What is the difference between the indirect GHG emissions from ""Cat 1 Purchased goods and services"" in 2022 and ""Cat 9 Downstream transportation"" in the same year?",29,23.0,False
+39,"What is the total estimate of indirect GHG emissions from the categories of Purchased goods and services, Fuel-and-energy-related activities, Upstream transportation, Downstream transportation, Processing of sold products, Use of sold products, and End of life treatment of sold products for the year 2023?",410,40.0,False
+40,"What is the percentage increase in indirect GHG emissions from the category ""Cat 3 Fuel-and-energy-related activities"" when comparing the values for the years 2023 and 2022?",33.33,0.14286,False
+41,"What is the reduction in indirect GHG emissions from the category ""Upstream transportation"" when comparing the values for the years 2022 and 2023?",1,0.01,False
+42,"What is the sum of the indirect GHG emissions for the category ""Downstream transportation"" in the years 2022 and 2023?",2,2.0,True
+43,"What is the average of the GHG emissions in Mt CO2e for ""End of life treatment of sold products"" and ""Waste generated in operations"" for the year 2023?",5.5,11.5,False
+44,"What is the average of the indirect GHG emissions from ""Cat 3 Fuel-and-energy-related activities"" for the years 2022 and 2023?",3.5,3.5,True
+45,What is the reduction in indirect GHG emissions from upstream transportation between the years 2022 and 2023?,1,1.0,True
+46,"What is the sum of indirect GHG emissions from the category ""Purchased goods and services"" for the years 2022 and 2023?",57,67.0,False
+47,What is the average of indirect GHG emissions in Mt CO2e for the upstream and downstream transportation for the year 2022?,5,11.0,False
+48,"What is the total amount of indirect GHG emissions (in Mt CO2e) for the year 2023, calculated by summing all the reported values in the table, excluding values less than 1 and any unspecified values?",414,397.0,False
+49,What is the difference between the total volume of processed waste compared to the non-hazardous waste in 2019?,287,311.0,False
+50,What is the percentage reduction in the volume of hazardous waste from 2019 to 2020?,31.25,0.39655,False
+51,What is the percentage reduction in the volume of non-hazardous waste from 2019 to 2021?,10.67,0.1322,False
+52,What is the reduction in the volume of hazardous waste from 2020 to 2022?,22,104.0,False
+53,What is the average waste percentage reuse from 2019 to 2023?,61.4,0.14667,False
+54,What is the average amount of hazardous waste processed in the years 2021 and 2023?,183.5,216.0,False
+55,What is the average of the indirect GHG Scope 3 emissions in Mt CO2e from 2020 to 2023?,386,407.5,False
+56,What is the difference between the total Scope 3 indirect GHG emissions in 2023 and the emissions produced in Europe in the same year?,139,116.0,False
+57,What is the difference between emissions derived from petroleum and gas products in 2015?,290,355.0,False
+58,What is the percentage reduction of Scope 3 GHG emissions from 2022 to 2023?,8.74,0.09836,False
+59,What is the average of the indirect GHG emissions in Mt CO2e from petroleum products and gas in 2019?,207.5,375.0,False
+60,What is the sum of scope 3 GHG emissions in the last 3 years?,1144,1055.0,False
+61,What is the percentage difference in indirect GHG emissions from gas in 2022 compared to the emissions from biofuels in the same year?,96.92,1.5817,False
+62,"What is the average of indirect GHG emissions from petroleum, biofuels and gas in 2023?",118.33,307.5,False
+63,What is the percentage reduction of indirect GHG emissions from petroleum products in 2023 compared to 2022?,10.63,-0.04252,False
+64,What is the percentage of GHG emissions derived from petroleum products in 2020 compared to all scope 3 emissions?,80,0.67895,False
+65,What is the sum of the indirect GHG emissions from Europe in Mt CO2e for the years 2022 and 2023?,407,511.0,False
+66,What is the average reduction of indirect GHG emissions from petroleum products in the last 3 years?,27,-0.09762,False
+67,What is the average of the indirect GHG emissions from biofuels in 2022 and 2023?,4,-11.5,False
+68,What is the difference in indirect GHG emissions from petroleum products compared to gas in the year 2023?,103,150.0,False
+69,What is the sum of the hazardous and non-hazardous waste for the year 2021?,500,653.0,False
+70,What is the average volume of non-hazardous waste processed by the company from 2019 to 2023?,330.8,383.5,False
+71,What is the increase in the volume of hazardous waste from 2022 to 2023?,26,93.0,False
+72,What is the total volume of hazardous waste processed by the company from 2019 to 2023?,1029,851.0,False
+73,"What is the total GHG emissions intensity for 2022, combining operated upstream oil and gas activities and equity-based upstream oil and gas activities?",36,35.0,False
+74,What is the average intensity of GHG emissions of operated upstream oil and gas activities and on equity basis for the year 2023?,17.5,19.0,False
+75,What is the difference between the GHG emissions of operated upstream oil and gas activities and the those from upstream oil and gas activities on an equity basis for the year 2022?,-2,3.0,False
+76,What is the percentage increase in the GHG emissions of operated upstream oil & gas activities from 2021 to 2015?,23.53,0.26316,False
+77,What is the average intensity of GHG emissions of upstream oil & gas activities on an equity basis for the years 2021 and 2023?,18.5,19.33333,False
+78,What is the difference between the intensity of methane emissions from operated oil and gas facilities in 2023 and 2022?,0,0.08,False
+79,What is the percentage reduction in the intensity of methane emissions from operated oil and gas facilities when comparing the values from 2015 to 2023?,52.17,0.685,False
+80,What is the sum of the intensity of methane emissions from operated oil and gas facilities in 2021 and 2022?,0.24,0.33,False
+81,What is the sum of the net primary energy consumption in TWh for the years 2021 and 2022?,314,313.0,False
+82,What is the percentage increment in renewable energy consumption from 2020 to 2023?,50,0.12184,False
+83,What is the difference in net primary energy consumption (TWh) from 2023 and 2021?,9,16.0,False
+84,What is the difference in the Global Energy Efficiency Indicator from the year 2020 to 2022?,5.1,-0.2,False
+85,What is the percentage change in the Global Energy Efficiency Indicator (GEEI) from 2021 to 2022?,-2.18,0.01445,False
+86,What is the average of the Global Energy Efficiency Indicator values for the years 2020 and 2021?,88.6,89.6,False
+87,What is the percentage reduction in the Global Energy Efficiency Indicator from 2015 to 2019?,3.08,-0.05502,False
+88,What is the average of the fresh water withdrawals excluding open loop cooling water and the fresh water withdrawal in water stress area for the year 2021?,77.5,113.0,False
+89,What is the difference in kt between the NOx and NMVOC emissions in 2021?,1,8.0,False
+90,What is the percentage reduction in offshore continuous water with hydrocarbon content from 2019 to 2020?,1.54,0.0708,False
+91,What is the percentage increase in the number of sites that meet the target for offshore discharges quality (30 mg/l) from 2019 to 2021?,-8,0.0,False
+92,What is the sum of the onshore continuous water with hydrocarbon content for the years 2019 and 2022?,3.5,4.3,False
+93,What is the percentage reduction in the lifecycle carbon intensity of energy products used by customers from 2022 to 2023?,1.14,16.66667,False
+94,What is the difference between the intensity of GHG emissions of operated upstream oil and gas activities from 2015 to 2023?,4,13.0,False
+95,What is the average of the other indirect GHG emissions in Mt CO2e from oil and gas in the year 2015?,205,174.0,False
+96,What is the difference between the GHG emissions from oil and gas in 2015?,290,195.0,False
+97,What is the difference between the amount of indirect GHG emissions from gas and those from biofuels in 2022 (in Mt CO2e)?,126,119.0,False
+98,What is the sum of indirect GHG emissions in Mt CO2e derived from petroleum products and gas in the year 2015?,351,261.0,False
+99,What is the difference in total indirect GHG emissions compared to the indirect GHG emissions produced in Europe in 2015?,154,34.0,False
+100,What is the percentage increase in indirect GHG emissions from gas products when comparing the values for the year 2023 to those from 2015?,106.67,0.15161,False
+101,What is the difference in indirect GHG emissions from gas between the years 2022 and 2015?,70,15.0,False
+102,What is the difference in indirect GHG emissions from petroleum products in 2015 compared to gas emissions in the same year?,290,193.0,False
+103,"What is the total estimated energy consumption by source in MWh for the year 2023, calculated by summing the values for grid electricity, purchased renewable electricity, district heating, fuel oil, gas, and coal?",189522,100140.0,False
+104,What is the percentage reduction in grid electricity consumption from 2022 to 2023?,13.68,0.14152,False
+105,"What is the average of the measured renewable electricity generated on site and sold back to the grid for the years 2023, 2022, and 2021?","2,594",2483.66667,False
+106,What is the reduction in grid electricity consumption from 2021 to 2022?,41701,-15661.0,False
+107,What is the percentage increase in measured renewable electricity generated from 2021 to 2023?,15.72,0.14138,False
+108,What is the reduction in estimated total energy consumption from 2022 to 2023?,76949,11461.0,False
+109,What is the percentage reduction when comparing the estimated total energy consumption from non-renewable sources in 2022 to that in 2023?,18.65,-0.11463,False
+110,"What is the total measured energy consumption from all sources in MWh for the year 2023, calculated by summing the values related to grid electricity, purchased renewable electricity and self generated renewable electricity?",716398,1332569.0,False
+111,What is the average estimated total energy consumption from renewable sources in MWh for the years 2023 and 2022?,697753.5,710369.0,False
+112,"What is the sum of the total water withdrawals (other than for cooling) for the years 2020, 2021, 2022, and 2023?",7821054,5628086.0,False
+113,What is the percentage reduction in groundwater water withdrawals from 2021 to 2022?,4.15,-0.05502,False
+114,What is the difference in water withdrawals from third party sources from the year 2021 to 2023?,130229,111621.0,False
+115,What is the average of the surface water and groudwater withdrawals for the year 2020?,235031.5,18433.5,False
+116,What is the difference in total water withdrawals (other than for cooling) and those for cooling in 2023?,1085779,1857619.0,False
+117,What is the average between the total water withdrawals (other than for cooling) and those for cooling in 2020?,1354116.5,1953246.0,False
+118,What is the average of the direct and indirect (scope 2) GHG emissions in 2023?,101116,10.5,False
+119,What is the difference between scope 3 and scope 2 indirect GHG emissions in 2022?,60678819,174541.0,False
+120,What is the sum of the direct and scope 3 indirect GHG emissions for the year 2023?,56890756,168560.0,False
+121,What is the percentage reduction of the direct GHG emissions in 2023 compared to the previous year?,6,-0.0597,False
+122,What is the difference between the total scope 2 GHG emissions in 2022 and those related to grid electricity only?,60056,20466.0,False
+123,What is the average of the direct GHG emissions in TCO2e for the years 2020 to 2023?,127590,114230.0,False
+124,What is the difference between the direct (scope 1) GHG emissions from the year 2020 to 2021?,1670,-17884.0,False
+125,What is the percentage reduction in direct GHG emissions from the year 2020 to 2023?,20.78545945,-0.07368,False
+126,What is the sum of SF GHG emissions for the years 2022 and 2023?,8660,12243.0,False
+127,What is the reduction in energy indirect (Scope 2) GHG emissions from 2020 to 2023?,55767,-0.14135,False
+128,What is the percentage reduction of grid electricity (market-based) indirect GHG emissions from 2020 to 2022?,29.18,-0.14358,False
+129,"What is the sum of indirect emissions (scope 2) from renewable electricity (market-based) in TCO2e for the years 2023, 2022, 2021, and 2020?",2098,21420.0,False
+130,What is the percentage increase of the indirect emissions from district heating from the year 2020 to 2021?,27.39,0.38633,False
+131,What is the difference between the estimated scope 2 GHG emissions of sites out of reporting perimeter in 2021 and those in 2023?,28047,12457.0,False
+132,"What is the average of the direct GHG emissions, scope 2 and scope 3 indirect emissions for the year 2023?",56980196,114411.0,False
+133,"What is the average of the measured renewable electricity generated in MWh for the years 2023, 2022, and 2021?",2593.67,24826.0,False
+134,What is the increase in energy consumption from grid electricity between the years 2022 and 2023?,-14640,15651.0,False
+135,"What is the total estimated energy consumption in MWh for the year 2023, calculated by summing the values of grid electricity, purchased renewable electricity, district heating, fuel oil, gas, and coal?",189522,100140.0,False
+136,What is the percentage increase of measured renewable electricity generated from 2021 to 2023?,15.72,0.14138,False
+137,"What is the reduction in grid electricity consumption from 2021 to 2022, given the values of 148720 MWh in 2021 and 107019 MWh in 2022?",41701,39601.0,False
+138,What is the percentage increase in measured renewable electricity generated from 2022 to 2023?,30.8,0.13864,False
+139,What is the sum of the self-generated renewable electricity measured in MWh for the years 2022 and 2023?,0,2232.0,False
+140,What percentage of total estimated energy consumption in 2023 came from renewable sources?,62.89,0.183,False
+141,What is the difference of estimated energy consumption between renewable source and non-renewable source in 2021?,15083,707033.0,False
+142,"What is the average energy consumption from grid electricity, purchased renewable electricity, self-generated renewable electricity, district heating, fuel oil, gas, and renewable fuel and heat for the year 2023?",229673.09,148361.0,False
+143,What is the difference between purchased renewable electricity and self-generated renewable electricity in 2022?,568132,184653.0,False
+144,What is the percentage reduction in estimated total energy consumption from 2020 to 2023?,7.6,16.4,False
+145,What is the average of the surface water withdrawals (other than for cooling) for the years 2023 and 2022?,16106.5,16987.0,False
+146,What is the increase in groundwater withdrawals (other than for cooling) from the year 2020 to 2022?,39706,18600.0,False
+147,What is the sum of the water withdrawals from third party sources for the years 2021 and 2020?,2953997,2754741.0,False
+148,What is the sum of surface and ground water withdrawals in 2020?,470063,2631499.0,False
+149,What percentage of water withdrawals comes from surface water 2023?,0.93,0.08869,False
+150,What is the difference between total water withdrawals and withdrawals from areas with water stress in 2021?,1141660,1868806.0,False
+151,What is the average water withdrawal for cooling and non-cooling purposes in 2021?,1475932.5,48.55,False
+152,What is the difference between total and indirect (Scope 2) GHG emissions in 2023?,112792,16866.0,False
+153,What is the difference between total direct GHG emissions and emissions from gas in 2022?,72176,11794.0,False
+154,What is the average of GHG emissions related to fuel oil and gas in 2020?,28324,10.5,False
+155,What is the sum of SF emissions and emissions produces by vehicle fleet in 2023?,65546,68641.0,False
+156,What is the sum of market-based GHG emissions related to frid electricity and renewable electricity in 2020?,70839,46510.0,False
+157,What is the percentage reduction in direct gas-related GHG emissions from 2021 to 2022?,16.74,-0.11467,False
+158,What is the reduction of SF direct emissions from 2020 to 2022?,2681,0.004,False
+159,What is the percentage decrease in vehicle fleet GHG emissions from the year 2020 to 2023?,16.03,0.13204,False
+160,What is the average SF emissions for the years 2022 and 2020?,5946.5,48944.0,False
+161,What is the reduction in Energy indirect (Scope 2) GHG emissions from 2022 to 2023?,20290,-10496.0,False
+162,What is the percentage decrease in indirect GHG emissions for grid electricity from 2022 to 2023?,20.53,-0.14136,False
+163,What is the average of indirect GHG emissions from renewable electricity (market-based) for the years 2021 and 2022?,702,0.0,False
+164,What is the increase in indirect GHG emissions for district heating from the year 2020 to 2021?,3164,0.0,False
+165,What is the sum of Scope 2 GHG emissions of sites out of reporting perimeter for the years 2023 and 2022?,93956,124154.0,False
+166,What is the difference between scope 3 and scope 2 GHG emissions in 2023?,56688524,122648.0,False
+167,What is the difference between non-hazardous waste and non-hazardous waste reused or recycled in 2023?,10973,11089.0,False
+168,What is the total amount of non-hazardous waste reused or recycled and incinerated with energy recovery in 2022?,118286,181153.0,False
+169,What is the percentage increase in hazardous waste generated from the year 2020 to 2021?,10.11,0.06064,False
+170,What is the reduction in reused or recycled non-hazardous waste generated from 2022 to 2023?,5974,6989.0,False
+171,What is the percentage decrease in hazardous waste channeled according to Schneider Electric expectations from 2022 to 2023?,6.4,-0.05418,False
+172,What is the average of non-hazardous waste reduction in metric tons for the years 2023 and 2021?,17382.5,15439.0,False
+173,What is the reduction in the hazardous waste generated per million euros of turnover from 2021 to 2022?,0.06,-0.08,False
+174,"What is the sum of 'waste-to-resource' sites for the years 2023, 2022, 2021, and 2020?",510,481.0,False
+175,What is the average of hazardous and non-hazardous waste generated in 2020?,62646,144354.5,False
+176,What is the difference between non-hazardous waste incinerated with and without energy recovery in 2021?,1211,106.0,False
+177,What is the difference between metric of tons for total waste and hazardous waste in 2021?,128267,5484.0,False
+178,"What is the average amount of non-hazardous waste generated, by distinguish between recycled and incinerated waste (with and without energy recovery) for the year 2022?",41103.67,124244.0,False
+179,What is the difference between the total waste generated in 2022 and the non-hazardous waste generated in the same year?,80.91,18593.0,False
+180,What is the average of hazardous waste generated in tons from 2020 to 2023?,7974.5,8137.0,False
+181,What is the percentage reduction of recycled non-hazardous waste from the year 2020 to 2023?,6.73,0.18154,False
+182,What is the percentage increase in hazardous waste (channeled according to Schneider Electric expectations) from 2020 to 2022?,5.53,0.06064,False
+183,What is the sum of non-hazardous waste generated in tons from 2020 to 2023?,54435,38653.0,False
+184,What is the percentage reduction in hazardous waste generated per million of revenue from 2020 to 2023?,30,-0.11145,False
+185,What is the sum of non-hazardous waste recycled and incinerated with energy recovery in the year 2021?,122514,116566.0,False
+186,"What is the average hazardous waste intensity reduction obtained in the years 2020, 2021, 2022 and 2023 against 2017?",37.75,-0.16727,False
+187,"What is the sum of non-hazardous waste recycled, incinerated with and without energy recovery for the year 2022?",123311,181152.0,False
+188,What is the average percentage of clothes made from recycled polyester and with sustainable cotton in 2023?,99.5,98.0,False
+189,What is the percentage increase of clothes made from recycled polyester from 2021 to 2023?,8.79,0.06,False
+190,What is the average percentage of more sustainable cotton sourced and the percentage of recycled polyester apparel footwear in 2021?,95.5,98.0,False
+191,"What is the sum of CO2e emissions (scope 1 and scope 2) in own operations for the years 2021, 2022, and 2023?",466796,47366.0,False
+192,What is the percentage increase of CO2 emissions from 2021 to 2023?,18.66,0.01513,False
+193,What is the total number of pairs of shoes produced containing 'Parley Ocean Plastic' from 2021 to 2023?,45,62.0,False
+194,What is the reduction of the number of pairs of shoes produced containing 'Parley Ocean Plastic' from 2022 to 2023?,24,-1.0,False
+195,What is the difference between the energy consumption for the entire cement line and the amount related to clicker production only in 2022?,28033,116920.0,False
+196,What is the sum of absolute CO2 emissions from external electrical power and thermal energy production (both market and location based) generated in 2023 (in million of tonnes)?,8.9,12.1,False
+197,What is the average water usage in cubic meters in the last 2 years?,454863.5,463494.5,False
+198,"What is the increase in energy consumption from 2021 to 2023, measured in million kWh?",4570,1353.0,False
+199,What is the percentage increase in logistics-related GHG emissions from 2019 to 2021?,18.55,0.0992,False
+200,What is the percentage reduction in energy consumption (MWh) from 2022 to 2023?,13.95,-0.1368,False
+201,What is the difference in energy consumption (MWh) from 2022 to 2023?,11548,-11549.0,False
+202,What is the average quantity of carbon credits acquired during the year for 2022 and 2023?,672,672.0,True
+203,What is the sum of the carbon intensity per employee in tonnes of CO2eq for the years 2023 and 2022?,16.3,16.3,True
+204,What is the percentage reduction in carbon intensity per employee in tonnes of CO2eq from 2022 to 2023?,1.22,0.01363,False
+205,What is the increase in the quantity of carbon credits acquired from 2022 to 2023?,2,2.0,True
+206,What is the percentage increase in the quantity of carbon credits acquired from 2022 to 2023?,0.3,0.00971,False
+207,What is the sum of tonnes of waste generated in 2023 and 2022?,2252.8,2252.8,True
+208,What is the percentage reduction in the weight of ordinary waste (in tons) from 2022 to 2023?,31.4,-0.21154,False
+209,What is the increase in the weight of electrical and electronic waste (in tons) generated from 2022 to 2023?,9.8,14.8,False
+210,"What is the average percentage of electric and electroninc waste recycled across the years 2019, 2020, 2021, 2022 and 2023?",98.75,0.98333,False
+211,"What is the sum of tonnes of ordinary waste produced in the years 2019, 2020, 2021, 2022 and 2023?",6238,2436.1,False
+212,What is the difference between the total group-related direct and indirect consumption of energy in 2023?,13957,1182.0,False
+213,What is the sum of the group-related direct and indirect consumption of energy in 2023?,14711,14761.0,False
+214,What is the percentage reduction in the group-related total consumption of energy from 2022 to 2023?,15.24,0.0226,False
+215,What is the difference between the full consolidated and group-level percentage usage of energy from renewable sources in 2023?,0.16,0.06,False
+216,What is the percentage decrease in group-realted energy intensity per milion of revenue from 2021 to 2022?,19.05,-0.18154,False
+217,What is the average total group-related direct consumption of energy in TJ for the years 2022 and 2023?,15499.5,14499.0,False
+218,What is the reduction in total group-related indirect consumption of energy from 2022 to 2023?,319,-126.0,False
+219,"What is the sum of full consolidated energy consumption (in TJ) for the years 2021, 2022, and 2023?",44559,43147.0,False
+220,What is the difference in the total energy consumption when comparing the group related direct and indirect consumption of energy in 2021?,13479,1328.0,False
+221,What is the percentage of total group-related direct consumption over the total consumption in 2022?,95.99,92.52221,False
+222,What is the average of the total group-related direct and indirect consumption of energy for the year 2021 in TJ?,7431.5,17443.0,False
+223,What is the percentage difference in total group-related energy consumption when comparing the direct and indirect consumption of energy in 2023?,97.37,0.44936,False
+224,What is the average group-related total consumption of energy for the years 2023 and 2022?,16038,14488.0,False
+225,What is the average energy consumption from renewable sources in 2023 for both group-related and consolidated values?,9.84,9.835,False
+226,What is the percentage increase in full consolidated energy consumption from 2021 to 2023?,5.52,0.05085,False
+227,What is the sum of full consolidated direct consumption of energy in terajoules from the years 2021 to 2023?,27417,43123.0,False
+228,What is the percentage increase in total full consolidated indirect consumption of energy from 2021 to 2022?,3.83,0.06362,False
+229,What is the sum of all full consolidated values of total consumption of energy in TJ from 2021 to 2023?,44559,43151.0,False
+230,"What is the average energy consumption, including both direct and indirect full consolidated consumption, for the year 2022?",8210.5,14489.0,False
+231,What is the difference between the total full-consolidated direct and indirect consumption of energy in 2021?,12959,1183.0,False
+232,What is the percentage of full-consolidated indirect consumption of energy over direct consumption in 2021?,2.75,0.02444,False
+233,What is the sum of the total full consolidated direct and indirect consumption of energy for the year 2021?,13691,17151.0,False
+234,What is the sum of group-level thermal energy and electricity consumed from the grid in MWh for the year 2023?,40111,59320.0,False
+235,What is the percentage reduction in group level electricity consumed from the grid when comparing the values for the year 2022 and 2023?,44.02,0.06004,False
+236,What is the increase in the group level amount of electricity self-produced from renewable sources when comparing the values from 2021 to 2023?,85.4,19.1,False
+237,What is the percentage decrease in the total group-level indirect consumption of energy from 2022 to 2023?,48.44623238,-0.05315,False
+238,What is the average group-level electricity consumed from the grid in MWh for the years 2023 and 2022?,53127,36897.0,False
+239,What is the reduction in thermal energy consumed (MWh) from 2022 to 2023 for the consolidated total?,8089,10066.0,False
+240,What is the sum of the group level electricity cosumed from the grid and produced from renewable sources in MWh for the years 2023 and 2021?,21536,77663.0,False
+241,How many megawatts per hour are consumed from the grid and do not come from renewable sources in 2023 (group level statistics)?,23735,1366.0,False
+242,What is the average cosumption of energy considering the thermal energy and electricity consumed from the grid in 2023 (group level statistics)?,20055.5,10066.0,False
+243,What is the average full consolidated electricity consumed from the grid (in MWh) over the years 2021 to 2023?,36144,36799.0,False
+244,What is the increase in full consolidated electricity self-produced from renewable sources between the years 2021 and 2023?,85.4,19.1,False
+245,What is the percentage decrease in the total indirect consumption of energy from 2022 to 2023 when comparing the consolidated values?,17.41914336,-0.04969,False
+246,"What is the total electricity consumed from the grid (in MWh) across the years 2021 to 2023, considering full consolidated values?",108432,113623.0,False
+247,What is the percentage reduction in full consolidated thermal energy consumed from 2022 to 2023?,80.35962647,0.99831,False
+248,What is the difference in the group level amount of electricity produced from renewable sources between the years 2022 and 2021?,6766,6863.0,False
+249,What is the average consumption of full consolidated thermal energy across the years 2023 and 2022?,6021.5,10066.0,False
+250,"What is the average group-level location-based emissions (in kt CO2eq) for the years 2021, 2022, and 2023?",4498.933333,6383.06667,False
+251,What is the difference in group-level market based emissions (in kt CO2eq) between the years 2023 and 2021?,3784.1,1046.3,False
+252,What is the percentage increase in group-level market-based emissions from 2021 to 2022?,64.63716947,0.0122,False
+253,What is the sum of the group-level market-based emissions for the years 2021 and 2023?,9108.9,12887.4,False
+254,What is the percentage increase in group-level market-based emissions between the years 2022 and 2023?,47.06955946,0.0122,False
+255,What is the reduction in emissions intensity 2 between the years 2021 and 2022?,31.1,0.38633,False
+256,What is the average of full consolidated location and market based emissions in the year 2021?,2379.9,6483.45,False
+257,What is the percentage difference between full consolidated market and location based emissions for the year 2021?,1.996755273,0.00694,False
+258,What is the sum of the full consolidated location and market-based emissions for the year 2022?,7283,12787.2,False
+259,What is the percentage increase in full consolidated location-based emissions from the year 2021 to the year 2022?,54.61182563,0.01297,False
+260,What is the increase between the full consolidated market-based emissions from 2022 to 2023?,2699.7,106.5,False
+261,What is the percentage increase in group-level market-based emissions from 2021 to 2022?,64.63716947,0.0122,False
+262,"What is the average full consolidated market-based emissions (in kt CO2eq) for the years 2021, 2022, and 2023?",4128.2,6449.33333,False
+263,What is the reduction in emission intensity (in kt CO2 eq/€mln) from 2022 to 2023?,37.7,38.7,False
+264,What is the sum of the emission intensity (in kt CO2 eq/€mln) from 2021 to 2023?,369.6,258.6,False
+265,What is the difference between full consolidated location and market based emissions in 2023?,0.1,1066.2,False
+266,What is the maximum percentage reduction in indirect GHG emissions between two consecutive years in the range 2021-2023?,8.74,0.09802,False
+267,What is the minimum percentage reduction in indirect GHG emissions between two consecutive years in the range 2021-2023?,2.75,-0.05063,False
+268,How much has the percentage of European over the total of indirect GHG emissions decreased from 2023 compared to 2015?,1.594,0.18154,False
+269,What is the minimum percentage value of European indirect GHG emissions on total indirect emissions that was recorded from 2021 to 2023?,0.491,0.47419,False
+270,What is the difference between the percentage of emissions from petroleum products and gas for the year 2023?,0.2901,0.67254,False
+271,What is the percentage decrease between the sum of emissions from petroleum products and gas from 2022 to 2023?,8.594,0.15271,False
+272,What is the highest average emission value calculated on petroleum products and gas emissions from 2021 to 2023?,200,307.0,False
+273,"What is the maximum percentage reduction in indirect emissions from Europe recorded in the years 2023, 2022 and 2021 compared to the base year 2015?",0.2539,0.09807,False
+274,"What is the average percentage reduction in indirect emissions from Europe in the years 2023, 2022 and 2021 compared to the base year 2015?",0.1836,0.0706,False
+275,What is the average decrease in lifecycle carbon intensity of energy products sold between two successive years in the range 2021-2023?,1.5,-0.07692,False
+276,What is the maximum change between the sum of scope 1 + 2 emissions of operated Upstream oil & gas activities and Upstream oil & gas activities on equity basis calculated in 2023 compared to the years 2022 and 2021?,1,3.0,False
+277,"Between 2021 and 2023, what is the largest percentage decrease between two consecutive years in scope 3 indirect emissions?",8.74,-0.19,False
+278,By how many percentage points has the proportion of European indirect GHG emissions relative to the total decreased in 2023 compared to 2015?,1.594,-0.09524,False
+279,"From 2019 to 2023, what is the lowest recorded percentage of European emissions compared to the total?",49.1,22.46341,False
+280,"For 2023, how much higher is the proportion of emissions from petroleum products compared to gas?",29.01,0.58224,False
+281,"During the period 2021 to 2023, what was the least percentage reduction in Scope 3 GHG emissions between two consecutive years?",2.75,0.09524,False
+282,"What is the highest value of the average emissions from petroleum products and gas, calculated every year in the range 2019 - 2023?",205,389.0,False
+283,What is the percentage decrease between the sum of emissions from petroleum products and gas from 2022 to 2023?,8.594,-0.18154,False
+284,What is the difference between the maximum indirect emission value recorded in 2022 and 2023?,34,14.0,False
+285,What is the difference between the average of the top-3 indirect emission values ​​recorded in 2023 and 2022?,12.67,1.0,False
