@@ -79,10 +79,9 @@ def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
-    instruction = "You must answer the following question given the provided context. In the end, write \"The final answer is:\" followed by the answer, which must be a numerical value or a 'yes'/'no' answer if the question is boolean."
+    instruction = "You must answer the following question given the provided context. In the end, write \"The final answer is:\" followed by the answer, which must be a numerical value. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the questions asks for a list of values, separate them with a comma. Do not write any Markdown formatting."
     completion = client.chat.completions.create(
-        #model="gpt-4o-mini",
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",
