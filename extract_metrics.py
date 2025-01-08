@@ -69,28 +69,29 @@ if __name__ == '__main__':
 
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'intertable2', 'intertable3', 'intertable5', 'intertable10'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
-    #models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    models = ['tapex']
+    models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
+    # models = ['tapex']
     # models = ['openai_chainofthought']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
-    os.makedirs(f'./results/{args.dataset}/with_match', exist_ok=True)
+    os.makedirs(f'./results/{args.type}/{args.dataset}/with_match', exist_ok=True)
 
     for model in models:
         print(f'--> Processing {model}')
 
-        results = pd.read_csv(f'./results/{args.dataset}/{model}.csv')
+        results = pd.read_csv(f'./results/{args.type}/{args.dataset}/{model}.csv')
         results['value'] = results['value'].astype(str).str.lower()
         results['response'] = results['response'].astype(str).str.lower()
 
         for i, row in results.iterrows():
 
             row['response'] = row['response'].split('###')[0]
-            row['response'] = row['response'].strip(' |()\n\r')
+            row['response'] = row['response'].strip(' |().\n\r')
             row['response'] = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', row['response'])
 
             percentage = True if '%' in row['question'] or 'percentage' in row['question'] else False
@@ -150,9 +151,9 @@ if __name__ == '__main__':
             else:
                 results.loc[i, 'correct'] = False
 
-        results.to_csv(f'./results/{args.dataset}/with_match/{model}.csv', index=False)
+        results.to_csv(f'./results/{args.type}/{args.dataset}/with_match/{model}.csv', index=False)
         em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
         metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 5)}
         print(f'EM: {round(em, 5)}')
 
-    metrics.to_csv(f'./results/{args.dataset}/metrics.csv', index=False)
+    metrics.to_csv(f'./results/{args.type}/{args.dataset}/metrics.csv', index=False)
