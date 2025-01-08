@@ -23,7 +23,7 @@ def flattening(table):
 
 def create_prompt(table, question):
 
-    instruction = "Given the financial data and expert analysis, please answer this question"
+    instruction = "Given the financial data and expert analysis, please answer this question:"
     table = flattening(table)
     return f'{instruction}\nContext: {table}\nQuestion: {question}\nResponse:'
 
