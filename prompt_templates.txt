@@ -1,98 +1,214 @@
-[OPENAI] You must answer the following question given the provided table. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a 
-comma. Do not write anything else. Do not write any Markdown formatting. Question: {question} Table: {table} Answer: [OPENAI MULTITABLE] You must answer the following question given the provided tables. If the 
-question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a comma. Do not write anything else. Do not write any Markdown formatting. Question: 
-{question} Tables: {tables} Answer: [OPENAI CHAIN-OF-THOUGHT] You must answer the following question given the provided table. First write your reasoning. Then, in the end, write "The final answer is:" followed 
-by the answer, which must be a numerical value. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated 
-with a comma. Do not write any Markdown formatting. Question: {question} Table: {table} Let's think step-by-step. [OPENAI CHAIN-OF-THOUGHT MULTITABLE] You must answer the following question given the provided 
-tables. First write your reasoning. Then, in the end, write "The final answer is:" followed by the answer, which must be a numerical value. If the question is boolean, write exclusively a 'yes' or 'no' answer. If 
-the question asks for a list of values, you must answer with a list of values separated with a comma. Do not write any Markdown formatting. Question: {question} Tables: {tables} Let's think step-by-step. [FINMA] 
-Given the financial data and expert analysis, please answer this question: Context: {table} Question: {question} Response: [FINMA MULTITABLE] Given the financial data and expert analysis, please answer this 
-question: Context: {tables} Question: {question} Response: [TABLELLAMA] Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately 
-completes the request.
+[OPENAI]
+
+You must answer the following question given the provided table. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a comma. Write the numerical values with exactly 2 decimal values. Do not write anything else. Do not write any Markdown formatting.
+
+Question: {question}
+Table: {table}
+Answer: 
+
+
+[OPENAI MULTITABLE]
+
+You must answer the following question given the provided tables. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a comma. Write the numerical values with exactly 2 decimal values. Do not write anything else. Do not write any Markdown formatting.
+
+Question: {question}
+Tables: {tables}
+Answer: 
+
+
+[OPENAI CHAIN-OF-THOUGHT]
+
+You must answer the following question given the provided table. First write your reasoning. Then, in the end, write "The final answer is:" followed by the answer, which must be a numerical value. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: {question}
+Table: {table}
+
+Let's think step-by-step.
+
+[OPENAI CHAIN-OF-THOUGHT MULTITABLE]
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "The final answer is:" followed by the answer, which must be a numerical value. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: {question}
+Tables: {tables}
+
+Let's think step-by-step.
+
+
+[FINMA]
+
+Given the financial data and expert analysis, please answer this question:
+Context: {table}
+Question: {question}
+Response:
+
+
+[FINMA MULTITABLE]
+
+Given the financial data and expert analysis, please answer this question:
+Context: {tables}
+Question: {question}
+Response:
+
+
+[TABLELLAMA]
+
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
 ### Instruction:
 This is a table QA task. The goal of this task is to answer the question given the table.
+
 ### Input:
 {table}
+
 ### Question:
 {question}
+
 ### Response:
-[TABLELLAMA HIERARCHICAL] Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+
+[TABLELLAMA HIERARCHICAL]
+
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
 ### Instruction:
 This is a hierarchical table QA task. The goal of this task is to answer the question given the table. The table might be hierarchical.
+
 ### Input:
 {table}
+
 ### Question:
 {question}
+
 ### Response:
-[TABLELLAMA MULTITABLE] Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+
+[TABLELLAMA MULTITABLE]
+
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
 ### Instruction:
 This is a table QA task. The goal of this task is to answer the question given some tables.
+
 ### Input:
 {tables}
+
 ### Question:
 {question}
+
 ### Response:
-[TABLELLAMA HIERARCHICAL MULTITABLE] Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+
+[TABLELLAMA HIERARCHICAL MULTITABLE]
+
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
 ### Instruction:
 This is a hierarchical table QA task. The goal of this task is to answer the question given some tables. The tables might be hierarchical.
+
 ### Input:
 {tables}
+
 ### Question:
 {question}
+
 ### Response:
-[TATLLM END-TO-END] Below is an instruction that describes a question answering task in the environmental domain, paired with an input table and its relevant text that provide further context. The given question 
-is relevant to the table and text. Generate an appropriate answer to the given question.
+
+
+[TATLLM END-TO-END]
+
+Below is an instruction that describes a question answering task in the environmental domain, paired with an input table and its relevant text that provide further context. The given question is relevant to the table and text. Generate an appropriate answer to the given question.
+
 ### Instruction
-Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store it in a variable named ‘{answer}‘. If there are multiple values, separate them using the 
-’#’ symbol. If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, 
-or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of "The answer is: {answer} #### and its corresponding scale is: {scale}"
+Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of "The answer is: {answer} #### and its corresponding scale is: {scale}"
+
 ### Table
 {table}
-### Text Question
+
+### Text
+
+### Question
 {question}
+
 ### Response
-[TATLLM END-TO-END MULTITABLE] Below is an instruction that describes a question answering task in the environmental domain, paired with some input tables and the relevant text that provide further context. The 
-given question is relevant to the tables and texts. Generate an appropriate answer to the given question.
+
+
+[TATLLM END-TO-END MULTITABLE]
+
+Below is an instruction that describes a question answering task in the environmental domain, paired with some input tables and the relevant text that provide further context. The given question is relevant to the tables and texts. Generate an appropriate answer to the given question.
+
 ### Instruction
-Given some tables and a list of texts in the following, what is the answer to the question? Please predict the answer and store it in a variable named ‘{answer}‘. If there are multiple values, separate them using 
-the ’#’ symbol. If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, 
-‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of "The answer is: {answer} #### and its corresponding scale is: {scale}"
+Given some tables and a list of texts in the following, what is the answer to the question? Please predict the answer and store it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of "The answer is: {answer} #### and its corresponding scale is: {scale}"
+
 ### Tables
 {tables}
-### Text Question
+
+### Text
+
+### Question
 {question}
+
 ### Response
-[TATLLM STEP-WISE] Below is an instruction that describes a question answering task in the environmental domain, paired with an input table and its relevant text that provide further context. The given question 
-is relevant to the table and text. Generate an appropriate answer to the given question.
+
+
+[TATLLM STEP-WISE]
+
+Below is an instruction that describes a question answering task in the environmental domain, paired with an input table and its relevant text that provide further context. The given question is relevant to the table and text. Generate an appropriate answer to the given question.
+
 ### Instruction
-Given a table and a list of texts in the following, answer the question posed using the following five-step process: 1. Step 1: Predict the type of question being asked. Store this prediction in the variable 
-‘{question_type}‘. The value of ‘{question_type}‘ can be one of the following:‘Single span‘, ‘Multiple spans‘, ‘Count‘, or ‘Arithmetic‘. 2. Step 2: Extract the relevant strings or numerical values from the 
-provided table or texts. Store these pieces of evidence in the variable ‘{evidence}‘. If there are multiple pieces of evidence, separate them using the ’#’ symbol. 3. Step 3: if the ‘{question_type}‘ is 
-‘Arithmetic‘, formulate an equation using values stored in ‘{evidence}‘. Store this equation in the variable ‘{equation}‘. For all other question types, set the value of {equation} to ’N.A.’. 4. Step 4: Predict 
-or calculate the answer based on the question type, evidence and equation. Store it in the variable ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. 5. Step 5: If the value of the 
-‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical 
-values, set the value of ‘{scale}‘ to ’none’. Please organize the results in the following table:
-| step | output | 1 | {question_type} | 2 | {evidence} | 3 | {equation} | 4 | {answer} | 5 | {scale} |
+Given a table and a list of texts in the following, answer the question posed using the following five-step process:
+1. Step 1: Predict the type of question being asked. Store this prediction in the variable ‘{question_type}‘. The value of ‘{question_type}‘ can be one of the following:‘Single span‘, ‘Multiple spans‘, ‘Count‘, or ‘Arithmetic‘.
+2. Step 2: Extract the relevant strings or numerical values from the provided table or texts. Store these pieces of evidence in the variable ‘{evidence}‘. If there are multiple pieces of evidence, separate them using the ’#’ symbol.
+3. Step 3: if the ‘{question_type}‘ is ‘Arithmetic‘, formulate an equation using values stored in ‘{evidence}‘. Store this equation in the variable ‘{equation}‘. For all other question types, set the value of {equation} to ’N.A.’.
+4. Step 4: Predict or calculate the answer based on the question type, evidence and equation. Store it in the variable ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol.
+5. Step 5: If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’.
+Please organize the results in the following table:
+| step | output |
+| 1 | {question_type} |
+| 2 | {evidence} |
+| 3 | {equation} |
+| 4 | {answer} |
+| 5 | {scale} |
 Finally, present the final answer in the format: \"The answer is: {answer} #### and its corresponding scale is: {scale}\"
+
 ### Table
 {table}
-### Text Question
+
+### Text
+
+### Question
 {question}
+
 ### Response
-[TATLLM STEP-WISE MULTITABLE] Below is an instruction that describes a question answering task in the environmental domain, paired with some input tables and the relevant text that provide further context. The 
-given question is relevant to the tables and text. Generate an appropriate answer to the given question.
+
+
+[TATLLM STEP-WISE MULTITABLE]
+
+Below is an instruction that describes a question answering task in the environmental domain, paired with some input tables and the relevant text that provide further context. The given question is relevant to the tables and text. Generate an appropriate answer to the given question.
+
 ### Instruction
-Given some tables and a list of texts in the following, answer the question posed using the following five-step process: 1. Step 1: Predict the type of question being asked. Store this prediction in the variable 
-‘{question_type}‘. The value of ‘{question_type}‘ can be one of the following:‘Single span‘, ‘Multiple spans‘, ‘Count‘, or ‘Arithmetic‘. 2. Step 2: Extract the relevant strings or numerical values from the 
-provided tables or texts. Store these pieces of evidence in the variable ‘{evidence}‘. If there are multiple pieces of evidence, separate them using the ’#’ symbol. 3. Step 3: if the ‘{question_type}‘ is 
-‘Arithmetic‘, formulate an equation using values stored in ‘{evidence}‘. Store this equation in the variable ‘{equation}‘. For all other question types, set the value of {equation} to ’N.A.’. 4. Step 4: Predict 
-or calculate the answer based on the question type, evidence and equation. Store it in the variable ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. 5. Step 5: If the value of the 
-‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical 
-values, set the value of ‘{scale}‘ to ’none’. Please organize the results in the following table:
-| step | output | 1 | {question_type} | 2 | {evidence} | 3 | {equation} | 4 | {answer} | 5 | {scale} |
+Given some tables and a list of texts in the following, answer the question posed using the following five-step process:
+1. Step 1: Predict the type of question being asked. Store this prediction in the variable ‘{question_type}‘. The value of ‘{question_type}‘ can be one of the following:‘Single span‘, ‘Multiple spans‘, ‘Count‘, or ‘Arithmetic‘.
+2. Step 2: Extract the relevant strings or numerical values from the provided tables or texts. Store these pieces of evidence in the variable ‘{evidence}‘. If there are multiple pieces of evidence, separate them using the ’#’ symbol.
+3. Step 3: if the ‘{question_type}‘ is ‘Arithmetic‘, formulate an equation using values stored in ‘{evidence}‘. Store this equation in the variable ‘{equation}‘. For all other question types, set the value of {equation} to ’N.A.’.
+4. Step 4: Predict or calculate the answer based on the question type, evidence and equation. Store it in the variable ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol.
+5. Step 5: If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’.
+Please organize the results in the following table:
+| step | output |
+| 1 | {question_type} |
+| 2 | {evidence} |
+| 3 | {equation} |
+| 4 | {answer} |
+| 5 | {scale} |
 Finally, present the final answer in the format: \"The answer is: {answer} #### and its corresponding scale is: {scale}\"
+
 ### Tables
 {tables}
-### Text Question
+
+### Text
+
+### Question
 {question}
+
 ### Response
+
