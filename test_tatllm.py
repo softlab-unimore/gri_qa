@@ -10,10 +10,10 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 def create_prompt_step_wise(table, question):
     description = ("Below is an instruction that describes a question answering task in the environmental domain, paired with "
                    "an input table and its relevant text that provide further context. The given question is relevant to "
-                   "the table and text. Generate an appropriate nswer to the given question.")
+                   "the table and text. Generate an appropriate answer to the given question.")
 
-    instruction = ("Given a table and a list of texts in the following, answer the question posed using the following five-step process: "
-                   "1. Step 1: Predict the type of question being asked. Store this prediction in the variable ‘{question_type}‘. The value of"
+    instruction = ("Given a table and a list of texts in the following, answer the question posed using the following five-step process:\n"
+                   "1. Step 1: Predict the type of question being asked. Store this prediction in the variable ‘{question_type}‘. The value of "
                    "‘{question_type}‘ can be one of the following:‘Single span‘, ‘Multiple spans‘, ‘Count‘, or ‘Arithmetic‘.\n"
                    "2. Step 2: Extract the relevant strings or numerical values from the provided table or texts. Store these pieces of evidence "
                    "in the variable ‘{evidence}‘. If there are multiple pieces of evidence, separate them using the ’#’ symbol.\n"
@@ -35,13 +35,13 @@ def create_prompt_step_wise(table, question):
 
     table = table.to_markdown(index=False)
 
-    return f"{description}\n\n###Instruction:\n{instruction}\n\n###Table:\n{table}\n\n###Text\n\n###Question:\n{question}\n\n###Response:\n"
+    return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{table}\n\n### Text\n\n### Question\n{question}\n\n### Response\n"
 
 
 def create_prompt_end_to_end(table, question):
     description = ("Below is an instruction that describes a question answering task in the environmental domain, paired with "
                    "an input table and its relevant text that provide further context. The given question is relevant to "
-                   "the table and text. Generate an appropriate nswer to the given question.")
+                   "the table and text. Generate an appropriate answer to the given question.")
 
     instruction = ("Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store "
                    "it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the "
@@ -51,7 +51,7 @@ def create_prompt_end_to_end(table, question):
 
     table = table.to_markdown(index=False)
 
-    return f"{description}\n\n###Instruction:\n{instruction}\n\n###Table:\n{table}\n\n###Text\n\n###Question:\n{question}\n\n###Response:\n"
+    return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{table}\n\n### Text\n\n### Question\n{question}\n\n### Response\n"
 
 
 if __name__ == '__main__':
