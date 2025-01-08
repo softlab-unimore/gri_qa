@@ -9,7 +9,7 @@ from transformers import TapexTokenizer, BartForConditionalGeneration
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table'])
     args = parser.parse_args()
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
