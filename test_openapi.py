@@ -159,6 +159,6 @@ if __name__ == '__main__':
 
     dataset_name = re.split("[_.]", args.dataset)[1]
 
-    df_preds = table_predictions(f'dataset/{args.type}/{args.dataset}', './dataset/annotation', f'./results/{args.type}/{dataset_name}')
-    df_preds.to_csv(f'./results/{args.type}/{dataset_name}/openai.csv', index=False)
-    os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv', f'./results/{args.type}/{dataset_name}/emissions_openai.csv')
+    df_preds = table_predictions(f'dataset/{args.dataset}', './dataset/annotation', f'./results/{dataset_name}')
+    df_preds.to_csv(f'./results/{dataset_name}/openai.csv', index=False)
+    os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_openai.csv')

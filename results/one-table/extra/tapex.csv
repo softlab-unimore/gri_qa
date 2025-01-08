@@ -117,7 +117,7 @@ index,question,value,response
 169,How much fresh water was withdrawn from water utilities in million cubic meters for the year 2022?,na., 83.2
 170,What was the groundwater withdrawal in million cubic meters for the year 2023?,36.6, 36.6
 171,How much surface water was utilized in million cubic meters for the year 2023?,46.4, 46.4
-172,What was the amount of spring water sources in million cubic meters for the year 2023?,0.2, 0.2
+172,What was the amount of spring water sources withdrawal in million cubic meters for the year 2023?,0.2, 0.2
 173,What was the amount of fresh water withdrawal in million cubic meters for the year 2023?,203.1, 203.1
 174,How much fresh water was discharged in million cubic meters in 2022?,216, 216
 175,What was the total fresh water consumption in million cubic meters for the year 2021?,53, 53
@@ -204,8 +204,8 @@ index,question,value,response
 269,What was the difference of total fossil energy consumption related to own operations between 2023 and 2019 (%)?,54,Table too long
 271,How much water was consumed in 2022 (m3)?,447929,Table too long
 272,How much different is the consumption of water between 2023 and 2022 (%)?,7,Table too long
-273,What it the water consumption per person in 2019?,6.9,Table too long
-274,What it the water consumption per person in 2023?,3.9,Table too long
+273,What is the water consumption per person in 2019?,6.9,Table too long
+274,What is the water consumption per person in 2023?,3.9,Table too long
 275,What is the percentage difference in water consumption between 2019 and 2023?,43,Table too long
 276,What is the percentage difference in water consumption per person between 2022 and 2023?,5,Table too long
 277,What was the total gross Scope 1 GHG emissions in 2022 in tonnes of CO2 equivalent?,21382,Table too long
@@ -277,7 +277,7 @@ index,question,value,response
 347,What was the cumulative CO2 saved and avoided thanks to sold products and services since 2021 in TCO2e?,346960969, 346960969
 348,What was the estimated total Scope 1 and 2 GHG emissions (market-based) in 2023 in TCO2e?,202232, 11
 349,How much were the estimated total Scope 1 and 2 GHG emissions (market-based) in 2022 in TCO2e?,229177, 229177
-350,What was the absolute reduction compared to the base year of GHG emissions between 2021 and 2023 in percentage?,-31.20, -22.4%
+350,What was the absolute reduction compared to the base year of GHG emissions between 2021 and 2023 in percentage?,-31.2, -22.4%
 351,What were the total emissions for Scope 1 and 2 per euro turnover in 2023 in TCO2e/ million?,5.6, 5.6
 352,What were the direct (Scope 1) GHG emissions in 2023 in TCO2e?,112792, 112792
 353,What were the direct (Scope 1) GHG emissions of fuel oil in 2022 in TCO2e?,4414, 119447
@@ -294,7 +294,7 @@ index,question,value,response
 364,What were the energy indirect (Scope 2) GHG emissions of district heating in 2020 in TCO2e?,11550, 145207
 365,What were the estimated Scope 2 GHG emissions of sites out of reporting perimeter (market-based) in 2023 in TCO2e?,42961, 42961
 366,What were the other relevant indirect (Scope 3) GHG emissions in 2023 in TCO2e?,56777964, other relevant indirect (scope 3) ghg emissions
-367,What was the absolute variation of indirect GHG emissions scope 3 compared to the base year (2021) in 2022 in percentage?,-11.60, -22.4%
+367,What was the absolute variation of indirect GHG emissions scope 3 compared to the base year (2021) in 2022 in percentage?,-11.6, -22.4%
 368,What was the estimated coverage of VOC emissions in 2023 (%)?,90, 304975
 369,How many kilograms of VOC emissions were estimated in 2022?,308520, 308520
 370,What was the ratio of VOC emissions per million euros of turnover in 2021?,11.8, 342228
@@ -1068,7 +1068,7 @@ index,question,value,response
 1261,What is the energy consumption from data centers in 2023 in GJ?,286312, 286312.0
 1262,What was the energy consumption from office buildings per employee in 2023 in GJ/employee?,8.1, 8.1
 1263,What was the percentage reduction in energy consumption in office buildings per employee since 2019?,47, -47.0
-1264,What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization in GJ?,21.9, 325212.0
+1264,What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization from office buildings in GJ?,21.9, 1578675.0
 1265,What is the percentage difference between 2023 and 2022 for the energy consumption from data centers in GJ?,12, 325212.0
 1266,What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization in GJ?,19.9, 325212.0
 1267,What is the percentage difference between 2023 and 2022 for the energy consumption from office buildings per employee in GJ/employee?,22.3, 1.8 years
@@ -1142,15 +1142,15 @@ index,question,value,response
 1349,What was the total energy consumed in terajoules for the year 2021?,363226, 363226
 1350,How much total energy was consumed in terajoules in 2022?,347068, 347068
 1351,What was the total energy consumed in terajoules for the year 2023?,329775, 329775
-1358,What was the percentage of renewable energy used in 2021?,9.10, 9.1%
-1359,What was the percentage of renewable energy used in 2022?,10.40, 10.4%
-1360,What was the percentage of renewable energy used in 2023?,12.30, 12.3%
-1361,What was the percentage of alternative energy sources in 2021?,21.70, 21.7%
-1362,What was the percentage of alternative energy sources in 2022?,23.70, 23.7%
-1363,What was the percentage of alternative energy sources in 2023?,24.40, 24.4%
-1364,What was the percentage of grid electricity used in 2021?,12.20, 12.2%
-1365,What was the percentage of grid electricity used in 2022?,12.50, 12.2%
-1366,What was the percentage of grid electricity used in 2023?,12.50, 12.5%
+1358,What was the percentage of renewable energy used in 2021?,9.1, 9.1%
+1359,What was the percentage of renewable energy used in 2022?,10.4, 10.4%
+1360,What was the percentage of renewable energy used in 2023?,12.3, 12.3%
+1361,What was the percentage of alternative energy sources in 2021?,21.7, 21.7%
+1362,What was the percentage of alternative energy sources in 2022?,23.7, 23.7%
+1363,What was the percentage of alternative energy sources in 2023?,24.4, 24.4%
+1364,What was the percentage of grid electricity used in 2021?,12.2, 12.2%
+1365,What was the percentage of grid electricity used in 2022?,12.5, 12.2%
+1366,What was the percentage of grid electricity used in 2023?,12.5, 12.5%
 1382,"What was the total energy consumption from cement production in 2023, measured in TJ?",318671, 318671.0
 1383,"How much energy was consumed for clinker production in 2022, expressed in TJ?",309153, 2923.0
 1384,"What was the energy consumption for aggregates in 2023, in TJ?",11104, 110104 t
@@ -1217,12 +1217,12 @@ index,question,value,response
 1464,What was the specific emissions of mercury in 2022 in grams per tonne of clinker?,0.015, nan
 1466,What was the specific emissions of dioxins and furans in 2023 in micrograms TEQ per tonne of clinker?,0.057, nan
 1467,What is the Scope 1 CO2 gross emissions reduction target in kilograms per tonne of cementitious material in 2023?,400, gross scope 2
-1468,What is the expected percentage reduction in gross Scope 1 CO2 emissions in 2030 compared to 2020?,-24.00, -3%
-1469,What is the expected percentage reduction in gross Scope 2 CO2 emissions in 20230 compared to 2020?,-65.00, -3%
-1470,What is the expected percentage reduction for Scope 3 CO2 emissions in absolute terms in 2030 compared to 2020?,-25.00, -25%
+1468,What is the expected percentage reduction in gross Scope 1 CO2 emissions in 2030 compared to 2020?,-24, -3%
+1469,What is the expected percentage reduction in gross Scope 2 CO2 emissions in 2023 compared to 2020?,-65, -3%
+1470,What is the expected percentage reduction for Scope 3 CO2 emissions in absolute terms in 2030 compared to 2020?,-25, -25%
 1471,How many milions of tonnes of CO2 are expected to be captured cumulatively through CCUS projects by 2030?,10, 10 million tonnes
-1472,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40.00, -40%
-1473,What is the expected reduction percentage for SOx emissions in 2030 compared to 2008?,40.00, -36%
+1472,What is the expected reduction percentage for NOx emissions in 2030 compared to 2008?,40, -40%
+1473,What is the expected reduction percentage for SOx emissions in 2030 compared to 2008?,40, -36%
 1477,How much are the specific net CO2 emissions in 2023 in kg CO2 per tonne of cementitious material?,534, eur 2.35 billion
 1478,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2021?,565, 565
 1479,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2022?,551, 565
@@ -1267,14 +1267,14 @@ index,question,value,response
 1536,What is the intensity of scope 1 GHG emissions related to power generation for the year 2040 in grams of CO2 equivalent per kilowatt-hour?,0, nan
 1537,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22, -22%
 1538,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100, -66%
-1539,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2030?,-80.00, -66%
-1540,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2040?,-100.00, -22%
+1539,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2030?,-80, -66%
+1540,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2040?,-100, -22%
 1544,What is the intensity of Scope 1 and Scope 3 GHG emissions related to integrated power for the year 2023 in grams of CO2 equivalent per kilowatt-hour?,168, nan
 1545,What are the expected Scope 1 and Scope 3 GHG emissions related to integrated power for the year 2026 in grams of CO2 equivalent per kilowatt-hour?,135," nan, medium term (2040)"
-1546,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20.00, -20.00%
-1547,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78.00, % reduction on 2017 (sbti baseline)
+1546,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20, -20.00%
+1547,What is the percentage reduction that must be applied to emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78, % reduction on 2017 (sbti baseline)
 1553,"What is the target value for CO2 emissions, including scopes 1, 2, and 3, in megatonnes for the year 2030?",10.4, 2.5 mtco2eq
-1554,"What is the percentage reduction that must be applied to additional scope 1, 2 and 3 emissions generated in 2017 to reach the target set for 2040?",-90.00, -55.00%
+1554,"What is the percentage reduction that must be applied to additional scope 1, 2 and 3 emissions generated in 2017 to reach the target set for 2040?",-90, -55.00%
 1561,What were the direct greenhouse gas emissions (Scope 1) in 2023 in megatonnes of CO2?,34.51, 34.51
 1562,How much were the indirect greenhouse gas emissions from energy consumption (Scope 2) location-based in 2023 in megatonnes of CO2?,3.28, 3.28
 1563,What is the value of indirect greenhouse gas emissions from energy consumption (Scope 2) market-based in 2023 in megatonnes of CO2?,4.51, 5.1
@@ -1298,21 +1298,21 @@ index,question,value,response
 1589,What is the expected absolute Scope 3 GHG emissions related to retail gas in 2030 in megatonnes of CO2?,11.4, 0.0
 1598,What was the intensity of Scope 1 GHG emissions related to power generation in 2023 in grams of CO2 equivalent per kilowatt-hour?,160, nan
 1599,How much GHG emissions intensity related to power generation is targeted for 2026 in grams of CO2 equivalent per kilowatt-hour?,125, 72 gco2eq/kwh
-1600,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22.00, -22%
-1601,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2030?,-55.00, % reduction on 2023 (reporting year)
-1602,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2026?,-66.00, -66%
-1603,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100.00, -66%
+1600,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2026?,-22, -22%
+1601,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2023 to reach the target set for 2030?,-55, % reduction on 2023 (reporting year)
+1602,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2026?,-66, -66%
+1603,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to power generation and generated in 2017 to reach the target set for 2040?,-100, -66%
 1604,What are the Scope 1 GHG emissions related to integrated power in 2023 in grams of CO2 per kilowatt-hour?,168, nan
 1605,What is the target of Scope 1 GHG emissions related to integrated power in 2026 in grams of CO2 per kilowatt-hour?,135, nan
-1606,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78.00, -59.00%
-1607,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20.00, -20.00%
+1606,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2017 to reach the target set for 2030?,-78, -59.00%
+1607,What is the percentage reduction that must be applied to Scope 1 GHG emissions related to integrated power and generated in 2023 to reach the target set for 2026?,-20, -20.00%
 1608,What is the target for Scope 1 GHG emissions related to integrated power for the year 2040 in grams of CO2 per kilowatt-hour?,0, nan
 1609,What are the Scope 3 GHG emissions related to the sale of natural gas on end-user market in 2023 in megatonnes of CO2?,16.8, nan
 1613,What is the target of additional emissions Scopes 1-2-3 for the year 2030 in megatonnes of CO2?,10.4, target 2030: 15% of scope 3 ghg emissions (corresponding
-1614,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2030?,-12.00, -55.00%
-1615,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2040?,-90.00, -55.00%
+1614,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2030?,-12, -55.00%
+1615,What is the percentage reduction that must be applied to additional emissions Scopes 1-2-3 generated in 2017 to reach the target set for 2040?,-90, -55.00%
 1616,"What was the emissions intensity in the supply chain in 2023, expressed in tonnes of CO2 equivalent per million euros",684, 11.9 mtco2eq
-1621,What was the percentage reduction in emissions intensity in the supply chain in 2023 compared to 2022?,24.00, 28%
+1621,What was the percentage reduction in emissions intensity in the supply chain in 2023 compared to 2022?,24, 28%
 1626,What percentage of qualified suppliers were assessed for environmental issues in 2023?,100, %
 1627,What was the total electricity consumption in megawatt-hour for the year 2023?,146273, 146273
 1628,How much electricity from renewable sources was procured through direct supply contracts and by purchasing guarantees of origin in megawatt-hour for the year 2023?,117016, 146273
@@ -1336,8 +1336,8 @@ index,question,value,response
 1646,What was the total CO2 emissions in tonnes from district heating for the year 2020?,933, 933
 1647,What is the total location-based gross direct GHG emissions (Scope 1 + 2) in tonnes for 2023?,243262, 47024
 1648,How many tonnes of market-based gross direct GHG emissions (Scope 1 + 2) were recorded in 2022?,219900, 2
-1649,What is the percentage reduction in location-based GHG emissions (Scope 1 + 2) for 2023?,-3.10, -3.1%
-1650,What is the percentage reduction in market-based GHG emissions (Scope 1 + 2) for 2022?,-9.20, -15.60%
+1649,What is the percentage reduction in location-based GHG emissions (Scope 1 + 2) for 2023?,-3.1, -3.1%
+1650,What is the percentage reduction in market-based GHG emissions (Scope 1 + 2) for 2022?,-9.2, -15.60%
 1652,How many tonnes of CO2 equivalent were associated with purchased goods and services in 2022?,21284553, 27087295
 1654,What is the outgoing transportation emissions for transportation and distribution (upstream) in 2023 in tonnes of CO2 equivalent?,117932," 17,407"
 1655,"What were the outgoing transportation emissions for transportation and distribution (upstream) in 2022, measured in tonnes of CO₂ equivalent?",151243," 151,243"
@@ -1487,7 +1487,7 @@ index,question,value,response
 1803,How many vendors qualified in the year working in countries with a high risk of human and labour rights breaches were there in 2022?,2807, 3
 1804,What was the number of vendors qualified in the year for non-critical qualifications in 2023?,2447, 1
 1805,What was the percentage reduction in CO2 emissions for the year 2020?,13.76, +13.76%
-1806,How did the CO2 emissions reduction in 2021 compare to the target achievement for that year (%)?,200.00, -3.14%
+1806,How did the CO2 emissions reduction in 2021 compare to the target achievement for that year (%)?,200, -3.14%
 1807,What was the percentage reduction in CO2 emissions for the year 2022?,-11.41, -11.41%
 1808,How did the CO2 emissions reduction in 2023 compare to the target achievement for that year (%)?,110.67, 110.67%
 1815,What was the total electricity consumption in MWh for the year 2023?,79560, 79560
@@ -1517,26 +1517,26 @@ index,question,value,response
 1839,What is the value of partial Scope 3 restated GHG emissions in tonnes of CO2 equivalent for the year 2023?,735018, 735018
 1840,What was the value of GHG emissions (Scope 1 and 2) in tonnes of CO2 equivalent for the year 2018?,39855, 3.4
 1841,How much were Scope 3 operating emissions in tonnes of CO2 equivalent in 2018?,253599, 3.3
-1842,What is the percentage of renewable electricity usage reported for the year 2023?,60.00, 16%
-1843,What was the percentage of suppliers launched a carbon reduction pathway in 2018?,13.00, 13%
-1844,What is the target percentage for renewable electricity usage by the year 2030?,100.00, 80%
-1845,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2025 compared to 2018 (%)?,-29.00, 10%
-1846,How much have operating emissions (Scope 3) changed in 2023 compared to 2018 in %?,21.00, 21%
-1847,What is the target percentage of suppliers that have launched a carbon reduction pathway by the year 2026?,85.00, 13%
+1842,What is the percentage of renewable electricity usage reported for the year 2023?,60, 16%
+1843,What was the percentage of suppliers launched a carbon reduction pathway in 2018?,13, 13%
+1844,What is the target percentage for renewable electricity usage by the year 2030?,100, 80%
+1845,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2025 compared to 2018 (%)?,-29, 10%
+1846,How much have operating emissions (Scope 3) changed in 2023 compared to 2018 in %?,21, 21%
+1847,What is the target percentage of suppliers that have launched a carbon reduction pathway by the year 2026?,85, 13%
 1848,What was the value of GHG emissions (Scope 1 and 2) in tonnes of CO2 equivalent for the year 2018?,39855, 16%
-1849,What is the percentage of renewable electricity usage reported for the year 2023?,60.00, 60%
+1849,What is the percentage of renewable electricity usage reported for the year 2023?,60, 60%
 1850,How many percentage points the use of renewable electricity increased from 2018 to 2023?,44, 36%
-1851,What is the target for the use of renewable electricity by 2025 in %?,80.00, 80%
-1852,What is the target for the use of renewable electricity by 2030 in %?,100.00, 60%
+1851,What is the target for the use of renewable electricity by 2025 in %?,80, 80%
+1852,What is the target for the use of renewable electricity by 2030 in %?,100, 60%
 1853,What was the value of GHG emissions (Scope 1 and 2) in tonnes of CO2 equivalent for the year 2023?,24512, 2.0
-1854,What is the percentage reduction of GHG emissions (Scope 1 and 2) in 2023 compared to 2018?,-38.50, -38.5%
-1855,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2035 compared to 2018 in %?,-71.00, -71%
+1854,What is the percentage reduction of GHG emissions (Scope 1 and 2) in 2023 compared to 2018?,-38.5, -38.5%
+1855,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2035 compared to 2018 in %?,-71, -71%
 1856,What was the value of GHG emissions related to business activities in tonnes of CO2 equivalent for the year 2018?,136243, 136243
-1857,How much did the business-related GHG emissions (Scope 3) in tonnes of CO2 equivalent decreased from 2018 to 2023 in %?,-34.00, -34%
-1858,What is the target percentage reduction of GHG emissions (Scope 3) related to business activities for the year 2025?,-9.00, -34%
-1859,What is the expected reduction of business-related GHG emissions for the year 2035 in %?,-21.00, -34%
-1860,What was the percentage of suppliers that launched a carbon reduction pathway in 2018?,13.00, 13%
-1861,What is the target percentage for suppliers that follow a carbon reduction pathway by 2026?,85.00, 13%
+1857,How much did the business-related GHG emissions (Scope 3) in tonnes of CO2 equivalent decreased from 2018 to 2023 in %?,-34, -34%
+1858,What is the target percentage reduction of GHG emissions (Scope 3) related to business activities for the year 2025?,-9, -34%
+1859,What is the expected reduction of business-related GHG emissions for the year 2035 in %?,-21, -34%
+1860,What was the percentage of suppliers that launched a carbon reduction pathway in 2018?,13, 13%
+1861,What is the target percentage for suppliers that follow a carbon reduction pathway by 2026?,85, 13%
 1862,What was the total weight of non-recovered electrical and electronic equipment in 2023 in tons?,84, 1770
 1863,"How much total recovered waste electrical and electronic equipment (weee) was collected in 2022, measured in tons?",2829, 2829
 1864,What was the total weight of hazardous waste (excluding eletrical/electronic waste) in 2023 in tons?,18, 18
@@ -1797,20 +1797,20 @@ index,question,value,response
 2151,By when should 100 percent of service supply chain products with high human rights risks be reviewed?,2026, 2028
 2152,When is the target of reducing CO2 emissions by 80 percent expected?,2030, 2030
 2153,By which year is the share of renewable energy in production expected to reach 100 percent?,2039, 2039
-2154,What percentage of renewable energy usage is targeted for cars by 2030?,70.00, 70%
-2155,What percentage of renewable energy usage is targeted for vans by 2030?,80.00, 80%
-2156,What is the target percentage reduction in energy consumption for cars by 2030?,-43.00, 35%
-2157,What is the target percentage reduction in energy consumption for vans by 2030?,-25.00, -30%
+2154,What percentage of renewable energy usage is targeted for cars by 2030?,70, 70%
+2155,What percentage of renewable energy usage is targeted for vans by 2030?,80, 80%
+2156,What is the target percentage reduction in energy consumption for cars by 2030?,-43, 35%
+2157,What is the target percentage reduction in energy consumption for vans by 2030?,-25, -30%
 2176,What was the water consumption in production for 2023 in thousands of cubic meters?,1913, 1913.0
 2191,"What were the CO2 emissions of the new car fleet in Europe in 2023, measured in g/km?",109, 109.0
 2192,"What were the CO2 emissions of the new car fleet in the United States in 2023, measured in grams of CO2 per mile?",170, co2 emissions of the new car fleet in the united states (in g
 2194,"What were the CO2 emissions of the light commercial vehicle fleet in Europe in 2023, measured in g/km?",204, 204.0
 2195,"What were the CO2 emissions of the light duty truck fleet in the United States in 2023, measured in grams of CO2 per mile?",259, 259.0
 2196,"What were the CO2 emissions in production (Scope 1 and Scope 2) in 2023, measured in 1,000 of tonnes?",511, waste volume in production
-2210,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82.00, 35%
-2211,What is the target percentage reduction in waste volume for disposal for vans by 2030?,-85.00, 30%
-2212,What is the target percentage reduction in total waste volume for cars by 2030?,-35.00, 35%
-2213,What is the target percentage reduction in total waste volume for vans by 2030?,-30.00, 30%
+2210,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82, 35%
+2211,What is the target percentage reduction in waste volume for disposal for vans by 2030?,-85, 30%
+2212,What is the target percentage reduction in total waste volume for cars by 2030?,-35, 35%
+2213,What is the target percentage reduction in total waste volume for vans by 2030?,-30, 30%
 2214,What was the energy consumption in GWh for the year 2023?,12241,Table too long
 2215,How much energy was consumed in GWh in 2022?,13253,Table too long
 2216,What was the energy consumption in GWh for the year 2021?,13323,Table too long
@@ -1886,20 +1886,20 @@ index,question,value,response
 2321,What was the absolute annual CO2 Scope 1 and Scope 2 net emissions in tons for the year 2023?,164236, 14001
 2327,What was the absolute annual CO2 Scope 1 and Scope 2 net emissions in tons for the year 2022?,164149, 14001
 2328,What was the absolute annual CO2 Scope 1 and Scope 2 net emissions in tons for the year 2021?,138411, 138411
-2331,What was the percentage of palm oil used in Carrefour-branded products that is fully traced in 2023?,95.30, 95.3%
-2332,"In 2023, what percentage of palm oil used in Carrefour-branded products was certified RSPO or equivalent?",100.00, equivalent
-2333,What percentage of Carrefour-branded products in ten priority categories were sourced from sustainable forests in 2023?,96.30, wood and paper: percentage of carrefour-branded products in ten priority
-2334,What was the percentage of Carrefour Quality Lines and other key Carrefour-branded products that used zero-deforestation soy as animal feed in 2023?,21.70, 21.7%
-2335,"In 2023, what percentage of Carrefour-branded chocolate bars complied with the Sustainable Cocoa Charter?",31.60, 31.6%
-2336,What percentage of key traders were assessed in 2023?,100.00, 33%
-2337,What percentage of key traders were making progress towards complying with the policy in 2023?,33.00, 33%
-2338,What percentage of Brazilian beef suppliers were geo-monitored and compliant with the forest policy in 2023?,100.00, 100% brazilian beef
-2339,"In 2023, what percentage of natural textile raw materials complied with the responsible TEX policy?",52.30, 52.3%
-2340,What was the percentage of TEX products made from organic cotton in 2023?,20.60, 20.6%
-2341,"In 2023, what percentage of viscose TEX products were made from wood fibre sourced from sustainably managed forests?",96.30, wood fibre: percentage of viscose tex products
-2342,What percentage of wool TEX products were sourced from traceable quality lines that guarantee animal welfare in 2023?,58.70, 58.7%
-2343,What was the percentage of cashmere TEX products sourced from traceable quality lines in 2023?,100.00, 100%
-2358,What percentage of renewable electricity was consumed in total electricity in 2023?,3.70, 3.7%
+2331,What was the percentage of palm oil used in Carrefour-branded products that is fully traced in 2023?,95.3, 95.3%
+2332,"In 2023, what percentage of palm oil used in Carrefour-branded products was certified RSPO or equivalent?",100, equivalent
+2333,What percentage of Carrefour-branded products in ten priority categories were sourced from sustainable forests in 2023?,96.3, wood and paper: percentage of carrefour-branded products in ten priority
+2334,What was the percentage of Carrefour Quality Lines and other key Carrefour-branded products that used zero-deforestation soy as animal feed in 2023?,21.7, 21.7%
+2335,"In 2023, what percentage of Carrefour-branded chocolate bars complied with the Sustainable Cocoa Charter?",31.6, 31.6%
+2336,What percentage of key traders were assessed in 2023?,100, 33%
+2337,What percentage of key traders were making progress towards complying with the policy in 2023?,33, 33%
+2338,What percentage of Brazilian beef suppliers were geo-monitored and compliant with the forest policy in 2023?,100, 100% brazilian beef
+2339,"In 2023, what percentage of natural textile raw materials complied with the responsible TEX policy?",52.3, 52.3%
+2340,What was the percentage of TEX products made from organic cotton in 2023?,20.6, 20.6%
+2341,"In 2023, what percentage of viscose TEX products were made from wood fibre sourced from sustainably managed forests?",96.3, wood fibre: percentage of viscose tex products
+2342,What percentage of wool TEX products were sourced from traceable quality lines that guarantee animal welfare in 2023?,58.7, 58.7%
+2343,What was the percentage of cashmere TEX products sourced from traceable quality lines in 2023?,100, 100%
+2358,What percentage of renewable electricity was consumed in total electricity in 2023?,3.7, 3.7%
 2359,How much renewable electricity was consumed in 2023 (in MWh)?,148715, 148715
 2360,How many sites had solar panels for self-consumption in 2023 (units)?,137, 1
 2361,What was the surface area covered by solar panels deployed in car parks and stores in 2023 in square meters?,262075, 262075
@@ -1914,16 +1914,16 @@ index,question,value,response
 2374,"What was the total volume of water consumed per square meter of sales area in 2023, measured in cubic meters?",1.27, 8.2
 2375,How much water was consumed in 2022 in millions of cubic meters?,12.2, 8.2
 2376,What was the amount of water consumed in 2023 in millions of cubic meters?,8.2, 8.2
-2377,What was the percentage of sales of fishery and aquaculture products produced using sustainable practices in 2023?,57.10, 60.90%
-2378,What was the percentage of sales of controlled fishery and aquaculture products produced using sustainable practices in 2022?,49.50, 60.90%
-2379,What percentage of shopping malls were certified to BREEAM In-Use standards in 2023?,95.80, 95.80%
-2380,What percentage of shopping malls were certified to BREEAM In-Use standards in 2022?,94.00, 94.00%
-2381,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2023?,31.00, 31.00%
-2382,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2022?,33.00, 31.00%
+2377,What was the percentage of sales of fishery and aquaculture products produced using sustainable practices in 2023?,57.1, 60.90%
+2378,What was the percentage of sales of controlled fishery and aquaculture products produced using sustainable practices in 2022?,49.5, 60.90%
+2379,What percentage of shopping malls were certified to BREEAM In-Use standards in 2023?,95.8, 95.80%
+2380,What percentage of shopping malls were certified to BREEAM In-Use standards in 2022?,94, 94.00%
+2381,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2023?,31, 31.00%
+2382,What percentage of shopping malls certified to BREEAM In-Use standards were rated as Very Good in 2022?,33, 31.00%
 2383,What was the amount of Scope 1 GHG emissions in 2023 (in tCO2eq)?,782709, 2
 2384,"What was the market-based Scope 2 GHG emissions in 2022, in tonnes of CO2 equivalent?",631402, 1212995
 2385,What is the total Scope 1 + 2 GHG emissions in 2023 (in tCO2eq)?,1409030, 2
-2386,What was the percentage reduction of Scope 1 GHG emissions compared to 2019 in 2023?,-37.80, 28.6%
+2386,What was the percentage reduction of Scope 1 GHG emissions compared to 2019 in 2023?,-37.8, 28.6%
 2393,What were the emissions from gas consumption in 2023 in tonnes of CO2 equivalent?,71761, 71761
 2394,How much did the emissions from fuel consumption amount to in 2023 in tonnes of CO2 equivalent?,35170, 35170
 2395,What was the total emissions related to energy consumption in 2023 in tonnes of CO2 equivalent?,733252, 733252
@@ -1947,14 +1947,14 @@ index,question,value,response
 2428,How many meal equivalents of unsold products were donated to food aid associations in 2023 (in millions of meals)?,48.7, 48.7
 2429,What was the total weight of packaging reduction since 2017 in 2023 (in tonnes)?,20738, 20738
 2430,What was the total weight of plastic packaging avoided since 2017 in 2023 (in tonnes)?,19021, 20738
-2431,What was the percentage of suppliers audited according to a quality standard in 2023?,100.00, 100%
-2432,"What was the percentage of sites certified to IFS, BRC or FSCC22000 standards in 2023?",79.50, fscc22000
-2433,What percentage of sites were audited by Carrefour in 2022?,8.00, 6
-2434,What was the percentage of audit scores between A and B in 2023?,96.00, 96%
-2435,What was the percentage of audit scores between C and D in 2023?,4.00, 4%
+2431,What was the percentage of suppliers audited according to a quality standard in 2023?,100, 100%
+2432,"What was the percentage of sites certified to IFS, BRC or FSCC22000 standards in 2023?",79.5, fscc22000
+2433,What percentage of sites were audited by Carrefour in 2022?,8, 6
+2434,What was the percentage of audit scores between A and B in 2023?,96, 96%
+2435,What was the percentage of audit scores between C and D in 2023?,4, 4%
 2436,How many suppliers/sites were there in 2023?,2593, 2593
 2443,What was the number of suppliers committed to the Food Transition Pact in 2023?,306, 306
-2445,What was the percentage of the 100 biggest suppliers committed to a 1.5°C trajectory in 2023?,44.00, 44%
+2445,What was the percentage of the 100 biggest suppliers committed to a 1.5°C trajectory in 2023?,44, 44%
 2450,What was the total installed capacity from renewables in 2023 in megawatts?,3515, 2023
 2451,How much was the total installed capacity from renewables in 2022 in megawatts?,3517, 2023
 2452,What was the installed capacity for renewable Onshore Wind/Solar in 2023 in megawatts?,12574, 12574

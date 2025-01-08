@@ -12,6 +12,7 @@ from copy import deepcopy
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from functools import lru_cache, partial
+from itertools import combinations
 
 from tqdm import tqdm
 
@@ -834,6 +835,117 @@ class ExtractiveResponseGenerator(ResponseGenerator):
 
         new_df = pd.DataFrame(new_dataset)
         new_df.to_csv("qa_dataset_aggr.csv", sep=";")    
+
+class MultiTableResponseGenerator:
+    def __init__(self, num_tables=2):
+        self.num_tables = num_tables
+        self.operations = ["rel_superlative", "rel_ranking", "quant_sum", "quant_avg", "multistep"]
+
+    def rel_superlative(self, elements, maximise=True):
+        fn = max if maximise else min
+        return fn(elements)
+
+    def rel_ranking(self, elements, firstk, desc=True):
+        return ', '.join([str(value) for value in sorted(elements, reverse=desc)][:firstk])
+
+    def quant_sum(self, elements):
+        res = round(sum(elements),2)
+        return res
+
+    def quant_avg(self, elements):
+        res = round(float(sum(elements)) / len(elements),2)
+        return res
+
+    def largest_clique_indices_and_common_elements(lists):
+
+        def share_element(lst1, lst2):
+            return bool(set(lst1) & set(lst2))
+
+        n = len(lists)
+        graph = [[False] * n for _ in range(n)]
+        for i in range(n):
+            for j in range(i + 1, n):
+                if share_element(lists[i], lists[j]):
+                    graph[i][j] = graph[j][i] = True
+
+        def is_clique(nodes):
+            for i, j in combinations(nodes, 2):
+                if not graph[i][j]:
+                    return False
+            return True
+
+        largest_clique = []
+        for size in range(1, n + 1):
+            for subset in combinations(range(n), size):
+                if is_clique(subset) and len(subset) > len(largest_clique):
+                    largest_clique = subset
+
+        if largest_clique:
+            shared_elements = set(lists[largest_clique[0]])
+            for idx in largest_clique[1:]:
+                shared_elements &= set(lists[idx])
+        else:
+            shared_elements = set()
+
+        return list(largest_clique), list(shared_elements)
+
+    def generate(self, dataset):
+        for i, row in dataset.iterrows():
+            pdfs, pages, tables, lines, operation = ast.literal_eval(row["PDF name"]), ast.literal_eval(row["Page numbers"]), \
+                                                    ast.literal_eval(row["Table numbers"]), ast.literal_eval(row["Row numbers"]), row["Operation"]
+            print(len(pdfs), len(pages), len(tables), len(lines)) #TODO: fix the pdf non-annidated problem
+            assert len(pdfs) == len(pages) == len(tables) == len(lines)
+
+            combined = list(zip(pdfs, pages, tables, lines))
+            random.shuffle(combined)
+            pdfs, pages, tables, lines = zip(*combined)
+            pdfs, pages, tables, lines = list(pdfs), list(pages), list(tables), list(lines)
+
+            tables_df = []
+            lines_df = []
+            for pdf, page, table, line in zip(pdfs, pages, tables, lines):
+                df = pd.read_csv(f"annotation/{pdf[0].split('.')[0]}/{page[0]}_{table[0]}.csv")
+                tables_df.append(df)
+                lines_df.append(line[0]-2)
+
+            tables_df_columns = [df.columns for df in tables_df]
+            indices, shared_elements = self.largest_clique_indices_and_common_elements(tables_df_columns)
+            if len(indices) < self.num_tables:
+                continue
+
+            indices = indices[:self.num_tables]
+            tables_df = [tables_df[i] for i in indices]
+            lines_df = [lines_df[i] for i in indices]
+            for shared_element in shared_elements:
+                try:
+                    fn_parameters = []
+                    for table, line in zip(tables_df, lines):
+                        fn_parameters.append(float(tables_df.at[line, shared_element]))
+                except:
+                    continue
+                break
+
+            if len(fn_parameters) != self.num_tables:
+                continue
+
+            if operation == "rel_superlative":
+                maximise = random.randint(0,1)
+                value = self.rel_superlative(fn_parameters, maximise=maximise)
+            elif operation == "rel_ranking":
+                firstk = random.randint(2,len(self.num_tables))
+                desc = random.randint(0,1)
+                value = self.rel_ranking(fn_parameters, firstk, desc)
+            elif operation == "quant_sum":
+                value = self.quant_sum(fn_parameters)
+            elif operation == "quant_avg":
+                value = self.quant_avg(fn_parameters)
+            else:
+                value = ""
+            value = str(value)
+
+            dataset.at[i,"Value"] = value
+        return dataset
+
 
 if __name__ == "__main__":
     df = pd.read_csv("one-table/gri-qa_extra.csv")
