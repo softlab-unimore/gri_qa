@@ -68,7 +68,7 @@ if __name__ == '__main__':
         table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
         table = pd.read_csv(table_filename, sep=';', on_bad_lines='skip')
 
-        hierarchical = row.iloc[2] == 3
+        hierarchical = row.iloc[2] == 1
         prompt = create_prompt(table, row["question"], hierarchical)
 
         # Query
