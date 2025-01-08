@@ -33,7 +33,7 @@ def create_prompt(table, question, hierarchical):
 
     table = flattening(table)
 
-    prompt = f"{description}\n\n###Instruction:\n{instruction}\n\nInput:\n{table}\n\n###Question:\n{question}\n\n###Response:\n"
+    prompt = f"{description}\n\n### Instruction:\n{instruction}\n\n### Input:\n{table}\n\n### Question:\n{question}\n\n### Response:\n"
     return prompt
 
 
