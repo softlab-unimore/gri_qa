@@ -20,7 +20,7 @@ index,question,value,response,correct
 8,"What are the two lowest values of fuel oil electricity consumption in MWh for the years 2023, 2022 and 2021 in increasing order?","797.0, 855.0"," 797 mwh, 855 mwh",True
 9,"What is the highest estimated energy consumption from gas in MWh for the years 2021, 2022, and 2023?",49674," 49,674 mwh",True
 10,"What are the two lowest values in decreasing order of energy consumption from coal measured in MWh for the years 2023, 2022 and 2021?","0.0, 0.0", 0,False
-11,Is the value of energy consumption from renewable fuel and heat in MWh in 2022 lower than in 2021?,no, no.,False
+11,Is the value of energy consumption from renewable fuel and heat in MWh in 2022 lower than in 2021?,no, no.,True
 12,Is the estimated energy consumption from purchased renewable electricity higher than the energy consumption from renewable electricity generated on site in MWh in 2023?,yes, yes,True
 13,What are the two highest values of purchased renewable electricity and gas consumption in MWh for the year 2023 in descending order?,"77831.0, 33245.0","
 72,632 mwh, 21,008 mwh",False
@@ -170,7 +170,7 @@ hazardous waste generated: 8,549 metric tons",False
 114,"What are the values of the Global Energy Efficiency Indicator (GEEI) from 2015 to 2023, ranked in ascending order, considering only the years 2015, 2019, 2020, 2021, 2022, and 2023?","85.1, 86.4, 87.0, 88.0, 90.2, 90.8"," 85.1, 86.4, 87.0, 88.0, 90.2, 90.8",True
 115,"What are the three values of particulate matter emissions, SO2 emissions, and NOx emissions for the year 2021 in ascending order?","3.8, 16.0, 58.0"," 3.8, 16, 59",False
 116,What is the maximum offshore continuous water discharge of hydrocarbon content recorded from 2019 to 2023?,13.7, 13.7 mg/l,True
-117,What is the minimum percentage of sites that met the target for offshore discharges quality (30 mg/l) from 2019 to 2023?,92, 92%.,False
+117,What is the minimum percentage of sites that met the target for offshore discharges quality (30 mg/l) from 2019 to 2023?,92, 92%.,True
 118,Is the value of onshore continuous water discharge of hydrocarbon content in mg/l in 2020 higher than in 2022?,yes," no, the value of onshore continuous water discharge of hydrocarbon content in mg/l in 2020 is not higher than in 2022.",False
 119,Is the amount of fresh water withdrawals excluding open loop cooling water lower than the amount of fresh water withdrawal in water stress area for the year 2021?,no, no,True
 120,Is the amount of NOx emissions in 2021 smaller than the amount of NMVOC emissions in 2021?,no, no,True
@@ -222,14 +222,14 @@ hazardous waste generated: 8,549 metric tons",False
 150,Is the estimate of indirect GHG emissions in Mt CO2e from capital goods lower than the estimate for fuel/energy related activities in the year 2023?,yes, yes,True
 151,Is the estimate of indirect GHG emissions from fuel/energy related activities for the year 2022 lower than in 2023?,yes, yes,True
 152,What are the two estimates of indirect GHG emissions for upstream transportation between 2022 and 2023 in increasing order?,"8.0, 9.0"," 8, 9",True
-153,"Is the estimate of indirect GHG emissions for the category ""upstream leased assets"" in the year 2022 lower than in 2023?",no, no.,False
+153,"Is the estimate of indirect GHG emissions for the category ""upstream leased assets"" in the year 2022 lower than in 2023?",no, no.,True
 154,"What is the minimum estimate of indirect GHG emissions in Mt CO2e for the year 2022 among purchased goods and services, fuel-and-energy-related activities, upstream transportation, upstream leased assets, processing of sold products, and end of life treatment of sold products?",0, 30 + 3 + 9 + 0 + 6 + 11 = 59 mt co₂e,False
 155,What are the highest 5 estimates of MtCO2e in increasing order in 2023?,"5, 8, 10, 27, 355"," 27, 355, 10, 8, 5",False
 156,Is the value of indirect GHG emissions in Mt CO2e for end of life treatment emissions greater than the value of the processing of sold products emissions in the year 2023?,yes, yes,True
 157,What are the two values of indirect GHG emissions in Mt CO2e for end of life treatment of sold products and upstream transportation in 2022 in decreasing order?,"11.0, 9.0"," 11, 9",True
 158,Is the estimate of indirect GHG emissions from upstream transportation in Mt CO2e for the year 2022 higher than in 2023?,yes, no.,False
 159,Is the value of the indirect GHG emissions in 2022 from downstream transportation lower than from upstream transportation?,yes, yes,True
-160,Is the value in Mt CO2e of the indirect GHG emissions for end of life treatment of sold products higher than for generated waste for the year 2023?,yes, yes.,False
+160,Is the value in Mt CO2e of the indirect GHG emissions for end of life treatment of sold products higher than for generated waste for the year 2023?,yes, yes.,True
 161,What are the two values of hazardous waste and non-hazardous waste processed in kilotonnes in 2019 when ranked in ascending order?,"288.0, 375.0","
 288 kt, 375 kt",True
 162,Is the value of the total volume of processed waste in 2020 greater than the hazardous waste in 2020?,yes, no,False
@@ -269,7 +269,7 @@ hazardous waste generated: 8,549 metric tons",False
 2022: 47.5 tons
 2023: 57.3 tons",False
 192,What is the maximum weight of collected electric and electronic waste (WEEE) in tons reported for the years 2019 to 2023?,57.3, 57.3 tons,True
-193,Is the weight of collected electric and electronic waste (WEEE) smaller than the weight of ordinary waste in tons reported for the year 2023?,yes, yes.,False
+193,Is the weight of collected electric and electronic waste (WEEE) smaller than the weight of ordinary waste in tons reported for the year 2023?,yes, yes.,True
 194,What is the highest value of CO2 emissions between different business lines in 2023?,7.9, 61.20 million t,False
 195,What is the lowest value of CO2 emissions between different business lines in 2023?,0.2, 0.83 million t (aggregates business line),False
 196,What is the highest energy consumption by source in 2021?,353640, 337186 tj,False
