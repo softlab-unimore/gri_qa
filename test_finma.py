@@ -72,7 +72,7 @@ if __name__ == '__main__':
         outputs = model.generate(**encoding, max_length=2000)
         response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-        response_value = response[0].strip('[\'').split('\nAnswer: ')[1].strip('\']')
+        response_value = response[0].strip('[\'').split('\nResponse: ')[1].strip('\']')
         print(f'Q{i}: {row["value"]} - {response_value}')
 
         results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
