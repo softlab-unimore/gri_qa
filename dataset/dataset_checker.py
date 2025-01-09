@@ -12,7 +12,7 @@ class Checker:
 
     @lru_cache(maxsize=None)
     def read_table(self, path):
-        return pd.read_csv(path, sep=";", quoting=csv.QUOTE_NONE, escapechar='\\')
+        return pd.read_csv(path, sep=";")
 
     @staticmethod
     def extract_value(df, row_idx, col_idx):
@@ -42,7 +42,7 @@ class RelChecker(Checker):
         super(RelChecker, self).__init__()
 
     @staticmethod
-    def rank(values, firstk, desc=False):
+    def rank(values, firstk, desc=False, lowest_highest=False):
         """
         Rank the values and return the `firstk` values.
 
@@ -54,8 +54,15 @@ class RelChecker(Checker):
         Returns:
             str: A comma-separated string of the initial `firstk` values in the specified order.
         """
+        values = sorted(values)
+        if lowest_highest:
+            values = values[-firstk:]
+        else:
+            values = values[:firstk]
 
-        return ', '.join([str(value) for value in sorted(values, reverse=desc)][:firstk])
+        values = [str(round(float(value),2)) for value in sorted(values, reverse=desc)]
+
+        return ', '.join(values)
 
     @staticmethod
     def superlative(values, maximise=True, to_str=True):
@@ -72,7 +79,7 @@ class RelChecker(Checker):
         """
 
         fn = max if maximise else min
-        return str(fn(values)) if to_str else fn(values)
+        return str(round(float(fn(values)),2)) if to_str else fn(values)
 
     def comparative(self, values, maximise=True, to_str=True):
         """
@@ -94,7 +101,10 @@ class RelChecker(Checker):
             raise ValueError(
                 f"Can't calculate the comparison between more than 2 values")
 
-        return self.superlative(values, maximise, to_str)
+        assert (isinstance(values[0], float) or isinstance(values[0], int)) and \
+               (isinstance(values[1], float) or isinstance(values[1], int))
+        result = values[0] > values[1] if maximise else values[0] < values[1]
+        return "yes" if result else "no"
 
 
 class QuantChecker(Checker):
@@ -258,12 +268,21 @@ class CheckerFactory:
                 results2.append("TO BE CHECKED MANUALLY")
                 continue
             if dataset_abbrv == "rel":
+                row["metadata"] = literal_eval(row["metadata"])
                 if row["question_type_ext"] == "rank":
-                    print(self.rel_checker.rank(values, int(row["firstk"])))
+                    results.append(self.rel_checker.rank(
+                        values,
+                        int(row["metadata"]["firstk"]),
+                        row["metadata"]["desc"],
+                        row["metadata"]["lowest-highest"]
+                    ))
                 elif row["question_type_ext"] == "comparative":
-                    print(self.rel_checker.comparative(values, maximise=row["maximise"]))
+                    results.append(self.rel_checker.comparative(values, maximise=row["metadata"]["maximise"]))
                 elif row["question_type_ext"] == "superlative":
-                    print(self.rel_checker.superlative(values, maximise=row["maximise"]))
+                    results.append(self.rel_checker.superlative(values, maximise=row["metadata"]["maximise"]))
+                else:
+                    raise ValueError(f"Unknown question type {row['question_type_ext']} for dataset {dataset_abbrv} and row {i} in {self.dataset_path}")
+
             elif dataset_abbrv == "quant":
                 if row["question_type_ext"] == "average":
                     results.append(self.quant_checker.average(values, to_str=False))
@@ -287,16 +306,38 @@ class CheckerFactory:
                     results.append("TO BE CHECKED MANUALLY")
                     results2.append("TO BE CHECKED MANUALLY")
                 else:
-                    print(row["question_type_ext"])
+                    raise ValueError(f"Unknown question type {row['question_type_ext']} for dataset {dataset_abbrv} and row {i} in {self.dataset_path}")
             elif dataset_abbrv == "extra":
                 pass
         dataset_df["automatic check"] = results
-        dataset_df["automatic check 2"] = results2
+        if dataset_abbrv == "quant":
+            dataset_df["automatic check 2"] = results2
         return dataset_df
 
+def value_changer(row):
+    if row["question_type_ext"] == "comparative":
+        return row
+    if row["question_type_ext"] == "rank":
+        values_str = row["value"].split(", ")
+        values = [str(round(float(value),2)) for value in values_str]
+        row["value"] = ", ".join(values)
+    if row["question_type_ext"] == "superlative":
+        row["value"] = str(round(float(row["value"]),2))
+    return row
+
 if __name__ == "__main__":
-    dataset_path = "one-table/gri-qa_quant.csv"
+    dataset_path = "one-table/gri-qa_rel.csv"
+    dataset_type = dataset_path.split("/")[-1].split(".")[0].split("_")[-1]
     factory = CheckerFactory(dataset_path)
     df = factory.run()
-    df["boolean_check"] = (df["value"] == df["automatic check"]) | (df["value"] == df["automatic check 2"])
+    if dataset_type == "rel":
+        df = df.apply(value_changer, axis="columns")
+        df["boolean_check"] = df["value"] == df["automatic check"]
+    elif dataset_type == "quant":
+        df["boolean_check"] = (df["value"] == df["automatic check"]) | (df["value"] == df["automatic check 2"])
+    else:
+        raise ValueError(f"Unknown dataset type {dataset_type} for dataset {dataset_path}")
+
     df.to_csv(f"{'/'.join(dataset_path.split('/')[:-1])}/check_{dataset_path.split('/')[-1]}", index=False)
+    print(sum(df["boolean_check"]))
+    print(len(df))
