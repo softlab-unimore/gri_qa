@@ -194,9 +194,9 @@ def main():
     )
 
     # Step 2: Save predictions
-    qa_file = './dataset/qa_dataset.csv'
+    qa_file = './dataset/one-table/gri-qa_extra.csv'
     df_preds = dict_to_qa(dict_preds, qa_file)
-    df_preds.to_csv('./results/pred_qa_dataset.csv', index=False)
+    df_preds.to_csv('./results/one-table/extra/tagop.csv', index=False)
 
     print('Hello World!')
 
