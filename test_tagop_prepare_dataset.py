@@ -186,7 +186,7 @@ def tagop_prepare_dataset(input_path: str, roberta_model: str, output_path: str)
 # ```
 
 def main():
-    qa_file = './dataset/qa_dataset.csv'
+    qa_file = './dataset/one-table/gri-qa_extra.csv'
     dataset_dir = './dataset/annotation'
     tagop_data_path = './dataset_tagop'
     roberta_model = './dataset_tagop/roberta.large' # ToDo: download the model

@@ -1,2 +1,6 @@
 model,em
-openai_chainofthought,0.73404
+tapex,0.01049
+tablellama,0.01049
+finma,0.02448
+openai,0.37063
+openai_chainofthought,0.5979

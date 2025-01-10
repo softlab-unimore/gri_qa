@@ -73,7 +73,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
-    models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
+    # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
+    models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['tapex']
     # models = ['openai_chainofthought']
 
