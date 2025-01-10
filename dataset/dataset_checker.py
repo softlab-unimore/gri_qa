@@ -285,23 +285,23 @@ class CheckerFactory:
 
             elif dataset_abbrv == "quant":
                 if row["question_type_ext"] == "average":
-                    results.append(self.quant_checker.average(values, to_str=False))
-                    results2.append(self.quant_checker.average(values[::-1], to_str=False))
+                    results.append(self.quant_checker.average(values))
+                    results2.append(self.quant_checker.average(values[::-1]))
                 elif row["question_type_ext"] == "sum":
-                    results.append(self.quant_checker.sum(values, to_str=False))
-                    results2.append(self.quant_checker.sum(values[::-1], to_str=False))
+                    results.append(self.quant_checker.sum(values))
+                    results2.append(self.quant_checker.sum(values[::-1]))
                 elif row["question_type_ext"] == "reduction_percentage":
-                    results.append(self.quant_checker.reduction_percentage(values, to_str=False))
-                    results2.append(self.quant_checker.reduction_percentage(values[::-1], to_str=False))
+                    results.append(self.quant_checker.reduction_percentage(values))
+                    results2.append(self.quant_checker.reduction_percentage(values[::-1]))
                 elif row["question_type_ext"] == "reduction_difference":
-                    results.append(self.quant_checker.reduction_difference(values, to_str=False))
-                    results2.append(self.quant_checker.reduction_difference(values[::-1], to_str=False))
+                    results.append(self.quant_checker.reduction_difference(values))
+                    results2.append(self.quant_checker.reduction_difference(values[::-1]))
                 elif row["question_type_ext"] == "increase_percentage":
-                    results.append(self.quant_checker.increase_percentage(values, to_str=False))
-                    results2.append(self.quant_checker.increase_percentage(values[::-1], to_str=False))
+                    results.append(self.quant_checker.increase_percentage(values))
+                    results2.append(self.quant_checker.increase_percentage(values[::-1]))
                 elif row["question_type_ext"] == "increase_difference":
-                    results.append(self.quant_checker.increase_difference(values, to_str=False))
-                    results2.append(self.quant_checker.increase_difference(values[::-1], to_str=False))
+                    results.append(self.quant_checker.increase_difference(values))
+                    results2.append(self.quant_checker.increase_difference(values[::-1]))
                 elif row["question_type_ext"] == "multi-step":
                     results.append("TO BE CHECKED MANUALLY")
                     results2.append("TO BE CHECKED MANUALLY")
@@ -314,7 +314,7 @@ class CheckerFactory:
             dataset_df["automatic check 2"] = results2
         return dataset_df
 
-def value_changer(row):
+def value_changer_rel(row):
     if row["question_type_ext"] == "comparative":
         return row
     if row["question_type_ext"] == "rank":
@@ -325,15 +325,20 @@ def value_changer(row):
         row["value"] = str(round(float(row["value"]),2))
     return row
 
+def value_changer_quant(row):
+    row["value"] = str(round(float(row["value"].replace(",","")),2))
+    return row
+
 if __name__ == "__main__":
-    dataset_path = "one-table/gri-qa_rel.csv"
+    dataset_path = "one-table/gri-qa_quant.csv"
     dataset_type = dataset_path.split("/")[-1].split(".")[0].split("_")[-1]
     factory = CheckerFactory(dataset_path)
     df = factory.run()
     if dataset_type == "rel":
-        df = df.apply(value_changer, axis="columns")
+        df = df.apply(value_changer_rel, axis="columns")
         df["boolean_check"] = df["value"] == df["automatic check"]
     elif dataset_type == "quant":
+        df = df.apply(value_changer_quant, axis="columns")
         df["boolean_check"] = (df["value"] == df["automatic check"]) | (df["value"] == df["automatic check 2"])
     else:
         raise ValueError(f"Unknown dataset type {dataset_type} for dataset {dataset_path}")
