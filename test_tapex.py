@@ -33,8 +33,8 @@ if __name__ == '__main__':
         print(f'Q{i} - {row["question"]}')
 
         # Table extraction
-        table_dirname = row["pdf name"].split('.')[0]
-        table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
+        table_dirname = eval(row["pdf name"])[0].split('.')[0]
+        table_filename = f'dataset/annotation/{table_dirname}/{str(eval(row["page nbr"])[0]).split(".")[0]}_{str(eval(row["table nbr"])[0]).split(".")[0]}.csv'
         table = pd.read_csv(table_filename, sep=';')
         table = table.astype(str)
 
