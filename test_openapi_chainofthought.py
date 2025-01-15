@@ -66,26 +66,27 @@ def df_to_html_string(df: pd.DataFrame, index: bool = True) -> str:
     
     return df.to_html(index=index, classes='table table-striped table-bordered', border=1, justify='left', escape=False)
 
-def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
+def answer(question: str, tables: str, dataset_file: str, type: str) -> str:
     """Generates answer for a question about table data using OpenAI's API.
 
     Args:
         question (str): Question to be answered about the table
-        table (pd.DataFrame): Table data to be analyzed
+        table (str): Table data to be analyzed
         dataset_file (str): Path to the dataset file
+        type (str): Type of table data (one-table or multi-table)
 
     Returns:
         str: AI-generated answer based on the table content
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
-    instruction = "You must answer the following question given the provided table. First write your reasoning. Then, in the end, write \"The final answer is:\" followed by the answer, which must be a numerical value. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting."
+    instruction = f"You must answer the following question given the provided table{'s' if type == 'multi-table' else ''}. First write your reasoning. Then, in the end, write \"The final answer is:\" followed by the answer, which must be a numerical value. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting."
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",
-                "content": f"{instruction}\n\nQuestion: {question}\nTable: {df_to_html_string(table, index=False)}\n\nLet's think step-by-step."
+                "content": f"{instruction}\n\nQuestion: {question}\nTable{'s' if type == 'multi-table' else ''}: {tables}\n\nLet's think step-by-step."
             }
         ],
         temperature=0.0
@@ -94,7 +95,7 @@ def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
     return response
 
 
-def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataFrame:
+def table_predictions(qa_file: str, dataset_dir: str, save_dir: str, type: str) -> pd.DataFrame:
     """Processes Q&A pairs by analyzing tables and generating predictions.
 
     Args:
@@ -107,7 +108,6 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
     """
     # Load initial QA data and prepare index
     df_qa = pd.read_csv(qa_file)
-    df_qa = df_qa[df_qa.iloc[:, 2] != 2.0]
     df_qa['index'] = df_qa.index
     df_qa = df_qa[['index', 'question', 'pdf name', 'page nbr', 'table nbr', 'value']].astype(str)
     df_qa = df_qa.reset_index(drop=True)
@@ -123,17 +123,28 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
 
         print(f'Q{row["index"]} - {row["question"]}')
 
-        pdf_name, page_num, table_num = row['pdf name'], row['page nbr'], row['table nbr']
-        pdf_name = pdf_name.replace('.pdf', '')
-        table_path = os.path.join(dataset_dir, pdf_name, f'{page_num}_{table_num}.csv')
+        pdf_name, page_num, table_num = eval(row['pdf name']), eval(row['page nbr']), eval(row['table nbr'])
 
-        if not os.path.exists(table_path):
-            print(f'{table_path} does not exist')
-            predictions.append(None)
-            continue
+        tables = []
+        for pdf_name, page_num, table_num in zip(pdf_name, page_num, table_num):
+            pdf_name = pdf_name.replace('.pdf', '')
+            table_path = os.path.join(dataset_dir, pdf_name, f'{page_num}_{table_num}.csv')
 
-        table = read_csv_with_encoding(str(table_path))
-        pred = answer(row['question'], table, qa_file)
+            if not os.path.exists(table_path):
+                print(f'{table_path} does not exist')
+                predictions.append(None)
+                continue
+
+            company = pdf_name.strip('_2023')
+            table = read_csv_with_encoding(str(table_path))
+            if type == 'multi-table':
+                table = f"Company name: {company}\n\n{df_to_html_string(table, index=False)}"
+                tables.append(table)
+            else:
+                tables.append(df_to_html_string(table, index=False))
+
+        tables = "\n\n".join(tables)
+        pred = answer(row['question'], tables, qa_file, type=type)
         predictions.append(pred)
 
         print(f'Q{row["index"]}: {row["value"]} - {pred}')
@@ -159,6 +170,6 @@ if __name__ == '__main__':
 
     dataset_name = re.split("[_.]", args.dataset)[1]
 
-    df_preds = table_predictions(f'dataset/{args.type}/{args.dataset}', './dataset/annotation', f'./results/{args.type}/{dataset_name}')
+    df_preds = table_predictions(f'dataset/{args.type}/{args.dataset}', './dataset/annotation', f'./results/{args.type}/{dataset_name}', type=args.type)
     df_preds.to_csv(f'./results/{args.type}/{dataset_name}/openai_chainofthought.csv', index=False)
     os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv', f'./results/{args.type}/{dataset_name}/emissions_openai_chainofthought.csv')
