@@ -13,7 +13,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
-    qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
     tokenizer = TapexTokenizer.from_pretrained("microsoft/tapex-large-finetuned-wtq")
@@ -24,6 +23,7 @@ if __name__ == '__main__':
 
     results = pd.DataFrame(columns=['index', 'question', 'value', 'response'])
 
+    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
     tracker = EmissionsTracker(output_dir=f'./results/{args.type}/{dataset_name}')
 
     tracker.start()
@@ -54,6 +54,5 @@ if __name__ == '__main__':
 
     tracker.stop()
 
-    os.makedirs(f'./results/{args.type}/{dataset_name}/', exist_ok=True)
     results.to_csv(f'./results/{args.type}/{dataset_name}/tapex.csv', index=False)
     os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv',f'./results/{args.type}/{dataset_name}/emissions_tapex.csv')

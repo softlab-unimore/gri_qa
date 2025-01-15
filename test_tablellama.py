@@ -23,7 +23,21 @@ def flattening(table):
     return flatten_table
 
 
-def create_prompt(table, question, hierarchical):
+def create_prompt(row, hierarchical, type):
+    table_dirnames = eval(row["pdf name"])
+
+    tables = []
+    for i, table_dirname in enumerate(table_dirnames):
+        table_dirname = table_dirname.split(".")[0]
+        table_filename = f'dataset/annotation/{table_dirname}/{eval(row["page nbr"])[i]}_{eval(row["table nbr"])[i]}.csv'
+        table = pd.read_csv(table_filename, sep=';')
+        if type == 'one-table':
+            tables.append(flattening(table))
+        else:
+            company = table_dirname.strip('_2023')
+            table = f"Company name: {company}\n\n{flattening(table)}"
+            tables.append(table)
+
     description = "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request."
 
     if not hierarchical:
@@ -31,20 +45,18 @@ def create_prompt(table, question, hierarchical):
     else:
         instruction = "This is a hierarchical table QA task. The goal of this task is to answer the question given the table. The table might be hierarchical."
 
-    table = flattening(table)
-
-    prompt = f"{description}\n\n### Instruction:\n{instruction}\n\n### Input:\n{table}\n\n### Question:\n{question}\n\n### Response:\n"
+    tables = "\n\n".join(tables)
+    prompt = f"{description}\n\n### Instruction:\n{instruction}\n\n### Input:\n{tables}\n\n### Question:\n{row['question']}\n\n### Response:\n"
     return prompt
 
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--dataset', type=str, default='gri-qa_multitable2.csv')
+    parser.add_argument('--type', type=str, default='multi-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
-    qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
     tokenizer = AutoTokenizer.from_pretrained('osunlp/TableLlama')
@@ -55,6 +67,7 @@ if __name__ == '__main__':
 
     results = pd.DataFrame(columns=['index', 'question', 'value', 'response'])
 
+    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
     tracker = EmissionsTracker(output_dir=f'./results/{args.type}/{dataset_name}')
 
     tracker.start()
@@ -63,13 +76,8 @@ if __name__ == '__main__':
 
         print(f'Q{i} - {row["question"]}')
 
-        # Table extraction
-        table_dirname = row["pdf name"].split('.')[0]
-        table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
-        table = pd.read_csv(table_filename, sep=';', on_bad_lines='skip')
-
         hierarchical = row.iloc[2] == 1
-        prompt = create_prompt(table, row["question"], hierarchical)
+        prompt = create_prompt(row, hierarchical, args.type)
 
         # Query
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
@@ -84,6 +92,5 @@ if __name__ == '__main__':
 
     tracker.stop()
 
-    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{args.type}/{dataset_name}/tablellama.csv', index=False)
     os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv',f'./results/{args.type}/{dataset_name}/emissions_tablellama.csv')
