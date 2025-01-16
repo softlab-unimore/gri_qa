@@ -7,10 +7,10 @@ from codecarbon import EmissionsTracker
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
-def create_prompt_step_wise(table, question):
-    description = ("Below is an instruction that describes a question answering task in the environmental domain, paired with "
-                   "an input table and its relevant text that provide further context. The given question is relevant to "
-                   "the table and text. Generate an appropriate answer to the given question.")
+def create_prompt_step_wise(table, question, type='one-table'):
+    description = (f"Below is an instruction that describes a question answering task in the environmental domain, paired with "
+                   f"{'an input table' if type == 'one-table' else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
+                   f"the table and text. Generate an appropriate answer to the given question.")
 
     instruction = ("Given a table and a list of texts in the following, answer the question posed using the following five-step process:\n"
                    "1. Step 1: Predict the type of question being asked. Store this prediction in the variable ‘{question_type}‘. The value of "
@@ -38,10 +38,10 @@ def create_prompt_step_wise(table, question):
     return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{table}\n\n### Text\n\n### Question\n{question}\n\n### Response\n"
 
 
-def create_prompt_end_to_end(table, question):
-    description = ("Below is an instruction that describes a question answering task in the environmental domain, paired with "
-                   "an input table and its relevant text that provide further context. The given question is relevant to "
-                   "the table and text. Generate an appropriate answer to the given question.")
+def create_prompt_end_to_end(table, question, type='one-table'):
+    description = (f"Below is an instruction that describes a question answering task in the environmental domain, paired with "
+                   f"{'an input table' if args.type == 'one-table' else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
+                   f"the table{'s' if type == 'multi-table' else ''} and text{'s' if type == 'multi-table' else ''}. Generate an appropriate answer to the given question.")
 
     instruction = ("Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store "
                    "it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the "
@@ -73,6 +73,7 @@ if __name__ == '__main__':
 
     results = pd.DataFrame(columns=['index', 'question', 'value', 'response'])
 
+    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
     tracker = EmissionsTracker(output_dir=f'./results/{args.type}/{dataset_name}')
     tracker.start()
 
@@ -85,8 +86,8 @@ if __name__ == '__main__':
         table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
         table = pd.read_csv(table_filename, sep=';')
 
-        prompt = create_prompt_step_wise(table, row["question"]) \
-            if not args.end_to_end else create_prompt_end_to_end(table, row["question"])
+        prompt = create_prompt_step_wise(table, row["question"], type=args.type) \
+            if not args.end_to_end else create_prompt_end_to_end(table, row["question"], type=args.type)
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
         if encoding['input_ids'].shape[1] < 4096:
@@ -105,6 +106,5 @@ if __name__ == '__main__':
 
     tracker.stop()
 
-    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{args.type}/{dataset_name}/tatllm__{"step_wise" if not args.end_to_end else "end_to_end"}.csv', index=False)
     os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv',f'./results/{args.type}/{dataset_name}/emissions_{"step_wise" if not args.end_to_end else "end_to_end"}.csv')

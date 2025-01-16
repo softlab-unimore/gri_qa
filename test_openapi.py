@@ -8,6 +8,15 @@ import pandas as pd
 from openai import OpenAI
 from codecarbon import EmissionsTracker
 
+from phoenix.otel import register
+from openinference.instrumentation.openai import OpenAIInstrumentor
+
+tracer_provider = register(
+    project_name="openai",
+    endpoint="http://localhost:6006/v1/traces",
+)
+
+OpenAIInstrumentor().instrument(tracer_provider=tracer_provider)
 
 def read_csv_with_encoding(file_path, try_encodings=None):
     """
@@ -66,26 +75,27 @@ def df_to_html_string(df: pd.DataFrame, index: bool = True) -> str:
     
     return df.to_html(index=index, classes='table table-striped table-bordered', border=1, justify='left', escape=False)
 
-def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
+def answer(question: str, tables: str, dataset_file: str, type: str) -> str:
     """Generates answer for a question about table data using OpenAI's API.
 
     Args:
         question (str): Question to be answered about the table
-        table (pd.DataFrame): Table data to be analyzed
+        table (pd.str): Table data to be analyzed concatenated as a string
         dataset_file (str): Path to the dataset file
+        type (str): Type of table data (one-table or multi-table)
 
     Returns:
         str: AI-generated answer based on the table content
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
-    instruction = "You must answer the following question given the provided table. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a comma. Write the numerical values with exactly 2 decimal values. Do not write anything else. Do not write any Markdown formatting."
+    instruction = f"You must answer the following question given the provided table{'s' if type == 'multi-table' else ''}. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a comma. Write the numerical values with exactly 2 decimal values. Do not write anything else. Do not write any Markdown formatting."
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",
-                "content": f"{instruction}\n\nQuestion: {question}\nTable: {df_to_html_string(table, index=False)}\nAnswer: "
+                "content": f"{instruction}\n\nQuestion: {question}\nTable{'s' if type == 'multi-table' else ''}: {tables}\nAnswer: "
             }
         ],
         temperature=0.0
@@ -94,20 +104,20 @@ def answer(question: str, table: pd.DataFrame, dataset_file: str) -> str:
     return response
 
 
-def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataFrame:
+def table_predictions(qa_file: str, dataset_dir: str, save_dir: str, type: str) -> pd.DataFrame:
     """Processes Q&A pairs by analyzing tables and generating predictions.
 
     Args:
         qa_file (str): Path to CSV file containing questions and table references
         dataset_dir (str): Directory containing table CSV files organized by PDF
         save_dir(str): Directory to save the results
+        type (str): Type of table data (one-table or multi-table)
 
     Returns:
         pd.DataFrame: Results containing original questions, true values, and predictions
     """
     # Load initial QA data and prepare index
     df_qa = pd.read_csv(qa_file)
-    df_qa = df_qa[df_qa.iloc[:, 2] != 2.0]
     df_qa['index'] = df_qa.index
     df_qa = df_qa[['index', 'question', 'pdf name', 'page nbr', 'table nbr', 'value' ]].astype(str)
     df_qa = df_qa.reset_index(drop=True)
@@ -123,17 +133,28 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
 
         print(f'Q{row["index"]} - {row["question"]}')
 
-        pdf_name, page_num, table_num = row['pdf name'], row['page nbr'], row['table nbr']
-        pdf_name = pdf_name.replace('.pdf', '')
-        table_path = os.path.join(dataset_dir, pdf_name, f'{page_num}_{table_num}.csv')
+        pdf_names, page_nums, table_nums = eval(row['pdf name']), eval(row['page nbr']), eval(row['table nbr'])
 
-        if not os.path.exists(table_path):
-            print(f'{table_path} does not exist')
-            predictions.append(None)
-            continue
+        tables = []
+        for pdf_name, page_num, table_num in zip(pdf_names, page_nums, table_nums):
+            pdf_name = pdf_name.replace('.pdf', '')
+            table_path = os.path.join(dataset_dir, pdf_name, f'{page_num}_{table_num}.csv')
 
-        table = read_csv_with_encoding(str(table_path))
-        pred = answer(row['question'], table, qa_file)
+            if not os.path.exists(table_path):
+                print(f'{table_path} does not exist')
+                predictions.append(None)
+                continue
+
+            company = pdf_name.strip('_2023')
+            table = read_csv_with_encoding(str(table_path))
+            if type == 'multi-table':
+                table = f"Company name: {company}\n\n{df_to_html_string(table, index=False)}"
+                tables.append(table)
+            else:
+                tables.append(df_to_html_string(table, index=False))
+
+        tables = "\n\n".join(tables)
+        pred = answer(row['question'], tables, qa_file, type=type)
         predictions.append(pred)
 
         print(f'Q{row["index"]}: {row["value"]} - {pred}')
@@ -149,8 +170,8 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str) -> pd.DataF
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--dataset', type=str, default='gri-qa_multitable2.csv')
+    parser.add_argument('--type', type=str, default='multi-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     config = ConfigParser()
@@ -159,6 +180,6 @@ if __name__ == '__main__':
 
     dataset_name = re.split("[_.]", args.dataset)[1]
 
-    df_preds = table_predictions(f'dataset/{args.dataset}', './dataset/annotation', f'./results/{dataset_name}')
-    df_preds.to_csv(f'./results/{dataset_name}/openai.csv', index=False)
-    os.rename(f'./results/{dataset_name}/emissions.csv', f'./results/{dataset_name}/emissions_openai.csv')
+    df_preds = table_predictions(f'dataset/{args.type}/{args.dataset}', './dataset/annotation', f'./results/{args.type}/{dataset_name}', type=args.type)
+    df_preds.to_csv(f'./results/{args.type}/{dataset_name}/openai.csv', index=False)
+    os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv', f'./results/{args.type}/{dataset_name}/emissions_openai.csv')

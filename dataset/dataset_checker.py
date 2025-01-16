@@ -19,7 +19,9 @@ class Checker:
         try:
             return float(df.iloc[row_idx, col_idx])
         except:
-            return None
+            #print(df)
+            #print(row_idx, col_idx)
+            return df.iloc[row_idx, col_idx]
 
     def extract_values(self, path, rows, cols):
         df = self.read_table(path)
@@ -27,12 +29,10 @@ class Checker:
             rows = literal_eval(rows)
             cols = literal_eval(cols)
         except:
-            return None
+            rows, cols = [rows], [cols]
         values = []
         for row, col in zip(rows, cols):
             value = self.extract_value(df, int(float(row))-2, int(float(col))-1)
-            if value is None:
-                return None
             values.append(value)
 
         return values
@@ -261,8 +261,12 @@ class CheckerFactory:
         results2 = []
         for i,row in tqdm(dataset_df.iterrows()):
             dataset_abbrv = self.dataset_path.split("/")[-1].split(".")[0].split("_")[-1]
-            table_path = f"annotation/{row['pdf name'].split('.')[0]}/{row['page nbr']}_{row['table nbr']}.csv"
-            values = self.rel_checker.extract_values(table_path, row["row indices"], row["col indices"])
+            table_path = f"annotation/{eval(row['pdf name'])[0].split('.')[0]}/{eval(row['page nbr'])[0]}_{eval(row['table nbr'])[0]}.csv"
+            if dataset_abbrv in ["rel", "quant"]:
+                values = self.rel_checker.extract_values(table_path, row["row indices"], row["col indices"])
+            else:
+                values = self.extra_checker.extract_values(table_path, row["row"], row["column"])[0]
+                values = str(values)
             if values is None:
                 results.append("TO BE CHECKED MANUALLY")
                 results2.append("TO BE CHECKED MANUALLY")
@@ -308,7 +312,8 @@ class CheckerFactory:
                 else:
                     raise ValueError(f"Unknown question type {row['question_type_ext']} for dataset {dataset_abbrv} and row {i} in {self.dataset_path}")
             elif dataset_abbrv == "extra":
-                pass
+                results.append(values)
+
         dataset_df["automatic check"] = results
         if dataset_abbrv == "quant":
             dataset_df["automatic check 2"] = results2
@@ -329,8 +334,29 @@ def value_changer_quant(row):
     row["value"] = str(round(float(row["value"].replace(",","")),2))
     return row
 
+def value_changer_extra(row):
+    def isfloat(value):
+        try:
+            float(value)
+            return True
+        except ValueError:
+            return False
+
+    row["value"] = str(row["value"]).strip().replace("%","")
+    row["automatic check"] = str(row["automatic check"]).strip().replace("%","")
+
+    if isfloat(row["value"]):
+        if "." in row["value"]:
+            row["value"] = row["value"].rstrip("0").rstrip(".")
+
+    if isfloat(row["automatic check"]):
+        if "." in row["automatic check"]:
+            row["automatic check"] = row["automatic check"].rstrip("0").rstrip(".")
+
+    return row
+
 if __name__ == "__main__":
-    dataset_path = "one-table/gri-qa_quant.csv"
+    dataset_path = "one-table/gri-qa_extra.csv"
     dataset_type = dataset_path.split("/")[-1].split(".")[0].split("_")[-1]
     factory = CheckerFactory(dataset_path)
     df = factory.run()
@@ -340,6 +366,9 @@ if __name__ == "__main__":
     elif dataset_type == "quant":
         df = df.apply(value_changer_quant, axis="columns")
         df["boolean_check"] = (df["value"] == df["automatic check"]) | (df["value"] == df["automatic check 2"])
+    elif dataset_type == "extra":
+        df = df.apply(value_changer_extra, axis="columns")
+        df["boolean_check"] = df["value"] == df["automatic check"]
     else:
         raise ValueError(f"Unknown dataset type {dataset_type} for dataset {dataset_path}")
 

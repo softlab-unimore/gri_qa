@@ -52,6 +52,7 @@ if __name__ == '__main__':
 
     results = pd.DataFrame(columns=['index', 'question', 'value', 'response'])
 
+    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
     tracker = EmissionsTracker(output_dir=f'./results/{args.type}/{dataset_name}')
 
     tracker.start()
@@ -79,6 +80,5 @@ if __name__ == '__main__':
 
     tracker.stop()
 
-    os.makedirs(f'./results/{args.type}/{dataset_name}', exist_ok=True)
     results.to_csv(f'./results/{args.type}/{dataset_name}/finma.csv', index=False)
     os.rename(f'./results/{args.type}/{dataset_name}/emissions.csv',f'./results/{args.type}/{dataset_name}/emissions_finma.csv')

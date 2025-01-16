@@ -41,9 +41,15 @@ def create_prompt(row, hierarchical, type):
     description = "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request."
 
     if not hierarchical:
-        instruction = "This is a table QA task. The goal of this task is to answer the question given the table."
+        if type == 'one-table':
+            instruction = f"This is a table QA task. The goal of this task is to answer the question given the table."
+        else:
+            instruction = f'This is a table QA task. The goal of this task is to answer the question given some tables.'
     else:
-        instruction = "This is a hierarchical table QA task. The goal of this task is to answer the question given the table. The table might be hierarchical."
+        if type == 'one-table':
+            instruction = f"This is a hierarchical table QA task. The goal of this task is to answer the question given the table. The table might be hierarchical."
+        else:
+            instruction = f'This is a hierarchical table QA task. The goal of this task is to answer the question given some tables. The tables might be hierarchical.'
 
     tables = "\n\n".join(tables)
     prompt = f"{description}\n\n### Instruction:\n{instruction}\n\n### Input:\n{tables}\n\n### Question:\n{row['question']}\n\n### Response:\n"
