@@ -1,6 +1,6 @@
 Unnamed: 0,hierarchical,pdf name,gri,gri_finegrained,page nbr,table nbr,question,value,row,column
 0,0,['NYSE_E_2023.pdf'],302,302-1.7,[163],[0],What was the total energy consumption within the organization in millions of GJ in 2023?,516.2,31,3
-1,0,['NYSE_E_2023.pdf'],302,302-1.2,[163],[0],How much electricity was produced from renewable sources in Gwh in 2022?,2836,23,5
+1,0,['NYSE_E_2023.pdf'],302,302-1.2,[163],[0],How much electricity was produced from renewable sources in Gwh in 2022?,2.836,23,5
 2,0,['NYSE_E_2023.pdf'],302,302-1.4,[163],[0],How much electricity was sold to other companies in millions of GJ in 2023?,192.7,35,3
 3,0,['NYSE_E_2023.pdf'],302,302-3.1,[163],[0],What was the percentage of energy intensity index for the organization in 2023?,123,37,3
 4,0,['NYSE_E_2023.pdf'],302,302-1.8,[163],[0],What was the total energy consumption from renewable energy sources in millions of GJ in 2021?,1.5,32,6
@@ -28,7 +28,7 @@ Unnamed: 0,hierarchical,pdf name,gri,gri_finegrained,page nbr,table nbr,question
 26,0,['NYSE_E_2023.pdf'],305,305-2.3,[163],[0],What was the total amount of indirect GHG emissions (Scope 2) in million tonnes of CO2 equivalent for the year 2021?,0.81,19,6
 27,0,['NYSE_E_2023.pdf'],305,305-2.3,[163],[0],How many million tonnes of CO2 equivalent were emitted indirectly from energy consumption (Scope 2) in 2022?,0.79,19,5
 28,0,['NYSE_E_2023.pdf'],305,305-1.1,[163],[0],What was the total amount of direct methane emissions (Scope 1) in thousands of tonnes for the year 2023?,39.1,14,3
-29,0,['NYSE_E_2023.pdf'],302,302-1.12,[163],[0],What was the total amount of electricity produced from renewable sources in GWh for the year 2022?,2863,23,5
+29,0,['NYSE_E_2023.pdf'],302,302-1.12,[163],[0],What was the total amount of electricity produced from renewable sources in GWh for the year 2022?,2.836,23,5
 30,0,['NYSE_E_2023.pdf'],305,"305-1.1, 305-2.3",[162],[0],What was the Net Carbon Footprint upstream (Scope 1+2) in million tonnes CO2eq. for the year 2023?,8.9,2,3
 31,0,['NYSE_E_2023.pdf'],305,"305-1.1, 305-2.3",[162],[0],What was the Net Carbon Footprint upstream (Scope 1+2) in million tonnes CO2eq. for the year 2022?,9.9,2,4
 32,0,['NYSE_E_2023.pdf'],305,"305-1.1, 305-2.3",[162],[0],What was the Net Carbon Footprint upstream (Scope 1+2) in million tonnes CO2eq. for the year 2021?,11,2,5
@@ -445,7 +445,7 @@ Unnamed: 0,hierarchical,pdf name,gri,gri_finegrained,page nbr,table nbr,question
 443,0,['NYSE_TTE_2023.pdf'],303,303-3.8,[327],[0],How much fresh water withdrawal in water stress areas was reported in 2022 in Mcm?,55,4,4
 444,0,['NYSE_TTE_2023.pdf'],303,303-3.9,[387],[0],What was the amount of fresh water withdrawals excluding open loop cooling water in Mm3 in 2022?,107,13,6
 445,0,['NYSE_TTE_2023.pdf'],303,303-3.8,[387],[0],How much fresh water was withdrawn in water stress areas in 2023 in Mm3?,50,14,7
-446,0,['NYSE_TTE_2023.pdf'],303,303-5.3,[387],[0],What is the total amount of fresh water consumption recorded in 2021 in Mm3?,75,15,5
+446,0,['NYSE_TTE_2023.pdf'],303,303-5.3,[387],[0],What is the total amount of fresh water consumption recorded in 2021 in Mm3?,80,15,5
 447,0,['NYSE_TTE_2023.pdf'],304,304-1.1,[387],[0],What was the deforested area in hectares in 2023?,81,17,7
 448,0,['NYSE_TTE_2023.pdf'],304,304-1.1,[387],[0],What was the compensated area in hectares in 2023?,59,18,7
 449,0,['NYSE_TTE_2023.pdf'],304,304-1.1,[387],[0],What is the net deforestation in hectares for the year 2023?,22,19,7
@@ -693,9 +693,9 @@ Unnamed: 0,hierarchical,pdf name,gri,gri_finegrained,page nbr,table nbr,question
 691,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],What was the value of Processing of sold products in 2023 in Mt CO2e?,5,12,4
 692,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],What was the amount for Use of sold products in 2022 in Mt CO2e?,389,13,3
 693,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],How much did End of life treatment of sold products contribute in 2023 in Mt CO2e?,10,14,4
-694,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],What was the value for Downstream leased assets in 2022 in Mt CO2e?,,15,3
+694,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],What was the value for Downstream leased assets in 2022 in Mt CO2e?,n/a,15,3
 695,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],What was the contribution of Franchises in 2022 in Mt CO2e?,<1,16,3
-696,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],What was the amount for Investments in 2023 in Mt CO2e?,,17,4
+696,1,['NYSE_TTE_2023.pdf'],305,305-*.2,[383],[1],What was the amount for Investments in 2023 in Mt CO2e?,n/a,17,4
 697,0,['NYSE_TTE_2023.pdf'],306,306-4.2,[387],[3],What was the total volume of processed waste in kilotons for the year 2019?,662,3,3
 698,0,['NYSE_TTE_2023.pdf'],306,306-3.3,[387],[3],How much non-hazardous waste was recorded in kilotons for the year 2020?,303,4,4
 699,0,['NYSE_TTE_2023.pdf'],306,306-3.2,[387],[3],What was the amount of hazardous waste in kilotons for the year 2021?,165,5,5
@@ -1067,7 +1067,7 @@ Unnamed: 0,hierarchical,pdf name,gri,gri_finegrained,page nbr,table nbr,question
 1065,0,['NYSE_AZ_2023.pdf'],302,302-1.6,[61],[1],How much energy was consumed from office buildings in 2022 in GJ?,1578675,2,4
 1066,0,['NYSE_AZ_2023.pdf'],302,302-1.6,[61],[1],What is the energy consumption from data centers in 2023 in GJ?,286312,3,3
 1067,0,['NYSE_AZ_2023.pdf'],302,302-1.6,[61],[1],What was the energy consumption from office buildings per employee in 2023 in GJ/employee?,8.1,5,3
-1068,0,['NYSE_AZ_2023.pdf'],302,302-1.6,[61],[1],What was the percentage reduction in energy consumption in office buildings per employee since 2019?,47,6,3
+1068,0,['NYSE_AZ_2023.pdf'],302,302-1.6,[61],[1],What was the percentage reduction in energy consumption in office buildings per employee in 2023 since 2019?,47,6,3
 1069,0,['NYSE_AZ_2023.pdf'],302,302-1.6,[61],[1],What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization from office buildings in GJ?,21.9,2,5
 1070,0,['NYSE_AZ_2023.pdf'],302,302-1.6,[61],[1],What is the percentage difference between 2023 and 2022 for the energy consumption from data centers in GJ?,12,3,5
 1071,0,['NYSE_AZ_2023.pdf'],302,302-1.7,[61],[1],What is the percentage difference between 2023 and 2022 for the total energy consumption within the organization in GJ?,19.9,4,5
@@ -1102,7 +1102,7 @@ Unnamed: 0,hierarchical,pdf name,gri,gri_finegrained,page nbr,table nbr,question
 1100,0,['NYSE_AZ_2023.pdf'],305,305-*.1,[61],[0],What is the percentage delta of the target for 2025 compared to the baseline of 2019?,50,2,9
 1101,0,['NYSE_AZ_2023.pdf'],305,305-*.1,[58],[0],What are the 2030 target emissions in t CO2e/€ mn for all corporates invested?,54,2,5
 1102,1,['NYSE_AZ_2023.pdf'],305,305-*.1,[58],[0],What are the 2023 emissions for listed corporates in mn t CO2e?,14,3,6
-1103,0,['NYSE_AZ_2023.pdf'],305,305-*.1,[58],[0],What are the 2019 emissions for listed corporates in mn t CO2e?,24.9,3,7
+1103,0,['NYSE_AZ_2023.pdf'],305,305-*.1,[58],[0],What are the 2019 emissions for listed corporates in mn t CO2e?,249,3,7
 1104,0,['NYSE_AZ_2023.pdf'],305,305-*.1,[58],[0],What is the delta target emissions for all corporates (%)?,50,2,8
 1105,0,['heidelberg-materials_2023.pdf'],301,301-3.1,[358],[0],What was the production volume of recycled aggregates in 2022 in million t?,3.8,10,3
 1106,0,['heidelberg-materials_2023.pdf'],301,301-3.1,[358],[0],What percentage of total aggregates production was made up of recycled aggregates in 2021?,1.1,11,2
@@ -1404,15 +1404,15 @@ Unnamed: 0,hierarchical,pdf name,gri,gri_finegrained,page nbr,table nbr,question
 1402,1,['OTC_SAPMY_2023.pdf'],302,302-2.1,[144],[0],What was the total indirect consumption of energy for the entire group in 2021 in TJ?,692,4,7
 1403,1,['OTC_SAPMY_2023.pdf'],302,302-1.7,[144],[0],What was the total consumption of energy for the entire group in 2021 in TJ?,14863,5,7
 1404,1,['OTC_SAPMY_2023.pdf'],302,302-3.1,[144],[0],What was the energy intensity for the entire group in 2023 in TJ/€mln?,1.2,7,3
-1405,1,['OTC_SAPMY_2023.pdf'],302,302-2.1,[145],[0],What was the total indirect consumption of energy for the entire group in MWh for the year 2023?,40496,4,3
-1406,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],How much electricity was consumed from the grid for the entire group in MWh in 2022?,68120,5,5
-1407,1,['OTC_SAPMY_2023.pdf'],302,302-1.8,[145],[0],What is the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2021?,298.9,8,7
-1408,1,['OTC_SAPMY_2023.pdf'],302,302-2.1,[145],[0],What was the total indirect consumption of energy for the entire group in MWh for the year 2022?,78551,4,5
-1409,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],How much electricity was consumed from the grid for the entire group in MWh in 2023?,38134,5,3
-1410,1,['OTC_SAPMY_2023.pdf'],302,302-1.3,[145],[0],What was the amount of thermal energy consumed from the entire group in MWh for the year 2022?,10066,7,5
-1411,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],What was the amount of electricity consumed from renewable sources for the entire group in MWh for the year 2023?,14399,6,3
-1412,1,['OTC_SAPMY_2023.pdf'],302,302-1.3,[145],[0],How much thermal energy was consumed from the entire group in MWh for the year 2021?,-,7,7
-1413,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],What was the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2022?,365.2,8,5
+1405,1,['OTC_SAPMY_2023.pdf'],302,302-2.1,[145],[0],What was the total indirect consumption of energy for the entire group in MWh for the year 2023?,40496,3,3
+1406,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],How much electricity was consumed from the grid for the entire group in MWh in 2022?,68120,4,5
+1407,1,['OTC_SAPMY_2023.pdf'],302,302-1.8,[145],[0],What is the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2021?,298.9,7,7
+1408,1,['OTC_SAPMY_2023.pdf'],302,302-2.1,[145],[0],What was the total indirect consumption of energy for the entire group in MWh for the year 2022?,78551,3,5
+1409,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],How much electricity was consumed from the grid for the entire group in MWh in 2023?,38134,4,3
+1410,1,['OTC_SAPMY_2023.pdf'],302,302-1.3,[145],[0],What was the amount of thermal energy consumed from the entire group in MWh for the year 2022?,10066,6,5
+1411,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],What was the amount of electricity consumed from renewable sources for the entire group in MWh for the year 2023?,14399,5,3
+1412,1,['OTC_SAPMY_2023.pdf'],302,302-1.3,[145],[0],How much thermal energy was consumed from the entire group in MWh for the year 2021?,-,6,7
+1413,1,['OTC_SAPMY_2023.pdf'],302,302-1.2,[145],[0],What was the amount of electricity self-produced from renewable sources for the entire group in MWh for the year 2022?,365.2,7,5
 1414,1,['OTC_SAPMY_2023.pdf'],303,303-5.6,[152],[0],What was the amount of recycled and re-used water in 2023 in thousands of cubic meters for the entire group?,183,3,3
 1415,1,['OTC_SAPMY_2023.pdf'],303,303-5.6,[152],[0],How much recycled and re-used water was reported in 2022 in thousands of cubic meters for the entire group?,298,3,5
 1416,1,['OTC_SAPMY_2023.pdf'],303,303-5.6,[152],[0],What is the amount of recycled and re-used water in 2021 in thousands of cubic meters for the entire group?,447.8,3,7
