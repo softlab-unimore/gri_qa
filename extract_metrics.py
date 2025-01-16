@@ -68,15 +68,15 @@ def check_number(value, response, percentage=False):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'intertable2', 'intertable3', 'intertable5', 'intertable10'])
+    parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'multitable2', 'multitable3', 'multitable5'])
     parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
+    # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['tapex']
-    # models = ['openai_chainofthought']
+    models = ['openai']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 
