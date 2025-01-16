@@ -1,10 +1,11 @@
+import random
 import os
 import re
 from argparse import ArgumentParser
 
 import pandas as pd
 from codecarbon import EmissionsTracker
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
 
 
 def create_prompt_step_wise(table, question, type='one-table'):
@@ -60,6 +61,9 @@ if __name__ == '__main__':
     parser.add_argument('--end_to_end', action='store_true', default=False)
     parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'], help='Choose if you want raw or norm data')
     args = parser.parse_args()
+
+    set_seed(42)
+    random.seed(42)
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
     qa = qa[qa.iloc[:, 2] != 2.0]

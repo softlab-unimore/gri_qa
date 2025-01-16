@@ -1,10 +1,11 @@
 import os
+import random
 import re
 from argparse import ArgumentParser
 
 import pandas as pd
 from codecarbon import EmissionsTracker
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
 
 
 def flattening(table):
@@ -61,6 +62,9 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', type=str, default='gri-qa_multitable2.csv')
     parser.add_argument('--type', type=str, default='multi-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
+
+    set_seed(42)
+    random.seed(42)
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
     dataset_name = re.split("[_.]", args.dataset)[1]
