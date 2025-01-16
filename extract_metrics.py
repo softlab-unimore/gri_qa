@@ -76,7 +76,7 @@ if __name__ == '__main__':
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['tapex']
-    models = ['openai', 'openai_chainofthought']
+    models = ['openai']
 
     metrics = pd.DataFrame(columns=['model', 'em'])
 

@@ -8,6 +8,15 @@ import pandas as pd
 from openai import OpenAI
 from codecarbon import EmissionsTracker
 
+from phoenix.otel import register
+from openinference.instrumentation.openai import OpenAIInstrumentor
+
+tracer_provider = register(
+    project_name="openai",
+    endpoint="http://localhost:6006/v1/traces",
+)
+
+OpenAIInstrumentor().instrument(tracer_provider=tracer_provider)
 
 def read_csv_with_encoding(file_path, try_encodings=None):
     """
