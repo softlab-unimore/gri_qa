@@ -60,7 +60,7 @@ def create_prompt(row, hierarchical, type):
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_multitable2.csv')
-    parser.add_argument('--type', type=str, default='multi-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     set_seed(42)
