@@ -8,7 +8,24 @@ from codecarbon import EmissionsTracker
 from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
 
 
-def create_prompt_step_wise(table, question, type='one-table'):
+def create_tables(row, type='one-table'):
+    table_dirnames = eval(row["pdf name"])
+
+    tables = []
+    for i, table_dirname in enumerate(table_dirnames):
+        table_dirname = table_dirname.split(".")[0]
+        table_filename = f'dataset/annotation/{table_dirname}/{eval(row["page nbr"])[i]}_{eval(row["table nbr"])[i]}.csv'
+        table = pd.read_csv(table_filename, sep=';')
+        if type == 'one-table':
+            tables.append(table.to_markdown(index=False))
+        else:
+            company = table_dirname.strip('_2023')
+            table = f"Company name: {company}\n\n{table.to_markdown(index=False)}"
+            tables.append(table)
+
+    return "\n\n".join(tables)
+
+def create_prompt_step_wise(row, type='one-table'):
     description = (f"Below is an instruction that describes a question answering task in the environmental domain, paired with "
                    f"{'an input table' if type == 'one-table' else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
                    f"the table and text. Generate an appropriate answer to the given question.")
@@ -34,12 +51,12 @@ def create_prompt_step_wise(table, question, type='one-table'):
                    "| 5 | {scale} |\n"
                    "Finally, present the final answer in the format: \"The answer is: {answer} #### and its corresponding scale is: {scale}\"")
 
-    table = table.to_markdown(index=False)
+    tables = create_tables(row, type=type)
 
-    return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{table}\n\n### Text\n\n### Question\n{question}\n\n### Response\n"
+    return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{tables}\n\n### Text\n\n### Question\n{row['question']}\n\n### Response\n"
 
 
-def create_prompt_end_to_end(table, question, type='one-table'):
+def create_prompt_end_to_end(row, type='one-table'):
     description = (f"Below is an instruction that describes a question answering task in the environmental domain, paired with "
                    f"{'an input table' if args.type == 'one-table' else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
                    f"the table{'s' if type == 'multi-table' else ''} and text{'s' if type == 'multi-table' else ''}. Generate an appropriate answer to the given question.")
@@ -50,9 +67,9 @@ def create_prompt_end_to_end(table, question, type='one-table'):
                    "the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ "
                    "to ’none’. Finally, present the final answer in the format of \"The answer is: {answer} #### and its corresponding scale is: {scale}\"")
 
-    table = table.to_markdown(index=False)
+    tables = create_tables(row, type=type)
 
-    return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{table}\n\n### Text\n\n### Question\n{question}\n\n### Response\n"
+    return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{tables}\n\n### Text\n\n### Question\n{row['question']}\n\n### Response\n"
 
 
 if __name__ == '__main__':
@@ -66,7 +83,6 @@ if __name__ == '__main__':
     random.seed(42)
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
-    qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
     tokenizer = AutoTokenizer.from_pretrained('next-tat/tat-llm-7b-fft')
@@ -85,13 +101,8 @@ if __name__ == '__main__':
 
         print(f'Q{i} - {row["question"]}')
 
-        # Table extraction
-        table_dirname = row["pdf name"].split('.')[0]
-        table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
-        table = pd.read_csv(table_filename, sep=';')
-
-        prompt = create_prompt_step_wise(table, row["question"], type=args.type) \
-            if not args.end_to_end else create_prompt_end_to_end(table, row["question"], type=args.type)
+        prompt = create_prompt_step_wise(row, type=args.type) \
+            if not args.end_to_end else create_prompt_end_to_end(row, type=args.type)
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
         if encoding['input_ids'].shape[1] < 4096:
