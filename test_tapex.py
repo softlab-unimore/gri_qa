@@ -1,16 +1,20 @@
 import os
+import random
 import re
 from argparse import ArgumentParser
 
 import pandas as pd
 from codecarbon import EmissionsTracker
-from transformers import TapexTokenizer, BartForConditionalGeneration
+from transformers import TapexTokenizer, BartForConditionalGeneration, set_seed
 
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
     parser.add_argument('--type', type=str, default='one-table', choices=['one-table'])
     args = parser.parse_args()
+
+    set_seed(42)
+    random.seed(42)
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
     dataset_name = re.split("[_.]", args.dataset)[1]
