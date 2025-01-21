@@ -86,7 +86,11 @@ if __name__ == '__main__':
 
         print(f'Q{i} - {row["question"]}')
 
-        hierarchical = row.iloc[2] == 1
+        try:
+            hierarchical = row['hierarchical'] == 1
+        except KeyError:
+            hierarchical = False
+
         prompt = create_prompt(row, hierarchical, args.type)
 
         # Query
