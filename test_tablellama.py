@@ -59,8 +59,8 @@ def create_prompt(row, hierarchical, type):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='gri-qa_multitable2.csv')
-    parser.add_argument('--type', type=str, default='multi-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     set_seed(42)
@@ -94,7 +94,7 @@ if __name__ == '__main__':
         outputs = model.generate(**encoding)
         response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-        response_value = response[0].split('###Response:\n')[1]
+        response_value = response[0].split('### Response:\n')[1]
 
         print(f'Q{i}: {row["value"]} - {response_value}')
 

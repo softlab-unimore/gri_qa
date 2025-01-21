@@ -22,11 +22,25 @@ def flattening(table):
     return flatten_table
 
 
-def create_prompt(table, question):
+def create_prompt(row, type):
+    table_dirnames = eval(row["pdf name"])
 
+    tables = []
+    for i, table_dirname in enumerate(table_dirnames):
+        table_dirname = table_dirname.split(".")[0]
+        table_filename = f'dataset/annotation/{table_dirname}/{eval(row["page nbr"])[i]}_{eval(row["table nbr"])[i]}.csv'
+        table = pd.read_csv(table_filename, sep=';')
+        if type == 'one-table':
+            tables.append(flattening(table))
+        else:
+            company = table_dirname.strip('_2023')
+            table = f"Company name: {company}\n\n{flattening(table)}"
+            tables.append(table)
+
+    tables = "\n\n".join(tables)
     instruction = "Given the financial data and expert analysis, please answer this question:"
-    table = flattening(table)
-    return f'{instruction}\nContext: {table}\nQuestion: {question}\nResponse:'
+
+    return f'{instruction}\nContext: {tables}\nQuestion: {row["question"]}\nResponse:'
 
 
 if __name__ == '__main__':
@@ -39,7 +53,6 @@ if __name__ == '__main__':
     random.seed(42)
 
     qa = pd.read_csv(f'dataset/{args.type}/{args.dataset}', sep=',')
-    qa = qa[qa.iloc[:, 2] != 2.0]
     dataset_name = re.split("[_.]", args.dataset)[1]
 
     config = ConfigParser()
@@ -65,13 +78,8 @@ if __name__ == '__main__':
 
         print(f'Q{i} - {row["question"]}')
 
-        # Table extraction
-        table_dirname = row["pdf name"].split('.')[0]
-        table_filename = f'dataset/annotation/{table_dirname}/{row["page nbr"]}_{row["table nbr"]}.csv'
-        table = pd.read_csv(table_filename, sep=';')
-
         # Query
-        prompt = create_prompt(table, row['question'])
+        prompt = create_prompt(row, args.type)
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
         outputs = model.generate(**encoding, max_length=2000)
