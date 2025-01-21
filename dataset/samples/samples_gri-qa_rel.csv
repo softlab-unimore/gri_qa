@@ -1,0 +1,51 @@
+index,pdf name,page nbr,table nbr,gri,gri_finegrained,question_type_ext,question,value,original_dataset
+33,['OTC_SU_2023.pdf'],[310],[0],303,,rank,"What are the amounts of non-cooling water withdrawal between surface water, groundwater, third party or other sources in 2021 ranked in ascending order?","19156, 31870, 513631, 1507606",rel
+6,['OTC_SU_2023.pdf'],[311],[0],302,,comparative,Is the estimated energy consumption from purchased renewable electricity lower than grid electricity in MWh for the year 2023?,yes,rel
+182,['NASDAQ_DASTY_2023.pdf'],[117],[0],305,,superlative,What is the lowest carbon intensity in millions of euros of revenue IFRS reported in the years 2023 and 2022?,31.2,rel
+86,['NYSE_TTE_2023.pdf'],[306],[3],305,,comparative,Is the intensity of GHG emissions (Scope 1+2) of operated Upstream oil/gas activities greater than the intensity of emissions on equity basis Upstream oil/gas activities for the year 2023?,no,rel
+156,['NYSE_TTE_2023.pdf'],[383],[1],305,,comparative,Is the value of indirect GHG emissions in Mt CO2e for end of life treatment emissions greater than the value of the processing of sold products emissions in the year 2023?,yes,rel
+246,['OTC_ADDDF_2023.pdf'],[110],[0],305,,comparative,Is the percentage of sustainable cotton greater than the one for recycled polyester in 2022?,yes,rel
+195,['heidelberg-materials_2023.pdf'],[355],[0],305,,superlative,What is the lowest value of CO2 emissions between different business lines in 2023?,0.2,rel
+104,['NYSE_TTE_2023.pdf'],[381],[0],302,,rank,What are the four lowest values of the Global Energy Efficiency Indicator (GEEI) from the years 2019 to 2023 in ascending order?,"85.1, 86.4, 87.0, 88.0",rel
+9,['OTC_SU_2023.pdf'],[311],[0],302,,superlative,"What is the highest estimated energy consumption from gas in MWh for the years 2021, 2022, and 2023?",49674,rel
+235,['OTC_SAPMY_2023.pdf'],[147],[0],305,,comparative,Is the group total emissions location based (in kt CO2eq) for the year 2021 lower than the one for the year 2023?,yes,rel
+232,['OTC_SAPMY_2023.pdf'],[147],[0],305,,rank,"What are the two highest emission intensity values (in kt CO2 eq/€mln) for Market-based Scope 1, 2 and 3 from the years 2022 and 2023 in descending order?","156.5, 125.4",rel
+236,['OTC_SAPMY_2023.pdf'],[147],[0],305,,superlative,"What is the maximum value of market-based group total emissions (in kt CO2eq) between the year 2023, 2022 and 2021?",6446.5,rel
+238,['OTC_SAPMY_2023.pdf'],[147],[0],305,,comparative,"Is the group total value of the market-based Scope 1, 2 and 3 emissions (in kt CO2eq) for the year 2021 greater than in 2022?",no,rel
+178,['NASDAQ_DASTY_2023.pdf'],[117],[0],302,,rank,What are the top two values of energy consumption (MWh) for the years 2022 and 2023 in decreasing order?,"82766.0, 71218.0",rel
+66,['OTC_SU_2023.pdf'],[311],[1],305,,comparative,Is the value of the GHG Scope 2 market-based emissions from renewable electricity in 2021 higher than in 2020?,yes,rel
+158,['NYSE_TTE_2023.pdf'],[383],[1],305,,comparative,Is the estimate of indirect GHG emissions from upstream transportation in Mt CO2e for the year 2022 higher than in 2023?,yes,rel
+192,['NASDAQ_DASTY_2023.pdf'],[141],[0],306,,superlative,What is the maximum weight of collected electric waste in tons reported for the years 2019 to 2023?,57.3,rel
+15,['OTC_SU_2023.pdf'],[311],[0],302,,comparative,Is the estimated energy consumption from district heating in MWh in 2021 lower than the one in 2022?,no,rel
+183,['NASDAQ_DASTY_2023.pdf'],[142],[0],305,,comparative,Is the carbon intensity per employee (tCO2eq/employee) in 2023 greater than in 2022?,no,rel
+24,['OTC_SU_2023.pdf'],[310],[1],302,,superlative,What is the maximum energy consumption by source in 2022?,588851,rel
+120,['NYSE_TTE_2023.pdf'],[387],[0],305,,comparative,Is the amount of NOx emissions in 2021 smaller than the amount of NMVOC emissions in 2021?,no,rel
+19,['OTC_SU_2023.pdf'],[310],[1],302,,rank,What are the two lowest values of estimated total energy consumption per turnover in MWh/million € for the years 2020 to 2023 in increasing order?,"31.3, 35.1",rel
+112,['NYSE_TTE_2023.pdf'],[381],[0],302,,comparative,Is the value of the Global Energy Efficiency Indicator (GEEI) for the years 2020 higher than the one in 2021?,yes,rel
+67,['OTC_SU_2023.pdf'],[311],[1],305,,rank,What are the two highest values of district heating GHG emissions (in TCO2e) reported in the years 2020 to 2023 in decreasing order?,"14714.0, 11550.0",rel
+222,['OTC_SAPMY_2023.pdf'],[145],[0],302,,comparative,Is the amount of consumed energy produced from renewable sources in MWh for the year 2023 lower than in 2022?,yes,rel
+223,['OTC_SAPMY_2023.pdf'],[145],[0],302,,rank,"What are the three lowest values of electricity consumption from the grid, thermal energy consumed, and electricity self-produced from renewable sources in MWh for the year 2023 in ascending order?","384.3, 1977.0, 38134.0",rel
+200,['munich-re_2023.pdf'],[47],[0],303,,superlative,What has been the raw highest change for water related indicators?,-9.3,rel
+10,['OTC_SU_2023.pdf'],[311],[0],302,,rank,"What are the two lowest values in decreasing order of energy consumption from coal measured in MWh for the years 2023, 2022 and 2021?","0.0, 0.0",rel
+30,['OTC_SU_2023.pdf'],[310],[0],303,,rank,What are the amounts of groundwater withdrawals in cubic meters ranked in descending order?,"513631.0, 492308.0, 472199.0, 452602.0",rel
+96,['NYSE_TTE_2023.pdf'],[306],[3],305,,rank,"What are the four values of methane emissions intensity from operated oil and gas activities for the years 2015, 2021, 2022, and 2023, ranked in descending order?","0.23, 0.13, 0.11, 0.11",rel
+215,['OTC_SAPMY_2023.pdf'],[144],[0],302,,superlative,"What is the maximum energy intensity (in TJ/€mln) recorded between the years 2021, 2022, 2023?",2.1,rel
+243,['OTC_ADDDF_2023.pdf'],[110],[0],305,,comparative,Is the absolute annual CO2 Scope 1 and Scope 2 net emissions (in tons) in own operations for the year 2022 lower than for the year 2023?,yes,rel
+117,['NYSE_TTE_2023.pdf'],[387],[0],303,,superlative,What is the minimum percentage of sites that met the target for offshore discharges quality (30 mg/l) from 2019 to 2023?,92,rel
+25,['OTC_SU_2023.pdf'],[310],[1],302,,superlative,What is the maximum energy consumption by source in 2020?,585495,rel
+245,['OTC_ADDDF_2023.pdf'],[110],[0],305,,comparative,Is the percentage of sustainable cotton lower than the one for recycled polyester in 2021?,no,rel
+18,['OTC_SU_2023.pdf'],[311],[0],302,,rank,"What are the three values for the consumption of self-generated renewable electricity measured in MWh for the years 2023, 2022, and 2021 in decreasing order?","0.0, 0.0, 0.0",rel
+132,['NYSE_TTE_2023.pdf'],[619],[0],305,,rank,"What are the top three values from the 2015 column for the rows ""Scope 3,"" ""Oil,"" and ""Gas"" ranked in descending order?","410.0, 350.0, 60.0",rel
+199,['heidelberg-materials_2023.pdf'],[355],[0],305,,comparative,Is the value of net absolute CO2 emissions (Scope 1) lower than the gross absolute CO2 emissions recorded in 2022?,yes,rel
+55,['OTC_SU_2023.pdf'],[311],[1],305,,superlative,"What was the highest amount of tCO2e emissions between Scope 1, Scope 2 and Scope 3 emissions for the year 2022?",60788549,rel
+45,['OTC_SU_2023.pdf'],[311],[1],305,,rank,"What are the lowest values of direct (Scope 1) GHG emissions from coal for the years 2023, 2022, 2021, and 2020 in ascending order?","0.0, 0.0, 0.0, 0.0",rel
+175,['OTC_DPSGY_2023.pdf'],[3],[0],302,,rank,"What are the lowest three values of energy consumption (Scopes 1 and 2) from the years 2019, 2021, and 2023 in increasing order?","26199.0, 30486.0, 35056.0",rel
+109,['NYSE_TTE_2023.pdf'],[381],[0],302,,rank,"What are the values of net primary energy consumption (TWh) from 2015 to 2023, ranked in ascending order?","147.0, 148.0, 153.0, 157.0, 160.0, 166.0",rel
+60,['OTC_SU_2023.pdf'],[311],[1],305,,superlative,What is the maximum value of direct (Scope 1) GHG emissions from coal reported in the years 2020 to 2023?,0,rel
+184,['NASDAQ_DASTY_2023.pdf'],[142],[0],305,,rank,What are the top two values for carbon intensity per employee (tCO2eq/employee) from the years 2022 and 2023 when ranked in descending order?,"8.2, 8.1",rel
+16,['OTC_SU_2023.pdf'],[311],[0],302,,superlative,"What is the maximum value of fuel oil consumption in MWh for the years 2021, 2022, and 2023?",1013,rel
+119,['NYSE_TTE_2023.pdf'],[387],[0],303,,comparative,Is the amount of fresh water withdrawals excluding open loop cooling water lower than the amount of fresh water withdrawal in water stress area for the year 2021?,no,rel
+68,['OTC_SU_2023.pdf'],[311],[1],305,,rank,"In ascending order, what are the values of estimated Scope 2 GHG emissions of sites out of the reporting perimeter for the years 2023, 2022, 2021 and 2020?","42961.0, 50995.0, 62818.0, 71008.0",rel
+180,['NASDAQ_DASTY_2023.pdf'],[117],[0],305,,comparative,Is the quantity of carbon credits acquired during the year in 2022 lower than in 2023?,yes,rel
+38,['OTC_SU_2023.pdf'],[310],[0],303,,superlative,What was the minimum water withdrawal per million euros for the years 2020 to 2023?,52.9,rel
+172,['NYSE_TTE_2023.pdf'],[387],[3],306,,superlative,What was the highest volume of hazardous waste processed by the company in the years from 2019 to 2023?,288,rel

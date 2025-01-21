@@ -1,0 +1,51 @@
+index,pdf name,page nbr,table nbr,gri,gri_finegrained,question_type_ext,question,value,original_dataset
+181,['OTC_SU_2023.pdf'],[309],[0],306,,reduction_percentage,What is the percentage reduction of recycled non-hazardous waste from the year 2020 to 2023?,6.73,quant
+119,['OTC_SU_2023.pdf'],[311],[1],305,,reduction_difference,What is the difference between scope 3 and scope 2 indirect GHG emissions in 2022?,60678819.0,quant
+139,['OTC_SU_2023.pdf'],[311],[0],302,,sum,What is the sum of the self-generated renewable electricity measured in MWh for the years 2022 and 2023?,0.0,quant
+216,['OTC_SAPMY_2023.pdf'],[144],[0],302,,reduction_percentage,What is the percentage decrease in group-realted energy intensity per milion of revenue from 2021 to 2022?,19.05,quant
+45,['NYSE_TTE_2023.pdf'],[383],[1],305,,reduction_difference,What is the reduction in indirect GHG emissions from upstream transportation between the years 2022 and 2023?,1.0,quant
+256,['OTC_SAPMY_2023.pdf'],[147],[0],305,,average,What is the average of full consolidated location and market based emissions in the year 2021?,2379.9,quant
+146,['OTC_SU_2023.pdf'],[310],[0],303,,increase_difference,What is the increase in groundwater withdrawals (other than for cooling) from the year 2020 to 2022?,39706.0,quant
+115,['OTC_SU_2023.pdf'],[310],[0],303,,average,What is the average of the surface water and groudwater withdrawals for the year 2020?,235031.5,quant
+97,['NYSE_TTE_2023.pdf'],[619],[0],305,,reduction_difference,What is the difference between the amount of indirect GHG emissions from gas and those from biofuels in 2022 (in Mt CO2e)?,126.0,quant
+86,['NYSE_TTE_2023.pdf'],[381],[0],302,,average,What is the average of the Global Energy Efficiency Indicator values for the years 2020 and 2021?,88.6,quant
+82,['NYSE_TTE_2023.pdf'],[381],[0],302,,increase_percentage,What is the percentage increment in renewable energy consumption from 2020 to 2023?,100.0,quant
+73,['NYSE_TTE_2023.pdf'],[306],[3],305,,sum,"What is the total GHG emissions intensity for 2022, combining operated upstream oil and gas activities and equity-based upstream oil and gas activities?",36.0,quant
+237,['OTC_SAPMY_2023.pdf'],[145],[0],302,,reduction_percentage,What is the percentage decrease in the total group-level indirect consumption of energy from 2022 to 2023?,48.45,quant
+215,['OTC_SAPMY_2023.pdf'],[144],[0],302,,reduction_difference,What is the difference between the full consolidated and group-level percentage usage of energy from renewable sources in 2023?,0.16,quant
+220,['OTC_SAPMY_2023.pdf'],[144],[0],302,,reduction_difference,What is the difference in the total energy consumption when comparing the group related direct and indirect consumption of energy in 2021?,13479.0,quant
+30,['NYSE_TTE_2023.pdf'],[619],[0],305,,reduction_percentage,What is the percentage decrease in the GHG emissions from Gas in 2023 compared to 2022?,4.62,quant
+9,['NYSE_TTE_2023.pdf'],[306],[3],305,,reduction_difference,What is the reduction between the intensity of methane emissions from operated oil and gas facilities (Upstream) in 2023 and 2021?,0.02,quant
+118,['OTC_SU_2023.pdf'],[311],[1],305,,average,What is the average of the direct and indirect (scope 2) GHG emissions in 2023?,101116.0,quant
+120,['OTC_SU_2023.pdf'],[311],[1],305,,sum,What is the sum of the direct and scope 3 indirect GHG emissions for the year 2023?,56890756.0,quant
+24,['NYSE_TTE_2023.pdf'],[387],[0],303,,reduction_difference,What is the reduction in offshore continuous water discharges hydrocarbon content from the year 2020 to 2022?,-0.1,quant
+46,['NYSE_TTE_2023.pdf'],[383],[1],305,,sum,"What is the sum of indirect GHG emissions from the category ""Purchased goods and services"" for the years 2022 and 2023?",57.0,quant
+213,['OTC_SAPMY_2023.pdf'],[144],[0],302,,sum,What is the sum of the group-related direct and indirect consumption of energy in 2023?,14711.0,quant
+259,['OTC_SAPMY_2023.pdf'],[147],[0],305,,increase_percentage,What is the percentage increase in full consolidated location-based emissions from the year 2021 to the year 2022?,54.61,quant
+200,['NASDAQ_DASTY_2023.pdf'],[117],[0],302,,reduction_percentage,What is the percentage reduction in energy consumption (MWh) from 2022 to 2023?,13.95,quant
+210,['NASDAQ_DASTY_2023.pdf'],[141],[0],306,,average,"What is the average percentage of electric and electroninc waste recycled across the years 2019, 2021, 2022 and 2023?",98.75,quant
+162,['OTC_SU_2023.pdf'],[311],[1],305,,reduction_percentage,What is the percentage decrease in indirect GHG emissions for grid electricity from 2022 to 2023?,20.53,quant
+116,['OTC_SU_2023.pdf'],[310],[0],303,,reduction_difference,What is the difference in total water withdrawals (other than for cooling) and those for cooling in 2023?,1085779.0,quant
+6,['NYSE_TTE_2023.pdf'],[306],[3],305,,increase_difference,What is the increase between the intensity of GHG emissions (Scope 1+2) of operated upstream oil & gas activities in 2023 and 2022?,0.0,quant
+222,['OTC_SAPMY_2023.pdf'],[144],[0],302,,average,What is the average of the total group-related direct and indirect consumption of energy for the year 2021 in TJ?,7431.5,quant
+177,['OTC_SU_2023.pdf'],[309],[0],306,,reduction_difference,What is the difference between metric of tons for total waste and hazardous waste in 2021?,128267.0,quant
+141,['OTC_SU_2023.pdf'],[310],[1],302,,reduction_difference,What is the difference of estimated energy consumption between renewable source and non-renewable source in 2021?,15083.0,quant
+221,['OTC_SAPMY_2023.pdf'],[144],[0],302,,reduction_difference,What is the difference between total group-related energy consumption and direct consumption of energy in 2022?,696.0,quant
+67,['NYSE_TTE_2023.pdf'],[383],[0],305,,average,What is the average of the indirect GHG emissions from biofuels in 2022 and 2023?,4.0,quant
+19,['NYSE_TTE_2023.pdf'],[381],[0],302,,average,What is the average value of the Global Energy Efficiency Indicator (GEEI) from 2015 to 2023?,87.92,quant
+126,['OTC_SU_2023.pdf'],[311],[1],305,,sum,What is the sum of SF GHG emissions for the years 2022 and 2023?,8660.0,quant
+117,['OTC_SU_2023.pdf'],[310],[0],303,,average,What is the average between the total water withdrawals (other than for cooling) and those for cooling in 2020?,1354116.5,quant
+152,['OTC_SU_2023.pdf'],[311],[1],305,,reduction_difference,What is the difference between total and indirect (Scope 2) GHG emissions in 2023?,112792.0,quant
+68,['NYSE_TTE_2023.pdf'],[383],[0],305,,reduction_difference,What is the difference in indirect GHG emissions from petroleum products compared to gas in the year 2023?,103.0,quant
+111,['OTC_SU_2023.pdf'],[310],[1],302,,average,What is the average estimated total energy consumption from renewable sources in MWh for the years 2023 and 2022?,697753.5,quant
+60,['NYSE_TTE_2023.pdf'],[383],[0],305,,sum,What is the sum of scope 3 GHG emissions in the last 3 years?,1144.0,quant
+15,['NYSE_TTE_2023.pdf'],[381],[0],302,,sum,What is the total sum of the net primary energy consumption (in TWh) from the years 2015 to 2023?,931.0,quant
+193,['OTC_ADDDF_2023.pdf'],[110],[0],301,,sum,What is the total number of pairs of shoes produced containing 'Parley Ocean Plastic' from 2021 to 2023?,45.0,quant
+238,['OTC_SAPMY_2023.pdf'],[145],[0],302,,average,What is the average group-level electricity consumed from the grid in MWh for the years 2023 and 2022?,53127.0,quant
+201,['NASDAQ_DASTY_2023.pdf'],[117],[0],302,,reduction_difference,What is the difference in energy consumption (MWh) from 2022 to 2023?,11548.0,quant
+33,['NYSE_TTE_2023.pdf'],[619],[0],305,,reduction_difference,What is the difference between GHG emissions from Oil in 2015 compared to the emissions from Gas in the same year?,290.0,quant
+137,['OTC_SU_2023.pdf'],[311],[0],302,,reduction_difference,What is the reduction in MWh in grid electricity consumption from 2021 to 2022?,41701.0,quant
+247,['OTC_SAPMY_2023.pdf'],[145],[0],302,,reduction_percentage,What is the percentage reduction in full consolidated thermal energy consumed from 2022 to 2023?,80.36,quant
+246,['OTC_SAPMY_2023.pdf'],[145],[0],302,,sum,"What is the total electricity consumed from the grid (in MWh) across the years 2021 to 2023, considering full consolidated values?",108432.0,quant
+16,['NYSE_TTE_2023.pdf'],[381],[0],302,,increase_percentage,What is the percentage increase in the number of operated sites with annual consumption greater than 50 ktoe from 2020 to 2023?,2.38,quant
+10,['NYSE_TTE_2023.pdf'],[306],[3],305,,reduction_percentage,What is the percentage reduction in the intensity of methane emissions from operated oil and gas facilities (Upstream) when comparing the values from 2021 to 2022?,15.38,quant
