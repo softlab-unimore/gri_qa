@@ -64,23 +64,29 @@ def check_number(value, response, percentage=False):
     except ValueError:
         return False
 
+def calculate_and_save_metrics(results, metrics, model, output_path):
+    em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
+    metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 3)}
+    metrics.to_csv(output_path, index=False)
+    print(f'EM: {round(em, 3)}')
+
 
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='rel', choices=['extra', 'quant', 'rel', 'multitable2', 'multitable3', 'multitable5'])
+    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multitable2', 'multitable3', 'multitable5'])
     parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    # models = ['tapex']
-    models = ['openai']
-
-    metrics = pd.DataFrame(columns=['model', 'em'])
+    models = ['tapex', 'tablellama', 'finma', 'tatllm__end_to_end']
+    # models = ['openai', 'openai_chainofthought']
 
     os.makedirs(f'./results/{args.type}/{args.dataset}/with_match', exist_ok=True)
+
+    metrics_hier, metrics_not_hier, metrics = (pd.DataFrame(columns=['model', 'em']) for _ in range(3))
 
     for model in models:
         print(f'--> Processing {model}')
@@ -153,8 +159,19 @@ if __name__ == '__main__':
                 results.loc[i, 'correct'] = False
 
         results.to_csv(f'./results/{args.type}/{args.dataset}/with_match/{model}.csv', index=False)
-        em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
-        metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 5)}
-        print(f'EM: {round(em, 5)}')
 
-    metrics.to_csv(f'./results/{args.type}/{args.dataset}/metrics.csv', index=False)
+        if args.dataset == 'extra':
+            qa = pd.read_csv(f'dataset/{args.type}/gri-qa_{args.dataset}.csv', sep=',')
+
+            results['hierarchical'] = qa['hierarchical']
+            hierarchical_res = results[results['hierarchical'] == 1]
+            not_hiercahical_res = results[results['hierarchical'] == 0]
+
+            print(f'Extra - Hierarchical')
+            calculate_and_save_metrics(hierarchical_res, metrics_hier, model, f'./results/{args.type}/{args.dataset}/metrics_hier.csv')
+
+            print(f'Extra - Not Hierarchical')
+            calculate_and_save_metrics(not_hiercahical_res, metrics_not_hier, model,f'./results/{args.type}/{args.dataset}/metrics_not_hier.csv')
+
+        else:
+            calculate_and_save_metrics(results, metrics, model, f'./results/{args.type}/{args.dataset}/metrics.csv')
