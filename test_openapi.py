@@ -171,7 +171,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str, type: str) 
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table', 'samples'])
     args = parser.parse_args()
 
     config = ConfigParser()
