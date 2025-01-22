@@ -1,3 +1,4 @@
 model,em
 tapex,36.0
 openai,80.0
+openai_chainofthought,80.0
