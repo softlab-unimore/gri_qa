@@ -2,5 +2,7 @@ model,em
 tapex,1.0
 tablellama,1.5
 finma,2.6
+openai,43.2
+openai_chainofthought,72.6
 tatllm__end_to_end,1.1
 tatllm__step_wise,26.7

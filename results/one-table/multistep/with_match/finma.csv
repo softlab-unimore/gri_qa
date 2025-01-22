@@ -1,0 +1,167 @@
+index,question,value,response,correct
+0,What is the value of the lowest percentage ratio from 2022 to 2021 between operated and not operated intensity GHG emissions?,100,1.64706,False
+1,"What is the value of the lowest sum in the years 2021, 2022, 2023 between SO2, Nox and NMVOC emissions?",41,12.0,False
+2,"Between purchased goods and downstream transportation, what are the top 2 highest sums (in ascending order) in the years 2022, 2023?","2.0, 57.0",69.0,False
+3,"What are the top 2 highest sums (in descending order) in the years 2022, 2023 between upstream and downstream transportation?","17.0, 2.0",11.0,False
+4,"Between the processed waste and not hazardous waste, what is the value of the highest sum in the years 2020, 2023, 2021, 2022, 2019?",2682,838.0,False
+5,"Between biofuels and gas emissions, what is the average of the sums in the years 2023 to 2022?",131,105.0,False
+6,"Between not hazardous and hazardous waste, what is the average of the percentage ratios from 2023 to 2020?",103.65,0.31667,False
+7,What is the value of the highest percentage ratio from 2021 to 2020 between fresh water withdrawal exclusing cooling water and in water stress areas?,103.85,1.15625,False
+8,"What is the value of the lowest sum in the years 2023, 2019 between Nox and NMVOC emissions?",126,59.0,False
+9,"Between different sources of energy consumption, what are the top 6 highest sums (in descending order) in the years 2022, 2023?","199398.0, 150463.0, 54253.0, 5319.0, 1868.0, 0.0","148720.0, 107019.0, 92379.0, 77831.0, 40443.0, 28290.0",False
+10,"Which are the top 3 lowest averages (in ascending order) in the years 2023, 2022, 2021, 2020 between grid electricity, purchased renewable electricity and self generated renewable electricity?","18059.5, 118148.25, 599428.0","82590.0, 588851.0, 20719.0",False
+11,What is the value of the lowest percentage ratio from 2020 to 2021 between surface and groundwater withdrawal?,88.12,1.18638,False
+12,"Between the total water withdrawn and the water withdrawn for cooling, what is the value of the lowest percentage ratio from 2020 to 2023?",95.92,0.18146,False
+13,What are the top 2 lowest percentage ratios (in descending order) from the year 2021 to 2020 between the total water withdrawn and the water withdrawn for cooling?,"112.74, 107.48",0.12845,False
+14,What is the value of the lowest percentage ratio from 2021 to 2020 between scope 1 and scope 2 emissions?,98.83,1.18361,False
+15,"Between scope 2 and scope 3 emissions, what is the average of the sums in the years 2020 and 2023?",61391666,10853.0,False
+16,"What is the value of the highest sum in the years 2020, 2021, 2022 between scope 1 and scope 3 emissions?",195296755,208666.0,False
+17,"Between total scope 2 emissions and emissionsfrom grid electricity, what is the value of the highest sum in the years 2021, 2023, 2020, 2022?",497492,145207.0,False
+18,"Which are the top 2 highest percentage ratios (in ascending order) from the year 2022 to 2020 between scope 1, 2 and 3 emissions?","83.89, 92.42",0.18264,False
+19,"Between the energy consumption from renewable and non renewable sources, which are the top 2 lowest percentage ratios (in descending order) from the year 2023 to 2022?","102.7, 81.38",0.12247,False
+20,"Between different sources of energy consumption, what are the top 7 highest percentage ratios (in descending order) from the year 2020 to 2023?","194.77, 187.31, 180.37, 132.24, 95.89, 53.74, 53.43","0.371, 0.427, 0.573, 0.629, 0.659, 0.757, 0.857",False
+21,"What is the value of the lowest average in the years 2022, 2020 between purchased and self generated renewable electricity?",16591.5,101.52445,False
+22,"Between surface and groundwater withdrawal, which are the top 2 lowest percentage ratios (in descending order) from the year 2021 to 2022?","131.98, 104.33",0.14514,False
+23,"Between total and surface water withdrawal, what is the value of the lowest percentage ratio from 2020 to 2022?",100.34,0.82454,False
+24,"Between total water withdrawn and water withdrawn for cooling, what is the sum of the averages in the years 2021, 2020?",2830049,114.0,False
+25,"What is the value of the highest sum in the years 2023, 2021, 2022, 2020 between market based total scope 1 and 2 emissions and scope 2 emissions?",1012836,229177.0,False
+26,"Which are the top 2 highest sums (in descending order) in the years 2023, 2021, 2022, 2020 between scope 1 emissions and gas emissions?","515345.0, 195212.0",142388.0,False
+27,What is the average of the sums in the years 2021 to 2020 between fuel and gas emissions?,58972,49537.0,False
+28,"Between vehicle and SF6 emissions, what is the average of the percentage ratios from 2020 to 2022?",144.96,0.11333,False
+29,"Between grid and renewable electricity emissions, what is the sum of the averages in the years 2021, 2022, 2023, 2020?",57021.25,45860.0,False
+30,Which are the top 2 lowest percentage ratios (in descending order) from the year 2020 to 2023 between scope 2 and 3 emissions?,"162.35, 115.84",0.18264,False
+31,What is the average of the sums in the years 2023 to 2022 between non hazardous waste and non hazardous recycled waste?,228518.5,123524.0,False
+32,"Between non hazardous and hazardous waste, what is the sum of the averages in the years 2021, 2022, 2023?",130785.67,114244.0,False
+33,"Between total waste and hazardous waste generated, what is the sum of the averages in the years 2021, 2020?",139171,124280.0,False
+34,"Between recycled, incinerated and landfilled waste, what is the value of the highest percentage ratio from 2022 to 2023?",122.5,0.38633,False
+35,"Between total and non hazardous waste, what is the value of the highest percentage ratio from 2020 to 2023?",100.93,87.0,False
+36,"What is the value of the lowest average in the years 2023, 2021 between reused and incinerated non hazardous waste?",6917.5,111567.0,False
+37,"Between reused, incinerated and landfilled non hazardous waste, what is the value of the highest percentage ratio from 2021 to 2023?",140.25,0.38541,False
+38,"Which are the top 2 highest averages (in ascending order) in the years 2023, 2021, 2022 between recycled polyester and sustainable cotton?","95.33, 100.0",98.0,False
+39,"What is the value of the lowest sum in the years 2023, 2021, 2022 between recycled polyester and sustainable cotton?",286,257.0,False
+40,"Between the energy consumption from cement and clinker production, what is the value of the highest sum in the years 2023, 1990?",769531,806479.0,False
+41,"Between direct and indirect group consumption of energy, what is the average of the percentage ratios from 2021 to 2023?",141.2,0.5156,False
+42,What is the average of the percentage ratios from 2022 (full consolidated) to 2023 (group between direct and indirect consumption of energy?,106.35,0.09836,False
+43,"Between direct and indirect fully consolidated consumption of energy, what is the average of the sums in the years 2022 to 2021?",15056,14488.0,False
+44,What is the average of the percentage ratios from 2023 to 2022 between direct and total fully consolidated consumption of energy?,87.91,0.98381,False
+45,"Between direct and indirect consumption of energy, what is the sum of the averages in the years 2023 (full consolidated), 2022 (group)?",15902,17443.0,False
+46,"Between direct and indirect fully consolidated consumption of energy, what are the top 2 highest averages (in descending order) in the years 2021, 2022?","14683.0, 373.0",14447.0,False
+47,"Which are the top 2 lowest sums (in ascending order) in the years 2021, 2022, 2023 between direct and indirect group consumption of energy?","1765.0, 45170.0",351.0,False
+48,"Between direct and indirect consumption of energy, what is the value of the highest sum in the years 2021 (full consolidated), 2021 (group), 2022 (group), 2023 (full consolidated)?",58253,696.0,False
+49,"Between direct and indirect consumption of energy, what is the sum of the averages in the years 2023 (group), 2023 (fully consolidated), 2021 (fully consolidated), 2021 (group), 2022 (fully consolidated)?",14825.8,14447.0,False
+50,"Between indirect and direct fully consolidated consumption of energy, what is the value of the highest sum in the years 2022, 2021?",29366,17361.0,False
+51,"Between electricity consumed from the grid and electricity consumed from the grid, but produced by renewable sources, what is the average of the percentage ratios from 2021 (full consolidated) to 2021 (group total)?",68.28,0.18166,False
+52,"Between location based and market based total emissions, which are the top 2 lowest percentage ratios (in ascending order) from the year 2021 (full consolidated) to 2022 (full consolidated)?","64.68, 66.03",0.00699,False
+53,"Which are the top 2 highest sums (in descending order) in the years 2022 (group), 2021 (full consolidated), 2021 (group), 2022 (full consolidated between location based and market based total emissions?","13090.1, 13048.5","6340.3, 6446.7",False
+54,What is the value of the highest percentage ratio from 2022 (group) to 2022 (full consolidated between location based and market based total emissions?,120.4,0.98156,False
+55,What is the average of the percentage ratios from 2021 to 2023 between location based and market based group total emissions?,41.31,0.95683,False
+56,"What is the value of the lowest average in the years 2023, 2021 between operated and not operated intensity of GHG emissions?",17,16.0,False
+57,"Between fresh water consumption and fresh water withdrawal without cooling water, what are the top 2 lowest percentage ratios (in descending order) from the year 2020 to 2022?","98.68, 98.13",0.13813,False
+58,"What is the value of the lowest percentage ratio from 2020 to 2022 between Nox, SO2 and NMVOC emissions?",106.67,1.08112,False
+59,"Between purchased goods and downstream transportation, what are the top 2 lowest averages (in descending order) in the years 2023, 2022?","28.5, 1.0",27.0,False
+60,"Between upstream and downstream transportation, what is the average of the percentage ratios from 2023 to 2022?",94.44,0.95,False
+61,What is the value of the highest percentage ratio from 2021 to 2022 between the total waste and total non hazardous waste?,104.04,1.21836,False
+62,"Between the scope 3 emissions from petroleum products and gas, what is the average of the percentage ratios from 2015 to 2019?",92.24,-0.14571,False
+63,"Between non hazardous and hazardous waste, what is the value of the highest average in the years 2019, 2023, 2020, 2021?",333,322.0,False
+64,"What is the sum of the averages in the years 2021, 2022, 2019 between Nox and NMVOC emissions?",126.67,136.0,False
+65,"Between grid electricity, purchased and self generated renewable electricity, what is the value of the lowest sum in the years 2020, 2023, 2022?",56377,118369.0,False
+66,"Between surface and groundwater withdrawal, what are the top 2 highest sums (in ascending order) in the years 2021, 2022, 2023?","51369.0, 1478138.0",2165096.0,False
+67,"Between the total water withdrawn except for cooling and water withdrawn for cooling, what is the average of the percentage ratios from 2022 to 2020?",89.75,0.5817,False
+68,"Between the total water withdrawn except for cooling and water withdrawn for cooling, what is the sum of the averages in the years 2020, 2022, 2023, 2021?",2729304.75,114.0,False
+69,"Between scope 1 and scope 2 emissions, what is the average of the percentage ratios from 2022 to 2023?",114.3,0.14114,False
+70,What is the value of the highest percentage ratio from 2020 to 2022 between scope 2 and 3 emissions?,132.33,1.58668,False
+71,"Which are the top 2 lowest sums (in descending order) in the years 2023, 2020 between scope 1 and 3 emissions?","122548685.0, 255180.0",112792.0,False
+72,"What are the top 2 lowest averages (in descending order) in the years 2021, 2022, 2020 between scope 2 emissions and emissions from grid electricity?","136017.33, 62170.33",39476.0,False
+73,"Between scope 1,2 and 3 emissions, what is the sum of the averages in the years 2020, 2022, 2023, 2021?",63271889,114.0,False
+74,"What is the value of the highest average in the years 2021, 2020, 2023 between the different sources of energy consumption?",602953.67,108263.0,False
+75,"Which are the top 2 lowest averages (in descending order) in the years 2022, 2020, 2023, 2021 between purchased and self generated renewable electricity?","599428.0, 18059.5",11551.0,False
+76,"Between surface and groundwater withdrawal, what is the value of the highest average in the years 2020, 2023?",462400.5,492308.0,False
+77,Which are the top 2 highest percentage ratios (in ascending order) from the year 2021 to 2022 between total and surface water withdrawal?,"107.84, 131.98",1.0326,False
+78,What is the average of the percentage ratios from 2021 to 2023 between water withdrawn except for cooling and water withdrawn for cooling?,108.62,0.87058,False
+79,"What is the value of the highest average in the years 2023, 2021 between scope 1+2 market based and scope 2 emissions?",248032,11.4,False
+80,"Between scope 1 and gas emissions, what is the value of the lowest percentage ratio from 2022 to 2023?",105.9,0.18368,False
+81,What are the top 2 highest percentage ratios (in descending order) from the year 2022 to 2021 between fuel and gas emissions?,"97.65, 83.26",1.36638,False
+82,Which are the top 2 highest percentage ratios (in descending order) from the year 2021 to 2023 between vehicle and SF6 emissions?,"145.19, 101.94",1.02211,False
+83,"Between grid and renewable electricity scope 2 emissions, what is the average of the percentage ratios from 2022 to 2021?",87.38,0.11846,False
+84,"Between scope 2 and 3 emissions, what are the top 2 highest averages (in descending order) in the years 2022, 2023, 2021, 2020?","63018679.75, 124373.0","109730.0, 153115.0",False
+85,"What is the sum of the averages in the years 2021, 2023 between non hazardous waste and non hazardous reused waste?",232988,128340.0,False
+86,"Between non hazardous and hazardous, what is the average of the percentage ratios from 2022 to 2023?",106.31,0.97638,False
+87,"Between total and hazardous waste generated, what is the value of the lowest average in the years 2022, 2020, 2023?",7783,124139.0,False
+88,"Which are the top 2 lowest sums (in descending order) in the years 2021, 2020, 2022, 2023 between total waste and non hazardous waste generated?","517649.0, 485751.0","116566.0, 123311.0",False
+89,"What are the top 3 highest percentage ratios (in descending order) from the year 2021 to 2022 between reused, incinerated and landfilled non hazardous waste?","114.49, 103.65, 103.57",0.37363,False
+90,What is the average of the percentage ratios from 2022 to 2023 between recycled polyester and sustainable cotton?,98.48,98.0,False
+91,"Between recycled polyester and sustainable cotton, what is the value of the highest average in the years 2023, 2022?",100,100.0,True
+92,"Between the energy consumption from cement and clinker production, which are the top 2 lowest percentage ratios (in descending order) from the year 2022 to 1990?","80.1, 74.79",0.58624,False
+93,Which are the top 2 highest percentage ratios (in descending order) from the year 2021 (group) to 2022 (full consolidated between direct and indirect energy consumption?,"182.11, 88.34",0.09766,False
+94,"Between direct and indirect energy consumption, which are the top 2 highest percentage ratios (in descending order) from the year 2023 (full consolidated) to 2022 (group)?","84.56, 50.43",0.09766,False
+95,What are the top 2 highest percentage ratios (in descending order) from the year 2023 to 2021 between indirect and direct group consumption of energy?,"101.15, 54.48",0.12821,False
+96,What are the top 2 lowest percentage ratios (in descending order) from the year 2022 to 2023 between total and direct full consolidated consumption of energy?,"113.83, 113.66",0.99222,False
+97,"Between direct and indirect energy consumption, what is the value of the lowest sum in the years 2021 (group), 2023 (full consolidated), 2021 (full consolidated), 2023 (group), 2022 (full consolidated)?",2166,377.0,False
+98,What are the top 2 lowest percentage ratios (in ascending order) from the year 2021 (group) to 2022 (full consolidated between direct and indirect energy consumption?,"88.34, 182.11",0.00734,False
+99,What is the average of the percentage ratios from 2022 (group) to 2021 (full consolidated between direct and indirect energy consumption?,157.62,0.98333,False
+100,"Between direct and indirect group energy consumption, what is the average of the percentage ratios from 2023 to 2021?",77.81,0.98361,False
+101,"Between direct and indirect energy consumption, which are the top 2 highest averages (in descending order) in the years 2021, 2022, 2023 for the group consumption and 2022, 2023 for fully consolidated?","15060.6, 499.2","377.0, 696.0",False
+102,What is the average of the percentage ratios from 2022 to 2021 between direct and indirect group energy consumption?,109.09,1.03333,False
+103,"Between the group electricity consumed from the grid and the group electricity consumed from the grid, but produced from renewable sources, what are the top 2 lowest sums (in ascending order) in the years 2023, 2022?","30532.0, 106254.0","35427.0, 31660.0",False
+104,"Between location based and target based emissions, what are the top 2 lowest sums (in descending order) in the years 2022, 2023 for fully consolidated and 2023 for group emissions?","16429.5, 16427.2","2355.9, 4385.6",False
+105,"What is the sum of the averages in the years 2023, 2022 for group emissions, 2023, 2022 for fully consolidated between location based and target based emissions?",10406.39,12783.4,False
+106,Which are the top 2 highest percentage ratios (in descending order) from the year 2023 to 2021 between location based and target based group emissions?,"242.13, 241.95",0.98356,False
+107,"What is the value of the highest average in the years 2022 (group), 2022 (full consolidated), 2023 (group), 2023 (full consolidated between location based and target based emissions?",5203.77,6340.3,False
+108,What are the top 2 highest percentage ratios (in descending order) from the year 2022 to 2023 between operated and not operated intensity emissions?,"105.56, 100.0",0.18182,False
+109,"What is the value of the lowest sum in the years 2022, 2019, 2020 between fresh water withdrawal from cooling water and total fresh water consumption?",226,180.0,False
+110,"What is the average of the percentage ratios from 2023 to 2019 between NMVOC, SO2 and Nox emissions?",55.3,0.61147,False
+111,"Between downstream transportation and purchased goods and services, what is the value of the lowest sum in the years 2023, 2022?",2,1.0,False
+112,"Between downstream and upstream transportation, what is the value of the lowest average in the years 2023, 2022?",1,8.0,False
+113,"Between the total processed waste and non hazardous waste, what is the sum of the averages in the years 2022, 2023, 2020?",821.34,501.0,False
+114,"What is the sum of the averages in the years 2023, 2019 between non hazardous and hazardous waste?",592,633.0,False
+115,"What is the value of the lowest sum in the years 2023, 2022 between operated and not operated intensity emissions?",34,16.0,False
+116,"Between operated and not operated intensity emissions, what is the value of the lowest percentage ratio from 2023 to 2021?",94.74,0.11,False
+117,"What is the value of the lowest sum in the years 2021, 2023, 2020, 2022 between freshwater (excluding cooling water) withdrawal and water withdrawal from water-stressed areas?",211,102.0,False
+118,"Between NMVOC and Nox emissions, what are the top 2 lowest percentage ratios (in descending order) from the year 2023 to 2020?","93.75, 62.32",0.60316,False
+119,"Between grid electricity, purchased and self generated renewable electricity, what is the value of the lowest percentage ratio from 2021 to 2020?",89.13,0.18364,False
+120,"Between surface and groundwater withdrawal, what is the sum of the averages in the years 2020, 2021?",501425,22414.0,False
+121,"What is the value of the lowest sum in the years 2022, 2021, 2023, 2020 between total water withdrawn (except for cooling) and water withdrawn for cooling?",3096165,1899190.0,False
+122,"Between total water withdrawn not for cooling and water withdrawn for cooling, what is the average of the percentage ratios from 2023 to 2020?",101.38,0.18182,False
+123,Which are the top 2 lowest percentage ratios (in descending order) from the year 2022 to 2021 between scope 1 and 2 emissions?,"84.88, 71.67",-0.14271,False
+124,"Between scope 2 and 3 emissions, what is the average of the percentage ratios from 2020 to 2021?",95.26,0.14114,False
+125,"What is the value of the highest average in the years 2022, 2021, 2020 between scope 1 and 3 emissions?",65098918.33,145207.0,False
+126,"Between scope 1, 2 and 3 emissions, what is the value of the lowest percentage ratio from 2020 to 2022?",132.33,0.91147,False
+127,"What is the value of the highest percentage ratio from 2021 to 2023 between scope 1, 2 and 3 emissions?",171.19,0.38521,False
+128,What is the average of the sums in the years 2021 and 2023 between different sources of energy consumption (except for self generated renewable electricity?,72441.17,114220.0,False
+129,What is the value of the lowest percentage ratio from 2023 to 2021 between the energy consumption from renewable sources and non renewable sources?,63.69,1.44557,False
+130,"What is the sum of the averages in the years 2023, 2022, 2020, 2021 between the different sources of energy consumption?",1007168,108.8,False
+131,What is the average of the sums in the years 2020 and 2022 between self generated and purchased renewable electricity?,603764.5,1035861.0,False
+132,"Which are the top 2 highest averages (in descending order) in the years 2021, 2022, 2020, 2023 between surface and groundwater withdrawal?","482685.0, 17207.5",17699.0,False
+133,"Between total and surface water withdrawn, what are the top 2 lowest sums (in ascending order) in the years 2023, 2021?","36855.0, 3971453.0",17699.0,False
+134,"Between the total water withdrawn and the water withdrawn for water stressed areas, what is the value of the highest average in the years 2023, 2021, 2022?",1964340.67,1928032.0,False
+135,"Between the water withdrawn not for cooling and the water withdrawn for cooling, which are the top 2 highest sums (in descending order) in the years 2023, 2021, 2022?","5893022.0, 2315964.0","2072263.0, 1928032.0",False
+136,"Between scope 1+2 market based emissions and scope 2 emissions, what is the average of the sums in the years 2022 to 2023?",315289.5,198860.0,False
+137,"Between scope 1 emissions and gas emissions, what is the value of the highest sum in the years 2022, 2021, 2020, 2023?",515345,142388.0,False
+138,"Between fuel emissions and gas emissions, what is the value of the lowest average in the years 2020, 2021?",4485.5,38968.0,False
+139,"Between the vehicle fleet and SF6 emissions, what are the top 2 lowest averages (in descending order) in the years 2020, 2022, 2021?","63836.67, 5926.33","61492.0, 4054.0",False
+140,"What is the value of the highest average in the years 2022, 2023 between the grid electricity and renewable electricity scope 2 emissions?",44575,49674.0,False
+141,"What is the value of the lowest sum in the years 2022, 2021, 2023 between the scope 2 and 3 emissions?",352285,136890.0,False
+142,"Which are the top 2 lowest sums (in descending order) in the years 2020, 2022, 2023 between non hazardous waste and non hazardous waste recycled?","357484.0, 330371.0",128267.0,False
+143,"Which are the top 2 highest sums (in ascending order) in the years 2022, 2021 between hazardous and non hazardous waste generated?","16640.0, 251578.0",136816.0,False
+144,"Between total and hazardous waste, which are the top 2 lowest percentage ratios (in descending order) from the year 2023 to 2022?","94.47, 93.6",86.0 and 81.0,False
+145,"What is the value of the lowest sum in the years 2023, 2021 between total and non hazardous waste?",244833,111567.0,False
+146,"Between reused and incinerated non hazardous waste, what is the sum of the averages in the years 2021, 2022?",120400,114.22,False
+147,"Between reused, incinerated and landfilled non hazardous waste, what is the sum of the averages in the years 2023, 2021, 2022?",122714.66,128267.0,False
+148,"Between sustainable cotton and recycled polyester, what are the top 2 lowest sums (in descending order) in the years 2021, 2023, 2022?","300.0, 286.0",96.0,False
+149,"Between sustainable cotton and recycled polyester, which are the top 2 highest averages (in ascending order) in the years 2023, 2022?","97.5, 100.0",100.0,False
+150,What is the average of the sums in the years 2023 to 2022 between the energy consumption from cement and clinker production?,628016.5,775946.0,False
+151,"Between direct and indirect energy consumption, what are the top 2 lowest sums (in descending order) in the years 2022 (group), 2023 (full consolidated), 2021 (group), 2022 (full consolidated), 2023 (group)?","75303.0, 2496.0","351.0, 696.0",False
+152,"Which are the top 2 lowest sums (in ascending order) in the years 2022, 2021 for the group emissions, 2023, 2022 for the full consolidated between direct and indirect energy consumption?","2119.0, 60969.0",377.0,False
+153,"Between direct and indirect energy consumption, what is the value of the highest average in the years 2022, 2023 for the group emissions and 2022 for the full consolidated?",15680,351.0,False
+154,"Which are the top 2 highest averages (in descending order) in the years 2021, 2023 for the full consolidated emissions, 2023, 2021, 2022 for the group between the total and direct energy consumption?","15015.4, 14517.4",14092.0,False
+155,"Between direct and indirect energy consumption, what is the average of the percentage ratios from 2023 (group) to 2022 (full consolidated)?",94.28,0.58621,False
+156,"What is the value of the lowest average in the years 2022 (full consolidated), 2022 (group), 2023 (full consolidated), 2023 (group between direct and indirect energy consumption?",451,377.0,False
+157,"Between direct and indirect group energy consumption, what is the average of the sums in the years 2022 to 2021?",16112,14487.0,False
+158,What is the value of the lowest percentage ratio from 2021 to 2023 between direct and indirect full consolidated energy consumption?,94.56,4.0923,False
+159,"What is the value of the highest sum in the years 2022, 2021 between direct and indirect group energy consumption?",30836,17361.0,False
+160,"Between direct and indirect energy consumption, what is the average of the sums in the years 2021 (full consolidated) and 2021 (group)?",14277,17447.0,False
+161,"What are the top 2 highest averages (in ascending order) in the years 2023 (full consolidated), 2021 (group), 2022 (full consolidated), 2023 (group), 2021 (full consolidated between the electricity consumed from the grid and the one consumed from the grid but purchased from renewable sources?","11996.4, 43627.0",35329.0,False
+162,"Between location based and market based emissions, what is the average of the sums in full consolidated and group scenarios in 2023?",12786.85,6368.85,False
+163,"What is the value of the highest average in the years 2022 for the group emissions, 2023, 2021 for full consolidated between location based and market based emissions?",4375.8,6340.3,False
+164,What is the average of the percentage ratios from 2023 to 2021 between location based and market based group emissions?,242.04,1.01584,False
+165,What is the average of the sums in the years 2023 to 2022 between location based and market based group emissions?,10831.05,6348.85,False
