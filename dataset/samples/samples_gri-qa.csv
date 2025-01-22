@@ -30909,7 +30909,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-200,100,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_average,"Between direct and indirect group energy consumption, what is the average of the percentage ratios from 2023 to 2021?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+200,100,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_average,What is the average between direct and indirect group energy consumption of the percentage ratios between 2023 and 2021?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -30992,7 +30992,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-201,136,['OTC_SU_2023.pdf'],[311],[1],305,,sum_average,"Between scope 1+2 market based emissions and scope 2 emissions, what is the average of the sums in the years 2022 to 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+201,136,['OTC_SU_2023.pdf'],[311],[1],305,,sum_average,What is the average between scope 1+2 market based emissions and scope 2 emissions of the sums between the years 2022 and 2023?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -31208,7 +31208,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-202,78,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_average,What is the average of the percentage ratios from 2021 to 2023 between water withdrawn except for cooling and water withdrawn for cooling?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+202,78,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_average,What is the average between water withdrawn except for cooling and water withdrawn for cooling of the percentage ratios between 2021 and 2023?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -31334,7 +31334,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-203,56,['NYSE_TTE_2023.pdf'],[306],[3],305,,average_sup,"What is the value of the lowest average in the years 2023, 2021 between operated and not operated intensity of GHG emissions?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
+203,56,['NYSE_TTE_2023.pdf'],[306],[3],305,,average_sup,"What is the value between operated and not operated intensity of GHG emissions of the lowest average between the years 2023, 2021?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -31388,7 +31388,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-204,97,['OTC_SAPMY_2023.pdf'],[144],[0],302,,sum_sup,"Between direct and indirect energy consumption, what is the value of the lowest sum in the years 2021 (group), 2023 (full consolidated), 2021 (full consolidated), 2023 (group), 2022 (full consolidated)?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+204,97,['OTC_SAPMY_2023.pdf'],[144],[0],302,,sum_sup,"What is the value between direct and indirect energy consumption of the lowest sum in the years 2021 (group), 2023 (full consolidated), 2021 (full consolidated), 2023 (group), 2022 (full consolidated)?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -31471,7 +31471,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-205,29,['OTC_SU_2023.pdf'],[311],[1],305,,average_sum,"Between grid and renewable electricity emissions, what is the sum of the averages in the years 2021, 2022, 2023, 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+205,29,['OTC_SU_2023.pdf'],[311],[1],305,,average_sum,"What is the sum between grid and renewable electricity emissions of the averages between the years 2021, 2022, 2023, 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -31687,7 +31687,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-206,104,['OTC_SAPMY_2023.pdf'],[147],[0],305,,sum_ranking,"Between location based and target based emissions, what are the top 2 lowest sums (in descending order) in the years 2022, 2023 for fully consolidated and 2023 for group emissions?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+206,104,['OTC_SAPMY_2023.pdf'],[147],[0],305,,sum_ranking,"What are the top 2 lowest values between location based and target based emissions of the sums (in descending order) between the years 2022, 2023 for fully consolidated and 2023 for group emissions?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -31781,7 +31781,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-207,82,['OTC_SU_2023.pdf'],[311],[1],305,,ratio_ranking,Which are the top 2 highest percentage ratios (in descending order) from the year 2021 to 2023 between vehicle and SF6 emissions?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+207,82,['OTC_SU_2023.pdf'],[311],[1],305,,ratio_ranking,Which are the top 2 highest values between vehicle and SF6 emissions of the percentage ratios (in descending order) between the year 2021 and 2023?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -31997,7 +31997,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-208,162,['OTC_SAPMY_2023.pdf'],[147],[0],305,,sum_average,"Between location based and market based emissions, what is the average of the sums in full consolidated and group scenarios in 2023?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+208,162,['OTC_SAPMY_2023.pdf'],[147],[0],305,,sum_average,What is the average between location based and market based emissions of the sums in full consolidated and group scenarios between 2023?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -32091,7 +32091,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-209,108,['NYSE_TTE_2023.pdf'],[306],[3],305,,ratio_ranking,What are the top 2 highest percentage ratios (in descending order) from the year 2022 to 2023 between operated and not operated intensity emissions?,step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
+209,108,['NYSE_TTE_2023.pdf'],[306],[3],305,,ratio_ranking,What are the top 2 highest values between operated and not operated intensity emissions of the percentage ratios (in descending order) between the year 2022 and 2023?,step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -32145,7 +32145,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-210,19,['OTC_SU_2023.pdf'],[310],[1],302,,ratio_ranking,"Between the energy consumption from renewable and non renewable sources, which are the top 2 lowest percentage ratios (in descending order) from the year 2023 to 2022?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+210,19,['OTC_SU_2023.pdf'],[310],[1],302,,ratio_ranking,Which are the top 2 lowest values between the energy consumption from renewable and non renewable sources of the percentage ratios (in descending order) between the year 2023 and 2022?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -32371,7 +32371,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-211,42,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_average,What is the average of the percentage ratios from 2022 (full consolidated) to 2023 (group between direct and indirect consumption of energy?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+211,42,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_average,What is the average between direct and indirect consumption of energy of the percentage ratios between 2022 (full consolidated) and 2023 (group?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -32454,7 +32454,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-212,15,['OTC_SU_2023.pdf'],[311],[1],305,,sum_average,"Between scope 2 and scope 3 emissions, what is the average of the sums in the years 2020 and 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+212,15,['OTC_SU_2023.pdf'],[311],[1],305,,sum_average,What is the average between scope 2 and scope 3 emissions of the sums between the years 2020 and 2023?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -32670,7 +32670,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-213,67,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_average,"Between the total water withdrawn except for cooling and water withdrawn for cooling, what is the average of the percentage ratios from 2022 to 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+213,67,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_average,What is the average between the total water withdrawn except for cooling and water withdrawn for cooling of the percentage ratios between 2022 and 2020?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -32796,7 +32796,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-214,24,['OTC_SU_2023.pdf'],[310],[0],303,,average_sum,"Between total water withdrawn and water withdrawn for cooling, what is the sum of the averages in the years 2021, 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+214,24,['OTC_SU_2023.pdf'],[310],[0],303,,average_sum,"What is the sum between total water withdrawn and water withdrawn for cooling of the averages between the years 2021, 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -32922,7 +32922,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-215,31,['OTC_SU_2023.pdf'],[309],[0],306,,sum_average,What is the average of the sums in the years 2023 to 2022 between non hazardous waste and non hazardous recycled waste?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+215,31,['OTC_SU_2023.pdf'],[309],[0],306,,sum_average,What is the average between non hazardous waste and non hazardous recycled waste of the sums between the years 2023 and 2022?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -33108,7 +33108,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-216,131,['OTC_SU_2023.pdf'],[310],[1],302,,sum_average,What is the average of the sums in the years 2020 and 2022 between self generated and purchased renewable electricity?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+216,131,['OTC_SU_2023.pdf'],[310],[1],302,,sum_average,What is the average between self generated and purchased renewable electricity of the sums between the years 2020 and 2022?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -33334,7 +33334,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-217,51,['OTC_SAPMY_2023.pdf'],[145],[0],302,,ratio_average,"Between electricity consumed from the grid and electricity consumed from the grid, but produced by renewable sources, what is the average of the percentage ratios from 2021 (full consolidated) to 2021 (group total)?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+217,51,['OTC_SAPMY_2023.pdf'],[145],[0],302,,ratio_average,"What is the average between electricity consumed from the grid and electricity consumed from the grid, but produced by renewable sources of the percentage ratios between 2021 (full consolidated) and 2021 (group total)?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -33424,7 +33424,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-218,101,['OTC_SAPMY_2023.pdf'],[144],[0],302,,average_ranking,"Between direct and indirect energy consumption, which are the top 2 highest averages (in descending order) in the years 2021, 2022, 2023 for the group consumption and 2022, 2023 for fully consolidated?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+218,101,['OTC_SAPMY_2023.pdf'],[144],[0],302,,average_ranking,"Which are the top 2 highest values between direct and indirect energy consumption of the averages (in descending order) between the years 2021, 2022, 2023 for the group consumption and 2022, 2023 for fully consolidated?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -33507,7 +33507,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-219,16,['OTC_SU_2023.pdf'],[311],[1],305,,sum_sup,"What is the value of the highest sum in the years 2020, 2021, 2022 between scope 1 and scope 3 emissions?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+219,16,['OTC_SU_2023.pdf'],[311],[1],305,,sum_sup,"What is the value between scope 1 and scope 3 emissions of the highest sum in the years 2020, 2021, 2022?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -33723,7 +33723,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-220,76,['OTC_SU_2023.pdf'],[310],[0],303,,average_sup,"Between surface and groundwater withdrawal, what is the value of the highest average in the years 2020, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+220,76,['OTC_SU_2023.pdf'],[310],[0],303,,average_sup,"What is the value between surface and groundwater withdrawal of the highest average between the years 2020, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -33849,7 +33849,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-221,18,['OTC_SU_2023.pdf'],[311],[1],305,,ratio_ranking,"Which are the top 2 highest percentage ratios (in ascending order) from the year 2022 to 2020 between scope 1, 2 and 3 emissions?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+221,18,['OTC_SU_2023.pdf'],[311],[1],305,,ratio_ranking,"Which are the top 2 highest values between scope 1, 2 and 3 emissions of the percentage ratios (in ascending order) between the year 2022 and 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -34065,7 +34065,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-222,12,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_sup,"Between the total water withdrawn and the water withdrawn for cooling, what is the value of the lowest percentage ratio from 2020 to 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+222,12,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_sup,What is the value between the total water withdrawn and the water withdrawn for cooling of the lowest percentage ratio between 2020 and 2023?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -34191,7 +34191,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-223,9,['OTC_SU_2023.pdf'],[311],[0],302,,sum_ranking,"Between different sources of energy consumption, what are the top 6 highest sums (in descending order) in the years 2022, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+223,9,['OTC_SU_2023.pdf'],[311],[0],302,,sum_ranking,"What are the top 6 highest values between different sources of energy consumption of the sums (in descending order) between the years 2022, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -34317,7 +34317,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-224,132,['OTC_SU_2023.pdf'],[310],[0],303,,average_ranking,"Which are the top 2 highest averages (in descending order) in the years 2021, 2022, 2020, 2023 between surface and groundwater withdrawal?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+224,132,['OTC_SU_2023.pdf'],[310],[0],303,,average_ranking,"Which are the top 2 highest values between surface and groundwater withdrawal of the averages (in descending order) between the years 2021, 2022, 2020, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -34443,7 +34443,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-225,75,['OTC_SU_2023.pdf'],[310],[1],302,,average_ranking,"Which are the top 2 lowest averages (in descending order) in the years 2022, 2020, 2023, 2021 between purchased and self generated renewable electricity?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+225,75,['OTC_SU_2023.pdf'],[310],[1],302,,average_ranking,"Which are the top 2 lowest values between purchased and self generated renewable electricity of the averages (in descending order) between the years 2022, 2020, 2023, 2021?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -34669,7 +34669,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-226,135,['OTC_SU_2023.pdf'],[310],[0],303,,sum_ranking,"Between the water withdrawn not for cooling and the water withdrawn for cooling, which are the top 2 highest sums (in descending order) in the years 2023, 2021, 2022?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+226,135,['OTC_SU_2023.pdf'],[310],[0],303,,sum_ranking,"Which are the top 2 highest values between the water withdrawn not for cooling and the water withdrawn for cooling of the sums (in descending order) between the years 2023, 2021, 2022?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -34795,7 +34795,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-227,60,['NYSE_TTE_2023.pdf'],[383],[1],305,,ratio_average,"Between upstream and downstream transportation, what is the average of the percentage ratios from 2023 to 2022?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
+227,60,['NYSE_TTE_2023.pdf'],[383],[1],305,,ratio_average,What is the average between upstream and downstream transportation of the percentage ratios between 2023 and 2022?,step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -34920,7 +34920,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-228,55,['OTC_SAPMY_2023.pdf'],[147],[0],305,,ratio_average,What is the average of the percentage ratios from 2021 to 2023 between location based and market based group total emissions?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+228,55,['OTC_SAPMY_2023.pdf'],[147],[0],305,,ratio_average,What is the average between location based and market based group total emissions of the percentage ratios between 2021 and 2023?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -35014,7 +35014,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-229,146,['OTC_SU_2023.pdf'],[309],[0],306,,average_sum,"Between reused and incinerated non hazardous waste, what is the sum of the averages in the years 2021, 2022?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+229,146,['OTC_SU_2023.pdf'],[309],[0],306,,average_sum,"What is the sum between reused and incinerated non hazardous waste of the averages between the years 2021, 2022?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -35200,7 +35200,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-230,30,['OTC_SU_2023.pdf'],[311],[1],305,,ratio_ranking,Which are the top 2 lowest percentage ratios (in descending order) from the year 2020 to 2023 between scope 2 and 3 emissions?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+230,30,['OTC_SU_2023.pdf'],[311],[1],305,,ratio_ranking,Which are the top 2 lowest values between scope 2 and 3 emissions of the percentage ratios (in descending order) between the year 2020 and 2023?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -35416,7 +35416,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-231,140,['OTC_SU_2023.pdf'],[311],[1],305,,average_sup,"What is the value of the highest average in the years 2022, 2023 between the grid electricity and renewable electricity scope 2 emissions?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+231,140,['OTC_SU_2023.pdf'],[311],[1],305,,average_sup,"What is the value between the grid electricity and renewable electricity scope 2 emissions of the highest average between the years 2022, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -35632,7 +35632,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-232,119,['OTC_SU_2023.pdf'],[310],[1],302,,ratio_sup,"Between grid electricity, purchased and self generated renewable electricity, what is the value of the lowest percentage ratio from 2021 to 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+232,119,['OTC_SU_2023.pdf'],[310],[1],302,,ratio_sup,"What is the value between grid electricity, purchased and self generated renewable electricity of the lowest percentage ratio between 2021 and 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -35858,7 +35858,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-233,85,['OTC_SU_2023.pdf'],[309],[0],306,,average_sum,"What is the sum of the averages in the years 2021, 2023 between non hazardous waste and non hazardous reused waste?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+233,85,['OTC_SU_2023.pdf'],[309],[0],306,,average_sum,"What is the sum between non hazardous waste and non hazardous reused waste of the averages between the years 2021, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36044,7 +36044,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-234,157,['OTC_SAPMY_2023.pdf'],[144],[0],302,,sum_average,"Between direct and indirect group energy consumption, what is the average of the sums in the years 2022 to 2021?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+234,157,['OTC_SAPMY_2023.pdf'],[144],[0],302,,sum_average,What is the average between direct and indirect group energy consumption of the sums between the years 2022 and 2021?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36127,7 +36127,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-235,2,['NYSE_TTE_2023.pdf'],[383],[1],305,,sum_ranking,"Between purchased goods and downstream transportation, what are the top 2 highest sums (in ascending order) in the years 2022, 2023?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
+235,2,['NYSE_TTE_2023.pdf'],[383],[1],305,,sum_ranking,"What are the top 2 highest values between purchased goods and downstream transportation of the sums (in ascending order) between the years 2022, 2023?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36252,7 +36252,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-236,118,['NYSE_TTE_2023.pdf'],[387],[0],305,,ratio_ranking,"Between NMVOC and Nox emissions, what are the top 2 lowest percentage ratios (in descending order) from the year 2023 to 2020?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
+236,118,['NYSE_TTE_2023.pdf'],[387],[0],305,,ratio_ranking,What are the top 2 lowest values between nmvoc and nox emissions of the percentage ratios (in descending order) between the year 2023 and 2020?,step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36448,7 +36448,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-237,112,['NYSE_TTE_2023.pdf'],[383],[1],305,,average_sup,"Between downstream and upstream transportation, what is the value of the lowest average in the years 2023, 2022?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
+237,112,['NYSE_TTE_2023.pdf'],[383],[1],305,,average_sup,"What is the value between downstream and upstream transportation of the lowest average between the years 2023, 2022?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36573,7 +36573,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-238,68,['OTC_SU_2023.pdf'],[310],[0],303,,average_sum,"Between the total water withdrawn except for cooling and water withdrawn for cooling, what is the sum of the averages in the years 2020, 2022, 2023, 2021?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+238,68,['OTC_SU_2023.pdf'],[310],[0],303,,average_sum,"What is the sum between the total water withdrawn except for cooling and water withdrawn for cooling of the averages between the years 2020, 2022, 2023, 2021?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36699,7 +36699,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-239,133,['OTC_SU_2023.pdf'],[310],[0],303,,sum_ranking,"Between total and surface water withdrawn, what are the top 2 lowest sums (in ascending order) in the years 2023, 2021?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+239,133,['OTC_SU_2023.pdf'],[310],[0],303,,sum_ranking,"What are the top 2 lowest values between total and surface water withdrawn of the sums (in ascending order) between the years 2023, 2021?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36825,7 +36825,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-240,45,['OTC_SAPMY_2023.pdf'],[144],[0],302,,average_sum,"Between direct and indirect consumption of energy, what is the sum of the averages in the years 2023 (full consolidated), 2022 (group)?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+240,45,['OTC_SAPMY_2023.pdf'],[144],[0],302,,average_sum,"What is the sum between direct and indirect consumption of energy of the averages between the years 2023 (full consolidated), 2022 (group)?",step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -36908,7 +36908,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-241,26,['OTC_SU_2023.pdf'],[311],[1],305,,sum_ranking,"Which are the top 2 highest sums (in descending order) in the years 2023, 2021, 2022, 2020 between scope 1 emissions and gas emissions?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+241,26,['OTC_SU_2023.pdf'],[311],[1],305,,sum_ranking,"Which are the top 2 highest values between scope 1 emissions and gas emissions of the sums (in descending order) between the years 2023, 2021, 2022, 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -37124,7 +37124,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-242,142,['OTC_SU_2023.pdf'],[309],[0],306,,sum_ranking,"Which are the top 2 lowest sums (in descending order) in the years 2020, 2022, 2023 between non hazardous waste and non hazardous waste recycled?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+242,142,['OTC_SU_2023.pdf'],[309],[0],306,,sum_ranking,"Which are the top 2 lowest values between non hazardous waste and non hazardous waste recycled of the sums (in descending order) between the years 2020, 2022, 2023?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -37310,7 +37310,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-243,84,['OTC_SU_2023.pdf'],[311],[1],305,,average_ranking,"Between scope 2 and 3 emissions, what are the top 2 highest averages (in descending order) in the years 2022, 2023, 2021, 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+243,84,['OTC_SU_2023.pdf'],[311],[1],305,,average_ranking,"What are the top 2 highest values between scope 2 and 3 emissions of the averages (in descending order) between the years 2022, 2023, 2021, 2020?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -37526,7 +37526,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-244,95,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_ranking,What are the top 2 highest percentage ratios (in descending order) from the year 2023 to 2021 between indirect and direct group consumption of energy?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+244,95,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_ranking,What are the top 2 highest values between indirect and direct group consumption of energy of the percentage ratios (in descending order) between the year 2023 and 2021?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -37609,7 +37609,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-245,93,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_ranking,Which are the top 2 highest percentage ratios (in descending order) from the year 2021 (group) to 2022 (full consolidated between direct and indirect energy consumption?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
+245,93,['OTC_SAPMY_2023.pdf'],[144],[0],302,,ratio_ranking,Which are the top 2 highest values between direct and indirect energy consumption of the percentage ratios (in descending order) between the year 2021 (group) and 2022 (full consolidated?,step,"<h3>TABLE of COMPANY OTC_SAPMY</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -37692,7 +37692,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-246,36,['OTC_SU_2023.pdf'],[309],[0],306,,average_sup,"What is the value of the lowest average in the years 2023, 2021 between reused and incinerated non hazardous waste?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+246,36,['OTC_SU_2023.pdf'],[309],[0],306,,average_sup,"What is the value between reused and incinerated non hazardous waste of the lowest average between the years 2023, 2021?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -37878,7 +37878,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-247,109,['NYSE_TTE_2023.pdf'],[387],[0],303,,sum_sup,"What is the value of the lowest sum in the years 2022, 2019, 2020 between fresh water withdrawal from cooling water and total fresh water consumption?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
+247,109,['NYSE_TTE_2023.pdf'],[387],[0],303,,sum_sup,"What is the value between fresh water withdrawal from cooling water and total fresh water consumption of the lowest sum in the years 2022, 2019, 2020?",step,"<h3>TABLE of COMPANY NYSE_TTE</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -38074,7 +38074,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-248,22,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_ranking,"Between surface and groundwater withdrawal, which are the top 2 lowest percentage ratios (in descending order) from the year 2021 to 2022?",step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
+248,22,['OTC_SU_2023.pdf'],[310],[0],303,,ratio_ranking,Which are the top 2 lowest values between surface and groundwater withdrawal of the percentage ratios (in descending order) between the year 2021 and 2022?,step,"<h3>TABLE of COMPANY OTC_SU</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
@@ -38200,7 +38200,7 @@ consumption.1</th>
     </tr>
   </tbody>
 </table><br><br>"
-249,90,['OTC_ADDDF_2023.pdf'],[110],[0],301,,ratio_average,What is the average of the percentage ratios from 2022 to 2023 between recycled polyester and sustainable cotton?,step,"<h3>TABLE of COMPANY OTC_ADDDF</h3><br><table border=""1"" class=""dataframe"">
+249,90,['OTC_ADDDF_2023.pdf'],[110],[0],301,,ratio_average,What is the average between recycled polyester and sustainable cotton of the percentage ratios between 2022 and 2023?,step,"<h3>TABLE of COMPANY OTC_ADDDF</h3><br><table border=""1"" class=""dataframe"">
   <thead>
     <tr style=""text-align: right;"">
       <th></th>
