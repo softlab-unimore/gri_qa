@@ -65,23 +65,22 @@ def check_number(value, response, percentage=False):
         return False
 
 def calculate_and_save_metrics(results, metrics, model, output_path):
-    em = results.loc[results['correct'] == True].shape[0] / results.shape[0]
-    metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 3)}
+    em = (results.loc[results['correct'] == True].shape[0] / results.shape[0])*100
+    metrics.loc[len(metrics)] = {'model': model, 'em': round(em, 1)}
     metrics.to_csv(output_path, index=False)
-    print(f'EM: {round(em, 3)}')
+    print(f'EM: {round(em, 1)}')
 
 
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multitable2', 'multitable3', 'multitable5'])
+    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multistep', 'multitable2', 'multitable3', 'multitable5'])
     parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
-    # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    models = ['tapex', 'tablellama', 'finma', 'tatllm__end_to_end']
+    # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought', 'tatllm__end_to_end', 'tatllm__step_wise',]
+    models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['openai', 'openai_chainofthought']
 
     os.makedirs(f'./results/{args.type}/{args.dataset}/with_match', exist_ok=True)
