@@ -1,4 +1,6 @@
 model,em
 tapex,54.0
+tablellama,74.0
+finma,22.0
 openai,90.0
 openai_chainofthought,84.0
