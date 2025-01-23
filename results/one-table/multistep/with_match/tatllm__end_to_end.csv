@@ -1,0 +1,637 @@
+index,question,value,response,correct
+0,What is the value between operated and not operated intensity GHG emissions of the lowest percentage ratio between 2022 and 2021?,100,"19#0.13 |
+
+#### and its corresponding scale is: none",False
+1,"What is the value between SO2, Nox and NMVOC emissions of the lowest sum in the years 2021, 2022, 2023?",41,"58#48#43 |
+
+the corresponding scale is: none |
+
+",False
+2,"What are the top 2 highest values between purchased goods and downstream transportation of the sums (in ascending order) between the years 2022, 2023?","2.0, 57.0",1#9#30#8#1 |,False
+3,"What are the top 2 highest values between upstream and downstream transportation of the sums (in descending order) between the years 2022, 2023?","17.0, 2.0",9#8#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#1#,False
+4,"What is the value between the processed waste and not hazardous waste of the highest sum in the years 2020, 2023, 2021, 2022, 2019?",2682,303#501 |,False
+5,What is the average between biofuels and gas emissions of the sums between the years 2023 and 2022?,131,124#4 |,False
+6,What is the average between not hazardous and hazardous waste of the percentage ratios between 2023 and 2020?,103.65,(176 + 202) / (319 + 322),False
+7,What is the value between fresh water withdrawal exclusing cooling water and in water stress areas of the highest percentage ratio between 2021 and 2020?,103.85,"54#75 |
+
+the corresponding scale is: none |
+
+",False
+8,"What is the value between Nox and NMVOC emissions of the lowest sum in the years 2023, 2019?",126,"60#43 |
+
+#### and its corresponding scale is: none",False
+9,"What are the top 6 highest values between different sources of energy consumption of the sums (in descending order) between the years 2022, 2023?","199398.0, 150463.0, 54253.0, 5319.0, 1868.0, 0.0",148720#107019#2829#2263#2558#40443 |,False
+10,"Which are the top 3 lowest values between grid electricity, purchased renewable electricity and self generated renewable electricity of the averages (in ascending order) between the years 2023, 2022, 2021, 2020?","18059.5, 118148.25, 599428.0","148969#12464#108263 |
+
+",False
+11,What is the value between surface and groundwater withdrawal of the lowest percentage ratio between 2020 and 2021?,88.12,"| 303-3 | of which groundwater |
+
+#### and its corresponding scale is: none",False
+12,What is the value between the total water withdrawn and the water withdrawn for cooling of the lowest percentage ratio between 2020 and 2023?,95.92,1899190#780201,False
+13,What are the top 2 lowest values between the total water withdrawn and the water withdrawn for cooling of the percentage ratios (in descending order) between the year 2021 and 2020?,"112.74, 107.48",76.5#879602#780201#56.2#879602#780201 |,False
+14,What is the value between scope 1 and scope 2 emissions of the lowest percentage ratio between 2021 and 2020?,98.83,"140718#65770721 |
+
+",False
+15,What is the average between scope 2 and scope 3 emissions of the sums between the years 2020 and 2023?,61391666,"(56777964 + 60788549) / 2 |
+
+",False
+16,"What is the value between scope 1 and scope 3 emissions of the highest sum in the years 2020, 2021, 2022?",195296755,"65770721#68737485 |
+
+",False
+17,"What is the value between total scope 2 emissions and emissionsfrom grid electricity of the highest sum in the years 2021, 2023, 2020, 2022?",497492,"153115#70145#66692#49674 |
+
+#### and its corresponding scale is: none",False
+18,"Which are the top 2 highest values between scope 1, 2 and 3 emissions of the percentage ratios (in ascending order) between the year 2022 and 2020?","83.89, 92.42",112792#65770721,False
+19,Which are the top 2 lowest values between the energy consumption from renewable and non renewable sources of the percentage ratios (in descending order) between the year 2023 and 2022?,"102.7, 81.38","57.3#62.9#42.7#50.6 |
+
+the corresponding scale is: none |
+
+",False
+20,What are the top 7 highest values between different sources of energy consumption of the percentage ratios (in descending order) between the year 2020 and 2023?,"194.77, 187.31, 180.37, 132.24, 95.89, 53.74, 53.43",6941#6967#6520#12464#15861#12991#14736,False
+21,"What is the value between purchased and self generated renewable electricity of the lowest average between the years 2022, 2020?",16591.5,20719#12464,False
+22,Which are the top 2 lowest values between surface and groundwater withdrawal of the percentage ratios (in descending order) between the year 2021 and 2022?,"131.98, 104.33",14514#492308,False
+23,What is the value between total and surface water withdrawal of the lowest percentage ratio between 2020 and 2022?,100.34,1928032,False
+24,"What is the sum between total water withdrawn and water withdrawn for cooling of the averages between the years 2021, 2020?",2830049,1928032#780201 |,False
+25,"What is the value between market based total scope 1 and 2 emissions and scope 2 emissions of the highest sum in the years 2023, 2021, 2022, 2020?",1012836,"229177#153115 |
+
+#### and its corresponding scale is: none",False
+26,"Which are the top 2 highest values between scope 1 emissions and gas emissions of the sums (in descending order) between the years 2023, 2021, 2022, 2020?","515345.0, 195212.0",112792#47271,False
+27,What is the average between fuel and gas emissions of the sums between the years 2021 and 2020?,58972,(4520 + 52197) / (4451 + 56777964),False
+28,What is the average between vehicle and sf6 emissions of the percentage ratios between 2020 and 2022?,144.96,"0.14#0.08 |
+
+#### and its corresponding scale is: none",False
+29,"What is the sum between grid and renewable electricity emissions of the averages between the years 2021, 2022, 2023, 2020?",57021.25,"109730#70145#49674#66692 |
+
+#### and its corresponding scale is: none",False
+30,Which are the top 2 lowest values between scope 2 and 3 emissions of the percentage ratios (in descending order) between the year 2020 and 2023?,"162.35, 115.84",60788549#65770721,False
+31,What is the average between non hazardous waste and non hazardous recycled waste of the sums between the years 2023 and 2022?,228518.5,(116566 + 111567) / (11941 + 111567),False
+32,"What is the sum between non hazardous and hazardous waste of the averages between the years 2021, 2022, 2023?",130785.67,13667#8549#11941#7685#128267#117607#125292#136816#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#131402#117607#128267#11941#13667#125292#123311#116566#124139#,False
+33,"What is the sum between total waste and hazardous waste generated of the averages between the years 2021, 2020?",139171,136816 + 8549 |,False
+34,"What is the value between recycled, incinerated and landfilled waste of the highest percentage ratio between 2022 and 2023?",122.5,111567#11941#5025 |,False
+35,What is the value between total and non hazardous waste of the highest percentage ratio between 2020 and 2023?,100.93,"117607#90% |
+
+the corresponding scale is: none |
+
+",False
+36,"What is the value between reused and incinerated non hazardous waste of the lowest average between the years 2023, 2021?",6917.5,105593#6871 |,False
+37,"What is the value between reused, incinerated and landfilled non hazardous waste of the highest percentage ratio between 2021 and 2023?",140.25,115550#11941#13667 |,False
+38,"Which are the top 2 highest values between recycled polyester and sustainable cotton of the averages (in ascending order) between the years 2023, 2021, 2022?","95.33, 100.0",99#100,False
+39,"What is the value between recycled polyester and sustainable cotton of the lowest sum in the years 2023, 2021, 2022?",286,"91#96#99 |
+
+#### and its corresponding scale is: none",False
+40,"What is the value between the energy consumption from cement and clinker production of the highest sum in the years 2023, 1990?",769531,318671#385973,False
+41,What is the average between direct and indirect group consumption of energy of the percentage ratios between 2021 and 2023?,141.2,"(9.76 + 9.92) / 2 | none |
+
+",False
+42,What is the average between direct and indirect consumption of energy of the percentage ratios between 2022 (full consolidated) and 2023 (group?,106.35,"(9.92 + 9.76) / 2 | none |
+
+",False
+43,What is the average between direct and indirect fully consolidated consumption of energy of the sums between the years 2022 and 2021?,15056,"366#13325#380#16041 |
+
+the corresponding scale is: none",False
+44,What is the average between direct and total fully consolidated consumption of energy of the percentage ratios between 2023 and 2022?,87.91,(16665 / 16041) + (14092 / 13325) |,False
+45,"What is the sum between direct and indirect consumption of energy of the averages between the years 2023 (full consolidated), 2022 (group)?",15902,"14447#366#13325#351 |
+
+the corresponding scale is: none",False
+46,"What are the top 2 highest values between direct and indirect fully consolidated consumption of energy of the averages (in descending order) between the years 2021, 2022?","14683.0, 373.0",16041#380,False
+47,"Which are the top 2 lowest values between direct and indirect group consumption of energy of the sums (in ascending order) between the years 2021, 2022, 2023?","1765.0, 45170.0",351#366,False
+48,"What is the value between direct and indirect consumption of energy of the highest sum in the years 2021 (full consolidated), 2021 (group), 2022 (group), 2023 (full consolidated)?",58253,"16041#14171#14863#13691 |
+
+the corresponding scale is: none",False
+49,"What is the sum between direct and indirect consumption of energy of the averages between the years 2023 (group), 2023 (fully consolidated), 2021 (fully consolidated), 2021 (group), 2022 (fully consolidated)?",14825.8,"14863#13691#16421#14171#13325 |
+
+the corresponding scale is: none",False
+50,"What is the value between indirect and direct fully consolidated consumption of energy of the highest sum in the years 2022, 2021?",29366,692#16041,False
+51,"What is the average between electricity consumed from the grid and electricity consumed from the grid, but produced by renewable sources of the percentage ratios between 2021 (full consolidated) and 2021 (group total)?",68.28,0.3767#0.3797,False
+52,Which are the top 2 lowest values between location based and market based total emissions of the percentage ratios (in ascending order) between the year 2021 (full consolidated) and 2022 (full consolidated)?,"64.68, 66.03",2355.9#2403.9,False
+53,"Which are the top 2 highest values between location based and market based total emissions of the sums (in descending order) between the years 2022 (group), 2021 (full consolidated), 2021 (group), 2022 (full consolidated?","13090.1, 13048.5",6446.7#6446.5,False
+54,What is the value between location based and market based total emissions of the highest percentage ratio between 2022 (group) and 2022 (full consolidated?,120.4,4385.6#6446.7,False
+55,What is the average between location based and market based group total emissions of the percentage ratios between 2021 and 2023?,41.31,(2664.5 + 2355.9) / 2 |,False
+56,"What is the value between operated and not operated intensity of GHG emissions of the lowest average between the years 2023, 2021?",17,"18#19 |
+
+",False
+57,What are the top 2 lowest values between fresh water consumption and fresh water withdrawal without cooling water of the percentage ratios (in descending order) between the year 2020 and 2022?,"98.68, 98.13",75#105,False
+58,"What is the value between Nox, SO2 and NMVOC emissions of the lowest percentage ratio between 2020 and 2022?",106.67,"59#60#48 |
+
+the corresponding scale is: none |
+
+",False
+59,"What are the top 2 lowest values between purchased goods and downstream transportation of the averages (in descending order) between the years 2023, 2022?","28.5, 1.0",1#8,False
+60,What is the average between upstream and downstream transportation of the percentage ratios between 2023 and 2022?,94.44,(8 + 1) / (9 + 1),False
+61,What is the value between the total waste and total non hazardous waste of the highest percentage ratio between 2021 and 2022?,104.04,"322#61 |
+
+#### and its corresponding scale is: none",False
+62,What is the average between the scope 3 emissions from petroleum products and gas of the percentage ratios between 2015 and 2019?,92.24,"(335 / 75) + (80 / 115) |
+
+#### and its corresponding scale is: none",False
+63,"What is the value between non hazardous and hazardous waste of the highest average between the years 2019, 2023, 2020, 2021?",333,288#319,False
+64,"What is the sum between Nox and NMVOC emissions of the averages between the years 2021, 2022, 2019?",126.67,"108#69#58 |
+
+#### and its corresponding scale is: none",False
+65,"What is the value between grid electricity, purchased and self generated renewable electricity of the lowest sum in the years 2020, 2023, 2022?",56377,23194#12464#6941 |,False
+66,"What are the top 2 highest values between surface and groundwater withdrawal of the sums (in ascending order) between the years 2021, 2022, 2023?","51369.0, 1478138.0",19156#472199,False
+67,What is the average between the total water withdrawn except for cooling and water withdrawn for cooling of the percentage ratios between 2022 and 2020?,89.75,(622951 / 780201) + (879602 / 76.5) |,False
+68,"What is the sum between the total water withdrawn except for cooling and water withdrawn for cooling of the averages between the years 2020, 2022, 2023, 2021?",2729304.75,1899190#622951#813411#780201 |,False
+69,What is the average between scope 1 and scope 2 emissions of the percentage ratios between 2022 and 2023?,114.3,"(5.6 + 6.7) / 2 |
+
+",False
+70,What is the value between scope 2 and 3 emissions of the highest percentage ratio between 2020 and 2022?,132.33,68737485,False
+71,"Which are the top 2 lowest values between scope 1 and 3 emissions of the sums (in descending order) between the years 2023, 2020?","122548685.0, 255180.0",112792#65770721,False
+72,"What are the top 2 lowest values between scope 2 emissions and emissions from grid electricity of the averages (in descending order) between the years 2021, 2022, 2020?","136017.33, 62170.33",49674#66692,False
+73,"What is the sum between scope 1,2 and 3 emissions of the averages between the years 2020, 2022, 2023, 2021?",63271889,"229177#60788549#112792#56777964 |
+
+",False
+74,"What is the value between the different sources of energy consumption of the highest average between the years 2021, 2020, 2023?",602953.67,148969#132771#12464#15861#27602#251377#1155#6941#6967#12991#276954#251377#1155#1231#1073#593#6520#14736#24519#33830#27602#148969#132771#12464#15861#27602#251377#1155#6967#6941#12991#276954#251377#1155#1231#1073#593#6520#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14736#24519#33830#27602#14,False
+75,"Which are the top 2 lowest values between purchased and self generated renewable electricity of the averages (in descending order) between the years 2022, 2020, 2023, 2021?","599428.0, 18059.5",20719#15861,False
+76,"What is the value between surface and groundwater withdrawal of the highest average between the years 2020, 2023?",462400.5,no answer in the response,False
+77,Which are the top 2 highest values between total and surface water withdrawal of the percentage ratios (in ascending order) between the year 2021 and 2022?,"107.84, 131.98",no answer in the response,False
+78,What is the average between water withdrawn except for cooling and water withdrawn for cooling of the percentage ratios between 2021 and 2023?,108.62,(879602 / 780201) + (813411 / 622951) |,False
+79,"What is the value between scope 1+2 market based and scope 2 emissions of the highest average between the years 2023, 2021?",248032,"109730#153115 |
+
+",False
+80,What is the value between scope 1 and gas emissions of the lowest percentage ratio between 2022 and 2023?,105.9,38968,False
+81,What are the top 2 highest values between fuel and gas emissions of the percentage ratios (in descending order) between the year 2022 and 2021?,"97.65, 83.26","47271#56776 |
+
+",False
+82,Which are the top 2 highest values between vehicle and SF6 emissions of the percentage ratios (in descending order) between the year 2021 and 2023?,"145.19, 101.94",0.10%#0.08%,False
+83,What is the average between grid and renewable electricity scope 2 emissions of the percentage ratios between 2022 and 2021?,87.38,"(0.49674 + 0.703) / 2 |
+
+#### and its corresponding scale is: percent",False
+84,"What are the top 2 highest values between scope 2 and 3 emissions of the averages (in descending order) between the years 2022, 2023, 2021, 2020?","63018679.75, 124373.0",60788549#68737485,False
+85,"What is the sum between non hazardous waste and non hazardous reused waste of the averages between the years 2021, 2023?",232988,11941#116566 |,False
+86,What is the average between non hazardous and hazardous of the percentage ratios between 2022 and 2023?,106.31,(86% + 96.3%)/(80.9% + 96.3%) |,False
+87,"What is the value between total and hazardous waste generated of the lowest average between the years 2022, 2020, 2023?",7783,7573,False
+88,"Which are the top 2 lowest values between total waste and non hazardous waste generated of the sums (in descending order) between the years 2021, 2020, 2022, 2023?","517649.0, 485751.0",128267#117607,False
+89,"What are the top 3 highest values between reused, incinerated and landfilled non hazardous waste of the percentage ratios (in descending order) between the year 2021 and 2022?","114.49, 103.65, 103.57","115550#11941#123311 |
+
+",False
+90,What is the average between recycled polyester and sustainable cotton of the percentage ratios between 2022 and 2023?,98.48,"(99 + 100) / 2 |
+
+#### and its corresponding scale is: percent",False
+91,"What is the value between recycled polyester and sustainable cotton of the highest average between the years 2023, 2022?",100,"100#99 |
+
+#### and its corresponding scale is: none",False
+92,Which are the top 2 lowest values between the energy consumption from cement and clinker production of the percentage ratios (in descending order) between the year 2022 and 1990?,"80.1, 74.79",309153#291023,False
+93,Which are the top 2 highest values between direct and indirect energy consumption of the percentage ratios (in descending order) between the year 2021 (group) and 2022 (full consolidated?,"182.11, 88.34","9.92#16041#13325#16665#380#366 |
+
+the corresponding scale is: none",False
+94,Which are the top 2 highest values between direct and indirect energy consumption of the percentage ratios (in descending order) between the year 2023 (full consolidated) and 2022 (group)?,"84.56, 50.43","9.92#16041#13325#16665#9.76#14171#13691 |
+
+the corresponding scale is: none",False
+95,What are the top 2 highest values between indirect and direct group consumption of energy of the percentage ratios (in descending order) between the year 2023 and 2021?,"101.15, 54.48","9.92#14334#16665#16041#692#380#14171#366 |
+
+the corresponding scale is: none",False
+96,What are the top 2 lowest values between total and direct full consolidated consumption of energy of the percentage ratios (in descending order) between the year 2022 and 2023?,"113.83, 113.66",16041#16665,False
+97,"What is the value between direct and indirect energy consumption of the lowest sum in the years 2021 (group), 2023 (full consolidated), 2021 (full consolidated), 2023 (group), 2022 (full consolidated)?",2166,"14171#13691#16421#16041#17361 |
+
+the corresponding scale is: none",False
+98,What are the top 2 lowest values between direct and indirect energy consumption of the percentage ratios (in ascending order) between the year 2021 (group) and 2022 (full consolidated?,"88.34, 182.11","9.76#366#380#692#13691#14863#16421#17361#13325#14171 |
+
+the corresponding scale is: none",False
+99,What is the average between direct and indirect energy consumption of the percentage ratios between 2022 (group) and 2021 (full consolidated?,157.62,"(9.92 + 9.76) / 2 | none |
+
+#### and its corresponding scale is: none",False
+100,What is the average between direct and indirect group energy consumption of the percentage ratios between 2023 and 2021?,77.81,"(9.76 + 9.92) / 2 | none |
+
+",False
+101,"Which are the top 2 highest values between direct and indirect energy consumption of the averages (in descending order) between the years 2021, 2022, 2023 for the group consumption and 2022, 2023 for fully consolidated?","15060.6, 499.2",16665#14171,False
+102,What is the average between direct and indirect group energy consumption of the percentage ratios between 2022 and 2021?,109.09,"(9.76 + 9.92) / 2 | none |
+
+",False
+103,"What are the top 2 lowest values between the group electricity consumed from the grid and the group electricity consumed from the grid, but produced from renewable sources of the sums (in ascending order) between the years 2023, 2022?","30532.0, 106254.0",16133#14399,False
+104,"What are the top 2 lowest values between location based and target based emissions of the sums (in descending order) between the years 2022, 2023 for fully consolidated and 2023 for group emissions?","16429.5, 16427.2",2355.9#2664.5,False
+105,"What is the sum between location based and target based emissions of the averages between the years 2023, 2022 for group emissions, 2023, 2022 for fully consolidated?",10406.39,"6340.3#2355.9#6446.7#2664.5 |
+
+the corresponding scale is: none",False
+106,Which are the top 2 highest values between location based and target based group emissions of the percentage ratios (in descending order) between the year 2023 and 2021?,"242.13, 241.95",156.5#87.7,False
+107,"What is the value between location based and target based emissions of the highest average between the years 2022 (group), 2022 (full consolidated), 2023 (group), 2023 (full consolidated?",5203.77,6340.3#2664.5,False
+108,What are the top 2 highest values between operated and not operated intensity emissions of the percentage ratios (in descending order) between the year 2022 and 2023?,"105.56, 100.0",0.11#0.13,False
+109,"What is the value between fresh water withdrawal from cooling water and total fresh water consumption of the lowest sum in the years 2022, 2019, 2020?",226,"75#102#107#50#55 |
+
+the corresponding scale is: none |
+
+",False
+110,"What is the average between NMVOC, SO2 and Nox emissions of the percentage ratios between 2023 and 2019?",55.3,(60 + 60 + 43) / 3 |,False
+111,"What is the value between downstream transportation and purchased goods and services of the lowest sum in the years 2023, 2022?",2,1#27 |,False
+112,"What is the value between downstream and upstream transportation of the lowest average between the years 2023, 2022?",1,8#1 |,False
+113,"What is the sum between the total processed waste and non hazardous waste of the averages between the years 2022, 2023, 2020?",821.34,521#319,False
+114,"What is the sum between non hazardous and hazardous waste of the averages between the years 2023, 2019?",592,"202#319#202#322 |
+
+#### and its corresponding scale is: none",False
+115,"What is the value between operated and not operated intensity emissions of the lowest sum in the years 2023, 2022?",34,18#19,False
+116,What is the value between operated and not operated intensity emissions of the lowest percentage ratio between 2023 and 2021?,94.74,"0.13#0.11 |
+
+the corresponding scale is: none |
+
+",False
+117,"What is the value between freshwater (excluding cooling water) withdrawal and water withdrawal from water-stressed areas of the lowest sum in the years 2021, 2023, 2020, 2022?",211,"54#101#55#80 |
+
+the corresponding scale is: none |
+
+",False
+118,What are the top 2 lowest values between nmvoc and nox emissions of the percentage ratios (in descending order) between the year 2023 and 2020?,"93.75, 62.32",60#59,False
+119,"What is the value between grid electricity, purchased and self generated renewable electricity of the lowest percentage ratio between 2021 and 2020?",89.13,"12464#15861#6941 |
+
+",False
+120,"What is the sum between surface and groundwater withdrawal of the averages between the years 2020, 2021?",501425,"452602#492308 | none |
+
+#### and its corresponding scale is: none",False
+121,"What is the value between total water withdrawn (except for cooling) and water withdrawn for cooling of the lowest sum in the years 2022, 2021, 2023, 2020?",3096165,1921569#622951,False
+122,What is the average between total water withdrawn not for cooling and water withdrawn for cooling of the percentage ratios between 2023 and 2020?,101.38,(1899190 / 780201) / (813411 / 780201) |,False
+123,Which are the top 2 lowest values between scope 1 and 2 emissions of the percentage ratios (in descending order) between the year 2022 and 2021?,"84.88, 71.67","229177#119447#61492#55598#47271#4451#3116#56776#73229#62683#4414#5886#7287#4054#0.10%#0.08%#0.19%#0.25%#0.11% |
+
+the corresponding scale is: none |
+
+",False
+124,What is the average between scope 2 and 3 emissions of the percentage ratios between 2020 and 2021?,95.26,"(65770721 / 68737485) + (60788549 / 68737485) |
+
+#### and its corresponding scale is: none",False
+125,"What is the value between scope 1 and 3 emissions of the highest average between the years 2022, 2021, 2020?",65098918.33,"140718#68737485 |
+
+#### and its corresponding scale is: none",False
+126,"What is the value between scope 1, 2 and 3 emissions of the lowest percentage ratio between 2020 and 2022?",132.33,"140718#65770721#68737485 |
+
+",False
+127,"What is the value between scope 1, 2 and 3 emissions of the highest percentage ratio between 2021 and 2023?",171.19,"305-2#305-1#305-3 |
+
+the corresponding scale is: none |
+
+",False
+128,What is the average between different sources of energy consumption (except for self generated renewable electricity of the sums between the years 2021 and 2023?,72441.17,2490#72632#92379#21008#1013#2829#49674#5491#77831#88%#85%#80%#up#grid electricity#purchased renewable electricity#district heating#fuel oil#gas#coal#renewable fuel and heat |,False
+129,What is the value between the energy consumption from renewable sources and non renewable sources of the lowest percentage ratio between 2023 and 2021?,63.69,50.6%,False
+130,"What is the sum between the different sources of energy consumption of the averages between the years 2023, 2022, 2020, 2021?",1007168,"1124327#1201276#1325491#1216845 |
+
+the sum is: 1216845 + 1201276 + 1325491 + 1124327 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 4988449 |
+
+the sum is: 498844",False
+131,What is the average between self generated and purchased renewable electricity of the sums between the years 2020 and 2022?,603764.5,(20719 + 585495) / (2020 + 2022) |,False
+132,"Which are the top 2 highest values between surface and groundwater withdrawal of the averages (in descending order) between the years 2021, 2022, 2020, 2023?","482685.0, 17207.5",no answer in the response,False
+133,"What are the top 2 lowest values between total and surface water withdrawn of the sums (in ascending order) between the years 2023, 2021?","36855.0, 3971453.0",17699#19156#1899190#2072263 |,False
+134,"What is the value between the total water withdrawn and the water withdrawn for water stressed areas of the highest average between the years 2023, 2021, 2022?",1964340.67,1899190#930603 |,False
+135,"Which are the top 2 highest values between the water withdrawn not for cooling and the water withdrawn for cooling of the sums (in descending order) between the years 2023, 2021, 2022?","5893022.0, 2315964.0",879602#1928032,False
+136,What is the average between scope 1+2 market based emissions and scope 2 emissions of the sums between the years 2022 and 2023?,315289.5,(20232 + 89440) / (89440 + 20232),False
+137,"What is the value between scope 1 emissions and gas emissions of the highest sum in the years 2022, 2021, 2020, 2023?",515345,"56777964#47271 |
+
+#### and its corresponding scale is: none",False
+138,"What is the value between fuel emissions and gas emissions of the lowest average between the years 2020, 2021?",4485.5,"4520#56776 |
+
+#### and its corresponding scale is: none",False
+139,"What are the top 2 lowest values between the vehicle fleet and sf6 emissions of the averages (in descending order) between the years 2020, 2022, 2021?","63836.67, 5926.33",73229#5224#62683#55598#4520#4054#61492#7287#5886#62683#5224#4520#4054#61492#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#61492#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#5886#4054#5224#4520#62683#7287#,False
+140,"What is the value between the grid electricity and renewable electricity scope 2 emissions of the highest average between the years 2022, 2023?",44575,"703#49674 |
+
+",False
+141,"What is the value between the scope 2 and 3 emissions of the lowest sum in the years 2022, 2021, 2023?",352285,"60788549#56777964 |
+
+",False
+142,"Which are the top 2 lowest values between non hazardous waste and non hazardous waste recycled of the sums (in descending order) between the years 2020, 2022, 2023?","357484.0, 330371.0",113211#117607#11941#128267#125292#123311#116566#105593#117607#113211#128267#125292#117607#116566#123311#128267#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#117607#116566#123311#117607#113211#128267#125292#1176,False
+143,"Which are the top 2 highest values between hazardous and non hazardous waste generated of the sums (in ascending order) between the years 2022, 2021?","16640.0, 251578.0",128267#117607,False
+144,Which are the top 2 lowest values between total and hazardous waste of the percentage ratios (in descending order) between the year 2023 and 2022?,"94.47, 93.6",97.0%#96.3%,False
+145,"What is the value between total and non hazardous waste of the lowest sum in the years 2023, 2021?",244833,124139#116566,False
+146,"What is the sum between reused and incinerated non hazardous waste of the averages between the years 2021, 2022?",120400,115550#111567 |,False
+147,"What is the sum between reused, incinerated and landfilled non hazardous waste of the averages between the years 2023, 2021, 2022?",122714.66,4102#11941#13667#128267#117607#125292#131402#124139 |,False
+148,"What are the top 2 lowest values between sustainable cotton and recycled polyester of the sums (in descending order) between the years 2021, 2023, 2022?","300.0, 286.0","91#99#100#96 |
+
+#### and its corresponding scale is: none",False
+149,"Which are the top 2 highest values between sustainable cotton and recycled polyester of the averages (in ascending order) between the years 2023, 2022?","97.5, 100.0",99#100,False
+150,What is the average between the energy consumption between cement and clinker production of the sums between the years 2023 and 2022?,628016.5,"(318671 + 309153) / 2 |
+
+",False
+151,"What are the top 2 lowest values between direct and indirect energy consumption of the sums (in descending order) between the years 2022 (group), 2023 (full consolidated), 2021 (group), 2022 (full consolidated), 2023 (group)?","75303.0, 2496.0",351#366,False
+152,"Which are the top 2 lowest values between direct and indirect energy consumption of the sums (in ascending order) between the years 2022, 2021 for the group emissions, 2023, 2022 for the full consolidated?","2119.0, 60969.0",366#380,False
+153,"What is the value between direct and indirect energy consumption of the highest average between the years 2022, 2023 for the group emissions and 2022 for the full consolidated?",15680,"14092#351#16041#366 |
+
+the corresponding scale is: none",False
+154,"Which are the top 2 highest values between the total and direct energy consumption of the averages (in descending order) between the years 2021, 2023 for the full consolidated emissions, 2023, 2021, 2022 for the group?","15015.4, 14517.4",16665#14171,False
+155,What is the average between direct and indirect energy consumption of the percentage ratios between 2023 (group) and 2022 (full consolidated)?,94.28,"(9.76 + 9.92) / 2 | none |
+
+",False
+156,"What is the value between direct and indirect energy consumption of the lowest average between the years 2022 (full consolidated), 2022 (group), 2023 (full consolidated), 2023 (group?",451,14334#377,False
+157,What is the average between direct and indirect group energy consumption of the sums between the years 2022 and 2021?,16112,(14171 + 692) / (13325 + 366),False
+158,What is the value between direct and indirect full consolidated energy consumption of the lowest percentage ratio between 2021 and 2023?,94.56,366#13325,False
+159,"What is the value between direct and indirect group energy consumption of the highest sum in the years 2022, 2021?",30836,16665#692,False
+160,What is the average between direct and indirect energy consumption of the sums between the years 2021 (full consolidated) and 2021 (group)?,14277,14171#692,False
+161,"What are the top 2 highest values between the electricity consumed from the grid and the one consumed from the grid but purchased from renewable sources of the averages (in ascending order) between the years 2023 (full consolidated), 2021 (group), 2022 (full consolidated), 2023 (group), 2021 (full consolidated?","11996.4, 43627.0",38134#365.2,False
+162,What is the average between location based and market based emissions of the sums in full consolidated and group scenarios between 2023?,12786.85,6340.3#2355.9#6446.5#2662.4,False
+163,"What is the value between location based and market based emissions of the highest average between the years 2022 for the group emissions, 2023, 2021 for full consolidated?",4375.8,"6340.2#2355.9#125.4 | none |
+
+",False
+164,What is the average between location based and market based group emissions of the percentage ratios between 2023 and 2021?,242.04,(6446.7 / 6446.5) / (2662.4 / 2664.5) |,False
+165,What is the average between location based and market based group emissions of the sums between the years 2023 and 2022?,10831.05,6340.3#2662.4#6446.5#2403.9,False
