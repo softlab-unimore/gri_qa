@@ -74,15 +74,15 @@ def calculate_and_save_metrics(results, metrics, model, output_path):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multitable2', 'multitable3', 'multitable5'])
+    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multistep', 'multitable2', 'multitable3', 'multitable5'])
     parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
     # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
-    models = ['tapex', 'tablellama', 'finma', 'tatllm__end_to_end']
-    # models = ['openai', 'openai_chainofthought']
+    # models = ['tapex', 'tablellama', 'finma', 'tatllm__end_to_end']
+    models = ['openai_chainofthought']
 
     os.makedirs(f'./results/{args.type}/{args.dataset}/with_match', exist_ok=True)
 
