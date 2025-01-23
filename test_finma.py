@@ -82,13 +82,17 @@ if __name__ == '__main__':
         prompt = create_prompt(row, args)
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
-        outputs = model.generate(**encoding, max_length=2000)
-        response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+        if encoding["input_ids"].shape[1] < 2000:
+            outputs = model.generate(**encoding, max_length=2000)
+            response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-        response_value = response[0].strip('[\'').split('\nResponse: ')[1].strip('\']')
-        print(f'Q{i}: {row["value"]} - {response_value}')
+            response_value = response[0].strip('[\'').split('\nResponse: ')[1].strip('\']')
+            print(f'Q{i}: {row["value"]} - {response_value}')
 
-        results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+        else:
+            print(f'Q{i}: {row["value"]} - Prompt too long')
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': 'Prompt too long'}
 
     tracker.stop()
 
