@@ -22,7 +22,7 @@ def flattening(table):
     return flatten_table
 
 
-def create_prompt(row, type):
+def create_prompt(row, args):
     table_dirnames = eval(row["pdf name"])
 
     tables = []
@@ -30,7 +30,7 @@ def create_prompt(row, type):
         table_dirname = table_dirname.split(".")[0]
         table_filename = f'dataset/annotation/{table_dirname}/{eval(row["page nbr"])[i]}_{eval(row["table nbr"])[i]}.csv'
         table = pd.read_csv(table_filename, sep=';')
-        if type == 'one-table':
+        if args.type == 'one-table' and 'multitable' not in args.dataset:
             tables.append(flattening(table))
         else:
             company = table_dirname.strip('_2023')
@@ -46,7 +46,7 @@ def create_prompt(row, type):
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'samples', 'multi-table'])
     args = parser.parse_args()
 
     set_seed(42)
@@ -79,7 +79,7 @@ if __name__ == '__main__':
         print(f'Q{i} - {row["question"]}')
 
         # Query
-        prompt = create_prompt(row, args.type)
+        prompt = create_prompt(row, args)
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
         outputs = model.generate(**encoding, max_length=2000)
