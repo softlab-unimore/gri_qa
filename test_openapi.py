@@ -89,18 +89,18 @@ def answer(question: str, tables: str, dataset_file: str, type: str) -> str:
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
-    instruction = f"You must answer the following question given the provided table{'s' if type == 'multi-table' else ''}. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a comma. Write the numerical values with exactly 2 decimal values. Do not write anything else. Do not write any Markdown formatting."
+    instruction = f"You must answer the following question given the provided table{'s' if type == 'multi-table' or 'multitable' in args.dataset else ''}. First write your reasoning. Then, in the end, write \"The final answer is:\" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting."
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",
-                "content": f"{instruction}\n\nQuestion: {question}\nTable{'s' if type == 'multi-table' else ''}: {tables}\nAnswer: "
+                "content": f"{instruction}\n\nQuestion: {question}\nTable{'s' if type == 'multi-table' or 'multitable' in args.dataset else ''}: {tables}\n\nLet's think step-by-step."
             }
         ],
         temperature=0.0
     )
-    response = completion.choices[0].message.content
+    response = completion.choices[0].message.content.lower().split('the final answer is:')[-1]
     return response
 
 
@@ -147,7 +147,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str, type: str) 
 
             company = pdf_name.strip('_2023')
             table = read_csv_with_encoding(str(table_path))
-            if type == 'multi-table':
+            if type == 'multi-table' or 'multitable' in args.dataset:
                 table = f"Company name: {company}\n\n{df_to_html_string(table, index=False)}"
                 tables.append(table)
             else:
@@ -171,7 +171,7 @@ def table_predictions(qa_file: str, dataset_dir: str, save_dir: str, type: str) 
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table', 'samples'])
     args = parser.parse_args()
 
     config = ConfigParser()

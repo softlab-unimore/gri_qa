@@ -24,7 +24,7 @@ def flattening(table):
     return flatten_table
 
 
-def create_prompt(row, hierarchical, type):
+def create_prompt(row, hierarchical, args):
     table_dirnames = eval(row["pdf name"])
 
     tables = []
@@ -32,7 +32,7 @@ def create_prompt(row, hierarchical, type):
         table_dirname = table_dirname.split(".")[0]
         table_filename = f'dataset/annotation/{table_dirname}/{eval(row["page nbr"])[i]}_{eval(row["table nbr"])[i]}.csv'
         table = pd.read_csv(table_filename, sep=';')
-        if type == 'one-table':
+        if args.type == 'one-table' and 'multitable' not in args.dataset:
             tables.append(flattening(table))
         else:
             company = table_dirname.strip('_2023')
@@ -42,12 +42,12 @@ def create_prompt(row, hierarchical, type):
     description = "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request."
 
     if not hierarchical:
-        if type == 'one-table':
+        if args.type == 'one-table' and 'multitable' not in args.dataset:
             instruction = f"This is a table QA task. The goal of this task is to answer the question given the table."
         else:
             instruction = f'This is a table QA task. The goal of this task is to answer the question given some tables.'
     else:
-        if type == 'one-table':
+        if args.type == 'one-table' and 'multitable' not in args.dataset:
             instruction = f"This is a hierarchical table QA task. The goal of this task is to answer the question given the table. The table might be hierarchical."
         else:
             instruction = f'This is a hierarchical table QA task. The goal of this task is to answer the question given some tables. The tables might be hierarchical.'
@@ -59,8 +59,8 @@ def create_prompt(row, hierarchical, type):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--dataset', type=str, default='samples-gri-qa_multitable2-multistep.csv')
+    parser.add_argument('--type', type=str, default='samples', choices=['one-table', 'samples', 'multi-table'])
     args = parser.parse_args()
 
     set_seed(42)
@@ -91,18 +91,21 @@ if __name__ == '__main__':
         except KeyError:
             hierarchical = False
 
-        prompt = create_prompt(row, hierarchical, args.type)
+        prompt = create_prompt(row, hierarchical, args)
 
         # Query
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
-        outputs = model.generate(**encoding)
-        response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+        if encoding['input_ids'].shape[1] < 4096:
+            outputs = model.generate(**encoding)
+            response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+            response_value = response[0].split('### Response:\n')[1]
 
-        response_value = response[0].split('### Response:\n')[1]
+            print(f'Q{i}: {row["value"]} - {response_value}')
 
-        print(f'Q{i}: {row["value"]} - {response_value}')
-
-        results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': response_value}
+        else:
+            print(f'Q{i}: {row["value"]} - Prompt too long')
+            results.loc[len(results)] = {'index': i, 'question': row["question"], 'value': row["value"], 'response': 'Prompt too long'}
 
     tracker.stop()
 

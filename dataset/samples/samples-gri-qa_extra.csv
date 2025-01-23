@@ -1,0 +1,101 @@
+,index,pdf name,page nbr,table nbr,gri,gri_finegrained,question_type_ext,question,value,original_dataset,hierarchical
+0,55,['NYSE_E_2023.pdf'],[84],[0],305,305-1.1,,What were the direct GHG emissions (Scope 1) in 2021 in mmtonnes CO2 equivalent?,6.72,extra,0
+1,1955,['OTC_CRERF_2023.pdf'],[88],[0],308,308-1.1,,What was the percentage of the 100 biggest suppliers committed to a 1.5°C trajectory in 2023?,44,extra,0
+2,199,['axa_2023.pdf'],[183],[0],302,302-1.2,,What was the share of renewable electricity in 2023 (%)?,63%,extra,0
+3,1359,['munich-re_2023.pdf'],[47],[1],302,302-1.16,,What was the district cooling consumption in megawatt-hour for the year 2023?,4283,extra,0
+4,1002,['terna_2023.pdf'],[223],[0],308,308-1.1,,What percentage of total suppliers will be active in 2026?,100,extra,0
+5,1442,['OTC_SAPMY_2023.pdf'],[147],[1],305,"305-*.1, 305-*.2",,How much were the GHG emissions for leased assets in 2022 in kilotonnes of CO2?,233,extra,0
+6,1271,['OTC_ESOCF_2023.pdf'],[86],[0],305,"305-4.1, 305-1.1, 305-3.1",,What are the expected Scope 1 and Scope 3 GHG emissions related to integrated power for the year 2026 in grams of CO2 equivalent per kilowatt-hour?,135,extra,0
+7,468,['NYSE_TTE_2023.pdf'],[619],[0],305,305-3.4,,What was the Scope 3 emissions figure for Europe in 2021 in Mt CO2e?,220,extra,0
+8,835,['NASDAQ_DASTY_2023.pdf'],[117],[0],302,302-1.8,,What percentage of renewable energy was reported in 2023?,84,extra,0
+9,826,['NASDAQ_DASTY_2023.pdf'],[141],[0],306,306-4.2,,What was the percentage of electric and electronic waste recycled (WEEE) in 2019?,99,extra,0
+10,1024,['terna_2023.pdf'],[221],[2],308,308-1.1,,What was the number of contracted suppliers in 2022?,2354,extra,0
+11,156,['OTC_ENAKF_2023.pdf'],[45],[0],305,305-2.1,,What was the total CO2 equivalents location based in million metric tons for the year 2023?,70.69,extra,0
+12,1531,['vivendi_2023.pdf'],[106],[1],305,"305-1.1, 305-2.3",,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2035 compared to 2018 in %?,-71,extra,0
+13,1471,['OTC_SAPMY_2023.pdf'],[154],[0],306,"306-3.2, 306-5.2",,What is the total weight of hazardous waste disposed of in other structures in 2022 in kilotons with reference to the entire group?,97.4,extra,0
+14,489,['NYSE_TTE_2023.pdf'],[17],[0],305,"305-7.7, 305-5.1",,What is the target reduction for methane emissions in kt CH4 on operated activities by 2030 in percentage?,-80,extra,0
+15,1946,['OTC_CRERF_2023.pdf'],[79],[0],306,306-3.8,,What was the total weight of packaging reduction since 2017 in 2023 (in tonnes)?,20738,extra,0
+16,454,['NYSE_TTE_2023.pdf'],[387],[0],303,303-5.4,,What percentage of sites met the target for offshore discharges quality in 2021?,92,extra,0
+17,853,['NASDAQ_DASTY_2023.pdf'],[117],[0],305,305-5.1,,How many tonnes of carbon credits were obtained during the year 2023 (tCO2eq)?,673,extra,0
+18,301,['OTC_SU_2023.pdf'],[309],[2],305,"305-7.4, 305-*.5",,What was the VOC emissions per million euros of turnover in 2022?,9,extra,0
+19,1075,['NYSE_AZ_2023.pdf'],[61],[2],302,302-1.3,,What was the long distance heating consumption in 2023 (%)?,16.8,extra,0
+20,657,['NYSE_TTE_2023.pdf'],[383],[0],305,305-3.1,,How much were the Scope 3(a) indirect GHG emissions in 2019 in Mt CO2e?,410,extra,0
+21,986,['terna_2023.pdf'],[295],[0],306,306-5.1,,What was the total amount of terna’s waste sent for disposal in tonnes for the year 2023?,1063.4,extra,0
+22,941,['terna_2023.pdf'],[282],[1],305,305-*.2,,How much were the leakages of refrigerant gases recorded in 2022 in tonnes of CO2 equivalent?,219.2,extra,0
+23,298,['OTC_SU_2023.pdf'],[309],[2],305,"305-7.4, 305-*.5",,What was the ratio of VOC emissions per million euros of turnover in 2021?,11.8,extra,0
+24,1236,['heidelberg-materials_2023.pdf'],[358],[0],306,306-3.1,,What was the total amount of waste generated in 2023 in kilotonnes?,476.5,extra,0
+25,1723,['OTC_BAMGF_2023.pdf'],[307],[0],305,305-3.1,,What is the total indirect (Scope 3) emissions for the year 2023 in tonnes of CO2 equivalent?,133875567,extra,0
+26,1055,['terna_2023.pdf'],[222],[1],308,308-1.1,,How many disputes with suppliers were pending in 2023?,36,extra,0
+27,453,['NYSE_TTE_2023.pdf'],[387],[0],303,303-4.11,,What was the offshore continuous water discharges in mg/l for the year 2020?,12.8,extra,0
+28,1945,['OTC_CRERF_2023.pdf'],[79],[0],306,306-4.2,,How many meal equivalents of unsold products were donated to food aid associations in 2023 (in millions of meals)?,48.7,extra,0
+29,1971,['OTC_RWNEF_2023.pdf'],[44],[0],302,302-5.1,,What was the total installed capacity for RWE Group in 2022 in MW?,39265,extra,0
+30,1597,['OTC_BAMGF_2023.pdf'],[308],[0],302,302-1.15,,What was the other biogenic fuels consumption in Mwh for the year 2019?,1501,extra,0
+31,581,['NYSE_TTE_2023.pdf'],[305],[0],305,305-*.2,,What is the value of biogenic CO2 emissions from equity interest domains recorded in 2021 in Mt CO2e?,-,extra,0
+32,859,['NASDAQ_DASTY_2023.pdf'],[125],[0],306,306-3.1,,What was the total weight of waste generated in tons in 2023?,931.3,extra,0
+33,1555,['OTC_BAMGF_2023.pdf'],[308],[0],302,"302-1.7, 302-1.6",,What was the total energy consumption in megawatt-hours (MWh) associated with motorcycle production in 2019?,120583,extra,0
+34,183,['axa_2023.pdf'],[183],[0],301,301-2.1,,What percentage of recycled and/or sustainably managed paper was used in marketing and distribution in 2022?,72%,extra,0
+35,1846,['OTC_LVMUY_2023.pdf'],[167],[0],305,"305-*.1, 305-*.2",,What were the CO emissions from Wines & Spirits in 2023 pro forma in tonnes of CO2 equivalent?,28164,extra,0
+36,1012,['terna_2023.pdf'],[221],[0],308,308-1.1,,What was the number of on-site qualification checks conducted in 2021?,10,extra,0
+37,432,['NYSE_TTE_2023.pdf'],[619],[2],302,302-5.2,,What was the global energy efficiency indicator (GEEI) for the year 2022?,85.1,extra,0
+38,1603,['OTC_BAMGF_2023.pdf'],[325],[0],302,302-1.2,,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 eDrive35?,18.7 - 15.8,extra,0
+39,1958,['OTC_RWNEF_2023.pdf'],[44],[0],302,302-5.1,,What was the installed capacity for renewable Onshore Wind/Solar in 2023 in megawatts?,12574,extra,0
+40,377,['NYSE_TTE_2023.pdf'],[99],[0],302,"302-5.1, 302-5.1",,What is the total power generation gross capacity from renewables in construction for Africa in gigawatts?,0,extra,0
+41,1388,['munich-re_2023.pdf'],[29],[1],305,305-*.1,,What was the percentage change for financed GHG emissions from listed equities and corporate bonds from companies in the oil & gas segment in 2023?,-55.1,extra,0
+42,885,['terna_2023.pdf'],[294],[0],301,301-1.1,,How many tonnes of copper were produced in 2022?,10226,extra,0
+43,1264,['OTC_ESOCF_2023.pdf'],[85],[0],305,"305-4.1, 305-1.1",,What is the intensity of scope 1 GHG emissions related to power generation for the year 2030 in grams of CO2 equivalent per kilowatt-hour?,72,extra,0
+44,190,['axa_2023.pdf'],[183],[0],302,302-1.1,,What was the percentage difference of total fossil energy consumption related to own operations between 2023 and 2019?,54%,extra,0
+45,1387,['munich-re_2023.pdf'],[29],[1],305,305-*.1,,What was the percentage change for financed GHG emissions from listed equities and corporate bonds from companies in the thermal coal segment in 2023?,64.3,extra,0
+46,1225,['heidelberg-materials_2023.pdf'],[118],[0],305,305-*.1,,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2021?,565,extra,0
+47,1232,['heidelberg-materials_2023.pdf'],[119],[0],305,305-7.2,,What was the specific SO emissions in grams per tonne of clinker for the year 2023?,326,extra,0
+48,1662,['OTC_BAMGF_2023.pdf'],[326],[0],302,302-1.2,,What is the electricity power consumption for the MINI Cooper SE Cabrio in kilowatt-hours per 100 kilometers?,17.2,extra,0
+49,1368,['munich-re_2023.pdf'],[47],[0],303,"303-3.6, 303-3.7",,What was the water intensity in 2022 in m3/€m insurance revenue?,9,extra,0
+0,1102,['NYSE_AZ_2023.pdf'],[58],[0],305,305-*.1,,What are the 2023 emissions for listed corporates in mn t CO2e?,14,hier,1
+1,466,['NYSE_TTE_2023.pdf'],[619],[0],305,305-3.4,,What is the amount of Scope 3 emissions from Europe (EU 27 + Norway + UK + Switzerland) in 2023 in Mt CO2e?,216,hier,1
+2,1131,['heidelberg-materials_2023.pdf'],[356],[0],301,301-1.1,,What was the percentage of biomass used in clinker production in 2021?,11.2,hier,1
+3,647,['NYSE_TTE_2023.pdf'],[382],[1],305,"305-7.7, 305-*.2",,How much methane was emitted from upstream oil & gas activities in 2021 in kt CH4 from operated domain?,48,hier,1
+4,558,['NYSE_TTE_2023.pdf'],[305],[0],305,305-*.2,,What was the amount of GHG emissions from equity interest domains and from upstream oil & gas activities in 2015 in Mt CO2e?,22,hier,1
+5,1122,['heidelberg-materials_2023.pdf'],[356],[0],301,301-1.1,,What was the percentage of petroleum coke used in clinker production in 2021?,18.9,hier,1
+6,1419,['OTC_SAPMY_2023.pdf'],[152],[0],303,303-5.6,,What was the percentage of re-used water in 2021  for the entire group?,11,hier,1
+7,592,['NYSE_TTE_2023.pdf'],[306],[0],305,"305-7.7, 305-*.2",,What was the methane emissions in kilotonnes of CH4 for Africa in 2021 from operated domains?,23,hier,1
+8,363,['fresenius_2023.pdf'],[192],[0],305,"305-2.3, 305-*.2",,How many tonnes of gross indirect GHG emissions from energy consumption (Scope 2) did Fresenius Vamed produce in 2022?,7,hier,1
+9,865,['NASDAQ_DASTY_2023.pdf'],[141],[0],306,306-3.7,,What was the weight of collected electric and electronic waste in 2023 in tons?,57.3,hier,1
+10,67,['NYSE_E_2023.pdf'],[178],[0],306,"306-5.1, 306-3.3",,What is the total weight of non-hazardous waste destined for disposal in 2023 (million of tonnes)?,0.9,hier,1
+11,695,['NYSE_TTE_2023.pdf'],[383],[1],305,305-*.2,,What was the contribution of Franchises in 2022 in Mt CO2e?,<1,hier,1
+12,1155,['heidelberg-materials_2023.pdf'],[359],[0],303,303-3.1,,What was the total surface water withdrawal in 2021 in million m3?,28.6,hier,1
+13,516,['NYSE_TTE_2023.pdf'],[185],[0],305,"305-7.7, 305-*.2",,What was the methane emission amount for the Americas in 2021 in kt CH4?,18,hier,1
+14,1400,['OTC_SAPMY_2023.pdf'],[144],[0],302,302-2.1,,What was the energy intensity for the entire group in 2022 in TJ/€mln?,1.7,hier,1
+15,1417,['OTC_SAPMY_2023.pdf'],[152],[0],303,303-5.6,,What percentage of water was re-used in 2023 for the entire group?,5,hier,1
+16,1969,['OTC_RWNEF_2023.pdf'],[44],[0],302,302-5.1,,"In 2022, what was the total installed capacity for Hydro/Biomass/Gas in Türkiye in MW?",787,hier,1
+17,252,['OTC_SU_2023.pdf'],[310],[0],303,303-3.1,,What was the total amount of surface water withdrawn in 2020 in m3?,17461,hier,1
+18,1174,['heidelberg-materials_2023.pdf'],[358],[0],303,303-3.8,,How much total water withdrawal was recorded in 2023 in million m³ for areas with water scarcity?,14.8,hier,1
+19,1434,['OTC_SAPMY_2023.pdf'],[147],[0],305,"305-4.1, 305-1.1, 305-2.2",,What was the emission intensity for market-based Scope 1 and 2 in 2023 in kilotonnes of CO2 equivalent per million euros for the entire group?,87.7,hier,1
+20,1964,['OTC_RWNEF_2023.pdf'],[44],[0],302,302-5.1,,"What was the total installed capacity of Hydro/Biomass/Gas energy sources in the United Kingdom in 2023, in megawatts (MW)?",7335,hier,1
+21,1965,['OTC_RWNEF_2023.pdf'],[44],[0],302,302-5.1,,"How much Hydro/Biomass/Gas energy capacity (in total) was operational in the United Kingdom in 2022, in megawatts (MW)?",7315,hier,1
+22,783,['prosiebensat1-media_2023.pdf'],[64],[0],302,302-3.4,,What is the energy consumption per revenue in MWh/EUR m for the year 2022?,7.99,hier,1
+23,789,['prosiebensat1-media_2023.pdf'],[65],[0],305,305-*.2,,What is the amount of emissions from employee commuting in metric tons for 2023?,3185,hier,1
+24,504,['NYSE_TTE_2023.pdf'],[184],[0],305,"305-1.1, 305-*.2",,How many Mt CO2e were reported for the breakdown by segment - Refining & Chemicals in 2023?,14,hier,1
+25,1808,['OTC_MBGAF_2023.pdf'],[87],[0],306,"306-5.1, 306-3.8",,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82,hier,1
+26,1868,['OTC_ADDDF_2023.pdf'],[84],[0],305,"305-1.1, 305-*.2",,What were the Scope 1 emissions from distribution centers in tons of CO2 in 2022?,5128,hier,1
+27,1429,['OTC_SAPMY_2023.pdf'],[147],[0],305,"305-1.1, 305-2.1, 305-3.2",,"What were the total location-based Scope 1, 2 and 3 emissions in 2022 in kilotonnes of CO2 equivalent for the entire group?",4385.6,hier,1
+28,555,['NYSE_TTE_2023.pdf'],[305],[0],305,305-*.2,,What was the total GHG emissions from equity interest domains and from upstream oil & gas activities in 2023 in Mt CO2e?,19,hier,1
+29,1240,['heidelberg-materials_2023.pdf'],[358],[0],306,306-3.2,,What percentage of the total waste generated in 2021 was hazardous?,7,hier,1
+30,1147,['heidelberg-materials_2023.pdf'],[374],[0],302,302-1.6,,What was the percentage of alternative energy sources in 2022?,23.7,hier,1
+31,777,['commerzbank_2023.pdf'],[54],[0],305,"305-4.1, 305-*.2",,"What was the CO2 emissions intensity for commercial real estate, residential in 2021?",36.6,hier,1
+32,1716,['OTC_BAMGF_2023.pdf'],[306],[0],305,"305-*.1, 305-*.2",,What was the total emissions from electricity/heat purchased in 2021 in tonnes of CO2 equivalent?,134849,hier,1
+33,671,['NYSE_TTE_2023.pdf'],[383],[0],305,305-*.2,,What were the petroleum products GHG emissions in 2021 in Mt CO2e?,285,hier,1
+34,11,['NYSE_E_2023.pdf'],[178],[0],303,303-3.3,,What was the total water withdrawal from surface water bodies in 2023 in million m3?,97,hier,1
+35,1239,['heidelberg-materials_2023.pdf'],[358],[0],306,306-3.3,,What percentage of the total waste generated in 2023 was non-hazardous?,94,hier,1
+36,1114,['heidelberg-materials_2023.pdf'],[356],[0],302,302-1.6,,What was the specific energy consumption for cement in 2023 in MJ/t?,2981,hier,1
+37,365,['fresenius_2023.pdf'],[192],[0],305,"305-2.3, 305-*.2",,What was the total gross indirect GHG emissions from energy consumption (Scope 2) for Fresenius Helios in 2020 in tonnes of CO2 equivalent?,128,hier,1
+38,722,['OTC_DPSGY_2023.pdf'],[68],[0],302,"302-1.8, 302-1.6",,What is the change of total energy consumption from renewable sources for air transport in million kWH between 2022 and 2023?,156.9,hier,1
+39,358,['fresenius_2023.pdf'],[192],[0],305,"305-1.1, 305-*.2",,What was the total gross direct GHG emissions (Scope 1) for Fresenius Kabi in 2022 in tonnes of CO2 equivalent?,169,hier,1
+40,1317,['brenntag_2023.pdf'],[110],[0],302,302-1.12,,What was the amount of electricity generated on site from renewable sources in megawatt-hour for the year 2023?,3158,hier,1
+41,535,['NYSE_TTE_2023.pdf'],[305],[0],305,305-*.2,,What was the total GHG emissions from operated domains and from Refining & Chemicals in 2023 in Mt CO2e?,14,hier,1
+42,1883,['OTC_ADDDF_2023.pdf'],[84],[0],305,"305-*.1, 305-*.2",,"What was the GHG emissions per product, measured in kilograms of CO2 equivalent, for the year 2022?",6.5,hier,1
+43,685,['NYSE_TTE_2023.pdf'],[383],[1],305,305-*.2,,What was the amount of Upstream transportation emissions in 2022 in Mt CO2e?,9,hier,1
+44,263,['OTC_SU_2023.pdf'],[312],[0],305,305-*.2,,How many TCO2e were related to fuel- and energy-related activities in 2023?,40652,hier,1
+45,505,['NYSE_TTE_2023.pdf'],[184],[0],305,"305-1.1, 305-*.2",,What was the value for the breakdown by geography - Europe in 2022 measured in Mt CO2e?,23,hier,1
+46,9,['NYSE_E_2023.pdf'],[178],[0],303,303-3.3,,How much seawater was withdrawn in 2022 (million m3)?,1283,hier,1
+47,70,['NYSE_E_2023.pdf'],[184],[0],308,308-1.1,,What is the count of suppliers with whom Eni has terminated relations in 2021?,34,hier,1
+48,1161,['heidelberg-materials_2023.pdf'],[359],[0],303,303-4.3,,What was the total seawater discharge in 2021 in million m3?,3.9,hier,1
+49,239,['OTC_SU_2023.pdf'],[311],[0],302,"302-1.1, 302-1.3",,How much renewable fuel and heat was consumed in 2022 in MWh?,0,hier,1

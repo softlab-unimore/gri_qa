@@ -1,6 +1,4 @@
 model,em
-tapex,0.0
 tablellama,0.6
-finma,0.6
-openai,0.6
-openai_chainofthought,15.1
+tapex,0.0
+tatllm__end_to_end,0.0

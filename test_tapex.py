@@ -10,7 +10,7 @@ from transformers import TapexTokenizer, BartForConditionalGeneration, set_seed
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'samples'])
     args = parser.parse_args()
 
     set_seed(42)

@@ -74,7 +74,7 @@ def calculate_and_save_metrics(results, metrics, model, output_path):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multistep', 'multitable2', 'multitable3', 'multitable5'])
+    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multitable2', 'multitable3', 'multitable5'])
     parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
     args = parser.parse_args()
 

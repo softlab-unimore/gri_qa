@@ -1,0 +1,18 @@
+index,question,value,response
+0,What is the average percentage of energy consumption from renewable sources in 2023 among the following companies?,10.52,[TAB] ESG figures | Unnamed: 1 | 2020 adjusted | 2021 | 2022 adjusted | 2023 [SEP]
+1,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,1.24,"<0.557897>, <0.557897>, <0.557897>"
+2,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2eq?,959708.0,axa
+3,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2023 among the following companies?,vivendi,heidelberg-materials
+4,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,61.05,Otc_bayzf
+5,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tonnes?,vivendi,OTC CRERF
+6,What is the lowest total energy consumption over the last 3 years among the following companies in TJ?,360126.0,heidelberg-materials
+7,What are the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in GWh?,"282.31, 33.17","<munich-re>, <prosiebensat1-media>"
+8,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2023 among the following companies?,NYSE_TTE,vivendi
+9,What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in millions of cu.m?,10.2,OTC_BAMGF
+10,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in tCO2e?,3086777,munich-re
+11,What are the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"7.92, 6.0","<Thales>, <Vivendi>"
+12,"What is the average total water consumption across the following companies, calculated as the sum of their 2023 and 2022 consumption in m3?",40754863.5,35.614444
+13,Which company has the lowest total energy consumption over the last 2 years among the following companies in MWh?,munich-re,munich-re
+14,Which company has the largest percentage of energy consumption from renewable sources in 2023 among the following companies?,prosiebensat1-media,prosiebensat1-media
+15,Which company has the highest percentage of hazardous waste generated in 2023 among the following companies?,vivendi,OTC
+16,Which company has the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in million mt CO2e?,OTC_RWNEF,OTC_RWNEF

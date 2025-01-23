@@ -16,7 +16,7 @@ def create_tables(row, type='one-table'):
         table_dirname = table_dirname.split(".")[0]
         table_filename = f'dataset/annotation/{table_dirname}/{eval(row["page nbr"])[i]}_{eval(row["table nbr"])[i]}.csv'
         table = pd.read_csv(table_filename, sep=';')
-        if type == 'one-table':
+        if type == 'one-table' and 'multitable' not in args.dataset:
             tables.append(table.to_markdown(index=False))
         else:
             company = table_dirname.strip('_2023')
@@ -25,9 +25,9 @@ def create_tables(row, type='one-table'):
 
     return "\n\n".join(tables)
 
-def create_prompt_step_wise(row, type='one-table'):
+def create_prompt_step_wise(row, args):
     description = (f"Below is an instruction that describes a question answering task in the environmental domain, paired with "
-                   f"{'an input table' if type == 'one-table' else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
+                   f"{'an input table' if args.type == 'one-table' and 'multitable' not in args.dataset else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
                    f"the table and text. Generate an appropriate answer to the given question.")
 
     instruction = ("Given a table and a list of texts in the following, answer the question posed using the following five-step process:\n"
@@ -51,15 +51,15 @@ def create_prompt_step_wise(row, type='one-table'):
                    "| 5 | {scale} |\n"
                    "Finally, present the final answer in the format: \"The answer is: {answer} #### and its corresponding scale is: {scale}\"")
 
-    tables = create_tables(row, type=type)
+    tables = create_tables(row, type=args.type)
 
     return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{tables}\n\n### Text\n\n### Question\n{row['question']}\n\n### Response\n"
 
 
-def create_prompt_end_to_end(row, type='one-table'):
+def create_prompt_end_to_end(row, args):
     description = (f"Below is an instruction that describes a question answering task in the environmental domain, paired with "
-                   f"{'an input table' if args.type == 'one-table' else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
-                   f"the table{'s' if type == 'multi-table' else ''} and text{'s' if type == 'multi-table' else ''}. Generate an appropriate answer to the given question.")
+                   f"{'an input table' if args.type == 'one-table' and 'multitable' not in args.dataset else 'some input tables'} and its relevant text that provide further context. The given question is relevant to "
+                   f"the table{'s' if args.type == 'multi-table' or 'multitable' in args.dataset  else ''} and text{'s' if args == 'multi-table' or 'multitable' in args.dataset else ''}. Generate an appropriate answer to the given question.")
 
     instruction = ("Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store "
                    "it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the "
@@ -67,7 +67,7 @@ def create_prompt_end_to_end(row, type='one-table'):
                    "the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ "
                    "to ’none’. Finally, present the final answer in the format of \"The answer is: {answer} #### and its corresponding scale is: {scale}\"")
 
-    tables = create_tables(row, type=type)
+    tables = create_tables(row, type=args.type)
 
     return f"{description}\n\n### Instruction\n{instruction}\n\n### Table\n{tables}\n\n### Text\n\n### Question\n{row['question']}\n\n### Response\n"
 
@@ -101,8 +101,8 @@ if __name__ == '__main__':
 
         print(f'Q{i} - {row["question"]}')
 
-        prompt = create_prompt_step_wise(row, type=args.type) \
-            if not args.end_to_end else create_prompt_end_to_end(row, type=args.type)
+        prompt = create_prompt_step_wise(row, args) \
+            if not args.end_to_end else create_prompt_end_to_end(row, args)
 
         encoding = tokenizer(prompt, return_tensors="pt").to(model.device)
         if encoding['input_ids'].shape[1] < 4096:
