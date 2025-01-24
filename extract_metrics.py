@@ -74,13 +74,13 @@ def calculate_and_save_metrics(results, metrics, model, output_path):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='extra', choices=['extra', 'quant', 'rel', 'multistep', 'multitable2', 'multitable3', 'multitable5'])
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'])
+    parser.add_argument('--dataset', type=str, default='extra')
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'samples', 'multi-table'])
     args = parser.parse_args()
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought', 'tatllm__end_to_end', 'tatllm__step_wise',]
-    models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought']
+    models = ['tablellama', 'finma']
     # models = ['openai', 'openai_chainofthought']
 
     os.makedirs(f'./results/{args.type}/{args.dataset}/with_match', exist_ok=True)
@@ -160,7 +160,7 @@ if __name__ == '__main__':
         results.to_csv(f'./results/{args.type}/{args.dataset}/with_match/{model}.csv', index=False)
 
         if args.dataset == 'extra':
-            qa = pd.read_csv(f'dataset/{args.type}/gri-qa_{args.dataset}.csv', sep=',')
+            qa = pd.read_csv(f'dataset/{args.type}/{"samples-" if args.type == "samples" else ""}gri-qa_{args.dataset}.csv', sep=',')
 
             results['hierarchical'] = qa['hierarchical']
             hierarchical_res = results[results['hierarchical'] == 1]
