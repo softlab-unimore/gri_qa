@@ -160,7 +160,7 @@ if __name__ == '__main__':
         results.to_csv(f'./results/{args.type}/{args.dataset}/with_match/{model}.csv', index=False)
 
         if args.dataset == 'extra':
-            qa = pd.read_csv(f'dataset/{args.type}/{"samples-" if args.type == "samples" else ""}gri-qa_{args.dataset}.csv', sep=',')
+            qa = pd.read_csv(f'dataset/{args.type}/gri-qa_{args.dataset}.csv', sep=',')
 
             results['hierarchical'] = qa['hierarchical']
             hierarchical_res = results[results['hierarchical'] == 1]
