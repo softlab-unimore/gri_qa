@@ -1,5 +1,5 @@
 model,em
-tablellama,0.0
-finma,0.0
-openai,18.8
+openai,6.2
 openai_chainofthought,12.5
+finma,0.0
+tablellama,0.0

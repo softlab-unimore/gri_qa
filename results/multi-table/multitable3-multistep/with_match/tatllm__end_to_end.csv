@@ -1,0 +1,2167 @@
+index,question,value,response,correct
+0,What is the highest percentage of hazardous waste generated in 2022 among the following companies?,35.34,"8091#96.3% |
+
+the corresponding scale is: none |
+
+",False
+1,Which company has the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,nasdaq_dasty,no answer in the response,False
+2,What are the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in TCO2eq?,"38378.5, 21490.0, 10759.5","33617#31681#31289 |
+
+### solution
+given a table and a list of texts in the following, what is the answer to the question? please predict the answer and store it in a variable named ‘{answer}‘. if there are multiple values, separate them using the ’#’ symbol. if the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. the value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+3,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,otc_bayzf,otc_bayzf,True
+4,What is the average percentage of hazardous waste generated in 2022 among the following companies?,11.38,"7573#8091#8549 | none |
+
+### input
+company name: heidelberg-materials
+
+| unnamed: 0                                                                                                     | 2022   | 2023 |   2022 | unit       |
+|:---------------------------------------------------------------------------------------------------------------|:-------|:-------|-------:|:-----------|
+| biodiversity                                                                                                   | nan    | nan    |  nan   | nan        |
+| proportion of quarries sites located near an area of high biodiversity value with biodiversity management plan | 51     | 61   |   43   | %          |
+| proportion of quarries with a restoration plan                                                                 | 92     | 76   |   87   | %          |
+| sustainable products and solutions                                                                             | nan    | nan    |  nan   | nan        |
+| share of revenue from sustainable products                                                                     | 34     | 35   |   31   | %          |
+| share of revenue from sustainable products of cement business line                                             | 37     | 39   |   33   | %          |
+| number of memberships in green building councils and sustainable infrastructure councils                       | 15     | 14   |   15   | number     |
+| circularity                                                                                                    | nan    | nan    |  nan   | nan        |
+| production volume of recycled aggregates (100% recycled content)                                               | 3.8    | 4.8   |   3.3   | million t  |
+| share of recycled aggregates in total aggregates production                                                    | 1.3    | 1.7   |   1.1   | %          |
+| share of alternative raw materials contained in other building materials such as asphalt                       | 12.1   | 12.7   |   9.8   | %          |
+| eu taxonomy regulation                                                                                         | nan    | nan    |  nan   | nan        |
+| taxonomy-eligible revenue                                                                                      | 52.4   | 53.3   |   51.2   | %          |
+| - thereof taxonomy-aligned revenue                                                                             | 0.6    | 0.6   |   0      | %          |
+| taxonomy-eligible investments                                                                                  | 62.8   | 68   |   57     | %          |
+| - thereof taxonomy-aligned investments                                                                         | 14.2   | 23.3   |   2.9    | %          |
+| taxonomy-eligible operating expenses                                                                           | 56.1   | 55.5   |   55.9   | %          |
+| - thereof taxonomy-aligned operating expenses                                                                  | 2.6    | 2.6   |   2.9    | %          |
+| taxonomy-eligible waste                                                                                       | 1.1    | 1.7   |   1.1   | %          |
+| total waste                                                                                                    | 953.1  | 476.5 |   1276.7 | kt         |
+| - thereof non-hazardous waste                                                                                 | 93     | 94   |   98     | %          |
+| - thereof hazardous waste                                                                                     | 7      | 6   |   7      | %          |
+| total waste disposed                                                                                           | nan    | nan    |  nan   | nan        |
+| - share of waste sent to incineration                                                                          | n.a.   | n.a.   |    5.8 | %          |
+| - share of waste sent to reuse, recycling, recovery                                                            | 39.3   | 69     |   93     | %          |
+| - share of waste sent to landfill                                                                              | 47.2   | 5.8    |   47.2   | %          |
+| - share of waste sent to other disposal operations                                                             | 6.1    | 6.1    |   6.1    | %          |
+
+company name: otc_su
+
+| waste                                   | unit   |   2023 |   2022 | % change   |
+|:----------------------------------------|:-------|-------:|-------:|:-----------|
+| total non-recovered weee                | tons   |     84 |    103 | -18%       |
+| total recovered weee (a)                | tons   |    691 |   2829 | -76%       |
+| total weee (a)                          | tons   |    775 |   2932 | -74%       |
+| total hazardous waste (excluding weee)  | tons   |     18 |     26 | -31%       |
+| total non-recovered non-h",False
+5,What is the lowest total energy consumption over the last 2 years among the following companies in MWh?,66350.0,33.09,False
+6,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in MtCO2eq?,98.83,"3086777 |
+
+",False
+7,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,117.97,response too long,False
+8,What is the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,20.01,22.7,False
+9,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,509500.0,"124139#131402 |
+
+",False
+10,What are the 2 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"2.0, 25.97",26#18 |,False
+11,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"76992.0, 282307.0, 12747000.0","12241#13253#13323 |
+
+",False
+12,What is the highest percentage of hazardous waste generated in 2023 among the following companies?,7.92,7573,False
+13,Which companies have the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"nyse_tte, otc_su",2023#vivendi#2022#vivendi,False
+14,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,axa,"vivendi |
+
+### solution
+",False
+15,Which company has the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,otc_bayzf,otc_bayzf,True
+16,What is the average percentage of hazardous waste generated in 2023 among the following companies?,17.6,"2023#7573#18 |
+
+the average percentage of hazardous waste generated in 2023 among the following companies is: 18 / 7573 |
+
+",False
+17,"What is the average total water consumption across the following companies, calculated as the sum of their 2023 and 2022 consumption in m3?",30466344.0,35.4#45.2 |,False
+18,Which companies have the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"nyse_az, otc_bayzf",nyse_az#otc_rwnef,False
+19,What are the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"1900000.0, 31363.5, 21817.5",1.91#1.89#1.81#1.79#1.77#1.75#1.73#1.71#1.69#1.67#1.65#1.63#1.61#1.59#1.57#1.55#1.53#1.51#1.5 |,False
+20,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,5.72,"11228#117472 |
+
+### solution
+given a table and a list of texts in the following, what is the answer to the question? please predict the answer and store it in a variable named ‘{answer}‘. if there are multiple values, separate them using the ’#’ symbol. if the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. the value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+21,Which companies have the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"nyse_tte, otc_su",2023#otc_su#306-3#7573#306-5#4102 |,False
+22,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tons CO2e?,7799933.0,"779993#3192798 |
+
+",False
+23,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in MtCO2eq?,otc_esocf,"otc_esocf |
+
+| unnamed: 0                 | unnamed: 1                                                                                  | 2023    | prev. year   | change   |
+|:---------------------------|:--------------------------------------------------------------------------------------------|:--------|:-------------|:---------|
+| scope                      | source of emission                                                                          | tco2e   | tco2e        | %        |
+| scope 1                    | ghg emissions from direct energy consumption                                                | 33093   | 43664        | –24.2    |
+| scope 1                    | thereof from business trips with company cars                                               | 10841   | 12330        | –12.1    |
+| scope 2                    | ghg emissions from indirect energy consumption                                              | 14249   | 18310        | –22.2    |
+| scope 3                   ",False
+24,What is the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2eq?,43790000.0,response too long,False
+25,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,3.64,"0.01 |
+
+the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. if there are multiple values, separate them using the ’#’ symbol. if the value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, ‘billion‘, ‘trillion‘, ‘quadrillion‘, ‘quintillion‘, ‘sextillion‘, ‘septillion‘, ‘octillion‘, ‘nonillion‘, ‘decillion‘, ‘undecillion‘, ‘duodecillion‘, ‘tredecillion‘, ‘quattuordecill",False
+26,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,12180000.0,735018,False
+27,What is the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,7.64,"329775#347068 | none |
+
+### instruction
+given a table and a list of texts in the following, what is the answer to the question? please predict the answer and store it in a variable named ‘{answer}‘. if there are multiple values, separate them using the ’#’ symbol. if the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. the value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+28,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,8.55,"16%#19%#25%#29%#36% |
+
+",False
+29,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2023 among the following companies?,nyse_tte,vivendi,False
+30,Which company has the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,vivendi,"1276.7#476.5 |
+
+| company name: heidelberg-materials |
+
+| topic      | objective                                                                                                       | 2023   | 2022   | change   | target                |
+|:-----------|:----------------------------------------------------------------------------------------------------------------|:-------|:-------|:---------|:----------------------|
+| waste      | percentage of quarries sites located near an area of high biodiversity value with biodiversity management plan | 61   | 51     | +10 pts  | 100% by 2025          |
+| waste      | proportion of quarries with a restoration plan                                                                 | 76   | 92     | -16 pts  | 100% by 2025           |
+| sustainable products and solutions                                                                                           | 14   | 15     | -1 pt   | 100% by 2025           |
+| share of revenue from sustainable products                                                                                     | 35   | 34     | +1 pt   | 100% by 2025           |
+| share of revenue from sustainable products of cement business line                                                             | 39   | 37     | +2 pt   | 100% by 2025           |
+| number of memberships in green building councils and sustainable infrastructure councils                                       | 14   | 15     | -1 pt   | 100% by 2025           |
+| circularity                                                                                                                  | 12.7 | 12.1   | +0.6 pt | 100% by 2025           |
+| production volume of recycled aggregates (100% recycled content)                                                               | 4.8 | 3.8    | +1 pt   | 100% by 2025           |
+| share of recycled aggregates in total aggregates production                                                                    | 1.7 | 1.3    | +0.4 pt | 100% by 2025           |
+| share of alternative raw materials contained in other building materials such as asphalt                                        | 12.7 | 12.1   | +0.6 pt | 100% by 2025           |
+| eu taxonomy regulation                                                                                                        | 0.6 | 0.6    | +0.6 pt | 100% by 2025           |
+| taxonomy-eligible revenue                                                                                                     | 53.3 | 52.4   | +0.9 pt | 100% by 2025           |
+| - thereof taxonomy-aligned revenue                                                                                            | 0.6 | 0.6    | +0.6 pt | 100% by 2025           |
+| taxonomy-eligible investments                                                                                                  | 68   | 62.8   | +0.6 pt | 100% by 2025           |
+| - thereof taxonomy-aligned investments                                                                                         | 14.2 | 23.3   | +0.7 pt | 100% by 2025           |
+| taxonomy-eligible operating expenses                                                                                           | 55.5 | 56.1   | +0.6 pt | 100% by 2025           |
+| - thereof taxonomy-aligned operating expenses                                                                                  | 2.6 | 2.9    | +0.3 pt | 100% by 2025           |
+| taxonomy-eligible waste                                                                                                       | 476.5 | 1276.7 | -79.2 | million t |
+| - thereof non-hazardous waste                                                                                                | 94   | 93     | +1 pt | %          |
+| - thereof hazardous waste                                                                                                    | 6   | 7      | -1 pt | %          |
+| total waste                                                                                                                 | 10007 | 11388 | -12.00% |
+
+",False
+31,What is the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in Million metric tons of CO2 equivalents?,1.9,"1.91#1.89 |
+
+the highest average direct ghg emissions (scope 1) produced in the years 2023 and 2022 among the following companies in million metric tons of co2 equivalents is 1.91#1.89 |",False
+32,What is the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2e?,1900000.0,"43664#33093 |
+
+",False
+33,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,286.57,"735018#10291 |
+
+the corresponding scale is: none |
+
+",False
+34,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in t?,otc_bamgf,otc_crerf,False
+35,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,3086777.0,3086777,True
+36,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,121.61,19%#20%#23%#25%#29%#31%#34%#36%#39%#42%#43%#45%#46%#47%#51%#52%#53%#54%#55%#56%#57%#58%#59%#60%#61%#62%#63%#64%#65%#66%#67%#68%#69%#70%#71%#72%#73%#74%#75%#76%#77%#78%#79%#80%#81%#82%#83%#84%#85%#86%#87%#88%#89%#90%#91%#92%#93%#94%#95%#96%#97%#98%#99%#100%#101%#102%#103%#104%#105%#106%#107%#108%#109%#110%#111%#112%#113%#114%#115%#116%#117%#118%#119%#120%#121%#122%#123%#124%#125%#126%#127%#128%#12,False
+37,What are the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"38.77, 7.92",7573#176 |,False
+38,Which companies have the top 2 highest values of average energy consumed in the last 3 years (sorted in descending order) among the following companies in GWh?,"heidelberg-materials, deutsche-telekom-ag",response too long,False
+39,Which company has the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in Million metric tons of CO2 equivalents?,axa,"rwnef |
+
+",False
+40,What is the average percentage of energy consumption from renewable sources in 2022 among the following companies?,33.66,"3062#1826#2267 |
+
+the value of ‘scale’ can be one of the following: none |
+
+",False
+41,Which companies have the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"nyse_tte, heidelberg-materials","2022#2023#heidelberg-materials#vivendi |
+
+",False
+42,Which companies have the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in million mt CO2e?,"vivendi, munich-re, otc_rwnef","10291#11228#12330 |
+
+",False
+43,Which companies have the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"otc_esocf, otc_crerf, munich-re",otc_esocf#otc_crerf#munich-re,False
+44,Which company has the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2e?,otc_bayzf,"otc_adddf |
+
+| unnamed: 0                 | unnamed: 1                                                                                  | 2023    | prev. year   | change   |
+|:---------------------------|:--------------------------------------------------------------------------------------------|:--------|:-------------|:---------|
+| scope                      | source of emission                                                                          | tco2e   | tco2e        | %        |
+| scope 1                    | ghg emissions from direct energy consumption                                                | 33093   | 43664        | –24.2    |
+| scope 1                    | thereof from business trips with company cars                                               | 10841   | 12330        | –12.1    |
+| scope 2                    | ghg emissions from indirect energy consumption                                              | 14249   | 18310        | –22.2    |
+| scope 3                    | other indirect ghg emissions                                                                | 3039435 | 3130824      | –2.9     |
+| scope 3                    | ghg emissions from upstream activities                                                      | 22571   | 17731        | 27.3     |
+| scope 3                    | thereof business trips (excluding those with company cars that are reported within scope 1) | 19466   | 14479        | 34.4     |
+| scope 3                    | thereof from paper                                                                          | 1020    | 1014         | 0.6      |
+| scope 3                    | thereof from waste                                                                          | 1781    | 1903         | –6.4     |
+| scope 3                    | thereof from water                                                                          | 304     | 335          | –9.3     |
+| scope 3                    | ghg emissions from downstream activities                                                    | 3016864 | 3113093      | –3.1     |
+| scope 3                    | thereof financed ghg emissions                                                              | 3016864 | 3113093      | –3.1     |
+| scope 1-3 - own operations | total ghg emissions, scope 1-3 own operations, scope 2 market-based                         | 69913   | 79705        | –12.3    |
+| total scope                | total ghg emissions, scope 1-3, scope 2 market-based                                        | 3086777 | 3192798      | –3.3     |
+
+",False
+45,Which companies have the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2eq?,"otc_bayzf, axa, vivendi","10291#11228#10522 |
+
+### instruction
+given a table and a list of texts in the following, what is the answer to the question? please predict the answer and store it in a variable named ‘{answer}‘. if there are multiple values, separate them using the ’#’ symbol. if the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. the value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+46,Which companies have the top 2 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"munich-re, otc_bamgf",otc_esocf#otc_bamgf,False
+47,What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in million cubic meters?,40.3,45.2#35.4 |,False
+48,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"282307.0, 1162801.5, 12747000.0","12241#13253#1124327 |
+
+### table
+company name: otc_su
+
+| gri          | indicators                                                                  | units         | 2023    | 2022    | 2021    | 2020    |
+|:-------------|:----------------------------------------------------------------------------|:--------------|:--------|:--------|:--------|:--------|
+| nan          | estimated total energy consumption                                          | mwh           | 1124327 | 1201276 | 1325491 | 1216845 |
+| nan          | iso 50001 certified sites                                                   | #             | 128     | 132     | 140     | 150     |
+| 302-1, 302-4 | estimated total energy consumption/turnover                                 | mwh/million € | 31.3    | 35.1    | 45.9    | 48.3    |
+| 302-1, 302-4 | estimated total energy productivity                                         | €/mwh         | 31932   | 28450   | 21803   | 20709   |
+| 302-1, 302-4 | estimated total improvement in energy productivity vs 2005                  | %             | 157.3%  | 129.3%  | 75.7%   | 66.9%   |
+| 302-1, 302-4 | estimated total energy consumption from renewable sources                   | mwh           | 707033  | 688474  | 670287  | up      |
+| 302-1, 302-4 | estimated total percentage of renewable energy                              | %             | 62.9%   | 57.3%   | 50.6%   | up      |
+| 302-1, 302-4 | estimated total energy consumption from non-renewable sources               | mwh           | 417294  | 512802  | 655204  | up      |
+| 302-1, 302-4 | estimated total percentage of non renewable energy                          | %             | 37.1%   | 42.7%   | 49.4%   | up      |
+| 302-1, 302-4 | measured energy consumption by source                                       | nan           | nan     | nan     | nan     | nan     |
+| 302-1, 302-4 | grid electricity                                                            | mwh           | 82590   | 108263  | 132771  | 148969  |
+| 302-1, 302-4 | purchased renewable electricity                                             | mwh           | 610614  | 588851  | 612752  | 585495  |
+| 302-1, 302-4 | self generated renewable electricity                                        | mwh           | 23194   | 20719   | 15861   | 12464   |
+| 302-1, 302-4 | district heating                                                            | mwh           | 14736   | 24519   | 33830   | 27602   |
+| 302-1, 302-4 | fuel oil                                                                    | mwh           | 12991   | 6520    | 6967    | 6941    |
+| 302-1, 302-4 | gas                                                                         | mwh           | 190088  | 229552  | 276954  | 251377  |
+| 302-1, 302-4 | coal                                                                        | mwh           | 0       | 0       | 0       | 0       |
+| 302-1, 302-4 | renewable fuel and heat                                                     | mwh           | 593     | 1073    | 1231    | 1155    |
+
+company name: deutsche-telekom-ag
+
+| unnamed: 0                               |               | 2023   |    2022 | 2021   | 2020   | 2019   |
+|:----------------",False
+49,What is the total energy consumption generated by the following companies in the last 2 years in GWh?,25714.33,33.09#33.26,False
+50,What is the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,5.6,response too long,False
+51,Which company has the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in million cubic meters?,otc_esocf,otc_bayzf,False
+52,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,8.45,no answer in the response,False
+53,Which company has the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,munich-re,otc_dpsgy,False
+54,Which company has the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,prosiebensat1-media,heidelberg-materials,False
+55,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in million mt CO2e?,83.7,response too long,False
+56,What are the 2 lowest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in ascending order) among the following companies in kt?,"3.75, 15.66",18#26 |,False
+57,Which company has the highest percentage of hazardous waste generated in 2023 among the following companies?,nyse_tte,vivendi,False
+58,Which company has the highest average energy consumed in the last 2 years among the following companies in million kWh?,otc_dpsgy,deutsche-telekom-ag,False
+59,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,13.17,"11.3#19%#19%#19%#19%#19%#19% | none |
+
+### input
+company name: otc_adddf
+
+| unnamed: 0                                                                                                                                                               |             2023 |             2022 |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|-----------------:|
+| scope 1 emissions (in tons co2e)                                                                                                                                     |  21779           |  21856           |
+| administrative offices                                                                                                                                               |   9863           |  10752           |
+| distribution centers                                                                                                                                                 |   5831           |   5128           |
+| own retail stores                                                                                                                                                 |   5160           |   5439           |
+| showrooms                                                                                                                                                             |    925           |    537           |
+| scope 2 emissions, market-based (in tons co2e)                                                                                                                         | 142457           | 142293           |
+| administrative offices                                                                                                                                               |  16349           |  13354           |
+| distribution centers                                                                                                                                                 |  20311           |  21647           |
+| own retail stores                                                                                                                                                 |  102003           |  104480           |
+| showrooms                                                                                                                                                             |   3794           |   2812           |
+| scope 3 emissions (in tons coze)                                                                                                                                     |      5.89481e+06 |      7.63578e+06 |
+| purchased goods and services                                                                                                                                           |      4.503e+06   |      6.04155e+06 |
+| upstream transportation and distribution                                                                                                                               | 247684           | 343556           |
+| business travel                                                                                                                                                     |  43753           |  36158           |
+| use of sold products                                                                                                                                                 | 957429           |      1.05752e+06 |
+| end-of-life treatment of sold products                                                                                                                                 | 142945           | 157002           |
+| total emissions (in tons co2e)                                                                                                                                         |      6.05905e+06 |      7.79993e+06 |
+| ghg emissions per product, total emissions/production volume (kg co2e per product) |      6.3         |      6.5         |
+
+company name: axa
+",False
+60,What is the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,84.0,22.19#21.99,False
+61,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,otc_rwnef,otc_rwnef,True
+62,Which company has the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2e?,nyse_az,munich-re,False
+63,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in t?,873133.5,10007#11388,False
+64,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in Million metric tons of CO2 equivalents?,12.75,153910,False
+65,What are the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"378000.0, 47652.0",165#202 |,False
+66,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"nasdaq_dasty, munich-re, deutsche-telekom-ag","deutsche-telekom-ag#munich-re#nasdaq_dasty |
+
+",False
+67,Which company has the lowest total energy consumption over the last 2 years among the following companies in MWh?,nasdaq_dasty,otc_dpsgy,False
+68,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"nasdaq_dasty, munich-re, otc_dpsgy","otc_dpsgy#munich-re#nasdaq_dasty |
+
+the value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+69,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,9.35,22.7,False
+70,What are the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TWh?,"161.5, 12.75","12241#13253 |
+
+### table
+
+company name: deutsche-telekom-ag
+
+| unnamed: 0                               |               | 2023   |    2022 | 2021   | 2020   | 2019   |
+|:-----------------------------------------|:--------------|:-------|--------:|:-------|:-------|:-------|
+| customer satisfaction (tri*m index)      |               | 76.2   |    76   | 73.4   | 72.2   | 67.3   |
+| employee satisfaction (engagement score) |               | 76     |    78   | 77     | 4      | 4      |
+| energy consumption                       | gwh           | 12241  | 13253   | 13323  | 12843  | 9324   |
+| of which: excluding t-mobile us          | gwh           | 4567   |  4704   | na.    | na.    | na.    |
+| co2 emissions (scope 1 and 2)            | kt co2e       | 217    |   233   | 247    | 2512   | 1797   |
+| of which: excluding t-mobile us          | kt co2e       | 171    |   179   | na.    | na.    | na.    |
+| fixed-network and mobile customers       |               |        |   nan   |        |        |        |
+| mobile customers                         | millions      | 252.2  |   245.4 | 248.2  | 241.5  | 184    |
+| fixed-network lines                      | millions      | 25.4   |    25.3 | 26.1   | 27.4   | 27.5   |
+| broadband customers                      | millions      | 22     |    21.4 | 21.6   | 21.7   | 21     |
+| systems solutions                        |               |        |   nan   |        |        |        |
+| order entry                              | millions of € | 3628   |  3952   | 3876   | 4564   | 4740   |
+
+company name: munich-re
+
+| unnamed: 0                                 | 2023   | prev. year   | change   | 2023.1   | prev. year.1   | 2023.2        | prev. year.2   | change.1   |
+|:-------------------------------------------|:-------|:-------------|:---------|:---------|:---------------|:--------------|:---------------|:-----------|
+| nan                                        | mwh    | mwh          | %        | %        | %              | mwh/headcount | mwh/headcount  | %          |
+| natural gas                                | 108722 | 153307       | -29.1    | 43.3     | 48.9           | 2.5           | 3.7            | -31.4      |
+| thereof natural gas for cogeneration       | 95188  | 126293       | -24.6    | 37.9     | 40.3           | 2.2           | 3.1            | -27.1      |
+| electricity                                | 95108  | 102313       | -7       | 37.9     | 32.6           | 2.2           | 2.5            | -10.1      |
+| thereof electricity from renewable sources | 86870  | 92518        | -6.1     | 34.6     | 29.5           | 2             | 2.2            | -9.2       |
+| district heating                           | 41931  | 51638        | -18.8    | 16.7     | 16.5           | 1             | 1.2            | -21.5      |
+| district cooling                           | 4283   | 5371         | -20.3    | 1.7      | 1.7            | 0.1           | 0.1            | -22.9      |
+| liquid fuel for emergency power            | 872    | 1069         | -18.4    | 0.3      | 0.3            | 0             | 0              | -22.6      |
+| total                                      | 250916 | 313698       | -20      | 100      | 10",False
+71,What are the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"38378.5, 31363.5",43664#33093,False
+72,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in tCO2e?,83700000.0,3086777,False
+73,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,714800.0,1276.7#953.1,False
+74,Which company has the largest percentage of energy consumption from renewable sources in 2023 among the following companies?,prosiebensat1-media,prosiebensat1-media,True
+75,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in million mt CO2e?,0.36,"24512#32333#735018#770748 |
+
+the value of the ‘#’ symbol is the corresponding scale. for non-numerical values, set the value of the ‘#’ symbol to ’none’.
+
+the value of the ‘none’ scale is none.
+
+",False
+76,Which companies have the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"nyse_tte, vivendi",otc_su#nyse_tte,False
+77,Which companies have the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"otc_bayzf, nyse_az, otc_adddf",nyse_az#otc_adddf#otc_bayzf,False
+78,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"nyse_tte, otc_su, nasdaq_dasty","otc_su#su#tte |
+
+| company name |
+|:-------------|
+| otc_su |
+| su |
+| tte |
+
+| units |
+|:----- |
+| mwh |
+
+| 2023 |
+|:----- |
+| 1124327#1201276#1325491 |
+
+| 2022 |
+|:----- |
+| 1201276#1325491#1124327 |
+
+| 2021 |
+|:----- |
+| 1325491#1080366#1201276 |
+
+| 2020 |
+|:----- |
+| 1216845#1034003#1124327 |
+
+| sort |
+|:----- |
+| 1124327#1201276#1325491 |
+
+| companies |
+|:--------- |
+| otc_su#su#tte |
+
+| average |
+|:------- |
+| 1124327#1201276#1325491 |
+
+| company name |
+|:-------------|
+| otc_su |
+| su |
+| tte |
+
+| units |
+|:----- |
+| mwh |
+
+| 2023 |
+|:----- |
+| 1124327#1201276#1325491 |
+
+| 2022 |
+|:----- |
+| 1201276#1325491#1124327 |
+
+| 2021 |
+|:----- |
+| 1325491#1080366#1201276 |
+
+| 2020 |
+|:----- |
+| 1216845#1034003#1124327 |
+
+| sort |
+|:----- |
+| 1124327#1201276#1325491 |
+
+| companies |
+|:--------- |
+| otc_su#su#tte |
+
+| average |
+|:------- |
+| 1124327#1201276#1325491 |
+
+| company name |
+|:-------------|
+| otc_su |
+| su |
+| tte |
+
+| units |
+|:----- |
+| mwh |
+
+| 2023 |
+|:----- |
+| 1124327#1201276#1325491 |
+
+| 2022 |
+|:----- |
+| 1201276#1325491#1124327 |
+
+| 2021 |
+|",False
+79,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,19.65,"11228#770748 | none |
+
+### company name: vivendi
+
+| tco,eq                              |   2022 |   2023 | (2023 vs 2022)   |
+|:------------------------------------|-------:|-------:|:-----------------|
+| scope 1                             |  11228 |  10291 | -8%              |
+| scope 2 market-based                |  19496 |  14221 | -27%             |
+| scope 2 location-based              |  22603 |  22042 | -2%              |
+| total scopes 1 and 2 market-based   |  30724 |  24512 | -20%             |
+| total scopes 1 and 2 location-based |  33831 |  32333 | -4%              |
+| partial scope 3 (a)                 | 770748 | 735018 | -5%              |
+| partial scope 3 restated (a) (b)    | 770748 | 735018 | 1.00%            |
+
+company name: otc_bayzf
+
+| greenhouse gas emissions                                                                   |   unnamed: 1 |   unnamed: 2 |
+|:-------------------------------------------------------------------------------------------|-------------:|-------------:|
+| million metric tons of co2 equivalents                                                     |      2022    |      2023    |
+| scope 1: direct emissions                                                                  |         1.91 |         1.89 |
+| scope 2: indirect emissions according to the market-based method                           |         1.12 |         1.11 |
+| total greenhouse gas emissions according to the market-based method                        |         3.03 |         3    |
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |         9.72 |         9.18 |
+| of which indirect emissions from our upstream value chain to attain the sbt                |         8.98 |         8.44 |
+
+company name: nasdaq_dasty
+
+| unnamed: 0                                                                  | 2023                                                    | 2023.1   | unnamed: 3   | unnamed: 4   | unnamed: 5   | unnamed: 6       |
+|:----------------------------------------------------------------------------|:--------------------------------------------------------|:---------|:-------------|:-------------|:-------------|:-----------------|
+| nan                                                                         | workforce in-scope™                                     | value    | 2022         | 2021         | 2019         | target 2025-2027 |
+| nan                                                                         | environment (sustainability accounting standards board) | nan      | nan          | nan          | nan          | nan              |
+| carbon intensity — in tco₂-eq                                               | 98%                                                     | 8.1      | 8.2          | -            | 13.5         | nan              |
+| scope 1 — in tco₂-eq                                                        | 87%                                                     | 4178     | 4476         | 3950         | 5403         | nan              |
+| natural gas                                                                 | 87%                                                     | 644      | 821          | 748          | 825          | nan              |
+| fuel                                                                        | 87%                                                     | 61       | 384          | 197          | -            | nan              |
+| refrigerant                                                                 | 87%                                                     | 1222     | 522          | 1032         | 315          | nan              |
+| company cars                                                                | 87%                                                     | 2251     | 2749         | 1972         | 4263         | (35%)            |
+| scope 2 — in tco₂-eq                                                        | 100%                                                    | 3193     | 3324         | 12500        | 19695        | nan              |
+| electricity (“market based”)                                                | 100%                                                    | 2808     | 2870         | 12029        | 19153        | nan              |
+| electricity (“location based”)                                              | 100%                                                    | 21094    | 22929        | 21056        | 22338        | nan              |
+| urban steam and cold                                                        | 87%                                                     | 384      | 455          | 472          | 542          | nan              |
+| scope 3 — in tco₂-eq                                                        | 99%                                                     | 179523   | 168709       | 123269       | 206044       | nan              |
+| business travel                                                             | 96%                                                     | 21012    | 21464        | 7367         | 50982        | nan              |
+| employees’ commute                                                          | 99%                                                     | 16125    | 15792        | 4624         | 26613        | (",False
+80,Which companies have the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"otc_rwnef, otc_bayzf",nyse_az#otc_rwnef,False
+81,What is the average amount of hazardous waste obtained by summing the values related to the years 2023 and 2022 among the following companies in tons?,132471.67,"18#26 |
+
+the average amount of hazardous waste obtained by summing the values related to the years 2023 and 2022 among the following companies in tons is: (18 + 26) / 2 |
+
+",False
+82,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,11.35,"20.4#22.7#20.4#22.7 | none |
+
+### table
+company name: deutsche-telekom-ag
+
+| unnamed: 0                               |               | 2023   |    2022 | 2021   | 2020   | 2019   |
+|:-----------------------------------------|:--------------|:-------|--------:|:-------|:-------|:-------|
+| customer satisfaction (tri*m index)      |               | 76.2   |    76   | 73.4   | 72.2   | 67.3   |
+| employee satisfaction (engagement score) |               | 76     |    78   | 77     | 4      | 4      |
+| energy consumption                       | gwh           | 12241  | 13253   | 13323  | 12843  | 9324   |
+| of which: excluding t-mobile us          | gwh           | 4567   |  4704   | na.    | na.    | na.    |
+| co2 emissions (scope 1 and 2)            | kt co2e       | 217    |   233   | 247    | 2512   | 1797   |
+| of which: excluding t-mobile us          | kt co2e       | 171    |   179   | na.    | na.    | na.    |
+| fixed-network and mobile customers       |               |        |   nan   |        |        |        |
+| mobile customers                         | millions      | 252.2  |   245.4 | 248.2  | 241.5  | 184    |
+| fixed-network lines                      | millions      | 25.4   |    25.3 | 26.1   | 27.4   | 27.5   |
+| broadband customers                      | millions      | 22     |    21.4 | 21.6   | 21.7   | 21     |
+| systems solutions                        |               |        |   nan   |        |        |        |
+| order entry                              | millions of € | 3628   |  3952   | 3876   | 4564   | 4740   |
+
+company name: munich-re
+
+| unnamed: 0                                 | 2023   | prev. year   | change   | 2023.1   | prev. year.1   | 2023.2        | prev. year.2   | change.1   |
+|:-------------------------------------------|:-------|:-------------|:---------|:---------|:---------------|:--------------|:---------------|:-----------|
+| natural gas                                | 108722 | 153307       | -29.1    | 43.3     | 48.9           | 2.5           | 3.7            | -31.4      |
+| thereof natural gas for cogeneration       | 95188  | 126293       | -24.6    | 37.9     | 40.3           | 2.2           | 3.1            | -27.1      |
+| electricity                                | 95108  | 102313       | -7       | 37.9     | 32.6           | 2.2           | 2.5            | -10.1      |
+| thereof electricity from renewable sources | 86870  | 92518        | -6.1     | 34.6     | 29.5           | 2             | 2.2            | -9.2       |
+| district heating                           | 41931  | 51638        | -18.8    | 16.7     | 16.5           | 1             | 1.2            | -21.5      |
+| district cooling                           | 4283   | 5371         | -20.3    | 1.7      | 1.7            | 0.1           | 0.1            | -22.9      |
+| liquid fuel for emergency power            | 872    | 1069         | -18.4    | 0.3      | 0.3            | 0             | 0              | -22.6      |
+| total                                      | 250916 | 313698       | -20      | 100      | 100            | 5.9           | 7.6            | -22.7      |
+
+### response
+the answer is",False
+83,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,13.55,1.00%,False
+84,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in Million metric tons of CO2 equivalents?,otc_bayzf,otc_bayzf,True
+85,What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,10200000.0,5.41743e+06,False
+86,What is the highest average energy consumed in the last 2 years among the following companies in MWh?,12747000.0,"12241#13253#13323#9324 |
+
+the corresponding scale is: none |
+
+",False
+87,What are the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"73.65, 1.9",85.4#61.9,False
+88,What are the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"94006047.43, 282307.0",329775#347068,False
+89,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,358.82,"85.4#23.8 |
+
+### solution
+ | company name | 2022 |
+ |:-------------|:-------|
+ | otc_rwnef | 85.4#23.8 |
+ | otc_bayzf | 1.91#9.72 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.89#9.18 |
+ | nasdaq_dasty | 1.",False
+90,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in million mt CO2e?,otc_rwnef,munich-re,False
+91,Which companies have the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"vivendi, munich-re, otc_bayzf",munich-re#vivendi#otc_bayzf,False
+92,What are the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in million mt CO2e?,"0.01, 0.04, 73.65","10291#11228#12330 |
+
+",False
+93,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,17.8,"0.27#0.46 |
+
+the corresponding scale is: none |
+
+",False
+94,What are the top 3 highest values of average energy consumed in the last 3 years (sorted in ascending order) among the following companies in TJ?,"46580.4, 120042.0, 346689.67","329775#347068#363226 |
+
+#### and its corresponding scale is: none",False
+95,Which company has the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in million mt CO2e?,nasdaq_dasty,vivendi,False
+96,Which company has the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,otc_su,response too long,False
+97,What is the total energy consumption generated by the following companies in the last 2 years in GWh?,2956.57,33.09#33.26,False
+98,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,2.89,response too long,False
+99,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tonnes?,otc_bamgf,otc_crerf,False
+100,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in GWh?,"prosiebensat1-media, munich-re, otc_su","munich-re#prosiebensat1-media#otc_su |
+
+| company name |
+|:-------------|
+| munich-re |
+| prosiebensat1-media |
+| otc_su |
+
+| unnamed: 0 |
+
+| 2023 |
+
+| total energy consumption in gwh |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.09 |
+
+| 33.26 |
+
+| 33.0",False
+101,What is the lowest total energy consumption over the last 2 years among the following companies in MWh?,153984.0,"26199#30486 | none |
+
+the value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+102,What are the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"80.6, 20.4, 0.91",45.2#35.4#12.2,False
+103,What is the average percentage of hazardous waste generated in 2022 among the following companies?,14.5,"2 |
+
+the average percentage of hazardous waste generated in 2022 among the following companies is 2.",False
+104,What is the highest average energy consumed in the last 2 years among the following companies in TJ?,338421.5,"329775#347068 |
+
+",False
+105,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,7.0,"35056#34493#36.59#33.27 |
+
+the average percentage variation in energy consumption from 2023 to 2022 is: (((33.27 - 36.59) / 36.59) + ((35056 - 34493) / 34493)) / 2 |
+
+",False
+106,Which company has the highest percentage of hazardous waste generated in 2023 among the following companies?,vivendi,heidelberg-materials,False
+107,Which company has the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,otc_crerf,otc_bayzf,False
+108,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,heidelberg-materials,vivendi,False
+109,What is the highest average energy consumed in the last 2 years among the following companies in million kWh?,34774.5,"12241#13253#9324#250916#2 |
+
+the corresponding scale is: none |
+
+",False
+110,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in GWh?,"33.17, 282.31, 1162.8",4.53#4.43#8.59,False
+111,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in Million metric tons of CO2 equivalents?,0.96,"228295#2022#126436 | none |
+
+### | company name | 2022 | 2023 | +/- |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| axa | 228295#126436 | -102549 |
+
+",False
+112,What is the smallest percentage variation in water consumption from 2022 to 2023 among the following companies?,4.32,7.80%,False
+113,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in Million metric tons of CO2 equivalents?,0.54,6.05905e+06,False
+114,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in kt?,714.8,"476.5#953.1 |
+
+the highest average amount of waste generated in the years 2023 and 2022 among the following companies in kt is 476.5#953.1 |",False
+115,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2e?,540925.0,3086777,False
+116,Which company has the lowest total energy consumption over the last 2 years among the following companies in MWh?,prosiebensat1-media,otc_su,False
+117,What is the average percentage of energy consumption from renewable sources in 2023 among the following companies?,53.27,33.09#22.19#33.26#21.99 |,False
+118,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,61.05,"1.89#9.18 |
+
+the corresponding scale is: none |
+
+",False
+119,Which company has the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,otc_su,"otc_su |
+
+| company name: otc_su |
+
+| gri                 | indicators                                                                                 | units                  | 2023   | 2022   | 2021   | 2020   |
+|:--------------------|:-------------------------------------------------------------------------------------------|:-------|:-------|:-------|:-------|:-------|
+| nan                 | estimated coverage (% waste generation)                                                    | %                      | 87%    | 86%    | 87%    | 90%    |
+| 306-3               | total waste generated                                                                      | metric tons            | 124139 | 131402 | 136816 | 125292 |
+| 306-3               | total waste generated/turnover                                                             | metric tons/ million € | 3.46   | 3.84   | 4.73   | 4.98   |
+| 306-3, 306-4, 306-5 | non-hazardous waste generated                                                              | metric tons            | 116566 | 123311 | 128267 | 117607 |
+| 306-3, 306-4, 306-5 | of which reused or recycled                                                                | metric tons            | 105593 | 111567 | 115550 | 113211 |
+| 306-3, 306-4, 306-5 | of which incinerated with energy recovery                                                  | metric tons            | 6871   | 6719   | 6964   | na     |
+| 306-5               | of which landfilled or incinerated without energy recovery                                 | metric tons            | 4102   | 5025   | 5753   | 4396   |
+| 306-5               | non-hazardous waste reduction                                                              | metric tons            | 21098  | 11941  | 13667  | 7729   |
+| 306-2               | share of non-hazardous waste recovered or reduced                                          | %                      | 97.0%  | 96.3%  | 95.9%  | 96.5%  |
+| 306-3               | hazardous waste generated                                                                  | metric tons            | 7573   | 8091   | 8549   | 7685   |
+| 306-5               | hazardous waste channeled according to schneider electric expectations                     | metric tons            | 7573   | 8091   | 8549   | 7667   |
+| 306-5               | hazardous waste generated/turnover                                                         | metric tons/ million € | 0.21   | 0.24   | 0.3    | 0.3    |
+| 306-5               | hazardous waste intensity reduction against 2017                                           | %                      | -50%   | -44%   | -30%   | -27%   |
+| nan                 | sse #9 - number of ‘waste-to-resource’ sites                                               | #                      | 137    | 127    | 126    | 120    |
+| 2-27, 306-3         | # and aggregate quantity of reportable spills                                              | kg                     | 0      | 0      | 0      | 0      |
+| 306-3               | quantity of spills recovered                                                               | kg                     | na     | na     | na     | na     |
+| 2-27, 306-3         | number of significant fines ( >  eur 10,000) related to environmental or ecological issues | #                      | 0      | 0      | 0      | 0      |
+
+",False
+120,Which companies have the 2 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"heidelberg-materials, vivendi",2#52#51 |,False
+121,What is the highest average energy consumed in the last 2 years among the following companies in million kWh?,94006.05,"35056#347068#329775 |
+
+",False
+122,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,vivendi,heidelberg-materials,False
+123,What is the highest percentage of hazardous waste generated in 2022 among the following companies?,25.97,"8091 |
+
+### solution
+ | company name |
+ | heidelberg-materials |
+ | nan |
+ | 306-3 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste channeled according to schneider electric expectations |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste generated/turnover |
+ | 0.24 |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -44% |
+ | 8091 |
+ | 306-5 |
+ | hazardous waste intensity reduction against 2017 |
+ | -4",False
+124,Which company has the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2eq?,otc_esocf,response too long,False
+125,Which company has the highest percentage of hazardous waste generated in 2022 among the following companies?,nyse_tte,"otc_su |
+
+the value of ‘scale’ can be one of the following: none |
+
+",False
+126,What is the average percentage of energy consumption from renewable sources in 2022 among the following companies?,24.43,"21.99#33.26#22.19 |
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’ is replaced with the corresponding values from the table.
+
+the value of ‘#’",False
+127,What are the top 2 highest values of average energy consumed in the last 3 years (sorted in descending order) among the following companies in GWh?,"96302.76, 12939.0",response too long,False
+128,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,23.22,response too long,False
+129,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"161500000.0, 1162801.5, 76992.0","1124327#934805#1201276 |
+
+### solution | step | output |
+| :------------ | :------------- |
+| 1 | 1201276#1124327#934805 |
+| 2 | 1124327#934805#1201276 |
+| 3 | 1201276#934805#1124327 |
+| 4 | 1201276#934805#1124327 |
+| 5 | 1201276#934805#1124327 |
+| 6 | 1201276#934805#1124327 |
+| 7 | 1201276#934805#1124327 |
+| 8 | 1201276#934805#1124327 |
+| 9 | 1201276#934805#1124327 |
+| 10 | 1201276#934805#1124327 |
+| 11 | 1201276#934805#1124327 |
+| 12 | 1201276#934805#1124327 |
+| 13 | 1201276#934805#1124327 |
+| 14 | 1201276#934805#1124327 |
+| 15 | 1201276#934805#1124327 |
+| 16 | 1201276#934805#1124327 |
+| 17 | 1201276#934805#1124327 |
+| 18 | 1201276#934805#1124327 |
+| 19 | 1201276#934805#1124327 |
+| 20 | 1201276#934805#1124327 |
+| 21 | 1201276#934805#1124327 |
+| 22 | 1201276#934805#1124327 |
+| 23 | 1201276#934805#1124327 |
+| 24 | 1201276#934805#1124327 |
+| 25 | 1",False
+130,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,otc_esocf,"otc_bayzf |
+
+| greenhouse gas emissions                                                                   |   unnamed: 1 |   unnamed: 2 |
+|:-------------------------------------------------------------------------------------------|-------------:|-------------:|
+| million metric tons of co2 equivalents                                                     |      2022    |      2023    |
+| scope 1: direct emissions                                                                  |         1.91 |         1.89 |
+| scope 2: indirect emissions according to the market-based method                           |         1.12 |         1.11 |
+| total greenhouse gas emissions according to the market-based method                        |         3.03 |         3    |
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |         9.72 |         9.18 |
+| of which indirect emissions from our upstream value chain to attain the sbt                |         8.98 |         8.44 |
+
+",False
+131,What is the total energy consumption generated by the following companies in the last 2 years in million kWh?,70179.96,"33.09#33.26 |
+
+",False
+132,What is the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,35.09,"7444#26 | none |
+
+### instruction
+given a table and a list of texts in the following, what is the answer to the question? please predict the answer and store it in a variable named ‘{answer}‘. if there are multiple values, separate them using the ’#’ symbol. if the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. the value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+133,What is the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,12.13,12.00%,False
+134,What are the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2eq?,"1900000.0, 21490.0, 10759.5","11228#10291#10582 |
+
+### solution
+the values of average direct ghg emissions (scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tco2eq are:
+
+10291#11228#10582",False
+135,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"munich-re, otc_su, deutsche-telekom-ag","deutsche-telekom-ag#otc_su#munich-re |
+
+| company name | 2023 | 2022 |
+|:-------------|:-------|:-------|
+| deutsche-telekom-ag | 12241 | 13253 |
+| otc_su | 1124327 | 1201276 |
+| munich-re | 250916 | 313698 |
+
+",False
+136,What is the average amount of hazardous waste obtained by summing the values related to the years 2023 and 2022 among the following companies in tons?,22355.67,18#26 |,False
+137,Which companies have the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"heidelberg-materials, munich-re","heidelberg-materials#munich-re |
+
+the value of ‘scale’ is none",False
+138,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in million mt CO2e?,otc_rwnef,response too long,False
+139,Which companies have the 2 lowest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in ascending order) among the following companies in kt?,"vivendi, otc_su",1276.7#124139,False
+140,Which companies have the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TWh?,"nyse_tte, deutsche-telekom-ag","deutsche-telekom-ag#munichre |
+
+### table
+
+| company name: deutsche-telekom-ag |
+
+| unnamed: 0 | 2023   | 2022 |    2021 |    2020 |    2019 |
+|:-----------------------------------------|:-------|:-------|:-------|:-------|:-------|
+| customer satisfaction (tri*m index)      | 76.2   | 76   | 73.4   | 72.2   | 67.3   |
+| employee satisfaction (engagement score) | 76     | 78   | 77     | 4      | 4      |
+| energy consumption                       | gwh   | 12241 | 13253 | 13323 | 12843 | 9324 |
+| of which: excluding t-mobile us          | gwh   | 4567  | 4704  | 0      | 0      | 0      |
+| co2 emissions (scope 1 and 2)            | kt co2e | 217   | 233   | 247   | 2512  | 1797  |
+| of which: excluding t-mobile us          | kt co2e | 171   | 179   | 0      | 0      | 0      |
+| fixed-network and mobile customers       |        |        |        |        |        |
+| mobile customers                         | millions | 252.2  | 245.4 | 248.2  | 241.5  | 184    |
+| fixed-network lines                      | millions | 25.4   | 25.3 | 26.1   | 27.4   | 27.5   |
+| broadband customers                      | millions | 22     | 21.4 | 21.6   | 21.7   | 21     |
+| systems solutions                        |        |        |        |        |        |
+| order entry                              | millions of € | 3628   | 3952   | 4564   | 4740   | 4740   |
+
+| company name: munichre |
+
+| unnamed: 0 | 2023   | 2022 |    2021 |    2020 |    2019 |
+|:-----------------------------------------|:-------|:-------|:-------|:-------|:-------|
+| nan                                        | mwh   | mwh   | mwh   | mwh   | mwh   |
+| natural gas                                | 108722 | 153307 | 126293 | 179707 | 179707 |
+| thereof natural gas for cogeneration       | 95188  | 126293 | 179707 | 179707 | 179707 |
+| electricity                                | 95108  | 102313 | 92518 | 92518 | 92518 |
+| thereof electricity from renewable sources | 86870  | 92518 | 92518 | 92518 | 92518 |
+| district heating                           | 41931  | 51638 | 51638 | 51638 | 51638 |
+| district cooling                           | 4283   | 5371   | 5371   | 5371   | 5371   |
+| liquid fuel for emergency power            | 872    | 1069   | 1069   | 1069   | 1069   |
+| total                                      | 250916 | 313698 | 313698 | 313698 | 313698 |
+
+",False
+141,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tonnes?,873133.5,"671#587 |
+
+",False
+142,Which company has the highest average energy consumed in the last 2 years among the following companies in MWh?,deutsche-telekom-ag,deutsche-telekom-ag,True
+143,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tons CO2e?,otc_adddf,otc_adddf,True
+144,Which company has the largest percentage of energy consumption from renewable sources in 2022 among the following companies?,nasdaq_dasty,heidelberg-materials,False
+145,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,11.78,"0.27#0.46#0.24#0.29 |
+
+the corresponding scale is: none |
+
+",False
+146,Which companies have the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"otc_esocf, otc_bamgf, munich-re",otc_esocf#otc_bamgf#munich-re,False
+147,What is the average percentage of hazardous waste generated in 2023 among the following companies?,6.67,50%,False
+148,Which company has the smallest percentage variation in water consumption from 2022 to 2023 among the following companies?,otc_bamgf,otc_esocf,False
+149,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TJ?,"heidelberg-materials, otc_su, nasdaq_dasty","329775#347068#313323 |
+
+the",False
+150,Which companies have the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"munich-re, nyse_az",nyse_az#otc_adddf,False
+151,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"76992.0, 282307.0, 34774500.0",35056#34493#3062 |,False
+152,What is the highest average energy consumed in the last 3 years among the following companies in GWh?,96302.76,response too long,False
+153,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in million mt CO2e?,109.3,3192798,False
+154,What are the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.0, 1.9","34.51#53.07 |
+
+the value of ‘53.07#34.51’ is 18.56 |
+
+the value of ‘34.51#53.07’ is -18.56 |
+
+the value of ‘53.07#34.51’ is 18.56 |
+
+",False
+155,What are the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"31363.5, 1900000.0",61.9#85.4,False
+156,What is the highest percentage of hazardous compared to non-hazardous waste produced in 2023 among the following companies?,63.32,"176#18 |
+
+the corresponding scale is: none |
+
+",False
+157,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,nyse_tte,vivendi,False
+158,What are the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"10759.5, 38378.5, 1900000.0","10291#11228#12330 |
+
+",False
+159,Which company has the highest average energy consumed in the last 3 years among the following companies in GWh?,heidelberg-materials,response too long,False
+160,What is the lowest total energy consumption over the last 2 years among the following companies in GWh?,66.35,33.09#33.26,False
+161,Which company has the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,otc_dpsgy,otc_dpsgy,True
+162,What are the top 3 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"909727.0, 9889305.0, 20400000.0",5.41743e+06#4.72231e+06#4.92448e+06,False
+163,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,otc_esocf,response too long,False
+164,Which company has the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,deutsche-telekom-ag,"deutsche-telekom-ag | 76.2#35056#33.27 |
+
+",False
+165,What is the average percentage variation of direct GHG emissions from 2022 to 2023 among the following companies?,20.95,"23.4#18.56#35.0#14.51#20.4 |
+
+the average percentage variation is: (23.4 + 18.56) / (14.51 + 20.4) |
+
+",False
+166,What are the 2 lowest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in ascending order) among the following companies in tons?,"3751.0, 15664.0",18#26 |,False
+167,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,97.98,0.2#1.8#12.8#2.9#2.2#1.2#1.6#1.1#3.1#4.5#2.4#4#3.5#1.1#25%#2.2#17%#16%#12%#18%#1%#29%#25%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#1%#,False
+168,What are the 3 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"2.0, 6.16, 35.34","16#2#17 |
+
+### table
+company name: otc_su
+
+| gri                 | indicators                                                                                 | units                  | 2022   | 2021   | 2020   | 2019   |
+|:--------------------|:-------------------------------------------------------------------------------------------|:-------|:-------|:-------|:-------|
+| nan                 | estimated coverage (% waste generation)                                                    | %      | 86%    | 87%    | 90%    |
+| 306-3               | total waste generated                                                                      | metric tons            | 124139 | 131402 | 136816 | 125292 |
+| 306-3               | total waste generated/turnover                                                             | metric tons/ million € | 3.46   | 3.84   | 4.73   | 4.98   |
+| 306-3, 306-4, 306-5 | non-hazardous waste generated                                                              | metric tons            | 116566 | 123311 | 128267 | 117607 |
+| 306-3, 306-4, 306-5 | of which reused or recycled                                                                | metric tons            | 105593 | 111567 | 115550 | 113211 |
+| 306-3, 306-4, 306-5 | of which incinerated with energy recovery                                                  | metric tons            | 6871   | 6719   | 6964   | na     |
+| 306-5               | of which landfilled or incinerated without energy recovery                                 | metric tons            | 4102   | 5025   | 5753   | 4396   |
+| 306-5               | non-hazardous waste reduction                                                              | metric tons            | 21098  | 11941  | 13667  | 7729   |
+| 306-2               | share of non-hazardous waste recovered or reduced                                          | %                      | 97.0%  | 96.3%  | 95.9%  | 96.5%  |
+| 306-3               | hazardous waste generated                                                                  | metric tons            | 7573   | 8091   | 8549   | 7685   |
+| 306-5               | hazardous waste channeled according to schneider electric expectations                     | metric tons            | 7573   | 8091   | 8549   | 7667   |
+| 306-5               | hazardous waste intensity reduction against 2017                                           | %                      | -50%   | -44%   | -30%   | -27%   |
+| nan                 | sse #9 - number of ‘waste-to-resource’ sites                                               | #                      | 137    | 127    | 126    | 120    |
+| 2-27, 306-3         | # and aggregate quantity of reportable spills                                              | kg                     | 0      | 0      | 0      | 0      |
+| 306-3               | quantity of spills recovered                                                               | kg                     | na     | na     | na     | na     |
+| 2-27, 306-3         | number of significant fines ( >  eur 10,000) related to environmental or ecological issues | #                      | 0      | 0      | 0      | 0      |
+
+company name: heidelberg-materials
+
+| unnamed: 0                                                                                                     | 2022   | 2021   |   2023 | unit       |
+|:---------------------------------------------------------------------------------------------------------------|:-------|:-------|-------:|:-----------|
+| biodiversity                                                                                                   | nan    | nan    |  nan   | nan        |
+| proportion of quarries sites located near an area of high biodiversity value with biodiversity management plan | 43     | 51     |   61   | %          |
+| proportion of quarries with a restoration plan                                                                 | 87     | 92     |   76   | %          |
+| sustainable products and solutions                                                                             | nan    | nan    |  nan   | nan        |
+| share of revenue from sustainable products                                                                     | 34     | 37     |   35   | %          |
+| share of revenue from sustainable products of cement business line                                             | 37     | 39     |   39   | %          |
+| number of memberships in green building councils and sustainable infrastructure",False
+169,"What is the average total water consumption across the following companies, calculated as the sum of their 2023 and 2022 consumption in m3?",33969909.0,35.4#45.2,False
+170,What is the average percentage of energy consumption from renewable sources in 2023 among the following companies?,24.3,"62.9#707033#707033#62.9#62.9 | none |
+
+### input
+company name: otc_su | company name: otc_dpsgy |
+
+| estimated total energy consumption from renewable sources | 707033 | 688474 |
+
+| estimated total percentage of renewable energy | 62.9% | 57.3% |
+
+| nan | nan |
+
+| 707033#62.9 | 688474#57.3 |
+
+| 62.9#707033 | 57.3#688474 |
+
+| 707033#62.9 | 688474#57.3 |
+
+| 62.9#707033 | 57.3#688474 |
+
+| 707033#62.9 | 688474#57.3 |
+
+| 62.9#707033 | 57.3#688474 |
+
+| 707033#62.9 | 688474#57.3 |
+
+| 62.9#707033 | 57.3#688474 |
+
+| 707033#62.9 | 688474#57.3 |
+
+| 62.9#707033 | 57.3#688474 |
+
+| 707033#62.9 | 688474#57.3 |
+
+| 62.9#707033 | 57.3#688474 |
+
+| 707033#62.9 | 688474#57.3 |
+
+| 62.9#707033 | 57.3#688474 |
+
+| 707033#62.9 | 6884",False
+171,What is the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,66.59,"22.19#21.99 | none |
+
+the value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+172,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tCO2-eq?,otc_esocf,otc_esocf,True
+173,What is the largest percentage of energy consumption from renewable sources in 2023 among the following companies?,67.06,62.9%,False
+174,Which companies have the 3 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"heidelberg-materials, otc_su, nyse_tte","1276.7#953.1#476.5 |
+
+",False
+175,What are the top 2 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"909727.0, 9889305.0",4.84016e+06#4.92448e+06,False
+176,What are the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"38.77, 6.1",176#202 |,False
+177,What is the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,2.16,22.19#21.99,False
+178,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TJ?,"338421.5, 4186.09, 277.17","329775#347068#363226 |
+
+the answer is",False
+179,Which companies have the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2eq?,"nasdaq_dasty, axa",response too long,False
+180,What is the total energy consumption generated by the following companies in the last 2 years in TWh?,348.65,"12241#13253 |
+
+### solution
+the total energy consumption generated by the following companies in the last 2 years in twh is 12241 + 13253 |",False
+181,Which company has the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,nasdaq_dasty,prosiebensat1-media,False
+182,Which company has the highest percentage of hazardous waste generated in 2022 among the following companies?,vivendi,heidelberg-materials,False
+183,What are the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"80.6, 9.89, 0.91",5.04914e+06#4.92448e+06#4.84016e+06,False
+184,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,otc_bayzf,vivendi,False
+185,Which companies have the top 3 highest values of average energy consumed in the last 3 years (sorted in ascending order) among the following companies in TJ?,"deutsche-telekom-ag, otc_dpsgy, heidelberg-materials","deutsche-telekom-ag#heidelberg-materials#otc_dpsgy |
+
+#### and its corresponding scale is: none |
+
+",False
+186,What is the highest percentage of hazardous waste generated in 2023 among the following companies?,38.77,66#7444#10007 |,False
+187,What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,6720000.0,5.41743e+06,False
+188,Which company has the highest average energy consumed in the last 2 years among the following companies in million kWh?,heidelberg-materials,"heidelberg-materials |
+
+the value of the ‘scale’ is none",False
+189,What is the largest percentage of energy consumption from renewable sources in 2022 among the following companies?,84.0,21.99,False
+190,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,nyse_tte,"otc_su |
+
+| company name |
+
+| waste management |
+
+| total waste generated |
+
+| company's waste balance and waste treatment processes |
+
+| total volume of processed waste |
+
+| non-hazardous waste |
+
+| hazardous waste |
+
+| reuse |
+
+| units |
+
+| metric tons |
+
+| indicators |
+
+| 306-3 |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste generated/turnover |
+
+| total waste generated |
+
+| total waste",False
+191,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,74.7,response too long,False
+192,What is the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,5.53,12.00%,False
+193,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in TCO2eq?,vivendi,response too long,False
+194,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,munich-re,munich-re,True
+195,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2eq?,959708.0,"174336#150458#126436 | none |
+
+### input
+company name: otc_adddf
+
+| unnamed: 0                                                                                                                                                               |   base year 2022 |     2023 |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------:|-------------:|
+| million metric tons of co2 equivalents                                                                                                                                     |      2022    |      2023    |
+| scope 1: direct emissions                                                                                                                                                  |         1.91 |         1.89 |
+| scope 2: indirect emissions according to the market-based method                                                                                                           |         1.12 |         1.11 |
+| total greenhouse gas emissions according to the market-based method                                                                                                        |         3.03 |         3    |
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |         9.72 |         9.18 |
+
+company name: otc_bayzf
+
+| greenhouse gas emissions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",False
+196,What are the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2eq?,"4327.0, 21490.0",response too long,False
+197,Which companies have the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in TCO2eq?,"munich-re, axa, vivendi","axa#munich-re#vivendi |
+
+### table
+company name: axa
+
+| unnamed: 0                                                                                                                                                               |   base year 2019 |     2022 |     2023 | % 2023/2022   | target 2025   | % 2023/base year   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|---------:|---------:|:--------------|:--------------|:-------------------|
+| scope 1 ghg emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| gross scope 1 ghg emissions                                                                                                                                              |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| scope 2 ghg emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| gross market-based scope 2 ghg emissions                                                                                                                                 |          59232   |  37172   |  30712   | -17%          | -35%          | -48%               |
+| gross location-based ”’ scope 2 ghg emissions                                                                                                                            |          65470   |  45848   |  42423   | -7%%          | nan           | -35%               |
+| significant scope 3 ghg emissions                                                                                                                                        |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| total gross indirect (scope 3) ghg emissions market-based                                                                                                                |         258541   | 185354   | 169296   | -9%           | nan           | -35%               |
+| o/w ghg emissions from purchase services related to it (category 1)                                                                                                      |           4623   |   5234   |   5955   | 14%           | nan           | 29%                |
+| o/w ghg emissions from capital goods related",False
+198,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,otc_rwnef,otc_rwnef,True
+199,Which companies have the top 3 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"munich-re, otc_bamgf, otc_crerf",otc_crerf#otc_bamgf#munich-re,False
+200,What is the total energy consumption generated by the following companies in the last 2 years in million kWh?,70267.6,250916#313698,False
+201,What is the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,54.66,26#103 |,False
+202,What is the average percentage variation of direct GHG emissions from 2022 to 2023 among the following companies?,10.64,"24.2#27.3#6.4#9.3#34.4 | none |
+
+### company name: otc_bayzf
+
+| greenhouse gas emissions                                                                   |   unnamed: 1 |   unnamed: 2 |
+|:-------------------------------------------------------------------------------------------|-------------:|-------------:|
+| million metric tons of co2 equivalents                                                     |      2022    |      2023    |
+| scope 1: direct emissions                                                                  |         1.91 |         1.89 |
+| scope 2: indirect emissions according to the market-based method                           |         1.12 |         1.11 |
+| total greenhouse gas emissions according to the market-based method                        |         3.03 |         3    |
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |         9.72 |         9.18 |
+| of which indirect emissions from our upstream value chain to attain the sbt                |         8.98 |         8.44 |
+
+company name: munich-re
+
+| unnamed: 0                 | unnamed: 1                                                                                  | 2023    | prev. year   | change   |
+|:---------------------------|:--------------------------------------------------------------------------------------------|:--------|:-------------|:---------|
+| scope                      | source of emission                                                                          | tco2e   | tco2e        | %        |
+| scope 1                    | ghg emissions from direct energy consumption                                                | 33093   | 43664        | –24.2    |
+| scope 1                    | thereof from business trips with company cars                                               | 10841   | 12330        | –12.1    |
+| scope 2                    | ghg emissions from indirect energy consumption                                              | 14249   | 18310        | –22.2    |
+| scope 3                    | other indirect ghg emissions                                                                | 3039435 | 3130824      | –2.9     |
+| scope 3                    | ghg emissions from upstream activities                                                      | 22571   | 17731        | 27.3     |
+| scope 3                    | thereof business trips (excluding those with company cars that are reported within scope 1) | 19466   | 14479        | 34.4     |
+| scope 3                    | thereof from paper                                                                          | 1020    | 1014         | 0.6      |
+| scope 3                    | thereof from waste                                                                          | 1781    | 1903         | –6.4     |
+| scope 3                    | thereof from water                                                                          | 304     | 335          | –9.3     |
+| scope 3                    | ghg emissions from downstream activities                                                    | 3016864 | 3113093      | –3.1     |
+| scope 3                    | thereof financed ghg emissions                                                              | 3016864 | 3113093      | –3.1     |
+| scope 1-3 - own operations | total ghg emissions, scope 1-3 own operations, scope 2 market-based                         | 69913   | 79705        | –12.3    |
+| total scope                | total ghg emissions, scope 1-3, scope 2 market-based                                        | 3086777 | 3192798      | –3.3     |
+
+",False
+203,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tCO2-eq?,133030000.0,779993,False
+204,What is the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,13.95,no answer in the response,False
+205,Which companies have the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"nasdaq_dasty, otc_bayzf","otc_bayzf#otc_esocf |
+
+the value of ‘scale’ is none",False
+206,What are the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"378000.0, 15664.0",7573#8091,False
+207,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in TCO2eq?,824075.0,response too long,False
