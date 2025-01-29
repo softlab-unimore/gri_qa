@@ -1,9 +1,9 @@
 model,em
-tatllm__end_to_end,0.0
-tatllm__step_wise,0.0
 tapex,0.0
 tablellama,0.6
 finma,0.0
-tagop,0.0
 openai,18.1
 openai_chainofthought,18.7
+tatllm__end_to_end,0.0
+tatllm__step_wise,0.0
+omnitab,0.0
