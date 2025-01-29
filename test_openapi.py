@@ -89,13 +89,13 @@ def answer(question: str, tables: str, dataset_file: str, type: str) -> str:
     """
     # Initialize OpenAI client and generate response based on question and table
     client = OpenAI()
-    instruction = f"You must answer the following question given the provided table{'s' if type == 'multi-table' or 'multitable' in args.dataset else ''}. First write your reasoning. Then, in the end, write \"The final answer is:\" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting."
+    instruction = f"You must answer the following question given the provided table{'s' if type == 'multi-table' or 'multitable' in args.dataset else ''}. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, separate them with a comma. Write the numerical values with exactly 2 decimal values. Do not write anything else. Do not write any Markdown formatting."
     completion = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",
-                "content": f"{instruction}\n\nQuestion: {question}\nTable{'s' if type == 'multi-table' or 'multitable' in args.dataset else ''}: {tables}\n\nLet's think step-by-step."
+                "content": f"{instruction}\n\nQuestion: {question}\nTable{'s' if type == 'multi-table' or 'multitable' in args.dataset else ''}: {tables}\n\n"
             }
         ],
         temperature=0.0
