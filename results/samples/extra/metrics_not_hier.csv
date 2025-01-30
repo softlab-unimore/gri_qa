@@ -1,6 +1,9 @@
 model,em
+tapex,54.0
+tablellama,74.0
+finma,22.0
 openai,90.0
 openai_chainofthought,84.0
-finma,22.0
-tablellama,74.0
+tatllm__end_to_end,70.0
+tatllm__step_wise,86.0
 omnitab,52.0
