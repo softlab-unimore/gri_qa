@@ -1,5 +1,7 @@
 model,em
+tablellama,11.8
+finma,5.9
 openai,23.5
 openai_chainofthought,58.8
-finma,5.9
-tablellama,11.8
+tatllm__end_to_end,17.6
+tatllm__step_wise,11.8

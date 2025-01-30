@@ -1,0 +1,17 @@
+index,question,value,response,correct
+0,Which company has the highest energy consumed in the last 2 years among the following companies in TJ?,heidelberg-materials,response too long,False
+1,Which companies have the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in million mt CO2e?,"otc_esocf, otc_rwnef",response too long,False
+2,Which companies have the 2 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"otc_bayzf, otc_adddf",response too long,False
+3,What is the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2eq?,1910000.0,response too long,False
+4,Which companies have the 3 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2e?,"nyse_az, nasdaq_dasty, munich-re",response too long,False
+5,Which companies have the top 4 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in GWh?,"nyse_tte, heidelberg-materials, otc_dpsgy, deutsche-telekom-ag",response too long,False
+6,Which company has the largest energy consumption from 2022 to 2023 among the following companies?,otc_su,response too long,False
+7,Which companies have the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"otc_bayzf, otc_rwnef, otc_adddf",response too long,False
+8,Which company has the lowest energy consumption over the last 2 years among the following companies in MWh?,nasdaq_dasty,response too long,False
+9,What is the highest energy consumed in the last 2 years among the following companies in GWh?,35056.0,deutsche telekom ag,False
+10,What are the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.0, 0.01",response too long,False
+11,What are the 5 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tCO2e?,"4178.0, 21598.0, 33093.0, 34510000.0, 61900000.0",response too long,False
+12,What is the highest energy consumed in the last 2 years among the following companies in million kWh?,166000.0,response too long,False
+13,What is the lowest energy consumption over the last 2 years among the following companies in MWh?,71218.0,response too long,False
+14,Which companies have the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tCO2-eq?,"nasdaq_dasty, vivendi, nyse_az",response too long,False
+15,What are the 4 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tons CO2e?,"770748.0, 3130824.0, 7635784.0, 9720000.0",3.1#2.8#2.1#1.9496,False

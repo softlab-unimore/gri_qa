@@ -80,9 +80,10 @@ if __name__ == '__main__':
 
     # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
     # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought', 'tatllm__end_to_end', 'tatllm__step_wise', 'omnitab']
-    # models = ['tablellama', 'finma', 'openai', 'openai_chainofthought', 'tatllm__end_to_end', 'tatllm__step_wise']
+    models = ['tablellama', 'finma', 'openai', 'openai_chainofthought', 'tatllm__end_to_end', 'tatllm__step_wise']
+    # models = ['tablellama', 'finma', 'openai', 'openai_chainofthought',  'tatllm__step_wise']
     # models = ['tablellama', 'finma']
-    models = ['openai', 'openai_chainofthought', 'finma', 'tablellama', 'omnitab']
+    # models = ['openai', 'openai_chainofthought', 'finma', 'tablellama', 'omnitab']
 
     os.makedirs(f'./results/{args.type}/{args.dataset}/with_match', exist_ok=True)
 

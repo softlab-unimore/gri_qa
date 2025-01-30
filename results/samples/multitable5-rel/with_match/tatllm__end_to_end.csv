@@ -1,0 +1,182 @@
+index,question,value,response,correct
+0,Which company has the highest energy consumed in the last 2 years among the following companies in TJ?,heidelberg-materials,response too long,False
+1,Which companies have the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in million mt CO2e?,"otc_esocf, otc_rwnef",response too long,False
+2,Which companies have the 2 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"otc_bayzf, otc_adddf","19496#30724 |
+
+",False
+3,What is the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2eq?,1910000.0,response too long,False
+4,Which companies have the 3 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2e?,"nyse_az, nasdaq_dasty, munich-re",response too long,False
+5,Which companies have the top 4 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in GWh?,"nyse_tte, heidelberg-materials, otc_dpsgy, deutsche-telekom-ag",response too long,False
+6,Which company has the largest energy consumption from 2022 to 2023 among the following companies?,otc_su,response too long,False
+7,Which companies have the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"otc_bayzf, otc_rwnef, otc_adddf",response too long,False
+8,Which company has the lowest energy consumption over the last 2 years among the following companies in MWh?,nasdaq_dasty,response too long,False
+9,What is the highest energy consumed in the last 2 years among the following companies in GWh?,35056.0,"33.27#33.09#33.26#31.4#31.2#3062#30486#35056#34493#31277#31.4#31.2#3062#35056#34493#31277#31.4#31.2#3062#35056#34493#31277 |
+
+",False
+10,What are the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.0, 0.01",response too long,False
+11,What are the 5 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tCO2e?,"4178.0, 21598.0, 33093.0, 34510000.0, 61900000.0",response too long,False
+12,What is the highest energy consumed in the last 2 years among the following companies in million kWh?,166000.0,no answer in the response,False
+13,What is the lowest energy consumption over the last 2 years among the following companies in MWh?,71218.0,response too long,False
+14,Which companies have the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tCO2-eq?,"nasdaq_dasty, vivendi, nyse_az","nyse_az#otc_rwnef#munich-re |
+
+| unnamed: 0                 | unnamed: 1                                                                                  | 2023    | prev. year   | change   |
+|:---------------------------|:--------------------------------------------------------------------------------------------|:--------|:-------------|:---------|
+| scope                      | source of emission                                                                          | tco2e   | tco2e        | %        |
+| scope 1",False
+15,What are the 4 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tons CO2e?,"770748.0, 3130824.0, 7635784.0, 9720000.0","1.91#1.5#1.2#0.2 |
+
+### text
+
+| company name: otc_adddf |
+
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |
+
+| of which indirect emissions from our upstream value chain to attain the sbt |
+
+| million metric tons of co2 equivalents |
+
+| scope 1: direct emissions |
+
+| scope 2: indirect emissions according to the market-based method |
+
+| total greenhouse gas emissions according to the market-based method |
+
+| direct greenhouse gas emissions - scope 1 |
+
+| indirect energy-related greenhouse gas emissions - scope 2 (location based) |
+
+| indirect upstream and downstream greenhouse gas emissions as the sum of the following categories - scope 3 |
+
+| category 1: purchased goods and services |
+
+| category 2: capital goods |
+
+| category 3: combustion fuel and energy-related emissions |
+
+| category 4: upstream transmission and distribution |
+
+| category 5: waste |
+
+| category 6: business travel |
+
+| category 7: commuting by employees |
+
+| category 9: downstream transmission and distribution |
+
+| category 10: processing of sold products |
+
+| category 11: use of sold products |
+
+| category 15: investments |
+
+| biogenic emissions |
+
+| unnamed: 0 |
+
+| unnamed: 1 |
+
+| scope |
+
+| scope 1 |
+
+| thereof from business trips with company cars |
+
+| scope 2 |
+
+| ghg emissions from indirect energy consumption |
+
+| scope 3 |
+
+| other indirect ghg emissions |
+
+| scope 1-3 - own operations |
+
+| total ghg emissions, scope 1-3 own operations, scope 2 market-based |
+
+| tco,eq |
+
+| scope 1 |
+
+| scope 2 market-based |
+
+| scope 2 location-based |
+
+| total scopes 1 and 2 market-based |
+
+| total scopes 1 and 2 location-based |
+
+| partial scope 3 (a) |
+
+| partial scope 3 restated (a) (b) |
+
+| million metric tons of co2 equivalents |
+
+| 1.91#1.5#1.2#0.2 |
+
+| company name: otc_bayzf |
+
+| greenhouse gas emissions |
+
+| million metric tons of co2 equivalents |
+
+| scope 1: direct emissions |
+
+| scope 2: indirect emissions according to the market-based method |
+
+| total greenhouse gas emissions according to the market-based method |
+
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |
+
+| of which indirect emissions from our upstream value chain to attain the sbt |
+
+| 6.05905e+06 |
+
+| 2022 |
+
+| 1.91#1.5#1.2#0.2 |
+
+| 2023 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.72#0.2 |
+
+| 1.89#1.12#9.7",False
