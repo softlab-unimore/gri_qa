@@ -76,7 +76,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
     parser.add_argument('--end_to_end', action='store_true', default=False)
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table'], help='Choose if you want raw or norm data')
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'samples', 'multi-table'], help='Choose if you want raw or norm data')
     args = parser.parse_args()
 
     set_seed(42)
