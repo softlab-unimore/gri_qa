@@ -1,0 +1,622 @@
+index,question,value,response
+0,What were the direct GHG emissions (Scope 1) in 2021 in mmtonnes CO2 equivalent?,6.72,6.72
+1,What was the percentage of the 100 biggest suppliers committed to a 1.5°C trajectory in 2023?,44,44%
+2,What was the share of renewable electricity in 2023 (%)?,63%,63%
+3,What was the district cooling consumption in megawatt-hour for the year 2023?,4283,4283
+4,What percentage of total suppliers will be active in 2026?,100,100
+5,How much were the GHG emissions for leased assets in 2022 in kilotonnes of CO2?,233,233
+6,What are the expected Scope 1 and Scope 3 GHG emissions related to integrated power for the year 2026 in grams of CO2 equivalent per kilowatt-hour?,135,135 gCO₂/kWh
+7,What was the Scope 3 emissions figure for Europe in 2021 in Mt CO2e?,220,No answer in the response
+8,What percentage of renewable energy was reported in 2023?,84,84%
+9,What was the percentage of electric and electronic waste recycled (WEEE) in 2019?,99,99%
+10,What was the number of contracted suppliers in 2022?,2354,No answer in the response
+11,What was the total CO2 equivalents location based in million metric tons for the year 2023?,70.69,35.95
+12,What is the expected reduction of GHG emissions (Scope 1 and 2) in 2035 compared to 2018 in %?,-71,-71%
+13,What is the total weight of hazardous waste disposed of in other structures in 2022 in kilotons with reference to the entire group?,97.4,97.4
+14,What is the target reduction for methane emissions in kt CH4 on operated activities by 2030 in percentage?,-80,-80%
+15,What was the total weight of packaging reduction since 2017 in 2023 (in tonnes)?,20738,20738
+16,What percentage of sites met the target for offshore discharges quality in 2021?,92,92
+17,How many tonnes of carbon credits were obtained during the year 2023 (tCO2eq)?,673,673
+18,What was the VOC emissions per million euros of turnover in 2022?,9,9
+19,What was the long distance heating consumption in 2023 (%)?,16.8,"2.0#% |
+
+### Explanation | step | output |
+| 1 | 16.8 |
+
+| 2 | 16.8 |
+
+| 3 | 2.0 |
+
+| 4 | 16.8% |
+
+| 5 | 16.8 |
+
+| 6 | 2.0#% |
+
+| 7 | 2.0#% |
+
+| 8 | 2.0#% |
+
+| 9 | 2.0#% |
+
+| 10 | 2.0#% |
+
+| 11 | 2.0#% |
+
+| 12 | 2.0#% |
+
+| 13 | 2.0#% |
+
+| 14 | 2.0#% |
+
+| 15 | 2.0#% |
+
+| 16 | 2.0#% |
+
+| 17 | 2.0#% |
+
+| 18 | 2.0#% |
+
+| 19 | 2.0#% |
+
+| 20 | 2.0#% |
+
+| 21 | 2.0#% |
+
+| 22 | 2.0#% |
+
+| 23 | 2.0#% |
+
+| 24 | 2.0#% |
+
+| 25 | 2.0#% |
+
+| 26 | 2.0#% |
+
+| 27 | 2.0#% |
+
+| 28 | 2.0#% |
+
+| 29 | 2.0#% |
+
+| 30 | 2.0#% |
+
+| 31 | 2.0#% |
+
+| 32 | 2.0#% |
+
+| 33 | 2.0#% |
+
+| 34 | 2.0#% |
+
+| 35 | 2.0#% |
+
+| 36 | 2.0#% |
+
+| 37 | 2.0#% |
+
+| 38 | 2.0#% |
+
+| 39 | 2.0#% |
+
+| 40 | 2.0#% |
+
+| 41 | 2.0#% |
+
+| 42 | 2.0#% |
+
+| 43 | 2.0#% |
+
+| 44 | 2.0#% |
+
+| 45 | 2.0#% |
+
+| 46 | 2.0#% |
+
+| 47 | 2.0#% |
+
+| 48 | 2.0#% |
+
+| 49 | 2.0#% |
+
+| 50 | 2.0#% |
+
+| 51 | 2.0#% |
+
+| 52 | 2.0#% |
+
+| 53 | 2.0#% |
+
+| 54 | 2.0#% |
+
+| 55 | 2.0#% |
+
+| 56 | 2.0#% |
+
+| 57 | 2.0#% |
+
+| 58 | 2.0#% |
+
+| 59 | 2.0#% |
+
+| 60 | 2.0#% |
+
+| 61 | 2.0#% |
+
+| 62 | 2.0#% |
+
+| 63 | 2.0#% |
+
+| 64 | 2.0#% |
+
+| 65 | 2.0#% |
+
+| 66 | 2.0#% |
+
+| 67 | 2.0#% |
+
+| 68 | 2.0#% |
+
+| 69 | 2.0#% |
+
+| 70 | 2.0#% |
+
+| 71 | 2.0#% |
+
+| 72 | 2.0#% |
+
+| 73 | 2.0#% |
+
+| 74 | 2.0#% |
+
+| 75 | 2.0#% |
+
+| 76 | 2.0#% |
+
+| 77 | 2.0#% |
+
+| 78 | 2.0#% |
+
+| 79 | 2.0#% |
+
+| 80 | 2.0#% |
+
+| 81 | 2.0#% |
+
+| 82 | 2.0#% |
+
+| 83 | 2.0#% |
+
+| 84 | 2.0#% |
+
+| 85 | 2.0#% |
+
+| 86 | 2.0#% |
+
+| 87 | 2.0#% |
+
+| 88 | 2.0#% |
+
+| 89 | 2.0#% |
+
+| 90 | 2.0#% |
+
+| 91 | 2.0#% |
+
+| 92 | 2.0#% |
+
+| 93 | 2.0#% |
+
+| 94 | 2.0#% |
+
+| 95 | 2.0#% |
+
+| 96 | 2.0#% |
+
+| 97 | 2.0#% |
+
+| 98 | 2.0#% |
+
+| 99 | 2.0#% |
+
+| 100 | 2.0#% |
+
+| 101 | 2.0#% |
+
+| 102 | 2.0#% |
+
+| 103 | 2.0#% |
+
+| 104 | 2.0#% |
+
+| 105 | 2.0#% |
+
+| 106 | 2.0#% |
+
+| 107 | 2.0#% |
+
+| 108 | 2.0#% |
+
+| 109 | 2.0#% |
+
+| 110 | 2.0#% |
+
+| 111 | 2.0#% |
+
+| 112 | 2.0#% |
+
+| 113 | 2.0#% |
+
+| 114 | 2.0#% |
+
+| 115 | 2.0#% |
+
+| 116 | 2.0#% |
+
+| 117 | 2.0#% |
+
+| 118 | 2.0#% |
+
+| 119 | 2.0#% |
+
+| 120 | 2.0#% |
+
+| 121 | 2.0#% |
+
+| 122 | 2.0#% |
+
+| 123 | 2.0#% |
+
+| 124 | 2.0#% |
+
+| 125 | 2.0#% |
+
+| 126 | 2.0#% |
+
+| 127 | 2.0#% |
+
+| 128 | 2.0#% |
+
+| 129 | 2.0#% |
+
+| 130 | 2.0#% |
+
+| 131 | 2.0#% |
+
+| 132 | 2.0#% |
+
+| 133 | 2.0#% |
+
+| 134 | 2.0#% |
+
+| 135 | 2.0#% |
+
+| 136 | 2.0#% |
+
+| 137 | 2.0#% |
+
+| 138 | 2.0#% |
+
+| 139 | 2.0#% |
+
+| 140 | 2.0#% |
+
+| 141 | 2.0#% |
+
+| 142 | 2.0#% |
+
+| 143 | 2.0#% |
+
+| 144 | 2.0#% |
+
+| 145 | 2.0#% |
+
+| 146 | 2.0#% |
+
+| 147 | 2.0#% |
+
+| 148 | 2.0#% |
+
+| 149 | 2.0#% |
+
+| 150 | 2.0#% |
+
+| 151 | 2.0#% |
+
+| 152 | 2.0#% |
+
+| 153 | 2.0#% |
+
+| 154 | 2.0#% |
+
+| 155 | 2.0#% |
+
+| 156 | 2.0#% |
+
+| 157 | 2.0#% |
+
+| 158 | 2.0#% |
+
+| 159 | 2.0#% |
+
+| 160 | 2.0#% |
+
+| 161 | 2.0#% |
+
+| 162 | 2.0#% |
+
+| 163 | 2.0#% |
+
+| 164 | 2.0#% |
+
+| 165 | 2.0#% |
+
+| 166 | 2.0#% |
+
+| 167 | 2.0#% |
+
+| 168 | 2.0#% |
+
+| 169 | 2.0#% |
+
+| 170 | 2.0#% |
+
+| 171 | 2.0#% |
+
+| 172 | 2.0#% |
+
+| 173 | 2.0#% |
+
+| 174 | 2.0#% |
+
+| 175 | 2.0#% |
+
+| 176 | 2.0#% |
+
+| 177 | 2.0#% |
+
+| 178 | 2.0#% |
+
+| 179 | 2.0#% |
+
+| 180 | 2.0#% |
+
+| 181 | 2.0#% |
+
+| 182 | 2.0#% |
+
+| 183 | 2.0#% |
+
+| 184 | 2.0#% |
+
+| 185 | 2.0#% |
+
+| 186 | 2.0#% |
+
+| 187 | 2.0#% |
+
+| 188 | 2.0#% |
+
+| 189 | 2.0#% |
+
+| 190 | 2.0#% |
+
+| 191 | 2.0#% |
+
+| 192 | 2.0#% |
+
+| 193 | 2.0#% |
+
+| 194 | 2.0#% |
+
+| 195 | 2.0#% |
+
+| 196 | 2.0#% |
+
+| 197 | 2.0#% |
+
+| 198 | 2.0#% |
+
+| 199 | 2.0#% |
+
+| 200 | 2.0#% |
+
+| 201 | 2.0#% |
+
+| 202 | 2.0#% |
+
+| 203 | 2.0#% |
+
+| 204 | 2.0#% |
+
+| 205 | 2.0#% |
+
+| 206 | 2.0#% |
+
+| 207 | 2.0#% |
+
+| 208 | 2.0#% |
+
+| 209 | 2.0#% |
+
+| 210 | 2.0#% |
+
+| 211 | 2.0#% |
+
+| 212 | 2.0#% |
+
+| 213 | 2.0#% |
+
+| 214 | 2.0#% |
+
+| 215 | 2.0#% |
+
+| 216 | 2.0#% |
+
+| 217 | 2.0#% |
+
+| 218 | 2.0#% |
+
+| 219 | 2.0#% |
+
+| 220 | 2.0#% |
+
+| 221 | 2.0#% |
+
+| 222 | 2.0#% |
+
+| 223 | 2.0#% |
+
+| 224 | 2.0#% |
+
+| 225 | 2.0#% |
+
+| 226 | 2.0#% |
+
+| 227 | 2.0#% |
+
+| 228 | 2.0#% |
+
+| 229 | 2.0#% |
+
+| 230 | 2.0#% |
+
+| 231 | 2.0#% |
+
+| 232 | 2.0#% |
+
+| 233 | 2.0#% |
+
+| 234 | 2.0#% |
+
+| 235 | 2.0#% |
+
+| 236 | 2.0#% |
+
+| 237 | 2.0#% |
+
+| 238 | 2.0#% |
+
+| 239 | 2.0#% |
+
+| 240 | 2.0#% |
+
+| 241 | 2.0#% |
+
+| 242 | 2.0#% |
+
+| 243 | 2.0#% |
+
+| 244 | 2.0#% |
+
+| 245 | 2.0#% |
+
+| 246 | 2.0#% |
+
+| 247 | 2.0#% |
+
+| 248 | 2.0#%"
+20,How much were the Scope 3(a) indirect GHG emissions in 2019 in Mt CO2e?,410,410
+21,What was the total amount of terna’s waste sent for disposal in tonnes for the year 2023?,1063.4,2468.6
+22,How much were the leakages of refrigerant gases recorded in 2022 in tonnes of CO2 equivalent?,219.2,219.2
+23,What was the ratio of VOC emissions per million euros of turnover in 2021?,11.8,"11.8#342228 |
+
+#### and its corresponding scale is: none"
+24,What was the total amount of waste generated in 2023 in kilotonnes?,476.5,476.5
+25,What is the total indirect (Scope 3) emissions for the year 2023 in tonnes of CO2 equivalent?,133875567,1.33876e+08
+26,How many disputes with suppliers were pending in 2023?,36,36
+27,What was the offshore continuous water discharges in mg/l for the year 2020?,12.8,12.8
+28,How many meal equivalents of unsold products were donated to food aid associations in 2023 (in millions of meals)?,48.7,48.7
+29,What was the total installed capacity for RWE Group in 2022 in MW?,39265,13039
+30,What was the other biogenic fuels consumption in Mwh for the year 2019?,1501,"1501#1161#1211#1095#1109 |
+
+### Question
+"
+31,What is the value of biogenic CO2 emissions from equity interest domains recorded in 2021 in Mt CO2e?,-,0.1
+32,What was the total weight of waste generated in tons in 2023?,931.3,931.3
+33,What was the total energy consumption in megawatt-hours (MWh) associated with motorcycle production in 2019?,120583,No answer in the response
+34,What percentage of recycled and/or sustainably managed paper was used in marketing and distribution in 2022?,72%,72%
+35,What were the CO emissions from Wines & Spirits in 2023 pro forma in tonnes of CO2 equivalent?,28164,No answer in the response
+36,What was the number of on-site qualification checks conducted in 2021?,10,10
+37,What was the global energy efficiency indicator (GEEI) for the year 2022?,85.1,85.1
+38,What are the highest and lowest electricity consumption rates in kilowatt-hours per 100 kilometers for the BMW i4 eDrive35?,18.7 - 15.8,18.7#15.8
+39,What was the installed capacity for renewable Onshore Wind/Solar in 2023 in megawatts?,12574,12574
+40,What is the total power generation gross capacity from renewables in construction for Africa in gigawatts?,0,0
+41,What was the percentage change for financed GHG emissions from listed equities and corporate bonds from companies in the oil & gas segment in 2023?,-55.1,"| Thereof: listed equities and corporate bonds from companies in the oil & gas segment - in particular drilling and production, refining and distribution |        -55.1 |        -28.9 |"
+42,How many tonnes of copper were produced in 2022?,10226,10226
+43,What is the intensity of scope 1 GHG emissions related to power generation for the year 2030 in grams of CO2 equivalent per kilowatt-hour?,72,72 gco2eq/kwh
+44,What was the percentage difference of total fossil energy consumption related to own operations between 2023 and 2019?,54%,|-30% |
+45,What was the percentage change for financed GHG emissions from listed equities and corporate bonds from companies in the thermal coal segment in 2023?,64.3,64.3#-47.5
+46,What were the specific net CO2 emissions in kg CO2/t cementitious material for the year 2021?,565,565
+47,What was the specific SO emissions in grams per tonne of clinker for the year 2023?,326,"| Specific SO, emissions (g/t clinker) |    326 |"
+48,What is the electricity power consumption for the MINI Cooper SE Cabrio in kilowatt-hours per 100 kilometers?,17.2,14.7-14.1
+49,What was the water intensity in 2022 in m3/€m insurance revenue?,9,9
+50,What are the 2023 emissions for listed corporates in mn t CO2e?,14,249#192.2
+51,What is the amount of Scope 3 emissions from Europe (EU 27 + Norway + UK + Switzerland) in 2023 in Mt CO2e?,216,No answer in the response
+52,What was the percentage of biomass used in clinker production in 2021?,11.2,26.4#41.7
+53,How much methane was emitted from upstream oil & gas activities in 2021 in kt CH4 from operated domain?,48,48 from operated domain
+54,What was the amount of GHG emissions from equity interest domains and from upstream oil & gas activities in 2015 in Mt CO2e?,22,"50#22 |
+
+"
+55,What was the percentage of petroleum coke used in clinker production in 2021?,18.9,No answer in the response
+56,What was the percentage of re-used water in 2021  for the entire group?,11,11
+57,What was the methane emissions in kilotonnes of CH4 for Africa in 2021 from operated domains?,23,18
+58,How many tonnes of gross indirect GHG emissions from energy consumption (Scope 2) did Fresenius Vamed produce in 2022?,7,63
+59,What was the weight of collected electric and electronic waste in 2023 in tons?,57.3,57.3
+60,What is the total weight of non-hazardous waste destined for disposal in 2023 (million of tonnes)?,0.9,"0.9#2.8 | none |
+
+### Solution
+The value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+61,What was the contribution of Franchises in 2022 in Mt CO2e?,<1,<1
+62,What was the total surface water withdrawal in 2021 in million m3?,28.6,28.6
+63,What was the methane emission amount for the Americas in 2021 in kt CH4?,18,18
+64,What was the energy intensity for the entire group in 2022 in TJ/€mln?,1.7,2.1
+65,What percentage of water was re-used in 2023 for the entire group?,5,5
+66,"In 2022, what was the total installed capacity for Hydro/Biomass/Gas in Türkiye in MW?",787,787
+67,What was the total amount of surface water withdrawn in 2020 in m3?,17461,17461
+68,How much total water withdrawal was recorded in 2023 in million m³ for areas with water scarcity?,14.8,14.8
+69,What was the emission intensity for market-based Scope 1 and 2 in 2023 in kilotonnes of CO2 equivalent per million euros for the entire group?,87.7,87.7
+70,"What was the total installed capacity of Hydro/Biomass/Gas energy sources in the United Kingdom in 2023, in megawatts (MW)?",7335,6949
+71,"How much Hydro/Biomass/Gas energy capacity (in total) was operational in the United Kingdom in 2022, in megawatts (MW)?",7315,6929
+72,What is the energy consumption per revenue in MWh/EUR m for the year 2022?,7.99,7.99
+73,What is the amount of emissions from employee commuting in metric tons for 2023?,3185,3185
+74,How many Mt CO2e were reported for the breakdown by segment - Refining & Chemicals in 2023?,14,No answer in the response
+75,What is the target percentage reduction in waste volume for disposal for cars by 2030?,-82,- Cars: -82%
+76,What were the Scope 1 emissions from distribution centers in tons of CO2 in 2022?,5128,|distribution centers | 5128 |
+77,"What were the total location-based Scope 1, 2 and 3 emissions in 2022 in kilotonnes of CO2 equivalent for the entire group?",4385.6,2355.9
+78,What was the total GHG emissions from equity interest domains and from upstream oil & gas activities in 2023 in Mt CO2e?,19,"12#32 |
+
+"
+79,What percentage of the total waste generated in 2021 was hazardous?,7,7 / 1276.7
+80,What was the percentage of alternative energy sources in 2022?,23.7,23.7%
+81,"What was the CO2 emissions intensity for commercial real estate, residential in 2021?",36.6,36.6 kg CO2e /m2
+82,What was the total emissions from electricity/heat purchased in 2021 in tonnes of CO2 equivalent?,134849,134849
+83,What were the petroleum products GHG emissions in 2021 in Mt CO2e?,285,285
+84,What was the total water withdrawal from surface water bodies in 2023 in million m3?,97,"79 | none |
+
+### Text
+
+| Total water withdrawals from area with water stress | 25.3 |
+
+| Total water withdrawals | 1224 |
+
+| of which: from surface water bodies | 79 |
+
+"
+85,What percentage of the total waste generated in 2023 was non-hazardous?,94,94
+86,What was the specific energy consumption for cement in 2023 in MJ/t?,2981,2981
+87,What was the total gross indirect GHG emissions from energy consumption (Scope 2) for Fresenius Helios in 2020 in tonnes of CO2 equivalent?,128,253
+88,What is the change of total energy consumption from renewable sources for air transport in million kWH between 2022 and 2023?,156.9,881#343
+89,What was the total gross direct GHG emissions (Scope 1) for Fresenius Kabi in 2022 in tonnes of CO2 equivalent?,169,425
+90,What was the amount of electricity generated on site from renewable sources in megawatt-hour for the year 2023?,3158,3158
+91,What was the total GHG emissions from operated domains and from Refining & Chemicals in 2023 in Mt CO2e?,14,"14 + 14 |
+
+"
+92,"What was the GHG emissions per product, measured in kilograms of CO2 equivalent, for the year 2022?",6.5,6.5
+93,What was the amount of Upstream transportation emissions in 2022 in Mt CO2e?,9,9
+94,How many TCO2e were related to fuel- and energy-related activities in 2023?,40652,No answer in the response
+95,What was the value for the breakdown by geography - Europe in 2022 measured in Mt CO2e?,23,No answer in the response
+96,How much seawater was withdrawn in 2022 (million m3)?,1283,1283
+97,What is the count of suppliers with whom Eni has terminated relations in 2021?,34,34
+98,What was the total seawater discharge in 2021 in million m3?,3.9,3.5
+99,How much renewable fuel and heat was consumed in 2022 in MWh?,0,0

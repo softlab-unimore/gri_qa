@@ -1,0 +1,51 @@
+index,question,value,response
+0,Which companies have the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in tons CO2e?,"OTC_RWNEF, munich-re",61.9#85.4
+1,What are the 2 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tCO2eq?,"22042.0, 42423.0","17485#11228 |
+
+### Solution
+The values of location-based scope 2 GHG emissions produced in 2023 are:
+
+11228 |
+
+17485 |
+
+"
+2,What are the top 2 lowest water consumption values (in ascending order) for the year 2023 among the following companies in millions of cu.m?,"5.05, 6.78",5.04914e+06#4.72231e+06
+3,What are the 2 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tons CO2e?,"30490.0, 37172.0","142457#142293 |
+
+"
+4,Which companies have the 2 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tCO2eq?,"vivendi, axa",112228#138339
+5,What are the 2 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2e?,"92467.0, 770748.0",17731#14479
+6,Which company has the largest energy consumption from 2022 to 2023 among the following companies?,munich-re,munich-re
+7,What are the top 3 highest water consumption values (in descending order) for the year 2023 among the following companies in millions of m3?,"35.4, 8.2, 5.05",5.04914e+06#4.84016e+06#4.72231e+06
+8,Which company has the smallest water consumption from 2022 to 2023 among the following companies in million cubic meters?,OTC_BAYZF,OTC_CRERF
+9,What are the 3 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in TCO2eq?,"168709.0, 770748.0, 9720000.0",770748#727100#735018
+10,What are the 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tons CO2e?,"5100000.0, 1120000.0, 142293.0","142293#142457#5.89481e+06 |
+
+The 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tons CO2e are:
+
+142457#142293#5.89481e+06"
+11,Which company has the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tons CO2e?,OTC_BAYZF,"axa |
+
+"
+12,What are the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in million mt CO2e?,"0.02, 0.11, 0.2",112228#138339#22042
+13,What are the top 3 lowest water consumption values (in ascending order) for the year 2023 among the following companies in millions of cu.m?,"5.05, 8.2, 35.4",5.04914e+06#4.84016e+06#4.72231e+06
+14,What is the highest amount of waste generated in the years 2023 and 2022 among the following companies in kt?,927.88,927880#818387 |
+15,Which company has the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in MtCO2eq?,OTC_ESOCF,Response too long
+16,Which companies have the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in TCO2eq?,"vivendi, axa, OTC_RWNEF","22042#22603#24223 | none |
+
+### Input
+Company name: axa
+
+| Unnamed: 0                                                                                                                                                               |   Base year 2019 |     2022 |     2023 | % 2023/2022   | Target 2025   | % 2023/Base Year   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|---------:|---------:|:--------------|:--------------|:-------------------|
+| Scope 1 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Scope 1 GHG emissions                                                                                                                                                 |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| Scope 2 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Market-based Scope 2 GHG emissions                                                                                                                                 |          59232   |  37172   |  30712   | -17%          | -35%          | -48%               |
+| Gross Location-based ”’ Scope 2 GHG emissions                                                                                                                            |          65470   |  45848   |  42423   | -7%%          | nan           | -35%               |
+| Significant Scope 3 GHG emissions                                                                                                                                        |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Total Gross indirect (Scope 3) GHG emissions Market-based                                                                                                                |         258541   | 185354   | 169296   | -9%           | nan           | -35%               |
+| o/w GHG emissions from purchase services related to IT (Category 1)                                                                                                      |           4623   |   5234   |   5955   | 14%           | nan           | 29%                |
+| o/w GHG emissions from capital goods related to IT (Category 2)                                                                                                          |          24147   |  24493   |  23430   | -4%           | nan           | -3%                |
+| o/w GHG emissions from fuel and energy-related Activities (not included in Scope 1 or Scope 2) Market-based ® (Category 3)                                               |          "

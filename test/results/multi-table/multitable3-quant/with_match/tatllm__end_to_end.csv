@@ -1,0 +1,916 @@
+index,question,value,response,correct
+0,What is the sum of location-based scope 2 GHG emissions in 2023 among the following companies in tCO2eq?,354651.0,"174336#238357#42423 |
+
+### | base year 2019 |     2022 |     2023 | % 2023/2022 | target 2025 | % 2023/base year |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| scope 1 ghg emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| gross scope 1 ghg emissions                                                                                                                                              |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| scope 2 ghg emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| gross market-based scope 2 ghg emissions                                                                                                                                 |          59232   |  37172   |  30712   | -17%          | -35%          | -48%               |
+| gross location-based ”’ scope 2 ghg emissions                                                                                                                            |          65470   |  45848   |  42423   | -7%%          | nan           | -35%               |
+| significant scope 3 ghg emissions                                                                                                                                        |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| total gross indirect (scope 3) ghg emissions market-based                                                                                                                |         258541   | 185354   | 169296   | -9%           | nan           | -35%               |
+| o/w ghg emissions from purchase services related to it (category 1)                                                                                                      |           4623   |   5234   |   5955   | 14%           | nan           | 29%                |
+| o/w ghg emissions from capital goods related to it (category 2)                                                                                                          |          24147   |  24493   |  23430   | -4%           | nan           | -3%                |
+| o/w ghg emissions from fuel and energy-related activities (not included in scope 1 or scope 2) market-based ® (category 3)                                               |          20672   |  13324   |  11757   | -12%          | nan           | -43%               |
+| o/w ghg emissions from business travelling (category 6)                                                                                                                  |          86004   |  24831   |  57006   | 130%          | -18%          | -34%               |",False
+1,What is the total amount of waste generated from 2022 to 2023 among the following companies?,258228.6,"1276.7#953.1#476.5 |
+
+### solution
+",False
+2,What is the total amount of waste generated from 2022 to 2023 among the following companies?,2002827.0,"124139#131402#136816#125292#117607 |
+
+",False
+3,What is the average amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,9224778.0,"21.6#5.89481e+06#142945#157002#957429 | none
+
+the value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+4,What is the average amount of GHG emissions Scope 3 in 2022 among the following companies in MtCO2eq?,26.26,"71.04#56.53#1.05752e+06#142945#157002 |
+
+",False
+5,What is the sum of GHG emissions Scope 2 in 2023 among the following companies in tons CO2e?,345650.0,"142457#0.2#0.1 |
+
+the value of ‘scale’ is none",False
+6,What is the average amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2e?,6038082.0,3039435,False
+7,What is the sum of GHG emissions Scope 2 in 2022 among the following companies in million mt CO2e?,0.26,0.1#0.2#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#0.1#,False
+8,What is the average amount of market-based scope 2 GHG emissions in 2023 among the following companies in tCO2eq?,1883570.67,"30712#42423#37172 |
+
+",False
+9,What is the total energy consumption generated by the following companies in the last 2 years in MWh?,3044201.0,250916#313698,False
+10,What is the average energy consumption from 2023 to 2022 among the following companies?,485951.83,"12241#13253 | none |
+
+### table
+
+| company name | gri | indicators | units | 2023 | 2022 | 2021 | 2020 |
+|:-------------|:-------|:---------|:-----|:-----|:-----|:-----|
+| deutsche-telekom-ag | unnamed: 0 | customer satisfaction (tri*m index) | 76.2 | 76 | 73.4 | 72.2 | 67.3 |
+| deutsche-telekom-ag | unnamed: 0 | employee satisfaction (engagement score) | 76 | 78 | 77 | 4 |
+| deutsche-telekom-ag | unnamed: 0 | energy consumption | 12241 | 13253 | 13323 | 12843 |
+| deutsche-telekom-ag | unnamed: 0 | of which: excluding t-mobile us | 4567 | 4704 | na. | na. |
+| deutsche-telekom-ag | unnamed: 0 | co2 emissions (scope 1 and 2) | 217 | 233 | 247 | 2512 |
+| deutsche-telekom-ag | unnamed: 0 | of which: excluding t-mobile us | 171 | 179 | na. | na. |
+| munich-re | unnamed: 0 | natural gas | 108722 | 153307 | 1325491 | 1216845 |
+| munich-re | unnamed: 0 | thereof natural gas for cogeneration | 95188 | 126293 | 1080366 | 1034003 |
+| munich-re | unnamed: 0 | electricity | 95108 | 102313 | 126293 | 1124327 |
+| munich-re | unnamed: 0 | thereof electricity from renewable sources | 86870 | 92518 | 1080366 | 1034003 |
+| munich-re | unnamed: 0 | district heating | 41931 | 51638 | 655204 | 588851 |
+| munich-re | unnamed: 0 | district cooling | 4283 | 5371 | 655204 | 588851 |
+| munich-re | unnamed: 0 | liquid fuel for emergency power | 872 | 1069 | 655204 | 588851 |
+| munich-re | unnamed: 0 | total | 250916 | 313698 | 100 | 100 |
+
+",False
+11,What is the average amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,7292089.33,186894,False
+12,What is the average amount of GHG emissions Scope 2 in 2023 among the following companies in million mt CO2e?,0.07,"14249#3086777#3192798 | none
+
+the value of the ‘scale’ is: none",False
+13,What is the average amount of GHG emissions Scope 2 in 2023 among the following companies in tons CO2e?,418550.0,1.11,False
+14,What is the average of direct GHG emissions from 2022 to 2023 among the following companies?,11911.43,"34.51#53.07 | none |
+
+the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. the value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+15,What is the average energy consumption from 2023 to 2022 among the following companies?,37309.33,35056,False
+16,What is the sum of location-based scope 2 GHG emissions in 2023 among the following companies in MtCO2eq?,3.59,"112228#3.28#4.51 |
+
+### solution
+the sum of location-based scope 2 ghg emissions in 2023 among the following companies in mtco2eq is 112228 + 3.28 + 4.51 |",False
+17,What is the total energy consumption generated by the following companies in the last 2 years in TJ?,770654.01,"329775#347068 |
+
+",False
+18,What is the sum of GHG emissions Scope 2 in 2022 among the following companies in tons CO2e?,1265617.0,"142293#142457#142945#157002 |
+
+### solution
+",False
+19,What is the sum of location-based scope 2 GHG emissions in 2022 among the following companies in tCO2eq?,3965848.0,response too long,False
+20,What is the sum of GHG emissions Scope 2 in 2023 among the following companies in tCO2e?,1127442.0,"1.11#1.12#1.89#3.03 |
+
+the value of the ‘#’ symbol is ‘none’.
+
+",False
+21,What is the sum of location-based scope 2 GHG emissions in 2022 among the following companies in tCO2e?,4058339.0,"138339#30490 |
+
+### solution
+the sum of location-based scope 2 ghg emissions in 2022 among the following companies in tco2e is 138339 + 30490 |
+
+",False
+22,What is the sum of location-based scope 2 GHG emissions in 2022 among the following companies in million mt CO2e?,0.28,"138339#0.1#0.2#358443 |
+
+### input
+company name: otc_rwnef
+
+| greenhouse gas emissions (according to the greenhouse gas protocol) million mt co2e                        | 2022   |
+|:-----------------------------------------------------------------------------------------------------------|:-------|
+| direct greenhouse gas emissions - scope 1                                                                  | 61.9   |
+| indirect energy-related greenhouse gas emissions - scope 2 (location based)                                | 0.2    |
+| indirect upstream and downstream greenhouse gas emissions as the sum of the following categories - scope 3 | 21.6   |
+| category 1: purchased goods and services                                                                   | 2.1    |
+| category 2: capital goods                                                                                  | 2.8    |
+| category 3: combustion fuel and energy-related emissions                                                   | 3.1    |
+| category 4: upstream transmission and distribution                                                         | < 0.1  |
+| category 5: waste                                                                                          | 0.2    |
+| category 6: business travel                                                                                | < 0.1  |
+| category 7: commuting by employees                                                                         | < 0.1  |
+| category 9: downstream transmission and distribution                                                       | < 0.1  |
+| category 10: processing of sold products                                                                   | < 0.1  |
+| category 11: use of sold products                                                                          | 10.8   |
+| category 15: investments                                                                                   | 2.4    |
+| biogenic emissions                                                                                         | 4      |
+
+company name: axa
+
+| unnamed: 0                                                                                                                                                               |   base year 2019 |     2022 |     2023 | % 2023/2022   | target 2025   | % 2023/base year   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|---------:|---------:|:--------------|:--------------|:-------------------|
+| scope 1 ghg emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| gross scope 1 ghg emissions                                                                                                                                              |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| scope 2 ghg emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| gross market-based scope 2 ghg emissions                                                                                                                                 |          59232   |  37172   |  30712   |",False
+23,What is the average amount of GHG emissions Scope 3 in 2023 among the following companies in TCO2eq?,26288339.33,735018#21.6#61.9#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2#2,False
+24,What is the average amount of market-based scope 2 GHG emissions in 2023 among the following companies in tCO2eq?,1561056.33,response too long,False
+25,What is the average of total water consumption in the years 2023 and 2022 among the following companies in millions of cu.m?,18.48,35.4#45.2,False
+26,What is the average of direct GHG emissions from 2022 to 2023 among the following companies?,14460.38,"61.9#85.4 |
+
+",False
+27,What is the average amount of GHG emissions Scope 3 in 2022 among the following companies in TCO2eq?,9233857.33,3130824,False
+28,What is the average amount of GHG emissions Scope 2 in 2023 among the following companies in tons CO2e?,53299.67,"14249#18310#3130824#33093 | none
+
+the value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘{scale}‘ to ’none’. finally, present the final answer in the format of """,False
+29,What is the sum of location-based scope 2 GHG emissions in 2023 among the following companies in tCO2e?,3414270.0,"112228#22042#32333 |
+
+### solution
+the sum of location-based scope 2 ghg emissions in 2023 among the following companies in tco2e is 32333 + 112228 + 22042 = 146594.",False
+30,What is the average amount of GHG emissions Scope 2 in 2022 among the following companies in million mt CO2e?,0.41,"0.1#1.12#3 | none |
+
+### input
+
+| company name: otc_bayzf |
+
+| greenhouse gas emissions |
+
+| million metric tons of co2 equivalents |
+
+| 2022 |
+
+| 1.12 |
+
+| 2023 |
+
+| 1.11 |
+
+| total greenhouse gas emissions according to the market-based method |
+
+| 3 |
+
+| scope 2: indirect emissions according to the market-based method |
+
+| 1.12 |
+
+| 1.11 |
+
+| 3 |
+
+| company name: otc_rwnef |
+
+| greenhouse gas emissions (according to the greenhouse gas protocol) million mt co2e |
+
+| 2023 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 2022 |
+
+| 0.1 |
+
+| 23.8 |
+
+| 3 |
+
+| category 1: purchased goods and services |
+
+| 2.1 |
+
+| category 2: capital goods |
+
+| 2.8 |
+
+| category 3: combustion fuel and energy-related emissions |
+
+| 3.1 |
+
+| category 4: upstream transmission and distribution |
+
+| < 0.1 |
+
+| category 5: waste |
+
+| 0.2 |
+
+| category 6: business travel |
+
+| < 0.1 |
+
+| category 7: commuting by employees |
+
+| < 0.1 |
+
+| category 9: downstream transmission and distribution |
+
+| category 10: processing of sold products |
+
+| 10.8 |
+
+| category 11: use of sold products |
+
+| 12.8 |
+
+| category 15: investments |
+
+| 2.4 |
+
+| biogenic emissions |
+
+| 4 |
+
+| scope 1: direct emissions |
+
+| 61.9 |
+
+| scope 2: indirect emissions according to the market-based method |
+
+| 0.2 |
+
+| total greenhouse gas emissions according to the market-based method |
+
+| 3 |
+
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |
+
+| 21.6 |
+
+| of which indirect emissions from our upstream value chain to attain the sbt |
+
+| 8.98 |
+
+| 23.8 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| 21.6 |
+
+| 3 |
+
+| 0.2 |
+
+| ",False
+31,What is the sum of GHG emissions Scope 2 in 2023 among the following companies in tCO2-eq?,1313193.0,"1.11#3 | none |
+
+### table
+
+| company name: otc_bayzf |
+
+| greenhouse gas emissions |
+
+| million metric tons of co2 equivalents |
+
+| 2023 |
+
+| 3 |
+
+| scope 2: indirect emissions according to the market-based method |
+
+| 1.11 |
+
+| total greenhouse gas emissions according to the market-based method |
+
+| 3 |
+
+| scope 3: indirect emissions from our upstream and downstream value chains (by materiality) |
+
+| 9.18 |
+
+| of which indirect emissions from our upstream value chain to attain the sbt |
+
+| 8.44 |
+
+| company name: otc_rwnef |
+
+| greenhouse gas emissions (according to the greenhouse gas protocol) million mt co2e |
+
+| 2023 |
+
+| 3 |
+
+| direct greenhouse gas emissions - scope 1 |
+
+| 61.9 |
+
+| indirect energy-related greenhouse gas emissions - scope 2 (location based) |
+
+| 0.2 |
+
+| indirect upstream and downstream greenhouse gas emissions as the sum of the following categories - scope 3 |
+
+| 21.6 |
+
+| category 1: purchased goods and services |
+
+| 2.1 |
+
+| category 2: capital goods |
+
+| 2.8 |
+
+| category 3: combustion fuel and energy-related emissions |
+
+| 3.1 |
+
+| category 4: upstream transmission and distribution |
+
+| < 0.1 |
+
+| category 5: waste |
+
+| 0.2 |
+
+| category 6: business travel |
+
+| < 0.1 |
+
+| category 7: commuting by employees |
+
+| < 0.1 |
+
+| category 9: downstream transmission and distribution |
+
+| < 0.1 |
+
+| category 10: processing of sold products |
+
+| < 0.1 |
+
+| category 11: use of sold products |
+
+| 10.8 |
+
+| category 15: investments |
+
+| 2.4 |
+
+| biogenic emissions |
+
+| 4 |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| 1.11#3 |
+
+| none |
+
+| 3 |
+
+| ",False
+32,What is the average amount of market-based scope 2 GHG emissions in 2023 among the following companies in Million metric tons of CO2 equivalents?,0.38,"3 |
+
+### solution
+",False
+33,What is the average amount of market-based scope 2 GHG emissions in 2022 among the following companies in Million metric tons of CO2 equivalents?,0.39,"19496#30724#59232 | none |
+
+### table
+
+| company name: axa | company name: otc_bayzf |
+
+| base year 2019 |     2022 |     2023 | % 2023/2022 | target 2025 | % 2023/base year |
+| scope 1 ghg emissions |          33617 |    nan   |    nan   | nan           | nan           |
+| gross scope 1 ghg emissions |          33617 |  21382 |  21598 | 1%            | -25%          | -36%               |
+| scope 2 ghg emissions |          59232 |    nan   |    nan   | nan           | nan           |
+| gross market-based scope 2 ghg emissions |          59232 |  37172 |  30712 | -17%          | -35%          | -48%               |
+| gross location-based ”’ scope 2 ghg emissions |          65470 |  45848 |  42423 | -7%%          | nan           | -35%               |
+| significant scope 3 ghg emissions |            nan |    nan |    nan | nan           | nan           |
+| total gross indirect (scope 3) ghg emissions market-based |         258541 | 185354 | 169296 | -9%           | nan           | -35%               |
+| o/w ghg emissions from purchase services related to it (category 1) |           4623 |  5234 |  5955 | 14%           | nan           | 29%                |
+| o/w ghg emissions from capital goods related to it (category 2) |          24147 |  24493 |  23430 | -4%           | nan           | -3%                |
+| o/w ghg emissions from fuel and energy-related activities (not included in scope 1 or scope 2) market-based ® (category 3) |          20672 |  13324 |  11757 | -12%          | nan           | -43%               |
+| o/w ghg emissions from business travelling (category 6) |          86004 |  24831 |  57006 | 130%          | -18%          | -34%               |
+| o/w ghg emissions from employee commuting (category 7) |         123094 | 117472 |  71148 | -39%          | nan           | -42%               |
+| total gross indirect (scope 3) ghg emissions location-based |         259356 | 188605 | 174336 | -8%           | nan           | -33%               |
+| total ghg emissions |            nan |    nan |    nan | nan           | nan           |
+| total ghg emissions market-based ® |         351389 | 243909 | 221606 | -9%           | nan           | -37%               |
+| total ghg emissions location-based |         358443 | 255836 | 238357 | -7%           | nan           | -34%               |
+| total ghg emissions of energy, car fleet, business travel and purchase services and capital goods related to it (excluding commuting) (used in “axa for progress index”) |         228295 | 126436 | 150458 | 19%           | -20%          | -34%               |
+| ghg emissions - breakdown by source |            nan |    nan |    nan | nan           | nan           |
+| ghg emissions company’s cars |          24939 |  17273 |  17485 | 1%            | -20%          | -30%               |
+| ghg emissions from energy consumption market-based |          ",False
+34,What is the average amount of GHG emissions Scope 3 in 2023 among the following companies in Million metric tons of CO2 equivalents?,22.92,3039435,False
+35,What is the total amount of waste generated from 2022 to 2023 among the following companies?,1748544.0,"780911#927880#818387#775459#671 |
+
+",False
+36,What is the average amount of GHG emissions Scope 2 in 2022 among the following companies in million mt CO2e?,0.08,"0.1#1.5#1.2#4.5#0.2 | none |
+
+the value of the ‘scale’ is: none",False
+37,What is the sum of location-based scope 2 GHG emissions in 2022 among the following companies in MtCO2eq?,3.89,no answer in the response,False
+38,What is the average energy consumption from 2023 to 2022 among the following companies?,98362.39,33.09#33.26,False
+39,What is the average amount of GHG emissions Scope 3 in 2022 among the following companies in Million metric tons of CO2 equivalents?,4.34,3130824,False
+40,What is the average energy consumption from 2023 to 2022 among the following companies?,424856.0,1124327#1201276#1325491#1216845 |,False
+41,What is the average amount of GHG emissions Scope 2 in 2022 among the following companies in tons CO2e?,86867.67,"14249#18310#142293#18310 |
+
+the average amount of ghg emissions scope 2 in 2022 among the following companies in tons co2e is: 14249 |
+
+the value of the ‘#14249#18310#142293#18310 |’ is numerical, predict its scale and store it in a variable named ‘scale‘. the value of ‘scale‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. for non-numerical values, set the value of ‘scale‘ to ’none’. finally, present the final answer in the format of """,False
+42,What is the average energy consumption from 2023 to 2022 among the following companies?,504656.67,response too long,False
+43,What is the average of total water consumption in the years 2023 and 2022 among the following companies in million cubic meters?,5.79,8.2#12.2 |,False
+44,What is the sum of GHG emissions Scope 2 in 2022 among the following companies in tons CO2e?,245617.0,"0.1#142293#0.2#142293 |
+
+the value of the ‘scale’ is: none",False
+45,What is the average amount of market-based scope 2 GHG emissions in 2023 among the following companies in MtCO2eq?,1.88,"14221#30724#24512 |
+
+",False
+46,What is the sum of GHG emissions Scope 2 in 2023 among the following companies in Million metric tons of CO2 equivalents?,1.27,"1.11#1.12#3 |
+
+the sum of ghg emissions scope 2 in 2023 among the following companies in million metric tons of co2 equivalents is 3.11 |
+
+",False
+47,What is the sum of GHG emissions Scope 2 in 2023 among the following companies in million mt CO2e?,1.32,"14249#0.2#0.1 |
+
+### solution
+the sum of ghg emissions scope 2 in 2023 among the following companies in million mt co2e is 0.2#14249 |
+
+",False
+48,What is the total energy consumption generated by the following companies in the last 2 years in GWh?,26124.96,33.09#33.26,False
+49,What is the sum of location-based scope 2 GHG emissions in 2023 among the following companies in tCO2eq?,176693.0,"174336#22042#32333 | none |
+
+### table
+
+| company name: axa | company name: vivendi |
+
+| total ghg emissions location-based | 174336#32333 |
+
+| total ghg emissions market-based | 221606#24512 |
+
+| total ghg emissions | 221606#32333#174336 |
+
+| total ghg emissions (market-based) per person (tco, eq/fte) | 2.9#1 |
+
+| total ghg emissions (market-based) per revenue (tco, eq/€ million) | 34#1 |
+
+| total ghg emissions - breakdown by source | 17485#22042#32333 |
+
+| ghg emissions - breakdown by source | 17485#22042#32333 |
+
+| ghg emissions company’s cars | 17485#24939#32333 |
+
+| ghg emissions from energy consumption market-based | 46581#88582#22042 |
+
+| ghg emissions from energy consumption location-based © | 67967#72849#22042 |
+
+| ghg emissions it market-based | 40267#42431#43918 |
+
+| ghg emissions it location-based | 48707#49474#49724 |
+
+| general indicators | 121354#118791#121337 |
+
+| average full time equivalent (fte) of workforce | 121354#118791#121337 |
+
+| internal area: occupied and vacant (m2) | 1293#1416#1630 |
+
+| revenue (in euro million) ® | 102736#101844#103532 |
+
+| number of terminals inventoried | 330638#344155#354417 |
+
+| ratios | 1#2.2#2.9 |
+
+| total ghg emissions (market-based) per person (tco, eq/fte) | 1.8#2.2#2.9 |
+
+| ghg intensity (market-based ) per revenue (tco, eq/€ million) | 2.2#34#2.9 |
+
+| ghg emissions from employee commuting per person (tco2 eq/fte) | 0.6#1#1 |
+
+| tco,eq | 10291#11228#10291#11228 |
+
+| scope 1 | 10291#11228#10291#11228 |
+
+| scope 2 market-based | 14221#19496#14221#19496 |
+
+| scope 2 location-based | 22042#22603#22042#22603 |
+
+| total scopes 1 and 2 market-based | 24512#30724#24512#30724 |
+
+| total scopes 1 and 2 location-based | 32333#33831#32333#33831 |
+
+| partial scope 3 (a) | 735018#770748#735018#770748 |
+
+| partial scope 3 restated (a) (b) | 735018#727100#735018#727100 |
+
+| company name: axa | company name: vivendi |
+
+| total ghg emissions | 221606#32333#174336 |
+
+| total",False
+50,What is the total amount of non-hazardous waste produced in the years 2023 and 2022 among the following companies in kt?,898.52,9214#8430,False
+51,What is the sum of GHG emissions Scope 2 in 2022 among the following companies in Million metric tons of CO2 equivalents?,1.14,"1.12#1.89#1.11#3.03 |
+
+the value of ‘scale’ is: none",False
+52,What is the average amount of GHG emissions Scope 3 in 2022 among the following companies in tCO2-eq?,8246485.67,727100,False
+53,What is the average amount of market-based scope 2 GHG emissions in 2022 among the following companies in TCO2eq?,64093.0,no answer in the response,False
+54,What is the average amount of GHG emissions Scope 2 in 2023 among the following companies in Million metric tons of CO2 equivalents?,0.38,1.11,False
+55,What is the sum of location-based scope 2 GHG emissions in 2023 among the following companies in million mt CO2e?,0.26,"22042#45848#42423 |
+
+### solution
+",False
+56,What is the total amount of non-hazardous waste produced in the years 2023 and 2022 among the following companies in tons?,898521.0,9214#8430,False
+57,What is the average amount of GHG emissions Scope 2 in 2022 among the following companies in tCO2-eq?,40544.67,"18310#14249#12330 | none
+
+the value of the ‘scale’ is: none",False
+58,What is the sum of location-based scope 2 GHG emissions in 2022 among the following companies in million mt CO2e?,3.94,"22603#22042#22603 | none |
+
+### text
+
+| greenhouse gas emissions (according to the greenhouse gas protocol) million mt co2e                        | 2022   |
+|:-----------------------------------------------------------------------------------------------------------|:-------|
+| direct greenhouse gas emissions - scope 1                                                                  | 85.4   |
+| indirect energy-related greenhouse gas emissions - scope 2 (location based)                                | 0.1    |
+| indirect upstream and downstream greenhouse gas emissions as the sum of the following categories - scope 3 | 23.8   |
+| category 1: purchased goods and services                                                                   | 1.5    |
+| category 2: capital goods                                                                                  | 1.2    |
+| category 3: combustion fuel and energy-related emissions                                                   | 4.5    |
+| category 4: upstream transmission and distribution                                                         | < 0.1  |
+| category 5: waste                                                                                          | 0.2    |
+| category 6: business travel                                                                                | < 0.1  |
+| category 7: commuting by employees                                                                         | < 0.1  |
+| category 9: downstream transmission and distribution                                                       | < 0.1  |
+| category 10: processing of sold products                                                                   | < 0.1  |
+| category 11: use of sold products                                                                          | 12.8   |
+| category 15: investments                                                                                   | 3.5    |
+| biogenic emissions                                                                                         | -      |
+
+| tco,eq                              |   2023 |   2022 | (2023 vs 2022)   |
+|:------------------------------------|-------:|-------:|:-----------------|
+| scope 1                             |  10291 |  11228 | -8%              |
+| scope 2 market-based                |  14221 |  19496 | -27%             |
+| scope 2 location-based              |  22042 |  22603 | -2%              |
+| total scopes 1 and 2 market-based   |  24512 |  30724 | -20%             |
+| total scopes 1 and 2 location-based |  32333 |  33831 | -4%              |
+| partial scope 3 (a)                 | 735018 | 770748 | -5%              |
+| partial scope 3 restated (a) (b)    | 735018 | 727100 | 1.00%            |
+
+### input
+
+| greenhouse gas emissions (according to the greenhouse gas protocol) million mt co2e                        | 2022   |
+|:-----------------------------------------------------------------------------------------------------------|:-------|
+| direct greenhouse gas emissions - scope 1                                                                  | 85.4   |
+| indirect energy-related greenhouse gas emissions - scope 2 (location based)                                | 0.1    |
+| indirect upstream and downstream greenhouse gas emissions as the sum of the following categories - scope 3 | 23.8   |
+| category 1: purchased goods and services                                                                   | 1.5    |
+| category 2: capital goods                                                                                  | 1.2    |
+| category 3: combustion fuel and energy-related emissions                                                   | 4.5    |
+| category 4: upstream transmission and distribution                                                         | < 0.1  |
+| category 5: waste                                                                                          | 0.2    |
+| category 6: business travel                                                                                | < 0.1  |
+| category 7: commuting by employees                                                                         | < 0.1  |
+| category 9: downstream transmission and distribution                                                       | < 0.1  |
+| category 10: processing of sold products                                                                   | < 0.1  |
+| category 11: use of sold products                                                                          | 12.8   |
+| category 15: investments                                                                                   | 3.5    |
+| biogenic emissions                                                                                         | -      |
+
+| tco,eq                              |   2023 |   2022 | (2023 vs 2022)   |
+|:------------------------------------|-------:|-------:|:-----------------|
+| scope 1                             |  10291 |  11228 | -8%              |
+| scope 2 market-based                |  14221 |  19496 | -27%             |
+| scope 2 location-based              |  22042 |  22603 | -2%              |
+| total scopes 1 and 2 market-based   |  24512 |  30724 | -20%             |
+| total scopes 1 and 2 location-based |  32333 |  33831 | -4%              |
+| partial scope 3 (a)                 | 735018 | 770748 | -5%              |
+| partial scope 3 restated (a) (b)    | 735018 | 727100 | 1.00%            |
+
+### output
+
+",False
+59,What is the average amount of market-based scope 2 GHG emissions in 2023 among the following companies in tCO2e?,54869.0,"142457#142293#19496 |
+
+the corresponding scale is: none |
+
+",False
+60,What is the average amount of market-based scope 2 GHG emissions in 2022 among the following companies in tCO2eq?,69985.0,"24493#37172#30490 | none
+
+### input
+company name: otc_adddf
+
+| unnamed: 0                                                                                                                                                               |             2022 |             2023 |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|-----------------:|
+| scope 1 emissions (in tons co2e)                                                                                                                                     |  21779           |  21856           |
+| administrative offices                                                                                                                                               |   9863           |  10752           |
+| distribution centers                                                                                                                                                 |   5831           |   5128           |
+| own retail stores                                                                                                                                                 |   5160           |   5439           |
+| showrooms                                                                                                                                                             |    925           |    537           |
+| scope 2 emissions, market-based (in tons co2e)                                                                                                                         | 142457           | 142293           |
+| administrative offices                                                                                                                                               |  16349           |  13354           |
+| distribution centers                                                                                                                                                 |  20311           |  21647           |
+| own retail stores                                                                                                                                                 |  102003           |  104480           |
+| showrooms                                                                                                                                                             |   3794           |   2812           |
+| scope 3 emissions (in tons coze)                                                                                                                                     |      5.89481e+06 |      7.63578e+06 |
+| purchased goods and services                                                                                                                                           |      4.503e+06   |      6.04155e+06 |
+| upstream transportation and distribution                                                                                                                             | 247684           | 343556           |
+| business travel                                                                                                                                                     |  43753           |  36158           |
+| use of sold products                                                                                                                                                 | 957429           |      1.05752e+06 |
+| end-of-life treatment of sold products                                                                                                                                 | 142945           | 157002           |
+| total emissions (in tons co2e)                                                                                                                                         |      6.05905e+06 |      7.79993e+06 |
+| ghg emissions per product, total emissions/production volume (kg co2e per product) |      6.3         |      6.5         |
+
+company name: axa
+
+| unnamed: 0                                                                                                                                ",False
+61,What is the average amount of GHG emissions Scope 2 in 2023 among the following companies in million mt CO2e?,0.12,"0.2#6.3#21.6#2 |
+
+the average amount of ghg emissions scope 2 in 2023 is: (0.2 + 21.6) / 6.3 |
+
+",False
+62,What is the average amount of market-based scope 2 GHG emissions in 2022 among the following companies in tCO2eq?,1759821.67,response too long,False
+63,What is the total amount of waste generated from 2022 to 2023 among the following companies?,257818.0,"124139#131402#136816#125292 |
+
+### units | 2023 | 2022 | 2021 | 2020 |
+
+| metric tons | 124139#131402#136816#125292 |
+
+",False
+64,What is the sum of total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2-eq?,20501959.0,"3086777#69913#14249#18310#3039435#43664#5.89481e+06#7.79993e+06 |
+
+",False
+65,What is the average amount of GHG emissions Scope 2 in 2022 among the following companies in million mt CO2e?,0.45,"0.1#1.12#2022 |
+
+the average amount of ghg emissions scope 2 in 2022 among the following companies in million mt co2e is: 0.1 |
+
+the corresponding scale is: none |
+
+",False
+66,What is the total amount of waste generated from 2022 to 2023 among the following companies?,2023203.0,"10007#11388#124139#131402#136816#125292 |
+
+",False
+67,What is the total energy consumption generated by the following companies in the last 2 years in TWh?,511.58,response too long,False
+68,What is the sum of GHG emissions Scope 2 in 2022 among the following companies in Million metric tons of CO2 equivalents?,1.22,"1.12#1.11#1.12#1.11 |
+
+the value of ‘#’ is none",False
+69,What is the average amount of market-based scope 2 GHG emissions in 2022 among the following companies in TCO2eq?,29052.67,no answer in the response,False
+70,What is the average amount of GHG emissions Scope 3 in 2022 among the following companies in million mt CO2e?,9.01,3130824,False
+71,What is the total energy consumption generated by the following companies in the last 2 years in GWh?,257627.44,33.09#33.26,False

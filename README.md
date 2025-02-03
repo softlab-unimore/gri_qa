@@ -1,21 +1,27 @@
-# gri_qa
+# GRI-QA: a Benchmark for Multi-Tabular Question Answering over Environmental Data
 
-## How to run the experiments
+**GRI-QA** is a benchmark for Multi-Tabular Question Answering over environmental data available at [dataset](./dataset/). The benchmark is composed by several question types:  
+- **extractive** questions, divided in the datasets  
+  - *extra*: questions that require the identification of relevant span(s) in a table;  
+  - *hier*: same as *extra*, but on hierarchical rows;  
+- **transformative** questions, split in  
+  - datasets to test reasoning on single tables:  
+    - *rel*: requires the identification of relations between cells;  
+    - *quant*: requires the computation of quantitative results;  
+    - *step*: questions combining the operations of the *rel* and *quant*;  
+  - and datasets to test reasoning on multiple tables (2,3 or 5 tables):  
+    - *mrel*  
+    - *mquant*  
+    - *mstep*  
 
-Run one of the `test` files in the main directory. Specify the name of the dataset you want to test, e.g. `gri-qa_extra.csv`. The name must exactly match the file name inside the `dataset` dir
+For more information, please refer to our paper.
 
-```
-python3 [TEST_SCRIPT] --dataset [DATASET_NAME]
-```
+# Repository organization
 
-The script will save the results in `results/[DATASET_NAME]` dir. The results include the CO2 emissions of the model and the csv predictions with/without the boolean matches.
+- `dataset/` holds the whole GRI-QA benchmark, as well as the sampled datasets used for the human baseline;
+- `table_extraction/` holds the code to extract, given a GRI (Global Reporting Initiative) description, the relevant tables from corporate reports (pdf files);
+- `test/` holds the code to reproduce the results in Section 4 of the paper.
 
-## How to evaluate the experiments
+# License
 
-Run the `extract_metrics.py` script. The script will run the exact match metric on the results provided by the models specified in the first few lines of `extract_metrics.py` (inside main, variable `models`). Be sure that the model you want to evaluate is listed. This time, when specifying the dataset, use either `extra`, `quant`, `rel` or `intertable[X]` to evaluate the models on `gri-qa_extra.csv`, `gri-qa_quant.csv`, `gri-qa_rel.csv` or `gri-qa_intertable[X].csv` respectively.
-
-```
-python3 extract_metrics.py --dataset ['extra' | 'quant' | 'rel' | 'intertable2' | 'intertable3' | 'intertable5' | 'intertable10']
-```
-
-The results will be saved inside the file `metrics.csv` in `results/[DATASET_NAME]`.
+GRI-QA is under the [MIT license](./LICENSE)

@@ -1,0 +1,1834 @@
+index,question,value,response
+0,What are the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"3280000.0, 112228.0","174336#42423 |
+
+### Table
+Company name: OTC_ESOCF
+
+| Unnamed: 0                                                                                                                                                               | Unnamed: 1    |      2023 |      2022 | Change   | Change.1   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|----------:|----------:|:---------|:-----------|
+| Direct greenhouse gas emissions - Scope 1                                  | MtCO2eq       |    34.51  |    53.07  | (18.56)  | -35.0%     |
+| Indirect greenhouse gas emissions - Scope 2 - location based               | MtCO2eq       |     3.28  |     3.82  | (0.54)   | -14.1%     |
+| Indirect greenhouse gas emissions - Scope 2 - market based                 | MtCO2eq       |     4.51  |     5.1   | (0.59)   | -11.6%     |
+| Indirect greenhouse gas emissions - Scope 3                                | MtCO2eq       |    56.53  |    71.04  | (14.51)  | -20.4"
+1,Which companies have the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"OTC_ESOCF, NYSE_AZ","axa#otsof_esofcf |
+
+### Table
+Company name: axa
+
+| Unnamed: 0                                                                                                                                                               |   Base year 2019 |     2022 |     2023 | % 2023/2022   | Target 2025   | % 2023/Base Year   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|---------:|---------:|:--------------|:--------------|:-------------------|
+| Scope 1 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Scope 1 GHG emissions                                                                                                                                              |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| Scope 2 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Market-based Scope 2 GHG emissions                                                                                                                                 |          59232   |  37172   |  307"
+2,What are the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2-eq?,"142457.0, 14249.0, 3193.0","142497#142497#142497 | none |
+
+### Input tables
+
+Company name: OTC_ADDDF
+
+| Unnamed: 0                                                                         |             2023 |             2022 |
+|:-----------------------------------------------------------------------------------|-----------------:|-----------------:|
+| Scope 1 emissions (in tons CO2e)                                                   |  21779           |  21856           |
+| Administrative offices                                                             |   9863           |  10752           |
+| Distribution centers                                                               |   5831           |   5128           |
+| Own retail stores                                                                  |   5160           |   5439           |
+| Showrooms                                                                          |    925           |    537           |
+| Scope 2 emissions, market-based (in tons CO2e)                                     | 142457           | 142293           |
+| Administrative offices                                                             |  16349           |  13354           |
+| Distribution centers                                                               |  20311           |  21647           |
+| Own retail stores                                                                  | 102003           | 104480           |
+| Showrooms                                                                          |   3794           |   2812           |
+
+Company name: NASDAQ_DASTY
+
+| Unnamed: 0                                                                         |             2023 |             2022 |
+|:-----------------------------------------------------------------------------------|-----------------:|-----------------:|
+| Scope 1 emissions (in tons CO2e)                                                   |  21779           |  21856           |
+| Administrative offices                                                             |   9863           |  10752           |
+| Distribution centers                                                               |   5831           |   5128           |
+| Own retail stores                                                                  |   5160           |   5439           |
+| Showrooms                                                                          |    925           |    537           |
+| Scope 2 emissions, market-based (in tons CO2e)                                     | 142457           | 142293           |
+| Administrative offices                                                             |  16349           |  13354           |
+| Distribution centers                                                               |  20311           |  21647           |
+| Own retail stores                                                                  |"
+3,What is the maximum amount of market-based scope 2 GHG emissions in 2022 among the following companies in MtCO2eq?,5.1,No answer in the response
+4,What are the 2 lowest amounts of non-hazardous waste produced in 2022 (sorted in ascending order) among the following companies in tons?,"8430.0, 123311.0",1154#126 |
+5,What are the 2 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in TCO2eq?,"168709.0, 770748.0",727100#770748
+6,What is the lowest energy consumption over the last 2 years among the following companies in million kWh?,71.22,35056
+7,Which companies have the 3 lowest amounts of non-hazardous waste produced in 2022 (sorted in ascending order) among the following companies in kt?,"vivendi, OTC_SU, NYSE_TTE","OTC_SU#vivendi#NYSE_TTE |
+
+"
+8,What are the 2 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"7635784.0, 3130824.0",770748#727100
+9,Which company has the smallest water consumption from 2022 to 2023 among the following companies in million cubic meters?,OTC_BAYZF,OTC_CRERF
+10,Which companies have the 3 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tons CO2e?,"OTC_BAYZF, OTC_ADDDF, vivendi",OTC_ADDDF#OTC_BAYZF#vivendi
+11,What are the top 2 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in TJ?,"565200.0, 329775.0",Response too long
+12,Which companies have the top 2 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in TWh?,"NYSE_TTE, OTC_SU","OTC_SU#302-1, 302-4#1124327#NAN |
+
+"
+13,Which companies have the 2 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"vivendi, OTC_BAYZF",OTC_BAYZF#OTC_ESOCF
+14,What are the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in million kWh?,"33.09, 1124.33, 35056.0",33.09#33.27#1826 |
+15,What is the highest amount of waste generated in the years 2023 and 2022 among the following companies in kt?,927.88,927880#818387 |
+16,Which companies have the top 2 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in TJ?,"NYSE_TTE, heidelberg-materials",Response too long
+17,Which company has the highest amount of waste generated in the years 2023 and 2022 among the following companies in kt?,heidelberg-materials,"OTC_SU |
+
+| Company name: OTC_SU |
+
+| 306-3, 306-4, 306-5 | Non-hazardous waste generated |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139 |
+
+| 124139"
+18,What are the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in MtCO2eq?,"0.04, 0.11, 3.28","112228#138339#174336 |
+
+### Instruction
+Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+19,Which companies have the 3 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tCO2-eq?,"munich-re, vivendi, NASDAQ_DASTY","munich-re#vivendi#nasdaq_dasty |
+
+### Solution
+The companies with the 3 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tCO2-eq are:
+
+1. vivendi
+2. munich-re
+3. nasdaq_dasty"
+20,Which companies have the top 3 lowest water consumption values (in ascending order) for the year 2023 among the following companies in millions of cu.m?,"OTC_BAMGF, OTC_CRERF, OTC_ESOCF",OTC_CRERF#OTC_ESOCF#OTC_BAMGF
+21,What are the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.03, 0.14, 1.12","142293#142457#142945 |
+
+The corresponding scale is: none |
+
+"
+22,Which company has the lowest location-based scope 2 GHG emissions in the last 2 years among the following companies in tCO2eq?,axa,"OTC_ESOCF |
+
+"
+23,Which companies have the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in TCO2eq?,"vivendi, NYSE_AZ, munich-re","vivendi#munich-re#nyse_a#
+
+The corresponding scale is: none"
+24,What is the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in Million metric tons of CO2 equivalents?,1.11,30724
+25,Which company has the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in Million metric tons of CO2 equivalents?,OTC_BAYZF,OTC_BAYZF
+26,What is the highest water consumption in the years 2023 and 2022 for the following companies in m3?,45200000.0,45.2#35.4
+27,What are the 2 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"5100000.0, 1120000.0",19496#30724
+28,What is the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,9180000.0,735018
+29,Which companies have the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in MWh?,"NASDAQ_DASTY, OTC_DPSGY, NYSE_TTE","TTE#DPSGY#DSTY |
+
+| Company name: NYSE_TTE |
+
+| Unit                                                                                             | 2015   | 2019   | 2020   | 2021   | 2022   |   2023 |
+|:-------------------------------------------------------------------------------------------------|:-------|:-------|:-------|:-------|:-------|-------:|
+| Energy mix (sales)                                                                               | nan    | nan    | nan    | nan    | nan    |  nan   |
+| Petroleum products(a) (%)                                                                        | 65     | 53     | 47*    | 44*    | 41     |   43   |
+| Gas(b) (%)                                                                                       | 33     | 40     | 45*    | 48*    | 50     |   47   |
+| Low-carbon energies(c) (%)                                                                       | 2      | 7      | 7      | 8*     | 9      |    9   |
+| Petroleum products                                                                               | nan    | nan    | nan    | nan    | nan    |  nan   |
+| Petroleum products - sales (Mb/day)                                                              | 2.4    | 2.3    | 1.8    | 1.8    | 1.7    |    1.6 |
+| Gas                                                                                              | nan    | nan    | nan    | nan    | nan    |  nan   |
+| LNG - sales (Mt)                                                                                 | 13     | 34     | 38     | 42     | 48     |   44   |
+| Electricity                                                                                      | nan    | nan    | nan    | nan    | nan    |  nan   |
+| Gross renewable electricity capacity(d) (GW)                                                     | 0      | 3      | 7      | 10     | 17     |   22   |
+| Net production(e) (TWh)                                                                          | 2      | 11     | 14     | 21     | 33     |   33   |
+| Clients BtB and BtC (Millions)                                                                   | <2     | 6      | 8      | 9      | 8      |    9   |
+| EV charging points (Thousands)                                                                   | 0      | 0      | 22     | 26     | 42     |   60   |
+| Low-carbon molecules                                                                             | nan    | nan    | nan    | nan    | nan    |  nan   |
+| Biofuels - production (Mt)                                                                       | —      | 0.2    | 0.3    | 0.5    | 0.2    |    0.3 |
+| Biogas - production (TWh)                                                                        | —      | —      | —      | <1     | 1      |    1   |
+| Net investments                                                                                  | nan    | nan    | nan    | nan    | nan    |  nan   |
+| Oil (B$)                                                                                         | 13     | 9      | 6      | 7      | 10     |    6   |
+| LNG & Gas (B$)                                                                                   | 7      | 7      | 5      | 5      | 2      |    5   |
+| Low-carbon energies (B$)                                                                         | 0      | 1      | 2      | 4      | 4      |    6   |
+| Integrated Power (B$)                                                                            | 0      | 1      | 2      | 3      | 4      |    5   |
+| Low-carbon molecules (B$)                                                                        | 0      | <1     | <1     | <1     | <1     |    1   |
+| Energy consumption                                                                               | nan    | nan    | nan    | nan    | nan    |  nan   |
+| Net primary energy consumption(f) (TWh)                                                          | 153    | 160    | 147    | 148    | 166    |  157   |
+| Renewable energy consumption(g) (TWh)                                                            | —      | —      | 1      | 1      | 1      |    2   |
+| Global Energy Efficiency Indicator (GEEI) (Base 100 in 2010)                                     | 90.8   | 88.0   | 90.2   | 87.0   | 85.1   |   86.4 |
+| Energy management system                                                                         | nan    | nan    | nan    | nan    | nan    |  nan   |
+| Operated sites with an auditable energy management system (annual consumption > 50 ktoe)(g) (Nb) | —      | —      | 26     | 27     | 27     |   34   |
+| Operated sites with annual consumption > 50 ktoe(h) (Nb)                                         | —      | —      | 42     | 46     | 46     |   43   |
+
+Company name: OTC_DPSGY
+
+| ESG figures                                     | Unnamed: 1      | 2019   | 2020 adjusted   | 2021   |   2022 adjusted |      2023 |
+|:------------------------------------------------|:----------------|:-------|:----------------|:-------|----------------:|----------:|
+| Logistics-related GHG emissions                 | million t CO2e  | 33.2   | 33.64           | 39.36  |           36.59 |     33.2"
+30,Which companies have the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in tons CO2e?,"OTC_RWNEF, munich-re",61.9#85.4
+31,What are the 2 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tCO2e?,"71040000.0, 7635784.0",71.04#56.53
+32,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tons CO2e?,7799933.0,"79705 |
+
+"
+33,Which companies have the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"NYSE_AZ, OTC_ADDDF, OTC_BAYZF",142293#142457#142945
+34,What is the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in Million metric tons of CO2 equivalents?,9.72,3130824
+35,What are the 2 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"23.8, 9.72",92467#96745
+36,What is the highest energy consumed in the last 2 years among the following companies in GWh?,13253.0,33.26#33.09 |
+37,What are the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in million mt CO2e?,"0.0, 0.02, 61.9",Response too long
+38,Which companies have the 2 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2e?,"NYSE_AZ, vivendi",727100#92467
+39,Which companies have the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in TCO2eq?,"OTC_BAYZF, NYSE_AZ",vivendi#NYSE_AZ
+40,What are the 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"1120000.0, 37172.0, 19496.0","19496#185354#30712 |
+
+### Solution
+The values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq are:
+
+19496#185354#30712"
+41,What is the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,5894811.0,"179523#5.89481e+06#3039435 | none |
+
+The value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+42,Which companies have the 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"OTC_BAYZF, axa, vivendi","19496#11228#30724 |
+
+### Input
+Company name: axa
+
+| Unnamed: 0                                                                                                                                                               |   Base year 2019 |     2022 |     2023 | % 2023/2022   | Target 2025   | % 2023/Base Year   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|---------:|---------:|:--------------|:--------------|:-------------------|
+| Scope 1 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Scope 1 GHG emissions                                                                                                                                              |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| Scope 2 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Market-based Scope 2 GHG emissions                                                                                                                                 |          59232   |  37172   |  30712   | -17%          | -35%          | -48%               |
+| Gross Location-based ”’ Scope 2 GHG emissions                                                                                                                            |          65470   |  45848   |  42423   | -7%%          | nan           | -35%               |
+| Significant Scope 3 GHG emissions                                                                                                                                        |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Total Gross indirect (Scope 3) GHG emissions Market-based                                                                                                                |         258541   | 185354   | 169296   | -9%           | nan           | -35%               |
+| o/w GHG emissions from purchase services related to IT (Category 1)                                                                                                      |           4623   |   5234   |   5955   | 14%           | nan           | 29%                |
+| o/w GHG emissions from capital goods related to IT (Category 2)                                                                                                          |          24147   |  24493   |  23430   | -4%           | nan           | -3%                |
+| o/w GHG emissions from fuel and energy-related Activities (not included in Scope 1 or Scope 2) Market-based ® (Category 3)                                               |          20672   |  13324   |  11757   | -12%          | nan           | -43%               |
+| o/w GHG emissions from business travelling (Category 6)                                                                                                                  |          86004   |  24831   |  57006   | 130%          | -18%          | -34%               |
+| o/w GHG emissions from employee commuting (Category 7)                                                                                                                   |         123094   | 117472   |  71148   | -39%          | nan           | -42%               |
+| Total Gross indirect (Scope 3) GHG emissions Location-based                                                                                                              |         259356   | 188605   | 174336   | -8%           | nan           | -33%               |
+| Total GHG Emissions                                                                                                                                                      |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Total GHG emissions Market-based ®                                                                                                                                       |         351389   | 243909   | 221606   | -9%           | nan           | -37%               |
+| Total GHG emissions Location-based                "
+43,What are the 3 highest amounts of non-hazardous waste produced in 2022 (sorted in descending order) among the following companies in tons?,"322000.0, 123311.0, 8430.0","128267#123311#117607 |
+
+"
+44,Which company has the highest energy consumed in the last 2 years among the following companies in million kWh?,OTC_DPSGY,OTC_DPSGY
+45,Which company has the largest energy consumption from 2022 to 2023 among the following companies?,munich-re,munich-re
+46,Which company has the lowest energy consumption over the last 2 years among the following companies in million kWh?,NASDAQ_DASTY,OTC_DPSGY
+47,What are the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in TWh?,"1.12, 12.24, 157.0","1124327#12241#707033 |
+
+### Input
+Company name: OTC_SU
+
+| GRI          | Indicators                                                                  | Units         | 2023    | 2022    | 2021    | 2020    |
+|:-------------|:----------------------------------------------------------------------------|:--------------|:--------|:--------|:--------|:--------|
+| nan          | Estimated coverage (% energy consumption)                                   | %             | 95%     | 95%     | 95%     | 96%     |
+| nan          | ISO 50001 certified sites                                                   | #             | 128     | 132     | 140     | 150     |
+| 302-1, 302-4 | Estimated total energy consumption                                          | MWh           | 1124327 | 1201276 | 1325491 | 1216845 |
+| 302-1, 302-4 | of which measured energy consumption                                        | MWh           | 934805  | 979497  | 1080366 | 1034003 |
+| 302-1, 302-4 | of which estimated energy consumption for sites out of reporting perimeter? | MWh           | 189522  | 221779  | 245125  | 182842  |
+| 302-1, 302-4 | Estimated total energy consumption/turnover                                 | MWh/million € | 31.3    | 35.1    | 45.9    | 48.3    |
+| 302-1, 302-4 | Estimated total energy productivity                                         | €/MWh         | 31932   | 28450   | 21803   | 20709   |
+| 302-1, 302-4 | Estimated total improvement in energy productivity vs "
+48,What is the largest energy consumption from 2022 to 2023 among the following companies?,347068,"329775#363226 | none |
+
+### Solution
+
+| Company name: OTC_DPSGY |
+
+| Energy consumption (MWh) | 363226 |
+
+| Company name: heidelberg-materials |
+
+| Energy consumption (MWh) | 329775 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name: NASDAQ_DASTY |
+
+| Energy consumption (MWh) | 314126 |
+
+| Company name:"
+49,What are the 3 lowest amounts of non-hazardous waste produced in 2022 (sorted in ascending order) among the following companies in kt?,"8.43, 123.31, 322.0","1154#123311#128267 |
+
+"
+50,What are the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in TCO2eq?,"10291.0, 31774.0, 33093.0","10291#10841#33093 |
+
+"
+51,What are the 2 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in MtCO2eq?,"0.02, 1.89","1.91#34.51#53.07#1.89#34.51#53.07 |
+
+"
+52,Which companies have the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in MtCO2eq?,"axa, NYSE_AZ, OTC_ESOCF","174336#138339#112228 |
+
+### Instruction
+Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+53,Which companies have the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in TCO2eq?,"OTC_ESOCF, OTC_RWNEF",OTC_RWNEF#vivendi
+54,Which companies have the 3 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"OTC_ESOCF, OTC_RWNEF, NYSE_AZ","OTC_ESOCF#OTC_RWNEF#NYSE_AZ |
+
+The values of the 3 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) are: 112228#34.51#7929 |
+
+The corresponding scale is: none |
+
+"
+55,Which company has the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,OTC_RWNEF,OTC_RWNEF
+56,What is the largest energy consumption from 2022 to 2023 among the following companies?,1201276.0,"33.09#33.26 | none |
+
+### Solution
+"
+57,What is the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in MtCO2eq?,4.51,Response too long
+58,What is the maximum amount of market-based scope 2 GHG emissions in 2022 among the following companies in tons CO2e?,1120000.0,19496
+59,Which companies have the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in million mt CO2e?,"OTC_BAYZF, OTC_RWNEF, OTC_ADDDF","OTC_RWNEF#OTC_BAYZF#OTC_ADDDF |
+
+"
+60,Which companies have the 2 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tCO2eq?,"vivendi, axa",112228#138339
+61,Which companies have the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in TWh?,"OTC_SU, deutsche-telekom-ag, NYSE_TTE","OTC_SU#302-1, 302-4#NYSE_TTE |
+
+| Company name |
+|:-------------|
+| OTC_SU |
+| NYSE_TTE |
+
+| Unnamed: 0 |
+|:--------------|
+| Customer satisfaction (TRI*M index) |
+| Employee satisfaction (engagement score) |
+| Energy consumption |
+
+| 302-1, 302-4 |
+| nan |
+
+| 302-1, 302-4 |
+| Measured energy consumption by source |
+| grid electricity |
+| purchased renewable electricity |
+| self generated renewable electricity |
+| district heating |
+| fuel oil |
+| gas |
+| renewable fuel and heat |
+
+| 302-1, 302-4 |
+| Estimated total energy consumption |
+| Estimated total energy consumption/turnover |
+| Estimated total energy productivity |
+| Estimated total improvement in energy productivity vs 2005 |
+| Estimated total energy consumption from renewable sources |
+| Estimated total percentage of renewable energy |
+| Estimated total energy consumption from non-renewable sources |
+| Estimated total percentage of non renewable energy |
+
+| 302-1, 302-4 |
+| Measured energy consumption by source |
+| grid electricity |
+| purchased renewable electricity |
+| self generated renewable electricity |
+| district heating |
+| fuel oil |
+| gas |
+| renewable fuel and heat |
+
+| 302-1, 302-4 |
+| Estimated total energy consumption |
+| Estimated total energy consumption/turnover |
+| Estimated total energy productivity |
+| Estimated total improvement in energy productivity vs 2005 |
+| Estimated total energy consumption from renewable sources |
+| Estimated total percentage of renewable energy |
+| Estimated total energy consumption from non-renewable sources |
+| Estimated total percentage of non renewable energy |
+
+| 302-1, 302-4 |
+| grid electricity |
+| purchased renewable electricity |
+| self generated renewable electricity |
+| district heating |
+| fuel oil |
+| gas |
+"
+62,Which company has the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in tCO2e?,OTC_ESOCF,OTC_ESOCF
+63,What are the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"61.9, 1.89",61.9#85.4
+64,What is the highest water consumption in the years 2023 and 2022 for the following companies in millions of cu.m?,45.2,45.2#35.4
+65,What are the 2 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"5100000.0, 37172.0","19496#14221 |
+
+"
+66,What are the 3 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tons CO2e?,"3193.0, 14249.0, 142457.0","14249#18310#304 |
+
+The value of the ‘#’ symbol is 3"
+67,Which companies have the 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"OTC_BAYZF, OTC_ADDDF, NYSE_AZ","142293#142457#142945 |
+
+The corresponding scale is: none |
+
+"
+68,What are the top 2 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in TWh?,"12.24, 35.06",12241#35056
+69,Which companies have the 3 highest amounts of non-hazardous waste produced in 2022 (sorted in descending order) among the following companies in tons?,"NYSE_TTE, OTC_SU, vivendi",OTC_SU#vivendi#NYSE_TTE
+70,What is the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,21600000.0,"21.6#142457#5.89481e+06#102003 |
+
+The value of the ‘scale’ is: none"
+71,Which companies have the 2 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"OTC_BAYZF, OTC_RWNEF",OTC_RWNEF#OTC_BAYZF
+72,What is the highest amount of waste generated in the years 2023 and 2022 among the following companies in kt?,953.1,"124139#131402 |
+
+The corresponding scale is: none |
+
+"
+73,Which company has the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in MtCO2eq?,OTC_ESOCF,Response too long
+74,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tons CO2e?,OTC_ADDDF,"OTC_ADDDF |
+
+"
+75,What is the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in TCO2eq?,30712.0,14221
+76,Which companies have the 3 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tons CO2e?,"NASDAQ_DASTY, munich-re, OTC_ADDDF","OTC_ADDDF#munich-re#OTC_ADDDF |
+
+The value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+77,Which company has the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in TCO2eq?,axa,vivendi
+78,What are the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tCO2eq?,"21598.0, 31774.0, 33093.0","33093#10841#12330 |
+
+### Input
+Company name: axa
+
+| Unnamed: 0                                                                                                                                                               |   Base year 2019 |     2022 |     2023 | % 2023/2022   | Target 2025   | % 2023/Base Year   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|---------:|---------:|:--------------|:--------------|:-------------------|
+| Scope 1 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Scope 1 GHG emissions                                                                                                                                              |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| Scope 2 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Market-based Scope 2 GHG emissions                                                                                                                                 |          59232   |  37172   |  30712   | -17%          | -35%          | -48%               |
+| Gross Location-based ”’ Scope 2 GHG emissions                                                                                                                            |          65470   |  45848   |  42423   | -7%%          | nan           | -35%               |
+| Significant Scope 3 GHG emissions                                                                                                                                        |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Total Gross indirect (Scope 3) GHG emissions Market-based                                                                                                                |         258541   | 185354   | 169296   | -9%           | nan           | -35%               |
+| o/w GHG emissions from purchase services related to IT (Category 1)                                                                                                      |           4623   |   5234   |   5955   | 14%           | nan           | 29%                |
+| o/w GHG emissions from capital goods related to IT (Category 2)                                                                                                          |          24147   |  24493   |  23430   | -4%           | nan          "
+79,Which company has the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in tons CO2e?,OTC_ADDDF,OTC_ADDDF
+80,What is the highest energy consumed in the last 2 years among the following companies in MWh?,13253000,"12241#13253 |
+
+The corresponding scale is: none |
+
+"
+81,What are the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in MtCO2eq?,"0.02, 0.2, 3.28","0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#0.1#0.2 |
+
+The values are: 0.2#"
+82,Which companies have the 2 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in MtCO2eq?,"OTC_ADDDF, OTC_BAYZF",34.51#16.79
+83,What are the 2 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"1110000.0, 142457.0",14249#18310
+84,What are the top 2 lowest water consumption values (in ascending order) for the year 2023 among the following companies in millions of cu.m?,"5.05, 6.78",5.04914e+06#4.72231e+06
+85,What are the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in TCO2eq?,"3280000.0, 200000.0",22042#32333
+86,Which companies have the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2e?,"NYSE_AZ, OTC_ADDDF, OTC_ESOCF","142293#142457#142945 |
+
+The values of the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) are: 142457#142293#142945 |
+
+The values of the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) are: 142457#142293#142945 |"
+87,Which companies have the 3 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"OTC_ADDDF, OTC_RWNEF, OTC_BAYZF","OTC_RWNEF#OTC_BAYZF#OTC_ADDDF |
+
+"
+88,What are the 2 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in million mt CO2e?,"0.17, 7.64","1.5#12.8 |
+
+The value of ‘scale’ is: none |
+
+"
+89,What is the maximum amount of market-based scope 2 GHG emissions in 2023 among the following companies in tons CO2e?,142457.0,"142457#142293#19496 |
+
+The corresponding scale is: none |
+
+"
+90,What are the top 2 highest water consumption values (in descending order) for the year 2023 among the following companies in millions of m3?,"35.4, 6.78",5.04914e+06#4.84016e+06
+91,Which companies have the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in million mt CO2e?,"NASDAQ_DASTY, axa, OTC_RWNEF",Response too long
+92,What are the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in MWh?,"71218.0, 35056000.0, 157000000.0","35056#71218#864 |
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#’ is the column index. The value of the corresponding row is the corresponding value.
+
+The value of ‘#"
+93,Which companies have the 2 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in million mt CO2e?,"NASDAQ_DASTY, OTC_ADDDF",OTC_ADDDF#OTC_RWNEF
+94,Which company has the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,OTC_ADDDF,"OTC_ADDDF |
+
+The value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+95,What are the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in million mt CO2e?,"1.11, 0.2, 0.14","1.11#1.12#3.03 |
+
+"
+96,What are the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"200000.0, 142457.0, 14249.0","14249#142293#18310 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+
+The values are: 14249#18310#3130824 |
+"
+97,Which companies have the top 3 highest water consumption values (in descending order) for the year 2023 among the following companies in millions of m3?,"OTC_ESOCF, OTC_CRERF, OTC_BAMGF","OTC_BAMGF#OTC_CRERF#OTC_ESOCF |
+
+"
+98,What are the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in tons CO2e?,"61900000.0, 33093.0",33093#43664
+99,What are the 3 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.14, 0.2, 1.11","1.11#1.12#3.03 |
+
+"
+100,What is the largest energy consumption from 2022 to 2023 among the following companies?,1201276,12241
+101,What are the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in MWh?,"71218.0, 91604239.95, 157000000.0",No answer in the response
+102,Which companies have the 2 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"OTC_ESOCF, axa","axa#vivendi |
+
+### Table
+Company name: vivendi
+
+| TCO,eq                              |   2022 |
+|:------------------------------------|-------:|
+| Scope 1                             | 11228 |
+| Scope 2 market-based                | 19496 |
+| Scope 2 location-based              | 22603 |
+| Total Scopes 1 and 2 market-based   | 30724 |
+| Total Scopes 1 and 2 location-based | 33831 |
+
+Company name: axa
+
+| TCO,eq                              |   2022 |
+|:------------------------------------|-------:|
+| Scope 1                             | 11228 |
+| Scope 2 market-based                | 19496 |
+| Scope 2 location-based              | 22603 |
+| Total Scopes 1 and 2 market-based   | 30724 |
+| Total Scopes 1 and 2 location-based | 33831 |
+
+### Output
+"
+103,Which company has the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in million mt CO2e?,OTC_RWNEF,vivendi
+104,Which companies have the 3 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"OTC_RWNEF, NYSE_AZ, vivendi","vivendi#OTC_RWNEF#NYSE_AZ |
+
+"
+105,Which companies have the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2-eq?,"OTC_ADDDF, munich-re, NASDAQ_DASTY","OTC_ADDDF#OTC_ADDDF#OTC_ADDDF |
+
+"
+106,Which companies have the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tons CO2e?,"NASDAQ_DASTY, OTC_ADDDF",OTC_ADDDF#OTC_RWNEF
+107,What are the top 2 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in TWh?,"157.0, 1.12","1124327#150#128#43#140#150#128 |
+
+### Solution | step | input | output |
+| :------- | :----- | :----- |
+| 1 | 1124327#128#150#43#140 |
+| 2 | 1124327#150#128#43#140 |
+| 3 | 1124327#150#128#43#140 |
+| 4 | 1124327#150#128#43#140 |
+| 5 | 1124327#150#128#43#140 |
+| 6 | 1124327#150#128#43#140 |
+| 7 | 1124327#150#128#43#140 |
+| 8 | 1124327#150#128#43#140 |
+| 9 | 1124327#150#128#43#140 |
+| 10 | 1124327#150#128#43#140 |
+| 11 | 1124327#150#128#43#140 |
+| 12 | 1124327#150#128#43#140 |
+| 13 | 1124327#150#128#43#140 |
+| 14 | 1124327#150#128#43#140 |
+| 15 | 1124327#150#128#43#1"
+108,Which companies have the 2 lowest amounts of non-hazardous waste produced in 2022 (sorted in ascending order) among the following companies in tons?,"vivendi, OTC_SU",OTC_SU#NYSE_TTE
+109,Which company has the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in million mt CO2e?,OTC_ESOCF,OTC_RWNEF
+110,Which companies have the 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tons CO2e?,"OTC_ESOCF, OTC_BAYZF, OTC_ADDDF","OTC_ADDDF#OTC_BAYZF#OTC_ESOCF
+
+The corresponding scale is: none"
+111,Which companies have the top 2 highest water consumption values (in descending order) for the year 2023 among the following companies in millions of m3?,"OTC_ESOCF, OTC_BAYZF",OTC_BAYZF#OTC_BAMGF
+112,What are the 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"1.12, 0.14, 0.03","142293#142457#142945 |
+
+The corresponding scale is: none |
+
+"
+113,What is the highest energy consumed in the last 3 years among the following companies in TJ?,363226.0,Response too long
+114,What is the highest amount of waste generated in the years 2023 and 2022 among the following companies in tons?,953100.0,11388#10007
+115,What are the 3 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"3280000.0, 200000.0, 112228.0",112228#34.51#7929 |
+116,Which companies have the 2 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"OTC_ADDDF, munich-re",munich-re#vivendi
+117,What are the 3 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tCO2-eq?,"3130824.0, 770748.0, 168709.0",770748#727100#735018
+118,What are the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in TCO2eq?,"200000.0, 42423.0","22042#45848 |
+
+### Solution
+"
+119,Which companies have the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in MWh?,"NASDAQ_DASTY, heidelberg-materials, NYSE_TTE",TTE#TTE#TTE
+120,What are the 3 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"34.51, 1.89, 0.03","34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are sorted in descending order.
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 34.51#16.79#10841 |
+
+The values are: 3"
+121,Which companies have the 2 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tons CO2e?,"NYSE_AZ, axa","142293#153910 |
+
+The value of ‘scale’ is none"
+122,What is the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in tCO2e?,71040000.0,3130824
+123,What are the 3 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tons CO2e?,"9720000.0, 7635784.0, 770748.0",770748#727100#735018
+124,Which company has the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in Million metric tons of CO2 equivalents?,OTC_BAYZF,OTC_BAYZF
+125,What is the lowest energy consumption over the last 2 years among the following companies in TWh?,0.07,12241
+126,What are the top 3 lowest water consumption values (in ascending order) for the year 2023 among the following companies in millions of cu.m?,"5.05, 8.2, 35.4",5.04914e+06#4.84016e+06#4.72231e+06
+127,Which company has the highest amount of waste generated in the years 2023 and 2022 among the following companies in kt?,OTC_BAMGF,"NYSE_TTE |
+
+"
+128,What is the highest energy consumed in the last 2 years among the following companies in million kWh?,35056.0,"35056#34493#3062#12241 |
+
+"
+129,What is the maximum amount of market-based scope 2 GHG emissions in 2022 among the following companies in TCO2eq?,5100000.0,"19496 |
+
+### Solution
+"
+130,Which companies have the top 2 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in TWh?,"deutsche-telekom-ag, OTC_DPSGY","OTC_DPSGY#DPSGY | deutsche-telekom-ag |
+
+| Company name | Unnamed: 0 |
+
+| Energy consumption (Scopes 1 and 2) | million kWh |
+
+| of which from renewable sources | million kWh |
+
+| 2023 | 35056#12241 |
+
+| 2022 | 35056#13253 |
+
+| 2021 | 35056#13323 |
+
+| 2020 | 35056#9324 |
+
+| 2019 | 35056#673 |
+
+| 2023 | 12241#35056 |
+
+| 2022 | 13253#35056 |
+
+| 2021 | 13323#35056 |
+
+| 2020 | 13323#9324 |
+
+| 2019 | 13323#673 |
+
+| 2023 | 35056#12241 |
+
+| 2022 | 35056#13253 |
+
+| 2021 | 35056#13323 |
+
+| 2020 | 35056#9324 |
+
+| 2019 | 35056#673 |
+
+| 2023 | 12241#35056 |
+
+| 2022 | 13253#35056 |
+
+| 2021 | 13323#35056 |
+
+| 2020 | 13323#9324 |
+
+| 2019 | 13323#673 |
+
+| 2023 | 35056#12241 |
+
+| 2022 | 35056#13253 |
+
+| 2021 | 35056#13323 |
+
+| 2020 | 35056#9324 |
+
+| 2019 | 35056#673 |
+
+| 2023 | 12241#35056 |
+
+| 2022 | 13253#35056 |
+
+| 2021 | 13323#35056 |
+
+| 2020 | 13323#9324 |
+
+| 2019 | 13323#673 |
+
+| 2023 | 35056#12241 |
+
+| 2022 | 35056#13253 |
+
+| 2021 | 35056#13323 |
+
+| 2020 | 35056#9324 |
+
+| 2019 | 35056#673 |
+
+| 2023 | 12241#35056 |
+
+| 2022 | 13253#35056 |
+
+| 2021 | 13323#35056 |
+
+| 2020 | 13323#9324 |
+
+| 2019 | 13323#673 |
+
+| 2023 | 35056#12241 |
+
+| 2022 | 35056#13253 |
+
+| 2021 | 35056#13323 |
+
+| 2020 | 35056#9324 |
+
+| 2019 | 35056#673 |
+
+| 2023 | 12241#35056 |
+
+| 2022 | 13253#35056 |
+
+| 2021 | 13323#35056 |
+
+| 2020 | 13323#9324 |
+
+| 2019 | 13323#673 |
+
+| 2023 | 35056#12241 |
+
+| 2022 | 35056#13253 |
+
+| 2021 | 35056#13323 |
+
+| 2020 | 35056#9324 |
+
+| 2019 | 35056#673 |
+
+| 2023 | 12241#35056 |
+
+| 2022 | 13253#3"
+131,Which companies have the 3 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"OTC_RWNEF, OTC_ADDDF, munich-re",OTC_RWNEF#OTC_ADDDF#munich-re
+132,What are the 2 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"1.11, 0.2",14249#3086777
+133,Which companies have the 2 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tCO2e?,"OTC_ESOCF, OTC_ADDDF",71.04#56.53
+134,Which companies have the 2 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in TCO2eq?,"OTC_ESOCF, OTC_BAYZF",OTC_ESOCF#OTC_BAYZF
+135,Which companies have the 3 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"OTC_ESOCF, OTC_BAYZF, munich-re",33093#19.3#26.5 |
+136,What are the 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tons CO2e?,"5100000.0, 1120000.0, 142293.0","142293#142457#5.89481e+06 |
+
+The 3 highest values of market-based scope 2 GHG emissions produced in 2022 (sorted in descending order) among the following companies in tons CO2e are:
+
+142457#142293#5.89481e+06"
+137,Which company has the highest water consumption in the years 2023 and 2022 for the following companies in m3?,OTC_ESOCF,OTC_BAYZF
+138,Which companies have the 3 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in TCO2eq?,"NASDAQ_DASTY, vivendi, OTC_BAYZF","OTC_BAYZF#vivendi#NASDAQ_DASTY |
+
+### Instruction
+Given a table and a list of texts in the following, what is the answer to the question? Please predict the answer and store it in a variable named ‘{answer}‘. If there are multiple values, separate them using the ’#’ symbol. If the value of the ‘{answer}‘ is numerical, predict its scale and store it in a variable named ‘{scale}‘. The value of ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+139,Which companies have the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tCO2eq?,"axa, NYSE_AZ, munich-re","33093#43664#10841 | none |
+
+### Input tables
+
+| Company name: NYSE_AZ |
+
+| Unnamed: 0 |
+
+| Scope 1 GHG emissions |
+
+| Gross Scope 1 GHG emissions |
+
+| 33093 |
+
+| 10841 |
+
+| 43664 |
+
+| 33093#43664#10841 |
+
+| Company name: axa |
+
+| Unnamed: 0 |
+
+| Scope 1 GHG emissions |
+
+| Gross Scope 1 GHG emissions |
+
+| 33617 |
+
+| 21382 |
+
+| 21598 |
+
+| 33617#21598#21382 |
+
+| Company name: munich-re |
+
+| Unnamed: 0 |
+
+| Scope 1 GHG emissions |
+
+| Gross Scope 1 GHG emissions |
+
+| 33093 |
+
+| 10841 |
+
+| 43664 |
+
+| 33093#43664#10841 |
+
+| "
+140,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in tCO2e?,6059047.0,3086777
+141,Which companies have the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"OTC_RWNEF, OTC_ESOCF",61.9#34.51
+142,Which companies have the top 2 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in TJ?,"heidelberg-materials, OTC_DPSGY","deutsche-telekom-ag#heidelberg-materials |
+
+"
+143,Which company has the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in million mt CO2e?,OTC_RWNEF,vivendi
+144,Which companies have the top 3 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in MWh?,"heidelberg-materials, OTC_SU, NASDAQ_DASTY","329775#347068#363226 |
+
+The answer"
+145,Which company has the maximum amount of market-based scope 2 GHG emissions in 2022 among the following companies in TCO2eq?,OTC_ESOCF,vivendi
+146,What are the 3 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2-eq?,"92467.0, 168709.0, 23800000.0","92467#96745#92467 |
+
+The value of ‘#’ is 3"
+147,Which companies have the 2 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in TCO2eq?,"NASDAQ_DASTY, vivendi",munich-re#vivendi
+148,Which companies have the 3 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2-eq?,"NYSE_AZ, NASDAQ_DASTY, OTC_RWNEF","NYSE_AZ#OTC_RWNEF#NASDAQ_DASTY |
+
+The value of the ‘{scale}‘ can be one of the following: ‘none‘, ‘percent‘, ‘thousand‘, ‘million‘, or ‘billion‘. For non-numerical values, set the value of ‘{scale}‘ to ’none’. Finally, present the final answer in the format of """
+149,What are the top 3 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in MWh?,"91604239.95, 1124327.0, 71218.0","329775#347068#363226 |
+
+The answer is:"
+150,Which company has the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in tons CO2e?,OTC_ADDDF,vivendi
+151,What is the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in million mt CO2e?,56.53,"21.6#56.53#9.72#8.98 |
+
+The corresponding scale is: none |
+
+"
+152,What is the largest energy consumption from 2022 to 2023 among the following companies?,313698.0,33.09
+153,What is the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in Million metric tons of CO2 equivalents?,53.07,53.07#34.51
+154,What are the 3 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"200000.0, 112228.0, 22042.0","22042#11228#32333 |
+
+"
+155,What are the 2 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2e?,"92467.0, 770748.0",17731#14479
+156,What is the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in million mt CO2e?,23.8,3130824
+157,What are the top 2 highest values of energy consumed in 2023 (sorted in descending order) among the following companies in TJ?,"329775.0, 126201.6","329775#363226 |
+
+"
+158,What are the 2 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.02, 1.12",19496#30724
+159,Which companies have the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"munich-re, OTC_RWNEF",OTC_RWNEF#OTC_BAYZF
+160,Which company has the highest energy consumed in the last 2 years among the following companies in MWh?,deutsche-telekom-ag,deutsche-telekom-ag
+161,Which companies have the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in MtCO2eq?,"vivendi, OTC_RWNEF, OTC_ESOCF",OTC_RWNEF#vivendi#OTC_ESOCF
+162,What is the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tons CO2e?,1910000.0,"1.89#1.91 |
+
+The value of ‘scale’ can be one of the following: none |
+
+"
+163,Which company has the highest energy consumed in the last 3 years among the following companies in TJ?,heidelberg-materials,Response too long
+164,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in tCO2e?,OTC_ADDDF,"OTC_ADDDF |
+
+"
+165,Which companies have the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in TCO2eq?,"vivendi, axa, OTC_RWNEF","22042#22603#24223 | none |
+
+### Input
+Company name: axa
+
+| Unnamed: 0                                                                                                                                                               |   Base year 2019 |     2022 |     2023 | % 2023/2022   | Target 2025   | % 2023/Base Year   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|---------:|---------:|:--------------|:--------------|:-------------------|
+| Scope 1 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Scope 1 GHG emissions                                                                                                                                                 |          33617   |  21382   |  21598   | 1%            | -25%          | -36%               |
+| Scope 2 GHG emissions                                                                                                                                                    |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Gross Market-based Scope 2 GHG emissions                                                                                                                                 |          59232   |  37172   |  30712   | -17%          | -35%          | -48%               |
+| Gross Location-based ”’ Scope 2 GHG emissions                                                                                                                            |          65470   |  45848   |  42423   | -7%%          | nan           | -35%               |
+| Significant Scope 3 GHG emissions                                                                                                                                        |            nan   |    nan   |    nan   | nan           | nan           | nan                |
+| Total Gross indirect (Scope 3) GHG emissions Market-based                                                                                                                |         258541   | 185354   | 169296   | -9%           | nan           | -35%               |
+| o/w GHG emissions from purchase services related to IT (Category 1)                                                                                                      |           4623   |   5234   |   5955   | 14%           | nan           | 29%                |
+| o/w GHG emissions from capital goods related to IT (Category 2)                                                                                                          |          24147   |  24493   |  23430   | -4%           | nan           | -3%                |
+| o/w GHG emissions from fuel and energy-related Activities (not included in Scope 1 or Scope 2) Market-based ® (Category 3)                                               |          "
+166,What is the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2e?,53070000.0,53.07#34.51
+167,What is the maximum amount of GHG emissions Scope 3 in 2022 among the following companies in tons CO2e?,7635784.0,770748
+168,Which companies have the top 3 highest values of energy consumed in 2023 (sorted in ascending order) among the following companies in million kWh?,"prosiebensat1-media, OTC_SU, OTC_DPSGY",OTC_SU#OTC_DPSGY#prosiebensat1-media
+169,What is the lowest energy consumption over the last 2 years among the following companies in GWh?,33.09,"33.09#33.26 |
+
+"
+170,Which company has the maximum amount of GHG emissions Scope 3 in 2023 among the following companies in tCO2-eq?,OTC_BAYZF,vivendi
+171,Which companies have the 2 highest amounts of non-hazardous waste produced in 2022 (sorted in descending order) among the following companies in tons?,"NYSE_TTE, OTC_SU",OTC_SU#NYSE_TTE
+172,What are the 2 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tCO2eq?,"22042.0, 42423.0","17485#11228 |
+
+### Solution
+The values of location-based scope 2 GHG emissions produced in 2023 are:
+
+11228 |
+
+17485 |
+
+"
+173,What is the lowest location-based scope 2 GHG emissions in the last 2 years among the following companies in MtCO2eq?,0.04,Response too long
+174,What is the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2e?,85400000.0,85.4#61.9
+175,What is the lowest location-based scope 2 GHG emissions in the last 2 years among the following companies in tCO2eq?,42423.0,"42423#45848 |
+
+"
+176,Which company has the lowest energy consumption over the last 2 years among the following companies in GWh?,prosiebensat1-media,"heidelberg-materials |
+
+"
+177,Which company has the largest energy consumption from 2022 to 2023 among the following companies?,OTC_SU,"OTC_SU |
+
+| Company name: OTC_SU |
+
+| GRI          | Indicators                                                                  | Units         | 2022    | 2023    | 2021    | 2020    |
+|:-------------|:----------------------------------------------------------------------------|:--------|:-------|:--------|:--------|:--------|
+| nan          | Estimated coverage (% energy consumption)                                   | %             | 95%     | 95%     | 95%     | 96%     |
+| nan          | ISO 50001 certified sites                                                   | #             | 132     | 128     | 140     | 150     |
+| 302-1, 302-4 | Estimated total energy consumption                                          | MWh           | 1201276 | 1124327 | 1325491 | 1216845 |
+| 302-1, 302-4 | of which measured energy consumption                                        | MWh           | 979497  | 934805  | 1080366 | 1034003 |
+| 302-1, 302-4 | of which estimated energy consumption for sites out of reporting perimeter? | MWh           | 221779  | 189522  | 245125  | 182842  |
+| 302-1, 302-4 | Estimated total energy consumption/turnover                                 | MWh/million € | 35.1    | 31.3    | 45.9    | 48.3    |
+| 302-1, 302-4 | Estimated total energy productivity                                         | €/MWh         | 28450   | 31932   | 21803   | 20709   |
+| 302-1, 302-4 | Estimated total improvement in energy productivity vs 2005                  | %             | 129.3%  | 157.3%  | 75.7%   | 66.9%   |
+| 302-1, 302-4 | Estimated total energy consumption from renewable sources                   | MWh           | 688474  | 707033  | 670287  | UP      |
+| 302-1, 302-4 | Estimated total percentage of renewable energy                              | %             | 57.3%   | 62.9%   | 50.6%   | UP      |
+| 302-1, 302-4 | Estimated total energy consumption from non-renewable sources               | MWh           | 512802  | 417294  | 655204  | UP      |
+| 302-1, 302-4 | Estimated total percentage of non renewable energy                          | %             | 42.7%   | 37.1%   | 49.4%   | UP      |
+| 302-1, 302-4 | Measured energy consumption by source                                       | nan           | nan     | nan     | nan     | nan     |
+| 302-1, 302-4 | grid electricity                                                            | MWh           | 108263  | 82590   | 132771  | 148969  |
+| 302-1, 302-4 | purchased renewable electricity                                             | MWh           | 588851  | 610614  | 612752  | 585495  |
+| 302-1, 302-4 | self generated renewable electricity                                        | MWh           | 15861   | 20719   | 12464   | 1073    |
+| 302-1, 302-4 | district heating                                                            | MWh           | 24519   | 14736   | 33830   | 27602   |
+| 302-1, 302-4 | fuel oil                                                                    | MWh           | 6520    | 12991   | 6967    | 6941    |
+| 302-1, 302-4 | gas                                                                         | MWh           | 229552  | 190088  | 276954  | 251377  |
+| 302-1, 302-4 | coal                                                                        | MWh           | 0       | 0       | 0       | 0       |
+| 302-1, 302-4 | renewable fuel and heat                                                     | MWh           | 1073    | 593     | 1231    | 1155    |
+
+Company name: NASDAQ_DASTY |
+
+| GRI          | Indicators                                                                  | Units         | 2023   | 2022   | 2021   | 2020   |
+|:-------------|:----------------------------------------------------------------------------|:--------|:-------|:--------|:--------|:--------|
+| nan          | Estimated coverage (% energy consumption)                                   | %             | 95%     | 95%     | 95%     | 96%     |
+| nan          | ISO 50001 certified sites                                                   | #             | 128     | 132     | 1"
+178,What are the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in TCO2eq?,"1890000.0, 31774.0",10291#11228
+179,Which company has the lowest location-based scope 2 GHG emissions in the last 2 years among the following companies in TCO2eq?,vivendi,"vivendi |
+"
+180,Which company has the largest energy consumption from 2022 to 2023 among the following companies?,heidelberg-materials,"heidelberg-materials |
+
+"
+181,Which companies have the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tons CO2e?,"vivendi, OTC_ADDDF, munich-re","10291#33093#10841 |
+
+"
+182,What are the top 3 highest water consumption values (in descending order) for the year 2023 among the following companies in millions of m3?,"35.4, 8.2, 5.05",5.04914e+06#4.84016e+06#4.72231e+06
+183,Which companies have the 2 highest values of scope 3 GHG emissions produced in 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"OTC_RWNEF, OTC_BAYZF",NYSE_AZ#OTC_RWNEF
+184,What is the highest water consumption in the years 2023 and 2022 for the following companies in m3?,6780000.0,5.41743e+06
+185,What is the highest amount of waste generated in the years 2023 and 2022 among the following companies in tons?,927880.0,10007#11388
+186,What are the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"61900000.0, 34510000.0",61.9#33093 |
+187,Which company has the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tons CO2e?,OTC_BAYZF,"axa |
+
+"
+188,Which companies have the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in million mt CO2e?,"vivendi, NYSE_AZ, OTC_RWNEF",112228#138339#14221 |
+189,What is the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in million mt CO2e?,85.4,85.4#61.9
+190,What is the smallest water consumption from 2022 to 2023 among the following companies in million cubic meters?,6.66,"35.4#45.2#8.2#12.2 |
+
+The corresponding scale is: none |
+
+"
+191,Which companies have the 2 highest values of scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in tCO2e?,"OTC_BAYZF, OTC_ADDDF",OTC_BAYZF#OTC_ADDDF
+192,What are the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.01, 0.2",14249#10841
+193,What are the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.0, 0.2","1.11#1.12 |
+
+"
+194,Which companies have the 2 highest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"OTC_RWNEF, OTC_BAYZF",OTC_RWNEF#OTC_BAYZF
+195,Which company has the highest direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in Million metric tons of CO2 equivalents?,OTC_ESOCF,"OTC_ESOCF | Unnamed: 1 | Unnamed: 2 |
+
+| Unnamed: 0                                                                 | Unnamed: 1    | Unnamed: 2 |
+|:---------------------------------------------------------------------------|:--------------|:--------------|
+| Direct greenhouse gas emissions - Scope 1                                  | MtCO2eq       | MtCO2eq       |
+| Intensity of Scope 1 GHG emissions related to power generation             | gCO2eq/kWh    | gCO2eq/kWh    |
+| Intensity of Scope 1 and Scope 3 GHG emissions related to Integrated Power | gCO2eq/kWh    | gCO2eq/kWh    |
+| Specific emissions of SO2                                                  | g/kWh         | g/kWh         |
+| Specific emissions of NOx                                                  | g/kWh         | g/kWh         |
+| Specific emissions of particulates                                         | g/kWh         | g/kWh         |
+| Zero-emission generation as percentage of total                            | %             | %             |
+| Total direct fuel consumption                                              | Mtoe          | Mtoe          |
+| Average efficiency of thermal plants                                       | %             | %             |
+| Water withdrawals in water-stressed areas                                  | %             | %             |
+| Total specific withdrawals of fresh water                                  | l/kWh         | l/kWh         |
+| Reference price of CO2                                                     | €/ton         | €/ton         |
+| Ordinary EBITDA from low-carbon products, services and technologies        | millions of € | millions of € |
+| Capital expenditure on low-carbon products, services and technologies      | millions of € | millions of € |
+| Ratio of capex for low-carbon products, services and technologies to total | %             | %             |
+
+| Unnamed: 1 | Unnamed: 2 |
+
+| MtCO2eq | 56.53#71.04 |
+
+| 56.53 > 71.04 |
+
+"
+196,What are the 3 lowest values of scope 3 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in TCO2eq?,"168709.0, 770748.0, 9720000.0",770748#727100#735018
+197,What are the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in tons CO2e?,"3193.0, 142457.0","0.2#142457 |
+
+The value of the ‘scale’ is: none |
+
+"
+198,What are the 2 highest amounts of non-hazardous waste produced in 2022 (sorted in descending order) among the following companies in tons?,"322000.0, 123311.0",128267#117607
+199,What are the 2 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tons CO2e?,"30490.0, 37172.0","142457#142293 |
+
+"
+200,What are the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) among the following companies in tCO2e?,"30490.0, 142293.0, 5100000.0","142293#142457#142945 |
+
+The values of the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) are: 142457#142293#142945 |
+
+The values of the 3 lowest values of market-based scope 2 GHG emissions produced in 2022 (sorted in ascending order) are: 142457#142293#142945 |"
+201,Which companies have the 2 highest values of location-based scope 2 GHG emissions produced in 2023 (sorted in descending order) among the following companies in TCO2eq?,"OTC_RWNEF, axa","axa#vivendi |
+
+### Value
+
+| vivendi |
+
+| axa |
+
+| "
+202,What is the lowest location-based scope 2 GHG emissions in the last 2 years among the following companies in TCO2eq?,22042.0,"22042#22603 |
+
+"
+203,Which company has the maximum amount of market-based scope 2 GHG emissions in 2022 among the following companies in tons CO2e?,OTC_BAYZF,OTC_BAYZF
+204,Which companies have the top 2 lowest water consumption values (in ascending order) for the year 2023 among the following companies in millions of cu.m?,"OTC_BAMGF, OTC_BAYZF","OTC_BAYZF#OTC_CRERF |
+
+"
+205,Which companies have the 2 lowest values of scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"NASDAQ_DASTY, OTC_RWNEF",OTC_RWNEF#OTC_BAYZF
+206,What are the 3 lowest values of direct GHG emissions (Scope 1) produced in 2023 (sorted in ascending order) among the following companies in tons CO2e?,"10291.0, 21779.0, 33093.0",10291#33093#10841
+207,What are the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in million mt CO2e?,"0.02, 0.11, 0.2",112228#138339#22042
+208,Which company has the highest water consumption in the years 2023 and 2022 for the following companies in m3?,OTC_BAYZF,OTC_BAYZF#OTC_BAMGF
+209,What are the 3 lowest values of location-based scope 2 GHG emissions produced in 2023 (sorted in ascending order) among the following companies in TCO2eq?,"22042.0, 42423.0, 200000.0","22042#22603#22603 |
+
+"

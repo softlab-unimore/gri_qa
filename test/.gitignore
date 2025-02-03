@@ -1,0 +1,10 @@
+.vscode
+.idea
+config.ini
+env/
+*metadata.json
+.~lock*
+*.swp
+.csv#
+.env
+*.pyc

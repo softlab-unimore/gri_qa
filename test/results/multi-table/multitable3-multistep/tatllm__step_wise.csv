@@ -1,0 +1,598 @@
+index,question,value,response
+0,What is the highest percentage of hazardous waste generated in 2022 among the following companies?,35.34,8091
+1,Which company has the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,NASDAQ_DASTY,Response too long
+2,What are the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in TCO2eq?,"38378.5, 21490.0, 10759.5",12330#11228#10291
+3,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,OTC_BAYZF,OTC_BAYZF
+4,What is the average percentage of hazardous waste generated in 2022 among the following companies?,11.38,5979.67
+5,What is the lowest total energy consumption over the last 2 years among the following companies in MWh?,66350.0,33.09
+6,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in MtCO2eq?,98.83,Response too long
+7,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,117.97,Response too long
+8,What is the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,20.01,22.7
+9,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,509500.0,124139#131402 |
+10,What are the 2 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"2.0, 25.97",26#18
+11,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"76992.0, 282307.0, 12747000.0","12241#13253#13323 |
+
+| step | output |
+| 1 | Multiple spans |
+| 2 | 12241#13253#13323 |
+| 3 | N.A. |
+| 4 | 12241#13253#13323 |
+| 5 | none |
+
+Finally, present the final answer in the format: """
+12,What is the highest percentage of hazardous waste generated in 2023 among the following companies?,7.92,Heidelberg Materials
+13,Which companies have the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"NYSE_TTE, OTC_SU","2022#2023#vivendi#OTC_SU | step | output |
+| 1 | Multiple spans |
+| 2 | 176#8091 |
+| 3 | N.A. |
+| 4 | 8091#176 |
+| 5 | none |
+
+Finally, present the final answer in the format: """
+14,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,axa,AXA
+15,Which company has the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,OTC_BAYZF,OTC_BAYZF
+16,What is the average percentage of hazardous waste generated in 2023 among the following companies?,17.6,"2023# | step | output |
+| 1 | Arithmetic |
+| 2 | 7573#124139#137 |
+| 3 | ((7573 / 124139) + (137 / 1000)) / 3 |
+| 4 | 1.11 |
+| 5 | percent |
+
+Finally, present the final answer in the format: """
+17,"What is the average total water consumption across the following companies, calculated as the sum of their 2023 and 2022 consumption in m3?",30466344.0,40.7
+18,Which companies have the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"NYSE_AZ, OTC_BAYZF",NYSE_AZ#OTC_RWNEF
+19,What are the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"1900000.0, 31363.5, 21817.5",1.91#1.89#1.81#1.79#1.77#1.75#1.73#1.71#1.69#1.67#1.65#1.63#1.61#1.59#1.57#1.55#1.53#1.51#1.5 |
+20,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,5.72,AXA
+21,Which companies have the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"NYSE_TTE, OTC_SU","2023#OTC_SU#306-3#306-5 | step | output |
+| 1 | Multiple spans |
+| 2 | 124139#176#87%#97.0% |
+
+"
+22,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tons CO2e?,7799933.0,779993
+23,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in MtCO2eq?,OTC_ESOCF,Response too long
+24,What is the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2eq?,43790000.0,Response too long
+25,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,3.64,Response too long
+26,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,12180000.0,vivendi
+27,What is the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,7.64,17293
+28,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,8.55,10.8
+29,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2023 among the following companies?,NYSE_TTE,NYSE_TTE
+30,Which company has the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,vivendi,Heidelberg Materials
+31,What is the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in Million metric tons of CO2 equivalents?,1.9,1.91#1.89
+32,What is the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2e?,1900000.0,43664#33093
+33,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,286.57,OTC_RWNEF
+34,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in t?,OTC_BAMGF,OTC_CRERF
+35,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,3086777.0,vivendi
+36,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,121.61,No answer in the response
+37,What are the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"38.77, 7.92",7573#8091
+38,Which companies have the top 2 highest values of average energy consumed in the last 3 years (sorted in descending order) among the following companies in GWh?,"heidelberg-materials, deutsche-telekom-ag",Response too long
+39,Which company has the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in Million metric tons of CO2 equivalents?,axa,OTC_RWNEF
+40,What is the average percentage of energy consumption from renewable sources in 2022 among the following companies?,33.66,15897.33
+41,Which companies have the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"NYSE_TTE, heidelberg-materials",2022#2023 | heidelberg-materials#vivendi |
+42,Which companies have the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in million mt CO2e?,"vivendi, munich-re, OTC_RWNEF","10291#11228#11228 |
+
+"
+43,Which companies have the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"OTC_ESOCF, OTC_CRERF, munich-re",OTC_CRERF#OTC_ESOCF#munich-re
+44,Which company has the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2e?,OTC_BAYZF,OTC_ADDDF
+45,Which companies have the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2eq?,"OTC_BAYZF, axa, vivendi",2.02#1.91#1.89
+46,Which companies have the top 2 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"munich-re, OTC_BAMGF",munich-re#OTC_ESOCF
+47,What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in million cubic meters?,40.3,35.4#45.2
+48,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"282307.0, 1162801.5, 12747000.0","12241#13253#13323 |
+
+### Table
+
+| Company name | GRI | Indicators | Units | 2023 | 2022 | 2021 | 2020 |
+|:-------------|:--------|:---------|:-------|:-------|:-------|:-------|
+| deutsche-telekom-ag | Customer satisfaction (TRI*M index) | 76.2#76 | 76 | 73.4 | 72.2 | 67.3 |
+| deutsche-telekom-ag | Employee satisfaction (engagement score) | 76#78 | |
+| deutsche-telekom-ag | Energy consumption | 12241#13253 | GWh | 12241 | 13253 |
+| deutsche-telekom-ag | Of which: excluding T-Mobile US | 4567#4704 | GWh | 4567 | 4704 |
+| deutsche-telekom-ag | CO2 emissions (Scope 1 and 2) | 217#233 | kt CO2e | 217 | 233 |
+| deutsche-telekom-ag | Of which: excluding T-Mobile US | 171#179 | kt CO2e | 171 | 179 |
+| munich-re | Natural gas | 108722 | MWh | 108722 | 153307 |
+| munich-re | Thereof natural gas for cogeneration | 95188 | MWh | 95188 | 126293 |
+| munich-re | Electricity | 95108 | MWh | 95108 | 102313 |
+| munich-re | Thereof electricity from renewable sources | 86870 | MWh | 86870 | 92518 |
+| munich-re | District heating | 41931 | MWh | 41931 | 51638 |
+| munich-re | District cooling | 4283 | MWh | 4283 | 5371 |
+| munich-re | Liquid fuel for emergency power | 872 | MWh | 872 | 1069 |
+| munich-re | Total | 250916 | MWh | 250916 | 313698 |
+
+"
+49,What is the total energy consumption generated by the following companies in the last 2 years in GWh?,25714.33,33.09#33.26
+50,What is the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,5.6,Response too long
+51,Which company has the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in million cubic meters?,OTC_ESOCF,OTC_BAYZF
+52,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,8.45,Response too long
+53,Which company has the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,munich-re,OTC_DPSGY
+54,Which company has the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,prosiebensat1-media,heidelberg-materials
+55,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in million mt CO2e?,83.7,Response too long
+56,What are the 2 lowest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in ascending order) among the following companies in kt?,"3.75, 15.66",18#26 |
+57,Which company has the highest percentage of hazardous waste generated in 2023 among the following companies?,NYSE_TTE,heidelberg-materials
+58,Which company has the highest average energy consumed in the last 2 years among the following companies in million kWh?,OTC_DPSGY,deutsche-telekom-ag
+59,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,13.17,16.4
+60,What is the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,84.0,22.19#21.99
+61,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,OTC_RWNEF,OTC_RWNEF
+62,Which company has the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2e?,NYSE_AZ,OTC_BAYZF
+63,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in t?,873133.5,10007#11388
+64,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in Million metric tons of CO2 equivalents?,12.75,NYSE_AZ
+65,What are the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"378000.0, 47652.0",165#202 |
+66,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"NASDAQ_DASTY, munich-re, deutsche-telekom-ag","deutsche-telekom-ag#munich-re#NASDAQ_DASTY |
+
+| step | output |
+| 1 | Multiple spans |
+| 2 | 12241#13253#250916 |
+| 3 | N.A. |
+| 4 | 250916#13253#12241 |
+| 5 | none |
+
+Finally, present the final answer in the format: """
+67,Which company has the lowest total energy consumption over the last 2 years among the following companies in MWh?,NASDAQ_DASTY,TTE
+68,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"NASDAQ_DASTY, munich-re, OTC_DPSGY",OTC_DPSGY#munich-re#NASDAQ_DASTY
+69,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,9.35,22.7
+70,What are the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TWh?,"161.5, 12.75",12241#13253
+71,What are the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"38378.5, 31363.5",43664#33093
+72,What is the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in tCO2e?,83700000.0,3086777
+73,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,714800.0,Heidelberg Materials
+74,Which company has the largest percentage of energy consumption from renewable sources in 2023 among the following companies?,prosiebensat1-media,OTC_SU
+75,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in million mt CO2e?,0.36,vivendi
+76,Which companies have the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"NYSE_TTE, vivendi",OTC_SU#NYSE_TTE
+77,Which companies have the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"OTC_BAYZF, NYSE_AZ, OTC_ADDDF",OTC_ADDDF#OTC_BAYZF#NYSE_AZ
+78,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"NYSE_TTE, OTC_SU, NASDAQ_DASTY",NYSE_TTE#SU#OTC_SU
+79,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,19.65,NASDAQ_DASTY
+80,Which companies have the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"OTC_RWNEF, OTC_BAYZF",OTC_RWNEF#NYSE_AZ
+81,What is the average amount of hazardous waste obtained by summing the values related to the years 2023 and 2022 among the following companies in tons?,132471.67,18#26 |
+82,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,11.35,-8.12
+83,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,13.55,0.05
+84,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in Million metric tons of CO2 equivalents?,OTC_BAYZF,OTC_BAYZF
+85,What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,10200000.0,5.41743e+06#4.72231e+06
+86,What is the highest average energy consumed in the last 2 years among the following companies in MWh?,12747000.0,12241#13253#13323#9324 |
+87,What are the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in Million metric tons of CO2 equivalents?,"73.65, 1.9",1.91#1.89
+88,What are the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"94006047.43, 282307.0",329775#347068
+89,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,358.82,OTC_RWNEF
+90,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in million mt CO2e?,OTC_RWNEF,vivendi
+91,Which companies have the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"vivendi, munich-re, OTC_BAYZF",munich-re#vivendi#otc_bayzf
+92,What are the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in million mt CO2e?,"0.01, 0.04, 73.65","10291#11228#12330 |
+
+"
+93,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,17.8,22.7
+94,What are the top 3 highest values of average energy consumed in the last 3 years (sorted in ascending order) among the following companies in TJ?,"46580.4, 120042.0, 346689.67","217#233#329775 |
+
+#### and its corresponding scale is: none"
+95,Which company has the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in million mt CO2e?,NASDAQ_DASTY,vivendi
+96,Which company has the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,OTC_SU,Response too long
+97,What is the total energy consumption generated by the following companies in the last 2 years in GWh?,2956.57,33.09#33.26
+98,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,2.89,Response too long
+99,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tonnes?,OTC_BAMGF,OTC_CRERF
+100,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in GWh?,"prosiebensat1-media, munich-re, OTC_SU",munich-re#OTC_SU#prosiebensat1-media
+101,What is the lowest total energy consumption over the last 2 years among the following companies in MWh?,153984.0,26199
+102,What are the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"80.6, 20.4, 0.91",8.2#45.2#35.4
+103,What is the average percentage of hazardous waste generated in 2022 among the following companies?,14.5,7883
+104,What is the highest average energy consumed in the last 2 years among the following companies in TJ?,338421.5,Response too long
+105,What is the average percentage variation in energy consumption from 2023 to 2022 among the following companies?,7.0,-5.6
+106,Which company has the highest percentage of hazardous waste generated in 2023 among the following companies?,vivendi,heidelberg-materials
+107,Which company has the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,OTC_CRERF,OTC_BAYZF
+108,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,heidelberg-materials,NYSE_TTE
+109,What is the highest average energy consumed in the last 2 years among the following companies in million kWh?,34774.5,deutsche-telekom-ag
+110,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in GWh?,"33.17, 282.31, 1162.8",4.53#4.43#8.59
+111,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in Million metric tons of CO2 equivalents?,0.96,OTC_RWNEF
+112,What is the smallest percentage variation in water consumption from 2022 to 2023 among the following companies?,4.32,84
+113,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in Million metric tons of CO2 equivalents?,0.54,OTC_ADDDF
+114,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in kt?,714.8,953.1#476.5
+115,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2e?,540925.0,3086777
+116,Which company has the lowest total energy consumption over the last 2 years among the following companies in MWh?,prosiebensat1-media,OTC_SU
+117,What is the average percentage of energy consumption from renewable sources in 2023 among the following companies?,53.27,22.19#33.09 |
+118,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,61.05,OTC_BAYZF
+119,Which company has the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,OTC_SU,"OTC_SU | step | output |
+| 1 | Single span |
+| 2 | OTC_SU |
+| 3 | N.A. |
+| 4 | OTC_SU |
+| 5 | none |
+
+Finally, present the final answer in the format: """
+120,Which companies have the 2 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"heidelberg-materials, vivendi",2#7444#98#103#1276.7#2#98#103#1276.7 |
+121,What is the highest average energy consumed in the last 2 years among the following companies in million kWh?,94006.05,"35056#347068#329775 |
+
+"
+122,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,vivendi,heidelberg-materials
+123,What is the highest percentage of hazardous waste generated in 2022 among the following companies?,25.97,heidelberg-materials
+124,Which company has the highest average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 among the following companies in tCO2eq?,OTC_ESOCF,Response too long
+125,Which company has the highest percentage of hazardous waste generated in 2022 among the following companies?,NYSE_TTE,OTC_SU
+126,What is the average percentage of energy consumption from renewable sources in 2022 among the following companies?,24.43,29.1
+127,What are the top 2 highest values of average energy consumed in the last 3 years (sorted in descending order) among the following companies in GWh?,"96302.76, 12939.0",Response too long
+128,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,23.22,Response too long
+129,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"161500000.0, 1162801.5, 76992.0",1325491#1201276#1124327
+130,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,OTC_ESOCF,OTC_ADDDF
+131,What is the total energy consumption generated by the following companies in the last 2 years in million kWh?,70179.96,33.09#33.26
+132,What is the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,35.09,heidelberg-materials
+133,What is the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,12.13,12.7%
+134,What are the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2eq?,"1900000.0, 21490.0, 10759.5",2.02#1.91#1.89
+135,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"munich-re, OTC_SU, deutsche-telekom-ag",OTC_SU#munich-re#deutsche-telekom-ag
+136,What is the average amount of hazardous waste obtained by summing the values related to the years 2023 and 2022 among the following companies in tons?,22355.67,22
+137,Which companies have the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in MWh?,"heidelberg-materials, munich-re","heidelberg-materials#munich-re | step | output |
+| 1 | Multiple spans |
+| 2 | 313698#329775 |
+| 3 | N.A. |
+| 4 | heidelberg-materials#munich-re |
+| 5 | none |
+
+Finally, present the final answer in the format: """
+138,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in million mt CO2e?,OTC_RWNEF,Response too long
+139,Which companies have the 2 lowest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in ascending order) among the following companies in kt?,"vivendi, OTC_SU",OTC_SU#heidelberg-materials
+140,Which companies have the top 2 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TWh?,"NYSE_TTE, deutsche-telekom-ag","deutsche-telekom-ag#MunichRe | step | output |
+| 1 | Multiple spans |
+| 2 | 12241#13253 |
+| 3 | N.A. |
+| 4 | deutsche-telekom-ag#MunichRe |
+| 5 | none |
+
+Finally, present the final answer in the format: """
+141,What is the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tonnes?,873133.5,671#587
+142,Which company has the highest average energy consumed in the last 2 years among the following companies in MWh?,deutsche-telekom-ag,deutsche-telekom-ag
+143,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tons CO2e?,OTC_ADDDF,OTC_ADDDF
+144,Which company has the largest percentage of energy consumption from renewable sources in 2022 among the following companies?,NASDAQ_DASTY,Heidelberg Materials
+145,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,11.78,"0.27#0.46#0.24 |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+| 2 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#0.46#0.24 |
+| 3 | ((0.27 + 0.46) + 0.24) / 3 |
+| 4 | 0.32 |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Single span |
+
+| step | output |
+| 1 | Arithmetic |
+| 2 | 0.27#"
+146,Which companies have the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"OTC_ESOCF, OTC_BAMGF, munich-re",OTC_BAMGF#OTC_ESOCF#munich-re
+147,What is the average percentage of hazardous waste generated in 2023 among the following companies?,6.67,4216.11
+148,Which company has the smallest percentage variation in water consumption from 2022 to 2023 among the following companies?,OTC_BAMGF,OTC_ESOCF
+149,Which companies have the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TJ?,"heidelberg-materials, OTC_SU, NASDAQ_DASTY",Response too long
+150,Which companies have the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?,"munich-re, NYSE_AZ",NYSE_AZ#OTC_ADDDF
+151,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?,"76992.0, 282307.0, 34774500.0",35056#34493#3062 |
+152,What is the highest average energy consumed in the last 3 years among the following companies in GWh?,96302.76,Response too long
+153,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in million mt CO2e?,109.3,vivendi
+154,What are the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"0.0, 1.9",34.51#53.07
+155,What are the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"31363.5, 1900000.0",85.4#61.9
+156,What is the highest percentage of hazardous compared to non-hazardous waste produced in 2023 among the following companies?,63.32,Heidelberg Materials
+157,Which company has the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,NYSE_TTE,NYSE_TTE
+158,What are the 3 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2e?,"10759.5, 38378.5, 1900000.0","10291#11228#12330 |
+
+| step | output |
+| 1 | Multiple spans |
+| 2 | 10291#11228#12330 |
+| 3 | N.A. |
+| 4 | 10291#11228#12330 |
+| 5 | none |
+
+Finally, present the final answer in the format: """
+159,Which company has the highest average energy consumed in the last 3 years among the following companies in GWh?,heidelberg-materials,Response too long
+160,What is the lowest total energy consumption over the last 2 years among the following companies in GWh?,66.35,33.09
+161,Which company has the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,OTC_DPSGY,OTC_DPSGY
+162,What are the top 3 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"909727.0, 9889305.0, 20400000.0",4.92448e+06#4.84016e+06#4.72231e+06
+163,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,OTC_ESOCF,Response too long
+164,Which company has the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,deutsche-telekom-ag,deutsche-telekom-ag
+165,What is the average percentage variation of direct GHG emissions from 2022 to 2023 among the following companies?,20.95,-35.04
+166,What are the 2 lowest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in ascending order) among the following companies in tons?,"3751.0, 15664.0",18#26
+167,What is the average of the percentage ratios of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,97.98,No answer in the response
+168,What are the 3 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"2.0, 6.16, 35.34","16#2#6 | step | output |
+| 1 | Multiple spans |
+| 2 | 16#2#6 |
+| 3 | N.A. |
+| 4 | 2#6#16 |
+| 5 | percent |
+
+Finally, present the final answer in the format: """
+169,"What is the average total water consumption across the following companies, calculated as the sum of their 2023 and 2022 consumption in m3?",33969909.0,40.7
+170,What is the average percentage of energy consumption from renewable sources in 2023 among the following companies?,24.3,0.75
+171,What is the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,66.59,22.19#21.99
+172,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tCO2-eq?,OTC_ESOCF,No answer in the response
+173,What is the largest percentage of energy consumption from renewable sources in 2023 among the following companies?,67.06,62.9%
+174,Which companies have the 3 lowest percentages of hazardous waste generated in 2022 (sorted in ascending order) among the following companies?,"heidelberg-materials, OTC_SU, NYSE_TTE",Tte#Otc_Su#Heidelberg Materials
+175,What are the top 2 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"909727.0, 9889305.0",4.84016e+06#4.92448e+06
+176,What are the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?,"38.77, 6.1","176#165 | step | output |
+| 1 | Multiple spans |
+| 2 | 165#176 |
+| 3 | N.A. |
+| 4 | 176#165 |
+| 5 | percent |
+
+"
+177,What is the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?,2.16,22.19#21.99
+178,What are the top 3 highest values of average energy consumed in the last 2 years (sorted in descending order) among the following companies in TJ?,"338421.5, 4186.09, 277.17",Response too long
+179,Which companies have the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2eq?,"NASDAQ_DASTY, axa",Response too long
+180,What is the total energy consumption generated by the following companies in the last 2 years in TWh?,348.65,"12241#13253 |
+
+### Step | output |
+| 1 | Arithmetic |
+| 2 | 12241#13253 |
+| 3 | 12241 + 13253 |
+| 4 | 25514 |
+| 5 | none |
+
+### "
+181,Which company has the maximum average percentage consumption of energy from renewable sources in the years 2023 and 2022 among the following companies?,NASDAQ_DASTY,prosiebensat1-media
+182,Which company has the highest percentage of hazardous waste generated in 2022 among the following companies?,vivendi,heidelberg-materials
+183,What are the top 3 highest water consumption values (in descending order) obtained by summing the 2023 and 2022 consumption for the following companies in millions of m3?,"80.6, 9.89, 0.91",4.92448e+06#5.04914e+06#4.84016e+06
+184,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,OTC_BAYZF,vivendi
+185,Which companies have the top 3 highest values of average energy consumed in the last 3 years (sorted in ascending order) among the following companies in TJ?,"deutsche-telekom-ag, OTC_DPSGY, heidelberg-materials",No answer in the response
+186,What is the highest percentage of hazardous waste generated in 2023 among the following companies?,38.77,66%
+187,What is the highest water consumption calculated as the average of the 2023 and 2022 consumption for the following companies in m3?,6720000.0,5.41743e+06#4.84016e+06
+188,Which company has the highest average energy consumed in the last 2 years among the following companies in million kWh?,heidelberg-materials,"Heidelberg-Materials | step | output |
+| 1 | Single span |
+| 2 | 35056#363226 |
+| 3 | N.A. |
+| 4 | Heidelberg-Materials |
+| 5 | none |
+
+Finally, present the final answer in the format: ""Heidelberg-Materials | step | output |
+| 1 | Single span |
+| 2 | Heidelberg-Materials |
+| 3 | N.A. |
+| 4 | Heidelberg-Materials |
+| 5 | none |
+
+"
+189,What is the largest percentage of energy consumption from renewable sources in 2022 among the following companies?,84.0,Heidelberg Materials
+190,Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in tons?,NYSE_TTE,OTC_SU
+191,What is the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2022 among the following companies?,74.7,Response too long
+192,What is the lowest percentage variation of waste generated from 2022 to 2023 among the following companies?,5.53,12.00%
+193,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in TCO2eq?,vivendi,Response too long
+194,Which company has the highest total emissions (both direct and indirect) of GHG generated in 2023 among the following companies in TCO2eq?,munich-re,vivendi
+195,What is the lowest total GHG emissions (both direct and indirect) in the last 2 years among the following companies in tCO2eq?,959708.0,174336
+196,What are the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in tCO2eq?,"4327.0, 21490.0",Response too long
+197,Which companies have the 3 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in TCO2eq?,"munich-re, axa, vivendi",vivendi#munich-re#axa
+198,Which company has the highest percentage ratio of GHG emissions Scope 1 to Scope 3 in 2023 among the following companies?,OTC_RWNEF,OTC_RWNEF
+199,Which companies have the top 3 lowest water consumption values (in ascending order) obtained by summing the 2023 and 2022 consumption for the following companies in m3?,"munich-re, OTC_BAMGF, OTC_CRERF",OTC_BAMGF#OTC_CRERF#munich-re
+200,What is the total energy consumption generated by the following companies in the last 2 years in million kWh?,70267.6,250916#313698
+201,What is the highest percentage of hazardous compared to non-hazardous waste produced in 2022 among the following companies?,54.66,Heidelberg Materials
+202,What is the average percentage variation of direct GHG emissions from 2022 to 2023 among the following companies?,10.64,-0.78
+203,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in tCO2-eq?,133030000.0,No answer in the response
+204,What is the largest percentage variation in energy consumption from 2023 to 2022 among the following companies?,13.95,Response too long
+205,Which companies have the 2 lowest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in ascending order) among the following companies in Million metric tons of CO2 equivalents?,"NASDAQ_DASTY, OTC_BAYZF",ESOCF#OTC_BAYZF
+206,What are the 2 highest amounts of hazardous waste obtained by summing the values related to the years 2023 and 2022 (sorted in descending order) among the following companies in tons?,"378000.0, 15664.0",7573#8091
+207,What is the highest total emissions (both direct and indirect) of GHG generated in 2022 among the following companies in TCO2eq?,824075.0,Response too long
