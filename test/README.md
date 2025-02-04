@@ -1,14 +1,13 @@
-# gri_qa
-
 ## How to run the experiments
 
-Run one of the `test` files in the main directory. Specify the name of the dataset you want to test, e.g. `gri-qa_extra.csv`. The name must exactly match the file name inside the `dataset` dir
+Move the directory `../dataset/` into this directory.  
+Run one of the `test` files in the main directory. Specify the name of the dataset you want to test, e.g. `gri-qa_extra.csv`. The name must exactly match the file name inside the `dataset` dir.
 
 ```
-python3 [TEST_SCRIPT] --dataset [DATASET_NAME]
+python3 {TEST_SCRIPT} --dataset {DATASET_NAME} --type [one-table | multi-table]
 ```
 
-The script will save the results in `results/[DATASET_NAME]` dir. The results include the CO2 emissions of the model and the csv predictions with/without the boolean matches.
+The script will save the results in `results/{DATASET_NAME}` dir. The results include the CO2 emissions of the model and the csv predictions with/without the boolean matches.
 
 ## How to evaluate the experiments
 
