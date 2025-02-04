@@ -12,10 +12,10 @@ The script will save the results in `results/[DATASET_NAME]` dir. The results in
 
 ## How to evaluate the experiments
 
-Run the `extract_metrics.py` script. The script will run the exact match metric on the results provided by the models specified in the first few lines of `extract_metrics.py` (inside main, variable `models`). Be sure that the model you want to evaluate is listed. This time, when specifying the dataset, use either `extra`, `quant`, `rel`, `multistep` or `multistep[X]` to evaluate the models on `gri-qa_extra.csv`, `gri-qa_quant.csv`, `gri-qa_rel.csv` or `gri-qa_multitable[X].csv` respectively.
+Run the `extract_metrics.py` script. The script will run the exact match metric on the results provided by the models specified in the first few lines of `extract_metrics.py` (inside main, variable `models`). Be sure that the model you want to evaluate is listed. This time, when specifying the dataset, use either `extra`, `quant`, `rel`, `multistep` or `multistep[X]` to evaluate the models on `gri-qa_extra.csv`, `gri-qa_quant.csv`, `gri-qa_rel.csv` or `gri-qa_multitable{num_tables}_[rel | quant | multistep].csv` respectively.
 
 ```
-python3 extract_metrics.py --dataset {extra | quant | rel | multistep | multitable{num_tables}-quant | multitable{num_tables}-rel | multitable{num_tables}-multistep} --type {one-table | multi-table}
+python3 extract_metrics.py --dataset [extra | quant | rel | multistep | multitable{num_tables}-quant | multitable{num_tables}-rel | multitable{num_tables}-multistep] --type [one-table | multi-table]
 ```
 
 The results will be saved inside the file `metrics.csv` in `results/[DATASET_NAME]`.
