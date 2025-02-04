@@ -1,7 +1,7 @@
 table_extraction/__pycache__/
 table_extraction/__pdfs__/*
 table_extraction/env/
-table_extraction/annotation/*
+table_extraction/annotation/
 table_extraction/table_dataset/*
 table_extraction/*.pdf
 table_extraction/*.log
