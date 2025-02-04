@@ -78,12 +78,7 @@ if __name__ == '__main__':
     parser.add_argument('--type', type=str, default='samples', choices=['one-table', 'samples', 'multi-table'])
     args = parser.parse_args()
 
-    # models = ['tatllm__end_to_end', 'tatllm__step_wise', 'tapex', 'tablellama', 'finma', 'tagop', 'openai', 'openai_chainofthought']
-    # models = ['tapex', 'tablellama', 'finma', 'openai', 'openai_chainofthought', 'tatllm__end_to_end', 'tatllm__step_wise', 'omnitab']
-    models = ['tablellama', 'finma', 'openai', 'openai_chainofthought', 'tatllm__end_to_end', 'tatllm__step_wise']
-    # models = ['tablellama', 'finma', 'openai', 'openai_chainofthought',  'tatllm__step_wise']
-    # models = ['tablellama', 'finma']
-    # models = ['openai', 'openai_chainofthought', 'finma', 'tablellama', 'omnitab']
+    models = ['tapex', 'omnitab', 'tablellama', 'finma', 'tatllm__end_to_end', 'tatllm__step_wise', 'openai', 'openai_chainofthought']
 
     os.makedirs(f'./results/{args.type}/{args.dataset}/with_match', exist_ok=True)
 
