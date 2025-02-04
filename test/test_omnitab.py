@@ -10,7 +10,7 @@ from transformers import TapexTokenizer, BartForConditionalGeneration, set_seed
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dataset', type=str, default='gri-qa_extra.csv')
-    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'samples'])
+    parser.add_argument('--type', type=str, default='one-table', choices=['one-table', 'multi-table', 'samples'])
     args = parser.parse_args()
 
     set_seed(42)
@@ -37,13 +37,16 @@ if __name__ == '__main__':
         print(f'Q{i} - {row["question"]}')
 
         # Table extraction
-        table_dirname = eval(row["pdf name"])[0].split('.')[0]
-        table_filename = f'dataset/annotation/{table_dirname}/{str(eval(row["page nbr"])[0]).split(".")[0]}_{str(eval(row["table nbr"])[0]).split(".")[0]}.csv'
-        table = pd.read_csv(table_filename, sep=';')
-        table = table.astype(str)
+        table_dirnames = eval(row["pdf name"])[0].split('.')
+        tables = []
+        for table_dirname in table_dirnames:
+            table_filename = f'dataset/annotation/{table_dirname}/{str(eval(row["page nbr"])[0]).split(".")[0]}_{str(eval(row["table nbr"])[0]).split(".")[0]}.csv'
+            table = pd.read_csv(table_filename, sep=';')
+            table = table.astype(str)
+            tables.append(table)
 
         # Query
-        encoding = tokenizer(table=table, query=row["question"], return_tensors="pt").to(model.device)
+        encoding = tokenizer(table=tables, query=row["question"], return_tensors="pt").to(model.device)
         if encoding['input_ids'].shape[1] < 1024:
             outputs = model.generate(**encoding)
             response = tokenizer.batch_decode(outputs, skip_special_tokens=True)
