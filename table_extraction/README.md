@@ -22,7 +22,7 @@ conda activate env
 ```
 
 Install the [Tesseract OCR Engine](https://github.com/tesseract-ocr/tesseract), needed to use one [Unstructured](https://github.com/Unstructured-IO/unstructured) for table extraction.  
-Then, copy the file `sample_config/env` to the root of the repository as `.env` and fill the missing values.  
+Then, copy the file `sample_config/.env` to the root of the repository as `.env` and fill the missing values.  
 Build and run the docker-compose file. The container hosts the pgvector database containing the embeddings extracted from the pdf files
 
 ```
