@@ -1,6 +1,7 @@
 ## How to run the experiments
 
 Move the directory `../dataset/` into this directory.  
+Copy the file `./sample_config/config.ini` into this directory, and fill the empty fields (i.e. your openai key, which is needed to run `test_openapi.py` and `test_openapi_chainofthought.py`).  
 Run one of the `test` files in the main directory. Specify the name of the dataset you want to test, e.g. `gri-qa_extra.csv`. The name must exactly match the file name inside the `dataset` dir.
 
 ```
