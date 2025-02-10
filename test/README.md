@@ -19,3 +19,12 @@ python3 extract_metrics.py --dataset [extra | quant | rel | multistep | multitab
 ```
 
 The results will be saved inside the file `metrics.csv` in `results/[DATASET_NAME]`.
+
+## Models tested
+
+- [TheFinAI/finma-7b-full](https://huggingface.co/TheFinAI/finma-7b-full)  
+- [next-tat/tat-llm-7b-fft](https://huggingface.co/next-tat/tat-llm-7b-fft)  
+- [osunlp/TableLlama](https://huggingface.co/osunlp/TableLlama)  
+- [neulab/omnitab-large](https://huggingface.co/neulab/omnitab-large)  
+- [microsoft/tapex-large](https://huggingface.co/microsoft/tapex-large)  
+- [gpt-4o-mini](https://platform.openai.com/docs/models)
