@@ -4,7 +4,7 @@
 - **extractive** questions, divided in the datasets  
   - *extra*: questions that require the identification of relevant span(s) in a table;  
   - *hier*: same as *extra*, but on hierarchical rows;  
-- **transformative** questions, split in  
+- **calculated** questions, split in  
   - datasets to test reasoning on single tables:  
     - *rel*: requires the identification of relations between cells;  
     - *quant*: requires the computation of quantitative results;  
