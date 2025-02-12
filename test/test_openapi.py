@@ -40,16 +40,11 @@ def read_csv_with_encoding(file_path, try_encodings=None):
 
     for encoding in try_encodings:
         try:
-            # Try reading with current encoding
             df = pd.read_csv(
                 file_path,
                 encoding=encoding,
                 sep=';',
                 header=None,
-                # Additional parameters you might need:
-                # sep=',',  # or ';' or '\t' depending on your file
-                # low_memory=False,  # for large files
-                # on_bad_lines='warn'  # or 'skip' to handle problematic lines
             )
             # print(f"Successfully read file with {encoding} encoding")
             return df
