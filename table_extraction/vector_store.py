@@ -23,7 +23,7 @@ logging.basicConfig(filename="./log/bper.log", level=logging.INFO)
 logger = logging.getLogger("bper.vector_store")
 
 class CustomHuggingFaceEmbeddings(Embeddings):
-    def __init__(self, model_name: str = "Alibaba-NLP/gte-Qwen2-7B-instruct", max_seq_length: int = 8192):
+    def __init__(self, model_name: str, max_seq_length: int = 8192):
         # Initialize the SentenceTransformer model
         self.model = SentenceTransformer(model_name, trust_remote_code=True)
         self.model.max_seq_length = max_seq_length
