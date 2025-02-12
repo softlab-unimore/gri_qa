@@ -1,6 +1,0 @@
-"Topic;Accounting metric;Category;Unit of measure;Code
-Energy Management;(1) Total energy consumed;a Quantitative;Gigajoules (GJ);RT-EE-130a.1
-Energy Management;(2) percentage grid electricity;percentage (%);;; 
-Energy Management;(3) percentage renewable;percentage (%);;; 
-Hazardous Waste Management;Amount of hazardous waste generated, percentage recycled;a Quantitative;Tonnes (t), Percentage (%);RT-EE-150a.1
-Hazardous Waste Management;Number and aggregate quantity of reportable spills, quantity recovered;a Quantitative;Number, Kilograms (kg);RT-EE-150a.2"

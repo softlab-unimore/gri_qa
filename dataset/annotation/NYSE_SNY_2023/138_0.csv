@@ -1,8 +1,0 @@
-"If Bis&lt; 70%;0%
-If B=70%;50%
-If Bis &gt; 70% but &lt; 80%;(B - 70) x 5%
-If Bis = 80%;50%
-If Bis &gt; 80% but &lt; 100%;(50 + [(B - 80) x 2.5])%
-If Bis = 100%;100%
-If Bis &gt; 100% but &lt; 120%;B%
-If Bis &gt; 120%;120%"
