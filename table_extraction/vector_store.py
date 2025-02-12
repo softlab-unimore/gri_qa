@@ -24,16 +24,13 @@ logger = logging.getLogger("bper.vector_store")
 
 class CustomHuggingFaceEmbeddings(Embeddings):
     def __init__(self, model_name: str, max_seq_length: int = 8192):
-        # Initialize the SentenceTransformer model
         self.model = SentenceTransformer(model_name, trust_remote_code=True)
         self.model.max_seq_length = max_seq_length
 
     def embed_documents(self, texts: list) -> list:
-        # Encode documents using model.encode
         return self.model.encode(texts)
 
     def embed_query(self, query: str) -> list:
-        # Encode query using model.encode
         return self.model.encode([query])[0]  # Returns the embedding for a single query
 
 class Handler(object):
