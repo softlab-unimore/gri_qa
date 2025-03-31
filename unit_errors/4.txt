@@ -1,0 +1,894 @@
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "The final answer is:" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: What are the 2 highest values of average direct GHG emissions (Scope 1) produced in the years 2023 and 2022 (sorted in descending order) among the following companies in tCO2e?
+Tables: ## Table 0 ##
+Company name: NASDAQ_DASTY
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>2023</th>
+      <th>2023.1</th>
+      <th>Unnamed: 3</th>
+      <th>Unnamed: 4</th>
+      <th>Unnamed: 5</th>
+      <th>Unnamed: 6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>Workforce in-scope</td>
+      <td>Value</td>
+      <td>2022</td>
+      <td>2021</td>
+      <td>2019</td>
+      <td>Target 2025-2027</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Environment (Sustainability Accounting Standards Board)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Carbon intensity - in tCO2-eq</td>
+      <td>98%</td>
+      <td>8.1</td>
+      <td>8.2</td>
+      <td>-</td>
+      <td>13.5</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Scope 1 - in tCO2-eq</td>
+      <td>87%</td>
+      <td>4178</td>
+      <td>4476</td>
+      <td>3950</td>
+      <td>5403</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Natural Gas</td>
+      <td>87%</td>
+      <td>644</td>
+      <td>821</td>
+      <td>748</td>
+      <td>825</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Fuel</td>
+      <td>87%</td>
+      <td>61</td>
+      <td>384</td>
+      <td>197</td>
+      <td>-</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Refrigerant</td>
+      <td>87%</td>
+      <td>1222</td>
+      <td>522</td>
+      <td>1032</td>
+      <td>315</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Company cars</td>
+      <td>87%</td>
+      <td>2251</td>
+      <td>2749</td>
+      <td>1972</td>
+      <td>4263</td>
+      <td>-35%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Scope 2 - in tCO2-eq</td>
+      <td>100%</td>
+      <td>3193</td>
+      <td>3324</td>
+      <td>12500</td>
+      <td>19695</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Electricity ("Market based")</td>
+      <td>100%</td>
+      <td>2808</td>
+      <td>2870</td>
+      <td>12029</td>
+      <td>19153</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Electricity ("Location based")</td>
+      <td>100%</td>
+      <td>21094</td>
+      <td>22929</td>
+      <td>21056</td>
+      <td>22338</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Urban steam and cold</td>
+      <td>87%</td>
+      <td>384</td>
+      <td>455</td>
+      <td>472</td>
+      <td>542</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Scope 3 - in tCO2-eq</td>
+      <td>99%</td>
+      <td>179523</td>
+      <td>168709</td>
+      <td>123269</td>
+      <td>206044</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Business travel</td>
+      <td>96%</td>
+      <td>21012</td>
+      <td>21464</td>
+      <td>7367</td>
+      <td>50982</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Employees' commute</td>
+      <td>99%</td>
+      <td>16125</td>
+      <td>15792</td>
+      <td>4624</td>
+      <td>26613</td>
+      <td>-20%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Capital goods</td>
+      <td>99%</td>
+      <td>40794</td>
+      <td>35821</td>
+      <td>27183</td>
+      <td>27491</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Goods and services</td>
+      <td>99%</td>
+      <td>97471</td>
+      <td>91399</td>
+      <td>79615</td>
+      <td>97084</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Electric and electronic</td>
+      <td>87%</td>
+      <td>115</td>
+      <td>95</td>
+      <td>27</td>
+      <td>77</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Ordinary waste</td>
+      <td>99%</td>
+      <td>1704</td>
+      <td>1620</td>
+      <td>1473</td>
+      <td>1441</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Upstream emissions</td>
+      <td>100%</td>
+      <td>2303</td>
+      <td>2519</td>
+      <td>2980</td>
+      <td>2356</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>% of suppliers in emissions w/science-based targets set</td>
+      <td>-</td>
+      <td>37%</td>
+      <td>26%</td>
+      <td>-</td>
+      <td>-</td>
+      <td>50%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Total - in tCO2-eq</td>
+      <td>98%</td>
+      <td>186894</td>
+      <td>176510</td>
+      <td>139719</td>
+      <td>231142</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Scope 3 - Use of goods sold (customers "on premise") - in tCO2-eq</td>
+      <td>NaN</td>
+      <td>495039</td>
+      <td>465870</td>
+      <td>463487</td>
+      <td>-</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2.5.3 Water and Marine Resources</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Consumption in m3</td>
+      <td>100%</td>
+      <td>323100</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2.5.4 Biodiversity and Ecosystems</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>% of certified workplaces</td>
+      <td>87%</td>
+      <td>88%</td>
+      <td>73%</td>
+      <td>69%</td>
+      <td>53</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2.5.5 Circular Economy and Resource use</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>% of workplaces with sorting facilities for ordinary waste</td>
+      <td>87%</td>
+      <td>89%</td>
+      <td>89%</td>
+      <td>88%</td>
+      <td>84</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Total weight of waste in tons</td>
+      <td>99%</td>
+      <td>931.3</td>
+      <td>1321.5</td>
+      <td>24.3</td>
+      <td>38.9</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>From which Weight of ordinary waste in tons</td>
+      <td>99%</td>
+      <td>874</td>
+      <td>1274</td>
+      <td>-</td>
+      <td>-</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>From which Weight of collected electric and electronic waste (WEEE) in tons</td>
+      <td>87%</td>
+      <td>57.3</td>
+      <td>47.5</td>
+      <td>24.3</td>
+      <td>38.9</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>% of electric and electronic waste recycled (WEEE)</td>
+      <td>87%</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>98%</td>
+      <td>99</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 1 ##
+Company name: NYSE_AZ
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tCO2e</th>
+      <th>2023</th>
+      <th>2022</th>
+      <th>Delta (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Gross Scope 1 GHG emissions</td>
+      <td>31774</td>
+      <td>30953</td>
+      <td>2.7</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Gross market-based Scope 2 GHG emissions</td>
+      <td>7929</td>
+      <td>30490</td>
+      <td>(74.0)</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Gross location-based Scope 2 GHG emissions</td>
+      <td>112228</td>
+      <td>138339</td>
+      <td>(18.9)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Gross Scope 3 GHG emissions (selected)</td>
+      <td>96745</td>
+      <td>92467</td>
+      <td>4.6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Total emissions from own operation and further value chain</td>
+      <td>136448</td>
+      <td>153910</td>
+      <td>(11.3)</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 2 ##
+Company name: OTC_ESOCF
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Unnamed: 1</th>
+      <th>2023</th>
+      <th>2022</th>
+      <th>Change</th>
+      <th>Change.1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Direct greenhouse gas emissions - Scope 1</td>
+      <td>MtCO2eq</td>
+      <td>34.510</td>
+      <td>53.070</td>
+      <td>(18.56)</td>
+      <td>-35.0%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Indirect greenhouse gas emissions - Scope 2 - location based</td>
+      <td>MtCO2eq</td>
+      <td>3.280</td>
+      <td>3.820</td>
+      <td>(0.54)</td>
+      <td>-14.1%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Indirect greenhouse gas emissions - Scope 2 - market based</td>
+      <td>MtCO2eq</td>
+      <td>4.510</td>
+      <td>5.100</td>
+      <td>(0.59)</td>
+      <td>-11.6%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Indirect greenhouse gas emissions - Scope 3</td>
+      <td>MtCO2eq</td>
+      <td>56.530</td>
+      <td>71.040</td>
+      <td>(14.51)</td>
+      <td>-20.4%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>- of which emissions connected with gas sales</td>
+      <td>MtCO2eq</td>
+      <td>16.790</td>
+      <td>20.630</td>
+      <td>(3.84)</td>
+      <td>-18.6%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Intensity of Scope 1 GHG emissions related to power generation</td>
+      <td>gCO2eq/kWh</td>
+      <td>160.000</td>
+      <td>229.000</td>
+      <td>-69</td>
+      <td>-30.1%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Intensity of Scope 1 and Scope 3 GHG emissions related to Integrated Power</td>
+      <td>gCO2eq/kWh</td>
+      <td>168.000</td>
+      <td>210.000</td>
+      <td>-42</td>
+      <td>-20.0%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Specific emissions of SO2</td>
+      <td>g/kWh</td>
+      <td>0.090</td>
+      <td>0.070</td>
+      <td>0.02</td>
+      <td>28.6%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Specific emissions of NOx</td>
+      <td>g/kWh</td>
+      <td>0.260</td>
+      <td>0.320</td>
+      <td>(0.06)</td>
+      <td>-18.8%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Specific emissions of particulates</td>
+      <td>g/kWh</td>
+      <td>0.006</td>
+      <td>0.005</td>
+      <td>0.001</td>
+      <td>20.0%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Zero-emission generation as percentage of total</td>
+      <td>%</td>
+      <td>73.200</td>
+      <td>61.000</td>
+      <td>12.2</td>
+      <td>20.0%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Total direct fuel consumption</td>
+      <td>Mtoe</td>
+      <td>19.300</td>
+      <td>26.500</td>
+      <td>(7.2)</td>
+      <td>-27.2%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Average efficiency of thermal plants</td>
+      <td>%</td>
+      <td>42.000</td>
+      <td>42.800</td>
+      <td>(0.8)</td>
+      <td>-1.9%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Water withdrawals in water-stressed areas</td>
+      <td>%</td>
+      <td>23.300</td>
+      <td>19.300</td>
+      <td>4</td>
+      <td>20.7%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Total specific withdrawals of fresh water</td>
+      <td>l/kWh</td>
+      <td>0.200</td>
+      <td>0.230</td>
+      <td>(0.03)</td>
+      <td>-13.0%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Reference price of CO2</td>
+      <td>EUR/ton</td>
+      <td>71.000</td>
+      <td>86.000</td>
+      <td>-15</td>
+      <td>-17.4%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Ordinary EBITDA from low-carbon products, services and technologies</td>
+      <td>millions of EUR</td>
+      <td>17982.000</td>
+      <td>13900.000</td>
+      <td>4082</td>
+      <td>29.4%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Capital expenditure on low-carbon products, services and technologies</td>
+      <td>millions of EUR</td>
+      <td>12837.000</td>
+      <td>13351.000</td>
+      <td>-514</td>
+      <td>-3.8%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Ratio of capex for low-carbon products, services and technologies to total</td>
+      <td>%</td>
+      <td>94.600</td>
+      <td>92.100</td>
+      <td>2.5</td>
+      <td>2.70%</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 3 ##
+Company name: OTC_RWNEF
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Greenhouse gas emissions (according to the Greenhouse Gas Protocol) million mt CO2e</th>
+      <th>2023</th>
+      <th>2022</th>
+      <th>+/-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Direct greenhouse gas emissions - Scope 1</td>
+      <td>61.9</td>
+      <td>85.4</td>
+      <td>-23.4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Indirect energy-related greenhouse gas emissions - Scope 2 (location based)</td>
+      <td>0.2</td>
+      <td>0.1</td>
+      <td>0.1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Indirect upstream and downstream greenhouse gas emissions as the sum of the following categories - Scope 3</td>
+      <td>21.6</td>
+      <td>23.8</td>
+      <td>-2.2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Category 1: Purchased goods and services</td>
+      <td>2.1</td>
+      <td>1.5</td>
+      <td>0.6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Category 2: Capital goods</td>
+      <td>2.8</td>
+      <td>1.2</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Category 3: Combustion fuel and energy-related emissions</td>
+      <td>3.1</td>
+      <td>4.5</td>
+      <td>-1.3</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Category 4: Upstream transmission and distribution</td>
+      <td>&lt; 0.1</td>
+      <td>&lt; 0.1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Category 5: Waste</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Category 6: Business travel</td>
+      <td>&lt; 0.1</td>
+      <td>&lt; 0.1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Category 7: Commuting by employees</td>
+      <td>&lt; 0.1</td>
+      <td>&lt; 0.1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Category 9: Downstream transmission and distribution</td>
+      <td>&lt; 0.1</td>
+      <td>&lt; 0.1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Category 10: Processing of sold products</td>
+      <td>&lt; 0.1</td>
+      <td>0.1</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Category 11: Use of sold products</td>
+      <td>10.8</td>
+      <td>12.8</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Category 15: Investments</td>
+      <td>2.4</td>
+      <td>3.5</td>
+      <td>-1.1</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Biogenic emissions</td>
+      <td>4</td>
+      <td>-</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 4 ##
+Company name: munich-re
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Unnamed: 1</th>
+      <th>2023</th>
+      <th>Prev. year</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Scope</td>
+      <td>Source of emission</td>
+      <td>tCO2e</td>
+      <td>tCO2e</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Scope 1</td>
+      <td>GHG emissions from direct energy consumption</td>
+      <td>33093</td>
+      <td>43664</td>
+      <td>-24.2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Scope 1</td>
+      <td>Thereof from business trips with company cars</td>
+      <td>10841</td>
+      <td>12330</td>
+      <td>-12.1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Scope 2</td>
+      <td>GHG emissions from indirect energy consumption</td>
+      <td>14249</td>
+      <td>18310</td>
+      <td>-22.2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Scope 3</td>
+      <td>Other indirect GHG emissions</td>
+      <td>3039435</td>
+      <td>3130824</td>
+      <td>-2.9</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Scope 3</td>
+      <td>GHG emissions from upstream activities</td>
+      <td>22571</td>
+      <td>17731</td>
+      <td>27.3</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Scope 3</td>
+      <td>Thereof business trips (excluding those with company cars that are reported within scope 1)</td>
+      <td>19466</td>
+      <td>14479</td>
+      <td>34.4</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Scope 3</td>
+      <td>Thereof from paper</td>
+      <td>1020</td>
+      <td>1014</td>
+      <td>0.6</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Scope 3</td>
+      <td>Thereof from waste</td>
+      <td>1781</td>
+      <td>1903</td>
+      <td>-6.4</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Scope 3</td>
+      <td>Thereof from water</td>
+      <td>304</td>
+      <td>335</td>
+      <td>-9.3</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Scope 3</td>
+      <td>GHG emissions from downstream activities</td>
+      <td>3016864</td>
+      <td>3113093</td>
+      <td>-3.1</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Scope 3</td>
+      <td>Thereof financed GHG emissions</td>
+      <td>3016864</td>
+      <td>3113093</td>
+      <td>-3.1</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Scope 1-3 - Own operations</td>
+      <td>Total GHG emissions, scope 1-3 own operations, scope 2 market-based</td>
+      <td>69913</td>
+      <td>79705</td>
+      <td>-12.3</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Total Scope</td>
+      <td>Total GHG emissions, scope 1-3, scope 2 market-based</td>
+      <td>3086777</td>
+      <td>3192798</td>
+      <td>-3.3</td>
+    </tr>
+  </tbody>
+</table>
+
+Let's think step-by-step.
+
+to find the two highest values of average direct ghg emissions (scope 1) produced in the years 2023 and 2022 among the companies listed, we need to extract the relevant data from the provided tables.
+
+1. **identify scope 1 emissions for each company:**
+   - **nasdaq_dasty**: 
+     - 2023: 4178 tco2e
+     - 2022: 4476 tco2e
+   - **nyse_az**: 
+     - 2023: 31774 tco2e
+     - 2022: 30953 tco2e
+   - **otc_esocf**: 
+     - 2023: 34.510 mtco2e (which is 34510 tco2e)
+     - 2022: 53.070 mtcoe (which is 53070 tco2e)
+   - **otc_rwnef**: 
+     - 2023: 61.9 mtco2e (which is 61900 tco2e)
+     - 2022: 85.4 mtco2e (which is 85400 tco2e)
+   - **munich-re**: 
+     - 2023: 33093 tco2e
+     - 2022: 43664 tco2e
+
+2. **compile the emissions data:**
+   - for 2023:
+     - nasdaq_dasty: 4178
+     - nyse_az: 31774
+     - otc_esocf: 34510
+     - otc_rwnef: 61900
+     - munich-re: 33093
+   - for 2022:
+     - nasdaq_dasty: 4476
+     - nyse_az: 30953
+     - otc_esocf: 53070
+     - otc_rwnef: 85400
+     - munich-re: 43664
+
+3. **find the highest values for each year:**
+   - **2023**: 
+     - highest: otc_rwnef (61900)
+     - second highest: otc_esocf (34510)
+   - **2022**: 
+     - highest: otc_rwnef (85400)
+     - second highest: otc_esocf (53070)
+
+4. **combine the highest values from both years and sort them in descending order:**
+   - 85400 (otc_rwnef, 2022)
+   - 61900 (otc_rwnef, 2023)
+
+5. **final list of the two highest values:**
+   - 85400, 61900
+
+final answer: 85400, 61900

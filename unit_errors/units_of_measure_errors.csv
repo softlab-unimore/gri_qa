@@ -1,0 +1,44 @@
+Index,Unit error,Error description
+0,yes,"1,89 million metric tons converted to 1890 tco2e"
+1,yes,"for all values, it has been considered that 1twh = 1000mwh, while actually 1twh=1000000mwh"
+3,yes,"wrong mtco2eq to tco2eq (34,510 -> 34510)"
+4,yes,wrong mtco2eq to tco2eq for OTC_ESOCF and OTC_RWNEF
+5,yes,1 million kwh = 1mwh
+8,no,
+9,yes,"1,89 million metric tons converted to 1890 tco2e"
+10,yes,"otc_bayzf: 3 million metric tons -> 3000 tco2e; otc_esocf: 53,070+5,100+71,040 million metric tons = 129210 tco2e"
+11,no,
+12,yes,"otc_su: 1201276 million kwh = 1201,276 twh; heidelberg_materials: 1 twh = 3.6 tj, while actually 1twh=3600tj"
+13,yes,"1tj=0.2778mwh while actually 1tj=277,8 mwh"
+14,yes,35056 million kwh = 35056 mwh
+16,no,
+17,no,
+20,no,
+21,no,
+23,no,
+24,no,
+25,yes,"for munich_re, it correctly convert m3 to million m3, but for otc_bamgf no: 9889305m3 = 9889,31 million m3"
+26,no,
+27,yes,"it says that it needs to convert tco2eq to million metric tons by dividing by 1000000. However, it writes 186894 tco2eq = 186,89 million metric tons"
+29,no,
+30,no,
+31,yes,"it converts mwh to twh by dividing by 1000, while actually it should be 1000000"
+32,yes,error in mtco2e -> tco2e
+33,no,
+34,yes,error in mwh to tj for all tables
+35,no,
+36,no,
+37,yes,"it says that 1tj=0.277 mwh, while it is actually 1tj=277,8mwh"
+38,no,
+39,yes,1 million kwh = 1mwh
+40,no,
+41,yes,"it hallucinates, saying that some values in a table (NASDAQ_DASTY) are reported in mtco2eq, while they are actually in tco2eq"
+42,yes,"4178 tco2eq -> 4,18 million metric tons"
+43,yes,it says that 12241 gwh is equivalent to 122410 mwh
+48,yes,"1,89 million mtco2e -> 1890 tons co2e"
+49,yes,"3,03 million metric tons -> 3030 tco2e"
+,,
+,,
+TOTAL ERR,22,
+TOTAL,38,
+%,"57,89473684",

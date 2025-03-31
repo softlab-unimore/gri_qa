@@ -1,0 +1,1018 @@
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "The final answer is:" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: What are the top 2 highest values of average energy consumed in the last 2 years (sorted in ascending order) among the following companies in MWh?
+Tables: ## Table 0 ##
+Company name: NASDAQ_DASTY
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>2023</th>
+      <th>2022</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Carbon intensity in millions of euros of Revenue IFRS (tCO2-eq/M EUR)</td>
+      <td>31.4</td>
+      <td>31.2</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Carbon intensity per employee (tCO2-eq/employee)</td>
+      <td>8.1</td>
+      <td>8.2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Energy consumption (MWh)</td>
+      <td>71218</td>
+      <td>82766</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Number of EACs acquired during the year</td>
+      <td>31102</td>
+      <td>37000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Share of renewable energy</td>
+      <td>84%</td>
+      <td>84%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Share of renewable electricity</td>
+      <td>89%</td>
+      <td>90%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Percentage of ISO 50001-certified sites</td>
+      <td>66.7%</td>
+      <td>44%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Percentage of workforce covered by ISO 50001 certified sites</td>
+      <td>65.3%</td>
+      <td>51%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Share of suppliers by weight of GHG emissions committed to a science-based reduction approach</td>
+      <td>37%</td>
+      <td>26%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Quantity of carbon credits acquired during the year (tCO2eq)</td>
+      <td>673</td>
+      <td>671</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 1 ##
+Company name: NYSE_TTE
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unit</th>
+      <th>2015</th>
+      <th>2019</th>
+      <th>2020</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Energy mix (sales)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Petroleum products(a) (%)</td>
+      <td>65</td>
+      <td>53</td>
+      <td>47</td>
+      <td>44</td>
+      <td>41</td>
+      <td>43.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Gas(b) (%)</td>
+      <td>33</td>
+      <td>40</td>
+      <td>45</td>
+      <td>48</td>
+      <td>50</td>
+      <td>47.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Low-carbon energies(c) (%)</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Petroleum products</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Petroleum products - sales (Mb/day)</td>
+      <td>2.4</td>
+      <td>2.3</td>
+      <td>1.8</td>
+      <td>1.8</td>
+      <td>1.7</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Gas</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>LNG - sales (Mt)</td>
+      <td>13</td>
+      <td>34</td>
+      <td>38</td>
+      <td>42</td>
+      <td>48</td>
+      <td>44.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Electricity</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Gross renewable electricity capacity(d) (GW)</td>
+      <td>0</td>
+      <td>3</td>
+      <td>7</td>
+      <td>10</td>
+      <td>17</td>
+      <td>22.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Net production(e) (TWh)</td>
+      <td>2</td>
+      <td>11</td>
+      <td>14</td>
+      <td>21</td>
+      <td>33</td>
+      <td>33.0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Clients BtB and BtC (Millions)</td>
+      <td>&lt;2</td>
+      <td>6</td>
+      <td>8</td>
+      <td>9</td>
+      <td>8</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>EV charging points (Thousands)</td>
+      <td>0</td>
+      <td>0</td>
+      <td>22</td>
+      <td>26</td>
+      <td>42</td>
+      <td>60.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Low-carbon molecules</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Biofuels - production (Mt)</td>
+      <td>-</td>
+      <td>0.2</td>
+      <td>0.3</td>
+      <td>0.5</td>
+      <td>0.2</td>
+      <td>0.3</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Biogas - production (TWh)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&lt;1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Net investments</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Oil (B$)</td>
+      <td>13</td>
+      <td>9</td>
+      <td>6</td>
+      <td>7</td>
+      <td>10</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>LNG &amp; Gas (B$)</td>
+      <td>7</td>
+      <td>7</td>
+      <td>5</td>
+      <td>5</td>
+      <td>2</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Low-carbon energies (B$)</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Integrated Power (B$)</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Low-carbon molecules (B$)</td>
+      <td>0</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Energy consumption</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Net primary energy consumption(f) (TWh)</td>
+      <td>153</td>
+      <td>160</td>
+      <td>147</td>
+      <td>148</td>
+      <td>166</td>
+      <td>157.0</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Renewable energy consumption(g) (TWh)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Global Energy Efficiency Indicator (GEEI) (Base 100 in 2010)</td>
+      <td>90.8</td>
+      <td>88</td>
+      <td>90.2</td>
+      <td>87</td>
+      <td>85.1</td>
+      <td>86.4</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Energy management system</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Operated sites with an auditable energy management system (annual consumption &gt; 50 ktoe)(g) (Nb)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>26</td>
+      <td>27</td>
+      <td>27</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Operated sites with annual consumption &gt; 50 ktoe(h) (Nb)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>42</td>
+      <td>46</td>
+      <td>46</td>
+      <td>43.0</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 2 ##
+Company name: OTC_SU
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>GRI</th>
+      <th>Indicators</th>
+      <th>Units</th>
+      <th>2023</th>
+      <th>2022</th>
+      <th>2021</th>
+      <th>2020</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>Estimated coverage (% energy consumption)</td>
+      <td>%</td>
+      <td>95%</td>
+      <td>95%</td>
+      <td>95%</td>
+      <td>96%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>ISO 50001 certified sites</td>
+      <td>#</td>
+      <td>128</td>
+      <td>132</td>
+      <td>140</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption</td>
+      <td>MWh</td>
+      <td>1124327</td>
+      <td>1201276</td>
+      <td>1325491</td>
+      <td>1216845</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>302-1, 302-4</td>
+      <td>of which measured energy consumption</td>
+      <td>MWh</td>
+      <td>934805</td>
+      <td>979497</td>
+      <td>1080366</td>
+      <td>1034003</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>302-1, 302-4</td>
+      <td>of which estimated energy consumption for sites out of reporting perimeter</td>
+      <td>MWh</td>
+      <td>189522</td>
+      <td>221779</td>
+      <td>245125</td>
+      <td>182842</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption/turnover</td>
+      <td>MWh/million EUR</td>
+      <td>31.3</td>
+      <td>35.1</td>
+      <td>45.9</td>
+      <td>48.3</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy productivity</td>
+      <td>EUR/MWh</td>
+      <td>31932</td>
+      <td>28450</td>
+      <td>21803</td>
+      <td>20709</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total improvement in energy productivity vs 2005</td>
+      <td>%</td>
+      <td>157.3%</td>
+      <td>129.3%</td>
+      <td>75.7%</td>
+      <td>66.9%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption from renewable sources</td>
+      <td>MWh</td>
+      <td>707033</td>
+      <td>688474</td>
+      <td>670287</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total percentage of renewable energy</td>
+      <td>%</td>
+      <td>62.9%</td>
+      <td>57.3%</td>
+      <td>50.6%</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption from non-renewable sources</td>
+      <td>MWh</td>
+      <td>417294</td>
+      <td>512802</td>
+      <td>655204</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total percentage of non renewable energy</td>
+      <td>%</td>
+      <td>37.1%</td>
+      <td>42.7%</td>
+      <td>49.4%</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>302-1, 302-4</td>
+      <td>Measured energy consumption by source</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>302-1, 302-4</td>
+      <td>grid electricity</td>
+      <td>MWh</td>
+      <td>82590</td>
+      <td>108263</td>
+      <td>132771</td>
+      <td>148969</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>302-1, 302-4</td>
+      <td>purchased renewable electricity</td>
+      <td>MWh</td>
+      <td>610614</td>
+      <td>588851</td>
+      <td>612752</td>
+      <td>585495</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>302-1, 302-4</td>
+      <td>self generated renewable electricity</td>
+      <td>MWh</td>
+      <td>23194</td>
+      <td>20719</td>
+      <td>15861</td>
+      <td>12464</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>302-1, 302-4</td>
+      <td>district heating</td>
+      <td>MWh</td>
+      <td>14736</td>
+      <td>24519</td>
+      <td>33830</td>
+      <td>27602</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>302-1, 302-4</td>
+      <td>fuel oil</td>
+      <td>MWh</td>
+      <td>12991</td>
+      <td>6520</td>
+      <td>6967</td>
+      <td>6941</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>302-1, 302-4</td>
+      <td>gas</td>
+      <td>MWh</td>
+      <td>190088</td>
+      <td>229552</td>
+      <td>276954</td>
+      <td>251377</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>302-1, 302-4</td>
+      <td>coal</td>
+      <td>MWh</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>302-1, 302-4</td>
+      <td>renewable fuel and heat</td>
+      <td>MWh</td>
+      <td>593</td>
+      <td>1073</td>
+      <td>1231</td>
+      <td>1155</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 3 ##
+Company name: heidelberg-materials
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Greenhouse gas emissions</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+      <th>References and comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>EM-CM-110a.1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Gross global Scope 1 emissions (million metric tonnes CO2-e)</td>
+      <td>69.5</td>
+      <td>65.9</td>
+      <td>63.3</td>
+      <td>Gross global Scope 1 emissions include the cement and aggregates business lines as well as emissions from offsite transport using our own vehicles. Page 356</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Percentage covered under emissions-limiting regulations</td>
+      <td>47%</td>
+      <td>38%</td>
+      <td>41%</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>EM-CM-110a.2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Discussion of long-term and short-term strategy or plan to manage Scope 1 emissions, emissions reduction targets, and an analysis of performance against those targets</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Pages 38-41, 80, 82-86, 106-107, 117-119</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Air quality</td>
+      <td>Air emissions of the pollutants: NOx (excluding N2O), SOx, particulate matter (PM10) (metric tonnes)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>EM-CM-120a.1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Air emissions of the pollutants: NOx (excluding N2O), SOx, particulate matter (PM10) (metric tonnes)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Pages 119-120, 358</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Dioxins / furans (miligramme)</td>
+      <td>3380</td>
+      <td>4933</td>
+      <td>4013</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Volatile organic compounds (VOCs) (metric tonnes)</td>
+      <td>3695</td>
+      <td>3520</td>
+      <td>2950</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Polycyclic aromatic hydrocarbons (PAHs) (metric tonnes)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>We are currently not collecting data on PAHs globally.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Heavy metals (mercury) (kilogramme)</td>
+      <td>1458</td>
+      <td>1129</td>
+      <td>1226</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Energy management</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>EM-CM-130a.1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Total energy consumed (terajoules)</td>
+      <td>363226</td>
+      <td>347068</td>
+      <td>329775</td>
+      <td>Total energy consumed includes the business lines cement and aggregates. Definitions and consolidation for the business line cement are in accordance with the guidelines of the Global Cement and Concrete Association (GCCA). Volumes for Power Purchase Agreements (PPA) are below the materiality threshold and thus not included. Definition of renewables corresponds to the GCCA definition for biomass.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Percentage grid electricity</td>
+      <td>12.2%</td>
+      <td>12.5%</td>
+      <td>12.5%</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Percentage alternative</td>
+      <td>21.7%</td>
+      <td>23.7%</td>
+      <td>24.4%</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Percentage renewable</td>
+      <td>9.1%</td>
+      <td>10.4%</td>
+      <td>12.3%</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Water management</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>EM-CM-140a.1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Total water withdrawn (million cubic metres)</td>
+      <td>316</td>
+      <td>286</td>
+      <td>274</td>
+      <td>Cement, aggregates, and ready-mixed concrete business lines Pages 359-360</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Total water consumed (million cubic metres)</td>
+      <td>78</td>
+      <td>74</td>
+      <td>81</td>
+      <td>Cement, aggregates, and ready-mixed concrete business lines</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Percentage of water withdrawn in regions with High or Extremely High Baseline Water Stress</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Cement business line Page 359</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Percentage of water consumed in regions with High or Extremely High Baseline Water Stress</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Cement business line Page 360</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 4 ##
+Company name: munich-re
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Energy consumption</th>
+      <th>Energy consumption.1</th>
+      <th>Energy consumption.2</th>
+      <th>Percentage of energy
+consumption</th>
+      <th>Percentage of energy
+consumption.1</th>
+      <th>Energy intensity</th>
+      <th>Energy intensity.1</th>
+      <th>Energy intensity.2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>Prev. year</td>
+      <td>Change</td>
+      <td>2023</td>
+      <td>Prev. year</td>
+      <td>2023</td>
+      <td>Prev. year</td>
+      <td>Change</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>MWh</td>
+      <td>MWh</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>Mwh/Headcount</td>
+      <td>Mwh/Headcount</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Natural gas</td>
+      <td>108722</td>
+      <td>153307</td>
+      <td>-29.1</td>
+      <td>43.3</td>
+      <td>48.9</td>
+      <td>2.5</td>
+      <td>3.7</td>
+      <td>-31.4</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Thereof natural gas for cogeneration</td>
+      <td>95188</td>
+      <td>126293</td>
+      <td>-24.6</td>
+      <td>37.9</td>
+      <td>40.3</td>
+      <td>2.2</td>
+      <td>3.1</td>
+      <td>-27.1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Electricity</td>
+      <td>95108</td>
+      <td>102313</td>
+      <td>-7</td>
+      <td>37.9</td>
+      <td>32.6</td>
+      <td>2.2</td>
+      <td>2.5</td>
+      <td>-10.1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Thereof electricity from renewable sources</td>
+      <td>86870</td>
+      <td>92518</td>
+      <td>-6.1</td>
+      <td>34.6</td>
+      <td>29.5</td>
+      <td>2</td>
+      <td>2.2</td>
+      <td>-9.2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>District heating</td>
+      <td>41931</td>
+      <td>51638</td>
+      <td>-18.8</td>
+      <td>16.7</td>
+      <td>16.5</td>
+      <td>1</td>
+      <td>1.2</td>
+      <td>-21.5</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>District cooling</td>
+      <td>4283</td>
+      <td>5371</td>
+      <td>-20.3</td>
+      <td>1.7</td>
+      <td>1.7</td>
+      <td>0.1</td>
+      <td>0.1</td>
+      <td>-22.9</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Liquid fuel for emergency power</td>
+      <td>872</td>
+      <td>1069</td>
+      <td>-18.4</td>
+      <td>0.3</td>
+      <td>0.3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-22.6</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Total</td>
+      <td>250916</td>
+      <td>313698</td>
+      <td>-20</td>
+      <td>100</td>
+      <td>100</td>
+      <td>5.9</td>
+      <td>7.6</td>
+      <td>-22.7</td>
+    </tr>
+  </tbody>
+</table>
+
+Let's think step-by-step.
+
+to determine the top 2 highest values of average energy consumed in the last 2 years among the companies listed, we need to extract the energy consumption values for the years 2022 and 2023 from the provided tables.
+
+1. **nasdaq_dasty**: 
+   - 2022: 82766 mwh
+   - 2023: 71218 mwh
+   - average: (82766 + 71218) / 2 = 76992 mwh
+
+2. **nyse_tte**: 
+   - 2022: not available
+   - 2023: not available
+   - average: not applicable
+
+3. **otc_su**: 
+   - 2022: 1201276 mwh
+   - 2023: 1124327 mwh
+   - average: (1201276 + 1124327) / 2 = 1162801.50 mwh
+
+4. **heidelberg-materials**: 
+   - 2022: not available
+   - 2023: not available
+   - average: not applicable
+
+5. **munich-re**: 
+   - 2022: 313698 mwh
+   - 2023: 250916 mwh
+   - average: (313698 + 250916) / 2 = 282307 mwh
+
+now we have the average energy consumption values for the companies that provided data:
+
+- nasdaq_dasty: 76992 mwh
+- otc_su: 1162801.50 mwh
+- munich-re: 282307 mwh
+
+next, we sort these averages in ascending order:
+
+1. nasdaq_dasty: 76992 mwh
+2. munich-re: 282307 mwh
+3. otc_su: 1162801.50 mwh
+
+the top 2 highest values are:
+
+1. 282307 mwh (munich-re)
+2. 1162801.50 mwh (otc_su)
+
+finally, we present these values in ascending order:
+
+final answer: 282307.00, 1162801.50
