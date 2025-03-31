@@ -1,0 +1,242 @@
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "Final answer:" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: Which company has the lowest total energy consumption over the last 2 years among the following companies in GWh?
+Tables: ## Table 0 ##
+Company name: munich-re
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Energy consumption</th>
+      <th>Energy consumption.1</th>
+      <th>Energy consumption.2</th>
+      <th>Percentage of energy
+consumption</th>
+      <th>Percentage of energy
+consumption.1</th>
+      <th>Energy intensity</th>
+      <th>Energy intensity.1</th>
+      <th>Energy intensity.2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>Prev. year</td>
+      <td>Change</td>
+      <td>2023</td>
+      <td>Prev. year</td>
+      <td>2023</td>
+      <td>Prev. year</td>
+      <td>Change</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>MWh</td>
+      <td>MWh</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>Mwh/Headcount</td>
+      <td>Mwh/Headcount</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Natural gas</td>
+      <td>108722</td>
+      <td>153307</td>
+      <td>-29.1</td>
+      <td>43.3</td>
+      <td>48.9</td>
+      <td>2.5</td>
+      <td>3.7</td>
+      <td>-31.4</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Thereof natural gas for cogeneration</td>
+      <td>95188</td>
+      <td>126293</td>
+      <td>-24.6</td>
+      <td>37.9</td>
+      <td>40.3</td>
+      <td>2.2</td>
+      <td>3.1</td>
+      <td>-27.1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Electricity</td>
+      <td>95108</td>
+      <td>102313</td>
+      <td>-7</td>
+      <td>37.9</td>
+      <td>32.6</td>
+      <td>2.2</td>
+      <td>2.5</td>
+      <td>-10.1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Thereof electricity from renewable sources</td>
+      <td>86870</td>
+      <td>92518</td>
+      <td>-6.1</td>
+      <td>34.6</td>
+      <td>29.5</td>
+      <td>2</td>
+      <td>2.2</td>
+      <td>-9.2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>District heating</td>
+      <td>41931</td>
+      <td>51638</td>
+      <td>-18.8</td>
+      <td>16.7</td>
+      <td>16.5</td>
+      <td>1</td>
+      <td>1.2</td>
+      <td>-21.5</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>District cooling</td>
+      <td>4283</td>
+      <td>5371</td>
+      <td>-20.3</td>
+      <td>1.7</td>
+      <td>1.7</td>
+      <td>0.1</td>
+      <td>0.1</td>
+      <td>-22.9</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Liquid fuel for emergency power</td>
+      <td>872</td>
+      <td>1069</td>
+      <td>-18.4</td>
+      <td>0.3</td>
+      <td>0.3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-22.6</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Total</td>
+      <td>250916</td>
+      <td>313698</td>
+      <td>-20</td>
+      <td>100</td>
+      <td>100</td>
+      <td>5.9</td>
+      <td>7.6</td>
+      <td>-22.7</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 1 ##
+Company name: prosiebensat1-media
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>2023</th>
+      <th>2022</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Total energy consumption in Gwh</td>
+      <td>33.09</td>
+      <td>33.26</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>energy from renewable sources</td>
+      <td>22.19</td>
+      <td>21.99</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>energy from non-renewable sources</td>
+      <td>10.90</td>
+      <td>11.27</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Revenues in EUR Mm</td>
+      <td>3852.00</td>
+      <td>4163.00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Average FTE</td>
+      <td>7310.00</td>
+      <td>7501.00</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Energy consumption/revenues</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>in MWh/EUR m</td>
+      <td>8.59</td>
+      <td>7.99</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Energy consumption/average FTE</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>in MWh/average FTE</td>
+      <td>4.53</td>
+      <td>4.43</td>
+    </tr>
+  </tbody>
+</table>
+
+Let's think step-by-step.
+
+to determine which company has the lowest total energy consumption over the last 2 years, we need to extract the total energy consumption values for both companies from the provided tables.
+
+from table 0 (munich-re):
+- the total energy consumption for 2023 is 250916 mwh.
+- the total energy consumption for the previous year (2022) is 313698 mwh.
+- to convert these values to gwh, we divide by 1000:
+  - 2023: 250916 mwh / 1000 = 250.92 gwh
+  - 2022: 313698 mwh / 1000 = 313.70 gwh
+- the total energy consumption over the last 2 years for munich-re is:
+  - 250.92 gwh + 313.70 gwh = 564.62 gwh
+
+from table 1 (prosiebensat1-media):
+- the total energy consumption for 2023 is 33.09 gwh.
+- the total energy consumption for 2022 is 33.26 gwh.
+- the total energy consumption over the last 2 years for prosiebensat1-media is:
+  - 33.09 gwh + 33.26 gwh = 66.35 gwh
+
+now we compare the total energy consumption of both companies:
+- munich-re: 564.62 gwh
+- prosiebensat1-media: 66.35 gwh
+
+clearly, prosiebensat1-media has the lower total energy consumption over the last 2 years.
+
+final answer: prosiebensat1-media

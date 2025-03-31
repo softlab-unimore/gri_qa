@@ -1,0 +1,375 @@
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "Final answer:" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: What are the 2 highest percentages of hazardous waste generated in 2023 (sorted in descending order) among the following companies?
+Tables: ## Table 0 ##
+Company name: heidelberg-materials
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+      <th>Unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Biodiversity</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Proportion of quarries sites located near an area of high biodiversity value with biodiversity management plan</td>
+      <td>43</td>
+      <td>51</td>
+      <td>61.0</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Proportion of quarries with a restoration plan</td>
+      <td>87</td>
+      <td>92</td>
+      <td>76.0</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Sustainable products and solutions</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Share of revenue from sustainable products</td>
+      <td>31</td>
+      <td>34</td>
+      <td>35.0</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Share of revenue from sustainable products of cement business line</td>
+      <td>33</td>
+      <td>37</td>
+      <td>39.0</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Number of memberships in Green Building Councils and Sustainable Infrastructure Councils</td>
+      <td>15</td>
+      <td>15</td>
+      <td>14.0</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Circularity</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Production volume of recycled aggregates (100% recycled content)</td>
+      <td>3.3</td>
+      <td>3.8</td>
+      <td>4.8</td>
+      <td>million t</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Share of recycled aggregates in total aggregates production</td>
+      <td>1.1</td>
+      <td>1.3</td>
+      <td>1.7</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Share of alternative raw materials contained in other building materials such as asphalt</td>
+      <td>9.8</td>
+      <td>12.1</td>
+      <td>12.7</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>EU Taxonomy Regulation</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Taxonomy-eligible revenue</td>
+      <td>51.2</td>
+      <td>52.4</td>
+      <td>53.3</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>- Thereof taxonomy-aligned revenue</td>
+      <td>-</td>
+      <td>0.6</td>
+      <td>0.6</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Taxonomy-eligible investments</td>
+      <td>57</td>
+      <td>62.8</td>
+      <td>68.0</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>- Thereof taxonomy-aligned investments</td>
+      <td>-</td>
+      <td>23.3</td>
+      <td>14.2</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Taxonomy-eligible operating expenses</td>
+      <td>55.9</td>
+      <td>56.1</td>
+      <td>55.5</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>- Thereof taxonomy-aligned operating expenses</td>
+      <td>-</td>
+      <td>2.9</td>
+      <td>2.6</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Waste</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Total waste generated</td>
+      <td>1276.7</td>
+      <td>953.1</td>
+      <td>476.5</td>
+      <td>kt</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>- Thereof non-hazardous waste</td>
+      <td>93</td>
+      <td>98</td>
+      <td>94.0</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>- Thereof hazardous waste</td>
+      <td>7</td>
+      <td>2</td>
+      <td>6.0</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Total waste disposed</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>- Share of waste sent to incineration</td>
+      <td>n.a.</td>
+      <td>n.a.</td>
+      <td>5.8</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>- Share of waste sent to reuse, recycling, recovery</td>
+      <td>66</td>
+      <td>73</td>
+      <td>39.3</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>- Share of waste sent to landfill</td>
+      <td>n.a.</td>
+      <td>n.a.</td>
+      <td>47.2</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>- Share of waste sent to other disposal operations</td>
+      <td>34</td>
+      <td>27</td>
+      <td>6.1</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Water</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Cement business line</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Total water withdrawal</td>
+      <td>60.3</td>
+      <td>60.7</td>
+      <td>58.2</td>
+      <td>million m3</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>- Thereof in areas with water scarcity</td>
+      <td>16.7</td>
+      <td>15.6</td>
+      <td>14.8</td>
+      <td>million m3</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 1 ##
+Company name: vivendi
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Waste</th>
+      <th>Unit</th>
+      <th>2023</th>
+      <th>2022</th>
+      <th>% change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Total non-recovered WEEE</td>
+      <td>tons</td>
+      <td>84</td>
+      <td>103</td>
+      <td>-18%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Total recovered WEEE (a)</td>
+      <td>tons</td>
+      <td>691</td>
+      <td>2829</td>
+      <td>-76%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Total WEEE (a)</td>
+      <td>tons</td>
+      <td>775</td>
+      <td>2932</td>
+      <td>-74%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Total hazardous waste (excluding WEEE)</td>
+      <td>tons</td>
+      <td>18</td>
+      <td>26</td>
+      <td>-31%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Total non-recovered non-hazardous waste</td>
+      <td>tons</td>
+      <td>1770</td>
+      <td>1154</td>
+      <td>53%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Total recovered non-hazardous waste</td>
+      <td>tons</td>
+      <td>7444</td>
+      <td>7276</td>
+      <td>2%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Total non-hazardous waste</td>
+      <td>tons</td>
+      <td>9214</td>
+      <td>8430</td>
+      <td>9%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Total waste</td>
+      <td>tons</td>
+      <td>10007</td>
+      <td>11388</td>
+      <td>-12.00%</td>
+    </tr>
+  </tbody>
+</table>
+
+Let's think step-by-step.
+
+to determine the two highest percentages of hazardous waste generated in 2023 among the companies listed, we need to extract the relevant data from the provided tables.
+
+from table 0 (heidelberg materials), we see that the percentage of hazardous waste generated in 2023 is 6.00%. 
+
+from table 1 (vivendi), we do not have a direct percentage of hazardous waste, but we can infer that the total waste generated is 10,007 tons, and the total hazardous waste (excluding weee) is 18 tons. to find the percentage of hazardous waste for vivendi, we can use the formula:
+
+percentage of hazardous waste = (total hazardous waste / total waste) * 100
+= (18 / 10007) * 100
+≈ 0.18%
+
+now we have the percentages:
+- heidelberg materials: 6.00%
+- vivendi: 0.18%
+
+next, we sort these percentages in descending order:
+1. heidelberg materials: 6.00%
+2. vivendi: 0.18%
+
+the two highest percentages of hazardous waste generated in 2023 are:
+- 6.00%
+- 0.18%
+
+final answer: 6.00, 0.18

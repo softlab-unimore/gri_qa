@@ -1,0 +1,476 @@
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "Final answer:" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: Which company has the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022 for the following companies?
+Tables: ## Table 0 ##
+Company name: NYSE_TTE
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unit</th>
+      <th>2015</th>
+      <th>2019</th>
+      <th>2020</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Energy mix (sales)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Petroleum products(a) (%)</td>
+      <td>65</td>
+      <td>53</td>
+      <td>47</td>
+      <td>44</td>
+      <td>41</td>
+      <td>43.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Gas(b) (%)</td>
+      <td>33</td>
+      <td>40</td>
+      <td>45</td>
+      <td>48</td>
+      <td>50</td>
+      <td>47.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Low-carbon energies(c) (%)</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Petroleum products</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Petroleum products - sales (Mb/day)</td>
+      <td>2.4</td>
+      <td>2.3</td>
+      <td>1.8</td>
+      <td>1.8</td>
+      <td>1.7</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Gas</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>LNG - sales (Mt)</td>
+      <td>13</td>
+      <td>34</td>
+      <td>38</td>
+      <td>42</td>
+      <td>48</td>
+      <td>44.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Electricity</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Gross renewable electricity capacity(d) (GW)</td>
+      <td>0</td>
+      <td>3</td>
+      <td>7</td>
+      <td>10</td>
+      <td>17</td>
+      <td>22.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Net production(e) (TWh)</td>
+      <td>2</td>
+      <td>11</td>
+      <td>14</td>
+      <td>21</td>
+      <td>33</td>
+      <td>33.0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Clients BtB and BtC (Millions)</td>
+      <td>&lt;2</td>
+      <td>6</td>
+      <td>8</td>
+      <td>9</td>
+      <td>8</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>EV charging points (Thousands)</td>
+      <td>0</td>
+      <td>0</td>
+      <td>22</td>
+      <td>26</td>
+      <td>42</td>
+      <td>60.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Low-carbon molecules</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Biofuels - production (Mt)</td>
+      <td>-</td>
+      <td>0.2</td>
+      <td>0.3</td>
+      <td>0.5</td>
+      <td>0.2</td>
+      <td>0.3</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Biogas - production (TWh)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&lt;1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Net investments</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Oil (B$)</td>
+      <td>13</td>
+      <td>9</td>
+      <td>6</td>
+      <td>7</td>
+      <td>10</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>LNG &amp; Gas (B$)</td>
+      <td>7</td>
+      <td>7</td>
+      <td>5</td>
+      <td>5</td>
+      <td>2</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Low-carbon energies (B$)</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Integrated Power (B$)</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Low-carbon molecules (B$)</td>
+      <td>0</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Energy consumption</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Net primary energy consumption(f) (TWh)</td>
+      <td>153</td>
+      <td>160</td>
+      <td>147</td>
+      <td>148</td>
+      <td>166</td>
+      <td>157.0</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Renewable energy consumption(g) (TWh)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Global Energy Efficiency Indicator (GEEI) (Base 100 in 2010)</td>
+      <td>90.8</td>
+      <td>88</td>
+      <td>90.2</td>
+      <td>87</td>
+      <td>85.1</td>
+      <td>86.4</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Energy management system</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Operated sites with an auditable energy management system (annual consumption &gt; 50 ktoe)(g) (Nb)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>26</td>
+      <td>27</td>
+      <td>27</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Operated sites with annual consumption &gt; 50 ktoe(h) (Nb)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>42</td>
+      <td>46</td>
+      <td>46</td>
+      <td>43.0</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 1 ##
+Company name: OTC_DPSGY
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ESG figures</th>
+      <th>Unnamed: 1</th>
+      <th>2019</th>
+      <th>2020 adjusted</th>
+      <th>2021</th>
+      <th>2022 adjusted</th>
+      <th>2023</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Logistics-related GHG emissions</td>
+      <td>million t CO2e</td>
+      <td>33.2</td>
+      <td>33.64</td>
+      <td>39.36</td>
+      <td>36.59</td>
+      <td>33.27</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Realized Decarbonization Effects</td>
+      <td>thousand t CO2e</td>
+      <td>--</td>
+      <td>--</td>
+      <td>728</td>
+      <td>1004.00</td>
+      <td>1335.00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Energy consumption (Scopes 1 and 2)</td>
+      <td>million kWh</td>
+      <td>26199</td>
+      <td>27427</td>
+      <td>30486</td>
+      <td>34493.00</td>
+      <td>35056.00</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>of which from renewable sources</td>
+      <td>million kWh</td>
+      <td>--</td>
+      <td>--</td>
+      <td>1826</td>
+      <td>2267.00</td>
+      <td>3062.00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Number of employees</td>
+      <td>headcount</td>
+      <td>546924</td>
+      <td>571974</td>
+      <td>592263</td>
+      <td>600278.00</td>
+      <td>594396.00</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Staff costs</td>
+      <td>EUR m</td>
+      <td>21610</td>
+      <td>22234</td>
+      <td>23879</td>
+      <td>26035.00</td>
+      <td>26977.00</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Employee Engagement</td>
+      <td>%</td>
+      <td>77</td>
+      <td>83</td>
+      <td>84</td>
+      <td>83.00</td>
+      <td>83.00</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Share of women in middle and upper management</td>
+      <td>%</td>
+      <td>22.2</td>
+      <td>23.2</td>
+      <td>25.1</td>
+      <td>26.30</td>
+      <td>27.20</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Lost time injury frequency rate (LTIFR)</td>
+      <td>NaN</td>
+      <td>4.2</td>
+      <td>3.9</td>
+      <td>3.9</td>
+      <td>3.40</td>
+      <td>3.10</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Share of valid compliance training certificates</td>
+      <td>%</td>
+      <td>--</td>
+      <td>--</td>
+      <td>96.5</td>
+      <td>98.10</td>
+      <td>98.60</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Cybersecurity rating</td>
+      <td>points</td>
+      <td>--</td>
+      <td>--</td>
+      <td>--</td>
+      <td>700.00</td>
+      <td>750.00</td>
+    </tr>
+  </tbody>
+</table>
+
+Let's think step-by-step.
+
+to determine which company has the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022, we need to analyze the relevant data from both tables.
+
+1. **identify the relevant data**:
+   - for nyse_tte, we look at the "renewable energy consumption (twh)" for 2022 and 2023. 
+     - 2022: 1 twh
+     - 2023: 2 twh
+   - for otc_dpsgy, we look at the "of which from renewable sources (million kwh)" for 2022 and 2023.
+     - 2022: 2267 million kwh (or 2.267 twh)
+     - 2023: 3062 million kwh (or 3.062 twh)
+
+2. **calculate the percentage of renewable energy consumption**:
+   - for nyse_tte:
+     - total energy consumption in 2022: 166 twh
+     - total energy consumption in 2023: 157 twh
+     - percentage for 2022: (1 / 166) * 100 = 0.60%
+     - percentage for 2023: (2 / 157) * 100 = 1.27%
+     - change: 1.27% - 0.60% = 0.67%
+   
+   - for otc_dpsgy:
+     - total energy consumption in 2022: 34493 million kwh (or 34.493 twh)
+     - total energy consumption in 2023: 35056 million kwh (or 35.056 twh)
+     - percentage for 2022: (2.267 / 34.493) * 100 = 6.57%
+     - percentage for 2023: (3.062 / 35.056) * 100 = 8.74%
+     - change: 8.74% - 6.57% = 2.17%
+
+3. **compare the changes**:
+   - nyse_tte has a change of 0.67%.
+   - otc_dpsgy has a change of 2.17%.
+
+since otc_dpsgy has the highest change in the percentage consumption of energy from renewable sources between the years 2023 and 2022, the final answer is:
+
+final answer: otc_dpsgy

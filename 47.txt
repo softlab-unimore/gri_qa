@@ -1,0 +1,584 @@
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "Final answer:" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: Which companies have the top 2 highest values of average energy consumed in the last 4 years (sorted in descending order) among the following companies in TWh?
+Tables: ## Table 0 ##
+Company name: NYSE_TTE
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unit</th>
+      <th>2015</th>
+      <th>2019</th>
+      <th>2020</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Energy mix (sales)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Petroleum products(a) (%)</td>
+      <td>65</td>
+      <td>53</td>
+      <td>47</td>
+      <td>44</td>
+      <td>41</td>
+      <td>43.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Gas(b) (%)</td>
+      <td>33</td>
+      <td>40</td>
+      <td>45</td>
+      <td>48</td>
+      <td>50</td>
+      <td>47.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Low-carbon energies(c) (%)</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Petroleum products</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Petroleum products - sales (Mb/day)</td>
+      <td>2.4</td>
+      <td>2.3</td>
+      <td>1.8</td>
+      <td>1.8</td>
+      <td>1.7</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Gas</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>LNG - sales (Mt)</td>
+      <td>13</td>
+      <td>34</td>
+      <td>38</td>
+      <td>42</td>
+      <td>48</td>
+      <td>44.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Electricity</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Gross renewable electricity capacity(d) (GW)</td>
+      <td>0</td>
+      <td>3</td>
+      <td>7</td>
+      <td>10</td>
+      <td>17</td>
+      <td>22.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Net production(e) (TWh)</td>
+      <td>2</td>
+      <td>11</td>
+      <td>14</td>
+      <td>21</td>
+      <td>33</td>
+      <td>33.0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Clients BtB and BtC (Millions)</td>
+      <td>&lt;2</td>
+      <td>6</td>
+      <td>8</td>
+      <td>9</td>
+      <td>8</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>EV charging points (Thousands)</td>
+      <td>0</td>
+      <td>0</td>
+      <td>22</td>
+      <td>26</td>
+      <td>42</td>
+      <td>60.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Low-carbon molecules</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Biofuels - production (Mt)</td>
+      <td>-</td>
+      <td>0.2</td>
+      <td>0.3</td>
+      <td>0.5</td>
+      <td>0.2</td>
+      <td>0.3</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Biogas - production (TWh)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&lt;1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Net investments</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Oil (B$)</td>
+      <td>13</td>
+      <td>9</td>
+      <td>6</td>
+      <td>7</td>
+      <td>10</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>LNG &amp; Gas (B$)</td>
+      <td>7</td>
+      <td>7</td>
+      <td>5</td>
+      <td>5</td>
+      <td>2</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Low-carbon energies (B$)</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Integrated Power (B$)</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Low-carbon molecules (B$)</td>
+      <td>0</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>&lt;1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Energy consumption</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Net primary energy consumption(f) (TWh)</td>
+      <td>153</td>
+      <td>160</td>
+      <td>147</td>
+      <td>148</td>
+      <td>166</td>
+      <td>157.0</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Renewable energy consumption(g) (TWh)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Global Energy Efficiency Indicator (GEEI) (Base 100 in 2010)</td>
+      <td>90.8</td>
+      <td>88</td>
+      <td>90.2</td>
+      <td>87</td>
+      <td>85.1</td>
+      <td>86.4</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Energy management system</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Operated sites with an auditable energy management system (annual consumption &gt; 50 ktoe)(g) (Nb)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>26</td>
+      <td>27</td>
+      <td>27</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Operated sites with annual consumption &gt; 50 ktoe(h) (Nb)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>42</td>
+      <td>46</td>
+      <td>46</td>
+      <td>43.0</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 1 ##
+Company name: OTC_SU
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>GRI</th>
+      <th>Indicators</th>
+      <th>Units</th>
+      <th>2023</th>
+      <th>2022</th>
+      <th>2021</th>
+      <th>2020</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>Estimated coverage (% energy consumption)</td>
+      <td>%</td>
+      <td>95%</td>
+      <td>95%</td>
+      <td>95%</td>
+      <td>96%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>ISO 50001 certified sites</td>
+      <td>#</td>
+      <td>128</td>
+      <td>132</td>
+      <td>140</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption</td>
+      <td>MWh</td>
+      <td>1124327</td>
+      <td>1201276</td>
+      <td>1325491</td>
+      <td>1216845</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>302-1, 302-4</td>
+      <td>of which measured energy consumption</td>
+      <td>MWh</td>
+      <td>934805</td>
+      <td>979497</td>
+      <td>1080366</td>
+      <td>1034003</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>302-1, 302-4</td>
+      <td>of which estimated energy consumption for sites out of reporting perimeter</td>
+      <td>MWh</td>
+      <td>189522</td>
+      <td>221779</td>
+      <td>245125</td>
+      <td>182842</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption/turnover</td>
+      <td>MWh/million EUR</td>
+      <td>31.3</td>
+      <td>35.1</td>
+      <td>45.9</td>
+      <td>48.3</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy productivity</td>
+      <td>EUR/MWh</td>
+      <td>31932</td>
+      <td>28450</td>
+      <td>21803</td>
+      <td>20709</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total improvement in energy productivity vs 2005</td>
+      <td>%</td>
+      <td>157.3%</td>
+      <td>129.3%</td>
+      <td>75.7%</td>
+      <td>66.9%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption from renewable sources</td>
+      <td>MWh</td>
+      <td>707033</td>
+      <td>688474</td>
+      <td>670287</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total percentage of renewable energy</td>
+      <td>%</td>
+      <td>62.9%</td>
+      <td>57.3%</td>
+      <td>50.6%</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total energy consumption from non-renewable sources</td>
+      <td>MWh</td>
+      <td>417294</td>
+      <td>512802</td>
+      <td>655204</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>302-1, 302-4</td>
+      <td>Estimated total percentage of non renewable energy</td>
+      <td>%</td>
+      <td>37.1%</td>
+      <td>42.7%</td>
+      <td>49.4%</td>
+      <td>UP</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>302-1, 302-4</td>
+      <td>Measured energy consumption by source</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>302-1, 302-4</td>
+      <td>grid electricity</td>
+      <td>MWh</td>
+      <td>82590</td>
+      <td>108263</td>
+      <td>132771</td>
+      <td>148969</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>302-1, 302-4</td>
+      <td>purchased renewable electricity</td>
+      <td>MWh</td>
+      <td>610614</td>
+      <td>588851</td>
+      <td>612752</td>
+      <td>585495</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>302-1, 302-4</td>
+      <td>self generated renewable electricity</td>
+      <td>MWh</td>
+      <td>23194</td>
+      <td>20719</td>
+      <td>15861</td>
+      <td>12464</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>302-1, 302-4</td>
+      <td>district heating</td>
+      <td>MWh</td>
+      <td>14736</td>
+      <td>24519</td>
+      <td>33830</td>
+      <td>27602</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>302-1, 302-4</td>
+      <td>fuel oil</td>
+      <td>MWh</td>
+      <td>12991</td>
+      <td>6520</td>
+      <td>6967</td>
+      <td>6941</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>302-1, 302-4</td>
+      <td>gas</td>
+      <td>MWh</td>
+      <td>190088</td>
+      <td>229552</td>
+      <td>276954</td>
+      <td>251377</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>302-1, 302-4</td>
+      <td>coal</td>
+      <td>MWh</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>302-1, 302-4</td>
+      <td>renewable fuel and heat</td>
+      <td>MWh</td>
+      <td>593</td>
+      <td>1073</td>
+      <td>1231</td>
+      <td>1155</td>
+    </tr>
+  </tbody>
+</table>
+
+Let's think step-by-step.
+
+to determine which companies have the top 2 highest values of average energy consumed in the last 4 years (2020-2023) among the provided companies, we need to extract the relevant energy consumption data from the tables.
+
+1. **extract energy consumption data**:
+   - for nyse_tte, the relevant data for net primary energy consumption (in twh) for the years 2020 to 2023 is:
+     - 2020: 147 twh
+     - 2021: 148 twh
+     - 2022: 166 twh
+     - 2023: 157 twh
+   - for otc_su, the relevant data for estimated total energy consumption (in mwh) for the years 2020 to 2023 is:
+     - 2020: 1216845 mwh
+     - 2021: 1325491 mwh
+     - 2022: 1201276 mwh
+     - 2023: 1124327 mwh
+
+2. **convert mwh to twh for otc_su**:
+   - to convert mwh to twh, we divide by 1,000,000.
+   - thus, the values for otc_su in twh are:
+     - 2020: 1216845 mwh = 1216.845 twh
+     - 2021: 1325491 mwh = 1325.491 twh
+     - 2022: 1201276 mwh = 1201.276 twh
+     - 2023: 1124327 mwh = 1124.327 twh
+
+3. **calculate average energy consumption**:
+   - for nyse_tte:
+     - average = (147 + 148 + 166 + 157) / 4 = 154.5 twh
+   - for otc_su:
+     - average = (1216.845 + 1325.491 + 1201.276 + 1124.327) / 4 = 1216.235 twh
+
+4. **compare averages**:
+   - nyse_tte: 154.50 twh
+   - otc_su: 1216.24 twh
+
+5. **identify top 2 companies**:
+   - the company with the highest average energy consumption is otc_su, followed by nyse_tte.
+
+thus, the top 2 companies with the highest average energy consumed in the last 4 years are:
+- otc_su
+- nyse_tte
+
+final answer: otc_su, nyse_tte

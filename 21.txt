@@ -1,0 +1,150 @@
+
+You must answer the following question given the provided tables. First write your reasoning. Then, in the end, write "Final answer:" followed by the answer. If the question is boolean, write exclusively a 'yes' or 'no' answer. If the question asks for a list of values, you must answer with a list of values separated with a comma. Write the numerical values with exactly 2 decimal values. Do not write any Markdown formatting.
+
+Question: Which company has the highest average amount of waste generated in the years 2023 and 2022 among the following companies in t?
+Tables: ## Table 0 ##
+Company name: NYSE_TTE
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Waste management</th>
+      <th>Unit</th>
+      <th>2019</th>
+      <th>2020</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Company's waste balance and waste treatment processes(a)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Total volume of processed waste</td>
+      <td>kt</td>
+      <td>662</td>
+      <td>501</td>
+      <td>500</td>
+      <td>498</td>
+      <td>521</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Non-hazardous waste</td>
+      <td>kt</td>
+      <td>375</td>
+      <td>303</td>
+      <td>335</td>
+      <td>322</td>
+      <td>319</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Hazardous waste</td>
+      <td>kt</td>
+      <td>288</td>
+      <td>198</td>
+      <td>165</td>
+      <td>176</td>
+      <td>202</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Reuse(b)</td>
+      <td>%</td>
+      <td>65</td>
+      <td>59</td>
+      <td>61</td>
+      <td>61</td>
+      <td>61</td>
+    </tr>
+  </tbody>
+</table>
+
+## Table 1 ##
+Company name: OTC_BAMGF
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>In t</th>
+      <th>2019</th>
+      <th>2020</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Total waste</td>
+      <td>780911</td>
+      <td>775459</td>
+      <td>829498</td>
+      <td>818387</td>
+      <td>927880</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Materials for recycling</td>
+      <td>771162</td>
+      <td>768292</td>
+      <td>822848</td>
+      <td>812274</td>
+      <td>922554</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Waste for disposal</td>
+      <td>9749</td>
+      <td>7168</td>
+      <td>6650</td>
+      <td>6113</td>
+      <td>5326</td>
+    </tr>
+  </tbody>
+</table>
+
+Let's think step-by-step.
+
+to determine which company has the highest average amount of waste generated in the years 2023 and 2022, we need to extract the relevant waste data for both years from the provided tables.
+
+from table 0 (company nyse_tte):
+- for 2022, the total volume of processed waste is not explicitly provided, but we can infer it from the non-hazardous and hazardous waste:
+  - non-hazardous waste (2022): 322 kt
+  - hazardous waste (2022): 176 kt
+  - total waste (2022) = 322 + 176 = 498 kt
+
+- for 2023, the total volume of processed waste is:
+  - non-hazardous waste (2023): 319 kt
+  - hazardous waste (2023): 202 kt
+  - total waste (2023) = 319 + 202 = 521 kt
+
+calculating the average for nyse_tte:
+average waste (2022 and 2023) = (498 + 521) / 2 = 509.50 kt
+
+from table 1 (company otc_bamgf):
+- for 2022, the total waste is 818387 t (which is equivalent to 818.39 kt).
+- for 2023, the total waste is 927880 t (which is equivalent to 927.88 kt).
+
+calculating the average for otc_bamgf:
+average waste (2022 and 2023) = (818.39 + 927.88) / 2 = 873.14 kt
+
+now we compare the averages:
+- nyse_tte: 509.50 kt
+- otc_bamgf: 873.14 kt
+
+otc_bamgf has the higher average amount of waste generated in the years 2023 and 2022.
+
+final answer: otc_bamgf
