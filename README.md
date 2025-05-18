@@ -25,3 +25,7 @@ For more information, please refer to our paper.
 # License
 
 GRI-QA is under the [MIT license](./LICENSE)
+
+# Citation
+
+Paper to be released soon at ACL 2025
