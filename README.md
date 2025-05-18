@@ -1,6 +1,6 @@
 # GRI-QA: a Comprehensive Benchmark for Table Question Answering over Environmental Data
 
-**GRI-QA** is a benchmark for Single- and Multi-Table Question Answering over environmental data available at [dataset](./dataset/). The benchmark is composed by several question types:  
+**GRI-QA** is a benchmark for Single- and Multi-Table Question Answering over environmental data available at [dataset](./dataset/) and in the following 🤗 [repository](https://huggingface.co/datasets/lucacontalbo/GRI-QA). The benchmark is composed by several question types:  
 - **extractive** questions, divided in the datasets  
   - *extra*: questions that require the identification of relevant span(s) in a table;  
   - *hier*: same as *extra*, but on hierarchical rows;  
