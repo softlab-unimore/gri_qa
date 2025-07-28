@@ -28,4 +28,27 @@ GRI-QA is under the [MIT license](./LICENSE)
 
 # Citation
 
-Paper to be released soon at ACL 2025
+```
+@inproceedings{contalbo-etal-2025-gri,
+    title = "{GRI}-{QA}: a Comprehensive Benchmark for Table Question Answering over Environmental Data",
+    author = "Contalbo, Michele Luca  and
+      Pederzoli, Sara  and
+      Buono, Francesco Del  and
+      Valeria, Venturelli  and
+      Guerra, Francesco  and
+      Paganelli, Matteo",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.814/",
+    pages = "15764--15779",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Assessing corporate environmental sustainability with Table Question Answering systems is challenging due to complex tables, specialized terminology, and the variety of questions they must handle. In this paper, we introduce GRI-QA, a test benchmark designed to evaluate Table QA approaches in the environmental domain. Using GRI standards, we extract and annotate tables from non-financial corporate reports, generating question-answer pairs through a hybrid LLM-human approach. The benchmark includes eight datasets, categorized by the types of operations required, including operations on multiple tables from multiple documents. Our evaluation reveals a significant gap between human and model performance, particularly in multi-step reasoning, highlighting the relevance of the benchmark and the need for further research in domain-specific Table QA. Code and benchmark datasets are available at https://github.com/softlab-unimore/gri{\_}qa."
+}
+```
